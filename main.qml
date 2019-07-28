@@ -50,6 +50,15 @@ Window {
 			id: map_terrain
 			source: "./map/terrain.png"
 
+			MouseArea {
+				anchors.fill: parent
+				onClicked: {
+					if (Metternich.selected_province) {
+						Metternich.selected_province.selected = false
+					}
+				}
+			}
+
 			Repeater {
 				model: Metternich.provinces
 				Image {
@@ -58,9 +67,15 @@ Window {
 					width: model.modelData.rect.width
 					height: model.modelData.rect.height
 					source: "image://provinces/" + model.modelData.identifier
+					cache: false
+
 					Connections {
 						target: model.modelData
-						onImageChanged: parent.sourceChanged()
+						onImageChanged: {
+							var old_source = source
+							source = "image://empty/"
+							source = old_source
+						}
 					}
 
 					MaskedMouseArea {
@@ -70,6 +85,9 @@ Window {
 						ToolTip.text: qsTr(model.modelData.identifier)
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
+						onClicked: {
+							model.modelData.selected = true
+						}
 					}
 				}
 			}
