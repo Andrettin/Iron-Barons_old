@@ -1,0 +1,2 @@
+p_lower_austria = "Lower Austria"
+p_upper_austria = "Upper Austria"

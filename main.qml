@@ -67,7 +67,7 @@ Window {
 						anchors.fill: parent
 						alphaThreshold: 0.4
 						maskSource: parent.source
-						ToolTip.text: model.modelData.identifier
+						ToolTip.text: qsTr(model.modelData.identifier)
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}
