@@ -2,3 +2,8 @@ p_lower_austria = {
 	county = c_lower_austria
 	color = { 42 3 128 }
 }
+
+p_upper_austria = {
+	county = c_upper_austria
+	color = { 84 6 1 }
+}
