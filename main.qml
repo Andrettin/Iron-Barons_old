@@ -82,7 +82,7 @@ Window {
 						anchors.fill: parent
 						alphaThreshold: 0.4
 						maskSource: parent.source
-						ToolTip.text: qsTr(model.modelData.identifier)
+						ToolTip.text: qsTr(model.modelData.county.identifier)
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 						onClicked: {
@@ -109,7 +109,7 @@ Window {
 
 		Text {
 			id: province_name
-			text: Metternich.selected_province ? qsTr(Metternich.selected_province.identifier) : ""
+			text: Metternich.selected_province ? qsTr(Metternich.selected_province.county.identifier) : ""
 			anchors.top: parent.top
 			anchors.topMargin: 15
 			anchors.left: parent.left
