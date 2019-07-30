@@ -240,7 +240,7 @@ Window {
 
 			Text {
 				id: province_culture
-				text: qsTr("German")
+				text: Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) : ""
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.verticalCenterOffset: -2
 				anchors.right: parent.right
@@ -273,7 +273,7 @@ Window {
 
 			Text {
 				id: province_religion
-				text: qsTr("Catholic")
+				text: Metternich.selected_province ? qsTr(Metternich.selected_province.religion.identifier) : ""
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.verticalCenterOffset: -2
 				anchors.right: parent.right
