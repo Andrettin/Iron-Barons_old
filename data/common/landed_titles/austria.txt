@@ -1,8 +1,11 @@
 e_austria = {
+	color = { 236 236 236 }
 }
 
 c_lower_austria = {
+	color = { 0 86 148 }
 }
 
 c_upper_austria = {
+	color = { 31 26 23 }
 }
