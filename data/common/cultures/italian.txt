@@ -1,2 +1,9 @@
 italian = {
+	male_names = {
+		Alessandro Giovanni
+	}
+	
+	female_names = {
+		Giovanna
+	}
 }
