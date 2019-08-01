@@ -1,0 +1,3 @@
+von_habsburg = {
+	culture = german
+}

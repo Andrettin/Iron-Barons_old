@@ -1,0 +1,3 @@
+diligent = "Diligent"
+incapable = "Incapable"
+nun = "Nun"
