@@ -1,3 +1,7 @@
 von_habsburg = {
 	culture = german
 }
+
+von_wettin = {
+	culture = german
+}
