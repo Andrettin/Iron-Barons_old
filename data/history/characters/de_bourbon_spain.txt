@@ -1,0 +1,31 @@
+10000025 = { #Maria Luisa, daughter of king Carlos III of Spain; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Maria Luisa"
+	dynasty = de_bourbon
+	culture = castillian
+	religion = catholic
+	female = yes
+	#daughter of king Carlos III of Spain
+	1743.11.24 = {
+		birth = yes
+	}
+	1792.5.15 = {
+		death = yes
+	}
+	#married to Emperor Leopold II of the Holy Roman Empire
+}
+
+10000110 = { #Duchess Maria Luisa of Lucca; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+	name = "Maria Luisa"
+	dynasty = de_bourbon
+	culture = castillian
+	religion = catholic
+	female = yes
+	1782.7.6 = {
+		birth = yes
+	}
+	#daughter of king Carlos IV of Spain
+	#became widowed of King Lodovico of Etruria on 1803.5.27
+	1824.3.13 = { #succeeded by her son as duke of Lucca on 1824.3.13
+		death = yes
+	}
+}

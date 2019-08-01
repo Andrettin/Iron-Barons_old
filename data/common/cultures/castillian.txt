@@ -1,0 +1,9 @@
+castillian = {
+	male_names = {
+		Carlos
+	}
+	
+	female_names = {
+		Maria
+	}
+}

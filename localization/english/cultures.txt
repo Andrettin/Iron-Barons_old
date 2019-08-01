@@ -1,2 +1,4 @@
+castillian = "Castillian"
+french = "French"
 german = "German"
 italian = "Italian"
