@@ -1,0 +1,101 @@
+10000674 = { #Karl Emanuel von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Karl Emanuel"
+	dynasty = von_hessen_rotenburg
+	culture = german
+	religion = catholic
+	1752.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1779.9.2 = { #married to Leopoldine Adelgunde, daughter of prince Franz Joseph of Liechtenstein, and they had their first known child on 1779.9.2
+		spouse = 10000673 #Leopoldine Adelgunde von Liechtenstein
+	}
+	#landgrave of Hesse-Rotenburg
+	1812.3.23 = {
+		death = yes
+	}
+}
+
+10000676 = { #Karl Constantin von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
+	name = "Karl Constantin"
+	dynasty = von_hessen_rotenburg
+	culture = german
+	religion = catholic
+	#brother of landgrave Karl Emanuel of Hesse-Rotenburg
+	1752.1.10 = {
+		birth = yes
+	}
+	1822.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000677 = { #Marie Antonie Friederike von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
+	name = "Marie Antonie Friederike"
+	dynasty = von_hessen_rotenburg
+	culture = german
+	religion = catholic
+	female = yes
+	#sister of landgrave Karl Emanuel of Hesse-Rotenburg
+	1753.5.31 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		#traits += scholarly_theologian #canonist in Thorn as of 1815
+	}
+	1823.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000678 = { #Wilhelmine von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
+	name = "Wilhelmine"
+	dynasty = von_hessen_rotenburg
+	culture = german
+	religion = catholic
+	female = yes
+	#sister of landgrave Karl Emanuel of Hesse-Rotenburg
+	1755.2.16 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		#traits += martial_cleric #provost in Essen as of 1815
+	}
+	1825.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000668 = { #Victor Amadeus von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Victor Amadeus"
+	dynasty = von_hessen_rotenburg
+	culture = german
+	religion = catholic
+	father = 10000674 #Karl Emanuel von Hessen-Rotenburg
+	mother = 10000673 #Leopoldine Adelgunde von Liechtenstein
+	1779.9.2 = {
+		birth = yes
+	}
+	1812.9.10 = { #married a second time on 1812.9.10 to Elisabeth Eleonore Charlotte, daughter of prince Karl Ludwig of Hohenlohe-Langenburg
+		spouse = 10000670 #Elisabeth Eleonore Charlotte von Hohenlohe-Langenburg
+	}
+	#landgrave of Hesse-Rotenburg as of 1815
+	1839.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000672 = { #Leopoldine Clotilde von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Leopoldine Clotilde"
+	dynasty = von_hessen_rotenburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000674 #Karl Emanuel von Hessen-Rotenburg
+	mother = 10000673 #Leopoldine Adelgunde von Liechtenstein
+	1787.9.12 = {
+		birth = yes
+	}
+	1847.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

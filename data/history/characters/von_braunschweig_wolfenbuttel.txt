@@ -1,0 +1,141 @@
+10000557 = { #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+	name = "Karl Wilhelm Ferdinand"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	1746.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Braunschweig-Wolfenbüttel
+	1806.11.10 = { #succeeded by his son on 1806.11.10
+		death = yes
+	}
+}
+
+10000563 = { #Sophie Karoline Marie von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
+	name = "Sophie Karoline Marie"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	female = yes
+	#sister of Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
+	1737.10.8 = {
+		birth = yes
+	}
+	#married to the markgrave of Brandenburg-Bayreuth
+	1817.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000564 = { #Elisabeth Ulrike von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
+	name = "Elisabeth Ulrike"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	female = yes
+	#sister of Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
+	1746.11.8 = {
+		birth = yes
+	}
+	1765.7.14 = { #married to king Friederich Wilhelm II of Prussia on 1765.7.14
+		spouse = 10000565 #Friederich Wilhelm von Hohenzollern
+	}
+	#since 1769 she resided separated from her husband, in Stettin
+	1816.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000560 = { #Karl Georg August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
+	name = "Karl Georg August"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
+	1767.1.1 = { #unknown, set to one year before the birth of his oldest known sibling
+		birth = yes
+	}
+	#hereditary prince of Braunschweig-Wolfenbüttel
+	#married to Frederica Louise Willemine, daughter of prince Willem V of Oranje-Nassau
+	1806.1.1 = { #died in 1806
+		death = yes
+	}
+}
+
+10000558 = { #Karoline Amalie Elisabeth von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
+	name = "Karoline Amalie Elisabeth"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
+	1768.5.27 = {
+		birth = yes
+	}
+	#wife of the prince of Wales
+	1828.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000559 = { #August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
+	name = "August"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
+	1769.6.17 = {
+		birth = yes
+	}
+	1829.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000553 = { #Wilhelm Friedrich von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+	name = "Wilhelm Friedrich"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
+	1770.10.9 = {
+		birth = yes
+	}
+	1804.10.30 = { #married to Marie Elisabeth Wilhelmine, daughter of hereditary prince Karl Ludwig of Baden, and they had their first child on 1804.10.30
+		spouse = 10000554 #Marie Elisabeth Wilhelmine von Zähringen
+	}
+	1830.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000555 = { #Karl Friedrich August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+	name = "Karl Friedrich August"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	father = 10000553 #Wilhelm Friedrich von Braunschweig-Wolfenbüttel
+	mother = 10000554 #Marie Elisabeth Wilhelmine von Zähringen
+	1804.10.30 = {
+		birth = yes
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000556 = { #Karl Maximilian Friederich von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
+	name = "Karl Maximilian Friederich"
+	dynasty = von_braunschweig_wolfenbuttel
+	culture = german
+	religion = protestant
+	father = 10000553 #Wilhelm Friedrich von Braunschweig-Wolfenbüttel
+	mother = 10000554 #Marie Elisabeth Wilhelmine von Zähringen
+	1806.4.25 = {
+		birth = yes
+	}
+	1866.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

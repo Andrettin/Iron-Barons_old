@@ -1,0 +1,74 @@
+10000268 = { #Karl von Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Karl"
+	dynasty = von_nassau_weilburg
+	culture = german
+	religion = protestant
+	1750.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1810.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000269 = { #Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Friedrich Wilhelm"
+	dynasty = von_nassau_weilburg
+	culture = german
+	religion = protestant
+	1767.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1827.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000493 = { #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Amalie Charlotte"
+	dynasty = von_nassau_weilburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000268 #Karl von Nassau-Weilburg
+	1777.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1797.12.2 = { #married to Karl Friedrich von Anhalt-Bernburg-Schaumburg, and had her first child with him on 1797.12.2
+		spouse = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
+	}
+	1837.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000267 = { #Henriette von Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Henriette"
+	dynasty = von_nassau_weilburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000268 #prince Karl of Nassau-Weilburg
+	1780.4.22 = {
+		birth = yes
+	}
+	#married on 1797.1.28 to duke Ludwig Friedrich Alexander of Wurtemberg
+	1857.1.1 = { #unknown, set to 60 years after marriage (can't be birth because she was alive in 1847)
+		death = yes
+	}
+}
+
+10000028 = { #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Henriette"
+	dynasty = von_nassau_weilburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000269 #Friedrich Wilhelm, Prince of Nassau-Weilburg
+	1797.10.30 = {
+		birth = yes
+	}
+	1829.12.29 = {
+		death = yes
+	}
+}

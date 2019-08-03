@@ -1,0 +1,194 @@
+10000695 = { #Friedrich Karl Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Friedrich Karl Wilhelm"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	1691.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#landgrave of Hesse-Homburg
+	1751.2.7 = { #succeeded by his son on 1751.2.7
+		death = yes
+	}
+}
+
+10000487 = { #Friedrich Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6, 22.
+	name = "Friedrich Ludwig Wilhelm"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	father = 10000695 #Friedrich Karl Wilhelm von Hessen-Homburg
+	1748.1.30 = {
+		birth = yes
+	}
+	#succeeded his father, landgrave Friedrich Karl Wilhelm of Hesse-Homburg, on 1751.2.7
+	1768.9.27 = { #married on 1768.9.27 to Karoline, daughter of landgrave Ludwig IX of Hesse-Darmstadt
+		spouse = 10000680 #Karoline von Hessen-Darmstadt
+	}
+	1818.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000696 = { #Friedrich Joseph Ludwig von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Friedrich Joseph Ludwig"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1769.7.30 = {
+		birth = yes
+	}
+	#hereditary prince of Hesse-Homburg as of 1815
+	1829.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000697 = { #Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Ludwig Wilhelm"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1770.8.29 = {
+		birth = yes
+	}
+	1804.8.2 = { #married on 1804.8.2 to Auguste Amalie, daughter of duke Friedrich August of Nassau-Usingen
+		spouse = 10000698 #Auguste Amalie von Nassau-Usingen
+	}
+	1830.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000699 = { #Karoline Luise von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Karoline Luise"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1771.8.26 = {
+		birth = yes
+	}
+	#married to the prince of Schwarzburg-Rudolstadt
+	1831.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000700 = { #Luise Ulrike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Luise Ulrike"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1772.10.26 = {
+		birth = yes
+	}
+	1832.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000486 = { #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6, 22.
+	name = "Christiane Amalie"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1774.6.29 = {
+		birth = yes
+	}
+	1793.8.18 = { #married to Friedrich von Anhalt-Dessau, and had her first child with him on 1793.8.18
+		spouse = 10000485 #Friedrich von Anhalt-Dessau
+	}
+	1834.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000701 = { #Auguste Friederike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Auguste Friederike"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1776.11.28 = {
+		birth = yes
+	}
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000702 = { #Philipp August Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+	name = "Philipp August Friedrich"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1779.3.3 = {
+		birth = yes
+	}
+	1839.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000703 = { #Gustav Adolph Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+	name = "Gustav Adolph Friedrich"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1781.2.17 = {
+		birth = yes
+	}
+	1841.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000704 = { #Ferdinand Heinrich Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+	name = "Ferdinand Heinrich Friedrich"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1783.4.26 = {
+		birth = yes
+	}
+	1843.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000705 = { #Amalie Marianne von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+	name = "Amalie Marianne"
+	dynasty = von_hessen_homburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
+	mother = 10000680 #Karoline von Hessen-Darmstadt
+	1785.10.14 = {
+		birth = yes
+	}
+	1845.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

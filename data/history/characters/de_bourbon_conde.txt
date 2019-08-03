@@ -1,0 +1,55 @@
+10000609 = { #Louis Joseph de Bourbon-Condé; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Louis Joseph"
+	dynasty = de_bourbon_conde
+	culture = french
+	religion = catholic
+	1736.8.9 = {
+		birth = yes
+	}
+	1756.4.13 = { #married to Charlotte de Rohan-Soubise, and they had their first child on 1756.4.13
+		spouse = 10000611 #Charlotte de Rohan-Soubise
+	}
+	1798.10.1 = { #married a second time to Caterina Brignole in 1798.10
+		spouse = 10000610 #Caterina Brignole
+	}
+	#prince of Condé as of 1815
+	1816.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000613 = { #Louis Henri de Bourbon-Condé; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Louis Henri"
+	dynasty = de_bourbon_conde
+	culture = french
+	religion = catholic
+	father = 10000609 #Louis Joseph de Bourbon-Condé
+	mother = 10000611 #Charlotte de Rohan-Soubise
+	1756.4.13 = {
+		birth = yes
+	}
+	#married to Louise Marie de Bourbon-Orléans, and separated since 1780
+	#duke of Bourbon as of 1815
+	1816.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000614 = { #Louise Adelaide de Bourbon-Condé; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Louise Adelaide"
+	dynasty = de_bourbon_conde
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000609 #Louis Joseph de Bourbon-Condé
+	mother = 10000611 #Charlotte de Rohan-Soubise
+	1758.10.5 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		traits += nun #abbess of Remiremont as of 1815
+	}
+	1818.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

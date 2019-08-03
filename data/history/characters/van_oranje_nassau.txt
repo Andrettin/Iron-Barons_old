@@ -1,0 +1,80 @@
+10000562 = { #Willem van Oranje-Nassau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 13.
+	name = "Willem"
+	dynasty = van_oranje_nassau
+	culture = dutch
+	religion = protestant
+	1746.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#prince of Oranje-Nassau, as Willem V
+	1806.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000561 = { #Frederica Louise Willemine van Oranje-Nassau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 13.
+	name = "Frederica Louise Willemine"
+	dynasty = van_oranje_nassau
+	culture = dutch
+	religion = protestant
+	female = yes
+	father = 10000562 #Willem van Oranje-Nassau
+	1776.1.1 = { #unknown, set to 30 years before becoming widowed
+		birth = yes
+	}
+	#married to Karl Georg August von Braunschweig-Wolfenbüttel
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000097 = { #Willem I of the Netherlands; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
+	name = "Willem"
+	dynasty = van_oranje_nassau
+	culture = dutch
+	religion = protestant
+	1772.8.24 = {
+		birth = yes
+	}
+	#abdicated in favor of his son on 1840.10.7 as king of the Netherlands, grand duke of Luxembourg and duke of Limburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
+	1843.12.12 = {
+		death = yes
+	}
+}
+
+10000096 = { #Willem II of the Netherlands; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
+	name = "Willem"
+	dynasty = van_oranje_nassau
+	culture = dutch
+	religion = protestant
+	father = 10000097 #Willem I of the Netherlands
+	1792.12.6 = {
+		birth = yes
+	}
+	1816.2.21 = { #married on 1816.2.21
+		spouse = 10000098 #Princess Anna of Russia
+	}
+	#succeeded his father due to the latter's abdication on 1840.10.7 as king of the Netherlands, grand duke of Luxembourg and duke of Limburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
+	#prince of Orange-Nassau
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000243 = { #Sophie van Oranje-Nassau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
+	name = "Sophie"
+	dynasty = van_oranje_nassau
+	culture = dutch
+	religion = protestant
+	father = 10000096 #Willem II of the Netherlands
+	female = yes
+	1824.4.8 = {
+		birth = yes
+	}
+	1842.10.8 = {
+		spouse = 10000242 #married on 1842.10.8 to Karl von Sachsen-Weimar-Eisenach
+	}
+	1884.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

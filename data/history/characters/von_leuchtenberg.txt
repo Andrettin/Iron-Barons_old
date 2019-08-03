@@ -1,0 +1,29 @@
+10000307 = { #Eugen von Leuchtenberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	name = "Eugen"
+	dynasty = von_leuchtenberg
+	culture = german
+	religion = catholic
+	1784.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#duke of Leuchtenberg
+	1844.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000306 = { #Théodolinde Louise Eugénie von Leuchtenberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	name = "Théodolinde Louise Eugénie"
+	dynasty = von_leuchtenberg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000307 #Eugen, duke of Leuchtenberg
+	1814.4.13 = {
+		birth = yes
+	}
+	#married on 1841.2.8 to Wilhelm Alexander Ferdinand von Württemberg
+	1874.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

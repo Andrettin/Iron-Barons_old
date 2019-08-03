@@ -1,0 +1,434 @@
+10000470 = { #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	name = "Friedrich Christian"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	1703.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#prince-elector of Saxony
+	1763.12.17 = { #succeeded by his son on 1763.12.17
+		death = yes
+	}
+}
+
+10000479 = { #Marie Elisabeth von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	name = "Marie Elisabeth"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	1736.2.9 = { #born on 1736.2.9
+		birth = yes
+	}
+	1815.1.1 = {
+		#effect = {
+		#	join_society = order_of_the_starry_cross #"St. C. O. D." as of 1815
+		#}
+	}
+	1816.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000480 = { #Albert von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	name = "Albert"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	#traits += tough_soldier
+	1738.7.11 = { #born on 1738.7.11
+		birth = yes
+	}
+	#widowed on 1793.7.24 of Marie Christine, daughter of emperor Franz I (presumably of the Holy Roman Empire)
+	1815.1.1 = {
+		employer = 10000000 #Emperor Franz I of Austria
+		effect = {
+			make_commander_effect = yes #imperial Austrian field-marshal as of 1815
+		}
+	}
+	1818.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000482 = { #Marie Kunigunde von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	name = "Marie Kunigunde"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	1740.11.10 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		traits += nun #abbess of Essen and Thorn as of 1815
+	}
+	1820.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000336 = { #Friedrich August von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Friedrich August"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	1750.12.23 = {
+		birth = yes
+	}
+	#king of Saxony
+	1769.1.17 = { #married by procuration on 1769.1.17 and in person on 1769.1.29 to Maria Amalie Auguste
+		spouse = 10000337 #Marie Amalie Auguste von Wittelsbach
+	}
+	1827.5.5 = {
+		death = yes
+	}
+}
+
+10000188 = { #King Anton von Wettin of Saxony; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Anton"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	1755.12.27 = {
+		birth = yes
+	}
+	1787.10.18 = { #married on 1787.10.18 to Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+		spouse = 10000472 #Marie Theresie von Habsburg
+	}
+	1836.6.6 = { #succeeded by his nephew on 1836.6.6
+		death = yes
+	}
+}
+
+10000474 = { #Marie Amalie von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5, 11.
+	name = "Marie Amalie"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000470 #Friedrich Christian von Wettin
+	1757.9.26 = { #born on 1757.9.26
+		birth = yes
+	}
+	#wife of duke Karl of Zweibrücken, widowed on 1795.4.1
+	1817.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000189 = { #Duke Maximilian von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Maximilian"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	1759.4.13 = {
+		birth = yes
+	}
+	1794.8.10 = {
+		spouse = 10000320 #had his first child with princess Carolina Maria Teresa of Parma on 1794.8.10
+	}
+	1825.10.15 = {
+		spouse = 10000334 #married by procuration on 1825.10.15 and in person on 1825.11.7 to Louise Charlotte, sister of the reigning duke of Lucca
+	}
+	#abdicated in favor of his son through the act of 1830.9.13
+	1838.1.3 = {
+		death = yes
+	}
+}
+
+10000478 = { #Marie Anne von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	name = "Marie Anne"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000470 #Friedrich Christian von Wettin
+	1761.2.27 = { #born on 1761.2.27
+		birth = yes
+	}
+	1821.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000335 = { #Auguste Népomucène Antoinette von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Auguste Népomucène Antoinette"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000336 #King Friedrich August of Saxony
+	mother = 10000337 #Marie Amalie Auguste von Wittelsbach
+	1782.6.21 = {
+		birth = yes
+	}
+	1852.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as she was still alive in 1847)
+		death = yes
+	}
+}
+
+10000321 = { #Amalie Friederike Auguste von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Amalie Friederike Auguste"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Princess Carolina Maria Teresa of Parma
+	1794.8.10 = {
+		birth = yes
+	}
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000322 = { #Maria Ferdinandine Amalie von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Maria Ferdinandine Amalie"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Princess Carolina Maria Teresa of Parma
+	1796.4.27 = {
+		birth = yes
+	}
+	#dowager grand duchess of Tuscany as of 1847
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000187 = { #Friedrich August von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Friedrich August"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Princess Carolina Maria Teresa of Parma
+	1797.5.18 = {
+		birth = yes
+	}
+	#succeeded his father, duke Maximilian, by virtue of the act of 1830.9.13, under which his father abdicated
+	#co-regent after 1830.9.13
+	#became widowed on 1832.5.22 of archduchess Caroline
+	#succeeded his uncle, king Anton of Saxony, on 1836.6.6
+	1833.4.24 = {
+		spouse = 10000191 #married Marie Anne Leopoldine von Wittelsbach on 1833.4.24
+	}
+	1857.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000475 = { #Clemens Maria Joseph von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	name = "Clemens Maria Joseph"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Carolina Maria Teresa of Parma
+	1798.5.1 = {
+		birth = yes
+	}
+	1858.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000476 = { #Marie Anna Karoline von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	name = "Marie Anna Karoline"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Carolina Maria Teresa of Parma
+	1799.11.15 = {
+		birth = yes
+	}
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000323 = { #Johann Nepomuk von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Johann Nepomuk"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Princess Carolina Maria Teresa of Parma
+	1801.12.12 = {
+		birth = yes
+	}
+	1822.11.10 = {
+		spouse = 10000324 #married by procuration on 1822.11.10 and in person on 1822.11.21 to Amalie Auguste, daughter of king Maximilian Joseph of Bavaria
+	}
+	1861.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000477 = { #Marie Josephe von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	name = "Marie Josephe"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000189 #Maximilian von Wettin
+	mother = 10000320 #Carolina Maria Teresa of Parma
+	1803.12.6 = {
+		birth = yes
+	}
+	1863.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000325 = { #Maria Auguste Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Maria Auguste Friederike"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1827.1.22 = {
+		birth = yes
+	}
+	1887.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000326 = { #Albert von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Albert"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1828.4.23 = {
+		birth = yes
+	}
+	1888.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000327 = { #Elisabeth Maximiliane von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Elisabeth Maximiliane"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1830.2.4 = {
+		birth = yes
+	}
+	1890.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000328 = { #Ernst von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Ernst"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1831.4.5 = {
+		birth = yes
+	}
+	1891.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000329 = { #Georg von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Georg"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1832.8.8 = {
+		birth = yes
+	}
+	1892.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000330 = { #Sidonie von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Sidonie"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1834.8.16 = {
+		birth = yes
+	}
+	1894.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000331 = { #Anna Maria von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Anna Maria"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1836.1.4 = {
+		birth = yes
+	}
+	1896.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000332 = { #Margarete Caroline Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Margarete Caroline Friederike"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1840.5.24 = {
+		birth = yes
+	}
+	1900.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000333 = { #Sophie Maria Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Sophie Maria Friederike"
+	dynasty = von_wettin
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000323 #Johann Nepomuk Maria von Wettin
+	mother = 10000324 #Amalie Auguste von Wittelsbach
+	1845.3.15 = {
+		birth = yes
+	}
+	1905.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

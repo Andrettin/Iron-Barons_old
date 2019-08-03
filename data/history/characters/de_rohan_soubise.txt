@@ -1,0 +1,31 @@
+10000612 = { #Charles de Rohan-Soubise; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Charles"
+	dynasty = de_rohan_soubise
+	culture = french
+	religion = catholic
+	1706.1.1 = { #unknown, set to 30 years before his daughter's birth
+		birth = yes
+	}
+	#duke of Rohan-Soubise
+	1766.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000611 = { #Charlotte de Rohan-Soubise; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Charlotte"
+	dynasty = de_rohan_soubise
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000612 #Charles de Rohan-Soubise
+	1736.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1756.4.13 = { #married to Louis Joseph de Bourbon-Condé, and they had their first child on 1756.4.13
+		spouse = 10000609 #Louis Joseph de Bourbon-Condé
+	}
+	1796.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

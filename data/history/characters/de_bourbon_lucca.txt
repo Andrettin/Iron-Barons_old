@@ -1,0 +1,39 @@
+10000109 = { #Duke Carlo of Lucca; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+	name = "Carlo"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	father = 10000111 #King Lodovico of Etruria
+	mother = 10000110 #Duchess Maria Luisa of Lucca
+	1799.12.22 = {
+		birth = yes
+	}
+	#succeeded his mother as duke of Lucca on 1824.3.13
+	1820.8.15 = {
+		spouse = 10000112 #married on 1820.8.15 to princess Teresa of Sardinia
+	}
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000334 = { #Louise Charlotte, sister of the reigning duke of Lucca; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Louise Charlotte"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	female = yes
+	#sister of the reigning duke of Lucca (as of 1847)
+	father = 10000111 #King Lodovico of Etruria
+	mother = 10000110 #Duchess Maria Luisa of Lucca
+	1802.10.1 = {
+		birth = yes
+	}
+	1825.10.15 = {
+		spouse = 10000189 #married by procuration on 1825.10.15 and in person on 1825.11.7 to duke Maximilian von Wettin
+	}
+	#widowed after 1838.1.3
+	1862.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

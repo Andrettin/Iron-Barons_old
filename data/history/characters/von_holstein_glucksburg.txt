@@ -1,0 +1,15 @@
+10000769 = { #Juliane Wilhelmine von Holstein-Glücksburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Juliane Wilhelmine"
+	dynasty = von_holstein_glucksburg
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	#sister of duke Friederich Heinrich Wilhelm of Holstein-Glücksburg
+	1754.4.30 = {
+		birth = yes
+	}
+	#married on 1776.7.17 to count Geldrik Ludwig Wilhelm of Bentheim-Steinfurth
+	1824.1.1 = { #unknown, set to 60 years after birth, +10 since she was still alive in 1815
+		death = yes
+	}
+}

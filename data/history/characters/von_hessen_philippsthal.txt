@@ -1,0 +1,207 @@
+10000659 = { #Karl von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 19-20.
+	name = "Karl"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	1763.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	1793.2.10 = { #married to Victorie von Anhalt-Bernburg-Schaumburg, and they had a daughter on 1793.2.10
+		spouse = 10000501 #Victorie Amalie von Anhalt-Bernburg-Schaumburg
+	}
+	1813.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000653 = { #Ludwig von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Ludwig"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	1766.10.8 = {
+		birth = yes
+	}
+	1793.1.13 = { #married to Marie Franziske, countess of Berghe von Trips, and they had a daughter on 1793.1.13
+		spouse = 10000654 #Marie Franziske Berghe von Trips
+	}
+	#landgrave of Hesse-Philippsthal as of 1815
+	1826.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000657 = { #Ernst Constantin von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Ernst Constantin"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	#brother of landgrave Ludwig of Hesse-Philippsthal
+	1771.8.6 = {
+		birth = yes
+	}
+	1812.2.17 = { #married a second time on 1812.2.17 to Karoline Wilhelmine von Hessen-Philippsthal
+		spouse = 10000658 #Karoline Wilhelmine von Hessen-Philippsthal
+	}
+	1831.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000655 = { #Marie Karoline von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Marie Karoline"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000653 #Ludwig von Hessen-Philippsthal
+	mother = 10000654 #Marie Franziske Berghe von Trips
+	1793.1.13 = {
+		birth = yes
+	}
+	1810.12.19 = { #married on 1810.12.19 to Ferdinand, count de la Ville sur Illon
+		spouse = 10000656 #Ferdinand de la Ville sur Illon
+	}
+	1853.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000658 = { #Karoline Wilhelmine von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 19-20.
+	name = "Karoline Wilhelmine"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000659 #Karl von Hessen-Philippsthal
+	mother = 10000501 #Victorie Amalie von Anhalt-Bernburg-Schaumburg
+	1793.2.10 = {
+		birth = yes
+	}
+	1812.2.17 = { #married on 1812.2.17 to Ernst Constantin von Hessen-Philippsthal
+		spouse = 10000657 #Ernst Constantin von Hessen-Philippsthal
+	}
+	1853.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000661 = { #Ferdinand von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Ferdinand"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	father = 10000657 #Ernst Constantin von Hessen-Philippsthal
+	mother = 10000660 #Christiane Luise von Schwarzburg-Rudolstadt
+	1799.10.15 = {
+		birth = yes
+	}
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000285 = { #Karl von Hessen-Philippsthal; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Karl"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	father = 10000657 #Ernst Constantin von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	mother = 10000660 #Christiane Luise von Schwarzburg-Rudolstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	1803.5.22 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+		birth = yes
+	}
+	1845.10.9 = {
+		spouse = 10000284 #married on 1845.10.9 to Maria Alexandrine von Württemberg
+	}
+	1863.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000662 = { #Franz August von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Franz August"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	father = 10000657 #Ernst Constantin von Hessen-Philippsthal
+	mother = 10000660 #Christiane Luise von Schwarzburg-Rudolstadt
+	1805.1.26 = {
+		birth = yes
+	}
+	1865.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000663 = { #Adolph von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Adolph"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	1754.1.1 = { #unknown, set to 30 years before the birth of his first child
+		birth = yes
+	}
+	1784.6.27 = { #married to Luise Christiane zu Sachsen-Meiningen, and they had their first child on 1784.6.27
+		spouse = 10000665 #Luise Christiane zu Sachsen-Meiningen
+	}
+	#prince of Barchfeld
+	1814.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000664 = { #Karl August Philipp von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Karl August Philipp"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	father = 10000663 #Adolph von Hessen-Philippsthal
+	mother = 10000665 #Luise Christiane zu Sachsen-Meiningen
+	1784.6.27 = {
+		birth = yes
+	}
+	1844.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000666 = { #Friedrich Wilhelm Karl von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Friedrich Wilhelm Karl"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	father = 10000663 #Adolph von Hessen-Philippsthal
+	mother = 10000665 #Luise Christiane zu Sachsen-Meiningen
+	#traits += tough_soldier
+	1786.8.10 = {
+		birth = yes
+	}
+	1812.8.22 = { #married on 1812.8.22 to Juliane Sofie, daughter of the hereditary prince Fredrik of Denmark
+		spouse = 10000585 #Juliane Sofie af Danmark
+	}
+	1815.1.1 = {
+		employer = 10000568 #Fredrik af Danmark
+		effect = {
+			make_commander_effect = yes #royal Danish general major as of 1815
+		}
+	}
+	1846.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000667 = { #Ernst Friederich Wilhelm von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Ernst Friederich Wilhelm"
+	dynasty = von_hessen_philippsthal
+	culture = german
+	religion = protestant
+	father = 10000663 #Adolph von Hessen-Philippsthal
+	mother = 10000665 #Luise Christiane zu Sachsen-Meiningen
+	1789.6.28 = {
+		birth = yes
+	}
+	1849.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

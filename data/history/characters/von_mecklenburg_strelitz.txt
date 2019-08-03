@@ -1,0 +1,63 @@
+10000618 = { #Karl Ludwig Friederich von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Karl Ludwig Friederich"
+	dynasty = von_mecklenburg_strelitz
+	culture = german
+	religion = protestant
+	1711.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#duke of Mecklenburg-Strelitz
+	1771.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000617 = { #Sophie Charlotte von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Sophie Charlotte"
+	dynasty = von_mecklenburg_strelitz
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000618 #Karl Ludwig Friederich von Mecklenburg-Strelitz
+	1741.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1761.9.8 = { #married on 1761.9.8 to George of Brunswick-Luneburg
+		spouse = 10000615 #George of Brunswick-Luneburg
+	}
+	1821.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000455 = { #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	name = "Charlotte Georgine"
+	dynasty = von_mecklenburg_strelitz
+	culture = german
+	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	female = yes
+	1765.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1785.9.3 = {
+		spouse = 10000199 #married on 1785.9.3 to Friedrich von Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	}
+	1825.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000009 = { #Luise Auguste von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 42.
+	name = "Luise Auguste"
+	dynasty = von_mecklenburg_strelitz
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000618 #Karl Ludwig Friederich von Mecklenburg-Strelitz
+	1750.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1810.7.19 = {
+		death = yes
+	}
+}

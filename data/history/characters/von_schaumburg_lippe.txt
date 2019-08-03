@@ -1,0 +1,29 @@
+10000288 = { #Georg von Schaumburg-Lippe; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Georg"
+	dynasty = von_schaumburg_lippe
+	culture = german
+	religion = protestant
+	1788.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1848.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000287 = { #Mathilde Auguste von Schaumburg-Lippe; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Mathilde Auguste"
+	dynasty = von_schaumburg_lippe
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000288 #Georg von Schaumburg-Lippe
+	1818.9.11 = {
+		birth = yes
+	}
+	#married on 1843.7.15 to Eugen Wilhelm von Württemberg
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+

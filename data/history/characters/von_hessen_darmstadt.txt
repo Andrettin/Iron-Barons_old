@@ -1,0 +1,293 @@
+10000468 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4, 21.
+	name = "Ludwig"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	1730.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#landgrave of Hesse-Darmstadt, as Ludwig IX
+	1790.4.6 = { #succeeded by his son on 1790.4.6
+		death = yes
+	}
+}
+
+10000536 = { #Georg Wilhelm von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10, 21-22.
+	name = "Georg Wilhelm"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	#brother of landgrave Ludwig IX of Hesse-Darmstadt
+	1722.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1749.3.27 = { #married to Marie Luise Albertine, daughter of count Christian Karl Reinhard of Leiningen-Heidesheim, and they had their first child on 1749.3.27
+		spouse = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim
+	}
+	1782.6.21 = {
+		death = yes
+	}
+}
+
+10000680 = { #Karoline von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Karoline"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000468 #Ludwig von Hessen-Darmstadt
+	1746.3.2 = {
+		birth = yes
+	}
+	#wife of the landgrave of Hesse-Homburg
+	1816.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000683 = { #Ludwig Georg Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
+	name = "Ludwig Georg Karl"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
+	mother = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim
+	1749.3.27 = {
+		birth = yes
+	}
+	1819.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000679 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Ludwig"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000468 #Ludwig von Hessen-Darmstadt
+	1753.6.14 = {
+		birth = yes
+	}
+	1777.2.19 = { #married on 1777.2.19 to Luise Karoline Henriette, daughter of Georg Wilhelm von Hessen-Darmstadt
+		spouse = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
+	}
+	#succeeded his father, landgrave Ludwig IX of Hesse-Darmstadt, on 1790.4.6
+	#became grand duke of Hesse-Darmstadt on 1806.7.12
+	1823.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000684 = { #Georg Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
+	name = "Georg Karl"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
+	mother = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim
+	1754.6.14 = {
+		birth = yes
+	}
+	1824.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000525 = { #Amalie Friederike von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9, 21-22.
+	name = "Amalie Friederike"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000468 #Ludwig von Hessen-Darmstadt
+	1754.7.30 = {
+		birth = yes
+	}
+	1776.7.13 = { #married to hereditary prince Karl Ludwig von Baden, and had her first child with him on 1776.7.13
+		spouse = 10000526 #Karl Ludwig von Zähringen
+	}
+	1824.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000467 = { #Luise von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4, 21-22.
+	name = "Luise"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000468 #Ludwig von Hessen-Darmstadt
+	1757.1.30 = {
+		birth = yes
+	}
+	1775.10.3 = {
+		spouse = 10000237 #married to Karl August von Sachsen-Weimar-Eisenach on 1775.10.3; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	}
+	1817.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000685 = { #Luise Karoline Henriette von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
+	name = "Luise Karoline Henriette"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
+	mother = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim
+	1761.2.15 = {
+		birth = yes
+	}
+	1821.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000693 = { #Christian Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
+	name = "Christian Ludwig"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000468 #Ludwig von Hessen-Darmstadt
+	1763.11.25 = {
+		birth = yes
+	}
+	1823.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000535 = { #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Marie Wilhelmine Auguste"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
+	mother = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim (presumably, since that is the mother of her siblings)
+	1766.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1786.8.25 = { #married to Maximilian Joseph von Wittelsbach, and they had their first child on 1786.8.25
+		spouse = 10000012 #Maximilian Joseph von Wittelsbach
+	}
+	1797.3.9 = { #her husband married a second time on 1797.3.9
+		death = yes
+	}
+}
+
+10000686 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Ludwig"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000679 #Ludwig von Hessen-Darmstadt
+	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
+	1777.12.26 = {
+		birth = yes
+	}
+	1804.6.19 = { #married on 1804.6.19 to Wilhelmine Luise, daughter of hereditary prince Karl Ludwig of Baden
+		spouse = 10000524 #Wilhelmine Luise von Zähringen
+	}
+	#hereditary prince of Hessen-Darmstadt as of 1815
+	1837.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000689 = { #Ludwig Georg Friedrich von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Ludwig Georg Friedrich"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000679 #Ludwig von Hessen-Darmstadt
+	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
+	1780.8.31 = {
+		birth = yes
+	}
+	1804.1.29 = { #married on 1804.1.29 to Karolina Otília, countess of Nidda, born Törrök de Zendrö
+		spouse = 10000690 #Karolina Otília Törrök de Zendrö
+	}
+	1840.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000692 = { #Friedrich August Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Friedrich August Karl"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000679 #Ludwig von Hessen-Darmstadt
+	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
+	1788.5.14 = {
+		birth = yes
+	}
+	1848.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000694 = { #Emil Maximilian Leopold von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Emil Maximilian Leopold"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000679 #Ludwig von Hessen-Darmstadt
+	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
+	1790.9.3 = {
+		birth = yes
+	}
+	1850.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000691 = { #Luise Charlotte Georgine von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Luise Charlotte Georgine"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000689 #Ludwig Georg Friedrich von Hessen-Darmstadt
+	mother = 10000690 #Karolina Otília Törrök de Zendrö
+	1804.11.21 = {
+		birth = yes
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000687 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Ludwig"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000686 #Ludwig von Hessen-Darmstadt
+	mother = 10000524 #Wilhelmine Luise von Zähringen
+	1806.6.9 = {
+		birth = yes
+	}
+	1866.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000688 = { #Karl Wilhelm Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Karl Wilhelm Ludwig"
+	dynasty = von_hessen_darmstadt
+	culture = german
+	religion = protestant
+	father = 10000686 #Ludwig von Hessen-Darmstadt
+	mother = 10000524 #Wilhelmine Luise von Zähringen
+	1809.4.13 = {
+		birth = yes
+	}
+	1869.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

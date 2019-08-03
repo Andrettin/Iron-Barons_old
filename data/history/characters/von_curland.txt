@@ -1,0 +1,30 @@
+10000709 = { #Peter von Curland; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Peter"
+	dynasty = von_curland
+	culture = german
+	religion = catholic
+	1752.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	1812.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000708 = { #Luise Pauline von Curland; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Luise Pauline"
+	dynasty = von_curland
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000709 #Peter von Curland
+	1782.2.19 = {
+		birth = yes
+	}
+	1800.4.26 = { #married on 1800.4.26 to Friedrich Hermann von Hohenzollern-Hechingen
+		spouse = 10000706 #Friedrich Hermann von Hohenzollern-Hechingen
+	}
+	1842.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

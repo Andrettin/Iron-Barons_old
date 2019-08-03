@@ -1,0 +1,458 @@
+10000425 = { #Ruprecht von Wittelsbach, Holy Roman Emperor; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 41.
+	name = "Ruprecht"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	1350.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#became Holy Roman Emperor in 1400; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 41.
+	1410.1.1 = { #reign ended in 1410; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 41.
+		death = yes
+	}
+}
+
+10000414 = { #Johanna Sophie von Bayern; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
+	name = "Johanna Sophie"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	1367.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#married Albrecht IV of Austria, and had her son Albrecht with him in 1397; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
+	1427.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000471 = { #Friedrich von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	name = "Friedrich"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	1722.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1782.1.1 = { #unknown, set to 30 years after the birth of his daughter
+		death = yes
+	}
+}
+
+10000543 = { #Christiane von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Christiane"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	#sister of Maximilian Joseph von Wittelsbach's father
+	1725.11.16 = {
+		birth = yes
+	}
+	1825.1.1 = { #unknown, set to 100 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000533 = { #Karl von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Karl"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	father = 10000471 #Friedrich von Wittelsbach (presumably, since he is the father of his sisters)
+	#brother of Maximilian Joseph von Wittelsbach
+	1735.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Zweibrücken, as Karl II
+	#husband of Marie Amalie von Wettin
+	1795.4.1 = { #died on 1795.4.1
+		death = yes
+	}
+}
+
+10000534 = { #Karl Theodor von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10, 12.
+	name = "Karl Theodor"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	1739.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#prince-elector of Bavaria
+	1799.2.16 = { #died on 1799.2.16
+		death = yes
+	}
+}
+
+10000544 = { #Wilhelm von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 11.
+	name = "Wilhelm"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	#trait = tough_soldier
+	1752.11.10 = {
+		birth = yes
+	}
+	1780.1.30 = { #married on 1780.1.30 to Marie Anne von Wittelsbach
+		spouse = 10000542 #Marie Anne von Wittelsbach
+	}
+	1815.1.1 = {
+		employer = 10000012 #Maximilian Joseph von Wittelsbach
+		effect = {
+			make_commander_effect = yes #royal Bavarian infantry general as of 1815
+		}
+	}
+	1822.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000551 = { #Luise Christine von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
+	name = "Luise Christine"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	#sister of Wilhelm von Wittelsbach
+	1748.8.17 = {
+		birth = yes
+	}
+	#became widowed on 1802.4.26 of count Heinrich XXX of Reuss zu Gera
+	1818.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000012 = { #Maximilian Joseph von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 15.
+	name = "Maximilian Joseph"
+	dynasty = von_wittelsbach
+	culture = german #from Bavaria
+	religion = catholic
+	father = 10000471 #Friedrich von Wittelsbach (presumably, since he is the father of his sister)
+	1756.5.27 = {
+		birth = yes
+	}
+	1786.8.25 = { #married to Marie Wilhelmine Auguste von Hessen-Darmstadt, and they had their first child on 1786.8.25; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+		spouse = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt
+	}
+	1797.3.9 = { #married a second time to Friederike Wilhelmine Karoline von Zähringen on 1797.3.9; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+		spouse = 10000013 #Friederike Wilhelmine Karoline von Zähringen
+	}
+	1825.10.13 = { #succeeded by his son on 1825.10.13
+		death = yes
+	}
+}
+
+10000337 = { #Marie Amalie Auguste von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+	name = "Marie Amalie Auguste"
+	dynasty = von_wittelsbach #daughter of Friedrich of Pfalz-Zweibrücken; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000471 #Friedrich von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	1752.5.10 = {
+		birth = yes
+	}
+	1769.1.17 = { #married by procuration on 1769.1.17 and in person on 1769.1.29 to Friedrich August von Wettin
+		spouse = 10000336 #Friedrich August von Wettin
+	}
+	1828.11.15 = {
+		death = yes
+	}
+}
+
+10000542 = { #Marie Anne von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Marie Anne"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000471 #Friedrich von Wittelsbach
+	1753.7.18 = {
+		birth = yes
+	}
+	1823.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000545 = { #Marie Elisabeth Amalie von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
+	name = "Marie Elisabeth Amalie"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000544 #Wilhelm von Wittelsbach
+	mother = 10000542 #Marie Anne von Wittelsbach
+	1784.5.5 = {
+		birth = yes
+	}
+	1808.3.9 = { #married on 1808.3.9 to prince Alexander of Wagram
+		spouse = 10000546 #Alexandre de Wagram
+	}
+	1844.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000547 = { #Pius August von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
+	name = "Pius August"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	father = 10000544 #Wilhelm von Wittelsbach
+	mother = 10000542 #Marie Anne von Wittelsbach
+	#traits += tough_soldier
+	1786.8.1 = {
+		birth = yes
+	}
+	1807.5.26 = { #married on 1807.5.26 to Amalie Luise Julie von Arenberg
+		spouse = 10000548 #Amalie Luise Julie von Arenberg
+	}
+	1815.1.1 = {
+		employer = 10000012 #Maximilian Joseph von Wittelsbach
+		effect = {
+			make_commander_effect = yes #royal Bavarian general lieutenant as of 1815
+		}
+	}
+	1844.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000550 = { #Maximilian Joseph von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+	name = "Maximilian Joseph"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	father = 10000547 #Pius August von Wittelsbach
+	mother = 10000548 #Amalie Luise Julie von Arenberg
+	1808.12.4 = {
+		birth = yes
+	}
+	1868.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000014 = { #Ludwig von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 15.
+	name = "Ludwig"
+	dynasty = von_wittelsbach
+	culture = german #from Bavaria
+	religion = catholic
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	1786.8.25 = {
+		birth = yes
+	}
+	#succeeded his father on 1825.10.13
+	1810.10.12 = {
+		spouse = 10000117 #married on 1810.10.12 to Therese von Sachsen-Altenburg
+	}
+	1856.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
+		death = yes
+	}
+}
+
+10000450 = { #Auguste Amalie von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Auguste Amalie"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt
+	1788.6.21 = { #born on 1788.6.21
+		birth = yes
+	}
+	1806.1.13 = { #married on 1806.1.13 to Eugène Napoléon
+		spouse = 10000449 #Eugène Napoléon
+	}
+	1848.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000004 = { #Caroline von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Caroline"
+	female = yes
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	1792.2.8 = {
+		birth = yes
+	}
+	#crowned Queen (consort) of Hungary on 1825.9.25
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000539 = { #Karl Theodor Maximilian von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Karl Theodor Maximilian"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt
+	1795.7.7 = {
+		birth = yes
+	}
+	1855.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000095 = { #Elisabeth Luise von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 63.
+	name = "Elisabeth Luise"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000013 #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	traits += twin #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	1801.11.13 = {
+		birth = yes
+	}
+	1861.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000324 = { #Amalie Auguste von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Amalie Auguste"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000013 #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	traits += twin #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	1801.11.13 = {
+		birth = yes
+	}
+	1822.11.10 = {
+		spouse = 10000323 #married by procuration on 1822.11.10 and in person on 1822.11.21 to Johann Nepomuk Maria von Wettin
+	}
+	1861.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000018 = { #Friederike Sophie Dorothee von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Friederike Sophie Dorothee"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000013 #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	traits += twin #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	1805.1.27 = {
+		birth = yes
+	}
+	1865.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000191 = { #Marie Anne Leopoldine von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Marie Anne Leopoldine"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000013 #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	traits += twin #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	1805.1.27 = {
+		birth = yes
+	}
+	#married Friedrich August von Wettin on 1833.4.24
+	1865.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000540 = { #Ludovike Wilhelmine von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Ludovike Wilhelmine"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000013 #Friederike Wilhelmine Karoline von Zähringen
+	1808.8.30 = {
+		birth = yes
+	}
+	1868.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000541 = { #Maximiliane Josephine Karoline von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
+	name = "Maximiliane Josephine Karoline"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000012 #Maximilian Joseph von Wittelsbach
+	mother = 10000013 #Friederike Wilhelmine Karoline von Zähringen
+	1810.7.21 = {
+		birth = yes
+	}
+	1870.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000537 = { #Maximilian Joseph von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Maximilian Joseph"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	father = 10000014 #Ludwig von Wittelsbach
+	mother = 10000117 #Therese von Sachsen-Altenburg
+	1811.11.28 = {
+		birth = yes
+	}
+	1871.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000538 = { #Mathilde Karoline Friederike von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Mathilde Karoline Friederike"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000014 #Ludwig von Wittelsbach
+	mother = 10000117 #Therese von Sachsen-Altenburg
+	1813.8.30 = {
+		birth = yes
+	}
+	1873.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000030 = { #Princess Hildegard, daughter of Ludwig of Bavaria; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Hildegard" #source gives "Hildegarde"
+	dynasty = von_wittelsbach
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000014 #Ludwig von Wittelsbach
+	1823.6.10 = {
+		birth = yes
+	}
+	1883.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

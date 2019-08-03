@@ -1,0 +1,114 @@
+10000403 = { #Viridis Visconti; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	name = "Viridis"
+	dynasty = visconti
+	culture = italian
+	religion = catholic
+	female = yes
+	1347.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#married Leopold III of Austria, and had her son Ernst with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	1407.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000142 = { #Lelio de Luca; Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs nach dem Oriente und nach Ostindien in der ersten Hälfte des 18. Jahrhunderts", 1900, pp. 50-51.
+	name = "Lelio"
+	dynasty = de_luca
+	culture = italian #correct?
+	religion = catholic
+	1634.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#was one of the two directors of Austria's oriental company, which was founded in 1664
+	1694.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000111 = { #King Lodovico of Etruria; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+	name = "Lodovico"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	1757.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#king of Etruria
+	#married Maria Luisa, daughter of king Carlos IV of Spain
+	1799.12.22 = { #had a child with Maria Luisa on 1799.12.22
+		spouse = 10000110 #Duchess Maria Luisa of Lucca
+	}
+	1803.5.27 = {
+		death = yes
+	}
+}
+
+10000445 = { #Camillo Borghese; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+	name = "Camillo"
+	dynasty = borghese
+	culture = italian
+	religion = catholic
+	1775.12.19 = { #born on 1775.12.19; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+		birth = yes
+	}
+	#prince of Borghese
+	1803.11.6 = { #married on 1803.11.6 to Marie-Pauline Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+		spouse = 10000444 #Marie-Pauline Bonaparte
+	}
+	1835.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000610 = { #Caterina Brignole; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "Caterina"
+	dynasty = brignole
+	culture = italian
+	religion = catholic
+	female = yes
+	1778.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1798.10.1 = { #married to Louis Joseph de Bourbon-Condé in 1798.10
+		spouse = 10000609 #Louis Joseph de Bourbon-Condé
+	}
+	1838.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000164 = { #Alessandro Palamidese; Source: "Minister-Conferenz-Kanzlei MCZ 182/1858".
+	name = "Alessandro"
+	dynasty = palamidese
+	culture = italian
+	religion = catholic
+	#traits += fortune_builder #described as skilled and of particular capacity, and enterprising
+	#traits += architect #engineer
+	traits += diligent #described as diligent ("eifrig")
+	1807.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1837.1.1 = { #began working in the Lombardo-Venetian railways in 1837
+		employer = 10000002 #Ferdinand I von Habsburg of Austria
+	}
+	#on 1846.11.2 he was appointed as directing engineer in the Lombardo-Venetian railways
+	1847.1.1 = {
+		employer = 10000063 #Archduke Reiner von Habsburg was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+		effect = {
+			#give_minor_title = title_engineer
+		}
+	}
+	#took part in revolutionary efforts
+	#in the end 1849 he was suspended, but was reinstated after 26 days
+	#on 1851.4.7 he was definitely appointed as inspector in the Lombardo-Venetian railways
+	1854.5.31 = { #on 1854.5.31 he was fired for political reasons
+		effect = {
+			#remove_title = title_engineer
+		}
+	}
+	1867.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}

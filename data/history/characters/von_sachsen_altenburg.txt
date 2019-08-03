@@ -1,0 +1,344 @@
+10000454 = { #Ernst von Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	name = "Ernst"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	1720.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	1780.9.22 = { #succeded by his son on 1780.9.22; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+		death = yes
+	}
+}
+
+10000199 = { #Friedrich von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
+	name = "Friedrich"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
+	father = 10000454 #Ernst von Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	1763.4.29 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
+		birth = yes
+	}
+	1785.9.3 = {
+		spouse = 10000455 #married on 1785.9.3 to Charlotte Georgine, daughter of duke Karl Ludwig of Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	}
+	#duke of Sachsen-Hildburghausen as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	#duke of Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
+	1834.9.29 = { #succeded by his son on 1834.9.29; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
+		dynasty = von_sachsen_altenburg
+		death = yes
+	}
+}
+
+10000219 = { #Charlotte von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 80.
+	name = "Charlotte"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000199 #Friedrich von Sachsen-Altenburg
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	1787.6.17 = {
+		birth = yes
+	}
+	#married on 1805.9.28 to prince Paul of Wurtemberg
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1857.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because she was alive in 1847)
+		death = yes
+	}
+}
+
+10000213 = { #Joseph von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Joseph"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant
+	father = 10000199 #Friedrich von Sachsen-Altenburg
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	1789.8.27 = {
+		birth = yes
+	}
+	#succeeded his father, Duke Friedrich, on 1834.9.29
+	1817.4.24 = { #married on 1817.4.24 to Amélie von Württemberg
+		spouse = 10000214 #Amélie von Württemberg
+	}
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1849.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000117 = { #Therese von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
+	name = "Therese"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000199 #Friedrich von Sachsen-Altenburg
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	1792.7.8 = {
+		birth = yes
+	}
+	1810.10.12 = { #married on 1810.10.12 to Ludwig von Wittelsbach
+		spouse = 10000014 #Ludwig von Wittelsbach
+	}
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000456 = { #Charlotte Luise von Sachsen-Altenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	name = "Charlotte Luise"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	female = yes
+	father = 10000199 #Friedrich von Sachsen-Altenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	1794.1.28 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+		birth = yes
+	}
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000221 = { #Georg von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Georg"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant
+	father = 10000199 #Friedrich von Sachsen-Altenburg
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	1796.7.24 = {
+		birth = yes
+	}
+	1825.10.7 = {
+		spouse = 10000222 #married on 1825.10.7 to Maria von Mecklenburg-Schwerin
+	}
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000226 = { #Friedrich von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Friedrich"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant
+	father = 10000199 #Friedrich von Sachsen-Altenburg
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	1801.10.4 = {
+		birth = yes
+	}
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1861.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000227 = { #Eduard von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Eduard"
+	dynasty = von_sachsen_hildburghausen
+	culture = german
+	religion = protestant
+	father = 10000199 #Friedrich von Sachsen-Altenburg
+	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
+	#trait = tough_soldier
+	1804.7.3 = {
+		birth = yes
+	}
+	1835.7.25 = { #married on 1835.7.25 to Princess Amélie of Hohenzollern-Sigmaringen
+		spouse = 10000228 #Amalie von Hohenzollern-Sigmaringen
+	}
+	1834.9.29 = {
+		dynasty = von_sachsen_altenburg
+	}
+	1842.3.8 = { #married on 1842.3.8 to Louise, Princess of Reuss de Greiz
+		spouse = 10000229 #Luise von Reuss-Greiz
+	}
+	1847.1.1 = { #major-general and chief of a first division Bavarian brigade, in Munich, as of 1847
+		employer = 10000014 #Ludwig von Wittelsbach
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000215 = { #Maria von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Maria"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000213 #Joseph von Sachsen-Altenburg
+	mother = 10000214 #Amélie von Württemberg
+	1818.4.14 = {
+		birth = yes
+	}
+	#was the wife of the royal prince of Hanover after 1843.2.18
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000216 = { #Therese von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Therese"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000213 #Joseph von Sachsen-Altenburg
+	mother = 10000214 #Amélie von Württemberg
+	1823.10.9 = {
+		birth = yes
+	}
+	1883.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000217 = { #Elisabeth von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Elisabeth"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000213 #Joseph von Sachsen-Altenburg
+	mother = 10000214 #Amélie von Württemberg
+	1826.3.26 = {
+		birth = yes
+	}
+	1886.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000224 = { #Ernst von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Ernst"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	father = 10000221 #Georg von Sachsen-Altenburg
+	mother = 10000222 #Maria von Mecklenburg-Schwerin
+	1826.9.16 = {
+		birth = yes
+	}
+	1886.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000225 = { #Moritz von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Moritz"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	father = 10000221 #Georg von Sachsen-Altenburg
+	mother = 10000222 #Maria von Mecklenburg-Schwerin
+	1829.10.24 = {
+		birth = yes
+	}
+	1889.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000218 = { #Alexandrine von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Alexandrine"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000213 #Joseph von Sachsen-Altenburg
+	mother = 10000214 #Amélie von Württemberg
+	1830.7.8 = {
+		birth = yes
+	}
+	1890.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000232 = { #Therese von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
+	name = "Therese"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000227 #Eduard von Sachsen-Altenburg
+	mother = 10000228 #Amalie von Hohenzollern-Sigmaringen
+	1836.12.21 = {
+		birth = yes
+	}
+	1896.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000233 = { #Antoinette von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
+	name = "Antoinette"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000227 #Eduard von Sachsen-Altenburg
+	mother = 10000228 #Amalie von Hohenzollern-Sigmaringen
+	1838.4.17 = {
+		birth = yes
+	}
+	1898.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000234 = { #Albert von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
+	name = "Albert"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	father = 10000227 #Eduard von Sachsen-Altenburg
+	mother = 10000229 #Luise von Reuss-Greiz
+	1843.4.14 = {
+		birth = yes
+	}
+	1903.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000235 = { #Maria von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
+	name = "Maria"
+	dynasty = von_sachsen_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000227 #Eduard von Sachsen-Altenburg
+	mother = 10000229 #Luise von Reuss-Greiz
+	1845.6.28 = {
+		birth = yes
+	}
+	1905.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

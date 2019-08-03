@@ -1,0 +1,113 @@
+10000388 = { #Isabelle de Bourbon; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 247.
+	name = "Isabelle"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	female = yes
+	1427.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1487.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000603 = { #Louis de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Louis"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	1748.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#king of France, as Louis XVI
+	1809.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000596 = { #Louis de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Louis"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	1755.11.17 = {
+		birth = yes
+	}
+	#married to Maria Luisa, daughter of king Victor Amadeus III of Sardinia
+	#widowed of his wife by 1815
+	#king of France as of 1815, as Louis XVIII
+	1825.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000599 = { #Charles Philippe de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Charles Philippe"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	1757.10.9 = {
+		birth = yes
+	}
+	1775.8.6 = { #married to Maria Teresa, daughter of king Victor Amadeus III of Sardinia, and they had their first child on 1775.8.6
+		spouse = 10000600 #Maria Teresa de Saboya
+	}
+	#monsieur as of 1815
+	1817.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000601 = { #Louis Antoine de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Louis Antoine"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	father = 10000599 #Charles Philippe de Bourbon
+	mother = 10000600 #Maria Teresa de Saboya
+	1775.8.6 = {
+		birth = yes
+	}
+	1799.6.10 = { #married on 1799.6.10 to Marie Thérèse, daughter of king Louis XVI of France
+		spouse = 10000602 #Marie Thérèse de Bourbon
+	}
+	#duke of Angouleme as of 1815
+	1835.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000604 = { #Charles Ferdinand de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Charles Ferdinand"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	father = 10000599 #Charles Philippe de Bourbon
+	mother = 10000600 #Maria Teresa de Saboya
+	1778.1.24 = {
+		birth = yes
+	}
+	#duke of Berry as of 1815
+	1838.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000602 = { #Marie Thérèse de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Marie Thérèse"
+	dynasty = de_bourbon
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000603 #Louis de Bourbon
+	1778.12.19 = {
+		birth = yes
+	}
+	1799.6.10 = { #married on 1799.6.10 to Louis Antoine de Bourbon
+		spouse = 10000601 #Louis Antoine de Bourbon
+	}
+	1839.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

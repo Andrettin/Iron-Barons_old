@@ -1,0 +1,28 @@
+10000283 = { #Georg von Waldeck-Pyrmont; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Georg"
+	dynasty = von_waldeck_pyrmont
+	culture = german
+	religion = protestant
+	1771.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1831.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000281 = { #Mathilde von Waldeck-Pyrmont; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Mathilde"
+	dynasty = von_waldeck_pyrmont
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000283 #prince Georg of Waldeck-Pyrmont
+	1801.4.10 = {
+		birth = yes
+	}
+	#wife of Eugen von Württemberg
+	1825.4.13 = {
+		death = yes
+	}
+}

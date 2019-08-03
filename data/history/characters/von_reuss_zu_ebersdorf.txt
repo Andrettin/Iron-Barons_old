@@ -1,0 +1,32 @@
+10000461 = { #Heinrich von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	name = "Heinrich"
+	dynasty = von_reuss_zu_ebersdorf
+	culture = german
+	religion = protestant
+	1718.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#count of Reuss zu Ebersdorf, as Heinrich XXIV
+	1778.1.1 = { #unknown, set to 30 years after birth of the first child
+		death = yes
+	}
+}
+
+10000460 = { #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	name = "Auguste Karoline"
+	dynasty = von_reuss_zu_ebersdorf
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000461 #Heinrich von Reuss zu Ebersdorf
+	1758.1.1 = { #unknown, set to 20 years before first child
+		birth = yes
+	}
+	1778.8.19 = {
+		spouse = 10000457 #had her first child on 1778.8.19 with her husband Franz von Sachsen-Saalfeld-Coburg
+	}
+	1818.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+

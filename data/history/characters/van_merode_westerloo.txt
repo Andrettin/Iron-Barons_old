@@ -1,0 +1,17 @@
+10000711 = { #Louise Juliana Constantie van Merode-Westerloo; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Louise Juliana Constantie"
+	dynasty = van_merode_westerloo
+	culture = dutch
+	religion = catholic
+	female = yes
+	1754.1.1 = { #unknown, set to 20 years before the birth of her daughter
+		birth = yes
+	}
+	#countess of Merode-Westerloo
+	1774.11.1 = { #married to Hermann Friedrich Otto von Hohenzollern-Hechingen, and they had their daughter on 1774.11.1
+		spouse = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
+	}
+	1776.7.22 = { #her husband had a child of his second marriage on 1776.7.22, so she was likely dead by then
+		death = yes
+	}
+}

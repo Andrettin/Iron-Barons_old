@@ -1,0 +1,107 @@
+10000598 = { #Vittorio Amadeo de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Vittorio Amadeo"
+	dynasty = de_saboya
+	culture = italian
+	religion = catholic
+	1725.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#king of Sardinia, as Vittorio Amadeo III
+	1785.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000597 = { #Maria Luisa de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Maria Luisa"
+	dynasty = de_saboya
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 10000598 #Vittorio Amadeo de Saboya
+	1755.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#married to king Louis XVIII of France
+	1815.1.1 = { #had died by 1815
+		death = yes
+	}
+}
+
+10000600 = { #Maria Teresa de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	name = "Maria Teresa"
+	dynasty = de_saboya
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 10000598 #Vittorio Amadeo de Saboya
+	1755.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1775.8.6 = { #married to Charles Philippe de Bourbon, and they had their first child on 1775.8.6
+		spouse = 10000599 #Charles Philippe de Bourbon
+	}
+	1805.6.2 = {
+		death = yes
+	}
+}
+
+10000064 = { #Francisca, sister of king Charles-Amédée-Albert of Sardinia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Francisca" #source gives "Françoise"
+	female = yes
+	dynasty = de_saboya
+	culture = italian
+	religion = catholic
+	1800.4.13 = {
+		birth = yes
+	}
+	#married Archduke Reiner on 1820.5.28
+	1860.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000015 = { #Maria Anna de Saboya; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+	name = "Maria Anna" #source gives "Marie-Anne"
+	dynasty = de_saboya
+	culture = italian #daughter of king Victor Emmanuel of Sardinia
+	religion = catholic
+	female = yes
+	1803.9.19 = {
+		birth = yes
+	}
+	1863.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000112 = { #Princess Teresa of Sardinia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+	name = "Teresa"
+	dynasty = de_saboya
+	culture = italian
+	religion = catholic
+	female = yes
+	#daughter of Victor-Emmanuel, king of Sardinia
+	1803.9.19 = {
+		birth = yes
+	}
+	1863.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000105 = { #Princess Cristina of Sardinia; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 23-24.
+	name = "Cristina"
+	dynasty = de_saboya
+	culture = italian
+	religion = catholic
+	female = yes
+	#daughter of Victor-Emmanuel, king of Sardinia
+	1812.11.14 = {
+		birth = yes
+	}
+	#married on 1832.11.21 to Ferdinand II of the Two Sicilies
+	1836.1.31 = {
+		death = yes
+	}
+}

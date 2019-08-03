@@ -1,0 +1,256 @@
+10000340 = { #Leopold Friedrich Franz von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Leopold Friedrich"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	1740.8.10 = {
+		birth = yes
+	}
+	#succeeded his father on 1751.12.16; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	#became duke of Anhalt-Dessau on 1807.4.18; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	#became widowed of Luise Henriette Wilhelmine, daughter of Markgrave Heinrich of Brandenburg-Schwedt, on 1811.12.21; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1817.8.9 = { #succeeded by his grandson on 1817.8.9
+		death = yes
+	}
+}
+
+10000485 = { #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	name = "Friedrich"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	father = 10000340 #Leopold Friedrich Franz von Anhalt-Dessau;
+	mother = 10000483 #Luise Henriette Wilhelmine von Hohenzollern
+	1754.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1793.8.18 = { #married to Christiane Amalie, daughter of landgrave Friedrich Ludwig Wilhelm of Hesse-Homburg, and had his first child with her on 1793.8.18
+		spouse = 10000486 #Christiane Amalie von Hessen-Homburg
+	}
+	1814.5.25 = {
+		death = yes
+	}
+}
+
+10000346 = { #Auguste von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Auguste"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1793.8.18 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+		birth = yes
+	}
+	#reigning princess of Schwarzburg-Rudolstadt as of 1847
+	1853.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000339 = { #Leopold Friedrich von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Leopold Friedrich"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1794.10.1 = {
+		birth = yes
+	}
+	#succeeded his grandfather, duke Leopold Friedrich Franz, on 1817.8.9
+	#duke of Anhalt-Dessau
+	1818.4.18 = {
+		spouse = 10000341 #married on 1818.4.18 to Friederike Louise Wilhelmina, daughter of prince Friedrich Ludwig Karl of Prussia
+	}
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000347 = { #Georg Bernhard von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Georg Bernhard"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1796.2.21 = {
+		birth = yes
+	}
+	1825.8.6 = {
+		spouse = 10000348 #married on 1825.8.6 to princess Caroline Auguste Louise of Schwarzburg-Rudolstadt
+	}
+	1831.10.4 = {
+		spouse = 10000349 #married on 1831.10.4 to Theresa Emma von Erdmannsdorff, in morganatic marriage
+	}
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000351 = { #Luise von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Luise"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1798.3.1 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+		birth = yes
+	}
+	#wife of prince Gustav of Hessen-Homburg
+	1857.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000352 = { #Friedrich August von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 8-9.
+	name = "Friedrich August"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1799.9.23 = {
+		birth = yes
+	}
+	1832.9.11 = {
+		spouse = 10000353 #married on 1832.9.11 to Maria Louise Charlotte, daughter of prince Wilhelm of Hesse-Cassel
+	}
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000358 = { #Wilhelm Waldemar von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 8-9.
+	name = "Wilhelm Waldemar"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
+	1807.5.29 = {
+		birth = yes
+	}
+	1840.7.9 = {
+		spouse = 10000359 #married (in morganatic marriage) on 1840.7.9 to Emilie, baroness of Stolzenberg
+	}
+	1867.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000343 = { #Agnes von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Agnes"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000339 #Leopold Friedrich von Anhalt-Dessau
+	mother = 10000341 #Friederike Louise Wilhelmina von Hohenzollern
+	1824.6.24 = {
+		birth = yes
+	}
+	1884.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000350 = { #Luise von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Luise"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000347 #Georg Bernhard von Anhalt-Dessau
+	mother = 10000348 #Caroline Auguste Louise von Schwarzburg-Rudolstadt
+	1826.6.22 = {
+		birth = yes
+	}
+	1886.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000344 = { #Friedrich Franz Nicolas von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Friedrich Franz Nicolas"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	father = 10000339 #Leopold Friedrich von Anhalt-Dessau
+	mother = 10000341 #Friederike Louise Wilhelmina von Hohenzollern
+	1831.4.29 = {
+		birth = yes
+	}
+	#hereditary prince of Anhalt-Dessau as of 1847
+	1891.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000355 = { #Adelaide Maria von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Adelaide Maria"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000352 #Friedrich August von Anhalt-Dessau
+	mother = 10000353 #Maria Louise Charlotte von Hessen-Kassel
+	1833.12.25 = {
+		birth = yes
+	}
+	1893.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000345 = { #Maria Anna von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Maria Anna"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000339 #Leopold Friedrich von Anhalt-Dessau
+	mother = 10000341 #Friederike Louise Wilhelmina von Hohenzollern
+	1837.9.14 = {
+		birth = yes
+	}
+	1897.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000356 = { #Bathilde Amalgonde von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Bathilde Amalgonde"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000352 #Friedrich August von Anhalt-Dessau
+	mother = 10000353 #Maria Louise Charlotte von Hessen-Kassel
+	1837.12.29 = {
+		birth = yes
+	}
+	1897.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000357 = { #Hilda Charlotte von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Hilda Charlotte"
+	dynasty = von_anhalt_dessau
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000352 #Friedrich August von Anhalt-Dessau
+	mother = 10000353 #Maria Louise Charlotte von Hessen-Kassel
+	1839.12.13 = {
+		birth = yes
+	}
+	1899.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

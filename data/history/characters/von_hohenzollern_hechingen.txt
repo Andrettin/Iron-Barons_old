@@ -1,0 +1,337 @@
+10000729 = { #Marie Anne von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
+	name = "Marie Anne"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	#paternal aunt of Hermann Friedrich Otto von Hohenzollern-Hechingen
+	#trait = martial_cleric
+	1721.8.7 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		traits += nun #"Stiftsdame" at Buchau as of 1815
+	}
+	1821.1.1 = { #unknown, set to 60 years after birth, +40 since she was still alive in 1815
+		death = yes
+	}
+}
+
+10000730 = { #Meinrad von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
+	name = "Meinrad"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	#paternal uncle of Hermann Friedrich Otto von Hohenzollern-Hechingen
+	1730.6.20 = {
+		birth = yes
+	}
+	#"Domb." at Kölln and Konstanz as of 1815
+	1820.1.1 = { #unknown, set to 60 years after birth, +30 since he was still alive in 1815
+		death = yes
+	}
+}
+
+10000731 = { #Friedrich Anton von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
+	name = "Friedrich Anton"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	#paternal uncle of Hermann Friedrich Otto von Hohenzollern-Hechingen
+	1746.1.1 = { #unknown, set to 30 years before the birth of his first known child
+		birth = yes
+	}
+	1776.1.1 = { #married to Ernestine Josephe, daughter of count Felix of Sobeck and Kornitz; unknown date, set to the birth of their first known child
+		spouse = 10000732 #Ernestine Josephe von Sobeck und Kornitz
+	}
+	1812.2.26 = {
+		death = yes
+	}
+}
+
+10000707 = { #Hermann Friedrich Otto von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Hermann Friedrich Otto"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	1750.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1774.11.1 = { #married to Louise Juliana Constantie, countess of Merode-Westerloo, and they had their daughter on 1774.11.1
+		spouse = 10000711 #Louise Juliana Constantie van Merode-Westerloo
+	}
+	1781.2.8 = { #married a third time to Marie Antonie Monike von Zeil-Wurzach; date unknown, set to the birth of the first child
+		spouse = 10000720 #Marie Antonie Monike von Zeil-Wurzach
+	}
+	1810.11.2 = {
+		death = yes
+	}
+}
+
+10000722 = { #Franz Xaver von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
+	name = "Franz Xaver"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	#brother of Hermann Friedrich Otto von Hohenzollern-Hechingen
+	#trait = tough_soldier
+	1757.5.21 = {
+		birth = yes
+	}
+	1787.1.22 = { #married on 1787.1.22 to Marie Therese, countess of Wildenstein
+		spouse = 10000723 #Marie Therese von Wildenstein
+	}
+	1815.1.1 = {
+		employer = 10000000 #Emperor Franz I of Austria
+		effect = {
+			make_commander_effect = yes #imperial Austrian field-marshal as of 1815
+		}
+	}
+	1817.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000728 = { #Felicite Therese von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
+	name = "Felicite Therese"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	#sister of Hermann Friedrich Otto von Hohenzollern-Hechingen
+	1763.12.18 = {
+		birth = yes
+	}
+	#married to the count of Hoen-Neufchâteau
+	1823.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000712 = { #Luise Juliane Constantie von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Luise Juliane Constantie"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
+	mother = 10000711 #Louise Juliana Constantie van Merode-Westerloo
+	1774.11.1 = {
+		birth = yes
+	}
+	#countess of Merode-Westerloo as of 1815
+	1834.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000734 = { #Joseph Wilhelm von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Joseph Wilhelm"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000731 #Friedrich Anton von Hohenzollern-Hechingen
+	mother = 10000732 #Ernestine Josephe von Sobeck und Kornitz
+	1776.5.20 = {
+		birth = yes
+	}
+	#prince-bishop of Ermeland as of 1815
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000706 = { #Friedrich Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Friedrich Hermann"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
+	1776.7.22 = {
+		birth = yes
+	}
+	1800.4.26 = { #married on 1800.4.26 to Luise Pauline, daughter of duke Peter of Courland and Sagan
+		spouse = 10000708 #Luise Pauline von Curland
+	}
+	#succeeded his father, prince Hermann Friedrich Otto of Hohenzollern-Hechingen, on 1810.11.2
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000735 = { #Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Hermann"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000731 #Friedrich Anton von Hohenzollern-Hechingen
+	mother = 10000732 #Ernestine Josephe von Sobeck und Kornitz
+	1777.7.2 = {
+		birth = yes
+	}
+	1805.7.29 = { #married on 1805.7.29 to Karoline von Weiher
+		spouse = 10000736 #Karoline von Weiher
+	}
+	1837.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000714 = { #Marie Antoine Philippine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Marie Antoine Philippine"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
+	mother = 10000720 #Marie Antonie Monike von Zeil-Wurzach
+	1781.2.8 = {
+		birth = yes
+	}
+	#married on 1803.7.12 to Friedrich Ludwig, hereditary count of Waldburg-Capustigal
+	1841.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000738 = { #Johann Karl von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Johann Karl"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000731 #Friedrich Anton von Hohenzollern-Hechingen
+	mother = 10000732 #Ernestine Josephe von Sobeck und Kornitz
+	1782.3.16 = {
+		birth = yes
+	}
+	1842.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000717 = { #Maximiliane Antoinette von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Maximiliane Antoinette"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
+	mother = 10000720 #Marie Antonie Monike von Zeil-Wurzach
+	1787.11.3 = {
+		birth = yes
+	}
+	1847.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000718 = { #Josephine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Josephine"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
+	mother = 10000720 #Marie Antonie Monike von Zeil-Wurzach
+	1790.5.14 = {
+		birth = yes
+	}
+	#married on 1811.8.31 to Ladislaus, count of Festetics of Tolna
+	1850.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000724 = { #Friederich Anton von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Friederich Anton"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
+	mother = 10000723 #Marie Therese von Wildenstein
+	1790.11.3 = {
+		birth = yes
+	}
+	1850.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000725 = { #Friderike Julie von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Friderike Julie"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
+	mother = 10000723 #Marie Therese von Wildenstein
+	female = yes
+	1792.3.21 = {
+		birth = yes
+	}
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000726 = { #Friedrich Adalbert von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Friedrich Adalbert"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
+	mother = 10000723 #Marie Therese von Wildenstein
+	1793.3.18 = {
+		birth = yes
+	}
+	1853.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000727 = { #Friederike Josephine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Friederike Josephine"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
+	mother = 10000723 #Marie Therese von Wildenstein
+	female = yes
+	1795.7.7 = {
+		birth = yes
+	}
+	1855.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000710 = { #Friedrich Wilhelm Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+	name = "Friedrich Wilhelm Hermann"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	father = 10000706 #Friedrich Hermann von Hohenzollern-Hechingen
+	mother = 10000708 #Luise Pauline von Curland
+	1801.2.16 = {
+		birth = yes
+	}
+	#hereditary prince of Hohenzollern-Hechingen as of 1815
+	1861.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000737 = { #Karoline von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Karoline"
+	dynasty = von_hohenzollern_hechingen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000735 #Hermann von Hohenzollern-Hechingen
+	mother = 10000736 #Karoline von Weiher
+	1808.6.29 = {
+		birth = yes
+	}
+	1868.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

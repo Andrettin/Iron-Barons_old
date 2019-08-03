@@ -1,0 +1,364 @@
+10000616 = { #George of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "George"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	1680.1.1 = { #unknown, set to 80 years before death
+		birth = yes
+	}
+	#king George II of Great Britain
+	1760.10.25 = { #succeeded by his grandson on 1760.10.25
+		death = yes
+	}
+}
+
+10000577 = { #Louise of Great Britain; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 14.
+	name = "Louise"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	1727.1.1 = { #unknown, set to 20 years before the birth of her daughter
+		birth = yes
+	}
+	#princess of Great Britain
+	1747.7.10 = { #married to Fredrik V of Danmark, and their daughter was born on 1747.7.10
+		spouse = 10000576 #Fredrik af Danmark
+	}
+	1787.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000634 = { #Henry Frederick of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
+	name = "Henry Frederick"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	1730.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Cumberland
+	#married to Anne Lutrell
+	1790.9.18 = {
+		death = yes
+	}
+}
+
+10000615 = { #George of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
+	name = "George"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	#grandson of George II of Great Britain
+	1738.6.4 = {
+		birth = yes
+	}
+	#succeeded his grandfather as king of Great Britain on 1760.10.25
+	#king George III of Great Britain
+	1761.9.8 = { #married on 1761.9.8 to Sophie Charlotte, daughter of duke Karl Ludwig Friederich of Mecklenburg-Strelitz
+		spouse = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	}
+	1811.1.10 = {
+		traits += incapable #his son was declared regent of Great Britain on 1811.1.10; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	}
+	1818.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000631 = { #William Henry of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "William Henry"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	#brother of king George III of Great Britain
+	1745.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Gloucester
+	1805.8.25 = {
+		death = yes
+	}
+}
+
+10000619 = { #George Frederick Augustus of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "George Frederick Augustus"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1762.8.12 = {
+		birth = yes
+	}
+	1795.4.8 = { #married on 1795.4.8 to Karoline Amalie Elisabeth, daughter of duke Karl Wilhelm Ferdinand of Braunschweig-Wolfenbüttel
+		spouse = 10000558 #Karoline Amalie Elisabeth von Braunschweig-Wolfenbüttel
+	}
+	1811.1.10 = {
+		employer = 10000615 #George of Brunswick-Luneburg
+		effect = {
+			give_minor_title = title_regent #declared regent of Great Britain on 1811.1.10
+		}
+	}
+	#prince of Wales, duke of Cornwall and of Rotsay, and earl of Chester as of 1815
+	1822.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000621 = { #Frederick of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Frederick"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1763.8.16 = {
+		birth = yes
+	}
+	1791.9.29 = { #married on 1791.9.29 to Friederike, daughter of king Friederich Wilhelm II of Prussia of his first marriage
+		spouse = 10000622 #Friederike von Hohenzollern
+	}
+	#duke of York and Albany as of 1815
+	#prince-bishop Osnabrück as of 1815
+	1823.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000115 = { #William Henry of Brunswick-Luneburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 30.
+	name = "William Henry" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	1765.8.21 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+		birth = yes
+	}
+	#duke of Clarence and St. Andrews as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	#earl of Munster as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	#king of the United Kingdom of Great Britain and Ireland, as William IV
+	1837.6.20 = { #was succedeed by his niece Victoria I on 1837.6.20
+		death = yes
+	}
+}
+
+10000624 = { #Charlotte Augusta Matilda of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Charlotte Augusta Matilda"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1766.9.29 = {
+		birth = yes
+	}
+	#queen of Wurtemberg
+	1826.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000114 = { #Edward of Brunswick-Luneburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 30.
+	name = "Edward"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	1767.11.2 = {
+		birth = yes
+	}
+	#duke of Kent and Strathearn as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	#earl of Dublin as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	1820.1.23 = {
+		death = yes
+	}
+}
+
+10000625 = { #Augusta Sophie of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Augusta Sophie"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1768.11.8 = {
+		birth = yes
+	}
+	1828.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000626 = { #Elisabeth of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Elisabeth"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1770.5.22 = {
+		birth = yes
+	}
+	1830.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000627 = { #Ernest Augustus of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Ernest Augustus"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1771.6.5 = {
+		birth = yes
+	}
+	#duke of Cumberland and Teviotdale as of 1815
+	#earl of Armagh as of 1815
+	1831.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000623 = { #Augustus Frederick of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Augustus Frederick"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1773.1.27 = {
+		birth = yes
+	}
+	#duke of Sussex as of 1815
+	#earl of Inverness as of 1815
+	#baron of Arklow as of 1815
+	1833.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000632 = { #Sophie Matilda of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	name = "Sophie Matilda"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000631 #William Henry of Brunswick-Luneburg
+	1773.5.29 = {
+		birth = yes
+	}
+	1833.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000628 = { #Adolf Frederick of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Adolf Frederick"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1774.1.24 = {
+		birth = yes
+	}
+	#duke of Cambridge as of 1815
+	#earl of Tipperary as of 1815
+	#baron of Culloden as of 1815
+	1834.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000633 = { #William Frederick of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	name = "William Frederick"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	father = 10000631 #William Henry of Brunswick-Luneburg
+	1776.1.15 = {
+		birth = yes
+	}
+	#duke of Gloucester and Edinburgh as of 1815
+	#earl of Connaught as of 1815
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000629 = { #Maria of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Maria"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1776.4.25 = {
+		birth = yes
+	}
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000630 = { #Sophie of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
+	name = "Sophie"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000615 #George of Brunswick-Luneburg
+	mother = 10000617 #Sophie Charlotte von Mecklenburg-Strelitz
+	1777.11.3 = {
+		birth = yes
+	}
+	1837.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000620 = { #Caroline Charlotte Augusta of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
+	name = "Caroline Charlotte Augusta"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000619 #George Frederick Augustus of Brunswick-Luneburg
+	mother = 10000558 #Karoline Amalie Elisabeth von Braunschweig-Wolfenbüttel
+	1796.1.7 = {
+		birth = yes
+	}
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000113 = { #Victoria of Brunswick-Luneburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 30.
+	name = "Victoria"
+	dynasty = von_braunschweig_luneburg
+	culture = english
+	religion = protestant
+	female = yes
+	father = 10000114 #Edward of Brunswick-Luneburg
+	1819.5.24 = {
+		birth = yes
+	}
+	#Queen Victoria I of the United Kingdom of Great Britain and Ireland succeeded her uncle King William IV on 1837.6.20; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 30.
+	#crowned on 1838.6.28
+	1840.2.10 = {
+		spouse = 10000116 #married on 1840.2.10 to Albert zu Sachsen-Coburg und Gotha
+	}
+	1879.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

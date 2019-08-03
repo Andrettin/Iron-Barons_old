@@ -1,0 +1,31 @@
+10000682 = { #Christian Karl Reinhard von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Christian Karl Reinhard"
+	dynasty = von_leiningen_heidesheim
+	culture = german
+	religion = protestant
+	1699.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#count of Leiningen-Heidesheim
+	1759.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000681 = { #Marie Luise Albertine von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+	name = "Marie Luise Albertine"
+	dynasty = von_leiningen_heidesheim
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000682 #Christian Karl Reinhard von Leiningen-Heidesheim
+	1729.3.16 = {
+		birth = yes
+	}
+	1749.3.27 = { #married to Georg Wilhelm von Hessen-Darmstadt
+		spouse = 10000536 #Georg Wilhelm von Hessen-Darmstadt
+	}
+	1819.1.1 = { #unknown, set to 90 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}

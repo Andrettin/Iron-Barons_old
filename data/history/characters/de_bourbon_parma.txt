@@ -1,0 +1,32 @@
+
+10000473 = { #Duke Ferdinand of Parma; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	name = "Ferdinando"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	1714.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	1774.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000320 = { #Princess Carolina Maria Teresa of Parma; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Carolina Maria Teresa"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 10000473 #Duke Ferdinand of Parma; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	1744.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#wife of Maximilian von Wettin
+	1794.8.10 = {
+		spouse = 10000189 #had her first child with Maximilian von Wettin on 1794.8.10
+	}
+	1804.3.1 = {
+		death = yes
+	}
+}

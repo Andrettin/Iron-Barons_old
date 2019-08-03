@@ -1,0 +1,121 @@
+10000607 = { #Philippe de Bourbon-Orléans; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 15-16.
+	name = "Philippe"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	1733.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Orléans
+	1770.8.23 = { #married to Louise, daughter of the duke of Penthièvre, and they had their first known child on 1770.8.23
+		spouse = 10000606 #Louise de Penthièvre
+	}
+	1793.11.6 = {
+		death = yes
+	}
+}
+
+10000608 = { #Louise Marie de Bourbon-Orléans; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 15-16.
+	name = "Louise Marie"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	female = yes
+	#sister of duke Philippe of Orléans
+	1750.7.9 = {
+		birth = yes
+	}
+	#since 1780 separated wife of the duke of Bourbon-Condé
+	1820.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000605 = { #Eugénie de Bourbon-Orléans; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 15-16.
+	name = "Eugénie"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000607 #Philippe de Bourbon-Orléans
+	mother = 10000606 #Louise de Penthièvre
+	1770.8.23 = {
+		birth = yes
+	}
+	1830.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000100 = { #King Louis-Philippe I of France; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
+	name = "Louis-Philippe"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	father = 10000607 #Philippe de Bourbon-Orléans; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 15-16.
+	mother = 10000606 #Louise de Penthièvre; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 15-16.
+	1773.10.6 = {
+		birth = yes
+	}
+	1809.11.25 = { #married on 1809.11.25
+		spouse = 10000101 #Princess Maria Amelia of the Two Sicilies
+	}
+	#duke of Orléans as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	#became king of the French on 1830.8.9
+	1860.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000108 = { #Princess Louise d'Orléans; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 17.
+	name = "Louise"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000100 #King Louis-Philippe I of France
+	mother = 10000101 #Princess Maria Amelia of the Two Sicilies
+	1812.4.3 = { #born in Palermo
+		birth = yes
+	}
+	#married on 1832.8.9 to king Léopold I of Belgium
+	1872.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000317 = { #Marie Christine Caroline d'Orléans; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
+	name = "Marie Christine Caroline"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000100 #King Louis-Philippe I of France
+	mother = 10000101 #Princess Maria Amelia of the Two Sicilies
+	1813.4.12 = {
+		birth = yes
+	}
+	1837.10.17 = {
+		spouse = 10000316 #married on 1837.10.17 to Alexander von Württemberg
+	}
+	1839.1.2 = {
+		death = yes
+	}
+}
+
+10000186 = { #Princess Clémentine d'Orléans of France; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 2.
+	name = "Clémentine"
+	dynasty = de_bourbon_orleans
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000100 #King Louis-Philippe I of France
+	mother = 10000101 #Princess Maria Amelia of the Two Sicilies
+	1817.6.3 = {
+		birth = yes
+	}
+	#married on 1843.4.20 to August zu Sachsen-Coburg und Gotha
+	1877.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

@@ -1,0 +1,88 @@
+10000102 = { #King Ferdinand I (IV) of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
+	name = "Ferdinando"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	1752.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1812.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000001 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+	name = "Maria Theresa"
+	dynasty = de_bourbon
+	culture = italian #daughter of king Ferdinand I (IV) of the Two Sicilies
+	religion = catholic
+	female = yes
+	father = 10000102 #King Ferdinand I (IV) of the Two Sicilies
+	1761.1.1 = { #unknown, set to 30 years before the birth of her daughter
+		birth = yes
+	}
+	1816.10.29 = { #unknown, set to the date of her husband's second marriage
+		death = yes
+	}
+}
+
+10000104 = { #King Francis I of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 23.
+	name = "Francesco"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	1777.8.19 = {
+		birth = yes
+	}
+	#king of the Two Sicilies
+	1830.11.8 = { #date his son succeeded him
+		death = yes
+	}
+}
+
+10000101 = { #Princess Maria Amelia of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
+	name = "Maria Amelia"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	female = yes
+	father = 10000102 #King Ferdinand I (IV) of the Two Sicilies
+	1782.4.26 = {
+		birth = yes
+	}
+	#married on 1809.11.25
+	1877.1.1 = { #unknown, set to 60 years after first mention
+		death = yes
+	}
+}
+
+10000103 = { #King Ferdinand II (Charles) of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 23-24.
+	name = "Ferdinando"
+	dynasty = de_bourbon
+	culture = italian
+	religion = catholic
+	father = 10000104 #King Francis I of the Two Sicilies
+	1810.1.12 = {
+		birth = yes
+	}
+	#king of the Two Sicilies, king of Jerusalem, duke of Parma, duke of Plaisance, duke of Castre and hereditary grand duke of Tuscany
+	#succeeded his father on 1830.11.8
+	1830.11.8 = {
+		effect = {
+			add_weak_claim = k_jerusalem
+			add_weak_claim = d_parma
+			add_weak_claim = d_piacenza
+			add_weak_claim = d_castro
+			add_weak_claim = d_toscana
+		}
+	}
+	1832.11.21 = {
+		spouse = 10000105 #married on 1832.11.21 to Princess Cristina of Sardinia
+	}
+	1837.1.9 = {
+		spouse = 10000106 #married on 1837.1.9 in Trent to Archduchess Theresa of Austria
+	}
+	1870.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

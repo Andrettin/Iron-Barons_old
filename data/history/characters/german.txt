@@ -1,0 +1,312 @@
+10000412 = { #Beatrix von Zollern; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
+	name = "Beatrix"
+	dynasty = von_zollern
+	culture = german
+	religion = catholic
+	female = yes
+	1347.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#married Albrecht III of Austria, and had her son Albrecht with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
+	1407.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000410 = { #Anna von Braunschweig; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	name = "Anna"
+	dynasty = von_braunschweig
+	culture = german
+	religion = catholic
+	female = yes
+	1397.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#married Friedrich IV of Austria, and had her son Sigmund with him in 1427; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	1457.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000393 = { #Jakob Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	name = "Jakob"
+	dynasty = fugger
+	culture = german
+	religion = catholic
+	#give_nickname = nick_the_wealthy #known as "the Rich"; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	#trait = midas_touched #renowned merchant, entrepreneur and banker; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	traits += administrator
+	1459.1.1 = { #born in 1459; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		birth = yes
+	}
+	1525.1.1 = { #died in 1525; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		death = yes
+	}
+}
+
+10000394 = { #Anton Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	name = "Anton"
+	dynasty = fugger
+	culture = german
+	religion = catholic
+	#trait = midas_touched #the Fugger family fortune reach its peak under Anton Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	1493.1.1 = { #born in 1493; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		birth = yes
+	}
+	#nephew of Jakob Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	1560.1.1 = { #died in 1560; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		death = yes
+	}
+}
+
+10000141 = { #Triangel Fuchs; Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs nach dem Oriente und nach Ostindien in der ersten Hälfte des 18. Jahrhunderts", 1900, pp. 50-51.
+	name = "Triangel"
+	dynasty = fuchs
+	culture = german
+	religion = catholic
+	#trait = indulgent_wastrel #since he suffered failures in Vienna, and was the director of a short-lived company
+	1634.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#German merchant, suffered failures in Vienna
+	#was one of the two directors of Austria's oriental company, which was founded in 1664
+	1694.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000448 = { #Karl, Grand Duke of Frankfurt; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
+	name = "Karl"
+	culture = german
+	religion = catholic
+	#trait = martial_cleric #archbishop as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
+	1744.2.8 = { #born on 1744.2.8; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
+		birth = yes
+	}
+	1824.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1813)
+		death = yes
+	}
+}
+
+10000770 = { #Geldrik Ludwig Wilhelm von Bentheim-Steinfurth; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Geldrik Ludwig Wilhelm"
+	dynasty = von_bentheim_steinfurth
+	culture = german
+	religion = protestant #lutheran
+	1746.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	1776.7.17 = { #married on 1776.7.17 to Juliane Wilhelmine von Holstein-Glücksburg
+		spouse = 10000769 #Juliane Wilhelmine von Holstein-Glücksburg
+	}
+	#count of Bentheim-Steinfurth
+	1806.1.1 = { #unknown, set to 30 years after marriage
+		death = yes
+	}
+}
+
+10000654 = { #Marie Franziske Berghe von Trips; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Marie Franziske"
+	dynasty = berghe_von_trips
+	culture = german
+	religion = protestant
+	female = yes
+	1747.10.8 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#countess of Berghe von Trips
+	#married to Ludwig von Hessen-Philippsthal
+	1807.1.1 = { #died in 1807
+		death = yes
+	}
+}
+
+10000766 = { #Gottl. von Richthofen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Gottlieb"
+	dynasty = von_richthofen
+	culture = german
+	religion = protestant #lutheran
+	1748.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#baron of Richthofen
+	#married to Elisabeth Charlotte Friederike von Holstein-Beck
+	1808.2.25 = {
+		death = yes
+	}
+}
+
+10000500 = { #Marie Josephe von Haslingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Marie Josephe"
+	dynasty = von_haslingen
+	culture = german
+	religion = protestant
+	female = yes
+	1752.1.1 = { #unknown, set to 20 years before daughter's birth
+		birth = yes
+	}
+	#countess of Haslingen
+	1812.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000512 = { #Johann Heinrich von Hochberg zu Fürstenstein; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	name = "Johann Heinrich"
+	dynasty = von_hochberg_zu_furstenstein
+	culture = german
+	religion = protestant
+	1761.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	1791.5.20 = { #married on 1791.5.20 to Anne Emilie von Anhalt-Pless
+		spouse = 10000511 #Anne Emilie von Anhalt-Pless
+	}
+	#duke of Hochberg zu Fürstenstein, as Johann Heinrich VI
+	1821.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000530 = { #Luise Karoline Geyer von Geyersberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Luise Karoline"
+	dynasty = geyer_von_geyersberg
+	culture = german
+	religion = protestant
+	female = yes
+	1768.5.26 = {
+		birth = yes
+	}
+	#countess of Hochberg as of 1815
+	1790.8.29 = { #second wife of Karl Friedrich von Zähringen, having her first child with him on 1790.8.29
+		spouse = 10000517 #Karl Friedrich von Zähringen
+	}
+	1828.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000736 = { #Karoline von Weiher; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Karoline"
+	dynasty = von_weiher
+	culture = german
+	religion = catholic
+	female = yes
+	1775.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	#married on 1805.7.29 to Hermann von Hohenzollern-Hechingen
+	1835.1.1 = { #unknown, set to 30 years after marriage
+		death = yes
+	}
+}
+
+10000755 = { #Sophie Eleonore von Scheel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
+	name = "Sophie Eleonore"
+	dynasty = von_scheel
+	culture = german
+	religion = protestant #lutheran #presumably, given her husband's religion)
+	female = yes
+	#daughter of the baron of Scheel (a royal Danish minister of state)
+	1778.12.26 = {
+		birth = yes
+	}
+	#married in to Friederich Karl Emil von Holstein-Sonderburg-Augustenburg
+	1838.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000371 = { #Julia von Brandenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
+	name = "Julia"
+	dynasty = von_brandenburg
+	culture = german
+	religion = catholic
+	female = yes
+	1793.1.4 = {
+		birth = yes
+	}
+	1816.5.20 = {
+		spouse = 10000368 #married on 1816.5.20 to Ferdinand von Anhalt-Pless
+	}
+	#widowed on 1830.8.23
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000349 = { #Theresa Emma von Erdmannsdorff; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Theresa Emma"
+	dynasty = von_erdmannsdorff
+	culture = german
+	religion = protestant
+	female = yes
+	1807.9.12 = {
+		birth = yes
+	}
+	#daughter of the grandmaster of the forests of Erdmannsdorff at Hohenahlsdorf
+	1831.10.4 = {
+		spouse = 10000347 #married on 1831.10.4 to Georg Bernhard von Anhalt-Dessau
+	}
+	#created countess of Reina
+	#countess of Reina as of 1847
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000257 = { #Alfred von Neipperg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Alfred"
+	dynasty = von_neipperg
+	culture = german
+	religion = protestant
+	1810.10.30 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1840.3.19 = { #married on 1840.3.19 to Maria von Württemberg
+		spouse = 10000255 #Maria von Württemberg
+	}
+	#count of Neipperg as of 1847
+	1870.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000311 = { #Mr. von Taubenheim, the grand-écuyer of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	dynasty = von_taubenheim
+	culture = german
+	religion = protestant
+	1812.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1842.9.17 = {
+		spouse = 10000310 #the husband of Maria Alexandrine Charlotte von Württemberg, after 1842.9.17
+	}
+	1847.1.1 = { #grand-écuyer of Württemberg as of 1847
+		employer = 10000247 #Wilhelm Friedrich von Württemberg
+		effect = {
+			make_master_of_the_horse_effect = yes
+		}
+	}
+	1872.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000359 = { #Emilie von Stolzenberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Emilie"
+	dynasty = von_stolzenberg
+	culture = german
+	religion = protestant
+	female = yes
+	1812.1.31 = {
+		birth = yes
+	}
+	1840.7.9 = {
+		spouse = 10000358 #married on 1840.7.9 to Wilhelm Woldemar von Anhalt-Dessau
+	}
+	#baroness of Stolzenberg as of 1847
+	1872.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

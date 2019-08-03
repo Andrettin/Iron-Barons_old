@@ -1,0 +1,286 @@
+10000517 = { #Karl Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
+	name = "Karl Friedrich"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	1731.1.1 = { #unknown, set to 80 years before death (so that he is older than his son)
+		birth = yes
+	}
+	#grand duke of Baden
+	1790.8.29 = { #married a second time to Luise Karoline Geyer von Geyersberg, having his first child with her on 1790.8.29
+		spouse = 10000530 #Luise Karoline Geyer von Geyersberg
+	}
+	1811.6.10 = {
+		death = yes
+	}
+}
+
+10000526 = { #Karl Ludwig von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Karl Ludwig"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000517 #Karl Friedrich von Zähringen
+	1741.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1776.7.13 = { #married to Amalie Friederike von Hessen-Darmstadt, and had his first child with her on 1776.7.13
+		spouse = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	}
+	1801.12.16 = {
+		death = yes
+	}
+}
+
+10000527 = { #Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
+	name = "Friedrich"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000517 #Karl Friedrich von Zähringen
+	1756.8.29 = {
+		birth = yes
+	}
+	1791.12.10 = { #married to Christiane Luise von Nassau-Usingen on 1791.12.10
+		spouse = 10000528 #Christiane Luise von Nassau-Usingen
+	}
+	1816.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000529 = { #Ludwig Wilhelm August von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
+	name = "Ludwig Wilhelm August"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000517 #Karl Friedrich von Zähringen
+	1763.2.9 = {
+		birth = yes
+	}
+	1823.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000519 = { #Catherine Amalie von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Catherine Amalie"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	traits += twin
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	1776.7.13 = { #born on 1776.7.13
+		birth = yes
+	}
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000013 = { #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Friederike Wilhelmine Karoline"
+	dynasty = von_zahringen
+	culture = german #from Baden
+	religion = protestant
+	female = yes
+	traits += twin
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	1776.7.13 = { #born on 1776.7.13
+		birth = yes
+	}
+	1836.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000521 = { #Luise Marie von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Luise Marie"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	1779.1.24 = {
+		birth = yes
+	}
+	#empress of Russia
+	1839.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000522 = { #Friederike Dorothee von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Friederike Dorothee"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	1781.3.12 = {
+		birth = yes
+	}
+	1797.10.31 = { #married on 1797.10.31 to king Gustav IV Adolf of Sweden
+		spouse = 10000523 #Gustav IV Adolf of Sweden
+	}
+	1841.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000554 = { #Marie Elisabeth Wilhelmine von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+	name = "Marie Elisabeth Wilhelmine"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt; presumably, since that's the mother of her siblings
+	1784.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1804.10.30 = { #married to Wilhelm Friedrich von Braunschweig-Wolfenbüttel, and they had their first child on 1804.10.30
+		spouse = 10000553 #Wilhelm Friedrich von Braunschweig-Wolfenbüttel
+	}
+	1808.4.21 = {
+		death = yes
+	}
+}
+
+10000516 = { #Karl Ludwig Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Karl Ludwig Friedrich"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	1786.6.8 = {
+		birth = yes
+	}
+	1806.4.8 = { #married to Stephanie Luise, imperial princess of France and adoptive daughter of emperor Napoleon, on 1806.4.8
+		spouse = 10000518 #Stephanie Luise
+	}
+	#succeeded his grandfather, grand duke Karl Friedrich of Baden, on 1811.6.10
+	#grand duke of Baden
+	1846.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000524 = { #Wilhelmine Luise von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Wilhelmine Luise"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000526 #Karl Ludwig von Zähringen
+	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
+	1788.9.10 = {
+		birth = yes
+	}
+	1848.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000520 = { #Luise Amalie von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	name = "Luise Amalie"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000516 #Karl Ludwig Friedrich von Zähringen
+	mother = 10000518 #Stephanie Luise
+	1811.6.5 = {
+		birth = yes
+	}
+	1871.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000177 = { #Leopold Friedrich von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 2.
+	name = "Leopold Friedrich" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000517 #Karl Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	mother = 10000530 #Luise Karoline Geyer von Geyersberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	1790.8.29 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+		birth = yes
+	}
+	#grand duke of Baden
+	1850.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000273 = { #Wilhelm Ludwig August von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+	name = "Wilhelm Ludwig August" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000517 #Karl Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	mother = 10000530 #Luise Karoline Geyer von Geyersberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	1792.4.8 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+		birth = yes
+	}
+	1830.10.16 = {
+		spouse = 10000179 #married on 1830.10.16 to Elisabeth von Württemberg
+	}
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000531 = { #Amalie Christine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Amalie Christine Karoline"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000517 #Karl Friedrich von Zähringen
+	mother = 10000530 #Luise Karoline Geyer von Geyersberg
+	1795.1.26 = {
+		birth = yes
+	}
+	1855.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000532 = { #Maximilian Friedrich Johann von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Maximilian Friedrich Johann"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	father = 10000517 #Karl Friedrich von Zähringen
+	mother = 10000530 #Luise Karoline Geyer von Geyersberg
+	1796.12.9 = {
+		birth = yes
+	}
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000173 = { #Alexandrine von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Alexandrine"
+	dynasty = von_zahringen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000177 #Leopold Friedrich von Zähringen
+	1820.12.6 = {
+		birth = yes
+	}
+	#married to Ernst II zu Sachsen-Coburg und Gotha on 1842.5.3
+	1880.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

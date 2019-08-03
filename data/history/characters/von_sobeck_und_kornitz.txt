@@ -1,0 +1,29 @@
+10000733 = { #Felix von Sobeck und Kornitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Felix"
+	dynasty = von_sobeck_und_kornitz
+	culture = german
+	religion = catholic
+	1722.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#count of Sobeck and Kornitz
+	1782.1.1 = { #unknown, set to 30 years after the birth of his daughter
+		death = yes
+	}
+}
+
+10000732 = { #Ernestine Josephe von Sobeck und Kornitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Ernestine Josephe"
+	dynasty = von_sobeck_und_kornitz
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000733 #Felix von Sobeck und Kornitz
+	1752.1.21 = {
+		birth = yes
+	}
+	#married to Friedrich Anton von Hohenzollern-Hechingen
+	1822.1.1 = { #unknown, set to 60 years after birth, +10 since she was still alive in 1815
+		death = yes
+	}
+}

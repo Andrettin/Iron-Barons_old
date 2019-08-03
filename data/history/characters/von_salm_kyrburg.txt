@@ -1,0 +1,29 @@
+10000743 = { #Philipp Joseph von Salm-Kyrburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
+	name = "Philipp Joseph"
+	dynasty = von_salm_kyrburg
+	culture = german
+	religion = catholic
+	1732.1.1 = { #unknown, set to 30 years before the birth of his first known child
+		birth = yes
+	}
+	#prince of Salm-Kyrburg
+	1792.1.1 = { #unknown, set to 30 years after the birth of his first known child
+		death = yes
+	}
+}
+
+10000742 = { #Amalie Zephyrine von Salm-Kyrburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25.
+	name = "Amalie Zephyrine"
+	dynasty = von_salm_kyrburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000743 #Philipp Joseph von Salm-Kyrburg
+	1762.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	#married on 1782.8.12 to Adam Alonsins von Hohenzollern-Sigmaringen
+	1822.1.1 = { #unknown, set to 40 years after marriage
+		death = yes
+	}
+}

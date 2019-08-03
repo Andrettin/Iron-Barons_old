@@ -1,0 +1,113 @@
+10000099 = { #Emperor Paul of Russia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
+	name = "Paul"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	1756.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#had a daughter (Princess Maria of Russia) on 1786.2.16
+	1816.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000176 = { #Grand Duke Constantin of Russia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 2.
+	name = "Constantin"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	1771.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1796.2.26 = {
+		spouse = 10000175 #married on 1796.2.26 to Juliane von Sachsen-Saalfeld-Coburg
+	}
+	1820.4.1 = {
+		remove_spouse = 10000175 #divorced on 1820.4.1
+	}
+	1831.6.27 = {
+		death = yes
+	}
+}
+
+10000249 = { #Catherine Paulowna, daughter of Emperor Paul of Russia; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Catherine"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	female = yes
+	father = 10000099 #Emperor Paul of Russia
+	1786.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#widow of Prince Peter of Holstein-Oldenburg
+	#married on 1816.1.24 to Wilhelm Friedrich von Württemberg
+	1819.1.9 = {
+		death = yes
+	}
+}
+
+10000238 = { #Maria Paulowna, daughter of Emperor Paul I of Russia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
+	name = "Maria"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	female = yes
+	father = 10000099 #Emperor Paul of Russia
+	1786.2.16 = {
+		birth = yes
+	}
+	#married on 1804.8.3 to Karl Friedrich von Sachsen-Weimar-Eisenach
+	1856.1.1 = { #unknown, set to 70 years after birth (can't be 60 because she is still alive in 1847)
+		death = yes
+	}
+}
+
+10000262 = { #Emperor Nicolas I of Russia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Nicolas"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	1792.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#had a daughter on 1822.9.11
+	1852.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000098 = { #Princess Anna of Russia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
+	name = "Anna"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	female = yes
+	father = 10000099 #Emperor Paul of Russia
+	1795.1.18 = {
+		birth = yes
+	}
+	#married Willem of Orange-Nassau on 1816.2.21
+	1877.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000261 = { #Olga Nicolaewna, daughter of emperor Nicolas I of Russia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Olga"
+	dynasty = romanov
+	culture = russian
+	religion = orthodox
+	female = yes
+	father = 10000262 #Emperor Nicolas I of Russia
+	1822.9.11 = {
+		birth = yes
+	}
+	1846.7.13 = {
+		spouse = 10000260 #married on 1846.7.13 to prince Karl von Württemberg
+	}
+	1882.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

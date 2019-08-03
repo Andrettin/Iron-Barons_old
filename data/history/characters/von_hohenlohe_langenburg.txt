@@ -1,0 +1,83 @@
+10000669 = { #Albrecht von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	name = "Albrecht"
+	dynasty = von_hohenlohe_langenburg
+	culture = german
+	religion = protestant
+	1747.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#prince of Hohenlohe-Langenburg
+	1807.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000671 = { #Karl Ludwig von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Karl Ludwig"
+	dynasty = von_hohenlohe_langenburg
+	culture = german
+	religion = protestant
+	1762.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#prince of Hohenlohe-Langenburg
+	1822.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000670 = { #Elisabeth Eleonore Charlotte von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Elisabeth Eleonore Charlotte"
+	dynasty = von_hohenlohe_langenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000671 #Karl Ludwig von Hohenlohe-Langenburg
+	1792.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1812.9.10 = { #married on 1812.9.10 to Victor Amadeus von Hessen-Rotenburg
+		spouse = 10000668 #Victor Amadeus von Hessen-Rotenburg
+	}
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000205 = { #Luise von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Luise"
+	dynasty = von_hohenlohe_langenburg
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	female = yes
+	father = 10000669 #Albrecht von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+	1777.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#became the regent of Saxe-Meinigen upon Bernhard's succession of his father as duke of Saxe-Meiningen on 1803.12.24; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1803.12.24 = {
+		#employer = 10000203 #Bernhard zu Sachsen-Meiningen
+		effect = {
+			#give_minor_title = title_regent
+		}
+	}
+	1837.4.29 = {
+		death = yes
+	}
+}
+
+10000282 = { #Helena von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Helena"
+	dynasty = von_hohenlohe_langenburg
+	culture = german
+	religion = protestant
+	female = yes
+	1807.11.22 = {
+		birth = yes
+	}
+	#married on 1827.9.11 to Eugen von Württemberg
+	#princess of Hohenlohe-Langenburg
+	1867.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

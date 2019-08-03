@@ -1,0 +1,30 @@
+10000660 = { #Christiane Luise von Schwarzburg-Rudolstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Christiane Luise"
+	dynasty = von_schwarzburg_rudolstadt
+	culture = german
+	religion = protestant
+	female = yes
+	1748.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1808.12.25 = {
+		death = yes
+	}
+}
+
+10000348 = { #Caroline Auguste Louise von Schwarzburg-Rudolstadt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Caroline Auguste Louise"
+	dynasty = von_schwarzburg_rudolstadt
+	culture = german
+	religion = protestant
+	female = yes
+	1804.4.4 = {
+		birth = yes
+	}
+	1825.8.6 = {
+		spouse = 10000347 #married on 1825.8.6 to Georg Bernhard von Anhalt-Dessau
+	}
+	1829.1.14 = {
+		death = yes
+	}
+}

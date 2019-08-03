@@ -1,0 +1,22 @@
+10000459 = { #Emanuel von Mensdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	name = "Emanuel"
+	dynasty = von_mensdorf
+	culture = german
+	religion = catholic #correct?
+	#trait = tough_soldier
+	1774.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1804.2.12 = {
+		spouse = 10000458 #married on 1804.2.12 to Sophie von Sachsen-Saalfeld-Coburg
+	}
+	1815.1.1 = {
+		employer = 10000000 #Emperor Franz I of Austria
+		effect = {
+			make_commander_effect = yes #imperial Austrian colonel ("oberst") as of 1815
+		}
+	}
+	1834.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

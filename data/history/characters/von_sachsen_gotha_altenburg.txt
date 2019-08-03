@@ -1,0 +1,70 @@
+10000430 = { #Duke Ernst II of Saxe-Gotha; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
+	name = "Ernst"
+	dynasty = von_sachsen_gotha_altenburg
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
+	1744.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1772.11.23 = { #had a son, August, with Maria Charlotte von Sachsen-Meiningen on 1772.11.23; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
+		spouse = 10000432 #Maria Charlotte von Sachsen-Meiningen
+	}
+	1804.4.20 = { #succeeded by his son August on 1804.4.20; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
+		death = yes
+	}
+}
+
+10000172 = { #Duke August von Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	name = "August"
+	dynasty = von_sachsen_gotha_altenburg
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	father = 10000430 #Duke Ernst II of Saxe-Gotha; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
+	mother = 10000432 #Maria Charlotte von Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
+	1772.11.23 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+		birth = yes
+	}
+	1800.12.21 = { #was married to Louise Charlotte von Mecklenburg-Schwerin, and they had a child on 1800.12.21; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1.
+		spouse = 10000431 #Louise Charlotte, princess of Mecklenburg-Schwerin
+	}
+	1802.4.24 = { #married Karoline von Hessen on 1802.4.24; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+		spouse = 10000200
+	}
+	#succeeded his father Ernst II on 1804.4.20; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1.
+	#duke of Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	1822.5.17 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+		death = yes
+	}
+}
+
+10000201 = { #Friedrich von Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1-2; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Friedrich"
+	dynasty = von_sachsen_gotha_altenburg
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	father = 10000430 #Duke Ernst II of Saxe-Gotha; presumaby, as Friedrich was the brother of duke August; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
+	mother = 10000432 #Maria Charlotte von Sachsen-Meiningen; presumaby, as Friedrich was the brother of duke August; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
+	1774.11.28 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+		birth = yes
+	}
+	#Duke Friedrich IV of Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1825.2.11 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+		death = yes
+	}
+}
+
+10000171 = { #Luise von Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Luise"
+	dynasty = von_sachsen_gotha_altenburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000172 #Duke August of Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	mother = 10000431 #Louise Charlotte, princess of Mecklenburg-Schwerin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1.
+	1800.12.21 = { #born on 1800.12.21; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1.
+		birth = yes
+	}
+	1832.12.23 = { #on this date her husband was married to his second wife; presumably she was deceased by then
+		death = yes
+	}
+}

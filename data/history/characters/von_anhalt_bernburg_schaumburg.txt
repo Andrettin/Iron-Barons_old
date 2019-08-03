@@ -1,0 +1,158 @@
+10000498 = { #Karl Ludwig von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Karl Ludwig"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	1746.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#prince of Anhalt-Bernburg-Schaumburg
+	#husband of Amalie Eleonore von Solms-Braunfels
+	1806.8.20 = {
+		death = yes
+	}
+}
+
+10000499 = { #Franz Adolph von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Franz Adolph"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	#brother of Karl Ludwig von Anhalt-Bernburg-Schaumburg
+	1742.1.1 = { #unknown, set to 30 years before daughter's birth
+		birth = yes
+	}
+	1802.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000502 = { #Victor Amadeus von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 7-8.
+	name = "Victor Amadeus"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	#brother of Karl Ludwig von Anhalt-Bernburg-Schaumburg
+	1730.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1790.5.2 = {
+		death = yes
+	}
+}
+
+10000360 = { #Friedrich Ludwig Adolf von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Friedrich Ludwig Adolf"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	1741.11.29 = {
+		birth = yes
+	}
+	#prince of Anhalt-Bernburg-Schaumburg
+	#last prince of Anhalt-Bernburg-Schaumburg, and upon his death the von Anhalt-Bernburg-Schaumburg dynasty became extinct in the male line
+	1812.12.24 = {
+		death = yes
+	}
+}
+
+10000338 = { #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9, 12.
+	name = "Victor Karl Friedrich"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	father = 10000498 #Karl Ludwig von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	mother = 10000496 #Amalie Eleonore von Solms-Braunfels; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	1752.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1797.12.2 = { #married to Amalie Charlotte von Nassau-Weilburg, and had his first child with her on 1797.12.2
+		spouse = 10000493 #Amalie Charlotte von Nassau-Weilburg
+	}
+	#reigning prince of Anhalt-Bernburg-Schaumburg
+	1812.4.22 = {
+		death = yes
+	}
+}
+
+10000501 = { #Victorie Amalie von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Victorie Amalie"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000499 #Franz Adolph von Anhalt-Bernburg-Schaumburg
+	mother = 10000500 #Marie Josephe von Haslingen
+	1772.2.11 = { #born on 1772.2.11
+		birth = yes
+	}
+	1832.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000045 = { #Hermine von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Hermine"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000338 #Prince Victor Karl Friedrich of Anhalt-Bernburg-Schaumburg
+	mother = 10000493 #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	1797.12.2 = { #born on 1797.12.2; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+		birth = yes
+	}
+	#owner of the county of Holzappel and the lordship of Schaumburg as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	1817.9.14 = {
+		death = { death_reason = death_childbirth } #died on the same day her son was born
+	}
+}
+
+10000494 = { #Adelheid von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Adelheid"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
+	mother = 10000493 #Amalie Charlotte von Nassau-Weilburg
+	1800.2.23 = {
+		birth = yes
+	}
+	1860.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000361 = { #Emma von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Emma"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
+	mother = 10000493 #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	1802.5.20 = {
+		birth = yes
+	}
+	#dowager princess and regent of Waldeck as of 1847
+	1862.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000495 = { #Ida von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Ida"
+	dynasty = von_anhalt_bernburg_schaumburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
+	mother = 10000493 #Amalie Charlotte von Nassau-Weilburg
+	1804.3.10 = {
+		birth = yes
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

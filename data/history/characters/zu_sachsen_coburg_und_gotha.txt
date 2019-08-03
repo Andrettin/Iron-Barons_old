@@ -1,0 +1,330 @@
+10000458 = { #Sophie von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	name = "Sophie"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	1778.8.19 = { #born on 1778.8.19
+		birth = yes
+	}
+	1804.2.12 = {
+		spouse = 10000459 #married on 1804.2.12 to count Emanuel of Mensdorf
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1838.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000175 = { #Juliane von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Juliane"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	1781.9.23 = {
+		birth = yes
+	}
+	#married on 1796.2.26 to the grand duke Constantin of Russia
+	#divorced on 1820.4.1
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	#her residence was Elfenau (near Bern in Switzerland) as of 1847
+	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because she is alive in 1847)
+		death = yes
+	}
+}
+
+10000170 = { #Ernst I zu Sachsen-Coburg-Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Ernst"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	1784.1.2 = {
+		birth = yes
+	}
+	#became duke of Sachsen-Saalfeld-Coburg on 1806.12.9
+	1818.6.21 = {
+		spouse = 10000171 #Louise von Sachsen-Gotha-Altenburg; date their son was born
+	}
+	1826.11.12 = { #became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1832.12.23 = {
+		spouse = 10000174 #married Maria von Württemberg on 1832.12.23
+	}
+	1844.1.29 = { #died
+		death = yes
+	}
+}
+
+10000180 = { #Ferdinand von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Ferdinand"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	#trait = tough_soldier
+	1785.3.28 = {
+		birth = yes
+	}
+	1816.1.2 = {
+		spouse = 10000181 #married on 1816.1.2 to Antoinette Kohary
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1847.1.1 = { #cavalry general and proprietary of the 8th hussars regiment in the service of Austria as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1855.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because he is alive in 1847)
+		death = yes
+	}
+}
+
+10000197 = { #Victoria von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	name = "Victoria"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	1786.8.17 = {
+		birth = yes
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1856.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because she is alive in 1847)
+		death = yes
+	}
+}
+
+10000107 = { #Leopold I of Belgium; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3, 17.
+	name = "Leopold"
+	dynasty = zu_sachsen_coburg_und_gotha
+	culture = german
+	religion = catholic
+	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+	1790.12.16 = {
+		birth = yes
+	}
+	#king of Belgium, duke of Saxony, prince of Saxe-Coburg and Gotha
+	#on 1817.11.6 became widower of Princess Charlotte-Auguste, daughter of King George IV of Great Britain
+	#on 1831.6.4 was elected King of the Belgians by the national congress of Belgium
+	#on 1831.6.26 he accepted the Belgian crown conditionally
+	#on 1831.7.12 he accepted the Belgian crown definitively
+	1831.7.12 = {
+		effect = {
+			add_weak_claim = d_saxony
+		}
+	}
+	#on 1831.7.21 he was enthroned in Brussels
+	1832.8.9 = {
+		spouse = 10000108 #married on 1832.8.9 to princess Louise d'Orléans
+	}
+	1850.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000183 = { #Ferdinand von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Ferdinand"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
+	mother = 10000181 #Antoinette Kohary
+	1816.10.29 = {
+		birth = yes
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1836.1.1 = {
+		add_matrilineal_spouse = 10000184 #married by procuration on 1836.1.1 and in person on 1836.4.9 to Queen Maria II de Bragança of Portugal
+	}
+	#king consort of Portugal as of 1847
+	1876.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000169 = { #Ernst II zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Ernst"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000170 #Ernst I zu Sachsen-Coburg und Gotha
+	mother = 10000171 #Louise von Sachsen-Gotha-Altenburg
+	1818.6.21 = {
+		birth = yes
+	}
+	1826.11.12 = { #his father became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1842.5.3 = {
+		spouse = 10000173 #married to Alexandrine von Zähringen on 1842.5.3
+	}
+	#succeeded his father on 1844.1.29
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000116 = { #Albert zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2, 30.
+	name = "Albert"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000170 #Ernst I zu Sachsen-Coburg und Gotha
+	mother = 10000171 #Louise von Sachsen-Gotha-Altenburg
+	1819.8.26 = {
+		birth = yes
+	}
+	1826.11.12 = { #his father became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	#prince of Sachsen-Coburg und Gotha
+	#naturalized in Great Britain through the act of 1840.1.24
+	#married on 1840.2.10 to Victoria I of the United Kingdom of Great Britain and Ireland
+	1879.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000185 = { #August von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "August"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
+	mother = 10000181 #Antoinette Kohary
+	#trait = tough_soldier
+	1818.6.13 = {
+		birth = yes
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1843.4.20 = {
+		spouse = 10000186 #married on 1843.4.20 to Princess Clémentine d'Orléans of France
+	}
+	1847.1.1 = { #major-general in the service of the kingdom of Saxony as of 1847
+		employer = 10000187 #King Friedrich August von Wettin of Saxony
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000195 = { #Victoria von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	name = "Victoria"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
+	mother = 10000181 #Antoinette Kohary
+	1822.2.14 = {
+		birth = yes
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	#wife of Duke Louis of Nemours after 1840.4.27
+	1882.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000196 = { #Leopold von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	name = "Leopold"
+	dynasty = von_sachsen_saalfeld_coburg
+	culture = german
+	religion = protestant
+	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
+	mother = 10000181 #Antoinette Kohary
+	#trait = tough_soldier
+	1824.1.31 = {
+		birth = yes
+	}
+	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
+		dynasty = zu_sachsen_coburg_und_gotha
+	}
+	1847.1.1 = { #cavalry captain in the service of Austria as of 1847, 1st regiment of ulans Count Civalart
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1884.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000192 = { #Philipp zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
+	name = "Philipp"
+	dynasty = zu_sachsen_coburg_und_gotha
+	culture = german
+	religion = protestant
+	father = 10000185 #August von Sachsen-Saalfeld-Coburg
+	mother = 10000186 #Clémentine d'Orléans
+	1844.3.28 = {
+		birth = yes
+	}
+	1904.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000193 = { #August zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	name = "August"
+	dynasty = zu_sachsen_coburg_und_gotha
+	culture = german
+	religion = protestant
+	father = 10000185 #August von Sachsen-Saalfeld-Coburg
+	mother = 10000186 #Clémentine d'Orléans
+	1845.8.9 = {
+		birth = yes
+	}
+	1905.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000194 = { #Maria zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
+	name = "Maria"
+	dynasty = zu_sachsen_coburg_und_gotha
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000185 #August von Sachsen-Saalfeld-Coburg
+	mother = 10000186 #Clémentine d'Orléans
+	1846.7.8 = {
+		birth = yes
+	}
+	1906.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

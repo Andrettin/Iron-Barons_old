@@ -1,0 +1,108 @@
+10000367 = { #Friedrich Erdmann von Anhalt-Pless; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Friedrich Erdmann"
+	dynasty = von_anhalt_pless
+	culture = german
+	religion = protestant
+	1731.10.26 = {
+		birth = yes
+	}
+	#prince of Anhalt-Pless
+	1769.6.25 = { #married to Luise Ferdinande von Stollberg-Wernigerode, and they had their first child on 1769.6.25; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+		spouse = 10000507 #Luise Ferdinande von Stollberg-Wernigerode
+	}
+	1797.12.12 = {
+		death = yes
+	}
+}
+
+10000368 = { #Ferdinand von Anhalt-Pless; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
+	name = "Ferdinand"
+	dynasty = von_anhalt_pless
+	culture = german
+	religion = protestant
+	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
+	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	#trait = tough_soldier
+	1769.6.25 = {
+		birth = yes
+	}
+	#became widowed on 1803.11.24 of Marie Dorothee von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	#owner of the Standesherrschaft of Pless in Upper Silesia as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	1815.1.1 = {
+		employer = 10000008 #Friedrich Wilhelm III of Prussia
+		effect = {
+			make_commander_effect = yes #royal Prussian general-major as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+		}
+	}
+	1818.12.16 = { #his brother succeeded him to the principality of Pless on 1818.12.16, but only later (on 1830.8.23) to the duchy of Köthen, indicating that Ferdinand abandoned the former for the latter on 1818.12.16; succeeded Ludwig, last duke of the main branch, on 1818.12.16
+		dynasty = von_anhalt_kothen
+	}
+	#duke of Köthen
+	1830.8.23 = {
+		death = yes
+	}
+}
+
+10000511 = { #Anne Emilie von Anhalt-Pless; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	name = "Anne Emilie"
+	dynasty = von_anhalt_pless
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
+	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode
+	1770.5.20 = {
+		birth = yes
+	}
+	1791.5.20 = { #married on 1791.5.20 to count Johann Heinrich VI of Hochberg zu Fürstenstein
+		spouse = 10000512 #Johann Heinrich von Hochberg zu Fürstenstein
+	}
+	1830.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000366 = { #Heinrich von Anhalt-Pless; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
+	name = "Heinrich"
+	dynasty = von_anhalt_pless
+	culture = german
+	religion = protestant
+	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
+	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	#trait = tough_soldier
+	1778.7.30 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		employer = 10000008 #Friedrich Wilhelm III of Prussia
+		effect = {
+			make_commander_effect = yes #royal Prussian colonel ("oberst") as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+		}
+	}
+	#succeeded his brother, duke Ferdinand, on 1818.12.16 to the principality of Pless, and on 1830.8.23 in the government of the duchy of Köthen
+	1819.5.18 = {
+		spouse = 10000369 #married on 1819.5.18 to Auguste Friederike Espérance, daughter of prince Heinrich XLIV of Reuss-Schleiz-Köstritz, cadet branch
+	}
+	1830.8.23 = {
+		dynasty = von_anhalt_kothen
+	}
+	#elder prince of the house of Anhalt after 1834.3.24
+	1848.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was still alive in 1847)
+		death = yes
+	}
+}
+
+10000513 = { #Ludwig von Anhalt-Pless; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	name = "Ludwig"
+	dynasty = von_anhalt_pless
+	culture = german
+	religion = protestant
+	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
+	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode
+	1783.8.10 = {
+		birth = yes
+	}
+	1843.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

@@ -1,0 +1,880 @@
+10000053 = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	name = "Karl"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	#traits += fortune_builder
+	1685.1.1 = { #born in 1685; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+		birth = yes
+	}
+	#became emperor of the HRE in 1711; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	1740.1.1 = { #died in 1740; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+		death = yes
+	}
+}
+
+10000129 = { #Empress Maria Theresia of the Holy Roman Empire; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	name = "Maria Theresia"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000053 #Emperor Karl VI of the Holy Roman Empire; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	1717.1.1 = { #born in 1717; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+		birth = yes
+	}
+	#became queen of Bohemia and Hungary on 1740; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	#became empress of the HRE in 1745; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	1780.1.1 = { #died in 1780; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+		death = yes
+	}
+}
+
+10000024 = { #Emperor Leopold II of the Holy Roman Empire; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Leopold"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 249-250.
+	1747.5.5 = {
+		birth = yes
+	}
+	#married to Marie Louise, daughter of king Charles III of Spain
+	1768.2.12 = { #marriage date unknown, but this is the date their first child was born
+		spouse = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	}
+	1792.3.1 = {
+		death = yes
+	}
+}
+
+10000380 = { #Archduke Ferdinand von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
+	name = "Ferdinand"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire (since he is Ferdinand I of Austria's grand uncle)
+	1748.1.1 = { #unknown, set to the year after the birth of his (presumably elder, since he was the one to inheirt) brother
+		birth = yes
+	}
+	#duke of Modena-Breisgau
+	#husband of archduchess Maria Beatrix d'Este, duchess of Massa and princess of Carrara
+	1776.12.10 = { #date of the birth of the first child
+		spouse = 10000381 #Archduchess Maria Beatrix d'Este
+	}
+	1806.12.24 = {
+		death = yes
+	}
+}
+
+10000481 = { #Marie Christine von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	name = "Marie Christine"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	#daughter of Franz I, presumably of the Holy Roman Empire
+	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire (presumably her mother, since her father is Franz I)
+	1733.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#wife of Albert von Wettin, duke of Sachsen-Teschen
+	1793.7.24 = {
+		death = yes
+	}
+}
+
+10000472 = { #Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+	name = "Marie Theresie"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain; presumably, since she is also the mother of Leopold II's other children
+	1767.1.1 = { #unknown, set to 20 years before marriage
+		birth = yes
+	}
+	1787.10.18 = { #married on 1787.10.18 to Anton von Wettin
+		spouse = 10000188 #Anton von Wettin
+	}
+	1827.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000000 = { #Franz von Habsburg, Emperor Franz II of the Holy Roman Empire and later Emperor Franz I of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	name = "Franz"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	#traits += intricate_webweaver
+	1768.2.12 = {
+		birth = yes
+	}
+	1791.12.12 = { #marriage date unknown, but their daughter Marie Louise was born on 1791.12.12
+		spouse = 10000001 #Maria Theresa de Bourbon
+	}
+	1816.10.29 = { #married by procuration on 1816.10.29 and in person on 1816.11.10
+		spouse = 10000004 #Caroline von Wittelsbach
+	}
+	1835.3.2 = {
+		death = yes
+	}
+}
+
+10000381 = { #Archduchess Maria Beatrix d'Este; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
+	name = "Maria Beatrix"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	1756.1.1 = { #unknown, set to 20 years before the birth of her first child
+		birth = yes
+	}
+	#archduchess of Este, duchess of Massa and princess of Carrara
+	#wife of Archduke Ferdinand von Habsburg
+	1829.11.14 = {
+		death = yes
+	}
+}
+
+10000026 = { #Ferdinand III of Tuscany; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Ferdinand"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	1769.5.6 = {
+		birth = yes
+	}
+	1824.6.18 = {
+		death = yes
+	}
+	#Grand Duke of Tuscany as Ferdinand III
+}
+
+10000027 = { #Archduke Karl; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Karl"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	#traits += tough_soldier
+	1771.9.5 = {
+		birth = yes
+	}
+	#resigned as Grand Master of the Teutonic Order on 1804.6.30
+	1815.9.17 = {
+		spouse = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	}
+	1847.1.1 = { #field marshal-general and proprietary of the 3rd infantry regiment and of the 3rd ulans regiment as of 1847
+		#traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1857.1.1 = { #unknown
+		death = yes
+	}
+}
+
+10000382 = { #Marie Leopoldine von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
+	name = "Marie Leopoldine"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000380 #Archduke Ferdinand von Habsburg
+	mother = 10000381 #Archduchess Maria Beatrix d'Este
+	1776.12.10 = {
+		birth = yes
+	}
+	#became widowed of prince-elector Karl Theodor on 1799.2.16; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+	1856.1.1 = { #unknown, set to 80 years after birth (she was alive in 1847)
+		death = yes
+	}
+}
+
+10000383 = { #Archduke Franz Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
+	name = "Franz Joseph"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000380 #Archduke Ferdinand von Habsburg
+	mother = 10000381 #Archduchess Maria Beatrix d'Este
+	1779.10.6 = {
+		birth = yes
+	}
+	1846.1.21 = {
+		death = yes
+	}
+}
+
+10000384 = { #Archduke Ferdinand Karl Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
+	name = "Ferdinand Karl Joseph"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000380 #Archduke Ferdinand von Habsburg
+	mother = 10000381 #Archduchess Maria Beatrix d'Este
+	#traits += tough_soldier
+	1781.4.25 = {
+		birth = yes
+	}
+	1847.1.1 = { #fieldmarshal, commander-in-chief and proprietary of the 3rd hussars regiment, as well as of the imperial Russian hussars regiment of Isum., as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
+		death = yes
+	}
+}
+
+10000385 = { #Archduke Maximilian Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
+	name = "Maximilian Joseph Johann"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000380 #Archduke Ferdinand von Habsburg
+	mother = 10000381 #Archduchess Maria Beatrix d'Este
+	#traits += tough_soldier
+	1782.7.14 = {
+		birth = yes
+	}
+	1847.1.1 = { #general-"feldzeugmestre", proprietary of the 4th infantry regiment and grandmaster of the Teutonic Order within the Empire of Austria as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1852.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
+		death = yes
+	}
+}
+
+10000106 = { #Archduchess Theresa of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11, 23-24.
+	name = "Theresa"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000027 #Archduke Karl of Austria
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	1816.7.31 = {
+		birth = yes
+	}
+	#married on 1837.1.9 in Trent to Ferdinand II of the Two Sicilies
+	1876.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000042 = { #Archduke Joseph Anton Johann; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12, 81.
+	name = "Joseph Anton Johann"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	#traits += tough_soldier
+	1776.3.9 = {
+		birth = yes
+	}
+	#widow of Alexandrine, daughter of Emperor Paul I of Russia, who died on 1801.3.16
+	#widow of Herminie, daughter of Prince Victor Karl Friedrich of Anhalt-Bernburg-Schaumburg, who died on 1817.9.14
+	1817.9.14 = { #marriage date unknown, this is the date their son Archduke Stefan was born
+		spouse = 10000045 #Hermine von Anhalt-Bernburg-Schaumburg
+	}
+	1819.8.24 = {
+		spouse = 10000043 #Princess Maria Dorothée Wilhelmina of Wurtemberg
+	}
+	1847.1.1 = { #field marshal-general and proprietary of the 2nd and 12th hussars regiments as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1857.1.1 = { #unknown
+		death = yes
+	}	
+}
+
+10000006 = { #Archduke Johann Baptiste Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	name = "Johann Baptiste Joseph"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	#traits += tough_soldier
+	1782.1.20 = {
+		birth = yes
+	}
+	1847.1.1 = { #was fieldmarshal and general director of engineering and fortifications, as well as proprietary of the 1st regiment of dragoons and the 16th Prussian regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+		traits += architect #engineer
+		traits += siege_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1852.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
+		death = yes
+	}
+}
+
+10000063 = { #Archduke Reiner Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	name = "Reiner Joseph Johann" #source gives "Reinier-Jos.-Jean-Mich.-François-Jérôme"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	#traits += tough_soldier
+	1783.9.30 = {
+		birth = yes
+	}
+	1820.5.28 = {
+		spouse = 10000064 #Francisca de Saboya
+	}
+	#was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	1847.1.1 = { #was general-"feldzeugmestre" and proprietary of the 11th regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1857.1.1 = { #unknown
+		death = yes
+	}
+}
+
+10000379 = { #Archduke Ludwig Joseph Anton von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11, 13.
+	name = "Ludwig Joseph Anton"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000024 #Leopold II of the Holy Roman Empire
+	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
+	#traits += tough_soldier
+	1784.12.13 = {
+		birth = yes
+	}
+	1847.1.1 = { #fieldmarshal and general-director of artillery, and proprietary of the 8th infantry regiment as of 1847
+		traits += siege_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1857.1.1 = { #unknown
+		death = yes
+	}
+}
+
+10000016 = { #Marie Luise von Habsburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	name = "Marie Luise"
+	female = yes
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000000 #Franz von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	mother = 10000001 #Maria Theresa de Bourbon; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	1791.12.12 = { #born on 1791.12.12; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+		birth = yes
+	}
+	1810.3.11 = { #married by procuration on 1810.3.11 and in person on 1810.4.2 to Napoleon; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+		spouse = 10000434 #Emperor Napoléon of France
+	}
+	1851.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000002 = { #Ferdinand von Habsburg, Emperor Ferdinand I of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+	name = "Ferdinand"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000000 #Franz von Habsburg
+	mother = 10000001 #Maria Theresa de Bourbon
+	traits += incapable
+	1793.4.19 = {
+		birth = yes
+	}
+	1831.2.12 = { #married by procuration on 1831.2.12 and in person on 1831.2.27
+		spouse = 10000015 #Mariana de Saboya
+	}
+	1853.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000190 = { #Archduchess Caroline von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+	name = "Caroline"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000000 #Franz von Habsburg
+	mother = 10000001 #Maria Theresa de Bourbon
+	1801.4.8 = {
+		birth = yes
+	}
+	#married Friedrich August von Wettin
+	1832.5.22 = {
+		death = yes
+	}
+}
+
+10000017 = { #Archduke Franz; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	name = "Franz"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000000 #Franz von Habsburg
+	mother = 10000001 #Maria Theresa de Bourbon
+	#traits += tough_soldier
+	1802.12.7 = {
+		birth = yes
+	}
+	1824.11.4 = { #married on 1824.11.4
+		spouse = 10000018 #Friederike Sophie Dorothee von Wittelsbach
+	}
+	1847.1.1 = { #FMLieut. and proprietary of the 52nd infantry regiment as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1854.1.1 = {
+		death = yes
+	}
+	
+}
+
+#Archduchess Marie, sister to Ferdinand I and wife to Prince Leopold of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+
+10000023 = { #Archduchess Marie Anne; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	name = "Marie Anne"
+	female = yes
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000000 #Franz von Habsburg
+	mother = 10000001 #Maria Theresa de Bourbon
+	1804.6.8 = {
+		birth = yes
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000029 = { #Archduke Albert; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Albert"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000027 #Archduke Karl
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	#traits += tough_soldier
+	1817.8.3 = {
+		birth = yes
+	}
+	1844.5.1 = {
+		spouse = 10000030 #Princess Hildegard of Bavaria
+	}
+	1847.1.1 = { #FML., general-commander in Lower and Upper Austria, in Salzburg and in Vienna, proprietary of the 44th infantry regiment
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1877.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000044 = { #Stefan Franz Victor von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Stefan Franz Victor" #source gives "Etienne-François-Victor"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000042 #Archduke Joseph
+	mother = 10000045 #Hermine von Anhalt-Bernburg-Schaumburg
+	#traits += tough_soldier
+	1817.9.14 = {
+		birth = yes
+	}
+	1847.1.1 = { #major-general and proprietary of the 58th infantry regiment as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	#governor-in-chief of the kingdom of Bohemia as of 1847
+	1877.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+	
+}
+
+10000038 = { #Archduke (Karl) Ferdinand; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	name = "Ferdinand"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000027 #Archduke Karl
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	#traits += tough_soldier
+	1818.7.29 = {
+		birth = yes
+	}
+	1847.1.1 = { #FMLieut. and commander of the division in Prague, proprietary of the 51st imperial and royal infantry regiment, as well as the Russian ulans regiment of Belgorod as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000373 = { #Adelaide von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Adelaide"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
+	mother = 10000064 #Francisca de Saboya
+	1820.5.28 = { #unknown, set to date of marriage of parents
+		birth = yes
+	}
+	#wife of the royal prince of Sardinia
+	1880.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000039 = { #Archduke Friedrich; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	name = "Friedrich"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000027 #Archduke Karl
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	#traits += tough_soldier
+	1821.5.14 = {
+		birth = yes
+	}
+	1847.1.1 = { #FMLieut., vice-admiral and commander-in-chief of the imperial navy, proprietary of the 16th infantry regiment as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1881.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000374 = { #Leopold Ludwig Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
+	name = "Leopold Ludwig Maria"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
+	mother = 10000064 #Francisca de Saboya
+	#traits += tough_soldier
+	1823.6.6 = {
+		birth = yes
+	}
+	1847.1.1 = { #colonel and proprietary of the 53rd infantry regiment, and colonel of the dragoons of the regiment "King of Bavaria" as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1883.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000375 = { #Ernst Karl Felix von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
+	name = "Ernst Karl Felix"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
+	mother = 10000064 #Francisca de Saboya
+	#traits += tough_soldier
+	1824.8.8 = {
+		birth = yes
+	}
+	1847.1.1 = { #proprietary of the 48th infantry regiment and colonel of the hussars regiment "King of Sardinia", number 5, as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1884.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000040 = { #Archduchess Caroline; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	name = "Caroline"
+	female = yes
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000027 #Archduke Karl
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	1825.9.10 = {
+		birth = yes
+	}
+	1847.1.1 = {
+		traits += nun #abbess of the Theresian noble chapter in Prague as of 1847
+	}
+	1885.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000376 = { #Sigmund Leopold Reiner von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
+	name = "Sigmund Leopold Reiner"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
+	mother = 10000064 #Francisca de Saboya
+	#traits += tough_soldier
+	1826.1.7 = {
+		birth = yes
+	}
+	1847.1.1 = { #imperial and royal colonel of the 11th infantry regiment as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1886.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000377 = { #Reiner Ferdinand Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
+	name = "Reiner Ferdinand Maria"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
+	mother = 10000064 #Francisca de Saboya
+	#traits += tough_soldier
+	1827.1.11 = {
+		birth = yes
+	}
+	1847.1.1 = { #imperial and royal colonel of the infantry regiment "The Emperor", number 1, as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1887.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000041 = { #Archduke Wilhelm; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	name = "Wilhelm"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000027 #Archduke Karl
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	#traits += tough_soldier
+	1827.4.21 = {
+		birth = yes
+	}
+	1847.1.1 = { #proprietary of the 12th infantry regiment as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1887.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000378 = { #Heinrich Anton Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
+	name = "Heinrich Anton Maria"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
+	mother = 10000064 #Francisca de Saboya
+	#traits += tough_soldier
+	1828.5.9 = {
+		birth = yes
+	}
+	1847.1.1 = { #imperial and royal colonel of the regiment "Archduke Karl", number 3, as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1888.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000019 = { #Emperor Franz Joseph I of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Franz Joseph"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000017 #Archduke Franz
+	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
+	#traits += tough_soldier
+	traits += diligent
+	1830.8.18 = {
+		birth = yes
+	}
+	1847.1.1 = { #colonel and proprietary of the 3rd dragoons regiment as of 1847
+		traits += cavalry_leader
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1916.1.1 = { #died in 1916; Source: Pieter M. Judson, "The Habsburg Empire: A New History", 2016, p. 215.
+		death = yes
+	}
+}
+
+10000046 = { #Elisabeth von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Elisabeth"
+	female = yes
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000042 #Archduke Joseph
+	mother = 10000043 #Princess Maria of Wurtemberg
+	1831.1.17 = {
+		birth = yes
+	}
+	1891.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000020 = { #Archduke Ferdinand; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Ferdinand"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000017 #Archduke Franz
+	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
+	1832.7.6 = {
+		birth = yes
+	}
+	1892.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000047 = { #Joseph Karl Ludwig von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Joseph Karl Ludwig"
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000042 #Archduke Joseph
+	mother = 10000043 #Princess Maria of Wurtemberg
+	1833.3.2 = {
+		birth = yes
+	}
+	1893.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000021 = { #Archduke Karl; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Karl"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000017 #Archduke Franz
+	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
+	1833.7.30 = {
+		birth = yes
+	}
+	1893.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000048 = { #Maria Henriette Anna von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
+	name = "Maria Henriette Anna"
+	female = yes
+	dynasty = von_habsburg
+	culture = german
+	religion = catholic
+	father = 10000042 #Archduke Joseph
+	mother = 10000043 #Princess Maria of Wurtemberg
+	1836.8.23 = {
+		birth = yes
+	}
+	1896.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000022 = { #Archduke Ludwig; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Ludwig"
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000017 #Archduke Franz
+	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
+	1842.5.15 = {
+		birth = yes
+	}
+	1902.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+#Archduchess Theresa, Queen of the Two Sicilies; daughter of Archduke Charles and Henriette; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+
+10000031 = { #Archduchess Maria Theresa; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+	name = "Maria Theresa"
+	female = yes
+	dynasty = von_habsburg
+	religion = catholic
+	culture = german
+	father = 10000029 #Archduke Albert
+	mother = 10000030 #Princess Hildegard of Bavaria
+	1845.7.15 = {
+		birth = yes
+	}
+	1905.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

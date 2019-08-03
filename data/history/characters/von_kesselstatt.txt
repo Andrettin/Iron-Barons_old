@@ -1,0 +1,36 @@
+10000082 = { #Karl von Kesselstatt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 266.
+	name = "Karl"
+	dynasty = von_kesselstatt
+	culture = german
+	religion = protestant
+	1764.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#count of Kesselstatt
+	#fathered Kunigunde von Kesselstatt on 1794.8.28
+	1824.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000081 = { #Kunigunde von Kesselstatt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 266.
+	name = "Kunigunde" #source gives "Cunégonde"
+	female = yes
+	dynasty = von_kesselstatt
+	culture = german
+	religion = protestant
+	father = 10000082 #Karl von Kesselstatt
+	1794.8.28 = {
+		birth = yes
+	}
+	#married on 1815.8.6 to Philipp von Stadion
+	#DdP. as of 1847
+	1847.1.1 = { #Lady of the Starry Cross as of 1847
+		effect = {
+			#join_society = order_of_the_starry_cross
+		}
+	}
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

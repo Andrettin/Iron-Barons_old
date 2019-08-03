@@ -1,0 +1,95 @@
+10000583 = { #Friedrich Franz von Mecklenburg-Schwerin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 14.
+	name = "Friedrich Franz"
+	dynasty = von_mecklenburg_schwerin
+	culture = german
+	religion = protestant
+	1756.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#duke of Mecklenburg-Schwerin
+	1816.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000431 = { #Luise Charlotte von Mecklenburg-Schwerin; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1.
+	name = "Luise Charlotte"
+	dynasty = von_mecklenburg_schwerin
+	culture = german
+	religion = protestant
+	female = yes
+	1770.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#her daughter was born on 1800.12.21
+	1802.4.24 = { #her husband was married a second time on 1802.4.24
+		death = yes
+	}
+}
+
+10000580 = { #Sophie Friederike von Mecklenburg-Schwerin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 14.
+	name = "Sophie Friederike"
+	dynasty = von_mecklenburg_schwerin
+	culture = german
+	religion = protestant
+	female = yes
+	1766.1.1 = { #unknown, set to 20 years before the birth of her child
+		birth = yes
+	}
+	#princess of Mecklenburg-Schwering
+	1786.9.18 = { #married to Fredrik af Danmark, and they had their first child on 1786.9.18
+		spouse = 10000579 #Fredrik af Danmark
+	}
+	1826.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000582 = { #Charlotte Friederike von Mecklenburg-Schwerin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 14.
+	name = "Charlotte Friederike"
+	dynasty = von_mecklenburg_schwerin
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000583 #Friedrich Franz von Mecklenburg-Schwerin
+	1786.1.1 = { #unknown, set to 20 years before her marriage
+		birth = yes
+	}
+	1806.6.11 = { #married on 1806.6.11 to Christian Fredrik af Danmark
+		spouse = 10000581 #Christian Fredrik af Danmark
+	}
+	1846.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000223 = { #Friedrich von Mecklenburg-Schwerin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Friedrich"
+	dynasty = von_mecklenburg_schwerin
+	culture = german
+	religion = protestant
+	1773.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#hereditary prince of Mecklenburg-Schwerin
+	1833.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000222 = { #Maria von Mecklenburg-Schwerin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Maria"
+	dynasty = von_mecklenburg_schwerin
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000223 #Friedrich Ludwig von Mecklenburg-Schwerin
+	1803.3.31 = {
+		birth = yes
+	}
+	#married on 1825.10.7 to Georg von Sachsen-Altenburg
+	1863.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+

@@ -1,0 +1,945 @@
+10000778 = { #Friederich von Württemberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Friederich"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant #lutheran
+	1723.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#duke of Württemberg-Stuttgart
+	1783.1.1 = { #unknown, set to 30 years after the birth of his daughter
+		death = yes
+	}
+}
+
+10000777 = { #Friederike Elisabeth Amalie von Württemberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Friederike Elisabeth Amalie"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	father = 10000778 #Friederich von Württemberg
+	#second daughter of her father
+	1753.1.1 = { #unknown, set to 30 years before the birth of her son
+		birth = yes
+	}
+	#married to Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
+	1785.11.24 = {
+		death = yes
+	}
+}
+
+10000248 = { #Friedrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Friedrich"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	1754.11.6 = {
+		birth = yes
+	}
+	#king of Wurtemberg
+	1816.10.30 = { #succeeded by his son on 1816.10.30
+		death = yes
+	}
+}
+
+10000251 = { #Duke Ludwig Friedrich Alexander of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12, 80-81.
+	name = "Ludwig Friedrich Alexander"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	1757.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	1792.1.16 = {
+		spouse = 10000271 #had a child by his first wife, Marie Czartoryski, on 1792.1.16
+	}
+	1797.1.28 = { #married on 1797.1.28 to Henriette von Nassau-Weilburg
+		spouse = 10000267 #Henriette von Nassau-Weilburg
+	}
+	1817.9.20 = {
+		death = yes
+	}
+}
+
+10000279 = { #Eugen Friedrich Heinrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
+	name = "Eugen Friedrich Heinrich"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	1758.11.21 = {
+		birth = yes
+	}
+	1822.6.20 = {
+		death = yes
+	}
+}
+
+10000298 = { #Wilhelm Friedrich Philipp von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
+	name = "Wilhelm Friedrich Philipp"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	1761.12.27 = {
+		birth = yes
+	}
+	1830.8.10 = {
+		death = yes
+	}
+}
+
+10000312 = { #Ferdinand August Friedrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 83.
+	name = "Ferdinand August Friedrich"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	1763.10.22 = {
+		birth = yes
+	}
+	1817.2.23 = {
+		spouse = 10000313 #married on 1817.2.23 to Pauline, daughter of prince Franz Georg Karl von Metternich
+	}
+	#fieldmarshal in the Austrian army
+	1834.1.20 = {
+		death = yes
+	}
+}
+
+10000178 = { #Alexander Friedrich Karl von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 2, 80, 83.
+	name = "Alexander Friedrich Karl"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	1771.4.24 = {
+		birth = yes
+	}
+	#general-in-chief in service of Russia, director-in-chief of all the communication routes in the empire
+	#married to Antoinette Ernestine Amélie von Sachsen-Saalfeld-Coburg
+	1799.9.17 = { #date the first child with Antoinette Ernestine Amélie von Sachsen-Saalfeld-Coburg was born
+		spouse = 10000315 #Antoinette Ernestine Amélie von Sachsen-Saalfeld-Coburg
+	}
+	1833.7.4 = {
+		death = yes
+	}
+}
+
+10000247 = { #Wilhelm Friedrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Wilhelm Friedrich"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000248 #Friedrich von Württemberg
+	1781.9.27 = {
+		birth = yes
+	}
+	1816.1.24 = {
+		spouse = 10000249 #married on 1816.1.24 to Catherine Paulowna, daughter of Emperor Paul of Russia
+	}
+	#king of Wurtemberg
+	#succeeded his father, king Friedrich of Wurtemberg, on 1816.10.30
+	1820.4.15 = {
+		spouse = 10000250 #married on 1820.4.15 to Pauline, daughter of duke Ludwig Friedrich Alexander of Württemberg
+	}
+	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 because he was still alive in 1847)
+		death = yes
+	}
+}
+
+10000220 = { #Paul von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 80.
+	name = "Paul"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000248 #Friedrich von Württemberg
+	1785.1.19 = {
+		birth = yes
+	}
+	1805.9.28 = { #married on 1805.9.28 to Charlotte von Sachsen-Altenburg
+		spouse = 10000219 #Charlotte von Sachsen-Altenburg
+	}
+	#prince of Wurtemberg as of 1847
+	1877.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000280 = { #Eugen von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
+	name = "Eugen"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000279 #Eugen Friedrich Heinrich von Württemberg
+	#trait = tough_soldier
+	1788.1.8 = {
+		birth = yes
+	}
+	1818.3.25 = { #date he had his first child by his first wife
+		spouse = 10000281 #Mathilde, daughter of prince Georg of Waldeck-Pyrmont
+	}
+	#widowed on 1825.4.13 of Mathilde, daughter of prince Georg of Waldeck-Pyrmont
+	1827.9.11 = {
+		spouse = 10000282 #remarried on 1827.9.11 to princess Helena von Hohenlohe-Langenburg
+	}
+	1847.1.1 = { #infantry general in the service of Russia and chief of a grenadiers regiment as of 1847
+		traits += heavy_infantry_leader
+		employer = 10000262 #Emperor Nicolas I of Russia
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1848.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000294 = { #Louise von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
+	name = "Louise"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000279 #Eugen Friedrich Heinrich von Württemberg
+	1789.1.1 = { #unknown, set to one year after previous sibling's birth
+		birth = yes
+	}
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000272 = { #Adam von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Adam"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000251 #Ludwig Friedrich Alexander von Württemberg
+	mother = 10000271 #Marie Czartoryski
+	1792.1.16 = {
+		birth = yes
+	}
+	1847.1.1 = { #lieutenant-general in service of Russia and aide-de-camp to the emperor of Russia, in retirement, as of 1847
+		employer = 10000262 #Emperor Nicolas I of Russia
+	}
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000295 = { #Friedrich Paul von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
+	name = "Friedrich Paul"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000279 #Eugen Friedrich Heinrich von Württemberg
+	#trait = tough_soldier
+	1797.6.25 = {
+		birth = yes
+	}
+	1827.4.17 = {
+		spouse = 10000296 #married on 1827.4.17 to Sophie von Thurn und Taxis
+	}
+	1847.1.1 = { #cavalry major-general in service of Württemberg as of 1847
+		traits += cavalry_leader
+		employer = 10000247 #Wilhelm Friedrich von Württemberg
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1857.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000043 = { #Maria Dorothée Wilhelmina von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12, 81.
+	name = "Maria Dorothée Wilhelmina"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000251 #Ludwig Friedrich Alexander von Württemberg
+	mother = 10000267 #Henriette von Nassau-Weilburg
+	1797.11.1 = {
+		birth = yes
+	}
+	1857.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000214 = { #Amélie von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 81.
+	name = "Amélie"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000251 #Ludwig Friedrich Alexander von Württemberg
+	mother = 10000267 #Henriette von Nassau-Weilburg
+	1799.6.28 = {
+		birth = yes
+	}
+	#married on 1817.4.24 to Joseph von Sachsen-Altenburg
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000174 = { #Maria Anna von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 2, 83.
+	name = "Maria Anna"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000178 #Alexander Friedrich Karl von Württemberg
+	mother = 10000315 #Antoinette Ernestine Amélie von Sachsen-Saalfeld-Coburg
+	1799.9.17 = {
+		birth = yes
+	}
+	#married on 1832.12.23 to Ernst I zu Sachsen-Saalfeld-Coburg
+	#became a widow on 1844.1.29
+	#dowager duchess of Saxe-Coburg-Gotha as of 1847
+	1859.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000250 = { #Pauline, daughter of duke Ludwig Friedrich Alexander of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Pauline"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000251 #Duke Ludwig Friedrich Alexander of Württemberg, uncle of king Wilhelm Friedrich of Wurtemberg
+	mother = 10000267 #Henriette von Nassau-Weilburg
+	1800.9.4 = {
+		birth = yes
+	}
+	1860.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000299 = { #Christian Friedrich Alexander von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Christian Friedrich Alexander"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000298 #Wilhelm Friedrich Philipp von Württemberg
+	1801.11.5 = {
+		birth = yes
+	}
+	1832.7.3 = {
+		spouse = 10000300 #married Helene Antoinette Josephine Festetics-Tolna on 1832.7.3
+	}
+	1844.7.7 = {
+		death = yes
+	}
+}
+
+10000179 = { #Elisabeth von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+	name = "Elisabeth"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000251 #Ludwig Friedrich Alexander von Württemberg
+	mother = 10000267 #Henriette von Nassau-Weilburg
+	1802.2.27 = {
+		birth = yes
+	}
+	1830.10.16 = {
+		spouse = 10000273 #married on 1830.10.16 to margrave Wilhelm of Baden
+	}
+	1862.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000274 = { #Alexander von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+	name = "Alexander"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000251 #Ludwig Friedrich Alexander von Württemberg
+	mother = 10000267 #Henriette von Nassau-Weilburg
+	#trait = tough_soldier
+	1804.9.9 = {
+		birth = yes
+	}
+	1835.5.2 = {
+		spouse = 10000275 #married on 1835.5.2 to Susanne, countess Rhéday of Kiss-Rhéde, in a morganatic marriage
+	}
+	#widowed after 1841.10.1
+	1847.1.1 = { #major-general and brigadier at Graz in service of Austria as of 1847
+		employer = 10000002 #Emperor Ferdinand I of Austria
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000316 = { #Alexander von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
+	name = "Alexander"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000178 #Alexander Friedrich Karl von Württemberg
+	mother = 10000315 #Antoinette Ernestine Amélie von Sachsen-Saalfeld-Coburg
+	#trait = tough_soldier
+	1804.12.20 = {
+		birth = yes
+	}
+	1837.10.17 = {
+		spouse = 10000317 #married on 1837.10.17 to princess Marie Christine Caroline d'Orléans, daughter of the king of the French
+	}
+	#widowed after 1839.1.2
+	1847.1.1 = { #senior major-general in service of Russia as of 1847
+		employer = 10000262 #Emperor Nicolas I of Russia
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1864.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000264 = { #Charlotte von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Charlotte"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000220 #Paul von Württemberg
+	mother = 10000219 #Charlotte von Sachsen-Altenburg
+	1805.9.28 = { #unknown, set to parent's date of marriage
+		birth = yes
+	}
+	1865.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000265 = { #Pauline von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Pauline"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000220 #Paul von Württemberg
+	mother = 10000219 #Charlotte von Sachsen-Altenburg
+	1805.9.28 = { #unknown, set to parent's date of marriage
+		birth = yes
+	}
+	#dowager duchess of Nassau as of 1847
+	1865.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000319 = { #Ernst Alexander Constantin von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
+	name = "Ernst Alexander Constantin"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000178 #Alexander Friedrich Karl von Württemberg
+	mother = 10000315 #Antoinette Ernestine Amélie von Sachsen-Saalfeld-Coburg
+	#trait = tough_soldier
+	1807.8.11 = {
+		birth = yes
+	}
+	1847.1.1 = { #senior major-general in service of Russia as of 1847
+		employer = 10000262 #Emperor Nicolas I of Russia
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1867.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000259 = { #Friedrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "Friedrich"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000220 #Paul von Württemberg
+	mother = 10000219 #Charlotte von Sachsen-Altenburg
+	#trait = tough_soldier
+	1808.2.21 = {
+		birth = yes
+	}
+	1845.11.20 = {
+		spouse = 10000258 #married on 1845.11.20 to Catherine von Württemberg
+	}
+	1847.1.1 = { #lieutenant-general in the service of Wurtemberg and chief of an uhlans regiment in the service of Russia as of 1847
+		traits += cavalry_leader
+		employer = 10000247 #Wilhelm Friedrich von Württemberg
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1868.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000305 = { #Wilhelm Alexander Ferdinand von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Wilhelm Alexander Ferdinand"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000298 #Wilhelm Friedrich Philipp von Württemberg
+	#trait = tough_soldier
+	1810.7.6 = {
+		birth = yes
+	}
+	1841.2.8 = {
+		spouse = 10000306 #married on 1841.2.8 to Théodolinde Louise Eugénie, princess of Leuchtenberg
+	}
+	1847.1.1 = { #major-general in the service of Württemberg as of 1847
+		employer = 10000247 #Wilhelm Friedrich von Württemberg
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1870.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000266 = { #August von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+	name = "August"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000220 #Paul von Württemberg
+	mother = 10000219 #Charlotte von Sachsen-Altenburg
+	#trait = tough_soldier
+	1813.1.24 = {
+		birth = yes
+	}
+	1847.1.1 = { #major-general in the service of Prussia and commander of a cavalry brigade of the guard as of 1847
+		traits += cavalry_leader
+		employer = 10000010 #Friedrich Wilhelm IV of Prussia
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1873.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000310 = { #Maria Alexandrine Charlotte von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Maria Alexandrine Charlotte"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000298 #Wilhelm Friedrich Philipp von Württemberg
+	1815.5.29 = {
+		birth = yes
+	}
+	1842.9.17 = {
+		spouse = 10000311 #the wife of Mr. von Taubenheim, the grand-écuyer of Württemberg, after 1842.9.17
+	}
+	1875.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000255 = { #Maria von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Maria"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000247 #Wilhelm Friedrich von Württemberg
+	mother = 10000249 #Catherine Paulowna, daughter of Emperor Paul of Russia
+	1816.10.30 = {
+		birth = yes
+	}
+	#married on 1840.3.19 to count Alfred of Neipperg
+	1876.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000284 = { #Maria Alexandrine von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Maria Alexandrine"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000280 #Eugen von Württemberg
+	mother = 10000281 #Mathilde, daughter of prince Georg of Waldeck-Pyrmont
+	1818.3.25 = {
+		birth = yes
+	}
+	#married on 1845.10.9 to prince Karl of Hessen-Philippsthal
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000256 = { #Sophie von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Sophie"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000247 #Wilhelm Friedrich von Württemberg
+	mother = 10000249 #Catherine Paulowna, daughter of Emperor Paul of Russia
+	1818.6.17 = {
+		birth = yes
+	}
+	#wife of the royal prince of the Netherlands after 1839.6.18
+	1878.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000286 = { #Eugen Wilhelm von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Eugen Wilhelm"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000280 #Eugen von Württemberg
+	mother = 10000281 #Mathilde, daughter of prince Georg of Waldeck-Pyrmont
+	#trait = tough_soldier
+	1820.12.25 = {
+		birth = yes
+	}
+	1843.7.15 = {
+		spouse = 10000287 #married on 1843.7.15 to princess Mathilde Auguste, daughter of reigning prince Georg of Schaumburg-Lippe
+	}
+	1847.1.1 = { #cavalry captain in service of Prussia as of 1847
+		traits += cavalry_leader
+		employer = 10000010 #Friedrich Wilhelm IV of Prussia
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1880.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000258 = { #Catherine von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Catherine"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000247 #Wilhelm Friedrich von Württemberg
+	mother = 10000250 #Pauline, daughter of duke Ludwig Friedrich Alexander of Württemberg
+	1821.8.24 = {
+		birth = yes
+	}
+	#married on 1845.11.20 to prince Friedrich of Wurtemberg
+	1881.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000260 = { #Karl von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Karl"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000247 #Wilhelm Friedrich von Württemberg
+	mother = 10000250 #Pauline, daughter of duke Ludwig Friedrich Alexander of Württemberg
+	#trait = tough_soldier
+	1823.3.6 = {
+		birth = yes
+	}
+	#royal prince of Wurtemberg
+	1846.7.13 = {
+		spouse = 10000261 #married on 1846.7.13 to grand duchess Olga Nicolaewna, daughter of emperor Nicolas I of Russia
+	}
+	1847.1.1 = { #major-general in the service of Wurtemberg as of 1847
+		employer = 10000247 #Wilhelm Friedrich von Württemberg
+		effect = {
+			make_commander_effect = yes
+		}
+	}
+	1883.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000263 = { #Auguste von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Auguste"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000247 #Wilhelm Friedrich von Württemberg
+	mother = 10000250 #Pauline, daughter of duke Ludwig Friedrich Alexander of Württemberg
+	1826.10.4 = {
+		birth = yes
+	}
+	1886.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000290 = { #Wilhelm Nicolas von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Wilhelm Nicolas"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000280 #Eugen von Württemberg
+	mother = 10000282 #Helena von Hohenlohe-Langenburg
+	1828.7.20 = {
+		birth = yes
+	}
+	1888.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000297 = { #Maximilian von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
+	name = "Maximilian"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000295 #Friedrich Paul von Württemberg
+	mother = 10000296 #Sophie von Thurn und Taxis
+	1828.9.3 = {
+		birth = yes
+	}
+	1888.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000291 = { #Alexandrine Mathilde von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Alexandrine Mathilde"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000280 #Eugen von Württemberg
+	mother = 10000282 #Helena von Hohenlohe-Langenburg
+	1829.12.16 = {
+		birth = yes
+	}
+	1889.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000292 = { #Nicolas von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Nicolas"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000280 #Eugen von Württemberg
+	mother = 10000282 #Helena von Hohenlohe-Langenburg
+	1833.3.1 = {
+		birth = yes
+	}
+	1893.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000301 = { #Erhard von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Erhard"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000299 #Christian Friedrich Alexander von Württemberg
+	mother = 10000300 #Helene Antoinette Josephine Festetics-Tolna
+	1833.5.25 = { #the source gives the birth year as 1839, but that is most likely a typo: he is listed as the first child (and the second listed was born in 1834), and another child of the couple was born in 1839, on 1839.3.29; assuming 1839 to have been a typo (and the month and day to be correct), then the only possible correct year is 1833, as in 1832.5.25 his parents weren't married yet, and 1834.5.25 is too close to the birth of his sister Wilhelmina, who was born on 1834.7.24; subsequent years are not possible as then he wouldn't be the first child
+		birth = yes
+	}
+	1893.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000302 = { #Wilhelmina Pauline Helene von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Wilhelmina Pauline Helene"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000299 #Christian Friedrich Alexander von Württemberg
+	mother = 10000300 #Helene Antoinette Josephine Festetics-Tolna
+	1834.7.24 = {
+		birth = yes
+	}
+	1894.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000293 = { #Pauline Louise von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Pauline Louise"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000280 #Eugen von Württemberg
+	mother = 10000282 #Helena von Hohenlohe-Langenburg
+	1835.10.13 = {
+		birth = yes
+	}
+	1895.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000276 = { #Claudine von Hohenstein; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+	name = "Claudine"
+	dynasty = von_hohenstein
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000274 #Alexander von Württemberg
+	mother = 10000275 #Susanne, countess Rhéday of Kiss-Rhéde
+	1836.2.11 = {
+		birth = yes
+	}
+	1847.1.1 = { #had the style of countess of Hohenstein as of 1847
+		add_claim = c_hohenstein
+	}
+	1896.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000303 = { #Pauline Wilhelmina Franziska von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Pauline Wilhelmina Franziska"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000299 #Christian Friedrich Alexander von Württemberg
+	mother = 10000300 #Helene Antoinette Josephine Festetics-Tolna
+	1836.8.8 = {
+		birth = yes
+	}
+	1896.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000277 = { #Franz von Hohenstein; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+	name = "Franz"
+	dynasty = von_hohenstein
+	culture = german
+	religion = protestant
+	father = 10000274 #Alexander von Württemberg
+	mother = 10000275 #Susanne, countess Rhéday of Kiss-Rhéde
+	1837.8.27 = {
+		birth = yes
+	}
+	#had the style of count of Hohenstein as of 1847 (and as the eldest son of his mother, he would have been be the one with the greatest rights to the title)
+	1897.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000318 = { #Philipp Alexander Maria von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
+	name = "Philipp Alexander Maria"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000316 #Alexander von Württemberg
+	mother = 10000317 #Marie Christine Caroline d'Orléans
+	1838.7.30 = {
+		birth = yes
+	}
+	1898.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000278 = { #Amélie von Hohenstein; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 81-82.
+	name = "Amélie"
+	dynasty = von_hohenstein
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000274 #Alexander von Württemberg
+	mother = 10000275 #Susanne, countess Rhéday of Kiss-Rhéde
+	1838.11.12 = {
+		birth = yes
+	}
+	1847.1.1 = { #had the style of countess of Hohenstein as of 1847
+		add_claim = c_hohenstein
+	}
+	1898.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000304 = { #Karl Alexander von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+	name = "Karl Alexander"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	father = 10000299 #Christian Friedrich Alexander von Württemberg
+	mother = 10000300 #Helene Antoinette Josephine Festetics-Tolna
+	1839.3.29 = {
+		birth = yes
+	}
+	1899.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000308 = { #Eugénie Wilhelmina Maria von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	name = "Eugénie Wilhelmina Maria"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000305 #Wilhelm Alexander Ferdinand von Württemberg
+	mother = 10000306 #Théodolinde Louise Eugénie von Leuchtenberg
+	1842.12.27 = {
+		birth = yes
+	}
+	1902.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000289 = { #Wilhelmina Eugénie von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Wilhelmina Eugénie"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000286 #Eugen Wilhelm von Württemberg
+	mother = 10000287 #princess Mathilde Auguste, daughter of reigning prince Georg of Schaumburg-Lippe
+	1844.7.11 = {
+		birth = yes
+	}
+	1904.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000309 = { #Maria Josephine Friederike von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	name = "Maria Josephine Friederike"
+	dynasty = von_wurttemberg
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000305 #Wilhelm Alexander Ferdinand von Württemberg
+	mother = 10000306 #Théodolinde Louise Eugénie von Leuchtenberg
+	1844.10.10 = {
+		birth = yes
+	}
+	1904.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

@@ -1,0 +1,149 @@
+10000433 = { #Duke Anton Ulrich zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 2.
+	name = "Anton Ulrich"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant
+	1721.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#was duke of Saxe-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 2.
+	#his daughter was born on 1751.9.11; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 2.
+	1781.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000432 = { #Marie Charlotte zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1-2.
+	name = "Marie Charlotte"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000433 #Duke Anton Ulrich zu Sachsen-Meiningen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1-2
+	1751.9.11 = { #born on 1751.9.11; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
+		birth = yes
+	}
+	1821.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000204 = { #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Georg"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1761.2.4 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+		birth = yes
+	}
+	#Duke of Saxe-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1792.8.13 = {
+		spouse = 10000205 #had a child with Luise von Hohenlohe-Langenburg on 1792.8.13
+	}
+	1803.12.24 = { #succeeded by his son on 1803.12.24; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+		death = yes
+	}
+}
+
+10000665 = { #Luise Christiane zu Sachsen-Meiningen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+	name = "Luise Christiane"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant
+	female = yes
+	1764.1.1 = { #unknown, set to 20 years before the birth of her first child
+		birth = yes
+	}
+	1784.6.27 = { #married to Adolph von Hessen-Philippsthal, and they had their first child on 1784.6.27
+		spouse = 10000663 #Adolph von Hessen-Philippsthal
+	}
+	1824.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000210 = { #Adelheid zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Adelheid"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	female = yes
+	father = 10000204 #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	mother = 10000205 #Luise von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1792.8.13 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+		birth = yes
+	}
+	#dowager queen of Great Britain as of 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1852.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000211 = { #Ida zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
+	name = "Ida"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
+	female = yes
+	father = 10000204 #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
+	mother = 10000205 #Luise von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
+	1794.6.25 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
+		birth = yes
+	}
+	#married on 1816.5.30 to Bernhard von Sachsen-Weimar; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000203 = { #Bernhard zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Bernhard"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	father = 10000204 #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	mother = 10000205 #Luise von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1800.12.17 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+		birth = yes
+	}
+	#succeeded his father as duke of Saxe-Meiningen on 1803.12.24; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	#took the reins of government on 1821.12.17; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1825.3.23 = { #married on 1825.3.23 to Maria von Hessen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+		spouse = 10000206 #Marie Friederike Wilhelmine von Hessen-Kassel
+	}
+	#succeeded by the convention of 1826.11.12 to the principalities of Hildburghausen and Saalfeld; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	1860.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000208 = { #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Georg"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant
+	father = 10000203 #Bernhard zu Sachsen-Meiningen
+	mother = 10000206 #Marie Friederike Wilhelmine von Hessen-Kassel
+	1826.4.2 = {
+		birth = yes
+	}
+	1886.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000209 = { #Augusta zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
+	name = "Augusta"
+	dynasty = zu_sachsen_meiningen
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000203 #Bernhard zu Sachsen-Meiningen
+	mother = 10000206 #Marie Friederike Wilhelmine von Hessen-Kassel
+	1843.8.6 = {
+		birth = yes
+	}
+	1903.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

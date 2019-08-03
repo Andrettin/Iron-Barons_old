@@ -1,0 +1,16 @@
+10000296 = { #Sophie von Thurn und Taxis; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+	name = "Sophie"
+	dynasty = von_thurn_und_taxis
+	culture = german
+	religion = catholic
+	female = yes
+	1800.3.4 = {
+		birth = yes
+	}
+	1827.4.17 = {
+		spouse = 10000295 #married on 1827.4.17 to Friedrich Paul von Württemberg
+	}
+	1860.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

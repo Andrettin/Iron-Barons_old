@@ -1,0 +1,125 @@
+10000741 = { #Karl Friedrich von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Karl Friedrich"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	1725.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#prince of Hohenzollern-Sigmaringen
+	1785.12.26 = {
+		death = yes
+	}
+}
+
+10000740 = { #Adam Alonsins von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25.
+	name = "Adam Alonsins"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	father = 10000741 #Karl Friedrich von Hohenzollern-Sigmaringen
+	1762.6.20 = {
+		birth = yes
+	}
+	1782.8.12 = { #married on 1782.8.12 to Amalie Zephyrine, daughter of prince Philipp Joseph of Salm-Kyrburg
+		spouse = 10000742 #Amalie Zephyrine von Salm-Kyrburg
+	}
+	#succeeded his father, prince Karl Friedrich of Hohenzollern-Sigmaringen, on 1785.12.26
+	#prince of Hohenzollern-Sigmaringen as of 1815
+	1822.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000748 = { #Marie Erescentie von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25.
+	name = "Marie Erescentie"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000741 #Karl Friedrich von Hohenzollern-Sigmaringen; presumably, as she is the sister of Adam Alonsins von Hohenzollern-Sigmaringen
+	#trait = martial_cleric
+	1766.7.24 = {
+		birth = yes
+	}
+	1815.1.1 = {
+		traits += nun #"Stiftsdame" at Buchau as of 1815
+	}
+	1826.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000230 = { #Karl Anton von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Karl Anton"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	father = 10000740 #Adam Alonsins von Hohenzollern-Sigmaringen
+	mother = 10000742 #Amalie Zephyrine von Salm-Kyrburg
+	#trait = tough_soldier
+	1785.2.20 = {
+		birth = yes
+	}
+	1808.2.4 = { #married on 1808.2.4 to Antoinette, niece of the king of Naples
+		spouse = 10000745 #Antoinette
+	}
+	1815.1.1 = {
+		employer = 10000744 #Joachim Napoléon
+		effect = {
+			make_commander_effect = yes #royal Neapolitan general as of 1815
+		}
+	}
+	#reigning prince of Hohenzollern-Sigmaringen
+	1845.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000746 = { #Annunciate Karoline von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
+	name = "Annunciate Karoline"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000230 #Karl Anton von Hohenzollern-Sigmaringen
+	mother = 10000745 #Antoinette
+	1810.6.6 = {
+		birth = yes
+	}
+	1860.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000747 = { #Karl Anton von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
+	name = "Karl Anton"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	father = 10000230 #Karl Anton von Hohenzollern-Sigmaringen
+	mother = 10000745 #Antoinette
+	1811.9.7 = {
+		birth = yes
+	}
+	1861.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000228 = { #Amalie von Hohenzollern-Sigmaringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Amalie"
+	dynasty = von_hohenzollern_sigmaringen
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000230 #Karl Anton von Hohenzollen-Sigmaringen
+	mother = 10000745 #Antoinette; presumably, since her siblings were her children as well
+	1815.4.30 = {
+		birth = yes
+	}
+	#married on 1835.7.25 to Eduard von Sachsen-Altenburg
+	1841.1.14 = {
+		death = yes
+	}
+}

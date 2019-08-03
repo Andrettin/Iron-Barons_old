@@ -1,0 +1,45 @@
+10000497 = { #Friedrich Wilhelm von Solms-Braunfels; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Friedrich Wilhelm"
+	dynasty = von_solms_braunfels
+	culture = german
+	religion = protestant
+	1702.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#prince of Solms-Braunfels
+	1762.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000496 = { #Amalie Eleonore von Solms-Braunfels; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Amalie Eleonore"
+	dynasty = von_solms_braunfels
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000497 #Friedrich Wilhelm von Solms-Braunfels
+	1732.1.1 = { #unknown, set to 20 years before the birth of her son
+		birth = yes
+	}
+	#wife of Karl Ludwig von Anhalt-Bernburg-Schaumburg
+	1822.1.1 = { #unknown, set to 90 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}
+
+10000503 = { #Magdalene von Solms-Braunfels; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 7-8.
+	name = "Magdalene"
+	dynasty = von_solms_braunfels
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000497 #Friedrich Wilhelm von Solms-Braunfels
+	1750.2.11 = { #unknown, set to 40 years before becoming a widow
+		birth = yes
+	}
+	#became widowed of Victor Amadeus von Anhalt-Bernburg-Schaumburg on 1790.5.2
+	1820.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+		death = yes
+	}
+}

@@ -1,0 +1,29 @@
+10000231 = { #Heinrich von Reuss-Greiz; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Heinrich"
+	dynasty = von_reuss_greiz
+	culture = german
+	religion = protestant
+	1792.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#Prince Heinrich XIX of Reuss-Greiz
+	1852.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000229 = { #Luise von Reuss-Greiz; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+	name = "Luise"
+	dynasty = von_reuss_greiz
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000231 #Heinrich von Reuss-Greiz
+	1822.12.3 = {
+		birth = yes
+	}
+	#married on 1842.3.8 to Eduard von Sachsen-Altenburg
+	1882.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

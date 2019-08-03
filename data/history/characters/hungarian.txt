@@ -1,0 +1,110 @@
+10000427 = { #Matthias Corvinus; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 52.
+	name = "Mátyás"
+	dynasty = hunyadi
+	culture = hungarian
+	religion = catholic
+	1443.1.1 = { #born in 1443; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 52.
+		birth = yes
+	}
+	1490.1.1 = { #died in 1490; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 52.
+		death = yes
+	}
+}
+
+10000182 = { #Prince Ferenc József of Kohary; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 2.
+	name = "Ferenc József"
+	dynasty = kohary
+	culture = hungarian
+	religion = catholic
+	1767.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1827.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000690 = { #Karolina Otília Törrök de Zendrö; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
+	name = "Karolina Otília"
+	dynasty = torrok_de_zendro
+	culture = hungarian
+	religion = protestant
+	female = yes
+	1786.4.23 = {
+		birth = yes
+	}
+	1804.1.29 = { #married on 1804.1.29 to Ludwig Georg Friedrich von Hessen-Darmstadt
+		spouse = 10000689 #Ludwig Georg Friedrich von Hessen-Darmstadt
+	}
+	#countess of Nidda as of 1815
+	1846.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000181 = { #Antoinette Kohary; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 2.
+	name = "Antoinette"
+	dynasty = kohary
+	culture = hungarian
+	religion = catholic
+	female = yes
+	father = 10000182 #Prince Ferenc József of Kohary
+	1797.7.2 = {
+		birth = yes
+	}
+	#married on 1816.1.2 to Ferdinand von Sachsen-Saalfeld-Coburg
+	1857.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000275 = { #Susanne, countess Rhéday of Kiss-Rhéde; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+	name = "Susanne"
+	dynasty = rheday_de_kiss_rhede
+	culture = hungarian
+	religion = catholic
+	female = yes
+	1805.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	1835.5.2 = {
+		spouse = 10000274 #married on 1835.5.2 to Alexander von Württemberg
+	}
+	#made countess of Hohenstein by the emperor of Austria
+	1841.10.1 = {
+		death = yes
+	}
+}
+
+10000167 = { #Baron Loránd Eötvös; Source: John Lukacs, "Budapest 1900: a historical portrait of a city and its culture", pp. 175-176.
+	name = "Loránd"
+	dynasty = eotvos
+	culture = hungarian
+	religion = catholic #correct?
+	traits += scholar #great scholar and physicist
+	#trait = erudite
+	traits += intelligent
+	1866.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#founded the Eötvös College in 1896
+	1919.1.1 = {
+		death = yes
+	}
+}
+
+10000168 = { #Tamás Kóbor; Source: John Lukacs, "Budapest 1900: a historical portrait of a city and its culture", pp. 28-30.
+	name = "Tamás"
+	dynasty = kobor
+	culture = hungarian
+	religion = catholic #correct?
+	traits += cynical
+	traits += poet #writer
+	1870.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#wrote "Budapest" in 1900
+	1942.1.1 = {
+		death = yes
+	}
+}

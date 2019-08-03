@@ -1,0 +1,14 @@
+10000723 = { #Marie Therese von Wildenstein; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Marie Therese"
+	dynasty = von_wildenstein
+	culture = german
+	religion = catholic
+	female = yes
+	1757.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	#married on 1787.1.22 to Franz Xaver von Hohenzollern-Hechingen
+	1817.1.1 = { #unknown, set to 30 years after marriage
+		death = yes
+	}
+}
