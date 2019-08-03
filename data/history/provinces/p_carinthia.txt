@@ -1,0 +1,9 @@
+culture = german
+religion = catholic
+
+1815.1.1 = {
+	b_klagenfurt = city #Klagenfurt was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_villach = city #Villach was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_klagenfurt
+}

@@ -1,3 +1,8 @@
+p_carinthia = {
+	county = c_carinthia
+	color = { 132 134 64 }
+}
+
 p_lower_austria = {
 	county = c_lower_austria
 	color = { 42 3 128 }

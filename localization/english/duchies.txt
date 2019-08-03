@@ -1,3 +1,5 @@
+d_carinthia = "Carinthia"
+d_carinthia_german = "Kärnten"
 d_lower_austria = "Lower Austria"
 d_lower_austria_german = "Niederösterreich"
 d_styria = "Styria"

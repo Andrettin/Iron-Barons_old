@@ -2,6 +2,11 @@ e_austria = {
 	color = { 236 236 236 }
 }
 
+d_carinthia = {
+	de_jure_liege_title = k_germany
+	color = { 165 255 250 }
+}
+
 d_lower_austria = {
 	de_jure_liege_title = k_germany
 	color = { 0 86 148 }
@@ -17,6 +22,11 @@ d_upper_austria = {
 	color = { 31 26 23 }
 }
 
+c_carinthia = {
+	de_jure_liege_title = d_carinthia
+	color = { 165 255 250 }
+}
+
 c_lower_austria = {
 	de_jure_liege_title = d_lower_austria
 	color = { 0 86 148 }
@@ -30,6 +40,14 @@ c_styria = {
 c_upper_austria = {
 	de_jure_liege_title = d_upper_austria
 	color = { 31 26 23 }
+}
+
+b_klagenfurt = {
+	de_jure_liege_title = c_carinthia
+}
+
+b_villach = {
+	de_jure_liege_title = c_carinthia
 }
 
 b_bruck = {
