@@ -21,3 +21,39 @@ c_upper_austria = {
 	de_jure_liege_title = d_upper_austria
 	color = { 31 26 23 }
 }
+
+b_bruck = {
+	de_jure_liege_title = c_lower_austria
+}
+
+b_frohsdorf = {
+	de_jure_liege_title = c_lower_austria
+}
+
+b_ganserndorf = {
+	de_jure_liege_title = c_lower_austria
+}
+
+b_krems = {
+	de_jure_liege_title = c_lower_austria
+}
+
+b_schwechat = {
+	de_jure_liege_title = c_lower_austria
+}
+
+b_vienna = {
+	de_jure_liege_title = c_lower_austria
+}
+
+b_ischl = {
+	de_jure_liege_title = c_upper_austria
+}
+
+b_linz = {
+	de_jure_liege_title = c_upper_austria
+}
+
+b_wels = {
+	de_jure_liege_title = c_upper_austria
+}
