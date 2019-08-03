@@ -7,6 +7,11 @@ d_lower_austria = {
 	color = { 0 86 148 }
 }
 
+d_styria = {
+	de_jure_liege_title = k_germany
+	color = { 48 137 4 }
+}
+
 d_upper_austria = {
 	de_jure_liege_title = k_germany
 	color = { 31 26 23 }
@@ -15,6 +20,11 @@ d_upper_austria = {
 c_lower_austria = {
 	de_jure_liege_title = d_lower_austria
 	color = { 0 86 148 }
+}
+
+c_styria = {
+	de_jure_liege_title = d_styria
+	color = { 48 137 4 }
 }
 
 c_upper_austria = {
@@ -44,6 +54,22 @@ b_schwechat = {
 
 b_vienna = {
 	de_jure_liege_title = c_lower_austria
+}
+
+b_bruck_styria = {
+	de_jure_liege_title = c_styria
+}
+
+b_cilli = {
+	de_jure_liege_title = c_styria
+}
+
+b_graz = {
+	de_jure_liege_title = c_styria
+}
+
+b_marburg = {
+	de_jure_liege_title = c_styria
 }
 
 b_ischl = {
