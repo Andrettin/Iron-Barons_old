@@ -1,0 +1,9 @@
+swedish = {
+	male_names = {
+		Adolf Gustav
+	}
+	
+	female_names = {
+		Aud
+	}
+}

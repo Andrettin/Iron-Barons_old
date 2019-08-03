@@ -1,0 +1,9 @@
+danish = {
+	male_names = {
+		Fredrik
+	}
+	
+	female_names = {
+		Vilhelmine
+	}
+}

@@ -1,0 +1,9 @@
+hungarian = {
+	male_names = {
+		Ferenc Mátyás József
+	}
+	
+	female_names = {
+		Karolina
+	}
+}

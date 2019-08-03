@@ -1,1 +1,3 @@
 catholic = "Catholic"
+orthodox = "Orthodox"
+protestant = "Protestant"

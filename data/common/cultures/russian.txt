@@ -1,0 +1,9 @@
+russian = {
+	male_names = {
+		Nicolas
+	}
+	
+	female_names = {
+		Olga
+	}
+}

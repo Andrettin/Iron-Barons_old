@@ -1,0 +1,9 @@
+polish = {
+	male_names = {
+		Adam
+	}
+	
+	female_names = {
+		Marie
+	}
+}
