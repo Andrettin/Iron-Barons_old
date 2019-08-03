@@ -8,4 +8,6 @@ religion = catholic
 	b_ganserndorf = city #Gänserndorf was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_schwechat = city #Schwechat was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_frohsdorf = city #Frohsdorf was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_vienna
 }

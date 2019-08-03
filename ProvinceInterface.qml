@@ -204,6 +204,32 @@ Item {
 	}
 
 	Item {
+		id: capital_holding
+		anchors.top: parent.top
+		anchors.topMargin: 93
+		anchors.right: parent.right
+		anchors.rightMargin: 35
+		width: 108
+		height: 112
+
+		Image {
+			source: Metternich.selected_province ? "./placeholder_" + Metternich.selected_province.capital_holding.type.identifier + ".png" : "image://empty/"
+			width: 92
+			height: 96
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+
+			MouseArea {
+				anchors.fill: parent
+				hoverEnabled: true
+				ToolTip.text: Metternich.selected_province ? Metternich.selected_province.capital_holding.name : ""
+				ToolTip.visible: containsMouse
+				ToolTip.delay: 1000
+			}
+		}
+	}
+
+	Item {
 		id: holding_area
 		anchors.left: parent.left
 		anchors.leftMargin: 9
@@ -231,6 +257,7 @@ Item {
 					model: Metternich.selected_province ? Metternich.selected_province.holdings : []
 
 					Item {
+						visible: model.modelData !== Metternich.selected_province.capital_holding
 						width: 107
 						height: 105
 
