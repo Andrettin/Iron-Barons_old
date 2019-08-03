@@ -1,0 +1,3 @@
+castle = "Castle"
+city = "City"
+temple = "Temple"
