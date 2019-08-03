@@ -1,0 +1,27 @@
+eotvos = {
+	culture = hungarian
+}
+
+festetics_tolna = {
+	culture = hungarian
+}
+
+hunyadi = {
+	culture = hungarian
+}
+
+kobor = {
+	culture = hungarian
+}
+
+kohary = {
+	culture = hungarian
+}
+
+rheday_de_kiss_rhede = {
+	culture = hungarian
+}
+
+torrok_de_zendro = {
+	culture = hungarian
+}

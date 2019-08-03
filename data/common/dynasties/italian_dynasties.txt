@@ -1,0 +1,23 @@
+borghese = {
+	culture = italian
+}
+
+brignole = {
+	culture = italian
+}
+
+de_luca = {
+	culture = italian
+}
+
+de_saboya = {
+	culture = italian
+}
+
+palamidese = {
+	culture = italian
+}
+
+visconti = {
+	culture = italian
+}

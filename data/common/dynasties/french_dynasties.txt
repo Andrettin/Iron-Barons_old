@@ -1,3 +1,39 @@
+bonaparte = {
+	culture = french
+}
+
 de_bourbon = {
+	culture = french
+}
+
+de_bourbon_conde = {
+	culture = french
+}
+
+de_bourbon_orleans = {
+	culture = french
+}
+
+de_la_ville_sur_illon = {
+	culture = french
+}
+
+de_nemours = {
+	culture = french
+}
+
+de_penthievre = {
+	culture = french
+}
+
+de_rohan_soubise = {
+	culture = french
+}
+
+de_valois = {
+	culture = french
+}
+
+de_wagram = {
 	culture = french
 }

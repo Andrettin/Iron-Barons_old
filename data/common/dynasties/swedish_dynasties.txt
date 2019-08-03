@@ -1,0 +1,3 @@
+av_sverige = {
+	culture = danish
+}

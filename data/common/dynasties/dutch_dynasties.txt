@@ -1,0 +1,7 @@
+van_merode_westerloo = {
+	culture = dutch
+}
+
+van_oranje_nassau = {
+	culture = dutch
+}
