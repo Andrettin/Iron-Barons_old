@@ -1,0 +1,4 @@
+d_lower_austria = "Lower Austria"
+d_lower_austria_german = "Niederösterreich"
+d_upper_austria = "Upper Austria"
+d_upper_austria_german = "Oberösterreich"

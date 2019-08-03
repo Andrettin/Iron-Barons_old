@@ -2,10 +2,22 @@ e_austria = {
 	color = { 236 236 236 }
 }
 
+d_lower_austria = {
+	de_jure_liege_title = k_germany
+	color = { 0 86 148 }
+}
+
+d_upper_austria = {
+	de_jure_liege_title = k_germany
+	color = { 31 26 23 }
+}
+
 c_lower_austria = {
+	de_jure_liege_title = d_lower_austria
 	color = { 0 86 148 }
 }
 
 c_upper_austria = {
+	de_jure_liege_title = d_upper_austria
 	color = { 31 26 23 }
 }
