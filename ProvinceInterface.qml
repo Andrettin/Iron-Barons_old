@@ -202,4 +202,57 @@ Item {
 			font.bold: true
 		}
 	}
+
+	Item {
+		id: holding_area
+		anchors.left: parent.left
+		anchors.leftMargin: 9
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 8
+		width: 325
+		height: 211
+
+		Flickable {
+			anchors.fill: parent
+			contentWidth: holding_grid.width
+			contentHeight: holding_grid.height
+			clip: true
+			interactive: false
+			boundsBehavior: Flickable.StopAtBounds
+			ScrollBar.vertical: ScrollBar {}
+
+			Grid {
+				id: holding_grid
+				columns: 3
+				columnSpacing: 1
+				rowSpacing: 1
+
+				Repeater {
+					model: Metternich.selected_province ? Metternich.selected_province.holdings : []
+
+					Item {
+						width: 107
+						height: 105
+
+						Image {
+							source: "./placeholder_" + model.modelData.type.identifier + ".png"
+							width: 69
+							height: 72
+							anchors.horizontalCenter: parent.horizontalCenter
+							anchors.bottom: parent.bottom
+							anchors.bottomMargin: 16
+
+							MouseArea {
+								anchors.fill: parent
+								hoverEnabled: true
+								ToolTip.text: model.modelData.name
+								ToolTip.visible: containsMouse
+								ToolTip.delay: 1000
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
