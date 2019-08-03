@@ -1,25 +1,30 @@
 e_austria = {
 	color = { 236 236 236 }
+	capital_province = p_lower_austria
 }
 
 d_carinthia = {
 	de_jure_liege_title = k_germany
 	color = { 165 255 250 }
+	capital_province = p_carinthia
 }
 
 d_lower_austria = {
 	de_jure_liege_title = k_germany
 	color = { 0 86 148 }
+	capital_province = p_lower_austria
 }
 
 d_styria = {
 	de_jure_liege_title = k_germany
 	color = { 48 137 4 }
+	capital_province = p_styria
 }
 
 d_upper_austria = {
 	de_jure_liege_title = k_germany
 	color = { 31 26 23 }
+	capital_province = p_upper_austria
 }
 
 c_carinthia = {
