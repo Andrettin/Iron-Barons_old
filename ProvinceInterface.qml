@@ -1,5 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
+import MaskedMouseArea 1.0
 
 Item {
 	id: province_interface
@@ -9,6 +10,11 @@ Item {
 	Image {
 		id: province_background
 		source: "file:///" + Metternich.asset_import_path + "/gfx/interface/province_bg.dds"
+	}
+
+	MouseArea {
+		anchors.fill: parent
+		//prevent events from propagating below
 	}
 
 	Text {
@@ -32,7 +38,7 @@ Item {
 
 		Text {
 			id: province_de_jure_kingdom
-			text: qsTr("Germany")
+			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.verticalCenterOffset: -2
 			anchors.left: parent.left
@@ -53,7 +59,7 @@ Item {
 
 		Text {
 			id: province_de_jure_duchy
-			text: qsTr("Austria")
+			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.verticalCenterOffset: -2
 			anchors.left: parent.left
