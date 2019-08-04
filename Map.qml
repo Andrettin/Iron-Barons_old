@@ -4,36 +4,21 @@ import MaskedMouseArea 1.0
 
 Item {
 	id: map
-	focus: true
 
-	Keys.onLeftPressed: {
-		map.x += 10 * map.scale
+	function moveLeft(pixels) {
+		map.x += pixels * map.scale
 	}
 
-	Keys.onRightPressed: {
-		map.x -= 10 * map.scale
+	function moveRight(pixels) {
+		map.x -= pixels * map.scale
 	}
 
-	Keys.onUpPressed: {
-		map.y += 10 * map.scale
+	function moveUp(pixels) {
+		map.y += pixels * map.scale
 	}
 
-	Keys.onDownPressed: {
-		map.y -= 10 * map.scale
-	}
-
-	Keys.onPressed: {
-		if (event.key === Qt.Key_Z) {
-			map.scale *= 2
-			map.x *= 2
-			map.y *= 2
-		} else if (event.key === Qt.Key_X) {
-			if (map.scale > 1) {
-				map.scale /= 2
-				map.x /= 2
-				map.y /= 2
-			}
-		}
+	function moveDown(pixels) {
+		map.y -= pixels * map.scale
 	}
 
 	Image {
