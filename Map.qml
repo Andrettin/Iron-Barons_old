@@ -23,7 +23,7 @@ Item {
 
 	Image {
 		id: map_terrain
-		source: "./map/terrain.png"
+		source: "./map/provinces.png"
 
 		MouseArea {
 			anchors.fill: parent
