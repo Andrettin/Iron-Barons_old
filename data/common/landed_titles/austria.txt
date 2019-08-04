@@ -15,6 +15,12 @@ d_lower_austria = {
 	capital_province = p_lower_austria
 }
 
+d_salzburg = {
+	de_jure_liege_title = k_germany
+	color = { 151 155 134 }
+	capital_province = p_salzburg
+}
+
 d_styria = {
 	de_jure_liege_title = k_germany
 	color = { 48 137 4 }
@@ -35,6 +41,11 @@ c_carinthia = {
 c_lower_austria = {
 	de_jure_liege_title = d_lower_austria
 	color = { 0 86 148 }
+}
+
+c_salzburg = {
+	de_jure_liege_title = d_salzburg
+	color = { 151 155 134 }
 }
 
 c_styria = {
@@ -77,6 +88,14 @@ b_schwechat = {
 
 b_vienna = {
 	de_jure_liege_title = c_lower_austria
+}
+
+b_salzburg = {
+	de_jure_liege_title = c_salzburg
+}
+
+b_gastein = {
+	de_jure_liege_title = c_salzburg
 }
 
 b_bruck_styria = {

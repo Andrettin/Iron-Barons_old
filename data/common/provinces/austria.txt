@@ -8,6 +8,11 @@ p_lower_austria = {
 	color = { 42 3 128 }
 }
 
+p_salzburg = {
+	county = c_salzburg
+	color = { 148 32 207 }
+}
+
 p_styria = {
 	county = c_styria
 	color = { 203 243 54 }
