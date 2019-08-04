@@ -1,0 +1,6 @@
+/graphics/icons/resources/amber.png (by Jinn) (licensed under the CC0)
+/graphics/icons/resources/cattle.png (by Jinn) (licensed under the CC0)
+/graphics/icons/resources/clothing.png (by Jinn) (licensed under the CC0)
+/graphics/icons/resources/coal.png (by Jinn) (licensed under the CC0)
+/graphics/icons/resources/copper.png (by Jinn) (licensed under the CC0)
+/graphics/icons/resources/cotton.png (by Jinn) (licensed under the CC0)
