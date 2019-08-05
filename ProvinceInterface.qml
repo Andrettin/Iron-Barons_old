@@ -4,12 +4,13 @@ import MaskedMouseArea 1.0
 
 Item {
 	id: province_interface
-	width: 348
-	height: 624
+	width: 306
+	height: 576
 
-	Image {
+	Rectangle {
 		id: province_background
-		source: "file:///" + Metternich.asset_import_path + "/gfx/interface/province_bg.dds"
+		anchors.fill: parent
+		color: "darkGray"
 	}
 
 	MouseArea {
@@ -21,28 +22,96 @@ Item {
 		id: province_name
 		text: Metternich.selected_province ? Metternich.selected_province.name : ""
 		anchors.top: parent.top
-		anchors.topMargin: 15
-		anchors.left: parent.left
-		anchors.leftMargin: 81
-		color: "white"
+		anchors.topMargin: 16
+		anchors.horizontalCenter: parent.horizontalCenter
+		color: "black"
 		font.pixelSize: 14
 		font.family: "tahoma"
+		font.bold: true
 	}
 
 	Item {
+		id: capital_holding
+		anchors.top: parent.top
+		anchors.topMargin: 48
+		anchors.horizontalCenter: parent.horizontalCenter
+		width: 160
+		height: 160
+
+		Image {
+			source: Metternich.selected_province ? "./graphics/holdings/" + Metternich.selected_province.capital_holding.type.identifier + ".png" : "image://empty/"
+			width: 128
+			height: 128
+			anchors.horizontalCenter: parent.horizontalCenter
+			anchors.verticalCenter: parent.verticalCenter
+
+			MouseArea {
+				anchors.fill: parent
+				hoverEnabled: true
+				ToolTip.text: Metternich.selected_province ? Metternich.selected_province.capital_holding.name : ""
+				ToolTip.visible: containsMouse
+				ToolTip.delay: 1000
+			}
+		}
+	}
+
+	/*
+	Item {
+		id: empire_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		y: 288
+		height: 16
+
+		Text {
+			id: de_jure_empire_label
+			text: qsTr("De Jure Empire")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: province_de_jure_empire
+			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.name : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+	*/
+
+	Item {
 		id: kingdom_area
-		x: 17
-		y: 267
-		width: 153
-		height: 32
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: capital_holding.bottom
+		anchors.topMargin: 48
+
+		Text {
+			id: de_jure_kingdom_label
+			text: qsTr("De Jure Kingdom")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
 
 		Text {
 			id: province_de_jure_kingdom
 			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.name : ""
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2
-			anchors.left: parent.left
-			anchors.leftMargin: 31
+			anchors.right: parent.right
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -52,18 +121,28 @@ Item {
 
 	Item {
 		id: duchy_area
-		x: 17
-		y: 300
-		width: 153
-		height: 32
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: kingdom_area.bottom
+		anchors.topMargin: 16
+
+		Text {
+			id: de_jure_duchy_label
+			text: qsTr("De Jure Duchy")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
 
 		Text {
 			id: province_de_jure_duchy
 			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.name : ""
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2
-			anchors.left: parent.left
-			anchors.leftMargin: 31
+			anchors.right: parent.right
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -73,18 +152,18 @@ Item {
 
 	Item {
 		id: culture_area
-		x: 17
-		y: 333
-		width: 153
-		height: 13
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: duchy_area.bottom
+		anchors.topMargin: 16
 
 		Text {
 			id: culture_label
 			text: qsTr("Culture")
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2
 			anchors.left: parent.left
-			anchors.leftMargin: 4
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -94,9 +173,7 @@ Item {
 			id: province_culture
 			text: Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) : ""
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2
 			anchors.right: parent.right
-			anchors.rightMargin: 5
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -106,18 +183,18 @@ Item {
 
 	Item {
 		id: religion_area
-		x: 17
-		y: 347
-		width: 153
-		height: 13
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: culture_area.bottom
+		anchors.topMargin: 16
 
 		Text {
 			id: religion_label
 			text: qsTr("Religion")
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2
 			anchors.left: parent.left
-			anchors.leftMargin: 4
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -127,9 +204,7 @@ Item {
 			id: province_religion
 			text: Metternich.selected_province ? qsTr(Metternich.selected_province.religion.identifier) : ""
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.verticalCenterOffset: -2
 			anchors.right: parent.right
-			anchors.rightMargin: 5
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -137,6 +212,7 @@ Item {
 		}
 	}
 
+	/*
 	Item {
 		id: supply_area
 		x: 17
@@ -202,41 +278,16 @@ Item {
 			font.bold: true
 		}
 	}
-
-	Item {
-		id: capital_holding
-		anchors.top: parent.top
-		anchors.topMargin: 93
-		anchors.right: parent.right
-		anchors.rightMargin: 35
-		width: 108
-		height: 112
-
-		Image {
-			source: Metternich.selected_province ? "./placeholder_" + Metternich.selected_province.capital_holding.type.identifier + ".png" : "image://empty/"
-			width: 92
-			height: 96
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-
-			MouseArea {
-				anchors.fill: parent
-				hoverEnabled: true
-				ToolTip.text: Metternich.selected_province ? Metternich.selected_province.capital_holding.name : ""
-				ToolTip.visible: containsMouse
-				ToolTip.delay: 1000
-			}
-		}
-	}
+	*/
 
 	Item {
 		id: holding_area
 		anchors.left: parent.left
-		anchors.leftMargin: 9
+		anchors.leftMargin: 8
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
-		width: 325
-		height: 211
+		width: 290
+		height: 193
 
 		Flickable {
 			anchors.fill: parent
@@ -258,16 +309,15 @@ Item {
 
 					Item {
 						visible: model.modelData !== Metternich.selected_province.capital_holding
-						width: 107
-						height: 105
+						width: 96
+						height: 96
 
 						Image {
-							source: "./placeholder_" + model.modelData.type.identifier + ".png"
-							width: 69
-							height: 72
+							source: "./graphics/holdings/" + model.modelData.type.identifier + ".png"
+							width: 64
+							height: 64
 							anchors.horizontalCenter: parent.horizontalCenter
-							anchors.bottom: parent.bottom
-							anchors.bottomMargin: 16
+							anchors.verticalCenter: parent.verticalCenter
 
 							MouseArea {
 								anchors.fill: parent
