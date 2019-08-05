@@ -55,15 +55,14 @@ Item {
 		}
 	}
 
-	/*
 	Item {
 		id: empire_area
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		y: 288
-		height: 16
+		anchors.top: capital_holding.bottom
+		anchors.topMargin: 48
 
 		Text {
 			id: de_jure_empire_label
@@ -86,7 +85,6 @@ Item {
 			font.bold: true
 		}
 	}
-	*/
 
 	Item {
 		id: kingdom_area
@@ -94,8 +92,8 @@ Item {
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: capital_holding.bottom
-		anchors.topMargin: 48
+		anchors.top: empire_area.bottom
+		anchors.topMargin: 16
 
 		Text {
 			id: de_jure_kingdom_label

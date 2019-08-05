@@ -1,4 +1,10 @@
+e_germany = {
+	color = { 160 160 160 }
+	capital_province = p_lower_austria #should be Frankfurt instead
+}
+
 k_germany = {
+	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
 	capital_province = p_lower_austria #should be Frankfurt instead
 }

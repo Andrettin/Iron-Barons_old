@@ -1,1 +1,2 @@
 e_austria = "Austria"
+e_germany = "Germany"
