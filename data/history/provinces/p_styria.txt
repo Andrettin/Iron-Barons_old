@@ -1,4 +1,4 @@
-culture = german
+culture = austrian
 religion = catholic
 
 1815.1.1 = {

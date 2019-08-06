@@ -1,7 +1,7 @@
 10000053 = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	name = "Karl"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	#traits += fortune_builder
 	1685.1.1 = { #born in 1685; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
@@ -16,7 +16,7 @@
 10000129 = { #Empress Maria Theresia of the Holy Roman Empire; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	name = "Maria Theresia"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	father = 10000053 #Emperor Karl VI of the Holy Roman Empire; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
@@ -34,7 +34,7 @@
 	name = "Leopold"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire; Source: Eva Demmerle, "Das Haus Habsburg", 2011, pp. 249-250.
 	1747.5.5 = {
 		birth = yes
@@ -51,7 +51,7 @@
 10000380 = { #Archduke Ferdinand von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	name = "Ferdinand"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire (since he is Ferdinand I of Austria's grand uncle)
 	1748.1.1 = { #unknown, set to the year after the birth of his (presumably elder, since he was the one to inheirt) brother
@@ -70,7 +70,7 @@
 10000481 = { #Marie Christine von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
 	name = "Marie Christine"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	#daughter of Franz I, presumably of the Holy Roman Empire
@@ -87,7 +87,7 @@
 10000472 = { #Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
 	name = "Marie Theresie"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	father = 10000024 #Leopold II of the Holy Roman Empire
@@ -107,7 +107,7 @@
 	name = "Franz"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
 	#traits += intricate_webweaver
@@ -128,7 +128,7 @@
 10000381 = { #Archduchess Maria Beatrix d'Este; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	name = "Maria Beatrix"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	1756.1.1 = { #unknown, set to 20 years before the birth of her first child
@@ -145,7 +145,7 @@
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
 	1769.5.6 = {
@@ -161,7 +161,7 @@
 	name = "Karl"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
 	#traits += tough_soldier
@@ -187,7 +187,7 @@
 10000382 = { #Marie Leopoldine von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	name = "Marie Leopoldine"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	father = 10000380 #Archduke Ferdinand von Habsburg
@@ -204,7 +204,7 @@
 10000383 = { #Archduke Franz Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	name = "Franz Joseph"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000380 #Archduke Ferdinand von Habsburg
 	mother = 10000381 #Archduchess Maria Beatrix d'Este
@@ -219,7 +219,7 @@
 10000384 = { #Archduke Ferdinand Karl Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	name = "Ferdinand Karl Joseph"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000380 #Archduke Ferdinand von Habsburg
 	mother = 10000381 #Archduchess Maria Beatrix d'Este
@@ -242,7 +242,7 @@
 10000385 = { #Archduke Maximilian Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
 	name = "Maximilian Joseph Johann"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000380 #Archduke Ferdinand von Habsburg
 	mother = 10000381 #Archduchess Maria Beatrix d'Este
@@ -261,28 +261,11 @@
 	}
 }
 
-10000106 = { #Archduchess Theresa of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11, 23-24.
-	name = "Theresa"
-	dynasty = von_habsburg
-	culture = german
-	religion = catholic
-	female = yes
-	father = 10000027 #Archduke Karl of Austria
-	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
-	1816.7.31 = {
-		birth = yes
-	}
-	#married on 1837.1.9 in Trent to Ferdinand II of the Two Sicilies
-	1876.1.1 = { #unknown, set to 60 years after birth
-		death = yes
-	}
-}
-
 10000042 = { #Archduke Joseph Anton Johann; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12, 81.
 	name = "Joseph Anton Johann"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
 	#traits += tough_soldier
@@ -312,7 +295,7 @@
 10000006 = { #Archduke Johann Baptiste Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 	name = "Johann Baptiste Joseph"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
@@ -336,7 +319,7 @@
 10000063 = { #Archduke Reiner Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 	name = "Reiner Joseph Johann" #source gives "Reinier-Jos.-Jean-Mich.-François-Jérôme"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
@@ -362,7 +345,7 @@
 10000379 = { #Archduke Ludwig Joseph Anton von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11, 13.
 	name = "Ludwig Joseph Anton"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain
@@ -387,7 +370,7 @@
 	female = yes
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000000 #Franz von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
 	mother = 10000001 #Maria Theresa de Bourbon; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
 	1791.12.12 = { #born on 1791.12.12; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
@@ -405,7 +388,7 @@
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000000 #Franz von Habsburg
 	mother = 10000001 #Maria Theresa de Bourbon
 	traits += incapable
@@ -423,7 +406,7 @@
 10000190 = { #Archduchess Caroline von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
 	name = "Caroline"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	father = 10000000 #Franz von Habsburg
@@ -441,7 +424,7 @@
 	name = "Franz"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000000 #Franz von Habsburg
 	mother = 10000001 #Maria Theresa de Bourbon
 	#traits += tough_soldier
@@ -470,7 +453,7 @@
 	female = yes
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000000 #Franz von Habsburg
 	mother = 10000001 #Maria Theresa de Bourbon
 	1804.6.8 = {
@@ -481,11 +464,28 @@
 	}
 }
 
+10000106 = { #Archduchess Theresa of Austria; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11, 23-24.
+	name = "Theresa"
+	dynasty = von_habsburg
+	culture = austrian
+	religion = catholic
+	female = yes
+	father = 10000027 #Archduke Karl of Austria
+	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
+	1816.7.31 = {
+		birth = yes
+	}
+	#married on 1837.1.9 in Trent to Ferdinand II of the Two Sicilies
+	1876.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
 10000029 = { #Archduke Albert; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	name = "Albert"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000027 #Archduke Karl
 	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
 	#traits += tough_soldier
@@ -509,7 +509,7 @@
 10000044 = { #Stefan Franz Victor von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
 	name = "Stefan Franz Victor" #source gives "Etienne-François-Victor"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000042 #Archduke Joseph
 	mother = 10000045 #Hermine von Anhalt-Bernburg-Schaumburg
@@ -534,7 +534,7 @@
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000027 #Archduke Karl
 	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
 	#traits += tough_soldier
@@ -556,7 +556,7 @@
 10000373 = { #Adelaide von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
 	name = "Adelaide"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	female = yes
 	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
@@ -574,7 +574,7 @@
 	name = "Friedrich"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000027 #Archduke Karl
 	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
 	#traits += tough_soldier
@@ -595,7 +595,7 @@
 10000374 = { #Leopold Ludwig Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
 	name = "Leopold Ludwig Maria"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
 	mother = 10000064 #Francisca de Saboya
@@ -618,7 +618,7 @@
 10000375 = { #Ernst Karl Felix von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
 	name = "Ernst Karl Felix"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
 	mother = 10000064 #Francisca de Saboya
@@ -643,7 +643,7 @@
 	female = yes
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000027 #Archduke Karl
 	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
 	1825.9.10 = {
@@ -660,7 +660,7 @@
 10000376 = { #Sigmund Leopold Reiner von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
 	name = "Sigmund Leopold Reiner"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
 	mother = 10000064 #Francisca de Saboya
@@ -682,7 +682,7 @@
 10000377 = { #Reiner Ferdinand Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
 	name = "Reiner Ferdinand Maria"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
 	mother = 10000064 #Francisca de Saboya
@@ -705,7 +705,7 @@
 	name = "Wilhelm"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000027 #Archduke Karl
 	mother = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
 	#traits += tough_soldier
@@ -726,7 +726,7 @@
 10000378 = { #Heinrich Anton Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
 	name = "Heinrich Anton Maria"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000063 #Archduke Reiner Joseph Johann von Habsburg
 	mother = 10000064 #Francisca de Saboya
@@ -749,7 +749,7 @@
 	name = "Franz Joseph"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000017 #Archduke Franz
 	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
 	#traits += tough_soldier
@@ -773,7 +773,7 @@
 	name = "Elisabeth"
 	female = yes
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000042 #Archduke Joseph
 	mother = 10000043 #Princess Maria of Wurtemberg
@@ -789,7 +789,7 @@
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000017 #Archduke Franz
 	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
 	1832.7.6 = {
@@ -803,7 +803,7 @@
 10000047 = { #Joseph Karl Ludwig von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
 	name = "Joseph Karl Ludwig"
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000042 #Archduke Joseph
 	mother = 10000043 #Princess Maria of Wurtemberg
@@ -819,7 +819,7 @@
 	name = "Karl"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000017 #Archduke Franz
 	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
 	1833.7.30 = {
@@ -834,7 +834,7 @@
 	name = "Maria Henriette Anna"
 	female = yes
 	dynasty = von_habsburg
-	culture = german
+	culture = austrian
 	religion = catholic
 	father = 10000042 #Archduke Joseph
 	mother = 10000043 #Princess Maria of Wurtemberg
@@ -850,7 +850,7 @@
 	name = "Ludwig"
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000017 #Archduke Franz
 	mother = 10000018 #Friederike Sophie Dorothee von Wittelsbach
 	1842.5.15 = {
@@ -868,7 +868,7 @@
 	female = yes
 	dynasty = von_habsburg
 	religion = catholic
-	culture = german
+	culture = austrian
 	father = 10000029 #Archduke Albert
 	mother = 10000030 #Princess Hildegard of Bavaria
 	1845.7.15 = {
