@@ -1,4 +1,6 @@
 hungarian = {
+	culture_group = hungarian
+	
 	male_names = {
 		Ferenc Mátyás József
 	}

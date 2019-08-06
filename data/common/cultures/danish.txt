@@ -1,4 +1,6 @@
 danish = {
+	culture_group = scandinavian
+
 	male_names = {
 		Fredrik
 	}

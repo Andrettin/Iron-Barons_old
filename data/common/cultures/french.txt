@@ -1,4 +1,6 @@
 french = {
+	culture_group = french
+	
 	male_names = {
 		Charles
 	}

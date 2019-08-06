@@ -1,4 +1,6 @@
 polish = {
+	culture_group = west_slavic
+	
 	male_names = {
 		Adam
 	}

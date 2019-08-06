@@ -1,4 +1,6 @@
 castillian = {
+	culture_group = iberian
+
 	male_names = {
 		Carlos
 	}

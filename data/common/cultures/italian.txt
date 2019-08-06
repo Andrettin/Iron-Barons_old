@@ -1,4 +1,6 @@
 italian = {
+	culture_group = italian
+
 	male_names = {
 		Alessandro Giovanni
 	}

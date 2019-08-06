@@ -1,4 +1,6 @@
 dutch = {
+	culture_group = dutch
+
 	male_names = {
 		Willem
 	}

@@ -1,4 +1,6 @@
 english = {
+	culture_group = anglo_saxon
+
 	male_names = {
 		Albert Anthony Bernard Charles Edward Francis Frederick George Henry John Joseph Lewis Paul Peter Theodore William
 	}

@@ -1,0 +1,7 @@
+anglo_saxon = "Anglo-Saxon"
+east_slavic = "East Slavic"
+german = "German"
+hungarian = "Hungarian"
+iberian = "Iberian"
+scandinavian = "Scandinavian"
+west_slavic = "West Slavic"
