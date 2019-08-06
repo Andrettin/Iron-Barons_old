@@ -76,7 +76,7 @@ Item {
 
 		Text {
 			id: province_de_jure_empire
-			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.name : ""
+			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.de_jure_liege_title.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
