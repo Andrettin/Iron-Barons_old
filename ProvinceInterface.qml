@@ -48,7 +48,7 @@ Item {
 			MouseArea {
 				anchors.fill: parent
 				hoverEnabled: true
-				ToolTip.text: Metternich.selected_province ? Metternich.selected_province.capital_holding.name : ""
+				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name : "")
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
 			}
@@ -180,7 +180,7 @@ Item {
 			MouseArea {
 				anchors.fill: parent
 				hoverEnabled: true
-				ToolTip.text: Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) + " (" + qsTr(Metternich.selected_province.culture.culture_group.identifier) + ")" : ""
+				ToolTip.text: tooltip(Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) + " (" + qsTr(Metternich.selected_province.culture.culture_group.identifier) + ")" : "")
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
 			}
@@ -328,7 +328,7 @@ Item {
 							MouseArea {
 								anchors.fill: parent
 								hoverEnabled: true
-								ToolTip.text: model.modelData.name
+								ToolTip.text: tooltip(model.modelData.name)
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
 							}

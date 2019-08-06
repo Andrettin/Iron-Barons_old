@@ -57,7 +57,7 @@ Item {
 					anchors.fill: parent
 					alphaThreshold: 0.4
 					maskSource: parent.source
-					ToolTip.text: model.modelData.name
+					ToolTip.text: tooltip(model.modelData.name)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 					onClicked: {
