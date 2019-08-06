@@ -176,6 +176,14 @@ Item {
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
+
+			MouseArea {
+				anchors.fill: parent
+				hoverEnabled: true
+				ToolTip.text: Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) + " (" + qsTr(Metternich.selected_province.culture.culture_group.identifier) + ")" : ""
+				ToolTip.visible: containsMouse
+				ToolTip.delay: 1000
+			}
 		}
 	}
 
