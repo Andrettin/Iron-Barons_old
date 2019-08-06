@@ -16,16 +16,18 @@ Window {
 		return "<font color=\"white\">" + text + "</font>"
 	}
 
-	//set the shared properties for tooltips
-	ToolTip.toolTip.palette.text: "white"
-	ToolTip.toolTip.font.pixelSize: 14
-	ToolTip.toolTip.font.family: "tahoma"
-	ToolTip.toolTip.background: Rectangle {
-		color: "black"
-		opacity: 0.90
-		border.color: "gray"
-		border.width: 1
-		radius: 5
+	Item {
+		//set the shared properties for tooltips
+		ToolTip.toolTip.palette.text: "white"
+		ToolTip.toolTip.font.pixelSize: 14
+		ToolTip.toolTip.font.family: "tahoma"
+		ToolTip.toolTip.background: Rectangle {
+			color: "black"
+			opacity: 0.90
+			border.color: "gray"
+			border.width: 1
+			radius: 5
+		}
 	}
 
 	Map {
