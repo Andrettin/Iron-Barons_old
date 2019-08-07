@@ -193,11 +193,11 @@ Window {
 	}
 
 	Item {
-		id: top_bar
+		id: top_left_area
 		anchors.top: parent.top
-		anchors.right: parent.right
-		width: 160
-		height: 32
+		anchors.left: parent.left
+		width: 128
+		height: 64
 
 		Rectangle {
 			anchors.fill: parent
@@ -205,8 +205,81 @@ Window {
 		}
 
 		Item {
-			id: date_area
+			id: player_character_area
+			anchors.left: parent.left
+			anchors.right: parent.right
+			anchors.top: parent.top
+			height: 32
+
+			Text {
+				id: player_character_label
+				text: Metternich.game.player_character.full_name
+				anchors.verticalCenter: parent.verticalCenter
+				anchors.left: parent.left
+				anchors.leftMargin: 8
+				color: "black"
+				font.pixelSize: 12
+				font.family: "tahoma"
+			}
+		}
+
+		Item {
+			id: primary_title_area
+			anchors.left: parent.left
+			anchors.right: parent.right
+			anchors.top: player_character_area.bottom
+			height: 32
+
+			Text {
+				id: primary_title_label
+				text: Metternich.game.player_character.primary_title.name
+				anchors.verticalCenter: parent.verticalCenter
+				anchors.left: parent.left
+				anchors.leftMargin: 8
+				color: "black"
+				font.pixelSize: 12
+				font.family: "tahoma"
+			}
+		}
+	}
+
+	Item {
+		id: top_bar
+		anchors.top: parent.top
+		anchors.right: parent.right
+		width: 160
+		height: 64
+
+		Rectangle {
 			anchors.fill: parent
+			color: "darkGray"
+		}
+
+		Item {
+			id: wealth_area
+			anchors.left: parent.left
+			anchors.right: parent.right
+			anchors.top: parent.top
+			height: 32
+
+			Text {
+				id: wealth_label
+				text: "Wealth: " + Metternich.game.player_character.wealth
+				anchors.verticalCenter: parent.verticalCenter
+				anchors.left: parent.left
+				anchors.leftMargin: 32
+				color: "black"
+				font.pixelSize: 12
+				font.family: "tahoma"
+			}
+		}
+
+		Item {
+			id: date_area
+			anchors.left: parent.left
+			anchors.right: parent.right
+			anchors.bottom: parent.bottom
+			height: 32
 
 			Text {
 				id: date

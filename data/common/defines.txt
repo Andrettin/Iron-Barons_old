@@ -1,1 +1,2 @@
 start_date = 1815.11.20
+player_character = 10000000 #Franz I of Austria
