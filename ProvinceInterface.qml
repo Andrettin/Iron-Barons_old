@@ -48,7 +48,7 @@ Item {
 			MouseArea {
 				anchors.fill: parent
 				hoverEnabled: true
-				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name : "")
+				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name + "<br><br>Holder: " + Metternich.selected_province.capital_holding.barony.holder.full_name : "")
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
 			}
@@ -328,7 +328,7 @@ Item {
 							MouseArea {
 								anchors.fill: parent
 								hoverEnabled: true
-								ToolTip.text: tooltip(model.modelData.name)
+								ToolTip.text: tooltip(model.modelData.name + "<br><br>Holder: " + model.modelData.barony.holder.full_name)
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
 							}
