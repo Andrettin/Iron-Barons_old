@@ -16,6 +16,23 @@ Window {
 		return "<font color=\"white\">" + text + "</font>"
 	}
 
+	//function to format numbers with two decimal places
+	function centesimal(number) {
+		var src_number_string = ""
+		src_number_string += number
+		var dest_number_string = ""
+		if (number < 100) {
+			dest_number_string += "0."
+		} else {
+			dest_number_string += src_number_string.slice(0, src_number_string.length - 2) + "."
+		}
+		if (number < 10) {
+			dest_number_string += "0"
+		}
+		dest_number_string += src_number_string.slice(src_number_string.length - 2)
+		return dest_number_string
+	}
+
 	Item {
 		//set the shared properties for tooltips
 		ToolTip.toolTip.palette.text: "white"
@@ -264,7 +281,7 @@ Window {
 
 			Text {
 				id: wealth_label
-				text: "Wealth: " + Metternich.game.player_character.wealth
+				text: "Wealth: " + centesimal(Metternich.game.player_character.wealth)
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
 				anchors.leftMargin: 32
@@ -306,14 +323,6 @@ Window {
 		id: holding_building
 		width: 320
 		height: 35
-
-		AnimatedSprite {
-			id: building_background
-			source: "file:///" + Metternich.asset_import_path + "/gfx/interface/buildview_listitem.dds"
-			running: false
-			frameCount: 3
-			currentFrame: 1
-		}
 
 		Text {
 			id: building_name
