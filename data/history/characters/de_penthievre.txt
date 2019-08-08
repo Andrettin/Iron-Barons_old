@@ -1,15 +1,15 @@
-10000606 = { #Louise de Penthièvre; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 15-16.
+10000606 = { #Louise de PenthiÃ¨vre; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 15-16.
 	name = "Louise"
 	dynasty = de_penthievre
 	culture = french
 	religion = catholic
 	female = yes
-	#daughter of the duke of Penthièvre
+	#daughter of the duke of PenthiÃ¨vre
 	1753.3.13 = {
 		birth = yes
 	}
-	1770.8.23 = { #married to duke Philippe of Orléans, and they had their first known child on 1770.8.23
-		spouse = 10000607 #Philippe de Bourbon-Orléans
+	1770.8.23 = { #married to duke Philippe of OrlÃ©ans, and they had their first known child on 1770.8.23
+		spouse = 10000607 #Philippe de Bourbon-OrlÃ©ans
 	}
 	1823.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes

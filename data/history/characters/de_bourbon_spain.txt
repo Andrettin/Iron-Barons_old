@@ -1,4 +1,4 @@
-10000025 = { #Maria Luisa, daughter of king Carlos III of Spain; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+10000025 = { #Maria Luisa, daughter of king Carlos III of Spain; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 11.
 	name = "Maria Luisa"
 	dynasty = de_bourbon
 	culture = castillian
@@ -14,7 +14,7 @@
 	#married to Emperor Leopold II of the Holy Roman Empire
 }
 
-10000110 = { #Duchess Maria Luisa of Lucca; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+10000110 = { #Duchess Maria Luisa of Lucca; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 50.
 	name = "Maria Luisa"
 	dynasty = de_bourbon
 	culture = castillian

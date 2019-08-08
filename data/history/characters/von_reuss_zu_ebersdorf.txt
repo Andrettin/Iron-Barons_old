@@ -1,4 +1,4 @@
-10000461 = { #Heinrich von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+10000461 = { #Heinrich von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 3.
 	name = "Heinrich"
 	dynasty = von_reuss_zu_ebersdorf
 	culture = german
@@ -12,7 +12,7 @@
 	}
 }
 
-10000460 = { #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
+10000460 = { #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 3.
 	name = "Auguste Karoline"
 	dynasty = von_reuss_zu_ebersdorf
 	culture = german

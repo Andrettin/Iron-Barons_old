@@ -1,4 +1,4 @@
-10000268 = { #Karl von Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+10000268 = { #Karl von Nassau-Weilburg; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 80-81.
 	name = "Karl"
 	dynasty = von_nassau_weilburg
 	culture = german
@@ -11,7 +11,7 @@
 	}
 }
 
-10000269 = { #Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+10000269 = { #Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 11.
 	name = "Friedrich Wilhelm"
 	dynasty = von_nassau_weilburg
 	culture = german
@@ -24,7 +24,7 @@
 	}
 }
 
-10000493 = { #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+10000493 = { #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 7.
 	name = "Amalie Charlotte"
 	dynasty = von_nassau_weilburg
 	culture = german
@@ -42,7 +42,7 @@
 	}
 }
 
-10000267 = { #Henriette von Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
+10000267 = { #Henriette von Nassau-Weilburg; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 80-81.
 	name = "Henriette"
 	dynasty = von_nassau_weilburg
 	culture = german
@@ -58,7 +58,7 @@
 	}
 }
 
-10000028 = { #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
+10000028 = { #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 11.
 	name = "Henriette"
 	dynasty = von_nassau_weilburg
 	culture = german

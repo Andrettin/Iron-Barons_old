@@ -1,4 +1,4 @@
-10000709 = { #Peter von Curland; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+10000709 = { #Peter von Curland; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 23.
 	name = "Peter"
 	dynasty = von_curland
 	culture = german
@@ -11,7 +11,7 @@
 	}
 }
 
-10000708 = { #Luise Pauline von Curland; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+10000708 = { #Luise Pauline von Curland; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 23.
 	name = "Luise Pauline"
 	dynasty = von_curland
 	culture = german

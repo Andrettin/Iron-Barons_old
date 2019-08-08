@@ -12,7 +12,7 @@
 	}
 }
 
-10000603 = { #Louis de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000603 = { #Louis de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Louis"
 	dynasty = de_bourbon
 	culture = french
@@ -26,7 +26,7 @@
 	}
 }
 
-10000596 = { #Louis de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000596 = { #Louis de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Louis"
 	dynasty = de_bourbon
 	culture = french
@@ -42,7 +42,7 @@
 	}
 }
 
-10000599 = { #Charles Philippe de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000599 = { #Charles Philippe de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Charles Philippe"
 	dynasty = de_bourbon
 	culture = french
@@ -59,7 +59,7 @@
 	}
 }
 
-10000601 = { #Louis Antoine de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000601 = { #Louis Antoine de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Louis Antoine"
 	dynasty = de_bourbon
 	culture = french
@@ -69,8 +69,8 @@
 	1775.8.6 = {
 		birth = yes
 	}
-	1799.6.10 = { #married on 1799.6.10 to Marie Thérèse, daughter of king Louis XVI of France
-		spouse = 10000602 #Marie Thérèse de Bourbon
+	1799.6.10 = { #married on 1799.6.10 to Marie ThÃ©rÃ¨se, daughter of king Louis XVI of France
+		spouse = 10000602 #Marie ThÃ©rÃ¨se de Bourbon
 	}
 	#duke of Angouleme as of 1815
 	1835.1.1 = { #unknown, set to 60 years after birth
@@ -78,7 +78,7 @@
 	}
 }
 
-10000604 = { #Charles Ferdinand de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000604 = { #Charles Ferdinand de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Charles Ferdinand"
 	dynasty = de_bourbon
 	culture = french
@@ -94,8 +94,8 @@
 	}
 }
 
-10000602 = { #Marie Thérèse de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
-	name = "Marie Thérèse"
+10000602 = { #Marie ThÃ©rÃ¨se de Bourbon; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
+	name = "Marie ThÃ©rÃ¨se"
 	dynasty = de_bourbon
 	culture = french
 	religion = catholic

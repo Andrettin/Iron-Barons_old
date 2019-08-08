@@ -1,4 +1,4 @@
-10000082 = { #Karl von Kesselstatt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 266.
+10000082 = { #Karl von Kesselstatt; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 266.
 	name = "Karl"
 	dynasty = von_kesselstatt
 	culture = german
@@ -13,8 +13,8 @@
 	}
 }
 
-10000081 = { #Kunigunde von Kesselstatt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 266.
-	name = "Kunigunde" #source gives "Cunégonde"
+10000081 = { #Kunigunde von Kesselstatt; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 266.
+	name = "Kunigunde" #source gives "CunÃ©gonde"
 	female = yes
 	dynasty = von_kesselstatt
 	culture = german

@@ -1,9 +1,9 @@
-10000447 = { #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+10000447 = { #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 4.
 	name = "Marie Laetitia"
 	culture = french
 	religion = catholic
 	female = yes
-	1750.8.24 = { #born on 1750.8.24; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+	1750.8.24 = { #born on 1750.8.24; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 4.
 		birth = yes
 	}
 	1820.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1813)
@@ -11,16 +11,16 @@
 	}
 }
 
-10000434 = { #Emperor Napoléon I of France; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Napoléon"
+10000434 = { #Emperor NapolÃ©on I of France; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	name = "NapolÃ©on"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	1769.8.15 = { #born on 1769.8.15; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	1769.8.15 = { #born on 1769.8.15; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
 		birth = yes
 	}
-	1810.3.11 = { #married by procuration on 1810.3.11 and in person on 1810.4.2 to Marie Louise von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
+	1810.3.11 = { #married by procuration on 1810.3.11 and in person on 1810.4.2 to Marie Louise von Habsburg; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 10-11.
 		spouse = 10000016 #Marie Luise von Habsburg
 	}
 	1829.1.1 = { #unknown, set to 60 years after birth
@@ -28,82 +28,82 @@
 	}
 }
 
-10000436 = { #King Joseph Napoléon of Spain; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Joseph Napoléon"
+10000436 = { #King Joseph NapolÃ©on of Spain; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	name = "Joseph NapolÃ©on"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 	1783.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	#king of Spain as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
-	#grand-elector as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+	#king of Spain as of 1813; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
+	#grand-elector as of 1813; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
 	1843.1.1 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
 
-10000437 = { #Louis-Napoléon Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Louis Napoléon"
+10000437 = { #Louis-NapolÃ©on Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	name = "Louis NapolÃ©on"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	#traits += tough_soldier #constable; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
-	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	1778.9.2 = { #born on 1778.9.2; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+	#traits += tough_soldier #constable; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
+	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	1778.9.2 = { #born on 1778.9.2; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
 		birth = yes
 	}
-	1802.1.3 = { #married on 1802.1.3 to Hortense Eugénie; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
-		spouse = 10000438 #Hortense Eugénie
+	1802.1.3 = { #married on 1802.1.3 to Hortense EugÃ©nie; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
+		spouse = 10000438 #Hortense EugÃ©nie
 	}
 	1838.1.1 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
 
-10000441 = { #King Jéróme Napoléon of Westphalia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Jéróme Napoléon"
+10000441 = { #King JÃ©rÃ³me NapolÃ©on of Westphalia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	name = "JÃ©rÃ³me NapolÃ©on"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 	1783.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	#king of Westphalia as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+	#king of Westphalia as of 1813; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
 	1843.1.1 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
 
-10000443 = { #Marie-Anne-Eliza Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+10000443 = { #Marie-Anne-Eliza Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 	name = "Marie Anne Eliza"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
 	female = yes
-	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 	1783.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	#grand duchess of Tuscany as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+	#grand duchess of Tuscany as of 1813; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 4.
 	1843.1.1 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
 
-10000444 = { #Marie-Pauline Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+10000444 = { #Marie-Pauline Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 	name = "Marie Pauline"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
 	female = yes
-	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	1780.10.20 = { #born on 1780.10.20; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+	mother = 10000447 #Marie-Laetitia; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	1780.10.20 = { #born on 1780.10.20; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 4.
 		birth = yes
 	}
-	1803.11.6 = { #married a second time on 1803.11.6 to Prince Camillo of Borghese; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
+	1803.11.6 = { #married a second time on 1803.11.6 to Prince Camillo of Borghese; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 4.
 		spouse = 10000445 #Camillo Borghese
 	}
 	1840.1.1 = { #unknown, set to 60 years after birth
@@ -111,7 +111,7 @@
 	}
 }
 
-10000446 = { #Marie-Annonciade-Caroline Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 35.
+10000446 = { #Marie-Annonciade-Caroline Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 35.
 	name = "Marie Annonciade Caroline"
 	dynasty = bonaparte
 	culture = french
@@ -121,20 +121,20 @@
 	1778.1.1 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
-	#married on 1808.1.20 to Joachim Napoléon, later king of Naples
+	#married on 1808.1.20 to Joachim NapolÃ©on, later king of Naples
 	1838.1.1 = { #unknown, set to 30 years after marriage
 		death = yes
 	}
 }
 
-10000439 = { #Napoléon Louis Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Napoléon Louis"
+10000439 = { #NapolÃ©on Louis Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	name = "NapolÃ©on Louis"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	father = 10000437 #Louis-Napoléon Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	mother = 10000438 #Hortense Eugénie; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	1802.1.3 = { #his parents married on 1802.1.3; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+	father = 10000437 #Louis-NapolÃ©on Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	mother = 10000438 #Hortense EugÃ©nie; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	1802.1.3 = { #his parents married on 1802.1.3; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 		birth = yes
 	}
 	#grand duke of Berg as of 1813
@@ -143,14 +143,14 @@
 	}
 }
 
-10000440 = { #Charles Louis Napoléon Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Charles Louis Napoléon"
+10000440 = { #Charles Louis NapolÃ©on Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	name = "Charles Louis NapolÃ©on"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	father = 10000437 #Louis-Napoléon Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	mother = 10000438 #Hortense Eugénie; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	1808.4.20 = { #born on 1808.4.20; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
+	father = 10000437 #Louis-NapolÃ©on Bonaparte; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	mother = 10000438 #Hortense EugÃ©nie; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
+	1808.4.20 = { #born on 1808.4.20; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, pp. 3-4.
 		birth = yes
 	}
 	1868.1.1 = { #unknown, set to 60 years after birth
@@ -158,17 +158,17 @@
 	}
 }
 
-10000435 = { #Napoléon, King of Rome; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
-	name = "Napoléon"
+10000435 = { #NapolÃ©on, King of Rome; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
+	name = "NapolÃ©on"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
-	father = 10000434 #Emperor Napoléon of France; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
-	mother = 10000016 #Marie Luise von Habsburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
-	1811.3.20 = { #born on 1811.3.20; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+	father = 10000434 #Emperor NapolÃ©on of France; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
+	mother = 10000016 #Marie Luise von Habsburg; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
+	1811.3.20 = { #born on 1811.3.20; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
 		birth = yes
 	}
-	#king of Rome as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+	#king of Rome as of 1813; Source: "Almanach de Gotha pour l'annÃ©e 1813", 1813, p. 3.
 	1871.1.1 = { #unknown, set to 60 years after birth
 		death = yes
 	}

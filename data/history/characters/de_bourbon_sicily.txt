@@ -1,4 +1,4 @@
-10000102 = { #King Ferdinand I (IV) of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
+10000102 = { #King Ferdinand I (IV) of the Two Sicilies; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 27.
 	name = "Ferdinando"
 	dynasty = de_bourbon
 	culture = italian
@@ -11,7 +11,7 @@
 	}
 }
 
-10000001 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+10000001 = { #Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 10.
 	name = "Maria Theresa"
 	dynasty = de_bourbon
 	culture = italian #daughter of king Ferdinand I (IV) of the Two Sicilies
@@ -26,7 +26,7 @@
 	}
 }
 
-10000104 = { #King Francis I of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 23.
+10000104 = { #King Francis I of the Two Sicilies; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 23.
 	name = "Francesco"
 	dynasty = de_bourbon
 	culture = italian
@@ -40,7 +40,7 @@
 	}
 }
 
-10000101 = { #Princess Maria Amelia of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
+10000101 = { #Princess Maria Amelia of the Two Sicilies; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 27.
 	name = "Maria Amelia"
 	dynasty = de_bourbon
 	culture = italian
@@ -56,7 +56,7 @@
 	}
 }
 
-10000103 = { #King Ferdinand II (Charles) of the Two Sicilies; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 23-24.
+10000103 = { #King Ferdinand II (Charles) of the Two Sicilies; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 23-24.
 	name = "Ferdinando"
 	dynasty = de_bourbon
 	culture = italian

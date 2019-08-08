@@ -1,4 +1,4 @@
-10000053 = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Auﬂenhandel der Nordadriatischen Seest‰dte als Faktor im Entstehen der kapitalistischen Beziehungen in ÷sterreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+10000053 = { #Emperor Karl VI of the Holy Roman Empire; Source: Ivan Erceg, "Au√üenhandel der Nordadriatischen Seest√§dte als Faktor im Entstehen der kapitalistischen Beziehungen in √ñsterreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 	name = "Karl"
 	dynasty = von_habsburg
 	culture = austrian
@@ -7,8 +7,8 @@
 	1685.1.1 = { #born in 1685; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 		birth = yes
 	}
-	#became emperor of the HRE in 1711; Source: Ivan Erceg, "Auﬂenhandel der Nordadriatischen Seest‰dte als Faktor im Entstehen der kapitalistischen Beziehungen in ÷sterreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
-	1740.1.1 = { #died in 1740; Source: Ivan Erceg, "Auﬂenhandel der Nordadriatischen Seest‰dte als Faktor im Entstehen der kapitalistischen Beziehungen in ÷sterreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	#became emperor of the HRE in 1711; Source: Ivan Erceg, "Au√üenhandel der Nordadriatischen Seest√§dte als Faktor im Entstehen der kapitalistischen Beziehungen in √ñsterreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
+	1740.1.1 = { #died in 1740; Source: Ivan Erceg, "Au√üenhandel der Nordadriatischen Seest√§dte als Faktor im Entstehen der kapitalistischen Beziehungen in √ñsterreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 		death = yes
 	}
 }
@@ -30,7 +30,7 @@
 	}
 }
 
-10000024 = { #Emperor Leopold II of the Holy Roman Empire; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000024 = { #Emperor Leopold II of the Holy Roman Empire; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Leopold"
 	dynasty = von_habsburg
 	religion = catholic
@@ -48,7 +48,7 @@
 	}
 }
 
-10000380 = { #Archduke Ferdinand von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 13.
+10000380 = { #Archduke Ferdinand von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 13.
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	culture = austrian
@@ -67,7 +67,7 @@
 	}
 }
 
-10000481 = { #Marie Christine von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergn¸gen auf das Jahr 1815", 1815, p. 5.
+10000481 = { #Marie Christine von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergn√ºgen auf das Jahr 1815", 1815, p. 5.
 	name = "Marie Christine"
 	dynasty = von_habsburg
 	culture = austrian
@@ -84,7 +84,7 @@
 	}
 }
 
-10000472 = { #Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergn¸gen auf das Jahr 1815", 1815, p. 5.
+10000472 = { #Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergn√ºgen auf das Jahr 1815", 1815, p. 5.
 	name = "Marie Theresie"
 	dynasty = von_habsburg
 	culture = austrian
@@ -103,7 +103,7 @@
 	}
 }
 
-10000000 = { #Franz von Habsburg, Emperor Franz II of the Holy Roman Empire and later Emperor Franz I of Austria; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
+10000000 = { #Franz von Habsburg, Emperor Franz II of the Holy Roman Empire and later Emperor Franz I of Austria; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
 	name = "Franz"
 	dynasty = von_habsburg
 	religion = catholic
@@ -125,7 +125,7 @@
 	}
 }
 
-10000381 = { #Archduchess Maria Beatrix d'Este; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 13.
+10000381 = { #Archduchess Maria Beatrix d'Este; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 13.
 	name = "Maria Beatrix"
 	dynasty = von_habsburg
 	culture = austrian
@@ -141,7 +141,7 @@
 	}
 }
 
-10000026 = { #Ferdinand III of Tuscany; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000026 = { #Ferdinand III of Tuscany; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
@@ -157,7 +157,7 @@
 	#Grand Duke of Tuscany as Ferdinand III
 }
 
-10000027 = { #Archduke Karl; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000027 = { #Archduke Karl; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Karl"
 	dynasty = von_habsburg
 	religion = catholic
@@ -184,7 +184,7 @@
 	}
 }
 
-10000382 = { #Marie Leopoldine von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 13.
+10000382 = { #Marie Leopoldine von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 13.
 	name = "Marie Leopoldine"
 	dynasty = von_habsburg
 	culture = austrian
@@ -195,13 +195,13 @@
 	1776.12.10 = {
 		birth = yes
 	}
-	#became widowed of prince-elector Karl Theodor on 1799.2.16; Source: "Gothaischer Hofkalender zum Nutzen und Vergn¸gen auf das Jahr 1815", 1815, p. 12.
+	#became widowed of prince-elector Karl Theodor on 1799.2.16; Source: "Gothaischer Hofkalender zum Nutzen und Vergn√ºgen auf das Jahr 1815", 1815, p. 12.
 	1856.1.1 = { #unknown, set to 80 years after birth (she was alive in 1847)
 		death = yes
 	}
 }
 
-10000383 = { #Archduke Franz Joseph von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 13.
+10000383 = { #Archduke Franz Joseph von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 13.
 	name = "Franz Joseph"
 	dynasty = von_habsburg
 	culture = austrian
@@ -216,7 +216,7 @@
 	}
 }
 
-10000384 = { #Archduke Ferdinand Karl Joseph von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 13.
+10000384 = { #Archduke Ferdinand Karl Joseph von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 13.
 	name = "Ferdinand Karl Joseph"
 	dynasty = von_habsburg
 	culture = austrian
@@ -239,7 +239,7 @@
 	}
 }
 
-10000385 = { #Archduke Maximilian Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 13.
+10000385 = { #Archduke Maximilian Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 13.
 	name = "Maximilian Joseph Johann"
 	dynasty = von_habsburg
 	culture = austrian
@@ -261,7 +261,7 @@
 	}
 }
 
-10000042 = { #Archduke Joseph Anton Johann; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12, 81.
+10000042 = { #Archduke Joseph Anton Johann; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12, 81.
 	name = "Joseph Anton Johann"
 	dynasty = von_habsburg
 	religion = catholic
@@ -278,7 +278,7 @@
 		spouse = 10000045 #Hermine von Anhalt-Bernburg-Schaumburg
 	}
 	1819.8.24 = {
-		spouse = 10000043 #Princess Maria DorothÈe Wilhelmina of Wurtemberg
+		spouse = 10000043 #Princess Maria Doroth√©e Wilhelmina of Wurtemberg
 	}
 	1847.1.1 = { #field marshal-general and proprietary of the 2nd and 12th hussars regiments as of 1847
 		traits += cavalry_leader
@@ -292,7 +292,7 @@
 	}	
 }
 
-10000006 = { #Archduke Johann Baptiste Joseph von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+10000006 = { #Archduke Johann Baptiste Joseph von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 	name = "Johann Baptiste Joseph"
 	dynasty = von_habsburg
 	culture = austrian
@@ -303,7 +303,7 @@
 	1782.1.20 = {
 		birth = yes
 	}
-	1847.1.1 = { #was fieldmarshal and general director of engineering and fortifications, as well as proprietary of the 1st regiment of dragoons and the 16th Prussian regiment of infantry in 1847; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+	1847.1.1 = { #was fieldmarshal and general director of engineering and fortifications, as well as proprietary of the 1st regiment of dragoons and the 16th Prussian regiment of infantry in 1847; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 		traits += architect #engineer
 		traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
@@ -316,8 +316,8 @@
 	}
 }
 
-10000063 = { #Archduke Reiner Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
-	name = "Reiner Joseph Johann" #source gives "Reinier-Jos.-Jean-Mich.-FranÁois-JÈrÙme"
+10000063 = { #Archduke Reiner Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
+	name = "Reiner Joseph Johann" #source gives "Reinier-Jos.-Jean-Mich.-Fran√ßois-J√©r√¥me"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -330,8 +330,8 @@
 	1820.5.28 = {
 		spouse = 10000064 #Francisca de Saboya
 	}
-	#was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
-	1847.1.1 = { #was general-"feldzeugmestre" and proprietary of the 11th regiment of infantry in 1847; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+	#was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
+	1847.1.1 = { #was general-"feldzeugmestre" and proprietary of the 11th regiment of infantry in 1847; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		effect = {
 			make_commander_effect = yes
@@ -342,7 +342,7 @@
 	}
 }
 
-10000379 = { #Archduke Ludwig Joseph Anton von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11, 13.
+10000379 = { #Archduke Ludwig Joseph Anton von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11, 13.
 	name = "Ludwig Joseph Anton"
 	dynasty = von_habsburg
 	culture = austrian
@@ -365,26 +365,26 @@
 	}
 }
 
-10000016 = { #Marie Luise von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
+10000016 = { #Marie Luise von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
 	name = "Marie Luise"
 	female = yes
 	dynasty = von_habsburg
 	religion = catholic
 	culture = austrian
-	father = 10000000 #Franz von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
-	mother = 10000001 #Maria Theresa de Bourbon; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
-	1791.12.12 = { #born on 1791.12.12; Source: "Almanach de Gotha pour l'annÈe 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
+	father = 10000000 #Franz von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
+	mother = 10000001 #Maria Theresa de Bourbon; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
+	1791.12.12 = { #born on 1791.12.12; Source: "Almanach de Gotha pour l'ann√©e 1813", 1813, p. 3; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
 		birth = yes
 	}
-	1810.3.11 = { #married by procuration on 1810.3.11 and in person on 1810.4.2 to Napoleon; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
-		spouse = 10000434 #Emperor NapolÈon of France
+	1810.3.11 = { #married by procuration on 1810.3.11 and in person on 1810.4.2 to Napoleon; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
+		spouse = 10000434 #Emperor Napol√©on of France
 	}
 	1851.1.1 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
 
-10000002 = { #Ferdinand von Habsburg, Emperor Ferdinand I of Austria; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 10.
+10000002 = { #Ferdinand von Habsburg, Emperor Ferdinand I of Austria; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 10.
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
@@ -403,7 +403,7 @@
 	}
 }
 
-10000190 = { #Archduchess Caroline von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 6.
+10000190 = { #Archduchess Caroline von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 6.
 	name = "Caroline"
 	dynasty = von_habsburg
 	culture = austrian
@@ -420,7 +420,7 @@
 	}
 }
 
-10000017 = { #Archduke Franz; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
+10000017 = { #Archduke Franz; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
 	name = "Franz"
 	dynasty = von_habsburg
 	religion = catholic
@@ -446,9 +446,9 @@
 	
 }
 
-#Archduchess Marie, sister to Ferdinand I and wife to Prince Leopold of the Two Sicilies; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
+#Archduchess Marie, sister to Ferdinand I and wife to Prince Leopold of the Two Sicilies; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
 
-10000023 = { #Archduchess Marie Anne; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 10-11.
+10000023 = { #Archduchess Marie Anne; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 10-11.
 	name = "Marie Anne"
 	female = yes
 	dynasty = von_habsburg
@@ -464,7 +464,7 @@
 	}
 }
 
-10000106 = { #Archduchess Theresa of Austria; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11, 23-24.
+10000106 = { #Archduchess Theresa of Austria; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11, 23-24.
 	name = "Theresa"
 	dynasty = von_habsburg
 	culture = austrian
@@ -481,7 +481,7 @@
 	}
 }
 
-10000029 = { #Archduke Albert; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000029 = { #Archduke Albert; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Albert"
 	dynasty = von_habsburg
 	religion = catholic
@@ -506,8 +506,8 @@
 	}
 }
 
-10000044 = { #Stefan Franz Victor von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 12.
-	name = "Stefan Franz Victor" #source gives "Etienne-FranÁois-Victor"
+10000044 = { #Stefan Franz Victor von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 12.
+	name = "Stefan Franz Victor" #source gives "Etienne-Fran√ßois-Victor"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -530,7 +530,7 @@
 	
 }
 
-10000038 = { #Archduke (Karl) Ferdinand; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+10000038 = { #Archduke (Karl) Ferdinand; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
@@ -553,7 +553,7 @@
 	}
 }
 
-10000373 = { #Adelaide von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 12.
+10000373 = { #Adelaide von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 12.
 	name = "Adelaide"
 	dynasty = von_habsburg
 	culture = austrian
@@ -570,7 +570,7 @@
 	}
 }
 
-10000039 = { #Archduke Friedrich; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+10000039 = { #Archduke Friedrich; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 	name = "Friedrich"
 	dynasty = von_habsburg
 	religion = catholic
@@ -592,7 +592,7 @@
 	}
 }
 
-10000374 = { #Leopold Ludwig Maria von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 12-13.
+10000374 = { #Leopold Ludwig Maria von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 12-13.
 	name = "Leopold Ludwig Maria"
 	dynasty = von_habsburg
 	culture = austrian
@@ -615,7 +615,7 @@
 	}
 }
 
-10000375 = { #Ernst Karl Felix von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 12-13.
+10000375 = { #Ernst Karl Felix von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 12-13.
 	name = "Ernst Karl Felix"
 	dynasty = von_habsburg
 	culture = austrian
@@ -638,7 +638,7 @@
 	}
 }
 
-10000040 = { #Archduchess Caroline; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+10000040 = { #Archduchess Caroline; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 	name = "Caroline"
 	female = yes
 	dynasty = von_habsburg
@@ -657,7 +657,7 @@
 	}
 }
 
-10000376 = { #Sigmund Leopold Reiner von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 12-13.
+10000376 = { #Sigmund Leopold Reiner von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 12-13.
 	name = "Sigmund Leopold Reiner"
 	dynasty = von_habsburg
 	culture = austrian
@@ -679,7 +679,7 @@
 	}
 }
 
-10000377 = { #Reiner Ferdinand Maria von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 12-13.
+10000377 = { #Reiner Ferdinand Maria von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 12-13.
 	name = "Reiner Ferdinand Maria"
 	dynasty = von_habsburg
 	culture = austrian
@@ -701,7 +701,7 @@
 	}
 }
 
-10000041 = { #Archduke Wilhelm; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 11-12.
+10000041 = { #Archduke Wilhelm; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 11-12.
 	name = "Wilhelm"
 	dynasty = von_habsburg
 	religion = catholic
@@ -723,7 +723,7 @@
 	}
 }
 
-10000378 = { #Heinrich Anton Maria von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, pp. 12-13.
+10000378 = { #Heinrich Anton Maria von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, pp. 12-13.
 	name = "Heinrich Anton Maria"
 	dynasty = von_habsburg
 	culture = austrian
@@ -745,7 +745,7 @@
 	}
 }
 
-10000019 = { #Emperor Franz Joseph I of Austria; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000019 = { #Emperor Franz Joseph I of Austria; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Franz Joseph"
 	dynasty = von_habsburg
 	religion = catholic
@@ -769,7 +769,7 @@
 	}
 }
 
-10000046 = { #Elisabeth von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 12.
+10000046 = { #Elisabeth von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 12.
 	name = "Elisabeth"
 	female = yes
 	dynasty = von_habsburg
@@ -785,7 +785,7 @@
 	}
 }
 
-10000020 = { #Archduke Ferdinand; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000020 = { #Archduke Ferdinand; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Ferdinand"
 	dynasty = von_habsburg
 	religion = catholic
@@ -800,7 +800,7 @@
 	}
 }
 
-10000047 = { #Joseph Karl Ludwig von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 12.
+10000047 = { #Joseph Karl Ludwig von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 12.
 	name = "Joseph Karl Ludwig"
 	dynasty = von_habsburg
 	culture = austrian
@@ -815,7 +815,7 @@
 	}
 }
 
-10000021 = { #Archduke Karl; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000021 = { #Archduke Karl; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Karl"
 	dynasty = von_habsburg
 	religion = catholic
@@ -830,7 +830,7 @@
 	}
 }
 
-10000048 = { #Maria Henriette Anna von Habsburg; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 12.
+10000048 = { #Maria Henriette Anna von Habsburg; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 12.
 	name = "Maria Henriette Anna"
 	female = yes
 	dynasty = von_habsburg
@@ -846,7 +846,7 @@
 	}
 }
 
-10000022 = { #Archduke Ludwig; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000022 = { #Archduke Ludwig; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Ludwig"
 	dynasty = von_habsburg
 	religion = catholic
@@ -861,9 +861,9 @@
 	}
 }
 
-#Archduchess Theresa, Queen of the Two Sicilies; daughter of Archduke Charles and Henriette; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+#Archduchess Theresa, Queen of the Two Sicilies; daughter of Archduke Charles and Henriette; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 
-10000031 = { #Archduchess Maria Theresa; Source: "Almanach de Gotha pour l'annÈe 1847", 1847, p. 11.
+10000031 = { #Archduchess Maria Theresa; Source: "Almanach de Gotha pour l'ann√©e 1847", 1847, p. 11.
 	name = "Maria Theresa"
 	female = yes
 	dynasty = von_habsburg

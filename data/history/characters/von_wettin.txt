@@ -1,4 +1,4 @@
-10000470 = { #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+10000470 = { #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 4.
 	name = "Friedrich Christian"
 	dynasty = von_wettin
 	culture = german
@@ -12,7 +12,7 @@
 	}
 }
 
-10000479 = { #Marie Elisabeth von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+10000479 = { #Marie Elisabeth von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 	name = "Marie Elisabeth"
 	dynasty = von_wettin
 	culture = german
@@ -31,7 +31,7 @@
 	}
 }
 
-10000480 = { #Albert von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+10000480 = { #Albert von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 	name = "Albert"
 	dynasty = von_wettin
 	culture = german
@@ -52,7 +52,7 @@
 	}
 }
 
-10000482 = { #Marie Kunigunde von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+10000482 = { #Marie Kunigunde von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 	name = "Marie Kunigunde"
 	dynasty = von_wettin
 	culture = german
@@ -69,12 +69,12 @@
 	}
 }
 
-10000336 = { #Friedrich August von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000336 = { #Friedrich August von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Friedrich August"
 	dynasty = von_wettin
 	culture = german
 	religion = catholic
-	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
+	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 4.
 	1750.12.23 = {
 		birth = yes
 	}
@@ -87,16 +87,16 @@
 	}
 }
 
-10000188 = { #King Anton von Wettin of Saxony; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000188 = { #King Anton von Wettin of Saxony; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Anton"
 	dynasty = von_wettin
 	culture = german
 	religion = catholic
-	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 	1755.12.27 = {
 		birth = yes
 	}
-	1787.10.18 = { #married on 1787.10.18 to Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	1787.10.18 = { #married on 1787.10.18 to Marie Theresie von Habsburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 		spouse = 10000472 #Marie Theresie von Habsburg
 	}
 	1836.6.6 = { #succeeded by his nephew on 1836.6.6
@@ -104,7 +104,7 @@
 	}
 }
 
-10000474 = { #Marie Amalie von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5, 11.
+10000474 = { #Marie Amalie von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5, 11.
 	name = "Marie Amalie"
 	dynasty = von_wettin
 	culture = german
@@ -114,18 +114,18 @@
 	1757.9.26 = { #born on 1757.9.26
 		birth = yes
 	}
-	#wife of duke Karl of Zweibrücken, widowed on 1795.4.1
+	#wife of duke Karl of ZweibrÃ¼cken, widowed on 1795.4.1
 	1817.1.1 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
 
-10000189 = { #Duke Maximilian von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000189 = { #Duke Maximilian von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Maximilian"
 	dynasty = von_wettin
 	culture = german
 	religion = catholic
-	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+	father = 10000470 #Friedrich Christian von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 	1759.4.13 = {
 		birth = yes
 	}
@@ -141,7 +141,7 @@
 	}
 }
 
-10000478 = { #Marie Anne von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4-5.
+10000478 = { #Marie Anne von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 4-5.
 	name = "Marie Anne"
 	dynasty = von_wettin
 	culture = german
@@ -156,8 +156,8 @@
 	}
 }
 
-10000335 = { #Auguste Népomucène Antoinette von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
-	name = "Auguste Népomucène Antoinette"
+10000335 = { #Auguste NÃ©pomucÃ¨ne Antoinette von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
+	name = "Auguste NÃ©pomucÃ¨ne Antoinette"
 	dynasty = von_wettin
 	culture = german
 	religion = catholic
@@ -172,7 +172,7 @@
 	}
 }
 
-10000321 = { #Amalie Friederike Auguste von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000321 = { #Amalie Friederike Auguste von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Amalie Friederike Auguste"
 	dynasty = von_wettin
 	culture = german
@@ -188,7 +188,7 @@
 	}
 }
 
-10000322 = { #Maria Ferdinandine Amalie von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000322 = { #Maria Ferdinandine Amalie von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Maria Ferdinandine Amalie"
 	dynasty = von_wettin
 	culture = german
@@ -205,7 +205,7 @@
 	}
 }
 
-10000187 = { #Friedrich August von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000187 = { #Friedrich August von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Friedrich August"
 	dynasty = von_wettin
 	culture = german
@@ -227,7 +227,7 @@
 	}
 }
 
-10000475 = { #Clemens Maria Joseph von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+10000475 = { #Clemens Maria Joseph von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 5.
 	name = "Clemens Maria Joseph"
 	dynasty = von_wettin
 	culture = german
@@ -242,7 +242,7 @@
 	}
 }
 
-10000476 = { #Marie Anna Karoline von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+10000476 = { #Marie Anna Karoline von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 5.
 	name = "Marie Anna Karoline"
 	dynasty = von_wettin
 	culture = german
@@ -258,7 +258,7 @@
 	}
 }
 
-10000323 = { #Johann Nepomuk von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000323 = { #Johann Nepomuk von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Johann Nepomuk"
 	dynasty = von_wettin
 	culture = german
@@ -276,7 +276,7 @@
 	}
 }
 
-10000477 = { #Marie Josephe von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
+10000477 = { #Marie Josephe von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 5.
 	name = "Marie Josephe"
 	dynasty = von_wettin
 	culture = german
@@ -292,7 +292,7 @@
 	}
 }
 
-10000325 = { #Maria Auguste Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000325 = { #Maria Auguste Friederike von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Maria Auguste Friederike"
 	dynasty = von_wettin
 	culture = german
@@ -308,7 +308,7 @@
 	}
 }
 
-10000326 = { #Albert von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000326 = { #Albert von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Albert"
 	dynasty = von_wettin
 	culture = german
@@ -323,7 +323,7 @@
 	}
 }
 
-10000327 = { #Elisabeth Maximiliane von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
+10000327 = { #Elisabeth Maximiliane von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 6.
 	name = "Elisabeth Maximiliane"
 	dynasty = von_wettin
 	culture = german
@@ -339,7 +339,7 @@
 	}
 }
 
-10000328 = { #Ernst von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000328 = { #Ernst von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Ernst"
 	dynasty = von_wettin
 	culture = german
@@ -354,7 +354,7 @@
 	}
 }
 
-10000329 = { #Georg von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000329 = { #Georg von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Georg"
 	dynasty = von_wettin
 	culture = german
@@ -369,7 +369,7 @@
 	}
 }
 
-10000330 = { #Sidonie von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000330 = { #Sidonie von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Sidonie"
 	dynasty = von_wettin
 	culture = german
@@ -385,7 +385,7 @@
 	}
 }
 
-10000331 = { #Anna Maria von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000331 = { #Anna Maria von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Anna Maria"
 	dynasty = von_wettin
 	culture = german
@@ -401,7 +401,7 @@
 	}
 }
 
-10000332 = { #Margarete Caroline Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000332 = { #Margarete Caroline Friederike von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Margarete Caroline Friederike"
 	dynasty = von_wettin
 	culture = german
@@ -417,7 +417,7 @@
 	}
 }
 
-10000333 = { #Sophie Maria Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000333 = { #Sophie Maria Friederike von Wettin; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Sophie Maria Friederike"
 	dynasty = von_wettin
 	culture = german

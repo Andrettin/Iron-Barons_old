@@ -1,4 +1,4 @@
-10000598 = { #Vittorio Amadeo de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000598 = { #Vittorio Amadeo de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Vittorio Amadeo"
 	dynasty = de_saboya
 	culture = italian
@@ -12,7 +12,7 @@
 	}
 }
 
-10000597 = { #Maria Luisa de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000597 = { #Maria Luisa de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Maria Luisa"
 	dynasty = de_saboya
 	culture = italian
@@ -28,7 +28,7 @@
 	}
 }
 
-10000600 = { #Maria Teresa de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+10000600 = { #Maria Teresa de Saboya; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 15.
 	name = "Maria Teresa"
 	dynasty = de_saboya
 	culture = italian
@@ -46,8 +46,8 @@
 	}
 }
 
-10000064 = { #Francisca, sister of king Charles-Amédée-Albert of Sardinia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
-	name = "Francisca" #source gives "Françoise"
+10000064 = { #Francisca, sister of king Charles-AmÃ©dÃ©e-Albert of Sardinia; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 12.
+	name = "Francisca" #source gives "FranÃ§oise"
 	female = yes
 	dynasty = de_saboya
 	culture = italian
@@ -61,7 +61,7 @@
 	}
 }
 
-10000015 = { #Maria Anna de Saboya; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+10000015 = { #Maria Anna de Saboya; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 10.
 	name = "Maria Anna" #source gives "Marie-Anne"
 	dynasty = de_saboya
 	culture = italian #daughter of king Victor Emmanuel of Sardinia
@@ -75,7 +75,7 @@
 	}
 }
 
-10000112 = { #Princess Teresa of Sardinia; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+10000112 = { #Princess Teresa of Sardinia; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 50.
 	name = "Teresa"
 	dynasty = de_saboya
 	culture = italian
@@ -90,7 +90,7 @@
 	}
 }
 
-10000105 = { #Princess Cristina of Sardinia; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 23-24.
+10000105 = { #Princess Cristina of Sardinia; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 23-24.
 	name = "Cristina"
 	dynasty = de_saboya
 	culture = italian

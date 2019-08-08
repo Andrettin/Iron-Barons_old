@@ -1,4 +1,4 @@
-10000109 = { #Duke Carlo of Lucca; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 50.
+10000109 = { #Duke Carlo of Lucca; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 50.
 	name = "Carlo"
 	dynasty = de_bourbon
 	culture = italian
@@ -17,7 +17,7 @@
 	}
 }
 
-10000334 = { #Louise Charlotte, sister of the reigning duke of Lucca; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
+10000334 = { #Louise Charlotte, sister of the reigning duke of Lucca; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 6-7.
 	name = "Louise Charlotte"
 	dynasty = de_bourbon
 	culture = italian

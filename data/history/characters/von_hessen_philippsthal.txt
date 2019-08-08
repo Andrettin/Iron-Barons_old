@@ -1,4 +1,4 @@
-10000659 = { #Karl von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 19-20.
+10000659 = { #Karl von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 19-20.
 	name = "Karl"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -14,7 +14,7 @@
 	}
 }
 
-10000653 = { #Ludwig von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+10000653 = { #Ludwig von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
 	name = "Ludwig"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -31,7 +31,7 @@
 	}
 }
 
-10000657 = { #Ernst Constantin von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+10000657 = { #Ernst Constantin von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
 	name = "Ernst Constantin"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -48,7 +48,7 @@
 	}
 }
 
-10000655 = { #Marie Karoline von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+10000655 = { #Marie Karoline von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
 	name = "Marie Karoline"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -67,7 +67,7 @@
 	}
 }
 
-10000658 = { #Karoline Wilhelmine von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 19-20.
+10000658 = { #Karoline Wilhelmine von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 19-20.
 	name = "Karoline Wilhelmine"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -86,7 +86,7 @@
 	}
 }
 
-10000661 = { #Ferdinand von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+10000661 = { #Ferdinand von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
 	name = "Ferdinand"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -101,25 +101,25 @@
 	}
 }
 
-10000285 = { #Karl von Hessen-Philippsthal; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+10000285 = { #Karl von Hessen-Philippsthal; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 82.
 	name = "Karl"
 	dynasty = von_hessen_philippsthal
 	culture = german
 	religion = protestant
-	father = 10000657 #Ernst Constantin von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
-	mother = 10000660 #Christiane Luise von Schwarzburg-Rudolstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
-	1803.5.22 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	father = 10000657 #Ernst Constantin von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
+	mother = 10000660 #Christiane Luise von Schwarzburg-Rudolstadt; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
+	1803.5.22 = { #Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
 		birth = yes
 	}
 	1845.10.9 = {
-		spouse = 10000284 #married on 1845.10.9 to Maria Alexandrine von Württemberg
+		spouse = 10000284 #married on 1845.10.9 to Maria Alexandrine von WÃ¼rttemberg
 	}
 	1863.1.1 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
 
-10000662 = { #Franz August von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+10000662 = { #Franz August von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 19.
 	name = "Franz August"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -134,7 +134,7 @@
 	}
 }
 
-10000663 = { #Adolph von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+10000663 = { #Adolph von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 20.
 	name = "Adolph"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -151,7 +151,7 @@
 	}
 }
 
-10000664 = { #Karl August Philipp von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+10000664 = { #Karl August Philipp von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 20.
 	name = "Karl August Philipp"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -166,7 +166,7 @@
 	}
 }
 
-10000666 = { #Friedrich Wilhelm Karl von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+10000666 = { #Friedrich Wilhelm Karl von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 20.
 	name = "Friedrich Wilhelm Karl"
 	dynasty = von_hessen_philippsthal
 	culture = german
@@ -191,7 +191,7 @@
 	}
 }
 
-10000667 = { #Ernst Friederich Wilhelm von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
+10000667 = { #Ernst Friederich Wilhelm von Hessen-Philippsthal; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 20.
 	name = "Ernst Friederich Wilhelm"
 	dynasty = von_hessen_philippsthal
 	culture = german

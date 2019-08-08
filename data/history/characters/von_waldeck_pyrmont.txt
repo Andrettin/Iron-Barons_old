@@ -1,4 +1,4 @@
-10000283 = { #Georg von Waldeck-Pyrmont; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+10000283 = { #Georg von Waldeck-Pyrmont; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 82.
 	name = "Georg"
 	dynasty = von_waldeck_pyrmont
 	culture = german
@@ -11,7 +11,7 @@
 	}
 }
 
-10000281 = { #Mathilde von Waldeck-Pyrmont; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
+10000281 = { #Mathilde von Waldeck-Pyrmont; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 82.
 	name = "Mathilde"
 	dynasty = von_waldeck_pyrmont
 	culture = german
@@ -21,7 +21,7 @@
 	1801.4.10 = {
 		birth = yes
 	}
-	#wife of Eugen von Württemberg
+	#wife of Eugen von WÃ¼rttemberg
 	1825.4.13 = {
 		death = yes
 	}

@@ -1,4 +1,4 @@
-10000719 = { #Ladislaus Festetics-Tolna; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
+10000719 = { #Ladislaus Festetics-Tolna; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 23.
 	name = "Ladislaus"
 	dynasty = festetics_tolna
 	culture = hungarian #given his dynasty
@@ -15,7 +15,7 @@
 	}
 }
 
-10000300 = { #Helene Antoinette Josephine Festetics-Tolna; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
+10000300 = { #Helene Antoinette Josephine Festetics-Tolna; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, pp. 82-83.
 	name = "Helene Antoinette Josephine"
 	dynasty = festetics_tolna
 	culture = hungarian #given her dynasty name
@@ -24,8 +24,8 @@
 	1812.6.1 = {
 		birth = yes
 	}
-	#married Christian Friedrich Alexander von Württemberg on 1832.7.3
-	#widow of Christian Friedrich Alexander von Württemberg from 1844.7.7
+	#married Christian Friedrich Alexander von WÃ¼rttemberg on 1832.7.3
+	#widow of Christian Friedrich Alexander von WÃ¼rttemberg from 1844.7.7
 	#remarried to the Baron of Bourget
 	1872.1.1 = { #unknown, set to 60 years after birth
 		death = yes

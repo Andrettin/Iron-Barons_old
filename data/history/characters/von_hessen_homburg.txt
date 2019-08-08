@@ -1,4 +1,4 @@
-10000695 = { #Friedrich Karl Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000695 = { #Friedrich Karl Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Friedrich Karl Wilhelm"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -12,7 +12,7 @@
 	}
 }
 
-10000487 = { #Friedrich Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6, 22.
+10000487 = { #Friedrich Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 6, 22.
 	name = "Friedrich Ludwig Wilhelm"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -30,7 +30,7 @@
 	}
 }
 
-10000696 = { #Friedrich Joseph Ludwig von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000696 = { #Friedrich Joseph Ludwig von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Friedrich Joseph Ludwig"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -46,7 +46,7 @@
 	}
 }
 
-10000697 = { #Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000697 = { #Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Ludwig Wilhelm"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -64,7 +64,7 @@
 	}
 }
 
-10000699 = { #Karoline Luise von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000699 = { #Karoline Luise von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Karoline Luise"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -81,7 +81,7 @@
 	}
 }
 
-10000700 = { #Luise Ulrike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000700 = { #Luise Ulrike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Luise Ulrike"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -97,7 +97,7 @@
 	}
 }
 
-10000486 = { #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6, 22.
+10000486 = { #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 6, 22.
 	name = "Christiane Amalie"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -116,7 +116,7 @@
 	}
 }
 
-10000701 = { #Auguste Friederike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000701 = { #Auguste Friederike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Auguste Friederike"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -132,7 +132,7 @@
 	}
 }
 
-10000702 = { #Philipp August Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+10000702 = { #Philipp August Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Philipp August Friedrich"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -147,7 +147,7 @@
 	}
 }
 
-10000703 = { #Gustav Adolph Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+10000703 = { #Gustav Adolph Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Gustav Adolph Friedrich"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -162,7 +162,7 @@
 	}
 }
 
-10000704 = { #Ferdinand Heinrich Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+10000704 = { #Ferdinand Heinrich Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Ferdinand Heinrich Friedrich"
 	dynasty = von_hessen_homburg
 	culture = german
@@ -177,7 +177,7 @@
 	}
 }
 
-10000705 = { #Amalie Marianne von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
+10000705 = { #Amalie Marianne von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Amalie Marianne"
 	dynasty = von_hessen_homburg
 	culture = german

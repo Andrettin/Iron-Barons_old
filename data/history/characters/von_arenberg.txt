@@ -1,4 +1,4 @@
-10000549 = { #Ludwig von Arenberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+10000549 = { #Ludwig von Arenberg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 12.
 	name = "Ludwig"
 	dynasty = von_arenberg
 	culture = german
@@ -12,7 +12,7 @@
 	}
 }
 
-10000548 = { #Amalie Luise Julie von Arenberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
+10000548 = { #Amalie Luise Julie von Arenberg; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 12.
 	name = "Amalie Luise Julie"
 	dynasty = von_arenberg
 	culture = german

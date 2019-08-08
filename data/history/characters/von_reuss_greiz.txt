@@ -1,4 +1,4 @@
-10000231 = { #Heinrich von Reuss-Greiz; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+10000231 = { #Heinrich von Reuss-Greiz; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 4.
 	name = "Heinrich"
 	dynasty = von_reuss_greiz
 	culture = german
@@ -12,7 +12,7 @@
 	}
 }
 
-10000229 = { #Luise von Reuss-Greiz; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
+10000229 = { #Luise von Reuss-Greiz; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 4.
 	name = "Luise"
 	dynasty = von_reuss_greiz
 	culture = german

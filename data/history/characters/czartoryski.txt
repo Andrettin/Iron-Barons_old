@@ -1,4 +1,4 @@
-10000270 = { #Adam Czartoryski; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+10000270 = { #Adam Czartoryski; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 81.
 	name = "Adam"
 	dynasty = czartoryski
 	culture = polish
@@ -11,7 +11,7 @@
 	}
 }
 
-10000271 = { #Marie Czartoryski; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
+10000271 = { #Marie Czartoryski; Source: "Almanach de Gotha pour l'annÃ©e 1847", 1847, p. 81.
 	name = "Marie"
 	dynasty = czartoryski
 	culture = polish
@@ -21,7 +21,7 @@
 	1762.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	#married Ludwig Friedrich Alexander von Württemberg
+	#married Ludwig Friedrich Alexander von WÃ¼rttemberg
 	1797.1.28 = { #unknown, set to the date of her husband's marriage to his second wife
 		death = yes
 	}

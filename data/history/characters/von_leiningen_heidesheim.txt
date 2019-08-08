@@ -1,4 +1,4 @@
-10000682 = { #Christian Karl Reinhard von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000682 = { #Christian Karl Reinhard von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Christian Karl Reinhard"
 	dynasty = von_leiningen_heidesheim
 	culture = german
@@ -12,7 +12,7 @@
 	}
 }
 
-10000681 = { #Marie Luise Albertine von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
+10000681 = { #Marie Luise Albertine von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und VergnÃ¼gen auf das Jahr 1815", 1815, p. 22.
 	name = "Marie Luise Albertine"
 	dynasty = von_leiningen_heidesheim
 	culture = german
