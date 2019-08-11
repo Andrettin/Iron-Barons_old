@@ -1,6 +1,30 @@
 culture = austrian
 religion = catholic
 
+1798.1.1 = {
+	population = 628739 #Upper Austria had a population of 628,739 in 1798 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+}
+
+1800.1.1 = {
+	population = 629729 #Upper Austria had a population of 629,729 in 1800 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+}
+
+1803.1.1 = {
+	population = 635213 #Upper Austria had a population of 635,213 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+}
+
+1806.1.1 = {
+	population = 631818 #Upper Austria had a population of 631,818 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+}
+
+1807.1.1 = {
+	population = 625867 #Upper Austria had a population of 625,867 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+}
+
+1808.1.1 = {
+	population = 628595 #Upper Austria had a population of 628,595 in 1808 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+}
+
 1815.1.1 = {
 	b_linz = city #Linz was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_wels = city #Wels was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
