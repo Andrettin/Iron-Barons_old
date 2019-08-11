@@ -97,9 +97,9 @@
 	}
 	1811.1.10 = {
 		employer = 10000615 #George of Brunswick-Luneburg
-		effect = {
-			give_minor_title = title_regent #declared regent of Great Britain on 1811.1.10
-		}
+		#effect = {
+		#	give_minor_title = title_regent #declared regent of Great Britain on 1811.1.10
+		#}
 	}
 	#prince of Wales, duke of Cornwall and of Rotsay, and earl of Chester as of 1815
 	1822.1.1 = { #unknown, set to 60 years after birth

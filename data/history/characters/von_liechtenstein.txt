@@ -41,9 +41,9 @@
 	}
 	#"DdP." as of 1847
 	1847.1.1 = { #Lady of the Starry Cross as of 1847
-		effect = {
+		#effect = {
 			#join_society = order_of_the_starry_cross
-		}
+		#}
 	}
 	1872.1.1 = { #unknown, set to 60 years after birth
 		death = yes

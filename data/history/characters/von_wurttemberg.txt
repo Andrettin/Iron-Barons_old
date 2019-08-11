@@ -183,9 +183,9 @@
 	1847.1.1 = { #infantry general in the service of Russia and chief of a grenadiers regiment as of 1847
 		traits += heavy_infantry_leader
 		employer = 10000262 #Emperor Nicolas I of Russia
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1848.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -241,9 +241,9 @@
 	1847.1.1 = { #cavalry major-general in service of Württemberg as of 1847
 		traits += cavalry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1857.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -371,9 +371,9 @@
 	#widowed after 1841.10.1
 	1847.1.1 = { #major-general and brigadier at Graz in service of Austria as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1864.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -397,9 +397,9 @@
 	#widowed after 1839.1.2
 	1847.1.1 = { #senior major-general in service of Russia as of 1847
 		employer = 10000262 #Emperor Nicolas I of Russia
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1864.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -452,9 +452,9 @@
 	}
 	1847.1.1 = { #senior major-general in service of Russia as of 1847
 		employer = 10000262 #Emperor Nicolas I of Russia
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1867.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -478,9 +478,9 @@
 	1847.1.1 = { #lieutenant-general in the service of Wurtemberg and chief of an uhlans regiment in the service of Russia as of 1847
 		traits += cavalry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1868.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -502,9 +502,9 @@
 	}
 	1847.1.1 = { #major-general in the service of Württemberg as of 1847
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1870.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -525,9 +525,9 @@
 	1847.1.1 = { #major-general in the service of Prussia and commander of a cavalry brigade of the guard as of 1847
 		traits += cavalry_leader
 		employer = 10000010 #Friedrich Wilhelm IV of Prussia
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1873.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -620,9 +620,9 @@
 	1847.1.1 = { #cavalry captain in service of Prussia as of 1847
 		traits += cavalry_leader
 		employer = 10000010 #Friedrich Wilhelm IV of Prussia
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1880.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -663,9 +663,9 @@
 	}
 	1847.1.1 = { #major-general in the service of Wurtemberg as of 1847
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1883.1.1 = { #unknown, set to 60 years after birth
 		death = yes

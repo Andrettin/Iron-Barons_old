@@ -30,9 +30,9 @@
 	#owner of the Standesherrschaft of Pless in Upper Silesia as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	1815.1.1 = {
 		employer = 10000008 #Friedrich Wilhelm III of Prussia
-		effect = {
-			make_commander_effect = yes #royal Prussian general-major as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Prussian general-major as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+		#}
 	}
 	1818.12.16 = { #his brother succeeded him to the principality of Pless on 1818.12.16, but only later (on 1830.8.23) to the duchy of Köthen, indicating that Ferdinand abandoned the former for the latter on 1818.12.16; succeeded Ludwig, last duke of the main branch, on 1818.12.16
 		dynasty = von_anhalt_kothen
@@ -75,9 +75,9 @@
 	}
 	1815.1.1 = {
 		employer = 10000008 #Friedrich Wilhelm III of Prussia
-		effect = {
-			make_commander_effect = yes #royal Prussian colonel ("oberst") as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Prussian colonel ("oberst") as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+		#}
 	}
 	#succeeded his brother, duke Ferdinand, on 1818.12.16 to the principality of Pless, and on 1830.8.23 in the government of the duchy of Köthen
 	1819.5.18 = {

@@ -175,9 +175,9 @@
 	1847.1.1 = { #field marshal-general and proprietary of the 3rd infantry regiment and of the 3rd ulans regiment as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1857.1.1 = { #unknown
 		death = yes
@@ -230,9 +230,9 @@
 	1847.1.1 = { #fieldmarshal, commander-in-chief and proprietary of the 3rd hussars regiment, as well as of the imperial Russian hussars regiment of Isum., as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
 		death = yes
@@ -252,9 +252,9 @@
 	}
 	1847.1.1 = { #general-"feldzeugmestre", proprietary of the 4th infantry regiment and grandmaster of the Teutonic Order within the Empire of Austria as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1852.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
 		death = yes
@@ -283,9 +283,9 @@
 	1847.1.1 = { #field marshal-general and proprietary of the 2nd and 12th hussars regiments as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1857.1.1 = { #unknown
 		death = yes
@@ -307,9 +307,9 @@
 		traits += architect #engineer
 		traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1852.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
 		death = yes
@@ -333,9 +333,9 @@
 	#was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 	1847.1.1 = { #was general-"feldzeugmestre" and proprietary of the 11th regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1857.1.1 = { #unknown
 		death = yes
@@ -356,9 +356,9 @@
 	1847.1.1 = { #fieldmarshal and general-director of artillery, and proprietary of the 8th infantry regiment as of 1847
 		traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1857.1.1 = { #unknown
 		death = yes
@@ -436,9 +436,9 @@
 	}
 	1847.1.1 = { #FMLieut. and proprietary of the 52nd infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1854.1.1 = {
 		death = yes
@@ -497,9 +497,9 @@
 	}
 	1847.1.1 = { #FML., general-commander in Lower and Upper Austria, in Salzburg and in Vienna, proprietary of the 44th infantry regiment
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1877.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -519,9 +519,9 @@
 	}
 	1847.1.1 = { #major-general and proprietary of the 58th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	#governor-in-chief of the kingdom of Bohemia as of 1847
 	1877.1.1 = { #unknown, set to 60 years after birth
@@ -544,9 +544,9 @@
 	1847.1.1 = { #FMLieut. and commander of the division in Prague, proprietary of the 51st imperial and royal infantry regiment, as well as the Russian ulans regiment of Belgorod as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1878.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -583,9 +583,9 @@
 	}
 	1847.1.1 = { #FMLieut., vice-admiral and commander-in-chief of the imperial navy, proprietary of the 16th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1881.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -606,9 +606,9 @@
 	1847.1.1 = { #colonel and proprietary of the 53rd infantry regiment, and colonel of the dragoons of the regiment "King of Bavaria" as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1883.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -629,9 +629,9 @@
 	1847.1.1 = { #proprietary of the 48th infantry regiment and colonel of the hussars regiment "King of Sardinia", number 5, as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1884.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -670,9 +670,9 @@
 	}
 	1847.1.1 = { #imperial and royal colonel of the 11th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1886.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -692,9 +692,9 @@
 	}
 	1847.1.1 = { #imperial and royal colonel of the infantry regiment "The Emperor", number 1, as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1887.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -714,9 +714,9 @@
 	}
 	1847.1.1 = { #proprietary of the 12th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1887.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -736,9 +736,9 @@
 	}
 	1847.1.1 = { #imperial and royal colonel of the regiment "Archduke Karl", number 3, as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1888.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -760,9 +760,9 @@
 	1847.1.1 = { #colonel and proprietary of the 3rd dragoons regiment as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1916.1.1 = { #died in 1916; Source: Pieter M. Judson, "The Habsburg Empire: A New History", 2016, p. 215.
 		death = yes

@@ -12,9 +12,9 @@
 	}
 	1815.1.1 = {
 		employer = 10000000 #Emperor Franz I of Austria
-		effect = {
-			make_commander_effect = yes #imperial Austrian colonel ("oberst") as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #imperial Austrian colonel ("oberst") as of 1815
+		#}
 	}
 	1834.1.1 = { #unknown, set to 60 years after birth
 		death = yes

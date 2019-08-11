@@ -100,9 +100,9 @@
 	}
 	1815.1.1 = {
 		employer = 10000012 #Maximilian Joseph von Wittelsbach
-		effect = {
-			make_commander_effect = yes #royal Bavarian infantry general as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Bavarian infantry general as of 1815
+		#}
 	}
 	1822.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
 		death = yes
@@ -213,9 +213,9 @@
 	}
 	1815.1.1 = {
 		employer = 10000012 #Maximilian Joseph von Wittelsbach
-		effect = {
-			make_commander_effect = yes #royal Bavarian general lieutenant as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Bavarian general lieutenant as of 1815
+		#}
 	}
 	1844.1.1 = { #unknown, set to 60 years after birth
 		death = yes

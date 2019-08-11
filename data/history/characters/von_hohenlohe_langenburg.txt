@@ -57,9 +57,9 @@
 	#became the regent of Saxe-Meinigen upon Bernhard's succession of his father as duke of Saxe-Meiningen on 1803.12.24; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	1803.12.24 = {
 		#employer = 10000203 #Bernhard zu Sachsen-Meiningen
-		effect = {
+		#effect = {
 			#give_minor_title = title_regent
-		}
+		#}
 	}
 	1837.4.29 = {
 		death = yes

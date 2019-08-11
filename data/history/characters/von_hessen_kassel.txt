@@ -46,9 +46,9 @@
 		spouse = 10000578 #Louise af Danmark
 	}
 	1815.1.1 = {
-		effect = {
-			make_commander_effect = yes #royal Danish field-marshal as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Danish field-marshal as of 1815
+		#}
 	}
 	#governor of the duchies of Schleswig and Holstein as of 1815
 	1824.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)

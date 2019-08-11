@@ -43,9 +43,9 @@
 	#widowed on 1793.7.24 of Marie Christine, daughter of emperor Franz I (presumably of the Holy Roman Empire)
 	1815.1.1 = {
 		employer = 10000000 #Emperor Franz I of Austria
-		effect = {
-			make_commander_effect = yes #imperial Austrian field-marshal as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #imperial Austrian field-marshal as of 1815
+		#}
 	}
 	1818.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes

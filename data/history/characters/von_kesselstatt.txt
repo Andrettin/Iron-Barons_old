@@ -26,9 +26,9 @@
 	#married on 1815.8.6 to Philipp von Stadion
 	#DdP. as of 1847
 	1847.1.1 = { #Lady of the Starry Cross as of 1847
-		effect = {
+		#effect = {
 			#join_society = order_of_the_starry_cross
-		}
+		#}
 	}
 	1854.1.1 = { #unknown, set to 60 years after birth
 		death = yes

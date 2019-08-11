@@ -182,9 +182,9 @@
 	}
 	1815.1.1 = {
 		employer = 10000568 #Fredrik af Danmark
-		effect = {
-			make_commander_effect = yes #royal Danish general major as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Danish general major as of 1815
+		#}
 	}
 	1846.1.1 = { #unknown, set to 60 years after birth
 		death = yes

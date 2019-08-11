@@ -284,9 +284,9 @@
 	}
 	1847.1.1 = { #grand-écuyer of Württemberg as of 1847
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
-		effect = {
-			make_master_of_the_horse_effect = yes
-		}
+		#effect = {
+		#	make_master_of_the_horse_effect = yes
+		#}
 	}
 	1872.1.1 = { #unknown, set to 30 years after first mention
 		death = yes

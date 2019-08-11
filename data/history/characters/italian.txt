@@ -96,17 +96,17 @@
 	#on 1846.11.2 he was appointed as directing engineer in the Lombardo-Venetian railways
 	1847.1.1 = {
 		employer = 10000063 #Archduke Reiner von Habsburg was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
-		effect = {
-			#give_minor_title = title_engineer
-		}
+		#effect = {
+		#	#give_minor_title = title_engineer
+		#}
 	}
 	#took part in revolutionary efforts
 	#in the end 1849 he was suspended, but was reinstated after 26 days
 	#on 1851.4.7 he was definitely appointed as inspector in the Lombardo-Venetian railways
 	1854.5.31 = { #on 1854.5.31 he was fired for political reasons
-		effect = {
-			#remove_title = title_engineer
-		}
+		#effect = {
+		#	#remove_title = title_engineer
+		#}
 	}
 	1867.1.1 = { #unknown, set to 30 years after first mention
 		death = yes

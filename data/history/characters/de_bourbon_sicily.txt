@@ -68,13 +68,13 @@
 	#king of the Two Sicilies, king of Jerusalem, duke of Parma, duke of Plaisance, duke of Castre and hereditary grand duke of Tuscany
 	#succeeded his father on 1830.11.8
 	1830.11.8 = {
-		effect = {
-			add_weak_claim = k_jerusalem
-			add_weak_claim = d_parma
-			add_weak_claim = d_piacenza
-			add_weak_claim = d_castro
-			add_weak_claim = d_toscana
-		}
+		#effect = {
+		#	add_weak_claim = k_jerusalem
+		#	add_weak_claim = d_parma
+		#	add_weak_claim = d_piacenza
+		#	add_weak_claim = d_castro
+		#	add_weak_claim = d_toscana
+		#}
 	}
 	1832.11.21 = {
 		spouse = 10000105 #married on 1832.11.21 to Princess Cristina of Sardinia

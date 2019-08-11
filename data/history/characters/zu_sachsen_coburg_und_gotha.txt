@@ -87,9 +87,9 @@
 	1847.1.1 = { #cavalry general and proprietary of the 8th hussars regiment in the service of Austria as of 1847
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1855.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because he is alive in 1847)
 		death = yes
@@ -131,9 +131,9 @@
 	#on 1831.6.26 he accepted the Belgian crown conditionally
 	#on 1831.7.12 he accepted the Belgian crown definitively
 	1831.7.12 = {
-		effect = {
-			add_weak_claim = d_saxony
-		}
+		#effect = {
+		#	add_weak_claim = d_saxony
+		#}
 	}
 	#on 1831.7.21 he was enthroned in Brussels
 	1832.8.9 = {
@@ -228,9 +228,9 @@
 	}
 	1847.1.1 = { #major-general in the service of the kingdom of Saxony as of 1847
 		employer = 10000187 #King Friedrich August von Wettin of Saxony
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1878.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -274,9 +274,9 @@
 	1847.1.1 = { #cavalry captain in the service of Austria as of 1847, 1st regiment of ulans Count Civalart
 		traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1884.1.1 = { #unknown, set to 60 years after birth
 		death = yes

@@ -176,9 +176,9 @@
 	}
 	1847.1.1 = { #major-general and chief of a first division Bavarian brigade, in Munich, as of 1847
 		employer = 10000014 #Ludwig von Wittelsbach
-		effect = {
-			make_commander_effect = yes
-		}
+		#effect = {
+		#	make_commander_effect = yes
+		#}
 	}
 	1864.1.1 = { #unknown, set to 60 years after birth
 		death = yes

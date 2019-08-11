@@ -66,9 +66,9 @@
 	}
 	1815.1.1 = {
 		employer = 10000744 #Joachim Napoléon
-		effect = {
-			make_commander_effect = yes #royal Neapolitan general as of 1815
-		}
+		#effect = {
+		#	make_commander_effect = yes #royal Neapolitan general as of 1815
+		#}
 	}
 	#reigning prince of Hohenzollern-Sigmaringen
 	1845.1.1 = { #unknown, set to 60 years after birth
