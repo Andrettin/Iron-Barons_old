@@ -51,6 +51,7 @@ Item {
 				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name + "<br><br>Holder: " + Metternich.selected_province.capital_holding.barony.holder.full_name + "<br>Population: " + Metternich.selected_province.capital_holding.population : "")
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
+				onClicked: Metternich.selected_province.capital_holding.selected = true
 			}
 		}
 	}
@@ -362,11 +363,16 @@ Item {
 								ToolTip.text: tooltip(model.modelData.name + "<br><br>Holder: " + model.modelData.barony.holder.full_name + "<br>Population: " + model.modelData.population)
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
+								onClicked: model.modelData.selected = true
 							}
 						}
 					}
 				}
 			}
 		}
+	}
+
+	HoldingInterface {
+		visible: Metternich.selected_holding !== null
 	}
 }
