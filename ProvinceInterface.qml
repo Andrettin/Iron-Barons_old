@@ -48,7 +48,7 @@ Item {
 			MouseArea {
 				anchors.fill: parent
 				hoverEnabled: true
-				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name + "<br><br>Holder: " + Metternich.selected_province.capital_holding.barony.holder.full_name : "")
+				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name + "<br><br>Holder: " + Metternich.selected_province.capital_holding.barony.holder.full_name + "<br>Population: " + Metternich.selected_province.capital_holding.population : "")
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
 			}
@@ -218,6 +218,37 @@ Item {
 		}
 	}
 
+	Item {
+		id: population_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: religion_area.bottom
+		anchors.topMargin: 16
+
+		Text {
+			id: population_label
+			text: qsTr("Population")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: province_population
+			text: Metternich.selected_province ? Metternich.selected_province.population : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+
 	/*
 	Item {
 		id: supply_area
@@ -328,7 +359,7 @@ Item {
 							MouseArea {
 								anchors.fill: parent
 								hoverEnabled: true
-								ToolTip.text: tooltip(model.modelData.name + "<br><br>Holder: " + model.modelData.barony.holder.full_name)
+								ToolTip.text: tooltip(model.modelData.name + "<br><br>Holder: " + model.modelData.barony.holder.full_name + "<br>Population: " + model.modelData.population)
 								ToolTip.visible: containsMouse
 								ToolTip.delay: 1000
 							}
