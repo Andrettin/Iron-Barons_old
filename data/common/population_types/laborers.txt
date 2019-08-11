@@ -1,0 +1,5 @@
+laborers = { #unskilled laborers who work in mining or factories
+	holding_types += city
+	holding_types += manor
+	holding_types += temple
+}

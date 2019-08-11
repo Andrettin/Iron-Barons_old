@@ -1,0 +1,3 @@
+gentlemen = { #landed gentry
+	holding_types += manor
+}

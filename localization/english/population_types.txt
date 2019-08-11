@@ -1,0 +1,4 @@
+clergymen = "Clergymen"
+farmers = "Farmers"
+gentlemen = "Gentlemen"
+laborers = "Laborers"

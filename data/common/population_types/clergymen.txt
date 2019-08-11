@@ -1,0 +1,3 @@
+clergymen = {
+	holding_types += temple
+}

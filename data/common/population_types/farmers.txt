@@ -1,0 +1,5 @@
+farmers = {
+	holding_types += city
+	holding_types += manor
+	holding_types += temple
+}
