@@ -31,6 +31,9 @@ Item {
 				if (Metternich.selected_province) {
 					Metternich.selected_province.selected = false
 				}
+				if (Metternich.selected_holding) {
+					Metternich.selected_holding.selected = false
+				}
 			}
 		}
 
@@ -61,6 +64,9 @@ Item {
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 					onClicked: {
+						if (Metternich.selected_holding) {
+							Metternich.selected_holding.selected = false
+						}
 						model.modelData.selected = true
 					}
 				}
