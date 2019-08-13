@@ -1,7 +1,7 @@
 laborers = {
 	holding = b_vienna
-	subtract_existing = yes
-	subtract_any_type = yes
+	discount_existing = yes
+	discount_any_type = yes
 	
 	1815.1.1 = {
 		size = 237743 #Vienna had a population of 237,743 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p.

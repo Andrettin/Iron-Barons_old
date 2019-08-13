@@ -1,7 +1,7 @@
 laborers = {
 	region = r_austria
-	subtract_existing = yes
-	subtract_any_type = yes
+	discount_existing = yes
+	discount_any_type = yes
 	
 	1.1.1 = {
 		size = 500000 #Austria had a population of 500,000 in 1 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.

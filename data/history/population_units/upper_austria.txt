@@ -1,7 +1,7 @@
 laborers = {
 	province = p_upper_austria
-	subtract_existing = yes
-	subtract_any_type = yes
+	discount_existing = yes
+	discount_any_type = yes
 	
 	1798.1.1 = {
 		size = 628739 #Upper Austria had a population of 628,739 in 1798 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
