@@ -1,0 +1,13 @@
+laborers = {
+	holding = b_vienna
+	subtract_existing = yes
+	subtract_any_type = yes
+	
+	1815.1.1 = {
+		size = 237743 #Vienna had a population of 237,743 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p.
+	}
+
+	1844.1.1 = {
+		size = 374378 #the Austrian Kreis of "Haupt- und Residenstadt Wien" had 374,378 inhabitants in 1844 (excluding military personnel); Source: "Tafeln zur Statistik der österreichischen Monarchie für das Jahr 1844", 1848, Tafel 50.
+	}
+}

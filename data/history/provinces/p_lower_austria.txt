@@ -1,30 +1,6 @@
 culture = austrian
 religion = catholic
 
-1798.1.1 = {
-	population = 1013139 #Lower Austria had a population of 1,013,139 in 1798 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
-}
-
-1800.1.1 = {
-	population = 1016512 #Lower Austria had a population of 1,016,512 in 1800 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
-}
-
-1803.1.1 = {
-	population = 1042345 #Lower Austria had a population of 1,042,345 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
-}
-
-1806.1.1 = {
-	population = 1053653 #Lower Austria had a population of 1,053,653 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
-}
-
-1807.1.1 = {
-	population = 1049904 #Lower Austria had a population of 1,049,904 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
-}
-
-1808.1.1 = {
-	population = 1060499 #Lower Austria had a population of 1,060,499 in 1808 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
-}
-
 1815.1.1 = {
 	b_vienna = city #Vienna was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_krems = city #Krems was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
@@ -34,14 +10,4 @@ religion = catholic
 	b_frohsdorf = city #Frohsdorf was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = b_vienna
-	
-	b_vienna = {
-		population = 237743 #Vienna had a population of 237,743 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p.
-	}
-}
-
-1844.1.1 = {
-	b_vienna = {
-		population = 374378 #the Austrian Kreis of "Haupt- und Residenstadt Wien" had 374,378 inhabitants in 1844 (excluding military personnel); Source: "Tafeln zur Statistik der österreichischen Monarchie für das Jahr 1844", 1848, Tafel 50.
-	}
 }
