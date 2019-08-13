@@ -1,5 +1,4 @@
 laborers = { #unskilled laborers who work in mining or factories
-	default_type = yes #sets this as the default population type, i.e. the one which will be used for population units generated according to population size
 	holding_types += city
 	holding_types += manor
 	holding_types += temple

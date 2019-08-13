@@ -33,9 +33,9 @@ Item {
 	Item {
 		id: population_area
 		anchors.left: parent.left
-		anchors.leftMargin: 32
+		anchors.leftMargin: 8
 		anchors.right: parent.right
-		anchors.rightMargin: 32
+		anchors.rightMargin: 8
 		anchors.top: parent.top
 		anchors.topMargin: 48
 		anchors.bottom: province_button.top

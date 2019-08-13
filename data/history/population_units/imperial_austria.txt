@@ -1,0 +1,8 @@
+bureaucrats = {
+	region = r_imperial_austria
+	discount_existing = yes
+	
+	1809.1.1 = {
+		size = 112000 #the Empire of Austria had 112,000 bureaucrats ("Beamte und Honorazioren"), including their families, in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}

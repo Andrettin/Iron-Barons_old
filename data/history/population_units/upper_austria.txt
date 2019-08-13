@@ -26,4 +26,8 @@ laborers = {
 	1808.1.1 = {
 		size = 628595 #Upper Austria had a population of 628,595 in 1808 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
+
+	1809.1.1 = {
+		size = 630000 #Upper Austria had an estimated population of 630,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
 }

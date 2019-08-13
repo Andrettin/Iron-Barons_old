@@ -1,3 +1,4 @@
+bureaucrats = "Bureaucrats"
 clergymen = "Clergymen"
 farmers = "Farmers"
 gentlemen = "Gentlemen"

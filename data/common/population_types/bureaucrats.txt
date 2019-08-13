@@ -1,0 +1,3 @@
+bureaucrats = {
+	holding_types += city
+}
