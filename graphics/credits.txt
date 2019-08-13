@@ -1,3 +1,5 @@
+/graphics/icons/blood.png (by Exidelo) (licensed under the CC0)
+/graphics/icons/blood_large.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/resources/amber.png (by Jinn) (licensed under the CC0)
 /graphics/icons/resources/cattle.png (by Jinn) (licensed under the CC0)
 /graphics/icons/resources/clothing.png (by Jinn) (licensed under the CC0)
