@@ -3,6 +3,34 @@ bureaucrats = {
 	discount_existing = yes
 	
 	1809.1.1 = {
-		size = 112000 #the Empire of Austria had 112,000 bureaucrats ("Beamte und Honorazioren"), including their families, in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+		size = 112000 #the Empire of Austria had 112,000 bureaucrats ("Beamte und Honorazioren"), including their families, in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+	}
+}
+
+clergymen = {
+	region = r_imperial_austria
+	discount_existing = yes
+	
+	1809.1.1 = {
+		size = 39700 #the Empire of Austria had 39,700 clergymen ("Geistliche") in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+	}
+}
+
+gentlemen = {
+	region = r_imperial_austria
+	discount_existing = yes
+	
+	1809.1.1 = {
+		size = 540000 #the Empire of Austria had over 540,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+	}
+}
+
+soldiers = {
+	region = r_imperial_austria
+	discount_existing = yes
+	discount_types += officers
+	
+	1809.1.1 = {
+		size = 600000 #the Empire of Austria had 600,000 individuals under military jurisdiction outside of the military frontiers in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
 	}
 }

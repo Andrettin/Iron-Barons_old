@@ -1,0 +1,4 @@
+officers = {
+	holding_types += city
+	holding_types += manor
+}

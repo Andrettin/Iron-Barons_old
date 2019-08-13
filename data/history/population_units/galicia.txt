@@ -1,0 +1,8 @@
+#gentlemen = {
+#	region = r_galicia
+#	discount_existing = yes
+#	
+#	1809.1.1 = {
+#		size = 132000 #Galicia had over 132,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+#	}
+#}

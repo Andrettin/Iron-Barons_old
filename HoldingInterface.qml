@@ -77,7 +77,7 @@ Item {
 							text: model.modelData.culture.name
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.left: parent.left
-							anchors.leftMargin: parent.width / 4 + 12
+							anchors.leftMargin: parent.width / 4 + 24
 							color: "black"
 							font.pixelSize: 12
 							font.family: "tahoma"
@@ -87,7 +87,7 @@ Item {
 							text: model.modelData.religion.name
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.left: parent.left
-							anchors.leftMargin: parent.width / 4 * 2 + 12
+							anchors.leftMargin: parent.width / 4 * 2 + 24
 							color: "black"
 							font.pixelSize: 12
 							font.family: "tahoma"
