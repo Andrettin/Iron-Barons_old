@@ -1,6 +1,5 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
-import MaskedMouseArea 1.0
 
 Item {
 	id: province_interface
@@ -30,30 +29,14 @@ Item {
 		font.bold: true
 	}
 
-	Item {
+	Holding {
 		id: capital_holding
 		anchors.top: parent.top
 		anchors.topMargin: 48
 		anchors.horizontalCenter: parent.horizontalCenter
-		width: 160
-		height: 160
-
-		Image {
-			source: Metternich.selected_province ? "./graphics/holdings/" + Metternich.selected_province.capital_holding.type.identifier + ".png" : "image://empty/"
-			width: 128
-			height: 128
-			anchors.horizontalCenter: parent.horizontalCenter
-			anchors.verticalCenter: parent.verticalCenter
-
-			MouseArea {
-				anchors.fill: parent
-				hoverEnabled: true
-				ToolTip.text: tooltip(Metternich.selected_province ? Metternich.selected_province.capital_holding.name + "<br><br>Holder: " + Metternich.selected_province.capital_holding.barony.holder.full_name + "<br>Population: " + Metternich.selected_province.capital_holding.population : "")
-				ToolTip.visible: containsMouse
-				ToolTip.delay: 1000
-				onClicked: Metternich.selected_province.capital_holding.selected = true
-			}
-		}
+		holding: Metternich.selected_province ? Metternich.selected_province.capital_holding : null
+		imageWidth: 128
+		imageHeight: 128
 	}
 
 	Item {
@@ -345,27 +328,9 @@ Item {
 				Repeater {
 					model: Metternich.selected_province ? Metternich.selected_province.holdings : []
 
-					Item {
+					Holding {
 						visible: model.modelData !== Metternich.selected_province.capital_holding
-						width: 96
-						height: 96
-
-						Image {
-							source: "./graphics/holdings/" + model.modelData.type.identifier + ".png"
-							width: 64
-							height: 64
-							anchors.horizontalCenter: parent.horizontalCenter
-							anchors.verticalCenter: parent.verticalCenter
-
-							MouseArea {
-								anchors.fill: parent
-								hoverEnabled: true
-								ToolTip.text: tooltip(model.modelData.name + "<br><br>Holder: " + model.modelData.barony.holder.full_name + "<br>Population: " + model.modelData.population)
-								ToolTip.visible: containsMouse
-								ToolTip.delay: 1000
-								onClicked: model.modelData.selected = true
-							}
-						}
+						holding: model.modelData
 					}
 				}
 			}
