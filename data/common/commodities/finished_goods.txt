@@ -1,0 +1,11 @@
+clothing = {
+}
+
+furniture = {
+}
+
+tools = {
+}
+
+wine = {
+}

@@ -1,0 +1,50 @@
+amber = {
+}
+
+cattle = {
+}
+
+coal = {
+}
+
+copper = {
+}
+
+cotton = {
+}
+
+fish = {
+}
+
+fruit = {
+}
+
+gold = {
+}
+
+grain = {
+}
+
+iron = {
+}
+
+leather = {
+}
+
+salt = {
+}
+
+silk = {
+}
+
+silver = {
+}
+
+stone = {
+}
+
+timber = {
+}
+
+wool = {
+}
