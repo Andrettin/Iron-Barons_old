@@ -23,5 +23,20 @@ Item {
 			ToolTip.delay: 1000
 			onClicked: holding.selected = true
 		}
+
+		Image {
+			source: holding && holding.commodity ? "./graphics/icons/commodities/" + holding.commodity.identifier + ".png" : "image://empty/"
+			anchors.top: parent.top
+			anchors.left: parent.left
+
+			MouseArea {
+				enabled: holding && holding.commodity
+				anchors.fill: parent
+				hoverEnabled: enabled
+				ToolTip.text: tooltip(holding && holding.commodity ? holding.name + " produces " + holding.commodity.name : "")
+				ToolTip.visible: containsMouse
+				ToolTip.delay: 1000
+			}
+		}
 	}
 }
