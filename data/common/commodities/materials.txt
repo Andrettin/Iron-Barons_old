@@ -4,6 +4,9 @@ fabric = {
 glass = {
 }
 
+leather = {
+}
+
 lumber = {
 }
 

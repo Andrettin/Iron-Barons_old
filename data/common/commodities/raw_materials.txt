@@ -2,49 +2,91 @@ amber = {
 }
 
 cattle = {
+	chance = {
+		factor = 10
+	}
 }
 
 coal = {
+	chance = {
+		factor = 1
+	}
 }
 
 copper = {
+	chance = {
+		factor = 1
+	}
 }
 
 cotton = {
+	chance = {
+		factor = 5
+	}
 }
 
 fish = {
+	chance = {
+		factor = 10
+	}
 }
 
 fruit = {
+	chance = {
+		factor = 10
+	}
 }
 
 gold = {
+	chance = {
+		factor = 0.1
+	}
 }
 
 grain = {
+	chance = {
+		factor = 10
+	}
 }
 
 iron = {
-}
-
-leather = {
+	chance = {
+		factor = 1
+	}
 }
 
 salt = {
+	chance = {
+		factor = 1
+	}
 }
 
 silk = {
+	chance = {
+		factor = 1
+	}
 }
 
 silver = {
+	chance = {
+		factor = 0.25
+	}
 }
 
 stone = {
+	chance = {
+		factor = 3
+	}
 }
 
 timber = {
+	chance = {
+		factor = 5
+	}
 }
 
 wool = {
+	chance = {
+		factor = 5
+	}
 }
