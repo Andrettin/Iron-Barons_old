@@ -233,6 +233,37 @@ Item {
 		}
 	}
 
+	Item {
+		id: terrain_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: population_area.bottom
+		anchors.topMargin: 16
+
+		Text {
+			id: terrain_label
+			text: qsTr("Terrain")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: province_terrain
+			text: Metternich.selected_province ? Metternich.selected_province.terrain.name : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+
 	/*
 	Item {
 		id: supply_area

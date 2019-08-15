@@ -1,0 +1,5 @@
+grassland = "Grassland"
+hills = "Hills"
+mountains = "Mountains"
+plains = "Plains"
+savannah = "Savannah"
