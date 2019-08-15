@@ -112,7 +112,7 @@ Item {
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
 		anchors.horizontalCenter: parent.horizontalCenter
-		text: "Province"
+		text: "<font color=\"black\">Province</font>"
 		width: 64
 		height: 32
 		onClicked: Metternich.selected_holding.selected = false

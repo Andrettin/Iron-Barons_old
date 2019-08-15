@@ -89,126 +89,6 @@ Window {
 		}
 	}
 
-	MouseArea {
-		id: scroll_left_area
-		anchors.left: parent.left
-		anchors.top: parent.top
-		anchors.topMargin: 1
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 1
-		width: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_right_area
-		anchors.right: parent.right
-		anchors.top: parent.top
-		anchors.topMargin: 1
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 1
-		width: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_up_area
-		anchors.top: parent.top
-		anchors.left: parent.left
-		anchors.leftMargin: 1
-		anchors.right: parent.right
-		anchors.rightMargin: 1
-		height: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_down_area
-		anchors.bottom: parent.bottom
-		anchors.left: parent.left
-		anchors.leftMargin: 1
-		anchors.right: parent.right
-		anchors.rightMargin: 1
-		height: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_left_up_area
-		anchors.left: parent.left
-		anchors.top: parent.top
-		width: 1
-		height: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_left_down_area
-		anchors.left: parent.left
-		anchors.bottom: parent.bottom
-		width: 1
-		height: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_right_up_area
-		anchors.right: parent.right
-		anchors.top: parent.top
-		width: 1
-		height: 1
-		hoverEnabled: true
-	}
-
-	MouseArea {
-		id: scroll_right_down_area
-		anchors.right: parent.right
-		anchors.bottom: parent.bottom
-		width: 1
-		height: 1
-		hoverEnabled: true
-	}
-
-	Item {
-		id: key_handler
-		focus: true
-		property bool leftPressed: false
-		property bool rightPressed: false
-		property bool upPressed: false
-		property bool downPressed: false
-
-		Keys.onLeftPressed: leftPressed = true
-		Keys.onRightPressed: rightPressed = true
-		Keys.onUpPressed: upPressed = true
-		Keys.onDownPressed: downPressed = true
-
-		Keys.onPressed: {
-			if (event.key === Qt.Key_Z) {
-				map.scale *= 2
-				map.x *= 2
-				map.y *= 2
-			} else if (event.key === Qt.Key_X) {
-				if (map.scale > 1) {
-					map.scale /= 2
-					map.x /= 2
-					map.y /= 2
-				}
-			}
-		}
-
-		Keys.onReleased: {
-			if (event.key === Qt.Key_Left) {
-				leftPressed = false
-			} else if (event.key === Qt.Key_Right) {
-				rightPressed = false
-			} else if (event.key === Qt.Key_Up) {
-				upPressed = false
-			} else if (event.key === Qt.Key_Down) {
-				downPressed = false
-			}
-		}
-	}
-
 	Item {
 		id: top_left_area
 		anchors.top: parent.top
@@ -336,4 +216,124 @@ Window {
 		}
 	}
 	*/
+
+	MouseArea {
+		id: scroll_left_area
+		anchors.left: parent.left
+		anchors.top: parent.top
+		anchors.topMargin: 1
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 1
+		width: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_right_area
+		anchors.right: parent.right
+		anchors.top: parent.top
+		anchors.topMargin: 1
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 1
+		width: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_up_area
+		anchors.top: parent.top
+		anchors.left: parent.left
+		anchors.leftMargin: 1
+		anchors.right: parent.right
+		anchors.rightMargin: 1
+		height: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_down_area
+		anchors.bottom: parent.bottom
+		anchors.left: parent.left
+		anchors.leftMargin: 1
+		anchors.right: parent.right
+		anchors.rightMargin: 1
+		height: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_left_up_area
+		anchors.left: parent.left
+		anchors.top: parent.top
+		width: 1
+		height: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_left_down_area
+		anchors.left: parent.left
+		anchors.bottom: parent.bottom
+		width: 1
+		height: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_right_up_area
+		anchors.right: parent.right
+		anchors.top: parent.top
+		width: 1
+		height: 1
+		hoverEnabled: true
+	}
+
+	MouseArea {
+		id: scroll_right_down_area
+		anchors.right: parent.right
+		anchors.bottom: parent.bottom
+		width: 1
+		height: 1
+		hoverEnabled: true
+	}
+
+	Item {
+		id: key_handler
+		focus: true
+		property bool leftPressed: false
+		property bool rightPressed: false
+		property bool upPressed: false
+		property bool downPressed: false
+
+		Keys.onLeftPressed: leftPressed = true
+		Keys.onRightPressed: rightPressed = true
+		Keys.onUpPressed: upPressed = true
+		Keys.onDownPressed: downPressed = true
+
+		Keys.onPressed: {
+			if (event.key === Qt.Key_Z) {
+				map.scale *= 2
+				map.x *= 2
+				map.y *= 2
+			} else if (event.key === Qt.Key_X) {
+				if (map.scale > 1) {
+					map.scale /= 2
+					map.x /= 2
+					map.y /= 2
+				}
+			}
+		}
+
+		Keys.onReleased: {
+			if (event.key === Qt.Key_Left) {
+				leftPressed = false
+			} else if (event.key === Qt.Key_Right) {
+				rightPressed = false
+			} else if (event.key === Qt.Key_Up) {
+				upPressed = false
+			} else if (event.key === Qt.Key_Down) {
+				downPressed = false
+			}
+		}
+	}
 }
