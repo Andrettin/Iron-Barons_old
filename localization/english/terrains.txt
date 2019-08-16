@@ -1,3 +1,4 @@
+forest = "Forest"
 grassland = "Grassland"
 hills = "Hills"
 mountains = "Mountains"

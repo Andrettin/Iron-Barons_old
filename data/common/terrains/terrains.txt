@@ -1,3 +1,15 @@
+forest = {
+	color = { 0 128 0 }
+}
+
+hills = {
+	color = { 128 128 64 }
+}
+
+mountains = {
+	color = { 128 128 128 }
+}
+
 plains = {
 	color = { 128 128 0 }
 }
