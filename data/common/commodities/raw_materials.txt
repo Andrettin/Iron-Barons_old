@@ -4,24 +4,50 @@ amber = {
 cattle = {
 	chance = {
 		factor = 10
+		
+		modifier = {
+			factor = 0.25
+			NOT = { terrain = plains }
+		}
 	}
 }
 
 coal = {
 	chance = {
 		factor = 1
+		
+		modifier = {
+			factor = 0.25
+			NOR = {
+				terrain = hills
+				terrain = mountains
+			}
+		}
 	}
 }
 
 copper = {
 	chance = {
 		factor = 1
+		
+		modifier = {
+			factor = 0.25
+			NOR = {
+				terrain = hills
+				terrain = mountains
+			}
+		}
 	}
 }
 
 cotton = {
 	chance = {
 		factor = 5
+		
+		modifier = {
+			factor = 0
+			NOT = { terrain = plains }
+		}
 	}
 }
 
@@ -34,24 +60,55 @@ fish = {
 fruit = {
 	chance = {
 		factor = 10
+		
+		modifier = {
+			factor = 0.25
+			terrain = mountains
+		}
 	}
 }
 
 gold = {
 	chance = {
 		factor = 0.1
+		
+		modifier = {
+			factor = 0.25
+			NOR = {
+				terrain = hills
+				terrain = mountains
+			}
+		}
 	}
 }
 
 grain = {
 	chance = {
 		factor = 10
+		
+		modifier = {
+			factor = 0.25
+			NOT = { terrain = plains }
+		}
+		
+		modifier = {
+			factor = 0.25
+			terrain = mountains
+		}
 	}
 }
 
 iron = {
 	chance = {
 		factor = 1
+		
+		modifier = {
+			factor = 0.25
+			NOR = {
+				terrain = hills
+				terrain = mountains
+			}
+		}
 	}
 }
 
@@ -70,23 +127,49 @@ silk = {
 silver = {
 	chance = {
 		factor = 0.25
+		
+		modifier = {
+			factor = 0.25
+			NOR = {
+				terrain = hills
+				terrain = mountains
+			}
+		}
 	}
 }
 
 stone = {
 	chance = {
 		factor = 3
+		
+		modifier = {
+			factor = 0.25
+			NOR = {
+				terrain = hills
+				terrain = mountains
+			}
+		}
 	}
 }
 
 timber = {
 	chance = {
-		factor = 5
+		factor = 10
+		
+		modifier = {
+			factor = 0
+			NOT = { terrain = forest }
+		}
 	}
 }
 
 wool = {
 	chance = {
 		factor = 5
+		
+		modifier = {
+			factor = 0.25
+			NOT = { terrain = hills }
+		}
 	}
 }
