@@ -47,6 +47,46 @@ Window {
 		}
 	}
 
+	Item {
+		id: key_handler
+		focus: true
+		property bool leftPressed: false
+		property bool rightPressed: false
+		property bool upPressed: false
+		property bool downPressed: false
+
+		Keys.onLeftPressed: leftPressed = true
+		Keys.onRightPressed: rightPressed = true
+		Keys.onUpPressed: upPressed = true
+		Keys.onDownPressed: downPressed = true
+
+		Keys.onPressed: {
+			if (event.key === Qt.Key_Z) {
+				map.scale *= 2
+				map.x *= 2
+				map.y *= 2
+			} else if (event.key === Qt.Key_X) {
+				if (map.scale > 1) {
+					map.scale /= 2
+					map.x /= 2
+					map.y /= 2
+				}
+			}
+		}
+
+		Keys.onReleased: {
+			if (event.key === Qt.Key_Left) {
+				leftPressed = false
+			} else if (event.key === Qt.Key_Right) {
+				rightPressed = false
+			} else if (event.key === Qt.Key_Up) {
+				upPressed = false
+			} else if (event.key === Qt.Key_Down) {
+				downPressed = false
+			}
+		}
+	}
+
 	Map {
 		id: map
 		x: -3596
@@ -295,45 +335,5 @@ Window {
 		width: 1
 		height: 1
 		hoverEnabled: true
-	}
-
-	Item {
-		id: key_handler
-		focus: true
-		property bool leftPressed: false
-		property bool rightPressed: false
-		property bool upPressed: false
-		property bool downPressed: false
-
-		Keys.onLeftPressed: leftPressed = true
-		Keys.onRightPressed: rightPressed = true
-		Keys.onUpPressed: upPressed = true
-		Keys.onDownPressed: downPressed = true
-
-		Keys.onPressed: {
-			if (event.key === Qt.Key_Z) {
-				map.scale *= 2
-				map.x *= 2
-				map.y *= 2
-			} else if (event.key === Qt.Key_X) {
-				if (map.scale > 1) {
-					map.scale /= 2
-					map.x /= 2
-					map.y /= 2
-				}
-			}
-		}
-
-		Keys.onReleased: {
-			if (event.key === Qt.Key_Left) {
-				leftPressed = false
-			} else if (event.key === Qt.Key_Right) {
-				rightPressed = false
-			} else if (event.key === Qt.Key_Up) {
-				upPressed = false
-			} else if (event.key === Qt.Key_Down) {
-				downPressed = false
-			}
-		}
 	}
 }
