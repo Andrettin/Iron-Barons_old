@@ -1,0 +1,4 @@
+p_venetia = {
+	county = c_venetia
+	color = { 240 155 38 }
+}

@@ -1,0 +1,69 @@
+e_italy = {
+	color = { 0 153 0 }
+	capital_province = p_venetia #should be Rome instead
+}
+
+k_italy = {
+	de_jure_liege_title = e_italy
+	color = { 0 153 0 }
+	capital_province = p_venetia #should be Rome instead
+}
+
+d_venetia = {
+	de_jure_liege_title = k_italy
+	color = { 188 0 7 }
+	capital_province = p_venetia
+}
+
+c_venetia = {
+	de_jure_liege_title = d_venetia
+	color = { 188 0 7 }
+}
+
+b_custozza = {
+	de_jure_liege_title = c_venetia
+}
+
+b_legnago = {
+	de_jure_liege_title = c_venetia
+}
+
+b_osoppo = {
+	de_jure_liege_title = c_venetia
+}
+
+b_padua = {
+	de_jure_liege_title = c_venetia
+}
+
+b_palmanova = {
+	de_jure_liege_title = c_venetia
+}
+
+b_peschiera = {
+	de_jure_liege_title = c_venetia
+}
+
+b_treviso = {
+	de_jure_liege_title = c_venetia
+}
+
+b_udine = {
+	de_jure_liege_title = c_venetia
+}
+
+b_venice = {
+	de_jure_liege_title = c_venetia
+}
+
+b_verona = {
+	de_jure_liege_title = c_venetia
+}
+
+b_vicenza = {
+	de_jure_liege_title = c_venetia
+}
+
+b_villafranca = {
+	de_jure_liege_title = c_venetia
+}

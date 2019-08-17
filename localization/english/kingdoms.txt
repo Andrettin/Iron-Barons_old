@@ -1,2 +1,3 @@
 k_austria = "Austria"
 k_germany = "Germany"
+k_italy = "Italy"

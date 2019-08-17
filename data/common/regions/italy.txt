@@ -1,0 +1,3 @@
+r_italy = {
+	provinces += p_venetia
+}

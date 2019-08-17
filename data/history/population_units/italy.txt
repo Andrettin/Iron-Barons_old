@@ -1,0 +1,35 @@
+laborers = {
+	region = r_italy
+	discount_existing = yes
+	discount_any_type = yes
+	
+	-27.1.1 = {
+		size = 14000000 #14 million people lived in Italy at the "Time of Augustus"; Source: Josiah Cox Russell, "Medieval Population", 1937, p. 504.
+	}
+
+	1.1.1 = {
+		size = 7000000 #Italy had a population of 7,000,000 in 1 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1000.1.1 = {
+		size = 5000000 #Italy had a population of 5,000,000 in 1000 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1301.1.1 = {
+		size = 11000000 #11 million people lived in Italy during the 14th century; Source: Josiah Cox Russell, "Medieval Population", 1937, p. 504.
+	}
+
+	1500.1.1 = {
+		size = 10500000 #Italy had a population of 10,500,000 in 1500 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1600.1.1 = {
+		size = 13100000 #Italy had a population of 13,100,000 in 1600 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+		
+		#size = 13000000 #13 million people lived in Italy around 1600; Source: Josiah Cox Russell, "Medieval Population", 1937, p. 504.
+	}
+
+	1700.1.1 = {
+		size = 13300000 #Italy had a population of 13,300,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+}
