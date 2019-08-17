@@ -10,5 +10,5 @@ religion = catholic
 	b_bregenz = city #Bregenz was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_franzensfeste = city #Franzensfeste was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_graz
+	capital_holding = b_innsbruck
 }
