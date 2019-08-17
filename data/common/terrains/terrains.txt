@@ -6,10 +6,28 @@ hills = {
 	color = { 128 128 64 }
 }
 
+lake = {
+	color = { 0 192 192 }
+	water = true
+	navigable = false
+}
+
 mountains = {
 	color = { 128 128 128 }
 }
 
 plains = {
 	color = { 128 128 0 }
+}
+
+ocean = {
+	color = { 0 128 255 }
+	water = true
+	navigable = true
+}
+
+river = {
+	color = { 0 128 128 }
+	water = true
+	navigable = true
 }
