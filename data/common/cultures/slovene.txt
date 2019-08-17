@@ -1,0 +1,11 @@
+slovene = {
+	culture_group = south_slavic
+	
+	male_names = {
+		Adam #Polish name as placeholder
+	}
+	
+	female_names = {
+		Marie #Polish name as placeholder
+	}
+}
