@@ -67,7 +67,9 @@ Item {
 						if (Metternich.selected_holding) {
 							Metternich.selected_holding.selected = false
 						}
-						model.modelData.selected = true
+						if (model.modelData.selectable) {
+							model.modelData.selected = true
+						}
 					}
 				}
 			}

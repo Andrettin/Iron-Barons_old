@@ -1,0 +1,7 @@
+p_danube_river = {
+	color = { 165 117 246 }
+}
+
+p_po_river = {
+	color = { 22 216 82 }
+}
