@@ -18,6 +18,11 @@ p_styria = {
 	color = { 203 243 54 }
 }
 
+p_tyrol = {
+	county = c_tyrol
+	color = { 220 13 46 }
+}
+
 p_upper_austria = {
 	county = c_upper_austria
 	color = { 84 6 1 }

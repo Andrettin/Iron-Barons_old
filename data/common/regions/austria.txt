@@ -3,6 +3,7 @@ r_imperial_austria = { #the territory of the Empire Austria
 	provinces += p_upper_austria
 	provinces += p_styria
 	provinces += p_carinthia
+	provinces += p_tyrol
 	provinces += p_salzburg
 }
 
@@ -11,5 +12,6 @@ r_austria = { #the territory of the modern Republic of Austria
 	provinces += p_upper_austria
 	provinces += p_styria
 	provinces += p_carinthia
+	provinces += p_tyrol
 	provinces += p_salzburg
 }
