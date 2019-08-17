@@ -1,5 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
+import MaskedMouseArea 1.0
 
 Item {
 	property variant holding: null
@@ -29,10 +30,11 @@ Item {
 			anchors.top: parent.top
 			anchors.left: parent.left
 
-			MouseArea {
+			MaskedMouseArea {
 				enabled: holding && holding.commodity
 				anchors.fill: parent
-				hoverEnabled: enabled
+				alphaThreshold: 0.4
+				maskSource: parent.source
 				ToolTip.text: tooltip(holding && holding.commodity ? holding.name + " produces " + holding.commodity.name : "")
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
