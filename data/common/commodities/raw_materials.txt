@@ -54,6 +54,11 @@ cotton = {
 fish = {
 	chance = {
 		factor = 10
+		
+		modifier = {
+			factor = 0
+			NOT = { borders_water = true }
+		}
 	}
 }
 
