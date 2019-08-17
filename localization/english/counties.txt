@@ -1,5 +1,7 @@
 c_carinthia = "Carinthia"
 c_carinthia_german = "Kärnten"
+c_carniola = "Carniola"
+c_carniola_german = "Krain"
 c_lower_austria = "Lower Austria"
 c_lower_austria_german = "Niederösterreich"
 c_salzburg = "Salzburg"

@@ -15,6 +15,12 @@ d_carinthia = {
 	capital_province = p_carinthia
 }
 
+d_carniola = {
+	de_jure_liege_title = k_austria
+	color = { 0 86 148 }
+	capital_province = p_carniola
+}
+
 d_lower_austria = {
 	de_jure_liege_title = k_austria
 	color = { 0 86 148 }
@@ -50,6 +56,11 @@ c_carinthia = {
 	color = { 165 255 250 }
 }
 
+c_carniola = {
+	de_jure_liege_title = d_carniola
+	color = { 0 86 148 }
+}
+
 c_lower_austria = {
 	de_jure_liege_title = d_lower_austria
 	color = { 0 86 148 }
@@ -81,6 +92,14 @@ b_klagenfurt = {
 
 b_villach = {
 	de_jure_liege_title = c_carinthia
+}
+
+b_adelsberg = {
+	de_jure_liege_title = c_carniola
+}
+
+b_laibach = {
+	de_jure_liege_title = c_carniola
 }
 
 b_bruck = {

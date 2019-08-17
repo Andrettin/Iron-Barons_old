@@ -1,0 +1,29 @@
+laborers = {
+	region = r_carniola_and_gorz
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1801.1.1 = {
+		size = 531242 #Carniola and Görz had a population of 531,242 in 1801 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1803.1.1 = {
+		size = 534090 #Carniola and Görz had a population of 534,?9? (the digits marked with "?" are illegible in the source) in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1805.1.1 = {
+		size = 557949 #Carniola and Görz had a population of 557,949 in 1805 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1806.1.1 = {
+		size = 498975 #Carniola and Görz had a population of 498,975 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1807.1.1 = {
+		size = 419908 #Carniola and Görz had a population of 419,908 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1809.1.1 = {
+		size = 422000 #Carniola and Görz had an estimated population of 422,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}
