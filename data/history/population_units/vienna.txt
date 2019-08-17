@@ -1,4 +1,4 @@
-laborers = {
+craftsmen = { #urban population
 	holding = b_vienna
 	discount_existing = yes
 	discount_any_type = yes

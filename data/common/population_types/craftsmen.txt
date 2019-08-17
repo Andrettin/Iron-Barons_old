@@ -1,0 +1,3 @@
+craftsmen = { #urban factory workers
+	holding_types += city
+}
