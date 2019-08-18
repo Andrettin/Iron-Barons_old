@@ -1,0 +1,17 @@
+laborers = {
+	region = r_germany_netherlands
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1301.1.1 = {
+		size = 15000000 #15 million people lived in Germany-Netherlands during the 14th century; Source: Josiah Cox Russell, "Medieval Population", 1937, p. 504.
+	}
+
+	1600.1.1 = {
+		size = 20000000 #20 million people lived in Germany-Netherlands around 1600; Source: Josiah Cox Russell, "Medieval Population", 1937, p. 504.
+	}
+
+	1900.1.1 = {
+		size = 76000000 #76 million people lived in Germany-Netherlands around 1900; Source: Josiah Cox Russell, "Medieval Population", 1937, p. 504.
+	}
+}
