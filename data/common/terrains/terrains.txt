@@ -1,13 +1,16 @@
 desert = {
 	color = { 255 255 0 }
+	life_rating = 1
 }
 
 forest = {
 	color = { 0 128 0 }
+	life_rating = 3
 }
 
 hills = {
 	color = { 128 128 64 }
+	life_rating = 3
 }
 
 lake = {
@@ -18,10 +21,12 @@ lake = {
 
 mountains = {
 	color = { 128 128 128 }
+	life_rating = 2
 }
 
 plains = {
 	color = { 128 128 0 }
+	life_rating = 5
 }
 
 ocean = {
