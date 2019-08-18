@@ -1,0 +1,9 @@
+craftsmen = { #urban population
+	holding = b_graz
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1815.1.1 = {
+		size = 40000 #Graz had a population of 40,000 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 85.
+	}
+}
