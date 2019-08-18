@@ -1,0 +1,3 @@
+p_mediterranean_sea = {
+	color = { 78 41 160 }
+}
