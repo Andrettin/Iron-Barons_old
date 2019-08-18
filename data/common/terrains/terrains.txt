@@ -1,3 +1,7 @@
+desert = {
+	color = { 255 255 0 }
+}
+
 forest = {
 	color = { 0 128 0 }
 }
