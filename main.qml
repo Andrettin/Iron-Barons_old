@@ -17,16 +17,22 @@ Window {
 	}
 
 	//function to format numbers with two decimal places
-	function centesimal(number) {
+	function centesimal(number, always_use_sign = false) {
+		var abs_number = Math.abs(number)
 		var src_number_string = ""
-		src_number_string += number
+		src_number_string += abs_number
 		var dest_number_string = ""
-		if (number < 100) {
+		if (always_use_sign && number >= 0) {
+			dest_number_string += "+"
+		} else if (number < 0) {
+			dest_number_string += "-"
+		}
+		if (abs_number < 100) {
 			dest_number_string += "0."
 		} else {
 			dest_number_string += src_number_string.slice(0, src_number_string.length - 2) + "."
 		}
-		if (number < 10) {
+		if (abs_number < 10) {
 			dest_number_string += "0"
 		}
 		dest_number_string += src_number_string.slice(src_number_string.length - 2)

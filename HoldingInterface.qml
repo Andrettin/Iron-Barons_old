@@ -31,13 +31,75 @@ Item {
 	}
 
 	Item {
-		id: population_capacity_area
+		id: population_area
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: parent.top
 		anchors.topMargin: 64
+
+		Text {
+			id: population_label
+			text: qsTr("Population")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: holding_population
+			text: Metternich.selected_holding ? Metternich.selected_holding.population : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+
+	Item {
+		id: population_growth_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: population_area.bottom
+		anchors.topMargin: 16
+
+		Text {
+			id: population_growth_label
+			text: qsTr("Population Growth (monthly)")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: holding_population_growth
+			text: Metternich.selected_holding ? (centesimal(Metternich.selected_holding.population_growth, true) + "%") : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+
+	Item {
+		id: population_capacity_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: population_growth_area.bottom
+		anchors.topMargin: 16
 
 		Text {
 			id: population_capacity_label
@@ -93,7 +155,7 @@ Item {
 	}
 
 	Item {
-		id: population_area
+		id: population_unit_area
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
@@ -105,15 +167,15 @@ Item {
 
 		Flickable {
 			anchors.fill: parent
-			contentWidth: population_grid.width
-			contentHeight: population_grid.height
+			contentWidth: population_unit_grid.width
+			contentHeight: population_unit_grid.height
 			clip: true
 			interactive: false
 			boundsBehavior: Flickable.StopAtBounds
 			ScrollBar.vertical: ScrollBar {}
 
 			Grid {
-				id: population_grid
+				id: population_unit_grid
 				columns: 1
 				columnSpacing: 0
 				rowSpacing: 0
@@ -122,7 +184,7 @@ Item {
 					model: Metternich.selected_holding ? Metternich.selected_holding.population_units : []
 
 					Item {
-						width: population_area.width
+						width: population_unit_area.width
 						height: 32
 
 						Text {
