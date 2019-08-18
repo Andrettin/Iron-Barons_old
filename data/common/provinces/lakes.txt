@@ -1,0 +1,7 @@
+p_lake_constance = {
+	color = { 123 114 73 }
+}
+
+p_lake_geneva = {
+	color = { 251 119 88 }
+}
