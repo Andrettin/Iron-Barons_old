@@ -31,13 +31,75 @@ Item {
 	}
 
 	Item {
+		id: population_capacity_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: parent.top
+		anchors.topMargin: 64
+
+		Text {
+			id: population_capacity_label
+			text: qsTr("Population Capacity")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: holding_population_capacity
+			text: Metternich.selected_holding ? Metternich.selected_holding.population_capacity : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+
+	Item {
+		id: life_rating_area
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		anchors.top: population_capacity_area.bottom
+		anchors.topMargin: 16
+
+		Text {
+			id: life_rating_label
+			text: qsTr("Life Rating")
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.left: parent.left
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+		}
+
+		Text {
+			id: holding_life_rating
+			text: Metternich.selected_holding ? Metternich.selected_holding.life_rating : ""
+			anchors.verticalCenter: parent.verticalCenter
+			anchors.right: parent.right
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			font.bold: true
+		}
+	}
+
+	Item {
 		id: population_area
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
-		anchors.top: parent.top
-		anchors.topMargin: 48
+		anchors.top: life_rating_area.bottom
+		anchors.topMargin: 32
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
 
