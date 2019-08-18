@@ -1,3 +1,4 @@
 clergymen = {
+	holding_types += city
 	holding_types += temple
 }
