@@ -1,3 +1,8 @@
+p_lombardy = {
+	county = c_lombardy
+	color = { 161 23 165 }
+}
+
 p_venetia = {
 	county = c_venetia
 	color = { 240 155 38 }

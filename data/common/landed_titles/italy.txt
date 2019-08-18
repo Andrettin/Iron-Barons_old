@@ -1,12 +1,18 @@
 e_italy = {
 	color = { 0 153 0 }
-	capital_province = p_venetia #should be Rome instead
+	capital_province = p_lombardy #should be Rome instead
 }
 
 k_italy = {
 	de_jure_liege_title = e_italy
 	color = { 0 153 0 }
-	capital_province = p_venetia #should be Rome instead
+	capital_province = p_lombardy #should be Rome instead
+}
+
+d_lombardy = {
+	de_jure_liege_title = k_italy
+	color = { 155 102 24 }
+	capital_province = p_lombardy
 }
 
 d_venetia = {
@@ -15,9 +21,54 @@ d_venetia = {
 	capital_province = p_venetia
 }
 
+c_lombardy = {
+	de_jure_liege_title = d_lombardy
+	color = { 155 102 24 }
+}
+
 c_venetia = {
 	de_jure_liege_title = d_venetia
 	color = { 188 0 7 }
+}
+
+b_bergamo = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_bormio = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_brescia = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_chiavenna = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_como = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_cremona = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_magenta = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_milan = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_pavia = {
+	de_jure_liege_title = c_lombardy
+}
+
+b_solferino = {
+	de_jure_liege_title = c_lombardy
 }
 
 b_custozza = {
@@ -25,6 +76,10 @@ b_custozza = {
 }
 
 b_legnago = {
+	de_jure_liege_title = c_venetia
+}
+
+b_mantua = {
 	de_jure_liege_title = c_venetia
 }
 

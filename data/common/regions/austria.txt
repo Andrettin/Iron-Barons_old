@@ -6,6 +6,7 @@ r_imperial_austria = { #the territory of the Empire Austria, 1815-1866
 	provinces += p_carniola
 	provinces += p_tyrol
 	provinces += p_salzburg
+	provinces += p_lombardy
 	provinces += p_venetia
 }
 
