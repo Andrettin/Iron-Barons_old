@@ -1,0 +1,9 @@
+craftsmen = { #urban population
+	holding = b_sankt_polten
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1807.1.1 = {
+		size = 4353 #Sankt Pölten had a population of 4,353 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
+	}
+}

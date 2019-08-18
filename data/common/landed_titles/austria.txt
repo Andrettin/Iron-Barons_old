@@ -118,6 +118,10 @@ b_krems = {
 	de_jure_liege_title = c_lower_austria
 }
 
+b_sankt_polten = {
+	de_jure_liege_title = c_lower_austria
+}
+
 b_schwechat = {
 	de_jure_liege_title = c_lower_austria
 }
@@ -183,6 +187,10 @@ b_ischl = {
 }
 
 b_linz = {
+	de_jure_liege_title = c_upper_austria
+}
+
+b_steyr = {
 	de_jure_liege_title = c_upper_austria
 }
 
