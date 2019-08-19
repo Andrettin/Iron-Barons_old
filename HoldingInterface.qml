@@ -155,12 +155,68 @@ Item {
 	}
 
 	Item {
-		id: population_unit_area
+		id: building_area
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
 		anchors.top: life_rating_area.bottom
+		anchors.topMargin: 32
+		height: 128
+
+		Flickable {
+			anchors.fill: parent
+			contentWidth: building_grid.width
+			contentHeight: building_grid.height
+			clip: true
+			interactive: false
+			boundsBehavior: Flickable.StopAtBounds
+			ScrollBar.vertical: ScrollBar {}
+
+			Grid {
+				id: building_grid
+				columns: 1
+				columnSpacing: 0
+				rowSpacing: 0
+
+				Repeater {
+					model: Metternich.selected_holding ? Metternich.selected_holding.available_buildings : []
+
+					Item {
+						width: building_area.width
+						height: 32
+
+						Text {
+							text: model.modelData.name
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.left: parent.left
+							color: "black"
+							font.pixelSize: 12
+							font.family: "tahoma"
+							font.bold: true
+						}
+
+						Text {
+							text: Metternich.selected_holding.buildings.includes(model.modelData) ? "Built" : ""
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.right: parent.right
+							color: "black"
+							font.pixelSize: 12
+							font.family: "tahoma"
+						}
+					}
+				}
+			}
+		}
+	}
+
+	Item {
+		id: population_unit_area
+		anchors.left: parent.left
+		anchors.leftMargin: 8
+		anchors.right: parent.right
+		anchors.rightMargin: 8
+		anchors.top: building_area.bottom
 		anchors.topMargin: 32
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
