@@ -193,7 +193,7 @@ Item {
 							color: "black"
 							font.pixelSize: 12
 							font.family: "tahoma"
-							font.bold: true
+							font.bold: Metternich.selected_holding.buildings.includes(model.modelData)
 						}
 
 						Text {
