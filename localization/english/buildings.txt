@@ -1,0 +1,4 @@
+college = "College"
+courthouse = "Courthouse"
+library = "Library"
+university = "University"

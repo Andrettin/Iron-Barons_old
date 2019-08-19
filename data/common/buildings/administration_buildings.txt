@@ -1,0 +1,3 @@
+courthouse = {
+	holding_types += city
+}

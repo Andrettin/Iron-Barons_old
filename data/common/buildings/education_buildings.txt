@@ -1,0 +1,12 @@
+library = {
+	holding_types += city
+	holding_types += temple
+}
+
+college = {
+	holding_types += city
+}
+
+university = {
+	holding_types += city
+}
