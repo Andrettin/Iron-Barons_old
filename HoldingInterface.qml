@@ -196,8 +196,33 @@ Item {
 							font.bold: Metternich.selected_holding.buildings.includes(model.modelData)
 						}
 
+						Button {
+							visible: Metternich.game.player_character.can_build_in_holding(Metternich.selected_holding) && Metternich.selected_holding.under_construction_building === null && !Metternich.selected_holding.buildings.includes(model.modelData)
+							anchors.top: parent.top
+							anchors.topMargin: 1
+							anchors.bottom: parent.bottom
+							anchors.bottomMargin: 1
+							anchors.right: parent.right
+							width: 64
+							text: "<font color=\"black\">Build</font>"
+							font.pixelSize: 12
+							font.family: "tahoma"
+							onClicked: Metternich.selected_holding.order_construction(model.modelData)
+						}
+
 						Text {
-							text: Metternich.selected_holding.buildings.includes(model.modelData) ? "Built" : ""
+							text: "Under Construction (" + Metternich.selected_holding.construction_days + " days)"
+							visible: Metternich.selected_holding.under_construction_building === model.modelData
+							anchors.verticalCenter: parent.verticalCenter
+							anchors.right: parent.right
+							color: "black"
+							font.pixelSize: 12
+							font.family: "tahoma"
+						}
+
+						Text {
+							text: "Built"
+							visible: Metternich.selected_holding.buildings.includes(model.modelData)
 							anchors.verticalCenter: parent.verticalCenter
 							anchors.right: parent.right
 							color: "black"

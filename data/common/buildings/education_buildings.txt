@@ -1,12 +1,15 @@
 library = {
 	holding_types += city
 	holding_types += temple
+	construction_days = 365
 }
 
 college = {
 	holding_types += city
+	construction_days = 365
 }
 
 university = {
 	holding_types += city
+	construction_days = 730
 }
