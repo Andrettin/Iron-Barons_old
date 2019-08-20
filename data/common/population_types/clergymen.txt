@@ -1,4 +1,6 @@
 clergymen = {
+	holding_types += village
+	holding_types += town
 	holding_types += city
-	holding_types += temple
+	holding_types += monastery
 }

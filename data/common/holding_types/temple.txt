@@ -1,3 +1,2 @@
 temple = {
-	settlement = yes
 }

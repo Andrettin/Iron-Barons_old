@@ -1,6 +1,6 @@
 library = {
 	holding_types += city
-	holding_types += temple
+	holding_types += monastery
 	construction_days = 365
 }
 

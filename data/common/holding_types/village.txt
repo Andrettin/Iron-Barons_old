@@ -1,0 +1,3 @@
+village = {
+	settlement = yes
+}

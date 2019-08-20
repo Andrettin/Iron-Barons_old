@@ -1,4 +1,5 @@
 courthouse = {
+	holding_types += town
 	holding_types += city
 	construction_days = 365
 }

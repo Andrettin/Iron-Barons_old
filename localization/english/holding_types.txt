@@ -1,4 +1,7 @@
 castle = "Castle"
 city = "City"
 manor = "Manor"
+monastery = "Monastery"
 temple = "Temple"
+town = "Town"
+village = "Village"

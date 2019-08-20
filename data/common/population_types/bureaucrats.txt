@@ -1,3 +1,4 @@
 bureaucrats = {
+	holding_types += town
 	holding_types += city
 }

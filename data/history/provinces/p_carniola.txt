@@ -2,8 +2,8 @@ culture = slovene
 religion = catholic
 
 1815.1.1 = {
-	b_laibach = city #Laibach was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_adelsberg = city #Adelsberg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_laibach = town #Laibach was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_adelsberg = village #Adelsberg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = b_laibach
 }

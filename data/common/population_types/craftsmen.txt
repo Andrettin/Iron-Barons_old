@@ -1,3 +1,4 @@
 craftsmen = { #urban factory workers
+	holding_types += town
 	holding_types += city
 }
