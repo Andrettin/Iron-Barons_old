@@ -1,0 +1,3 @@
+capitalists = {
+	holding_types += city
+}
