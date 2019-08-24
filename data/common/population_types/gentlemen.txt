@@ -1,4 +1,5 @@
 gentlemen = { #landed gentry
 	holding_types += city
+	holding_types += metropolis
 	holding_types += manor
 }

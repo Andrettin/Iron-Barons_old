@@ -1,0 +1,3 @@
+metropolis = {
+	settlement = yes
+}

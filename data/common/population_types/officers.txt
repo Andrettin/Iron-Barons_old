@@ -1,4 +1,5 @@
 officers = {
 	holding_types += city
+	holding_types += metropolis
 	holding_types += manor
 }

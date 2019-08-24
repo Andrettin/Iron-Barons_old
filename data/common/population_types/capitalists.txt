@@ -1,3 +1,4 @@
 capitalists = {
 	holding_types += city
+	holding_types += metropolis
 }

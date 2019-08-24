@@ -2,6 +2,7 @@ farmers = {
 	holding_types += village
 	holding_types += town
 	holding_types += city
+	holding_types += metropolis
 	holding_types += manor
 	holding_types += monastery
 }
