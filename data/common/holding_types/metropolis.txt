@@ -1,3 +1,7 @@
 metropolis = {
 	settlement = yes
+	
+	modifier = {
+		population_capacity_modifier = 7.0
+	}
 }
