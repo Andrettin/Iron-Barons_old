@@ -1,16 +1,25 @@
 desert = {
 	color = { 255 255 0 }
-	life_rating = 1
+	
+	modifier = {
+		population_capacity = 25000
+	}
 }
 
 forest = {
 	color = { 0 128 0 }
-	life_rating = 3
+	
+	modifier = {
+		population_capacity = 80000
+	}
 }
 
 hills = {
 	color = { 128 128 64 }
-	life_rating = 3
+	
+	modifier = {
+		population_capacity = 80000
+	}
 }
 
 lake = {
@@ -21,22 +30,30 @@ lake = {
 
 mountains = {
 	color = { 128 128 128 }
-	life_rating = 2
-}
-
-plains = {
-	color = { 128 128 0 }
-	life_rating = 5
+	
+	modifier = {
+		population_capacity = 50000
+	}
 }
 
 ocean = {
 	color = { 0 128 255 }
 	water = true
 	navigable = true
+	ocean = true
+}
+
+plains = {
+	color = { 128 128 0 }
+	
+	modifier = {
+		population_capacity = 100000
+	}
 }
 
 river = {
 	color = { 0 128 128 }
 	water = true
 	navigable = true
+	river = true
 }

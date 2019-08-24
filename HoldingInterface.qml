@@ -82,7 +82,7 @@ Item {
 
 		Text {
 			id: holding_population_growth
-			text: Metternich.selected_holding ? (centesimal(Metternich.selected_holding.population_growth, true) + "%") : ""
+			text: Metternich.selected_holding ? (centesimal(Metternich.selected_holding.population_growth) + "%") : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -124,43 +124,12 @@ Item {
 	}
 
 	Item {
-		id: life_rating_area
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 16
-
-		Text {
-			id: life_rating_label
-			text: qsTr("Life Rating")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		Text {
-			id: holding_life_rating
-			text: Metternich.selected_holding ? Metternich.selected_holding.life_rating : ""
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-		}
-	}
-
-	Item {
 		id: building_area
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
-		anchors.top: life_rating_area.bottom
+		anchors.top: population_capacity_area.bottom
 		anchors.topMargin: 32
 		height: 128
 
