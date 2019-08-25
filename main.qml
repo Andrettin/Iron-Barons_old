@@ -204,25 +204,6 @@ Window {
 		visible: Metternich.selected_province !== null
 	}
 
-	/*
-	Item {
-		id: holding_building
-		width: 320
-		height: 35
-
-		Text {
-			id: building_name
-			text: "University"
-			x: 35
-			height: 32
-			verticalAlignment: Text.AlignVCenter
-			color: "white"
-			font.pointSize: 12
-			font.family: "tahoma"
-		}
-	}
-	*/
-
 	MouseArea {
 		id: scroll_left_area
 		anchors.left: parent.left
