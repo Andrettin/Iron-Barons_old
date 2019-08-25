@@ -1,3 +1,39 @@
+p_atlantic_ocean = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+	color = { 43 62 60 }
+}
+
+p_baltic_sea = { #Source: http://www.euratlas.net/history/europe/1/index.html
+	color = { 23 100 217 }
+}
+
+p_english_channel = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+	color = { 185 68 254 }
+}
+
+p_gulf_of_bothnia = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
+	color = { 229 241 21 }
+}
+
+p_irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+	color = { 228 173 80 }
+}
+
+p_kattegat = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
+	color = { 154 33 89 }
+}
+
 p_mediterranean_sea = {
 	color = { 78 41 160 }
+}
+
+p_north_sea = { #Source: http://www.euratlas.net/history/europe/1/index.html
+	color = { 33 189 156 }
+}
+
+p_skagerrak = { #Source: "Limits of Oceans and Seas", 1953, p. 6.
+	color = { 246 139 66 }
+}
+
+p_strait_of_gibraltar = {
+	color = { 216 243 124 }
 }

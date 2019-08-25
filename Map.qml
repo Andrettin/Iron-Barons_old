@@ -69,6 +69,8 @@ Item {
 						}
 						if (model.modelData.selectable) {
 							model.modelData.selected = true
+						} else if (Metternich.selected_province) {
+							Metternich.selected_province.selected = false
 						}
 					}
 				}
