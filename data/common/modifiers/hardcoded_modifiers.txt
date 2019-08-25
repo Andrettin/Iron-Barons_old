@@ -1,0 +1,3 @@
+overpopulation = {
+	population_growth = -0.01
+}
