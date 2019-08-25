@@ -1,0 +1,134 @@
+10000772 = { #Friederich August von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Friederich August"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	1725.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#duke of Oldenburg
+	1785.7.6 = {
+		death = yes
+	}
+}
+
+10000774 = { #Georg Ludwig von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Georg Ludwig"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	#brother of Friederich August von Holstein-Gottorp-Oldenburg
+	1725.1.1 = { #unknown, set to 30 years before the birth of his son
+		birth = yes
+	}
+	1755.1.17 = { #married to Sophie Charlotte von Holstein-Beck; unknown date, set to the date of the birth of his son
+		spouse = 10000775 #Sophie Charlotte von Holstein-Beck
+	}
+	1785.1.1 = { #unknown, set to 30 years after the birth of his son
+		death = yes
+	}
+}
+
+10000771 = { #Peter Friederich Wilhelm von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Peter Friederich Wilhelm"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	father = 10000772 #Friederich August von Holstein-Gottorp-Oldenburg
+	1754.1.3 = {
+		birth = yes
+	}
+	#succeeded his father, duke Friederich August of Holstein-Gottorp-Oldenburg, on 1785.7.6
+	#duke of Oldenburg as of 1815
+	1824.1.1 = { #unknown, set to 60 years after birth, +10 since he was still alive in 1815
+		death = yes
+	}
+}
+
+10000773 = { #Hedwig Elisabeth Charlotte von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Hedwig Elisabeth Charlotte"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	father = 10000772 #Friederich August von Holstein-Gottorp-Oldenburg
+	1759.3.22 = {
+		birth = yes
+	}
+	1819.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000776 = { #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Peter Friederich Ludwig"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	father = 10000774 #Georg Ludwig von Holstein-Gottorp-Oldenburg
+	mother = 10000775 #Sophie Charlotte von Holstein-Beck
+	1755.1.17 = {
+		birth = yes
+	}
+	1785.7.6 = {
+		employer = 10000771 #Peter Friederich Wilhelm von Holstein-Gottorp-Oldenburg
+		#effect = {
+		#	give_job_title = job_treasurer #became the administrator of the duchy of Oldenburg on 1785.7.6
+		#}
+	}
+	1783.7.13 = { #married to Friederike Elisabeth Amalie, daughter of duke Friederich of Württemberg-Stuttgart; unknown date, set to the date of the birth of their son
+		spouse = 10000777 #Friederike Elisabeth Amalie von Württemberg
+	}
+	#prince of Lübeck as of 1815
+	1825.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1815
+		death = yes
+	}
+}
+
+10000779 = { #Paul Friederich August von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Paul Friederich August"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	father = 10000776 #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
+	mother = 10000777 #Friederike Elisabeth Amalie von Württemberg
+	1783.7.13 = {
+		birth = yes
+	}
+	1843.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000780 = { #Peter Friederich Georg von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Peter Friederich Georg"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	father = 10000776 #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
+	mother = 10000777 #Friederike Elisabeth Amalie von Württemberg
+	1784.1.1 = { #unknown, set to one year after his older brother
+		birth = yes
+	}
+	1810.8.30 = { #married to Catherine Paulowna, daughter of Emperor Paul of Russia; unknown date, set to the date of the birth of their son
+		spouse = 10000249 #Catherine Romanov
+	}
+	1812.12.27 = {
+		death = yes
+	}
+}
+
+10000781 = { #Peter Georg Paul von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Peter Georg Paul"
+	dynasty = von_holstein_gottorp_oldenburg
+	culture = german
+	religion = protestant #lutheran
+	father = 10000780 #Peter Friederich Georg von Holstein-Gottorp-Oldenburg
+	mother = 10000249 #Catherine Romanov
+	1810.8.30 = {
+		birth = yes
+	}
+	1870.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

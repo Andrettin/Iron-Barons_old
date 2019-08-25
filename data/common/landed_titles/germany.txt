@@ -1,12 +1,18 @@
 e_germany = {
 	color = { 160 160 160 }
-	capital_province = p_holstein #should be Frankfurt instead
+	capital_province = p_oldenburg #should be Frankfurt instead
 }
 
 k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
-	capital_province = p_holstein #should be Frankfurt instead
+	capital_province = p_oldenburg #should be Frankfurt instead
+}
+
+k_prussia = {
+	de_jure_liege_title = e_germany #should not be a part of e_germany, as that represents the German Confederation, and Prussia itself wasn't a part of it
+	color = { 0 49 83 }
+	capital_province = p_oldenburg #should be Brandenburg instead
 }
 
 d_holstein = {
@@ -15,9 +21,20 @@ d_holstein = {
 	capital_province = p_holstein
 }
 
+d_oldenburg = {
+	de_jure_liege_title = k_germany
+	color = { 0 0 255 }
+	capital_province = p_oldenburg
+}
+
 c_holstein = {
 	de_jure_liege_title = d_holstein
 	color = { 208 12 51 }
+}
+
+c_oldenburg = {
+	de_jure_liege_title = d_oldenburg
+	color = { 0 0 255 }
 }
 
 b_itzehoe = {
@@ -30,4 +47,20 @@ b_kiel = {
 
 b_rendsburg = {
 	de_jure_liege_title = c_holstein
+}
+
+b_brake = {
+	de_jure_liege_title = c_oldenburg
+}
+
+b_elsfleth = {
+	de_jure_liege_title = c_oldenburg
+}
+
+b_oldenburg = {
+	de_jure_liege_title = c_oldenburg
+}
+
+b_wilhelmshaven = {
+	de_jure_liege_title = c_oldenburg
 }

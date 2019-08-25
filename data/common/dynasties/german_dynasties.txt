@@ -118,7 +118,15 @@ von_hohenzollern_sigmaringen = {
 	culture = german
 }
 
+von_holstein_beck = {
+	culture = german
+}
+
 von_holstein_glucksburg = {
+	culture = german
+}
+
+von_holstein_gottorp_oldenburg = {
 	culture = german
 }
 
@@ -203,6 +211,10 @@ von_schaumburg_lippe = {
 }
 
 von_scheel = {
+	culture = german
+}
+
+von_schlieben = {
 	culture = german
 }
 

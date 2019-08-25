@@ -1,0 +1,30 @@
+10000764 = { #Leopold von Schlieben; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Leopold"
+	dynasty = von_schlieben
+	culture = german
+	religion = protestant #lutheran
+	1727.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#count of Schlieben
+	1787.1.1 = { #unknown, set to 30 years after the birth of his daughter
+		death = yes
+	}
+}
+
+
+10000763 = { #Friederike Amalie von Schlieben; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Friederike Amalie"
+	dynasty = von_schlieben
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	father = 10000764 #Leopold von Schlieben
+	1757.2.28 = {
+		birth = yes
+	}
+	#married on 1780.3.9 to Karl Friederich Ludwig von Holstein-Beck
+	1817.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

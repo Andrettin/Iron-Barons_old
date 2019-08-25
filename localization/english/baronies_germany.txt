@@ -1,3 +1,7 @@
+b_brake = "Brake"
+b_elsfleth = "Elsfleth"
 b_itzehoe = "Itzehoe"
 b_kiel = "Kiel"
+b_oldenburg = "Oldenburg"
 b_rendsburg = "Rendsburg"
+b_wilhelmshaven = "Wilhelmshaven"

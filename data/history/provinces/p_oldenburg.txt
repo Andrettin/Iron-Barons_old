@@ -1,0 +1,11 @@
+culture = german
+religion = protestant
+
+1815.1.1 = {
+	b_oldenburg = town #Oldenburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_brake = town #Brake was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_elsfleth = town #Elsfleth was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_wilhelmshaven = town #Wilhelmshaven was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_oldenburg
+}

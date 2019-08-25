@@ -1,0 +1,132 @@
+10000510 = { #Friederich von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	name = "Friederich"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant
+	1713.1.1 = { #unknown, set to 30 years before the birth of his daughter
+		birth = yes
+	}
+	#duke of Holstein-Beck
+	1773.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000775 = { #Sophie Charlotte von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
+	name = "Sophie Charlotte"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	1725.1.1 = { #unknown, set to 30 years before the birth of her son
+		birth = yes
+	}
+	#married to Georg Ludwig von Holstein-Gottorp-Oldenburg
+	1785.1.1 = { #unknown, set to 30 years after the birth of her son
+		death = yes
+	}
+}
+
+10000509 = { #Marie Dorothee von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	name = "Marie Dorothee"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant
+	female = yes
+	father = 10000510 #Friederich von Holstein-Beck
+	1743.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#married to Ferdinand von Anhalt-Pless
+	1803.11.24 = {
+		death = yes
+	}
+}
+
+10000762 = { #Karl Friederich Ludwig von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Karl Friederich Ludwig"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant #lutheran
+	1757.8.20 = {
+		birth = yes
+	}
+	1780.3.9 = { #married on 1780.3.9 to Friederike Amalie, daughter of count Leopold of Schlieben
+		spouse = 10000763 #Friederike Amalie von Schlieben
+	}
+	1817.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000765 = { #Elisabeth Charlotte Friederike von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Elisabeth Charlotte Friederike"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	father = 10000762 #Karl Friederich Ludwig von Holstein-Beck
+	mother = 10000763 #Friederike Amalie von Schlieben
+	1780.12.13 = {
+		birth = yes
+	}
+	#widowed of Gottl., baron of Richthofen, on 1808.2.25
+	1840.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000767 = { #Wilhelm Paul Leopold von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Wilhelm Paul Leopold"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant #lutheran
+	father = 10000762 #Karl Friederich Ludwig von Holstein-Beck
+	mother = 10000763 #Friederike Amalie von Schlieben
+	1785.1.5 = {
+		birth = yes
+	}
+	1810.1.28 = { #married on 1810.1.28 to Louise Karoline, daughter of landgrave Karl of Hesse
+		spouse = 10000644 #Louise Karoline von Hessen-Kassel
+	}
+	1845.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000768 = { #Luise Marie Friederike von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Luise Marie Friederike"
+	dynasty = von_holstein_beck
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	father = 10000767 #Wilhelm Paul Leopold von Holstein-Beck
+	mother = 10000644 #Louise Karoline von Hessen-Kassel
+	1810.10.23 = {
+		birth = yes
+	}
+	1870.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000364 = { #Friederike Karoline Julie von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Friederike Karoline Julie"
+	dynasty = von_holstein_beck
+	#in the Almanach de Gotha for 1847 she is a part of the Holstein-Glücksburg dynasty instead; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	culture = german
+	religion = protestant #lutheran
+	female = yes
+	father = 10000767 #Wilhelm Paul Leopold von Holstein-Beck
+	mother = 10000644 #Louise Karoline von Hessen-Kassel
+	1811.10.9 = {
+		birth = yes
+	}
+	1834.10.30 = {
+		spouse = 10000362 #married on 1834.10.30 to Alexander Karl von Anhalt-Bernburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	}
+	#sister of duke Karl of Holstein-Glücksburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	1871.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

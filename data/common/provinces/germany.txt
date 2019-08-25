@@ -2,3 +2,8 @@ p_holstein = {
 	county = c_holstein
 	color = { 101 97 115 }
 }
+
+p_oldenburg = {
+	county = c_oldenburg
+	color = { 118 56 154 }
+}
