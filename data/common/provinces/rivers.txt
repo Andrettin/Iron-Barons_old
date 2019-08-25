@@ -2,6 +2,10 @@ p_danube_river = {
 	color = { 165 117 246 }
 }
 
+p_elbe_river = {
+	color = { 162 106 13 }
+}
+
 p_po_river = {
 	color = { 22 216 82 }
 }
