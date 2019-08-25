@@ -1,4 +1,5 @@
 r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population" article
+	provinces += p_holstein
 	provinces += p_lower_austria
 	provinces += p_upper_austria
 	provinces += p_styria

@@ -1,3 +1,6 @@
+/graphics/flags/d_holstein.svg (by Sir Iain, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/e_scandinavia.svg (by E70 and ThrashedParanoid, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/k_denmark.svg (by Madden, from the Wikimedia Commons) (in the public domain)
 /graphics/icons/buildings/courthouse.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/buildings/courthouse_large.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/buildings/university.png (by Exidelo) (licensed under the CC0)

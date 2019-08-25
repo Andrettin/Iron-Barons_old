@@ -1,0 +1,4 @@
+p_holstein = {
+	county = c_holstein
+	color = { 101 97 115 }
+}

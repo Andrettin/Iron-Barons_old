@@ -1,0 +1,10 @@
+culture = german
+religion = protestant
+
+1815.1.1 = {
+	b_kiel = city #Kiel was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_rendsburg = town #Rendsburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_itzehoe = town #Itzehoe was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_kiel
+}

@@ -1,10 +1,33 @@
 e_germany = {
 	color = { 160 160 160 }
-	capital_province = p_lower_austria #should be Frankfurt instead
+	capital_province = p_holstein #should be Frankfurt instead
 }
 
 k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
-	capital_province = p_lower_austria #should be Frankfurt instead
+	capital_province = p_holstein #should be Frankfurt instead
+}
+
+d_holstein = {
+	de_jure_liege_title = k_germany
+	color = { 208 12 51 }
+	capital_province = p_holstein
+}
+
+c_holstein = {
+	de_jure_liege_title = d_holstein
+	color = { 208 12 51 }
+}
+
+b_itzehoe = {
+	de_jure_liege_title = c_holstein
+}
+
+b_kiel = {
+	de_jure_liege_title = c_holstein
+}
+
+b_rendsburg = {
+	de_jure_liege_title = c_holstein
 }

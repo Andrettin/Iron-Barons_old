@@ -1,0 +1,10 @@
+e_scandinavia = {
+	color = { 255 222 0 }
+	capital_province = p_holstein #should be Copenhagen/Sjaelland instead, or Stockholm
+}
+
+k_denmark = {
+	de_jure_liege_title = e_scandinavia
+	color = { 198 12 48 }
+	capital_province = p_holstein #should be Copenhagen/Sjaelland instead
+}
