@@ -47,6 +47,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: capital_holding.bottom
 		anchors.topMargin: 48
+		visible: Metternich.selected_province && Metternich.selected_province.empire
 
 		Text {
 			id: de_jure_empire_label
@@ -60,7 +61,7 @@ Item {
 
 		Text {
 			id: province_de_jure_empire
-			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.de_jure_liege_title.name : ""
+			text: Metternich.selected_province && Metternich.selected_province.empire ? Metternich.selected_province.empire.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -78,6 +79,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: empire_area.bottom
 		anchors.topMargin: 16
+		visible: Metternich.selected_province && Metternich.selected_province.kingdom
 
 		Text {
 			id: de_jure_kingdom_label
@@ -91,7 +93,7 @@ Item {
 
 		Text {
 			id: province_de_jure_kingdom
-			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.de_jure_liege_title.name : ""
+			text: Metternich.selected_province && Metternich.selected_province.kingdom ? Metternich.selected_province.kingdom.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -109,6 +111,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: kingdom_area.bottom
 		anchors.topMargin: 16
+		visible: Metternich.selected_province && Metternich.selected_province.duchy
 
 		Text {
 			id: de_jure_duchy_label
@@ -122,7 +125,7 @@ Item {
 
 		Text {
 			id: province_de_jure_duchy
-			text: Metternich.selected_province ? Metternich.selected_province.county.de_jure_liege_title.name : ""
+			text: Metternich.selected_province && Metternich.selected_province.duchy ? Metternich.selected_province.duchy.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
