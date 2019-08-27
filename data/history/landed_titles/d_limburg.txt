@@ -1,0 +1,3 @@
+1839.1.1 = {
+	de_jure_liege_title = k_germany #part of the German Confederation from 1839; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

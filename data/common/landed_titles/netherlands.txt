@@ -1,0 +1,62 @@
+k_netherlands = {
+	color = { 226 64 30 }
+	capital_province = p_netherlands
+}
+
+d_limburg = {
+	de_jure_liege_title = k_netherlands
+	color = { 246 197 10 }
+	capital_province = p_limburg
+}
+
+d_netherlands = {
+	de_jure_liege_title = k_netherlands
+	color = { 226 64 30 }
+	capital_province = p_netherlands
+}
+
+c_limburg = {
+	de_jure_liege_title = d_limburg
+	color = { 246 197 10 }
+}
+
+c_netherlands = {
+	de_jure_liege_title = d_netherlands
+	color = { 226 64 30 }
+}
+
+b_maastricht = {
+	de_jure_liege_title = c_limburg
+}
+
+b_amsterdam = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_arnheim = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_groningen = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_haarlem = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_the_hague = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_hertogenbosch = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_rotterdam = {
+	de_jure_liege_title = c_netherlands
+}
+
+b_utrecht = {
+	de_jure_liege_title = c_netherlands
+}

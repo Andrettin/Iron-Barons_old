@@ -1,0 +1,9 @@
+p_limburg = {
+	county = c_limburg
+	color = { 153 211 235 }
+}
+
+p_netherlands = {
+	county = c_netherlands
+	color = { 235 143 160 }
+}
