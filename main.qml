@@ -99,8 +99,8 @@ Window {
 		id: top_left_area
 		anchors.top: parent.top
 		anchors.left: parent.left
-		width: 128
-		height: 64
+		width: 160
+		height: 32
 
 		Rectangle {
 			anchors.fill: parent
@@ -116,26 +116,7 @@ Window {
 
 			Text {
 				id: player_character_label
-				text: Metternich.game.player_character.full_name
-				anchors.verticalCenter: parent.verticalCenter
-				anchors.left: parent.left
-				anchors.leftMargin: 8
-				color: "black"
-				font.pixelSize: 12
-				font.family: "tahoma"
-			}
-		}
-
-		Item {
-			id: primary_title_area
-			anchors.left: parent.left
-			anchors.right: parent.right
-			anchors.top: player_character_area.bottom
-			height: 32
-
-			Text {
-				id: primary_title_label
-				text: Metternich.game.player_character.primary_title.name
+				text: Metternich.game.player_character.titled_name
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
 				anchors.leftMargin: 8

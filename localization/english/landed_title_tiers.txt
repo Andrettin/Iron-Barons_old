@@ -1,0 +1,5 @@
+empire = "Empire"
+kingdom = "Kingdom"
+duchy = "Duchy"
+county = "County"
+barony = "Barony"

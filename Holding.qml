@@ -19,7 +19,7 @@ Item {
 		MouseArea {
 			anchors.fill: parent
 			hoverEnabled: true
-			ToolTip.text: tooltip(holding ? holding.name + "<br><br>Holder: " + holding.barony.holder.full_name + "<br>Population: " + holding.population : "")
+			ToolTip.text: tooltip(holding ? holding.name + "<br><br>Holder: " + holding.barony.holder.titled_name + "<br>Population: " + holding.population : "")
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000
 			onClicked: holding.selected = true
