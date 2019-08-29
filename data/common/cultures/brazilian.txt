@@ -1,0 +1,11 @@
+brazilian = {
+	culture_group = iberian
+	
+	male_names = {
+		Bernardo Henrique João Joaquim José Manuel Pedro
+	}
+	
+	female_names = {
+		Joana Maria
+	}
+}

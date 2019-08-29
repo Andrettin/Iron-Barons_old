@@ -1,0 +1,11 @@
+portuguese = {
+	culture_group = iberian
+	
+	male_names = {
+		Henrique João José Joaquim Manuel Pedro
+	}
+	
+	female_names = {
+		Joana Maria
+	}
+}
