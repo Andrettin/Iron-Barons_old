@@ -1,0 +1,4 @@
+p_rio_de_janeiro = {
+	county = c_rio_de_janeiro
+	color = { 31 130 77 }
+}

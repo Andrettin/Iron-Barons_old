@@ -1,0 +1,25 @@
+e_brazil = {
+	color = { 0 146 63 }
+	capital_province = p_rio_de_janeiro
+}
+
+k_brazil = {
+	de_jure_liege_title = e_brazil
+	color = { 33 52 129 }
+	capital_province = p_rio_de_janeiro
+}
+
+d_rio_de_janeiro = {
+	de_jure_liege_title = k_brazil
+	color = { 0 175 239 }
+	capital_province = p_rio_de_janeiro
+}
+
+c_rio_de_janeiro = {
+	de_jure_liege_title = d_rio_de_janeiro
+	color = { 0 175 239 }
+}
+
+b_rio_de_janeiro = {
+	de_jure_liege_title = c_rio_de_janeiro
+}

@@ -1,0 +1,2 @@
+b_rio_de_janeiro = "Rio de Janeiro"
+b_rio_de_janeiro_french = "Henriville"
