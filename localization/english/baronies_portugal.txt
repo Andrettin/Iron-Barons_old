@@ -1,0 +1,2 @@
+b_lisbon = "Lisbon"
+b_lisbon_portuguese = "Lisboa"
