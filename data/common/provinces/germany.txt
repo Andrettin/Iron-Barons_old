@@ -3,7 +3,17 @@ p_holstein = {
 	color = { 101 97 115 }
 }
 
+p_lauenburg = {
+	county = c_lauenburg
+	color = { 4 157 15 }
+}
+
 p_oldenburg = {
 	county = c_oldenburg
 	color = { 118 56 154 }
+}
+
+p_schwerin = {
+	county = c_schwerin
+	color = { 138 14 78 }
 }

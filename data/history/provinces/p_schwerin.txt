@@ -1,0 +1,11 @@
+culture = german
+religion = protestant
+
+1815.1.1 = {
+	b_schwerin = city #Schwerin was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_rostock = city #Rostock was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_wismar = town #Wismar was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_parchim = town #Parchim was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_schwerin
+}

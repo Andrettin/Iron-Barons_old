@@ -1,0 +1,8 @@
+1815.1.1 = {
+	holder = random
+	liege_title = k_denmark #the Duchy of Lauenburg was held by Denmark as of 1815-1866, though it was a part of the German Confederation; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}
+
+1863.1.1 = {
+	liege_title = k_prussia #the Duchy of Lauenburg became a Prussian possession in 1863; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

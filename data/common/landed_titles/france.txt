@@ -1,0 +1,4 @@
+e_france = {
+	color = { 0 38 84 }
+	capital_province = p_lauenburg #should be Paris
+}

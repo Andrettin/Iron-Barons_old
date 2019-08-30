@@ -1,0 +1,9 @@
+culture = german
+religion = protestant
+
+1812.1.1 = {
+	b_lauenburg = town #Lauenburg existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
+	b_lubeck = city #Lübeck existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
+	
+	capital_holding = b_lauenburg
+}

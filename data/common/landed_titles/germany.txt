@@ -21,6 +21,19 @@ d_holstein = {
 	capital_province = p_holstein
 }
 
+d_lauenburg = {
+	de_jure_liege_title = k_germany
+	color = { 252 221 9 }
+	capital_province = p_lauenburg
+}
+
+d_mecklenburg_schwerin = {
+	de_jure_liege_title = k_germany
+	#color = { 252 195 0 }
+	color = { 226 0 26 }
+	capital_province = p_schwerin
+}
+
 d_oldenburg = {
 	de_jure_liege_title = k_germany
 	color = { 0 0 255 }
@@ -32,9 +45,19 @@ c_holstein = {
 	color = { 208 12 51 }
 }
 
+c_lauenburg = {
+	de_jure_liege_title = d_lauenburg
+	color = { 252 221 9 }
+}
+
 c_oldenburg = {
 	de_jure_liege_title = d_oldenburg
 	color = { 0 0 255 }
+}
+
+c_schwerin = {
+	de_jure_liege_title = d_mecklenburg_schwerin
+	color = { 226 0 26 }
 }
 
 b_itzehoe = {
@@ -47,6 +70,14 @@ b_kiel = {
 
 b_rendsburg = {
 	de_jure_liege_title = c_holstein
+}
+
+b_lauenburg = {
+	de_jure_liege_title = c_lauenburg
+}
+
+b_lubeck = {
+	de_jure_liege_title = c_lauenburg
 }
 
 b_brake = {
@@ -63,4 +94,20 @@ b_oldenburg = {
 
 b_wilhelmshaven = {
 	de_jure_liege_title = c_oldenburg
+}
+
+b_parchim = {
+	de_jure_liege_title = c_schwerin
+}
+
+b_rostock = {
+	de_jure_liege_title = c_schwerin
+}
+
+b_schwerin = {
+	de_jure_liege_title = c_schwerin
+}
+
+b_wismar = {
+	de_jure_liege_title = c_schwerin
 }

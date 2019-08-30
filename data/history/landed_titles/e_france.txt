@@ -1,0 +1,11 @@
+1804.5.18 = {
+	holder = 10000434 #Emperor Napoléon I of France; became Emperor of the French on 1804.5.18; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+}
+
+1804.12.2 = {
+	#holder = 10000434 #Emperor Napoléon I of France; was crowned and blessed Emperor of the French in Paris on 1804.12.2; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
+}
+
+1815.1.1 = {
+	holder = 0 #Louis de Bourbon was king of France as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+}

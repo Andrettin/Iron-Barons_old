@@ -1,4 +1,6 @@
+coal_mine = "Coal Mine"
 college = "College"
 courthouse = "Courthouse"
+grain_farm = "Grain Farm"
 library = "Library"
 university = "University"
