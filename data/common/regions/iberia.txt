@@ -1,0 +1,3 @@
+r_portugal = {
+	provinces += p_portugal
+}

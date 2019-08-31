@@ -1,0 +1,4 @@
+r_netherlands = {
+	provinces += p_netherlands
+	provinces += p_limburg
+}
