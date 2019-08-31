@@ -1,0 +1,7 @@
+1797.11.16 = {
+	holder = 10000008 #Friedrich Wilhelm III of Prussia; succeeded his father, king Friedrich Wilhelm II, on 1797.11.16; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 42.
+}
+
+1840.6.7 = {
+	holder = 10000010 #Friedrich Wilhelm IV of Prussia; succeeded his father on 1840.6.7; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 63.
+}

@@ -13,6 +13,11 @@ p_oldenburg = {
 	color = { 118 56 154 }
 }
 
+p_pomerania = {
+	county = c_pomerania
+	color = { 164 255 28 }
+}
+
 p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }

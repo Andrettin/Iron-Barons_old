@@ -1,0 +1,3 @@
+1815.1.1 = {
+	holder_title = d_pomerania #part of the Prussian province of Pomerania as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

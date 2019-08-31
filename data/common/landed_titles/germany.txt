@@ -12,7 +12,7 @@ k_germany = {
 k_prussia = {
 	de_jure_liege_title = e_germany #should not be a part of e_germany, as that represents the German Confederation, and Prussia itself wasn't a part of it
 	color = { 0 49 83 }
-	capital_province = p_oldenburg #should be Brandenburg instead
+	capital_province = p_pomerania #should be Brandenburg instead
 }
 
 d_holstein = {
@@ -45,6 +45,12 @@ d_oldenburg = {
 	capital_province = p_oldenburg
 }
 
+d_pomerania = {
+	de_jure_liege_title = k_germany
+	color = { 214 40 40 }
+	capital_province = p_pomerania
+}
+
 c_holstein = {
 	de_jure_liege_title = d_holstein
 	color = { 208 12 51 }
@@ -58,6 +64,11 @@ c_lauenburg = {
 c_oldenburg = {
 	de_jure_liege_title = d_oldenburg
 	color = { 0 0 255 }
+}
+
+c_pomerania = {
+	de_jure_liege_title = d_pomerania
+	color = { 214 40 40 }
 }
 
 c_schwerin = {
@@ -104,6 +115,34 @@ b_oldenburg = {
 
 b_wilhelmshaven = {
 	de_jure_liege_title = c_oldenburg
+}
+
+b_greifswald = {
+	de_jure_liege_title = c_pomerania
+}
+
+b_kolberg = {
+	de_jure_liege_title = c_pomerania
+}
+
+b_koslin = {
+	de_jure_liege_title = c_pomerania
+}
+
+b_stargard = {
+	de_jure_liege_title = c_pomerania
+}
+
+b_stettin = {
+	de_jure_liege_title = c_pomerania
+}
+
+b_stralsund = {
+	de_jure_liege_title = c_pomerania
+}
+
+b_swinemunde = {
+	de_jure_liege_title = c_pomerania
 }
 
 b_parchim = {
