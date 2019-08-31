@@ -29,9 +29,14 @@ d_lauenburg = {
 
 d_mecklenburg_schwerin = {
 	de_jure_liege_title = k_germany
-	#color = { 252 195 0 }
 	color = { 226 0 26 }
 	capital_province = p_schwerin
+}
+
+d_mecklenburg_strelitz = {
+	de_jure_liege_title = k_germany
+	color = { 252 195 0 }
+	capital_province = p_strelitz
 }
 
 d_oldenburg = {
@@ -58,6 +63,11 @@ c_oldenburg = {
 c_schwerin = {
 	de_jure_liege_title = d_mecklenburg_schwerin
 	color = { 226 0 26 }
+}
+
+c_strelitz = {
+	de_jure_liege_title = d_mecklenburg_strelitz
+	color = { 252 195 0 }
 }
 
 b_itzehoe = {
@@ -110,4 +120,8 @@ b_schwerin = {
 
 b_wismar = {
 	de_jure_liege_title = c_schwerin
+}
+
+b_strelitz = {
+	de_jure_liege_title = c_strelitz
 }

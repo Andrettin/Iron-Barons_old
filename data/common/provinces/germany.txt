@@ -17,3 +17,8 @@ p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
 }
+
+p_strelitz = {
+	county = c_strelitz
+	color = { 107 152 133 }
+}
