@@ -1,18 +1,30 @@
 e_germany = {
 	color = { 160 160 160 }
-	capital_province = p_oldenburg #should be Frankfurt instead
+	capital_province = p_hanover #should be Frankfurt instead
 }
 
 k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
-	capital_province = p_oldenburg #should be Frankfurt instead
+	capital_province = p_hanover #should be Frankfurt instead
+}
+
+k_hanover = {
+	de_jure_liege_title = e_germany
+	color = { 255 206 8 }
+	capital_province = p_hanover
 }
 
 k_prussia = {
 	de_jure_liege_title = e_germany #should not be a part of e_germany, as that represents the German Confederation, and Prussia itself wasn't a part of it
 	color = { 0 49 83 }
 	capital_province = p_pomerania #should be Brandenburg instead
+}
+
+d_luneburg = {
+	de_jure_liege_title = k_hanover
+	color = { 206 15 37 }
+	capital_province = p_hanover
 }
 
 d_holstein = {
@@ -51,6 +63,11 @@ d_pomerania = {
 	capital_province = p_pomerania
 }
 
+c_hanover = {
+	de_jure_liege_title = d_luneburg
+	color = { 255 206 8 }
+}
+
 c_holstein = {
 	de_jure_liege_title = d_holstein
 	color = { 208 12 51 }
@@ -79,6 +96,50 @@ c_schwerin = {
 c_strelitz = {
 	de_jure_liege_title = d_mecklenburg_strelitz
 	color = { 252 195 0 }
+}
+
+b_aurich = {
+	de_jure_liege_title = c_hanover
+}
+
+b_bremen = {
+	de_jure_liege_title = c_hanover
+}
+
+b_bremerhaven = {
+	de_jure_liege_title = c_hanover
+}
+
+b_celle = {
+	de_jure_liege_title = c_hanover
+}
+
+b_emden = {
+	de_jure_liege_title = c_hanover
+}
+
+b_hanover = {
+	de_jure_liege_title = c_hanover
+}
+
+b_hildesheim = {
+	de_jure_liege_title = c_hanover
+}
+
+b_luneburg = {
+	de_jure_liege_title = c_hanover
+}
+
+b_meppen = {
+	de_jure_liege_title = c_hanover
+}
+
+b_osnabruck = {
+	de_jure_liege_title = c_hanover
+}
+
+b_stade = {
+	de_jure_liege_title = c_hanover
 }
 
 b_itzehoe = {

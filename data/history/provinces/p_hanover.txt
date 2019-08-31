@@ -1,0 +1,21 @@
+culture = german
+religion = protestant
+
+1815.1.1 = {
+	b_hanover = city #Hanover existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_luneburg = town #Lüneburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_bremen = city #Bremen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_osnabruck = city #Osnabrück existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_stade = town #Stade existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_celle = town #Celle existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_hildesheim = town #Hildesheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_meppen = town #Meppen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_emden = town #Emden existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_aurich = town #Aurich existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_hanover
+}
+
+1827.1.1 = {
+	b_bremerhaven = town #Bremerhaven was founded in 1827; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}
