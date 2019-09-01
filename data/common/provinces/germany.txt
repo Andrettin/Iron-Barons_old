@@ -32,3 +32,8 @@ p_strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }
 }
+
+p_west_prussia = {
+	county = c_west_prussia
+	color = { 248 144 8 }
+}

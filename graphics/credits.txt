@@ -7,6 +7,7 @@
 /graphics/flags/d_pomerania.svg (by Hanna Dąbrowska, Urząd Marszałkowski and Bastianow, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/d_rio_de_janeiro.svg (by FORTES, from the Wikimedia Commons) (licensed under the CC-BY 2.5)
 /graphics/flags/d_schwerin.svg (by David Liuzzo, from the Wikimedia Commons) (in the public domain)
+/graphics/flags/d_west_prussia.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/e_brazil.svg (by Tonyjeff, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/e_france.svg (by Skopp, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/e_scandinavia.svg (by E70 and ThrashedParanoid, from the Wikimedia Commons) (released to the public domain)
