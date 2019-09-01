@@ -10,7 +10,7 @@ Item {
 	height: imageHeight + 32
 
 	Image {
-		source: holding ? "./graphics/holdings/" + holding.type.identifier + ".png" : "image://empty/"
+		source: holding ? "../graphics/holdings/" + holding.type.identifier + ".png" : "image://empty/"
 		width: parent.imageWidth
 		height: parent.imageHeight
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -26,7 +26,7 @@ Item {
 		}
 
 		Image {
-			source: holding && holding.commodity ? "./graphics/icons/commodities/" + holding.commodity.identifier + ".png" : "image://empty/"
+			source: holding && holding.commodity ? "../graphics/icons/commodities/" + holding.commodity.identifier + ".png" : "image://empty/"
 			anchors.top: parent.top
 			anchors.left: parent.left
 
