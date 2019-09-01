@@ -39,18 +39,6 @@ d_lauenburg = {
 	capital_province = p_lauenburg
 }
 
-d_mecklenburg_schwerin = {
-	de_jure_liege_title = k_germany
-	color = { 226 0 26 }
-	capital_province = p_schwerin
-}
-
-d_mecklenburg_strelitz = {
-	de_jure_liege_title = k_germany
-	color = { 252 195 0 }
-	capital_province = p_strelitz
-}
-
 d_oldenburg = {
 	de_jure_liege_title = k_germany
 	color = { 0 0 255 }
@@ -61,6 +49,18 @@ d_pomerania = {
 	de_jure_liege_title = k_germany
 	color = { 214 40 40 }
 	capital_province = p_pomerania
+}
+
+d_schwerin = {
+	de_jure_liege_title = k_germany
+	color = { 226 0 26 }
+	capital_province = p_schwerin
+}
+
+d_strelitz = {
+	de_jure_liege_title = k_germany
+	color = { 252 195 0 }
+	capital_province = p_strelitz
 }
 
 c_hanover = {
@@ -89,12 +89,12 @@ c_pomerania = {
 }
 
 c_schwerin = {
-	de_jure_liege_title = d_mecklenburg_schwerin
+	de_jure_liege_title = d_schwerin
 	color = { 226 0 26 }
 }
 
 c_strelitz = {
-	de_jure_liege_title = d_mecklenburg_strelitz
+	de_jure_liege_title = d_strelitz
 	color = { 252 195 0 }
 }
 

@@ -60,7 +60,7 @@ Item {
 					anchors.fill: parent
 					alphaThreshold: 0.4
 					maskSource: parent.source
-					ToolTip.text: tooltip(model.modelData.name + (model.modelData.county ? "<br><br>Realm: " + model.modelData.county.realm.titled_name : ""))
+					ToolTip.text: tooltip(model.modelData.name + (model.modelData.county ? "<br><br>Country: " + model.modelData.county.realm.titled_name : ""))
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 					onClicked: {

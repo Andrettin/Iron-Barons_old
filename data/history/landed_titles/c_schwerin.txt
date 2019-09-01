@@ -1,3 +1,3 @@
 1815.1.1 = {
-	holder_title = d_mecklenburg_schwerin #part of the Grand Duchy of Mecklenburg-Schwerin as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	holder_title = d_schwerin #part of the Grand Duchy of Mecklenburg-Schwerin as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }
