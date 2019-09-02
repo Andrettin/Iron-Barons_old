@@ -122,85 +122,16 @@ Item {
 		}
 	}
 
-	Item {
+	BuildingInterface {
 		id: building_area
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
 		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 32
-		height: 128
-
-		Flickable {
-			anchors.fill: parent
-			contentWidth: building_grid.width
-			contentHeight: building_grid.height
-			clip: true
-			interactive: false
-			boundsBehavior: Flickable.StopAtBounds
-			ScrollBar.vertical: ScrollBar {}
-
-			Grid {
-				id: building_grid
-				columns: 1
-				columnSpacing: 0
-				rowSpacing: 0
-
-				Repeater {
-					model: Metternich.selected_holding ? Metternich.selected_holding.available_buildings : []
-
-					Item {
-						width: building_area.width
-						height: 32
-
-						Text {
-							text: model.modelData.name
-							anchors.verticalCenter: parent.verticalCenter
-							anchors.left: parent.left
-							color: "black"
-							font.pixelSize: 12
-							font.family: "tahoma"
-							font.bold: Metternich.selected_holding.buildings.includes(model.modelData)
-						}
-
-						Button {
-							visible: Metternich.game.player_character.can_build_in_holding(Metternich.selected_holding) && Metternich.selected_holding.under_construction_building === null && !Metternich.selected_holding.buildings.includes(model.modelData)
-							anchors.top: parent.top
-							anchors.topMargin: 1
-							anchors.bottom: parent.bottom
-							anchors.bottomMargin: 1
-							anchors.right: parent.right
-							width: 64
-							text: "<font color=\"black\">Build</font>"
-							font.pixelSize: 12
-							font.family: "tahoma"
-							onClicked: Metternich.selected_holding.order_construction(model.modelData)
-						}
-
-						Text {
-							text: "Under Construction (" + Metternich.selected_holding.construction_days + " days)"
-							visible: Metternich.selected_holding.under_construction_building === model.modelData
-							anchors.verticalCenter: parent.verticalCenter
-							anchors.right: parent.right
-							color: "black"
-							font.pixelSize: 12
-							font.family: "tahoma"
-						}
-
-						Text {
-							text: "Built"
-							visible: Metternich.selected_holding.buildings.includes(model.modelData)
-							anchors.verticalCenter: parent.verticalCenter
-							anchors.right: parent.right
-							color: "black"
-							font.pixelSize: 12
-							font.family: "tahoma"
-						}
-					}
-				}
-			}
-		}
+		anchors.topMargin: 96
+		anchors.bottom: province_button.top
+		anchors.bottomMargin: 8
 	}
 
 	HoldingPopulationUnitInterface {
@@ -209,10 +140,45 @@ Item {
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
-		anchors.top: building_area.bottom
-		anchors.topMargin: 32
+		anchors.top: population_capacity_area.bottom
+		anchors.topMargin: 96
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
+		visible: false
+	}
+
+	Button {
+		id: buildings_button
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 8
+		anchors.right: province_button.left
+		anchors.rightMargin: 8
+		text: "<font color=\"black\">Buildings</font>"
+		width: 80
+		height: 32
+		visible: !building_area.visible
+		font.pixelSize: 12
+		onClicked: {
+			building_area.visible = true
+			population_unit_area.visible = false
+		}
+	}
+
+	Button {
+		id: population_units_button
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 8
+		anchors.right: province_button.left
+		anchors.rightMargin: 8
+		text: "<font color=\"black\">Population</font>"
+		width: 80
+		height: 32
+		font.pixelSize: 12
+		visible: !population_unit_area.visible
+		onClicked: {
+			population_unit_area.visible = true
+			building_area.visible = false
+		}
 	}
 
 	Button {
@@ -221,8 +187,9 @@ Item {
 		anchors.bottomMargin: 8
 		anchors.horizontalCenter: parent.horizontalCenter
 		text: "<font color=\"black\">Province</font>"
-		width: 64
+		width: 80
 		height: 32
+		font.pixelSize: 12
 		onClicked: Metternich.selected_holding.selected = false
 	}
 }
