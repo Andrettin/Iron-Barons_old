@@ -1,6 +1,7 @@
 brazilian = {
 	culture_group = iberian
-	
+	color = { 0 146 63 }
+
 	male_names = {
 		Bernardo Henrique João Joaquim José Manuel Pedro
 	}

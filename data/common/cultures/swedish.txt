@@ -1,5 +1,6 @@
 swedish = {
 	culture_group = scandinavian
+	color = { 0 106 167 }
 
 	male_names = {
 		Adolf Gustav

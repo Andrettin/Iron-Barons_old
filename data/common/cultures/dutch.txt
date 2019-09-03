@@ -1,5 +1,6 @@
 dutch = {
 	culture_group = dutch
+	color = { 226 64 30 }
 
 	male_names = {
 		Willem

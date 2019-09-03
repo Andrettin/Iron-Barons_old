@@ -1,5 +1,6 @@
 castillian = {
 	culture_group = iberian
+	color = { 218 18 26 }
 
 	male_names = {
 		Carlos

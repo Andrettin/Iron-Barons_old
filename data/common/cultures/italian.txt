@@ -1,5 +1,6 @@
 italian = {
 	culture_group = italian
+	color = { 0 153 0 }
 
 	male_names = {
 		Alessandro Giovanni

@@ -1,5 +1,6 @@
 portuguese = {
 	culture_group = iberian
+	color = { 0 102 0 }
 	
 	male_names = {
 		Henrique João José Joaquim Manuel Pedro

@@ -1,5 +1,6 @@
 slovene = {
 	culture_group = south_slavic
+	color = { 0 0 191 }
 	
 	male_names = {
 		Adam #Polish name as placeholder

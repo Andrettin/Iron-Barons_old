@@ -1,5 +1,6 @@
 french = {
 	culture_group = french
+	color = { 0 38 84 }
 	
 	male_names = {
 		Charles
