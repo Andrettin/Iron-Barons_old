@@ -1,12 +1,13 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
+import QtCharts 2.3
 
 Item {
 	id: holding_interface
 	anchors.fill: parent
 
 	Rectangle {
-		id: province_background
+		id: holding_background
 		anchors.fill: parent
 		color: "darkGray"
 	}
@@ -119,6 +120,66 @@ Item {
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
+		}
+	}
+
+	ChartView {
+		id: culture_chart
+		anchors.top: population_capacity_area.bottom
+		anchors.topMargin: 16
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		width: 64
+		height: 64
+		margins.top: 2
+		margins.bottom: 2
+		margins.left: 2
+		margins.right: 2
+		legend.visible: false
+		backgroundColor: holding_background.color
+		antialiasing: true
+		ToolTip.delay: 1000
+
+		PieSeries {
+			id: culture_pie_series
+			size: 0.95
+
+			onHovered: {
+				if (state == true) {
+					culture_chart.ToolTip.text = "<font color=\"white\">" + slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)</font>"
+					culture_chart.ToolTip.visible = true
+				} else {
+					culture_chart.ToolTip.visible = false
+				}
+			}
+		}
+
+		function update_culture_chart() {
+			culture_pie_series.clear()
+
+			if (Metternich.selected_holding === null) {
+				return
+			}
+
+			var culture_proportions = Metternich.selected_holding.get_culture_proportions()
+			for (var i = 0; i < culture_proportions.length; i++) {
+				var culture = culture_proportions[i].culture
+				var proportion = culture_proportions[i].proportion
+				var pie_slice = culture_pie_series.append(culture.name, proportion)
+				pie_slice.color = culture.color
+				pie_slice.borderColor = "black"
+			}
+		}
+
+		Connections {
+			target: Metternich.selected_holding
+			ignoreUnknownSignals: true //as there may be no selected holding
+			onPopulationProportionsChanged: culture_chart.update_culture_chart()
+		}
+
+		Connections {
+			target: Metternich
+			onSelectedHoldingChanged: culture_chart.update_culture_chart()
 		}
 	}
 
