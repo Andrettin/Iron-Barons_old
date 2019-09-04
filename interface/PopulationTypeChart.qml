@@ -8,10 +8,10 @@ ChartView {
 	id: population_type_chart
 	width: 64
 	height: 64
-	margins.top: 2
-	margins.bottom: 2
-	margins.left: 2
-	margins.right: 2
+	margins.top: 0
+	margins.bottom: 0
+	margins.left: 0
+	margins.right: 0
 	legend.visible: false
 	backgroundColor: "transparent"
 	antialiasing: true
@@ -45,7 +45,7 @@ ChartView {
 			var type = population_per_type[i].type
 			var population = population_per_type[i].population
 			var pie_slice = population_type_pie_series.append(type.name, population)
-			//pie_slice.color = type.color
+			pie_slice.color = type.color
 			pie_slice.borderColor = "black"
 		}
 	}

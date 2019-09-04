@@ -8,10 +8,10 @@ ChartView {
 	id: religion_chart
 	width: 64
 	height: 64
-	margins.top: 2
-	margins.bottom: 2
-	margins.left: 2
-	margins.right: 2
+	margins.top: 0
+	margins.bottom: 0
+	margins.left: 0
+	margins.right: 0
 	legend.visible: false
 	backgroundColor: "transparent"
 	antialiasing: true
@@ -45,7 +45,7 @@ ChartView {
 			var religion = population_per_religion[i].religion
 			var population = population_per_religion[i].population
 			var pie_slice = religion_pie_series.append(religion.name, population)
-			//pie_slice.color = religion.color
+			pie_slice.color = religion.color
 			pie_slice.borderColor = "black"
 		}
 	}

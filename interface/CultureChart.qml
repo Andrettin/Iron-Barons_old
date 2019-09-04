@@ -8,10 +8,10 @@ ChartView {
 	id: culture_chart
 	width: 64
 	height: 64
-	margins.top: 2
-	margins.bottom: 2
-	margins.left: 2
-	margins.right: 2
+	margins.top: 0
+	margins.bottom: 0
+	margins.left: 0
+	margins.right: 0
 	legend.visible: false
 	backgroundColor: "transparent"
 	antialiasing: true
