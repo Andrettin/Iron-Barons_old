@@ -1,4 +1,6 @@
 officers = {
+	color = { 0 49 83 }
+	
 	holding_types += city
 	holding_types += metropolis
 	holding_types += manor

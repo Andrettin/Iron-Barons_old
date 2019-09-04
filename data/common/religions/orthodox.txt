@@ -1,2 +1,3 @@
 orthodox = {
+	color = { 0 57 166 }
 }

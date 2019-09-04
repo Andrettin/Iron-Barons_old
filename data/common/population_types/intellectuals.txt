@@ -1,4 +1,6 @@
 intellectuals = {
+	color = { 0 38 84 }
+
 	holding_types += town
 	holding_types += city
 	holding_types += metropolis

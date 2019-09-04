@@ -1,4 +1,6 @@
 laborers = { #unskilled laborers who work in mining and the like
+	color = { 160 160 160 }
+
 	holding_types += village
 	holding_types += town
 	holding_types += city

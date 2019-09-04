@@ -1,4 +1,6 @@
 soldiers = {
+	color = { 0 106 167 }
+
 	holding_types += village
 	holding_types += town
 	holding_types += city

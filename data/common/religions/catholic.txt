@@ -1,2 +1,3 @@
 catholic = {
+	color = { 236 236 236 }
 }

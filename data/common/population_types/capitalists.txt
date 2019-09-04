@@ -1,4 +1,6 @@
 capitalists = {
+	color = { 226 64 30 }
+
 	holding_types += city
 	holding_types += metropolis
 }

@@ -1,4 +1,6 @@
 clergymen = {
+	color = { 218 18 26 }
+
 	holding_types += village
 	holding_types += town
 	holding_types += city

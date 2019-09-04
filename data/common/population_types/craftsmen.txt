@@ -1,4 +1,6 @@
 craftsmen = { #urban factory workers
+	color = { 206 17 36 }
+
 	holding_types += town
 	holding_types += city
 	holding_types += metropolis
