@@ -16,7 +16,6 @@ k_hanover = {
 }
 
 k_prussia = {
-	de_jure_liege_title = e_germany #should not be a part of e_germany, as that represents the German Confederation, and Prussia itself wasn't a part of it
 	color = { 0 49 83 }
 	capital_province = p_pomerania #should be Brandenburg instead
 }
