@@ -1,0 +1,3 @@
+r_brazil = {
+	provinces += p_rio_de_janeiro
+}
