@@ -123,183 +123,30 @@ Item {
 		}
 	}
 
-	ChartView {
+	PopulationTypeChart {
 		id: population_type_chart
 		anchors.top: population_capacity_area.bottom
 		anchors.topMargin: 16
 		anchors.left: parent.left
 		anchors.leftMargin: 32
-		width: 64
-		height: 64
-		margins.top: 2
-		margins.bottom: 2
-		margins.left: 2
-		margins.right: 2
-		legend.visible: false
-		backgroundColor: holding_background.color
-		antialiasing: true
-		ToolTip.delay: 1000
-
-		PieSeries {
-			id: population_type_pie_series
-			size: 0.95
-
-			onHovered: {
-				if (state == true) {
-					population_type_chart.ToolTip.text = "<font color=\"white\">" + slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)</font>"
-					population_type_chart.ToolTip.visible = true
-				} else {
-					population_type_chart.ToolTip.visible = false
-				}
-			}
-		}
-
-		function update_population_type_chart() {
-			population_type_pie_series.clear()
-
-			if (Metternich.selected_holding === null) {
-				return
-			}
-
-			var population_per_type = Metternich.selected_holding.get_population_per_type()
-			for (var i = 0; i < population_per_type.length; i++) {
-				var type = population_per_type[i].type
-				var population = population_per_type[i].population
-				var pie_slice = population_type_pie_series.append(type.name, population)
-				//pie_slice.color = type.color
-				pie_slice.borderColor = "black"
-			}
-		}
-
-		Connections {
-			target: Metternich.selected_holding
-			ignoreUnknownSignals: true //as there may be no selected holding
-			onPopulationProportionsChanged: population_type_chart.update_population_type_chart()
-		}
-
-		Connections {
-			target: Metternich
-			onSelectedHoldingChanged: population_type_chart.update_population_type_chart()
-		}
+		dataSource: Metternich.selected_holding
 	}
 
-	ChartView {
+	CultureChart {
 		id: culture_chart
 		anchors.top: population_capacity_area.bottom
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
-		width: 64
-		height: 64
-		margins.top: 2
-		margins.bottom: 2
-		margins.left: 2
-		margins.right: 2
-		legend.visible: false
-		backgroundColor: holding_background.color
-		antialiasing: true
-		ToolTip.delay: 1000
-
-		PieSeries {
-			id: culture_pie_series
-			size: 0.95
-
-			onHovered: {
-				if (state == true) {
-					culture_chart.ToolTip.text = "<font color=\"white\">" + slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)</font>"
-					culture_chart.ToolTip.visible = true
-				} else {
-					culture_chart.ToolTip.visible = false
-				}
-			}
-		}
-
-		function update_culture_chart() {
-			culture_pie_series.clear()
-
-			if (Metternich.selected_holding === null) {
-				return
-			}
-
-			var population_per_culture = Metternich.selected_holding.get_population_per_culture()
-			for (var i = 0; i < population_per_culture.length; i++) {
-				var culture = population_per_culture[i].culture
-				var population = population_per_culture[i].population
-				var pie_slice = culture_pie_series.append(culture.name, population)
-				pie_slice.color = culture.color
-				pie_slice.borderColor = "black"
-			}
-		}
-
-		Connections {
-			target: Metternich.selected_holding
-			ignoreUnknownSignals: true //as there may be no selected holding
-			onPopulationProportionsChanged: culture_chart.update_culture_chart()
-		}
-
-		Connections {
-			target: Metternich
-			onSelectedHoldingChanged: culture_chart.update_culture_chart()
-		}
+		dataSource: Metternich.selected_holding
 	}
 
-	ChartView {
+	ReligionChart {
 		id: religion_chart
 		anchors.top: population_capacity_area.bottom
 		anchors.topMargin: 16
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		width: 64
-		height: 64
-		margins.top: 2
-		margins.bottom: 2
-		margins.left: 2
-		margins.right: 2
-		legend.visible: false
-		backgroundColor: holding_background.color
-		antialiasing: true
-		ToolTip.delay: 1000
-
-		PieSeries {
-			id: religion_pie_series
-			size: 0.95
-
-			onHovered: {
-				if (state == true) {
-					religion_chart.ToolTip.text = "<font color=\"white\">" + slice.label + " (" + (slice.percentage * 100).toFixed(2) + "%)</font>"
-					religion_chart.ToolTip.visible = true
-				} else {
-					religion_chart.ToolTip.visible = false
-				}
-			}
-		}
-
-		function update_religion_chart() {
-			religion_pie_series.clear()
-
-			if (Metternich.selected_holding === null) {
-				return
-			}
-
-			var population_per_religion = Metternich.selected_holding.get_population_per_religion()
-			for (var i = 0; i < population_per_religion.length; i++) {
-				var religion = population_per_religion[i].religion
-				var population = population_per_religion[i].population
-				var pie_slice = religion_pie_series.append(religion.name, population)
-				//pie_slice.color = religion.color
-				pie_slice.borderColor = "black"
-			}
-		}
-
-		Connections {
-			target: Metternich.selected_holding
-			ignoreUnknownSignals: true //as there may be no selected holding
-			onPopulationProportionsChanged: religion_chart.update_religion_chart()
-		}
-
-		Connections {
-			target: Metternich
-			onSelectedHoldingChanged: religion_chart.update_religion_chart()
-		}
+		dataSource: Metternich.selected_holding
 	}
 
 	BuildingInterface {
