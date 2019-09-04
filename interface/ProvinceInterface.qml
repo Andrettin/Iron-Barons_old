@@ -14,6 +14,7 @@ Item {
 
 	MouseArea {
 		anchors.fill: parent
+		hoverEnabled: true
 		//prevent events from propagating below
 	}
 
@@ -39,14 +40,40 @@ Item {
 		imageHeight: 128
 	}
 
+	PopulationTypeChart {
+		id: population_type_chart
+		anchors.top: capital_holding.bottom
+		anchors.topMargin: 4
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		dataSource: Metternich.selected_province
+	}
+
+	CultureChart {
+		id: culture_chart
+		anchors.top: capital_holding.bottom
+		anchors.topMargin: 4
+		anchors.horizontalCenter: parent.horizontalCenter
+		dataSource: Metternich.selected_province
+	}
+
+	ReligionChart {
+		id: religion_chart
+		anchors.top: capital_holding.bottom
+		anchors.topMargin: 4
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		dataSource: Metternich.selected_province
+	}
+
 	Item {
 		id: empire_area
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: capital_holding.bottom
-		anchors.topMargin: 48
+		anchors.top: culture_chart.bottom
+		anchors.topMargin: 16
 		visible: Metternich.selected_province && Metternich.selected_province.empire
 
 		Text {
@@ -136,82 +163,12 @@ Item {
 	}
 
 	Item {
-		id: culture_area
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: duchy_area.bottom
-		anchors.topMargin: 16
-
-		Text {
-			id: culture_label
-			text: qsTr("Culture")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		Text {
-			id: province_culture
-			text: Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) : ""
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-
-			MouseArea {
-				anchors.fill: parent
-				hoverEnabled: true
-				ToolTip.text: tooltip(Metternich.selected_province ? qsTr(Metternich.selected_province.culture.identifier) + " (" + qsTr(Metternich.selected_province.culture.culture_group.identifier) + ")" : "")
-				ToolTip.visible: containsMouse
-				ToolTip.delay: 1000
-			}
-		}
-	}
-
-	Item {
-		id: religion_area
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: culture_area.bottom
-		anchors.topMargin: 16
-
-		Text {
-			id: religion_label
-			text: qsTr("Religion")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		Text {
-			id: province_religion
-			text: Metternich.selected_province ? qsTr(Metternich.selected_province.religion.identifier) : ""
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-		}
-	}
-
-	Item {
 		id: population_area
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: religion_area.bottom
+		anchors.top: duchy_area.bottom
 		anchors.topMargin: 16
 
 		Text {
