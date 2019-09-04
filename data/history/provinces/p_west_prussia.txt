@@ -10,4 +10,9 @@ religion = catholic
 	b_marienwerder = town #Marienwerder existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = b_danzig
+	
+	b_danzig = {
+		culture = german
+		religion = protestant
+	}
 }

@@ -8,4 +8,12 @@ religion = catholic
 	b_bruck_styria = town #Bruck was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = b_graz
+	
+	b_cilli = {
+		culture = slovene
+	}
+	
+	b_marburg = {
+		culture = slovene
+	}
 }
