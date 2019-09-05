@@ -1,4 +1,14 @@
+p_arlon = {
+	county = c_arlon
+	color = { 190 160 229 }
+}
+
 p_belgium = {
 	county = c_belgium
 	color = { 95 134 74 }
+}
+
+p_luxembourg = {
+	county = c_luxembourg
+	color = { 217 202 129 }
 }

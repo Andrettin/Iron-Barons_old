@@ -16,4 +16,6 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_netherlands
 	provinces += p_limburg
 	provinces += p_belgium
+	provinces += p_arlon
+	provinces += p_luxembourg
 }
