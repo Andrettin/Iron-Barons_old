@@ -1,0 +1,8 @@
+b_antwerp = "Antwerp"
+b_bruges = "Bruges"
+b_brussels = "Brussels"
+b_ghent = "Ghent"
+b_liege = "Liége"
+b_mons = "Mons"
+b_namur = "Namur"
+b_ostend = "Ostend"

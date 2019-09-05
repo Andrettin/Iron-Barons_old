@@ -1,0 +1,4 @@
+p_belgium = {
+	county = c_belgium
+	color = { 95 134 74 }
+}

@@ -13,6 +13,7 @@
 /graphics/flags/e_france.svg (by Skopp, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/e_russia.svg (by Zscout370, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/e_scandinavia.svg (by E70 and ThrashedParanoid, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/k_belgium.svg (by Dbenbenn, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_denmark.svg (by Madden, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_brazil.svg (by Jsobral, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_castille.svg (by drini, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 1.0, the CC-BY-SA 2.0, the CC-BY-SA 2.5 and the GFDL)

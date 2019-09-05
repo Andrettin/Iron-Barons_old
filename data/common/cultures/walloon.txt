@@ -1,0 +1,12 @@
+walloon = {
+	culture_group = french
+	color = { 250 224 66 }
+	
+	male_names = {
+		Charles
+	}
+	
+	female_names = {
+		Anne Marie
+	}
+}

@@ -1,0 +1,47 @@
+k_belgium = {
+	color = { 250 224 66 }
+	capital_province = p_belgium
+}
+
+d_belgium = {
+	de_jure_liege_title = k_belgium
+	color = { 250 224 66 }
+	capital_province = p_belgium
+}
+
+c_belgium = {
+	de_jure_liege_title = d_belgium
+	color = { 250 224 66 }
+}
+
+b_antwerp = {
+	de_jure_liege_title = c_belgium
+}
+
+b_bruges = {
+	de_jure_liege_title = c_belgium
+}
+
+b_brussels = {
+	de_jure_liege_title = c_belgium
+}
+
+b_ghent = {
+	de_jure_liege_title = c_belgium
+}
+
+b_liege = {
+	de_jure_liege_title = c_belgium
+}
+
+b_mons = {
+	de_jure_liege_title = c_belgium
+}
+
+b_namur = {
+	de_jure_liege_title = c_belgium
+}
+
+b_ostend = {
+	de_jure_liege_title = c_belgium
+}

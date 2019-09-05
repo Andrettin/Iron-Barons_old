@@ -1,3 +1,4 @@
+c_belgium = "Belgium"
 c_carinthia = "Carinthia"
 c_carinthia_german = "Kärnten"
 c_carniola = "Carniola"
