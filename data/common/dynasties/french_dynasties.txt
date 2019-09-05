@@ -14,6 +14,10 @@ de_bourbon_orleans = {
 	culture = french
 }
 
+de_bourgogne = {
+	culture = french
+}
+
 de_la_ville_sur_illon = {
 	culture = french
 }

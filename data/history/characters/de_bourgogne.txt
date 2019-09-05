@@ -1,0 +1,33 @@
+10000387 = { #Charles I of Burgundy; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 247.
+	name = "Charles"
+	dynasty = de_bourgogne
+	culture = french
+	religion = catholic
+	#give_nickname = nick_the_bold
+	1433.1.1 = { #born in 1433
+		birth = yes
+	}
+	#duke of Burgundy and Luxembourg
+	1457.1.1 = { #marriage date unknown, this is the year their earliest known child was born
+		spouse = 10000388 #Isabelle de Bourbon
+	}
+	1477.1.1 = { #died in 1477
+		death = yes
+	}
+}
+
+10000389 = { #Marie de Bourgogne; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 247.
+	name = "Marie"
+	dynasty = de_bourgogne
+	culture = french
+	religion = catholic
+	female = yes
+	father = 10000387 #Charles I of Burgundy
+	mother = 10000388 #Isabelle de Bourbon
+	1457.1.1 = { #born in 1457
+		birth = yes
+	}
+	1482.1.1 = { #died in 1482
+		death = yes
+	}
+}

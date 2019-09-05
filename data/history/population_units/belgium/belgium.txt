@@ -1,0 +1,25 @@
+laborers = {
+	region = r_belgium
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1.1.1 = {
+		size = 300000 #Belgium had a population of 300,000 in 1 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1000.1.1 = {
+		size = 400000 #Belgium had a population of 400,000 in 1000 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1500.1.1 = {
+		size = 1400000 #Belgium had a population of 1,400,000 in 1500 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1600.1.1 = {
+		size = 1600000 #Belgium had a population of 1,600,000 in 1600 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1700.1.1 = {
+		size = 2000000 #Belgium had a population of 2,000,000 in 1600 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+}

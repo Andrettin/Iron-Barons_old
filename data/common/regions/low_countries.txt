@@ -5,4 +5,5 @@ r_netherlands = {
 
 r_belgium = {
 	provinces += p_belgium
+	provinces += p_arlon
 }
