@@ -20,7 +20,7 @@ Item {
 			rowSpacing: 0
 
 			Repeater {
-				model: Metternich.selected_holding ? Metternich.selected_holding.available_buildings : []
+				model: metternich.selected_holding ? metternich.selected_holding.available_buildings : []
 
 				Item {
 					width: building_area.width
@@ -33,11 +33,11 @@ Item {
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"
-						font.bold: Metternich.selected_holding.buildings.includes(model.modelData)
+						font.bold: metternich.selected_holding.buildings.includes(model.modelData)
 					}
 
 					Button {
-						visible: Metternich.game.player_character.can_build_in_holding(Metternich.selected_holding) && Metternich.selected_holding.under_construction_building === null && !Metternich.selected_holding.buildings.includes(model.modelData)
+						visible: metternich.game.player_character.can_build_in_holding(metternich.selected_holding) && metternich.selected_holding.under_construction_building === null && !metternich.selected_holding.buildings.includes(model.modelData)
 						anchors.top: parent.top
 						anchors.topMargin: 1
 						anchors.bottom: parent.bottom
@@ -47,12 +47,12 @@ Item {
 						text: "<font color=\"black\">Build</font>"
 						font.pixelSize: 12
 						font.family: "tahoma"
-						onClicked: Metternich.selected_holding.order_construction(model.modelData)
+						onClicked: metternich.selected_holding.order_construction(model.modelData)
 					}
 
 					Text {
-						text: "Under Construction (" + Metternich.selected_holding.construction_days + " days)"
-						visible: Metternich.selected_holding.under_construction_building === model.modelData
+						text: "Under Construction (" + metternich.selected_holding.construction_days + " days)"
+						visible: metternich.selected_holding.under_construction_building === model.modelData
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
 						color: "black"
@@ -62,7 +62,7 @@ Item {
 
 					Text {
 						text: "Built"
-						visible: Metternich.selected_holding.buildings.includes(model.modelData)
+						visible: metternich.selected_holding.buildings.includes(model.modelData)
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
 						color: "black"

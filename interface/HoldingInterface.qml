@@ -20,7 +20,7 @@ Item {
 
 	Text {
 		id: holding_name
-		text: Metternich.selected_holding ? Metternich.selected_holding.name : ""
+		text: metternich.selected_holding ? metternich.selected_holding.name : ""
 		anchors.top: parent.top
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -51,7 +51,7 @@ Item {
 
 		Text {
 			id: holding_population
-			text: Metternich.selected_holding ? Metternich.selected_holding.population : ""
+			text: metternich.selected_holding ? metternich.selected_holding.population : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -82,7 +82,7 @@ Item {
 
 		Text {
 			id: holding_population_growth
-			text: Metternich.selected_holding ? (centesimal(Metternich.selected_holding.population_growth) + "%") : ""
+			text: metternich.selected_holding ? (centesimal(metternich.selected_holding.population_growth) + "%") : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -113,7 +113,7 @@ Item {
 
 		Text {
 			id: holding_population_capacity
-			text: Metternich.selected_holding ? Metternich.selected_holding.population_capacity : ""
+			text: metternich.selected_holding ? metternich.selected_holding.population_capacity : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -129,7 +129,7 @@ Item {
 		anchors.topMargin: 16
 		anchors.left: parent.left
 		anchors.leftMargin: 32
-		dataSource: Metternich.selected_holding
+		dataSource: metternich.selected_holding
 	}
 
 	CultureChart {
@@ -137,7 +137,7 @@ Item {
 		anchors.top: population_capacity_area.bottom
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
-		dataSource: Metternich.selected_holding
+		dataSource: metternich.selected_holding
 	}
 
 	ReligionChart {
@@ -146,7 +146,7 @@ Item {
 		anchors.topMargin: 16
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		dataSource: Metternich.selected_holding
+		dataSource: metternich.selected_holding
 	}
 
 	BuildingInterface {
@@ -217,6 +217,6 @@ Item {
 		width: 80
 		height: 32
 		font.pixelSize: 12
-		onClicked: Metternich.selected_holding.selected = false
+		onClicked: metternich.selected_holding.selected = false
 	}
 }

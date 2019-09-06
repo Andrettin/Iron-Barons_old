@@ -46,14 +46,14 @@ Window {
 	}
 
 	Connections {
-		target: Metternich.game
+		target: metternich.game
 		onRunningChanged: start_game()
 	}
 
 	Text {
 		id: loading_message
-		visible: !Metternich.game.running
-		text: Metternich.loading_message
+		visible: !metternich.game.running
+		text: metternich.loading_message
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		color: "black"

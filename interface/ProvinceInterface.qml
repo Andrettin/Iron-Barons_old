@@ -20,7 +20,7 @@ Item {
 
 	Text {
 		id: province_name
-		text: Metternich.selected_province ? Metternich.selected_province.name : ""
+		text: metternich.selected_province ? metternich.selected_province.name : ""
 		anchors.top: parent.top
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -35,7 +35,7 @@ Item {
 		anchors.top: parent.top
 		anchors.topMargin: 48
 		anchors.horizontalCenter: parent.horizontalCenter
-		holding: Metternich.selected_province ? Metternich.selected_province.capital_holding : null
+		holding: metternich.selected_province ? metternich.selected_province.capital_holding : null
 		imageWidth: 128
 		imageHeight: 128
 	}
@@ -46,7 +46,7 @@ Item {
 		anchors.topMargin: 4
 		anchors.left: parent.left
 		anchors.leftMargin: 32
-		dataSource: Metternich.selected_province
+		dataSource: metternich.selected_province
 	}
 
 	CultureChart {
@@ -54,7 +54,7 @@ Item {
 		anchors.top: capital_holding.bottom
 		anchors.topMargin: 4
 		anchors.horizontalCenter: parent.horizontalCenter
-		dataSource: Metternich.selected_province
+		dataSource: metternich.selected_province
 	}
 
 	ReligionChart {
@@ -63,7 +63,7 @@ Item {
 		anchors.topMargin: 4
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		dataSource: Metternich.selected_province
+		dataSource: metternich.selected_province
 	}
 
 	Item {
@@ -74,7 +74,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: culture_chart.bottom
 		anchors.topMargin: 16
-		visible: Metternich.selected_province && Metternich.selected_province.empire
+		visible: metternich.selected_province && metternich.selected_province.empire
 
 		Text {
 			id: de_jure_empire_label
@@ -88,7 +88,7 @@ Item {
 
 		Text {
 			id: province_de_jure_empire
-			text: Metternich.selected_province && Metternich.selected_province.empire ? Metternich.selected_province.empire.name : ""
+			text: metternich.selected_province && metternich.selected_province.empire ? metternich.selected_province.empire.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -106,7 +106,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: empire_area.bottom
 		anchors.topMargin: 16
-		visible: Metternich.selected_province && Metternich.selected_province.kingdom
+		visible: metternich.selected_province && metternich.selected_province.kingdom
 
 		Text {
 			id: de_jure_kingdom_label
@@ -120,7 +120,7 @@ Item {
 
 		Text {
 			id: province_de_jure_kingdom
-			text: Metternich.selected_province && Metternich.selected_province.kingdom ? Metternich.selected_province.kingdom.name : ""
+			text: metternich.selected_province && metternich.selected_province.kingdom ? metternich.selected_province.kingdom.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -138,7 +138,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: kingdom_area.bottom
 		anchors.topMargin: 16
-		visible: Metternich.selected_province && Metternich.selected_province.duchy
+		visible: metternich.selected_province && metternich.selected_province.duchy
 
 		Text {
 			id: de_jure_duchy_label
@@ -152,7 +152,7 @@ Item {
 
 		Text {
 			id: province_de_jure_duchy
-			text: Metternich.selected_province && Metternich.selected_province.duchy ? Metternich.selected_province.duchy.name : ""
+			text: metternich.selected_province && metternich.selected_province.duchy ? metternich.selected_province.duchy.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -183,7 +183,7 @@ Item {
 
 		Text {
 			id: province_population
-			text: Metternich.selected_province ? Metternich.selected_province.population : ""
+			text: metternich.selected_province ? metternich.selected_province.population : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -214,7 +214,7 @@ Item {
 
 		Text {
 			id: province_terrain
-			text: Metternich.selected_province ? Metternich.selected_province.terrain.name : ""
+			text: metternich.selected_province ? metternich.selected_province.terrain.name : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -317,10 +317,10 @@ Item {
 				rowSpacing: 1
 
 				Repeater {
-					model: Metternich.selected_province ? Metternich.selected_province.holdings : []
+					model: metternich.selected_province ? metternich.selected_province.holdings : []
 
 					Holding {
-						visible: model.modelData !== Metternich.selected_province.capital_holding
+						visible: model.modelData !== metternich.selected_province.capital_holding
 						holding: model.modelData
 					}
 				}
@@ -329,6 +329,6 @@ Item {
 	}
 
 	HoldingInterface {
-		visible: Metternich.selected_holding !== null
+		visible: metternich.selected_holding !== null
 	}
 }

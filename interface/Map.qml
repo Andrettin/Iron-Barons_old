@@ -28,17 +28,17 @@ Item {
 		MouseArea {
 			anchors.fill: parent
 			onClicked: {
-				if (Metternich.selected_province) {
-					Metternich.selected_province.selected = false
+				if (metternich.selected_province) {
+					metternich.selected_province.selected = false
 				}
-				if (Metternich.selected_holding) {
-					Metternich.selected_holding.selected = false
+				if (metternich.selected_holding) {
+					metternich.selected_holding.selected = false
 				}
 			}
 		}
 
 		Repeater {
-			model: Metternich.provinces
+			model: metternich.provinces
 			Image {
 				x: model.modelData.rect.x
 				y: model.modelData.rect.y
@@ -64,13 +64,13 @@ Item {
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 					onClicked: {
-						if (Metternich.selected_holding) {
-							Metternich.selected_holding.selected = false
+						if (metternich.selected_holding) {
+							metternich.selected_holding.selected = false
 						}
 						if (model.modelData.selectable) {
 							model.modelData.selected = true
-						} else if (Metternich.selected_province) {
-							Metternich.selected_province.selected = false
+						} else if (metternich.selected_province) {
+							metternich.selected_province.selected = false
 						}
 					}
 				}

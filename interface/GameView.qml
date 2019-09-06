@@ -81,7 +81,7 @@ Item {
 
 			Text {
 				id: player_character_label
-				text: Metternich.game.player_character.titled_name
+				text: metternich.game.player_character.titled_name
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
 				anchors.leftMargin: 8
@@ -113,7 +113,7 @@ Item {
 
 			Text {
 				id: wealth_label
-				text: "Wealth: " + centesimal(Metternich.game.player_character.wealth)
+				text: "Wealth: " + centesimal(metternich.game.player_character.wealth)
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
 				anchors.leftMargin: 32
@@ -132,7 +132,7 @@ Item {
 
 			Text {
 				id: date
-				text: Metternich.game.current_date_string
+				text: metternich.game.current_date_string
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.right: parent.right
 				anchors.rightMargin: 28
@@ -147,7 +147,7 @@ Item {
 		id: province_interface
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
-		visible: Metternich.selected_province !== null
+		visible: metternich.selected_province !== null
 	}
 
 	MouseArea {

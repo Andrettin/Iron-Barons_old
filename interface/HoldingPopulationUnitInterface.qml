@@ -20,7 +20,7 @@ Item {
 			rowSpacing: 0
 
 			Repeater {
-				model: Metternich.selected_holding ? Metternich.selected_holding.population_units : []
+				model: metternich.selected_holding ? metternich.selected_holding.population_units : []
 
 				Item {
 					width: population_unit_area.width
