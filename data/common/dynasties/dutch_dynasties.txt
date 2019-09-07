@@ -1,5 +1,5 @@
 van_merode_westerloo = {
-	culture = dutch
+	culture = flemish
 }
 
 van_oranje_nassau = {

@@ -12,4 +12,24 @@ religion = catholic
 	b_ostend = town #Ostend existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = b_brussels
+	
+	b_antwerp = {
+		culture = flemish
+	}
+	
+	b_bruges = {
+		culture = flemish
+	}
+	
+	b_brussels = {
+		culture = flemish
+	}
+	
+	b_ghent = {
+		culture = flemish
+	}
+	
+	b_ostend = {
+		culture = flemish
+	}
 }

@@ -1,0 +1,4 @@
+flemish = {
+	culture_group = dutch
+	color = { 226 141 104 }
+}

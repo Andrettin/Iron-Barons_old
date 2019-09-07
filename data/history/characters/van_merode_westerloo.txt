@@ -1,7 +1,7 @@
 10000711 = { #Louise Juliana Constantie van Merode-Westerloo; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Louise Juliana Constantie"
 	dynasty = van_merode_westerloo
-	culture = dutch
+	culture = flemish
 	religion = catholic
 	female = yes
 	1754.1.1 = { #unknown, set to 20 years before the birth of her daughter

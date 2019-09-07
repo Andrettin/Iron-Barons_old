@@ -1,2 +1,9 @@
 french = {
+	male_names = {
+		Charles
+	}
+	
+	female_names = {
+		Anne Marie
+	}
 }
