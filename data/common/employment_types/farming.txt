@@ -1,0 +1,23 @@
+farming_template = {
+	owners = {
+		gentlemen = {
+			output_modifier = 1.0 #the output modifier if the amount of people belonging to this population type in the employment location (the holding in the case of farming, but the province in certain other cases, e.g. for employment provided by extra holdings) is proportional to the workforce as per proportion_to_workforce (in this case if there are 100 gentlemen in a holding with 10000 working farmers, they will grant a 1% output modifier)
+			proportion_to_workforce = 0.01
+		}
+	}
+	
+	employees = {
+		farmers = {
+			efficiency = 1.0
+			workforce_proportion = 1.0
+		}
+	}
+	
+	workforce = 10000 #base workforce number; output value is in relation to this number
+}
+
+grain_farming = {
+	template = farming_template
+	output_commodity = grain
+	output_value = 1
+}

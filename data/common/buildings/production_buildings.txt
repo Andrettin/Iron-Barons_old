@@ -1,0 +1,31 @@
+grain_farm = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = grain_farming
+	workforce = 100000
+	
+	preconditions = {
+		commodity = grain
+	}
+}
+
+coal_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = coal_mining
+	workforce = 100000
+	
+	preconditions = {
+		commodity = coal
+	}
+}

@@ -1,0 +1,26 @@
+mining_template = {
+	owners = {
+		capitalists = {
+			output_modifier = 1.0
+		}
+		
+		gentlemen = {
+			output_modifier = 1.0
+		}
+	}
+	
+	employees = {
+		laborers = {
+			efficiency = 1.0
+			workforce_proportion = 1.0
+		}
+	}
+	
+	workforce = 10000
+}
+
+coal_mining = {
+	template = mining_template
+	output_commodity = coal
+	output_value = 1
+}
