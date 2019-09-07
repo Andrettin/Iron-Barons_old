@@ -24,3 +24,21 @@ coal_mining = {
 	output_commodity = coal
 	output_value = 1
 }
+
+iron_mining = {
+	template = mining_template
+	output_commodity = iron
+	output_value = 1
+}
+
+salt_mining = {
+	template = mining_template
+	output_commodity = salt
+	output_value = 1
+}
+
+stone_quarrying = {
+	template = mining_template
+	output_commodity = stone
+	output_value = 1
+}

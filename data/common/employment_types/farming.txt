@@ -16,8 +16,32 @@ farming_template = {
 	workforce = 10000 #base workforce number; output value is in relation to this number
 }
 
+cattle_ranching = {
+	template = farming_template
+	output_commodity = cattle
+	output_value = 1
+}
+
+cotton_planting = {
+	template = farming_template
+	output_commodity = cotton
+	output_value = 1
+}
+
+fruit_growing = {
+	template = farming_template
+	output_commodity = fruit
+	output_value = 1
+}
+
 grain_farming = {
 	template = farming_template
 	output_commodity = grain
+	output_value = 1
+}
+
+sheep_ranching = {
+	template = farming_template
+	output_commodity = wool
 	output_value = 1
 }

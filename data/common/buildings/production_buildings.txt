@@ -1,4 +1,4 @@
-grain_farm = {
+cattle_ranch = {
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -6,11 +6,11 @@ grain_farm = {
 	holding_types += manor
 	holding_types += monastery
 	construction_days = 365
-	employment_type = grain_farming
+	employment_type = cattle_ranching
 	workforce = 100000
 	
 	preconditions = {
-		commodity = grain
+		commodity = cattle
 	}
 }
 
@@ -27,5 +27,117 @@ coal_mine = {
 	
 	preconditions = {
 		commodity = coal
+	}
+}
+
+cotton_plantation = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = cotton_planting
+	workforce = 100000
+	
+	preconditions = {
+		commodity = cotton
+	}
+}
+
+grain_farm = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = grain_farming
+	workforce = 100000
+	
+	preconditions = {
+		commodity = grain
+	}
+}
+
+iron_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = iron_mining
+	workforce = 100000
+	
+	preconditions = {
+		commodity = iron
+	}
+}
+
+orchard = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = fruit_growing
+	workforce = 100000
+	
+	preconditions = {
+		commodity = fruit
+	}
+}
+
+salt_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = salt_mining
+	workforce = 100000
+	
+	preconditions = {
+		commodity = salt
+	}
+}
+
+sheep_ranch = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = sheep_ranching
+	workforce = 100000
+	
+	preconditions = {
+		commodity = wool
+	}
+}
+
+stone_quarry = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = stone_quarrying
+	workforce = 100000
+	
+	preconditions = {
+		commodity = stone
 	}
 }
