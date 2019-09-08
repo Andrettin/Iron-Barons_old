@@ -40,7 +40,7 @@ ChartView {
 			return
 		}
 
-		var population_per_type = population_type_chart.dataSource.get_population_per_type()
+		var population_per_type = population_type_chart.dataSource.get_population_per_type_qvariant_list()
 		for (var i = 0; i < population_per_type.length; i++) {
 			var type = population_per_type[i].type
 			var population = population_per_type[i].population
@@ -53,6 +53,6 @@ ChartView {
 	Connections {
 		target: population_type_chart.dataSource
 		ignoreUnknownSignals: true //as there may be no selected holding
-		onPopulationGroupsChanged: population_type_chart.update_chart()
+		onPopulation_groups_changed: population_type_chart.update_chart()
 	}
 }

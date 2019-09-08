@@ -40,7 +40,7 @@ ChartView {
 			return
 		}
 
-		var population_per_culture = culture_chart.dataSource.get_population_per_culture()
+		var population_per_culture = culture_chart.dataSource.get_population_per_culture_qvariant_list()
 		for (var i = 0; i < population_per_culture.length; i++) {
 			var culture = population_per_culture[i].culture
 			var population = population_per_culture[i].population
@@ -53,6 +53,6 @@ ChartView {
 	Connections {
 		target: culture_chart.dataSource
 		ignoreUnknownSignals: true //as there may be no selected holding
-		onPopulationGroupsChanged: culture_chart.update_chart()
+		onPopulation_groups_changed: culture_chart.update_chart()
 	}
 }

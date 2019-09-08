@@ -40,7 +40,7 @@ ChartView {
 			return
 		}
 
-		var population_per_religion = religion_chart.dataSource.get_population_per_religion()
+		var population_per_religion = religion_chart.dataSource.get_population_per_religion_qvariant_list()
 		for (var i = 0; i < population_per_religion.length; i++) {
 			var religion = population_per_religion[i].religion
 			var population = population_per_religion[i].population
@@ -53,6 +53,6 @@ ChartView {
 	Connections {
 		target: religion_chart.dataSource
 		ignoreUnknownSignals: true //as there may be no selected holding
-		onPopulationGroupsChanged: religion_chart.update_chart()
+		onPopulation_groups_changed: religion_chart.update_chart()
 	}
 }
