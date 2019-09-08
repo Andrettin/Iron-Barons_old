@@ -1,7 +1,10 @@
 amber = {
+	base_price = 4.0
 }
 
 cattle = {
+	base_price = 1.0
+
 	chance = {
 		factor = 10
 		
@@ -13,6 +16,8 @@ cattle = {
 }
 
 coal = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 1
 		
@@ -27,6 +32,8 @@ coal = {
 }
 
 copper = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 1
 		
@@ -41,6 +48,8 @@ copper = {
 }
 
 cotton = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 5
 		
@@ -52,6 +61,8 @@ cotton = {
 }
 
 fish = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 10
 		
@@ -63,6 +74,8 @@ fish = {
 }
 
 fruit = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 10
 		
@@ -74,6 +87,8 @@ fruit = {
 }
 
 gold = {
+	base_price = 8.0
+	
 	chance = {
 		factor = 0.1
 		
@@ -88,6 +103,8 @@ gold = {
 }
 
 grain = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 10
 		
@@ -104,6 +121,8 @@ grain = {
 }
 
 iron = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 1
 		
@@ -118,18 +137,24 @@ iron = {
 }
 
 salt = {
+	base_price = 2.0
+	
 	chance = {
 		factor = 1
 	}
 }
 
 silk = {
+	base_price = 2.0
+	
 	chance = {
 		factor = 1
 	}
 }
 
 silver = {
+	base_price = 4.0
+	
 	chance = {
 		factor = 0.25
 		
@@ -144,6 +169,8 @@ silver = {
 }
 
 stone = {
+	base_price = 2.0
+	
 	chance = {
 		factor = 3
 		
@@ -158,6 +185,8 @@ stone = {
 }
 
 timber = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 10
 		
@@ -169,6 +198,8 @@ timber = {
 }
 
 wool = {
+	base_price = 1.0
+	
 	chance = {
 		factor = 5
 		

@@ -1,14 +1,19 @@
 fabric = {
+	base_price = 2.0
 }
 
 glass = {
+	base_price = 2.0
 }
 
 leather = {
+	base_price = 2.0
 }
 
 lumber = {
+	base_price = 2.0
 }
 
 paper = {
+	base_price = 2.0
 }
