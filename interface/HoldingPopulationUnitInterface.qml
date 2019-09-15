@@ -64,6 +64,14 @@ Item {
 						font.pixelSize: 12
 						font.family: "tahoma"
 					}
+
+					MouseArea {
+						anchors.fill: parent
+						hoverEnabled: true
+						ToolTip.text: tooltip(model.modelData.type.name + "<br><br>Culture: " + model.modelData.culture.name + "<br>Religion: " + model.modelData.religion.name + "<br>Size: " + model.modelData.size + "<br>Wealth: " + centesimal(model.modelData.wealth))
+						ToolTip.visible: containsMouse
+						ToolTip.delay: 1000
+					}
 				}
 			}
 		}
