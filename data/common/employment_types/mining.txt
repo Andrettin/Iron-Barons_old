@@ -14,6 +14,11 @@ mining_template = {
 			efficiency = 1.0
 			workforce_proportion = 1.0
 		}
+		
+		slaves = {
+			efficiency = 1.0
+			workforce_proportion = 1.0
+		}
 	}
 	
 	workforce = 10000
