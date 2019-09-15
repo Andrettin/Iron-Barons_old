@@ -20,6 +20,12 @@ k_prussia = {
 	capital_province = p_pomerania #should be Brandenburg instead
 }
 
+d_brunswick = {
+	de_jure_liege_title = k_germany
+	color = { 0 0 204 }
+	capital_province = p_brunswick
+}
+
 d_luneburg = {
 	de_jure_liege_title = k_hanover
 	color = { 206 15 37 }
@@ -74,6 +80,11 @@ d_west_prussia = {
 	capital_province = p_west_prussia
 }
 
+c_brunswick = {
+	de_jure_liege_title = d_brunswick
+	color = { 0 0 204 }
+}
+
 c_hanover = {
 	de_jure_liege_title = d_luneburg
 	color = { 255 206 8 }
@@ -117,6 +128,10 @@ c_westphalia = {
 c_west_prussia = {
 	de_jure_liege_title = d_west_prussia
 	color = { 77 77 77 }
+}
+
+b_brunswick = {
+	de_jure_liege_title = c_brunswick
 }
 
 b_aurich = {

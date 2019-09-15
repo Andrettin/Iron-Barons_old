@@ -1,4 +1,6 @@
 d_belgium = "Belgium"
+d_brunswick = "Brunswick"
+d_brunswick_german = "Braunschweig"
 d_carinthia = "Carinthia"
 d_carinthia_german = "Kärnten"
 d_carniola = "Carniola"
