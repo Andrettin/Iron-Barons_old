@@ -62,6 +62,12 @@ d_strelitz = {
 	capital_province = p_strelitz
 }
 
+d_westphalia = {
+	de_jure_liege_title = k_germany
+	color = { 221 0 0 }
+	capital_province = p_westphalia
+}
+
 d_west_prussia = {
 	de_jure_liege_title = k_prussia
 	color = { 77 77 77 }
@@ -101,6 +107,11 @@ c_schwerin = {
 c_strelitz = {
 	de_jure_liege_title = d_strelitz
 	color = { 252 195 0 }
+}
+
+c_westphalia = {
+	de_jure_liege_title = d_westphalia
+	color = { 221 0 0 }
 }
 
 c_west_prussia = {
@@ -234,6 +245,42 @@ b_wismar = {
 
 b_strelitz = {
 	de_jure_liege_title = c_strelitz
+}
+
+b_arnsberg = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_dusseldorf = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_elberfeld = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_essen = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_lippstadt = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_minden = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_munster = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_siegen = {
+	de_jure_liege_title = c_westphalia
+}
+
+b_wesel = {
+	de_jure_liege_title = c_westphalia
 }
 
 b_danzig = {
