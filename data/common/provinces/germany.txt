@@ -1,3 +1,8 @@
+p_baden = {
+	county = c_baden
+	color = { 218 171 19 }
+}
+
 p_brunswick = {
 	county = c_brunswick
 	color = { 234 211 250 }

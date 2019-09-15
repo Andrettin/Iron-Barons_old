@@ -2,6 +2,7 @@
 /graphics/characters/european/base_old.png (by Jinn) (licensed under the CC0)
 /graphics/flags/b_arlon.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/b_rio_de_janeiro.svg (from the Wikimedia Commons) (in the public domain)
+/graphics/flags/d_baden.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_brunswick.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_holstein.svg (by Sir Iain, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_limburg.svg (from the Wikimedia Commons) (in the public domain)

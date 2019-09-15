@@ -20,6 +20,12 @@ k_prussia = {
 	capital_province = p_pomerania #should be Brandenburg instead
 }
 
+d_baden = {
+	de_jure_liege_title = k_germany
+	color = { 255 221 0 }
+	capital_province = p_baden
+}
+
 d_brunswick = {
 	de_jure_liege_title = k_germany
 	color = { 0 0 204 }
@@ -86,6 +92,11 @@ d_west_prussia = {
 	capital_province = p_west_prussia
 }
 
+c_baden = {
+	de_jure_liege_title = d_baden
+	color = { 255 221 0 }
+}
+
 c_brunswick = {
 	de_jure_liege_title = d_brunswick
 	color = { 0 0 204 }
@@ -139,6 +150,54 @@ c_westphalia = {
 c_west_prussia = {
 	de_jure_liege_title = d_west_prussia
 	color = { 77 77 77 }
+}
+
+b_carlsruhe = {
+	de_jure_liege_title = c_baden
+}
+
+b_dossenbach = {
+	de_jure_liege_title = c_baden
+}
+
+b_freiburg = {
+	de_jure_liege_title = c_baden
+}
+
+b_geroldseck = {
+	de_jure_liege_title = c_baden
+}
+
+b_heidelberg = {
+	de_jure_liege_title = c_baden
+}
+
+b_hundheim = {
+	de_jure_liege_title = c_baden
+}
+
+b_kandern = {
+	de_jure_liege_title = c_baden
+}
+
+b_mannheim = {
+	de_jure_liege_title = c_baden
+}
+
+b_offenburg = {
+	de_jure_liege_title = c_baden
+}
+
+b_rastatt = {
+	de_jure_liege_title = c_baden
+}
+
+b_tauberbischofsheim = {
+	de_jure_liege_title = c_baden
+}
+
+b_waghausel = {
+	de_jure_liege_title = c_baden
 }
 
 b_brunswick = {
