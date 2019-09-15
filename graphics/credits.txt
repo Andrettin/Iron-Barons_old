@@ -1,3 +1,5 @@
+/graphics/characters/european/base.png (by Jinn) (licensed under the CC0)
+/graphics/characters/european/base_old.png (by Jinn) (licensed under the CC0)
 /graphics/flags/b_arlon.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/b_rio_de_janeiro.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_brunswick.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
@@ -6,6 +8,7 @@
 /graphics/flags/d_lauenburg.svg (by Carport, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_luneburg.svg (by Oren neu dag, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/d_luxembourg.svg (by SKopp, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/d_nassau.svg (by Sebastian Walderich, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_oldenburg.svg (by Sir Iain, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_pomerania.svg (by Hanna Dąbrowska, Urząd Marszałkowski and Bastianow, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/d_rio_de_janeiro.svg (by FORTES, from the Wikimedia Commons) (licensed under the CC-BY 2.5)

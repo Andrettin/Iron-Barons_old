@@ -18,6 +18,11 @@ p_lauenburg = {
 	color = { 4 157 15 }
 }
 
+p_nassau = {
+	county = c_nassau
+	color = { 15 44 242 }
+}
+
 p_oldenburg = {
 	county = c_oldenburg
 	color = { 118 56 154 }

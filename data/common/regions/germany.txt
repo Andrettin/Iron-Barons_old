@@ -3,6 +3,7 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_hanover
 	provinces += p_holstein
 	provinces += p_lauenburg
+	provinces += p_nassau
 	provinces += p_oldenburg
 	provinces += p_schwerin
 	provinces += p_strelitz

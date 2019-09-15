@@ -26,12 +26,6 @@ d_brunswick = {
 	capital_province = p_brunswick
 }
 
-d_luneburg = {
-	de_jure_liege_title = k_hanover
-	color = { 206 15 37 }
-	capital_province = p_hanover
-}
-
 d_holstein = {
 	de_jure_liege_title = k_germany
 	color = { 208 12 51 }
@@ -42,6 +36,18 @@ d_lauenburg = {
 	de_jure_liege_title = k_germany
 	color = { 252 221 9 }
 	capital_province = p_lauenburg
+}
+
+d_luneburg = {
+	de_jure_liege_title = k_hanover
+	color = { 206 15 37 }
+	capital_province = p_hanover
+}
+
+d_nassau = {
+	de_jure_liege_title = k_germany
+	color = { 255 91 0 }
+	capital_province = p_nassau
 }
 
 d_oldenburg = {
@@ -98,6 +104,11 @@ c_holstein = {
 c_lauenburg = {
 	de_jure_liege_title = d_lauenburg
 	color = { 252 221 9 }
+}
+
+c_nassau = {
+	de_jure_liege_title = d_nassau
+	color = { 255 91 0 }
 }
 
 c_oldenburg = {
@@ -196,6 +207,14 @@ b_lauenburg = {
 
 b_lubeck = {
 	de_jure_liege_title = c_lauenburg
+}
+
+b_wetzlar = {
+	de_jure_liege_title = c_nassau
+}
+
+b_wiesbaden = {
+	de_jure_liege_title = c_nassau
 }
 
 b_brake = {
