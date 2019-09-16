@@ -32,6 +32,12 @@ d_brunswick = {
 	capital_province = p_brunswick
 }
 
+d_darmstadt = {
+	de_jure_liege_title = k_germany
+	color = { 226 0 26 }
+	capital_province = p_darmstadt
+}
+
 d_holstein = {
 	de_jure_liege_title = k_germany
 	color = { 208 12 51 }
@@ -100,6 +106,11 @@ c_baden = {
 c_brunswick = {
 	de_jure_liege_title = d_brunswick
 	color = { 0 0 204 }
+}
+
+c_darmstadt = {
+	de_jure_liege_title = d_darmstadt
+	color = { 226 0 26 }
 }
 
 c_hanover = {
@@ -202,6 +213,14 @@ b_waghausel = {
 
 b_brunswick = {
 	de_jure_liege_title = c_brunswick
+}
+
+b_darmstadt = {
+	de_jure_liege_title = c_darmstadt
+}
+
+b_heppenheim = {
+	de_jure_liege_title = c_darmstadt
 }
 
 b_aurich = {

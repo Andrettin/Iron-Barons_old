@@ -8,6 +8,11 @@ p_brunswick = {
 	color = { 234 211 250 }
 }
 
+p_darmstadt = {
+	county = c_darmstadt
+	color = { 211 6 141 }
+}
+
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
