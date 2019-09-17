@@ -44,6 +44,18 @@ d_holstein = {
 	capital_province = p_holstein
 }
 
+d_homburg = {
+	de_jure_liege_title = k_germany
+	color = { 107 24 2 }
+	capital_province = p_giessen
+}
+
+d_kassel = {
+	de_jure_liege_title = k_germany
+	color = { 226 249 247 }
+	capital_province = p_kassel
+}
+
 d_lauenburg = {
 	de_jure_liege_title = k_germany
 	color = { 252 221 9 }
@@ -113,6 +125,11 @@ c_darmstadt = {
 	color = { 226 0 26 }
 }
 
+c_giessen = {
+	de_jure_liege_title = d_darmstadt
+	color = { 0 82 159 }
+}
+
 c_hanover = {
 	de_jure_liege_title = d_luneburg
 	color = { 255 206 8 }
@@ -121,6 +138,11 @@ c_hanover = {
 c_holstein = {
 	de_jure_liege_title = d_holstein
 	color = { 208 12 51 }
+}
+
+c_kassel = {
+	de_jure_liege_title = d_kassel
+	color = { 226 249 247 }
 }
 
 c_lauenburg = {
@@ -223,6 +245,14 @@ b_heppenheim = {
 	de_jure_liege_title = c_darmstadt
 }
 
+b_giessen = {
+	de_jure_liege_title = c_giessen
+}
+
+b_homburg = {
+	de_jure_liege_title = c_giessen
+}
+
 b_aurich = {
 	de_jure_liege_title = c_hanover
 }
@@ -277,6 +307,30 @@ b_kiel = {
 
 b_rendsburg = {
 	de_jure_liege_title = c_holstein
+}
+
+b_bronzell = {
+	de_jure_liege_title = c_kassel
+}
+
+b_frankfurt = {
+	de_jure_liege_title = c_kassel
+}
+
+b_fulda = {
+	de_jure_liege_title = c_kassel
+}
+
+b_hanau = {
+	de_jure_liege_title = c_kassel
+}
+
+b_kassel = {
+	de_jure_liege_title = c_kassel
+}
+
+b_marburg_hesse = {
+	de_jure_liege_title = c_kassel
 }
 
 b_lauenburg = {

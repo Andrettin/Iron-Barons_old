@@ -1,0 +1,13 @@
+culture = german
+religion = protestant
+
+1815.1.1 = {
+	b_kassel = city #Kassel was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_frankfurt = city #Frankfurt was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_fulda = town #Fulda was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_marburg_hesse = town #Marburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_hanau = town #Hanau was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_bronzell = village #Bronzell was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_kassel
+}

@@ -13,6 +13,11 @@ p_darmstadt = {
 	color = { 211 6 141 }
 }
 
+p_giessen = {
+	county = c_giessen
+	color = { 249 53 64 }
+}
+
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
@@ -21,6 +26,11 @@ p_hanover = {
 p_holstein = {
 	county = c_holstein
 	color = { 101 97 115 }
+}
+
+p_kassel = {
+	county = c_kassel
+	color = { 22 220 110 }
 }
 
 p_lauenburg = {
