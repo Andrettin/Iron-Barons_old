@@ -130,6 +130,11 @@ c_giessen = {
 	color = { 0 82 159 }
 }
 
+c_gottingen = {
+	de_jure_liege_title = d_luneburg
+	color = { 218 18 26 }
+}
+
 c_hanover = {
 	de_jure_liege_title = d_luneburg
 	color = { 255 206 8 }
@@ -251,6 +256,10 @@ b_giessen = {
 
 b_homburg = {
 	de_jure_liege_title = c_giessen
+}
+
+b_gottingen = {
+	de_jure_liege_title = c_gottingen
 }
 
 b_aurich = {

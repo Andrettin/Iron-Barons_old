@@ -18,6 +18,11 @@ p_giessen = {
 	color = { 249 53 64 }
 }
 
+p_gottingen = {
+	county = c_gottingen
+	color = { 127 110 64 }
+}
+
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
