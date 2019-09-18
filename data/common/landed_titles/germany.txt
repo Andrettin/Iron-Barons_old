@@ -68,6 +68,12 @@ d_luneburg = {
 	capital_province = p_hanover
 }
 
+d_magdeburg = {
+	de_jure_liege_title = k_germany
+	color = { 202 231 204 }
+	capital_province = p_magdeburg
+}
+
 d_nassau = {
 	de_jure_liege_title = k_germany
 	color = { 255 91 0 }
@@ -153,6 +159,11 @@ c_kassel = {
 c_lauenburg = {
 	de_jure_liege_title = d_lauenburg
 	color = { 252 221 9 }
+}
+
+c_magdeburg = {
+	de_jure_liege_title = d_magdeburg
+	color = { 202 231 204 }
 }
 
 c_nassau = {
@@ -348,6 +359,46 @@ b_lauenburg = {
 
 b_lubeck = {
 	de_jure_liege_title = c_lauenburg
+}
+
+b_dessau = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_erfurt = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_halberstadt = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_halle = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_langensalza = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_magdeburg = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_merseburg = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_muhlhausen = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_sondershausen = {
+	de_jure_liege_title = c_magdeburg
+}
+
+b_torgau = {
+	de_jure_liege_title = c_magdeburg
 }
 
 b_wetzlar = {
