@@ -1,5 +1,6 @@
 d_baden = "Baden"
 d_belgium = "Belgium"
+d_brandenburg = "Brandenburg"
 d_brunswick = "Brunswick"
 d_brunswick_german = "Braunschweig"
 d_carinthia = "Carinthia"

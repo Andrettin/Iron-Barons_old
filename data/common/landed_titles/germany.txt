@@ -26,6 +26,12 @@ d_baden = {
 	capital_province = p_baden
 }
 
+d_brandenburg = {
+	de_jure_liege_title = k_germany
+	color = { 230 0 0 }
+	capital_province = p_brandenburg
+}
+
 d_brunswick = {
 	de_jure_liege_title = k_germany
 	color = { 0 0 204 }
@@ -119,6 +125,11 @@ d_west_prussia = {
 c_baden = {
 	de_jure_liege_title = d_baden
 	color = { 255 221 0 }
+}
+
+c_brandenburg = {
+	de_jure_liege_title = d_brandenburg
+	color = { 230 0 0 }
 }
 
 c_brunswick = {
@@ -247,6 +258,58 @@ b_tauberbischofsheim = {
 
 b_waghausel = {
 	de_jure_liege_title = c_baden
+}
+
+b_berlin = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_brandenburg = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_cottbus = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_frankfurt_on_the_oder = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_guben = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_kustrin = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_landsberg = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_neu_ruppin = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_potsdam = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_prenzlau = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_schonhausen = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_spandau = {
+	de_jure_liege_title = c_brandenburg
+}
+
+b_wittenberg = {
+	de_jure_liege_title = c_brandenburg
 }
 
 b_brunswick = {
