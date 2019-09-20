@@ -51,7 +51,7 @@ cotton = {
 	base_price = 1.0
 	
 	chance = {
-		factor = 5
+		factor = 2.5
 		
 		modifier = {
 			factor = 0
@@ -116,6 +116,19 @@ grain = {
 		modifier = {
 			factor = 0.25
 			terrain = mountains
+		}
+	}
+}
+
+horses = {
+	base_price = 1.0
+
+	chance = {
+		factor = 2.5
+		
+		modifier = {
+			factor = 0.25
+			NOT = { terrain = plains }
 		}
 	}
 }

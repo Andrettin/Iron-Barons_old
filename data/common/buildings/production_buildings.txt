@@ -62,6 +62,22 @@ grain_farm = {
 	}
 }
 
+horse_ranch = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = horse_ranching
+	workforce = 100000
+	
+	preconditions = {
+		commodity = horses
+	}
+}
+
 iron_mine = {
 	holding_types += village
 	holding_types += town
