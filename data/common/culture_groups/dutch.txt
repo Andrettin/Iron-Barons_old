@@ -1,4 +1,6 @@
 dutch = {
+	default_phenotype = european
+
 	male_names = {
 		Willem
 	}

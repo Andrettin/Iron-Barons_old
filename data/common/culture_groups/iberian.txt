@@ -1,2 +1,3 @@
 iberian = {
+	default_phenotype = european
 }

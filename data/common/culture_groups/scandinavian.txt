@@ -1,2 +1,3 @@
 scandinavian = {
+	default_phenotype = european
 }

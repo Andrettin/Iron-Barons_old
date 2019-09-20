@@ -1,2 +1,3 @@
 hungarian = {
+	default_phenotype = european
 }

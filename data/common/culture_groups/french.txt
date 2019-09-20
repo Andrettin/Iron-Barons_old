@@ -1,4 +1,6 @@
 french = {
+	default_phenotype = european
+
 	male_names = {
 		Charles
 	}

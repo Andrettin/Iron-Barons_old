@@ -1,2 +1,3 @@
 anglo_saxon = {
+	default_phenotype = european
 }
