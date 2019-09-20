@@ -45,6 +45,12 @@ grain_farming = {
 	output_value = 1
 }
 
+horse_ranching = {
+	template = farming_template
+	output_commodity = horses
+	output_value = 1
+}
+
 sheep_ranching = {
 	template = farming_template
 	output_commodity = wool
