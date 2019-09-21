@@ -1,6 +1,7 @@
 r_poland = { #the territory of modern Poland
 	provinces += p_breslau
 	provinces += p_czestochowa
+	provinces += p_galicia
 	provinces += p_kalisz
 	provinces += p_kattowitz
 	provinces += p_kielce

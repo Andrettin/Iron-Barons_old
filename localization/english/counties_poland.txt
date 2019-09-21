@@ -1,4 +1,6 @@
 c_czestochowa = "Czestochowa"
+c_galicia = "Galicia"
+c_galicia_german = "Galizien"
 c_kalisz = "Kalisz"
 c_kielce = "Kielce"
 c_kielce_polish = "Swietokrzyskie" #Source: "Philip's International School Atlas", 2006, p. 60.

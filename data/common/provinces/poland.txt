@@ -3,6 +3,11 @@ p_czestochowa = {
 	color = { 233 218 54 }
 }
 
+p_galicia = {
+	county = c_galicia
+	color = { 230 77 156 }
+}
+
 p_kalisz = {
 	county = c_kalisz
 	color = { 209 138 16 }

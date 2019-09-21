@@ -1,6 +1,17 @@
+k_galicia = {
+	color = { 153 0 0 }
+	capital_province = p_galicia
+}
+
 k_poland = {
 	color = { 212 41 61 }
 	capital_province = p_mazovia
+}
+
+d_galicia = {
+	de_jure_liege_title = k_galicia
+	color = { 153 0 0 }
+	capital_province = p_galicia
 }
 
 d_posen = {
@@ -18,6 +29,11 @@ d_warsaw = {
 c_czestochowa = {
 	de_jure_liege_title = d_warsaw
 	color = { 0 103 177 }
+}
+
+c_galicia = {
+	de_jure_liege_title = d_galicia
+	color = { 153 0 0 }
 }
 
 c_kalisz = {
@@ -62,6 +78,34 @@ c_wloclawek = {
 
 b_czestochowa = {
 	de_jure_liege_title = c_czestochowa
+}
+
+b_dukla = {
+	de_jure_liege_title = c_galicia
+}
+
+b_jaroslaw = {
+	de_jure_liege_title = c_galicia
+}
+
+b_lemberg = {
+	de_jure_liege_title = c_galicia
+}
+
+b_neu_sandec = {
+	de_jure_liege_title = c_galicia
+}
+
+b_przemysl = {
+	de_jure_liege_title = c_galicia
+}
+
+b_stanislawow = {
+	de_jure_liege_title = c_galicia
+}
+
+b_tarnow = {
+	de_jure_liege_title = c_galicia
 }
 
 b_kalisz = {
