@@ -1,0 +1,4 @@
+p_posen = {
+	county = c_posen
+	color = { 208 23 78 }
+}

@@ -1,0 +1,58 @@
+d_posen = {
+	de_jure_liege_title = k_prussia
+	color = { 237 11 10 }
+	capital_province = p_posen
+}
+
+c_posen = {
+	de_jure_liege_title = d_posen
+	color = { 237 11 10 }
+}
+
+b_bordo = {
+	de_jure_liege_title = c_posen
+}
+
+b_bromberg = {
+	de_jure_liege_title = c_posen
+}
+
+b_gnesen = {
+	de_jure_liege_title = c_posen
+}
+
+b_koschmin = {
+	de_jure_liege_title = c_posen
+}
+
+b_lissa = {
+	de_jure_liege_title = c_posen
+}
+
+b_miloslaw = {
+	de_jure_liege_title = c_posen
+}
+
+b_posen = {
+	de_jure_liege_title = c_posen
+}
+
+b_rogalin = {
+	de_jure_liege_title = c_posen
+}
+
+b_schneidemuhl = {
+	de_jure_liege_title = c_posen
+}
+
+b_schroda = {
+	de_jure_liege_title = c_posen
+}
+
+b_wreschen = {
+	de_jure_liege_title = c_posen
+}
+
+b_xions = {
+	de_jure_liege_title = c_posen
+}

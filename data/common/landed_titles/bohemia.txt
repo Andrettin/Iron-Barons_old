@@ -1,0 +1,96 @@
+k_bohemia = {
+	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
+	color = { 197 114 24 }
+	capital_province = p_bohemia
+}
+
+d_bohemia = {
+	de_jure_liege_title = k_bohemia
+	color = { 197 114 24 }
+	capital_province = p_bohemia
+}
+
+c_bohemia = {
+	de_jure_liege_title = d_bohemia
+	color = { 197 114 24 }
+}
+
+b_budweis = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_carlsbad = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_chlum = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_eger = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_gabel = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_gitschin = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_huhnerwasser = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_josefstadt = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_koniggratz = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_koniginhof = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_munchengratz = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_nachod = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_pardubitz = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_pilsen = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_prague = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_sadowa = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_schweinschadel = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_skalitz = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_teplitz = {
+	de_jure_liege_title = c_bohemia
+}
+
+b_trautenau = {
+	de_jure_liege_title = c_bohemia
+}

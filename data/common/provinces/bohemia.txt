@@ -1,0 +1,4 @@
+p_bohemia = {
+	county = c_bohemia
+	color = { 30 207 116 }
+}

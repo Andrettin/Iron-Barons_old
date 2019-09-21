@@ -80,6 +80,12 @@ d_magdeburg = {
 	capital_province = p_magdeburg
 }
 
+d_silesia = {
+	de_jure_liege_title = k_germany
+	color = { 185 253 25 }
+	capital_province = p_silesia
+}
+
 d_nassau = {
 	de_jure_liege_title = k_germany
 	color = { 255 91 0 }
@@ -195,6 +201,11 @@ c_pomerania = {
 c_schwerin = {
 	de_jure_liege_title = d_schwerin
 	color = { 226 0 26 }
+}
+
+c_silesia = {
+	de_jure_liege_title = d_silesia
+	color = { 185 253 25 }
 }
 
 c_strelitz = {
@@ -530,6 +541,62 @@ b_schwerin = {
 
 b_wismar = {
 	de_jure_liege_title = c_schwerin
+}
+
+b_breslau = {
+	de_jure_liege_title = c_silesia
+}
+
+b_glatz = {
+	de_jure_liege_title = c_silesia
+}
+
+b_glogau = {
+	de_jure_liege_title = c_silesia
+}
+
+b_gorlitz = {
+	de_jure_liege_title = c_silesia
+}
+
+b_kosel = {
+	de_jure_liege_title = c_silesia
+}
+
+b_landeshut = {
+	de_jure_liege_title = c_silesia
+}
+
+b_liegnitz = {
+	de_jure_liege_title = c_silesia
+}
+
+b_neisse = {
+	de_jure_liege_title = c_silesia
+}
+
+b_ols = {
+	de_jure_liege_title = c_silesia
+}
+
+b_oppeln = {
+	de_jure_liege_title = c_silesia
+}
+
+b_ratibor = {
+	de_jure_liege_title = c_silesia
+}
+
+b_schweidnitz = {
+	de_jure_liege_title = c_silesia
+}
+
+b_silberberg = {
+	de_jure_liege_title = c_silesia
+}
+
+b_zillerthal = {
+	de_jure_liege_title = c_silesia
 }
 
 b_strelitz = {

@@ -1,0 +1,12 @@
+czech = {
+	culture_group = west_slavic
+	color = { 197 114 24 }
+	
+	male_names = {
+		Adam #Polish name as placeholder
+	}
+	
+	female_names = {
+		Marie #Polish name as placeholder
+	}
+}

@@ -73,6 +73,11 @@ p_schwerin = {
 	color = { 138 14 78 }
 }
 
+p_silesia = {
+	county = c_silesia
+	color = { 103 186 205 }
+}
+
 p_strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }

@@ -1,4 +1,6 @@
 r_poland = { #the territory of modern Poland
+	provinces += p_posen
+	provinces += p_silesia
 	provinces += p_west_prussia
 	#should include Farther Pomerania
 }
