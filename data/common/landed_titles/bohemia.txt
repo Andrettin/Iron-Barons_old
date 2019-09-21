@@ -10,9 +10,20 @@ d_bohemia = {
 	capital_province = p_bohemia
 }
 
+d_moravia = {
+	de_jure_liege_title = k_bohemia
+	color = { 14 21 124 }
+	capital_province = p_moravia
+}
+
 c_bohemia = {
 	de_jure_liege_title = d_bohemia
 	color = { 197 114 24 }
+}
+
+c_moravia = {
+	de_jure_liege_title = d_moravia
+	color = { 14 21 124 }
 }
 
 b_budweis = {
@@ -93,4 +104,36 @@ b_teplitz = {
 
 b_trautenau = {
 	de_jure_liege_title = c_bohemia
+}
+
+b_brunn = {
+	de_jure_liege_title = c_moravia
+}
+
+b_iglau = {
+	de_jure_liege_title = c_moravia
+}
+
+b_kremsier = {
+	de_jure_liege_title = c_moravia
+}
+
+b_nikolsburg = {
+	de_jure_liege_title = c_moravia
+}
+
+b_olmutz = {
+	de_jure_liege_title = c_moravia
+}
+
+b_spielberg = {
+	de_jure_liege_title = c_moravia
+}
+
+b_tobitschau = {
+	de_jure_liege_title = c_moravia
+}
+
+b_troppau = {
+	de_jure_liege_title = c_moravia
 }

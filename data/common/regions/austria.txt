@@ -7,6 +7,7 @@ r_imperial_austria = { #the territory of the Empire Austria, 1815-1866
 	provinces += p_tyrol
 	provinces += p_salzburg
 	provinces += p_bohemia
+	provinces += p_moravia
 	provinces += p_lombardy
 	provinces += p_venetia
 }
@@ -19,6 +20,7 @@ r_imperial_austria_1806 = { #the territory of the Empire Austria, 1806-1812
 	provinces += p_salzburg
 	subregions += r_carniola_and_gorz
 	provinces += p_bohemia
+	provinces += p_moravia
 }
 
 r_austria = { #the territory of the modern Republic of Austria

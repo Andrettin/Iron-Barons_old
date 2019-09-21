@@ -2,3 +2,8 @@ p_bohemia = {
 	county = c_bohemia
 	color = { 30 207 116 }
 }
+
+p_moravia = {
+	county = c_moravia
+	color = { 224 131 143 }
+}
