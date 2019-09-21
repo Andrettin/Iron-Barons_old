@@ -8,6 +8,11 @@ p_brandenburg = {
 	color = { 37 55 4 }
 }
 
+p_breslau = {
+	county = c_breslau
+	color = { 103 186 205 }
+}
+
 p_brunswick = {
 	county = c_brunswick
 	color = { 234 211 250 }
@@ -48,6 +53,11 @@ p_kassel = {
 	color = { 22 220 110 }
 }
 
+p_kattowitz = {
+	county = c_kattowitz
+	color = { 131 14 60 }
+}
+
 p_lauenburg = {
 	county = c_lauenburg
 	color = { 4 157 15 }
@@ -68,6 +78,11 @@ p_oldenburg = {
 	color = { 118 56 154 }
 }
 
+p_oppeln = {
+	county = c_oppeln
+	color = { 208 155 124 }
+}
+
 p_pomerania = {
 	county = c_pomerania
 	color = { 164 255 28 }
@@ -76,11 +91,6 @@ p_pomerania = {
 p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
-}
-
-p_silesia = {
-	county = c_silesia
-	color = { 103 186 205 }
 }
 
 p_strelitz = {

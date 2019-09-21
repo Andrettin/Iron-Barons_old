@@ -48,6 +48,7 @@ d_schwerin = "Schwerin"
 d_schwerin_von_mecklenburg_schwerin = "Mecklenburg-Schwerin"
 d_silesia = "Silesia"
 d_silesia_german = "Schlesien"
+d_silesia_polish = "Śląskie" #Source: "Philip's International School Atlas", 2006, p. 60.
 d_strelitz = "Strelitz"
 d_strelitz_von_mecklenburg_strelitz = "Mecklenburg-Strelitz"
 d_styria = "Styria"

@@ -89,7 +89,7 @@ d_magdeburg = {
 d_silesia = {
 	de_jure_liege_title = k_germany
 	color = { 185 253 25 }
-	capital_province = p_silesia
+	capital_province = p_breslau
 }
 
 d_nassau = {
@@ -144,6 +144,11 @@ c_brandenburg = {
 	color = { 230 0 0 }
 }
 
+c_breslau = {
+	de_jure_liege_title = d_silesia
+	color = { 185 253 25 }
+}
+
 c_brunswick = {
 	de_jure_liege_title = d_brunswick
 	color = { 0 0 204 }
@@ -184,6 +189,11 @@ c_kassel = {
 	color = { 226 249 247 }
 }
 
+c_kattowitz = {
+	de_jure_liege_title = d_silesia
+	color = { 0 61 106 }
+}
+
 c_lauenburg = {
 	de_jure_liege_title = d_lauenburg
 	color = { 252 221 9 }
@@ -204,6 +214,11 @@ c_oldenburg = {
 	color = { 0 0 255 }
 }
 
+c_oppeln = {
+	de_jure_liege_title = d_silesia
+	color = { 0 103 177 }
+}
+
 c_pomerania = {
 	de_jure_liege_title = d_pomerania
 	color = { 214 40 40 }
@@ -212,11 +227,6 @@ c_pomerania = {
 c_schwerin = {
 	de_jure_liege_title = d_schwerin
 	color = { 226 0 26 }
-}
-
-c_silesia = {
-	de_jure_liege_title = d_silesia
-	color = { 185 253 25 }
 }
 
 c_strelitz = {
@@ -332,6 +342,46 @@ b_spandau = {
 
 b_wittenberg = {
 	de_jure_liege_title = c_brandenburg
+}
+
+b_breslau = {
+	de_jure_liege_title = c_breslau
+}
+
+b_glatz = {
+	de_jure_liege_title = c_breslau
+}
+
+b_glogau = {
+	de_jure_liege_title = c_breslau
+}
+
+b_gorlitz = {
+	de_jure_liege_title = c_breslau
+}
+
+b_landeshut = {
+	de_jure_liege_title = c_breslau
+}
+
+b_liegnitz = {
+	de_jure_liege_title = c_breslau
+}
+
+b_ols = {
+	de_jure_liege_title = c_breslau
+}
+
+b_schweidnitz = {
+	de_jure_liege_title = c_breslau
+}
+
+b_silberberg = {
+	de_jure_liege_title = c_breslau
+}
+
+b_zillerthal = {
+	de_jure_liege_title = c_breslau
 }
 
 b_brunswick = {
@@ -466,6 +516,10 @@ b_marburg_hesse = {
 	de_jure_liege_title = c_kassel
 }
 
+b_ratibor = {
+	de_jure_liege_title = c_kattowitz
+}
+
 b_lauenburg = {
 	de_jure_liege_title = c_lauenburg
 }
@@ -538,6 +592,18 @@ b_wilhelmshaven = {
 	de_jure_liege_title = c_oldenburg
 }
 
+b_kosel = {
+	de_jure_liege_title = c_oppeln
+}
+
+b_neisse = {
+	de_jure_liege_title = c_oppeln
+}
+
+b_oppeln = {
+	de_jure_liege_title = c_oppeln
+}
+
 b_greifswald = {
 	de_jure_liege_title = c_pomerania
 }
@@ -580,62 +646,6 @@ b_schwerin = {
 
 b_wismar = {
 	de_jure_liege_title = c_schwerin
-}
-
-b_breslau = {
-	de_jure_liege_title = c_silesia
-}
-
-b_glatz = {
-	de_jure_liege_title = c_silesia
-}
-
-b_glogau = {
-	de_jure_liege_title = c_silesia
-}
-
-b_gorlitz = {
-	de_jure_liege_title = c_silesia
-}
-
-b_kosel = {
-	de_jure_liege_title = c_silesia
-}
-
-b_landeshut = {
-	de_jure_liege_title = c_silesia
-}
-
-b_liegnitz = {
-	de_jure_liege_title = c_silesia
-}
-
-b_neisse = {
-	de_jure_liege_title = c_silesia
-}
-
-b_ols = {
-	de_jure_liege_title = c_silesia
-}
-
-b_oppeln = {
-	de_jure_liege_title = c_silesia
-}
-
-b_ratibor = {
-	de_jure_liege_title = c_silesia
-}
-
-b_schweidnitz = {
-	de_jure_liege_title = c_silesia
-}
-
-b_silberberg = {
-	de_jure_liege_title = c_silesia
-}
-
-b_zillerthal = {
-	de_jure_liege_title = c_silesia
 }
 
 b_strelitz = {

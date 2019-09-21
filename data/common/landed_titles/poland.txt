@@ -15,6 +15,11 @@ d_warsaw = {
 	capital_province = p_mazovia
 }
 
+c_czestochowa = {
+	de_jure_liege_title = d_warsaw
+	color = { 0 103 177 }
+}
+
 c_kalisz = {
 	de_jure_liege_title = d_warsaw
 	color = { 230 230 250 }
@@ -53,6 +58,10 @@ c_posen = {
 c_wloclawek = {
 	de_jure_liege_title = d_warsaw
 	color = { 170 20 20 }
+}
+
+b_czestochowa = {
+	de_jure_liege_title = c_czestochowa
 }
 
 b_kalisz = {

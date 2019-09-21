@@ -1,12 +1,15 @@
 r_poland = { #the territory of modern Poland
+	provinces += p_breslau
+	provinces += p_czestochowa
 	provinces += p_kalisz
+	provinces += p_kattowitz
 	provinces += p_kielce
 	provinces += p_lodz
 	provinces += p_lublin
 	provinces += p_mazovia
+	provinces += p_oppeln
 	provinces += p_podlasie
 	provinces += p_posen
-	provinces += p_silesia
 	provinces += p_west_prussia
 	provinces += p_wloclawek
 	#should include Farther Pomerania
