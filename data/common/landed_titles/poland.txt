@@ -30,6 +30,11 @@ c_mazovia = {
 	color = { 212 41 61 }
 }
 
+c_podlasie = {
+	de_jure_liege_title = d_warsaw
+	color = { 170 20 20 }
+}
+
 c_posen = {
 	de_jure_liege_title = d_posen
 	color = { 237 11 10 }
@@ -45,6 +50,10 @@ b_lublin = {
 
 b_warsaw = {
 	de_jure_liege_title = c_mazovia
+}
+
+b_lomzha = {
+	de_jure_liege_title = c_podlasie
 }
 
 b_bordo = {

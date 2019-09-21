@@ -13,6 +13,11 @@ p_mazovia = {
 	color = { 138 57 209 }
 }
 
+p_podlasie = {
+	county = c_podlasie
+	color = { 193 119 201 }
+}
+
 p_posen = {
 	county = c_posen
 	color = { 208 23 78 }
