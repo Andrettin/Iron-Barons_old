@@ -44,6 +44,12 @@ d_darmstadt = {
 	capital_province = p_darmstadt
 }
 
+d_east_prussia = {
+	de_jure_liege_title = k_prussia
+	color = { 0 49 83 }
+	capital_province = p_east_prussia
+}
+
 d_holstein = {
 	de_jure_liege_title = k_germany
 	color = { 208 12 51 }
@@ -146,6 +152,11 @@ c_brunswick = {
 c_darmstadt = {
 	de_jure_liege_title = d_darmstadt
 	color = { 226 0 26 }
+}
+
+c_east_prussia = {
+	de_jure_liege_title = d_east_prussia
+	color = { 0 49 83 }
 }
 
 c_giessen = {
@@ -333,6 +344,34 @@ b_darmstadt = {
 
 b_heppenheim = {
 	de_jure_liege_title = c_darmstadt
+}
+
+b_allenstein = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_boyen = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_eydtkuhnen = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_gumbinnen = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_konigsberg = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_memel = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_tilsit = {
+	de_jure_liege_title = c_east_prussia
 }
 
 b_giessen = {

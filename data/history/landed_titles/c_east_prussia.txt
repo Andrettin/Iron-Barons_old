@@ -1,0 +1,3 @@
+1815.1.1 = {
+	holder_title = d_east_prussia #part of the Prussian province of East Prussia as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}
