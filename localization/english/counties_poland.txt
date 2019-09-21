@@ -1,0 +1,3 @@
+c_mazovia = "Mazovia"
+c_mazovia_polish = "Mazowieckie" #Source: "Philip's International School Atlas", 2006, p. 60.
+c_posen = "Posen"

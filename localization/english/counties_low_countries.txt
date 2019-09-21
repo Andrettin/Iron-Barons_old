@@ -1,0 +1,6 @@
+c_arlon = "Arlon"
+c_belgium = "Belgium"
+c_limburg = "Limburg"
+c_luxembourg = "Luxembourg"
+c_luxembourg_german = "Luxemburg"
+c_netherlands = "Netherlands"

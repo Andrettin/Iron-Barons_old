@@ -1,12 +1,32 @@
+k_poland = {
+	color = { 212 41 61 }
+	capital_province = p_mazovia
+}
+
 d_posen = {
 	de_jure_liege_title = k_prussia
 	color = { 237 11 10 }
 	capital_province = p_posen
 }
 
+d_warsaw = {
+	de_jure_liege_title = k_poland
+	color = { 212 41 61 }
+	capital_province = p_mazovia
+}
+
+c_mazovia = {
+	de_jure_liege_title = d_warsaw
+	color = { 212 41 61 }
+}
+
 c_posen = {
 	de_jure_liege_title = d_posen
 	color = { 237 11 10 }
+}
+
+b_warsaw = {
+	de_jure_liege_title = c_mazovia
 }
 
 b_bordo = {
