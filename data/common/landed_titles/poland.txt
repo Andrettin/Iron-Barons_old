@@ -20,6 +20,11 @@ c_kielce = {
 	color = { 98 156 174 }
 }
 
+c_lodz = {
+	de_jure_liege_title = d_warsaw
+	color = { 255 215 0 }
+}
+
 c_lublin = {
 	de_jure_liege_title = d_warsaw
 	color = { 131 15 15 }
@@ -42,6 +47,10 @@ c_posen = {
 
 b_kielce = {
 	de_jure_liege_title = c_kielce
+}
+
+b_lodz = {
+	de_jure_liege_title = c_lodz
 }
 
 b_lublin = {
