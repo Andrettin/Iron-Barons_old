@@ -1,3 +1,13 @@
+p_kielce = {
+	county = c_kielce
+	color = { 87 224 239 }
+}
+
+p_lublin = {
+	county = c_lublin
+	color = { 70 135 210 }
+}
+
 p_mazovia = {
 	county = c_mazovia
 	color = { 138 57 209 }
