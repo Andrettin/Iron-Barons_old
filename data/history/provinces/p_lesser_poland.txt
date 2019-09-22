@@ -1,0 +1,9 @@
+culture = polish
+religion = catholic
+
+1815.1.1 = {
+	b_tarnow = town #Tarnow existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_neu_sandec = town #Neu Sandec existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_tarnow
+}

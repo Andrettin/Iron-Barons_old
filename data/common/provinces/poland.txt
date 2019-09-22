@@ -3,11 +3,6 @@ p_czestochowa = {
 	color = { 233 218 54 }
 }
 
-p_galicia = {
-	county = c_galicia
-	color = { 230 77 156 }
-}
-
 p_kalisz = {
 	county = c_kalisz
 	color = { 209 138 16 }
@@ -21,6 +16,16 @@ p_kielce = {
 p_krakow = {
 	county = c_krakow
 	color = { 14 205 65 }
+}
+
+p_lemberg = {
+	county = c_lemberg
+	color = { 230 77 156 }
+}
+
+p_lesser_poland = {
+	county = c_lesser_poland
+	color = { 242 146 139 }
 }
 
 p_lodz = {
@@ -51,6 +56,16 @@ p_podlasie = {
 p_posen = {
 	county = c_posen
 	color = { 208 23 78 }
+}
+
+p_stanislawow = {
+	county = c_stanislawow
+	color = { 76 216 95 }
+}
+
+p_subcarpathia = {
+	county = c_subcarpathia
+	color = { 218 118 51 }
 }
 
 p_wloclawek = {

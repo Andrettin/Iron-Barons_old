@@ -1,6 +1,6 @@
 k_galicia = {
 	color = { 153 0 0 }
-	capital_province = p_galicia
+	capital_province = p_lemberg
 }
 
 k_poland = {
@@ -11,7 +11,7 @@ k_poland = {
 d_galicia = {
 	de_jure_liege_title = k_galicia
 	color = { 153 0 0 }
-	capital_province = p_galicia
+	capital_province = p_lemberg
 }
 
 d_posen = {
@@ -31,11 +31,6 @@ c_czestochowa = {
 	color = { 0 103 177 }
 }
 
-c_galicia = {
-	de_jure_liege_title = d_galicia
-	color = { 153 0 0 }
-}
-
 c_kalisz = {
 	de_jure_liege_title = d_warsaw
 	color = { 230 230 250 }
@@ -49,6 +44,16 @@ c_kielce = {
 c_krakow = {
 	de_jure_liege_title = d_warsaw
 	color = { 89 105 233 }
+}
+
+c_lemberg = {
+	de_jure_liege_title = d_galicia
+	color = { 0 103 177 }
+}
+
+c_lesser_poland = {
+	de_jure_liege_title = d_galicia
+	color = { 136 8 6 }
 }
 
 c_lodz = {
@@ -81,6 +86,16 @@ c_posen = {
 	color = { 237 11 10 }
 }
 
+c_stanislawow = {
+	de_jure_liege_title = d_galicia
+	color = { 230 230 250 }
+}
+
+c_subcarpathia = {
+	de_jure_liege_title = d_galicia
+	color = { 229 229 229 }
+}
+
 c_wloclawek = {
 	de_jure_liege_title = d_warsaw
 	color = { 170 20 20 }
@@ -88,34 +103,6 @@ c_wloclawek = {
 
 b_czestochowa = {
 	de_jure_liege_title = c_czestochowa
-}
-
-b_dukla = {
-	de_jure_liege_title = c_galicia
-}
-
-b_jaroslaw = {
-	de_jure_liege_title = c_galicia
-}
-
-b_lemberg = {
-	de_jure_liege_title = c_galicia
-}
-
-b_neu_sandec = {
-	de_jure_liege_title = c_galicia
-}
-
-b_przemysl = {
-	de_jure_liege_title = c_galicia
-}
-
-b_stanislawow = {
-	de_jure_liege_title = c_galicia
-}
-
-b_tarnow = {
-	de_jure_liege_title = c_galicia
 }
 
 b_kalisz = {
@@ -136,6 +123,18 @@ b_sandomierz = {
 
 b_krakow = {
 	de_jure_liege_title = c_krakow
+}
+
+b_lemberg = {
+	de_jure_liege_title = c_lemberg
+}
+
+b_neu_sandec = {
+	de_jure_liege_title = c_lesser_poland
+}
+
+b_tarnow = {
+	de_jure_liege_title = c_lesser_poland
 }
 
 b_lodz = {
@@ -272,6 +271,22 @@ b_wreschen = {
 
 b_xions = {
 	de_jure_liege_title = c_posen
+}
+
+b_stanislawow = {
+	de_jure_liege_title = c_stanislawow
+}
+
+b_dukla = {
+	de_jure_liege_title = c_subcarpathia
+}
+
+b_jaroslaw = {
+	de_jure_liege_title = c_subcarpathia
+}
+
+b_przemysl = {
+	de_jure_liege_title = c_subcarpathia
 }
 
 b_osseg = {

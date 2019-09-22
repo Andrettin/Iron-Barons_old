@@ -1,0 +1,8 @@
+culture = ukrainian
+religion = orthodox
+
+1815.1.1 = {
+	b_stanislawow = town #Stanislawow existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_stanislawow
+}

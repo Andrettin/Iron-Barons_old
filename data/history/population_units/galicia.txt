@@ -1,5 +1,5 @@
 gentlemen = {
-	province = p_galicia
+	region = r_galicia
 	discount_existing = yes
 	
 	1809.1.1 = {

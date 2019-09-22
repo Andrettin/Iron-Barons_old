@@ -7,7 +7,7 @@ r_imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1812
 	subregions += r_carniola_and_gorz
 	provinces += p_bohemia
 	provinces += p_moravia
-	provinces += p_galicia
+	subregions += r_galicia
 }
 
 r_imperial_austria_1815 = { #the territory of the Empire of Austria, 1815-1846
@@ -20,7 +20,7 @@ r_imperial_austria_1815 = { #the territory of the Empire of Austria, 1815-1846
 	provinces += p_salzburg
 	provinces += p_bohemia
 	provinces += p_moravia
-	provinces += p_galicia
+	subregions += r_galicia
 	provinces += p_lombardy
 	provinces += p_venetia
 }
@@ -35,7 +35,7 @@ r_imperial_austria_1846 = { #the territory of the Empire of Austria, 1846-1859
 	provinces += p_salzburg
 	provinces += p_bohemia
 	provinces += p_moravia
-	provinces += p_galicia
+	subregions += r_galicia
 	provinces += p_lombardy
 	provinces += p_venetia
 	provinces += p_krakow
@@ -51,7 +51,7 @@ r_imperial_austria_1859 = { #the territory of the Empire of Austria, 1859-1866
 	provinces += p_salzburg
 	provinces += p_bohemia
 	provinces += p_moravia
-	provinces += p_galicia
+	subregions += r_galicia
 	provinces += p_venetia
 	provinces += p_krakow
 }
@@ -66,7 +66,7 @@ r_imperial_austria_1866 = { #the territory of the Empire of Austria, 1866-1918
 	provinces += p_salzburg
 	provinces += p_bohemia
 	provinces += p_moravia
-	provinces += p_galicia
+	subregions += r_galicia
 	provinces += p_krakow
 }
 
