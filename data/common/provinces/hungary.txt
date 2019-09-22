@@ -1,0 +1,14 @@
+p_burgenland = {
+	county = c_burgenland
+	color = { 104 62 229 }
+}
+
+p_hungary = {
+	county = c_hungary
+	color = { 57 174 209 }
+}
+
+p_transylvania = {
+	county = c_transylvania
+	color = { 205 120 94 }
+}

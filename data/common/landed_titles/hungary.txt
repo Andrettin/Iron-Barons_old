@@ -1,0 +1,47 @@
+k_hungary = {
+	color = { 131 15 15 }
+	capital_province = p_hungary
+}
+
+d_hungary = {
+	de_jure_liege_title = k_hungary
+	color = { 131 15 15 }
+	capital_province = p_hungary
+}
+
+d_transylvania = {
+	de_jure_liege_title = k_hungary
+	color = { 255 215 0 }
+	capital_province = p_transylvania
+}
+
+c_burgenland = {
+	de_jure_liege_title = d_hungary
+	color = { 255 165 0 }
+}
+
+c_hungary = {
+	de_jure_liege_title = d_hungary
+	color = { 131 15 15 }
+}
+
+c_transylvania = {
+	de_jure_liege_title = d_transylvania
+	color = { 255 215 0 }
+}
+
+b_eisenstadt = {
+	de_jure_liege_title = c_burgenland
+}
+
+b_buda = {
+	de_jure_liege_title = c_hungary
+}
+
+b_pest = {
+	de_jure_liege_title = c_hungary
+}
+
+b_klausenburg = {
+	de_jure_liege_title = c_transylvania
+}

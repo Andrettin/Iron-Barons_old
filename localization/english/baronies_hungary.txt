@@ -1,0 +1,5 @@
+b_eisenstadt = "Eisenstadt"
+b_buda = "Buda"
+b_buda_german = "Ofen" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+b_pest = "Pest"
+b_klausenburg = "Klausenburg"

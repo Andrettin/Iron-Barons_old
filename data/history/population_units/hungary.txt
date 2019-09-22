@@ -1,8 +1,8 @@
-#gentlemen = {
-#	region = r_hungary
-#	discount_existing = yes
-#	
-#	1809.1.1 = {
-#		size = 336000 #Hungary had over 336,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
-#	}
-#}
+gentlemen = {
+	region = r_royal_hungary
+	discount_existing = yes
+	
+	1809.1.1 = {
+		size = 336000 #Hungary had over 336,000 nobles in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+	}
+}

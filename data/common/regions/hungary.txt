@@ -1,0 +1,5 @@
+r_royal_hungary = {
+	provinces += p_hungary
+	provinces += p_burgenland
+	provinces += p_transylvania
+}

@@ -1,0 +1,8 @@
+culture = austrian
+religion = catholic
+
+1815.1.1 = {
+	b_eisenstadt = town
+	
+	capital_holding = b_eisenstadt
+}

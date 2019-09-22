@@ -1,0 +1,3 @@
+c_burgenland = "Burgenland"
+c_hungary = "Hungary"
+c_transylvania = "Transylvania"
