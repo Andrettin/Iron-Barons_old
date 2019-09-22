@@ -1,0 +1,4 @@
+1567.1.1 = {
+	holder = random
+	liege_title = k_portugal #Rio de Janeiro was founded by the Portuguese in 1516/1567; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
+}

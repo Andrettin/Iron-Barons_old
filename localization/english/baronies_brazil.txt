@@ -1,2 +1,5 @@
+b_espirito_santo = "Espírito Santo"
 b_rio_de_janeiro = "Rio de Janeiro"
 b_rio_de_janeiro_french = "Henriville"
+b_ouro_preto = "Ouro Preto"
+b_sao_paulo = "São Paulo"

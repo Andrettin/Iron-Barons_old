@@ -1,0 +1,5 @@
+d_espirito_santo = "Espírito Santo"
+d_minas_gerais = "Minas Gerais"
+d_rio_de_janeiro = "Rio de Janeiro"
+d_rio_de_janeiro_french = "France Antarctique"
+d_sao_paulo = "São Paulo"

@@ -1,1 +1,5 @@
+c_espirito_santo = "Espírito Santo"
+c_minas_gerais = "Minas Gerais"
 c_rio_de_janeiro = "Rio de Janeiro"
+c_rio_de_janeiro_french = "Henriville"
+c_sao_paulo = "São Paulo"

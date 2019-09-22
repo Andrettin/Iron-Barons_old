@@ -1,4 +1,19 @@
+p_espirito_santo = {
+	county = c_espirito_santo
+	color = { 60 226 224 }
+}
+
+p_minas_gerais = {
+	county = c_minas_gerais
+	color = { 117 233 106 }
+}
+
 p_rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
+}
+
+p_sao_paulo = {
+	county = c_sao_paulo
+	color = { 145 219 25 }
 }

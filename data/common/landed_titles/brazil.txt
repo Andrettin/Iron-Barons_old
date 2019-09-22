@@ -9,10 +9,38 @@ k_brazil = {
 	capital_province = p_rio_de_janeiro
 }
 
+d_espirito_santo = {
+	de_jure_liege_title = k_brazil
+	color = { 201 128 227 }
+	capital_province = p_espirito_santo
+}
+
+d_minas_gerais = {
+	de_jure_liege_title = k_brazil
+	color = { 237 250 195 }
+	capital_province = p_minas_gerais
+}
+
 d_rio_de_janeiro = {
 	de_jure_liege_title = k_brazil
 	color = { 0 175 239 }
 	capital_province = p_rio_de_janeiro
+}
+
+d_sao_paulo = {
+	de_jure_liege_title = k_brazil
+	color = { 63 91 95 }
+	capital_province = p_sao_paulo
+}
+
+c_espirito_santo = {
+	de_jure_liege_title = d_espirito_santo
+	color = { 201 128 227 }
+}
+
+c_minas_gerais = {
+	de_jure_liege_title = d_minas_gerais
+	color = { 237 250 195 }
 }
 
 c_rio_de_janeiro = {
@@ -20,6 +48,23 @@ c_rio_de_janeiro = {
 	color = { 0 175 239 }
 }
 
+c_sao_paulo = {
+	de_jure_liege_title = d_sao_paulo
+	color = { 63 91 95 }
+}
+
+b_espirito_santo = {
+	de_jure_liege_title = c_espirito_santo
+}
+
+b_ouro_preto = {
+	de_jure_liege_title = c_minas_gerais
+}
+
 b_rio_de_janeiro = {
 	de_jure_liege_title = c_rio_de_janeiro
+}
+
+b_sao_paulo = {
+	de_jure_liege_title = c_sao_paulo
 }
