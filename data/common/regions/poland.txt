@@ -5,6 +5,7 @@ r_poland = { #the territory of modern Poland
 	provinces += p_kalisz
 	provinces += p_kattowitz
 	provinces += p_kielce
+	provinces += p_krakow
 	provinces += p_lodz
 	provinces += p_lublin
 	provinces += p_mazovia

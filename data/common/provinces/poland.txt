@@ -18,6 +18,11 @@ p_kielce = {
 	color = { 87 224 239 }
 }
 
+p_krakow = {
+	county = c_krakow
+	color = { 14 205 65 }
+}
+
 p_lodz = {
 	county = c_lodz
 	color = { 60 96 215 }

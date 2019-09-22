@@ -4,6 +4,7 @@ c_galicia_german = "Galizien"
 c_kalisz = "Kalisz"
 c_kielce = "Kielce"
 c_kielce_polish = "Swietokrzyskie" #Source: "Philip's International School Atlas", 2006, p. 60.
+c_krakow = "Krakow"
 c_lodz = "Lodz"
 c_lodz_polish = "Łódzkie" #Source: "Philip's International School Atlas", 2006, p. 60.
 c_lublin = "Lublin"
