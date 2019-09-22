@@ -18,6 +18,11 @@ p_brunswick = {
 	color = { 234 211 250 }
 }
 
+p_danzig = {
+	county = c_danzig
+	color = { 248 144 8 }
+}
+
 p_darmstadt = {
 	county = c_darmstadt
 	color = { 211 6 141 }
@@ -103,12 +108,12 @@ p_strelitz = {
 	color = { 107 152 133 }
 }
 
+p_thorn = {
+	county = c_thorn
+	color = { 166 167 52 }
+}
+
 p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }
-}
-
-p_west_prussia = {
-	county = c_west_prussia
-	color = { 248 144 8 }
 }

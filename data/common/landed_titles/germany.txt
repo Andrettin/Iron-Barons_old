@@ -131,7 +131,7 @@ d_westphalia = {
 d_west_prussia = {
 	de_jure_liege_title = k_prussia
 	color = { 77 77 77 }
-	capital_province = p_west_prussia
+	capital_province = p_danzig
 }
 
 c_baden = {
@@ -152,6 +152,11 @@ c_breslau = {
 c_brunswick = {
 	de_jure_liege_title = d_brunswick
 	color = { 0 0 204 }
+}
+
+c_danzig = {
+	de_jure_liege_title = d_west_prussia
+	color = { 77 77 77 }
 }
 
 c_darmstadt = {
@@ -239,14 +244,14 @@ c_strelitz = {
 	color = { 252 195 0 }
 }
 
+c_thorn = {
+	de_jure_liege_title = d_west_prussia
+	color = { 225 196 236 }
+}
+
 c_westphalia = {
 	de_jure_liege_title = d_westphalia
 	color = { 221 0 0 }
-}
-
-c_west_prussia = {
-	de_jure_liege_title = d_west_prussia
-	color = { 77 77 77 }
 }
 
 b_carlsruhe = {
@@ -391,6 +396,22 @@ b_zillerthal = {
 
 b_brunswick = {
 	de_jure_liege_title = c_brunswick
+}
+
+b_danzig = {
+	de_jure_liege_title = c_danzig
+}
+
+b_elbing = {
+	de_jure_liege_title = c_danzig
+}
+
+b_marienburg = {
+	de_jure_liege_title = c_danzig
+}
+
+b_marienwerder = {
+	de_jure_liege_title = c_danzig
 }
 
 b_darmstadt = {
@@ -657,6 +678,14 @@ b_strelitz = {
 	de_jure_liege_title = c_strelitz
 }
 
+b_graudenz = {
+	de_jure_liege_title = c_thorn
+}
+
+b_thorn = {
+	de_jure_liege_title = c_thorn
+}
+
 b_arnsberg = {
 	de_jure_liege_title = c_westphalia
 }
@@ -691,28 +720,4 @@ b_siegen = {
 
 b_wesel = {
 	de_jure_liege_title = c_westphalia
-}
-
-b_danzig = {
-	de_jure_liege_title = c_west_prussia
-}
-
-b_elbing = {
-	de_jure_liege_title = c_west_prussia
-}
-
-b_graudenz = {
-	de_jure_liege_title = c_west_prussia
-}
-
-b_marienburg = {
-	de_jure_liege_title = c_west_prussia
-}
-
-b_marienwerder = {
-	de_jure_liege_title = c_west_prussia
-}
-
-b_thorn = {
-	de_jure_liege_title = c_west_prussia
 }
