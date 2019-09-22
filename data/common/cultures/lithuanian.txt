@@ -1,0 +1,12 @@
+lithuanian = {
+	culture_group = baltic
+	color = { 3 83 31 }
+	
+	male_names = {
+		Adam #Polish name as placeholder
+	}
+	
+	female_names = {
+		Marie #Polish name as placeholder
+	}
+}

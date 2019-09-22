@@ -1,7 +1,8 @@
-culture = german
 religion = protestant
 
 1815.1.1 = {
+	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
 	b_berlin = city #Berlin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_brandenburg = city #Brandenburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_frankfurt_on_the_oder = city #Frankfurt on the Oder existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

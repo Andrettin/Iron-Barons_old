@@ -1,4 +1,5 @@
 anglo_saxon = "Anglo-Saxon"
+baltic = "Baltic"
 east_slavic = "East Slavic"
 german = "German"
 hungarian = "Hungarian"

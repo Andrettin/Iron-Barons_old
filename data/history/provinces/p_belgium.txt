@@ -1,7 +1,8 @@
-culture = walloon
 religion = catholic
 
 1815.1.1 = {
+	culture = walloon #"French"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
 	b_brussels = city #Brussels existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_antwerp = city #Antwerp existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_ghent = city #Ghent existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
@@ -14,22 +15,18 @@ religion = catholic
 	capital_holding = b_brussels
 	
 	b_antwerp = {
-		culture = flemish
+		culture = flemish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	}
 	
 	b_bruges = {
-		culture = flemish
-	}
-	
-	b_brussels = {
-		culture = flemish
+		culture = flemish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	}
 	
 	b_ghent = {
-		culture = flemish
+		culture = flemish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	}
 	
 	b_ostend = {
-		culture = flemish
+		culture = flemish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	}
 }
