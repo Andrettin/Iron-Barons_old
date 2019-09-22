@@ -1,12 +1,12 @@
 e_germany = {
 	color = { 160 160 160 }
-	capital_province = p_hanover #should be Frankfurt instead
+	capital_province = p_kassel #Frankfurt
 }
 
 k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
-	capital_province = p_hanover #should be Frankfurt instead
+	capital_province = p_kassel #Frankfurt
 }
 
 k_hanover = {
@@ -17,7 +17,7 @@ k_hanover = {
 
 k_prussia = {
 	color = { 0 49 83 }
-	capital_province = p_pomerania #should be Brandenburg instead
+	capital_province = p_brandenburg
 }
 
 d_baden = {
@@ -107,7 +107,7 @@ d_oldenburg = {
 d_pomerania = {
 	de_jure_liege_title = k_germany
 	color = { 214 40 40 }
-	capital_province = p_pomerania
+	capital_province = p_hither_pomerania
 }
 
 d_schwerin = {
@@ -164,6 +164,11 @@ c_east_prussia = {
 	color = { 0 49 83 }
 }
 
+c_farther_pomerania = {
+	de_jure_liege_title = d_pomerania
+	color = { 199 178 236 }
+}
+
 c_giessen = {
 	de_jure_liege_title = d_darmstadt
 	color = { 0 82 159 }
@@ -177,6 +182,11 @@ c_gottingen = {
 c_hanover = {
 	de_jure_liege_title = d_luneburg
 	color = { 255 206 8 }
+}
+
+c_hither_pomerania = {
+	de_jure_liege_title = d_pomerania
+	color = { 214 40 40 }
 }
 
 c_holstein = {
@@ -217,11 +227,6 @@ c_oldenburg = {
 c_oppeln = {
 	de_jure_liege_title = d_silesia
 	color = { 0 103 177 }
-}
-
-c_pomerania = {
-	de_jure_liege_title = d_pomerania
-	color = { 214 40 40 }
 }
 
 c_schwerin = {
@@ -424,6 +429,18 @@ b_tilsit = {
 	de_jure_liege_title = c_east_prussia
 }
 
+b_kolberg = {
+	de_jure_liege_title = c_farther_pomerania
+}
+
+b_koslin = {
+	de_jure_liege_title = c_farther_pomerania
+}
+
+b_stargard = {
+	de_jure_liege_title = c_farther_pomerania
+}
+
 b_giessen = {
 	de_jure_liege_title = c_giessen
 }
@@ -478,6 +495,22 @@ b_osnabruck = {
 
 b_stade = {
 	de_jure_liege_title = c_hanover
+}
+
+b_greifswald = {
+	de_jure_liege_title = c_hither_pomerania
+}
+
+b_stettin = {
+	de_jure_liege_title = c_hither_pomerania
+}
+
+b_stralsund = {
+	de_jure_liege_title = c_hither_pomerania
+}
+
+b_swinemunde = {
+	de_jure_liege_title = c_hither_pomerania
 }
 
 b_itzehoe = {
@@ -602,34 +635,6 @@ b_neisse = {
 
 b_oppeln = {
 	de_jure_liege_title = c_oppeln
-}
-
-b_greifswald = {
-	de_jure_liege_title = c_pomerania
-}
-
-b_kolberg = {
-	de_jure_liege_title = c_pomerania
-}
-
-b_koslin = {
-	de_jure_liege_title = c_pomerania
-}
-
-b_stargard = {
-	de_jure_liege_title = c_pomerania
-}
-
-b_stettin = {
-	de_jure_liege_title = c_pomerania
-}
-
-b_stralsund = {
-	de_jure_liege_title = c_pomerania
-}
-
-b_swinemunde = {
-	de_jure_liege_title = c_pomerania
 }
 
 b_parchim = {

@@ -28,6 +28,11 @@ p_east_prussia = {
 	color = { 65 220 96 }
 }
 
+p_farther_pomerania = {
+	county = c_farther_pomerania
+	color = { 91 25 205 }
+}
+
 p_giessen = {
 	county = c_giessen
 	color = { 249 53 64 }
@@ -41,6 +46,11 @@ p_gottingen = {
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
+}
+
+p_hither_pomerania = {
+	county = c_hither_pomerania
+	color = { 164 255 28 }
 }
 
 p_holstein = {
@@ -81,11 +91,6 @@ p_oldenburg = {
 p_oppeln = {
 	county = c_oppeln
 	color = { 208 155 124 }
-}
-
-p_pomerania = {
-	county = c_pomerania
-	color = { 164 255 28 }
 }
 
 p_schwerin = {
