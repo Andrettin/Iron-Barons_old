@@ -8,6 +8,7 @@ c_lodz = "Lodz"
 c_lodz_polish = "Łódzkie" #Source: "Philip's International School Atlas", 2006, p. 60.
 c_lublin = "Lublin"
 c_lublin_polish = "Lubelskie" #Source: "Philip's International School Atlas", 2006, p. 60.
+c_mariampol = "Mariampol"
 c_mazovia = "Mazovia"
 c_mazovia_polish = "Mazowieckie" #Source: "Philip's International School Atlas", 2006, p. 60.
 c_podlasie = "Podlasie"

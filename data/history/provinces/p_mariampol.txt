@@ -1,0 +1,12 @@
+culture = polish
+religion = catholic
+
+1812.1.1 = {
+	b_mariampol = town #Mariampol existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
+	
+	capital_holding = b_mariampol
+}
+
+1815.1.1 = {
+	b_virballen = town #Virballen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

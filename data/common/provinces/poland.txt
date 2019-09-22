@@ -28,6 +28,11 @@ p_lublin = {
 	color = { 70 135 210 }
 }
 
+p_mariampol = {
+	county = c_mariampol
+	color = { 118 165 216 }
+}
+
 p_mazovia = {
 	county = c_mazovia
 	color = { 138 57 209 }

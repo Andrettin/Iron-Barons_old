@@ -1,4 +1,4 @@
-r_imperial_austria = { #the territory of the Empire Austria, 1815-1866
+r_imperial_austria = { #the territory of the Empire of Austria, 1815-1866
 	provinces += p_lower_austria
 	provinces += p_upper_austria
 	provinces += p_styria
@@ -13,7 +13,7 @@ r_imperial_austria = { #the territory of the Empire Austria, 1815-1866
 	provinces += p_venetia
 }
 
-r_imperial_austria_1806 = { #the territory of the Empire Austria, 1806-1812
+r_imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1812
 	provinces += p_lower_austria
 	provinces += p_upper_austria
 	provinces += p_styria

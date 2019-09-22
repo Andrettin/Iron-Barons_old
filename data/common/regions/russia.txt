@@ -1,0 +1,3 @@
+r_soviet_union = {
+	provinces += p_mariampol
+}

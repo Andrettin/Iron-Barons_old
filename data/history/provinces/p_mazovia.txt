@@ -3,6 +3,16 @@ religion = catholic
 
 1815.1.1 = {
 	b_warsaw = city #Warsaw existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_praga = town #Praga existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_modlin = town #Modlin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_warka = town #Warka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_pultusk = town #Pultusk existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_plock = town #Plock existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_radom = town #Radom existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_siedlce = town #Siedlce existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_ostrolenka = town #Ostrolenka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_wola = village #Wola existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_nur = village #Nur existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.	
 	
 	capital_holding = b_warsaw
 }
