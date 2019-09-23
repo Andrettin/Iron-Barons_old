@@ -1,0 +1,29 @@
+laborers = {
+	province = p_carinthia
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1801.1.1 = {
+		size = 283924 #Carinthia had a population of 283,924 in 1801 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1803.1.1 = {
+		size = 283102 #Carinthia had a population of 283,102 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1805.1.1 = {
+		size = 286703 #Carinthia had a population of 286,703 in 1805 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1806.1.1 = {
+		size = 278084 #Carinthia had a population of 278,084 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1807.1.1 = {
+		size = 278168 #Carinthia had a population of 278,168 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1809.1.1 = {
+		size = 280000 #Carinthia had an estimated population of 280,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}

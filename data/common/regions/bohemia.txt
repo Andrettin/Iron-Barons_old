@@ -1,0 +1,4 @@
+r_czechoslovakia = {
+	provinces += p_bohemia
+	provinces += p_moravia
+}

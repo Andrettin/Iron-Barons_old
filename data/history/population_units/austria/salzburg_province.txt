@@ -1,0 +1,13 @@
+laborers = {
+	province = p_salzburg
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1808.1.1 = {
+		size = 193825 #Salzburg (province) with Berchtoldsg. had a population of 193,825 in 1808 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1809.1.1 = {
+		size = 195000 #Salzburg (province) with Berchtoldsg. had an estimated population of 195,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}
