@@ -1,0 +1,14 @@
+p_croatia = {
+	county = c_croatia
+	color = { 183 217 124 }
+}
+
+p_dalmatia = {
+	county = c_dalmatia
+	color = { 55 112 202 }
+}
+
+p_slavonia = {
+	county = c_slavonia
+	color = { 202 45 184 }
+}

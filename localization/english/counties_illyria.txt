@@ -1,0 +1,3 @@
+c_croatia = "Croatia"
+c_dalmatia = "Dalmatia"
+c_slavonia = "Slavonia"
