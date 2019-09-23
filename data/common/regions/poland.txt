@@ -17,6 +17,7 @@ r_poland = { #the territory of modern Poland
 	provinces += p_subcarpathia
 	provinces += p_thorn
 	provinces += p_wloclawek
+	provinces += p_teschen
 }
 
 r_galicia = {
