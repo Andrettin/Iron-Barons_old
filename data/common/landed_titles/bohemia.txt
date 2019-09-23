@@ -16,6 +16,12 @@ d_moravia = {
 	capital_province = p_moravia
 }
 
+d_teschen = {
+	de_jure_liege_title = k_bohemia
+	color = { 255 159 23 }
+	capital_province = p_teschen
+}
+
 c_bohemia = {
 	de_jure_liege_title = d_bohemia
 	color = { 197 114 24 }
@@ -24,6 +30,11 @@ c_bohemia = {
 c_moravia = {
 	de_jure_liege_title = d_moravia
 	color = { 14 21 124 }
+}
+
+c_teschen = {
+	de_jure_liege_title = d_teschen
+	color = { 255 159 23 }
 }
 
 b_budweis = {
@@ -136,4 +147,8 @@ b_tobitschau = {
 
 b_troppau = {
 	de_jure_liege_title = c_moravia
+}
+
+b_teschen = {
+	de_jure_liege_title = c_teschen
 }
