@@ -1,0 +1,16 @@
+r_yugoslavia = {
+	subregions += r_croatia
+	subregions += r_slovenia
+}
+
+r_croatia = { #the territory of modern Croatia
+	provinces += p_croatia
+	provinces += p_slavonia
+	provinces += p_fiume
+	provinces += p_dalmatia
+	provinces += p_istria
+}
+
+r_slovenia = { #the territory of modern Slovenia
+	provinces += p_carniola
+}

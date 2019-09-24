@@ -2,3 +2,10 @@ r_italy = {
 	provinces += p_lombardy
 	provinces += p_venetia
 }
+
+r_modern_italy = {
+	provinces += p_lombardy
+	provinces += p_venetia
+	provinces += p_trieste
+	provinces += p_gorz
+}

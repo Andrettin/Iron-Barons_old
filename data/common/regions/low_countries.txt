@@ -1,3 +1,9 @@
+r_low_countries = {
+	subregions += r_netherlands
+	subregions += r_belgium
+	provinces += p_luxembourg
+}
+
 r_netherlands = {
 	provinces += p_netherlands
 	provinces += p_limburg

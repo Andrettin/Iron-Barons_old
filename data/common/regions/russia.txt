@@ -1,4 +1,5 @@
 r_soviet_union = {
+	provinces += p_east_prussia
 	provinces += p_lemberg
 	provinces += p_mariampol
 	provinces += p_stanislawow

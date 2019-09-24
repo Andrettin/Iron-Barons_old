@@ -7,4 +7,3 @@ religion = catholic
 	
 	capital_holding = b_split
 }
-

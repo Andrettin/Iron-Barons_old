@@ -1,4 +1,8 @@
 r_czechoslovakia = {
+	subregions += r_czechia
+}
+
+r_czechia = { #the territory of the modern Czech Republic
 	provinces += p_bohemia
 	provinces += p_moravia
 }

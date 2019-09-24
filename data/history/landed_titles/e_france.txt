@@ -7,5 +7,5 @@
 }
 
 1815.1.1 = {
-	holder = 0 #Louis de Bourbon was king of France as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
+	holder = none #Louis de Bourbon was king of France as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
 }

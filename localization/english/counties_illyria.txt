@@ -1,3 +1,7 @@
 c_croatia = "Croatia"
 c_dalmatia = "Dalmatia"
+c_fiume = "Fiume"
+c_gorz = "Görz"
+c_istria = "Istria"
 c_slavonia = "Slavonia"
+c_trieste = "Trieste"

@@ -1,3 +1,9 @@
+k_illyria = {
+	de_jure_liege_title = e_germany #part of the German Confederation
+	color = { 228 1 42 }
+	capital_province = p_carniola
+}
+
 d_croatia = {
 	de_jure_liege_title = k_hungary
 	color = { 225 14 30 }
@@ -8,6 +14,12 @@ d_dalmatia = {
 	de_jure_liege_title = k_italy
 	color = { 62 73 143 }
 	capital_province = p_dalmatia
+}
+
+d_istria = {
+	de_jure_liege_title = k_italy
+	color = { 66 71 129 }
+	capital_province = p_trieste
 }
 
 d_slavonia = {
@@ -26,9 +38,29 @@ c_dalmatia = {
 	color = { 62 73 143 }
 }
 
+c_fiume = {
+	de_jure_liege_title = d_croatia
+	color = { 70 198 199 }
+}
+
+c_gorz = {
+	de_jure_liege_title = d_istria
+	color = { 2 1 221 }
+}
+
+c_istria = {
+	de_jure_liege_title = d_istria
+	color = { 66 71 129 }
+}
+
 c_slavonia = {
 	de_jure_liege_title = d_slavonia
 	color = { 91 114 215 }
+}
+
+c_trieste = {
+	de_jure_liege_title = d_istria
+	color = { 188 30 19 }
 }
 
 b_agram = {
@@ -45,6 +77,22 @@ b_zengg = {
 
 b_split = {
 	de_jure_liege_title = c_dalmatia
+}
+
+b_fiume = {
+	de_jure_liege_title = c_fiume
+}
+
+b_gorz = {
+	de_jure_liege_title = c_gorz
+}
+
+b_gradisca = {
+	de_jure_liege_title = c_gorz
+}
+
+b_pola = {
+	de_jure_liege_title = c_istria
 }
 
 b_carlowitz = {
@@ -65,4 +113,8 @@ b_pozhega = {
 
 b_semlin = {
 	de_jure_liege_title = c_slavonia
+}
+
+b_trieste = {
+	de_jure_liege_title = c_trieste
 }

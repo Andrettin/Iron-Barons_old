@@ -1,0 +1,13 @@
+r_non_cis_europe = { #Europe excluding the countries in the Commonwealth of Independent States
+	subregions += r_austria
+	subregions += r_baltic_countries
+	subregions += r_czechia
+	subregions += r_germany
+	subregions += r_hungary
+	subregions += r_low_countries
+	subregions += r_modern_italy
+	subregions += r_poland
+	subregions += r_portugal
+	subregions += r_romania
+	subregions += r_yugoslavia
+}

@@ -4,4 +4,9 @@ r_royal_hungary = {
 	provinces += p_transylvania
 	provinces += p_croatia
 	provinces += p_slavonia
+	provinces += p_fiume
+}
+
+r_hungary = { #the territory of modern Hungary
+	provinces += p_hungary
 }
