@@ -37,6 +37,11 @@ c_teschen = {
 	color = { 255 159 23 }
 }
 
+c_troppau = {
+	de_jure_liege_title = d_moravia #perhaps should be its own duchy? as it was not a part of Moravia administratively
+	color = { 231 229 223 }
+}
+
 b_budweis = {
 	de_jure_liege_title = c_bohemia
 }
@@ -145,10 +150,10 @@ b_tobitschau = {
 	de_jure_liege_title = c_moravia
 }
 
-b_troppau = {
-	de_jure_liege_title = c_moravia
-}
-
 b_teschen = {
 	de_jure_liege_title = c_teschen
+}
+
+b_troppau = {
+	de_jure_liege_title = c_troppau
 }

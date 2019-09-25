@@ -5,4 +5,11 @@ r_czechoslovakia = {
 r_czechia = { #the territory of the modern Czech Republic
 	provinces += p_bohemia
 	provinces += p_moravia
+	provinces += p_troppau
+}
+
+r_moravia_and_silesia = { #the Austrian provinces of Moravia and Silesia, which were sometimes put together in statistics
+	provinces += p_moravia
+	provinces += p_troppau
+	provinces += p_teschen
 }

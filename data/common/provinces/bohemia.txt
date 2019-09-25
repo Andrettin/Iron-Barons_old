@@ -12,3 +12,8 @@ p_teschen = {
 	county = c_teschen
 	color = { 250 97 3 }
 }
+
+p_troppau = {
+	county = c_troppau
+	color = { 208 156 43 }
+}
