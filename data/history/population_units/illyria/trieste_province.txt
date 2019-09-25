@@ -1,0 +1,17 @@
+laborers = {
+	province = p_trieste
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1802.1.1 = {
+		size = 24603 #Trieste (province) had a population of 24,603 in 1802 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1806.1.1 = {
+		size = 29227 #Trieste (province) had a population of 29,227 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1809.1.1 = {
+		size = 30000 #Trieste (province) had an estimated population of 30,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}
