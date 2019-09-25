@@ -1,4 +1,5 @@
 1815.1.1 = {
 	holder = random
 	liege_title = k_hungary #part of the Kingdom of Hungary as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += appointment_succession
 }

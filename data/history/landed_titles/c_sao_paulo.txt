@@ -1,4 +1,5 @@
 1532.1.1 = {
 	holder = random
 	liege_title = k_portugal #São Paulo was founded in 1532/1560; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
+	laws += appointment_succession
 }

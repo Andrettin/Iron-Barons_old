@@ -5,4 +5,5 @@
 1849.1.1 = {
 	holder = random
 	liege_title = e_austria #ceased to be a part of the Kingdom of Illyria in 1849; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += appointment_succession
 }

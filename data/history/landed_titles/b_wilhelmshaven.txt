@@ -1,4 +1,5 @@
 1854.1.1 = {
 	holder = random
 	liege_title = k_prussia #became a Prussian possession in 1854; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += appointment_succession
 }

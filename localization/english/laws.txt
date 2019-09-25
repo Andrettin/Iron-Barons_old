@@ -1,0 +1,2 @@
+appointment_succession = "Appointment"
+primogeniture_succession = "Primogeniture"

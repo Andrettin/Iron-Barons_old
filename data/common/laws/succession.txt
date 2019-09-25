@@ -1,0 +1,7 @@
+appointment_succession = {
+	group = succession
+}
+
+primogeniture_succession = {
+	group = succession
+}
