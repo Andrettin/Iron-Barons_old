@@ -7,7 +7,7 @@ r_imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
 	subregions += r_carniola_and_gorz
 	provinces += p_bohemia
 	subregions += r_moravia_and_silesia
-	subregions += r_galicia
+	subregions += r_galicia_and_west_galicia
 	subregions += r_royal_hungary
 	provinces += p_trieste
 }

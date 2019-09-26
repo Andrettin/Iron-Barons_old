@@ -86,6 +86,16 @@ c_posen = {
 	color = { 237 11 10 }
 }
 
+c_radom = {
+	de_jure_liege_title = d_warsaw
+	color = { 239 31 40 }
+}
+
+c_siedlce = {
+	de_jure_liege_title = d_warsaw
+	color = { 227 213 250 }
+}
+
 c_stanislawow = {
 	de_jure_liege_title = d_galicia
 	color = { 230 230 250 }
@@ -193,14 +203,6 @@ b_pultusk = {
 	de_jure_liege_title = c_mazovia
 }
 
-b_radom = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_siedlce = {
-	de_jure_liege_title = c_mazovia
-}
-
 b_warka = {
 	de_jure_liege_title = c_mazovia
 }
@@ -271,6 +273,14 @@ b_wreschen = {
 
 b_xions = {
 	de_jure_liege_title = c_posen
+}
+
+b_radom = {
+	de_jure_liege_title = c_radom
+}
+
+b_siedlce = {
+	de_jure_liege_title = c_siedlce
 }
 
 b_stanislawow = {

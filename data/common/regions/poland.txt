@@ -14,6 +14,8 @@ r_poland = { #the territory of modern Poland
 	provinces += p_oppeln
 	provinces += p_podlasie
 	provinces += p_posen
+	provinces += p_radom
+	provinces += p_siedlce
 	provinces += p_subcarpathia
 	provinces += p_thorn
 	provinces += p_wloclawek
@@ -26,4 +28,13 @@ r_galicia = {
 	provinces += p_lesser_poland
 	provinces += p_stanislawow
 	provinces += p_subcarpathia
+}
+
+r_galicia_and_west_galicia = { 
+	subregions += r_galicia
+	provinces += p_kielce
+	provinces += p_krakow
+	provinces += p_lublin
+	provinces += p_radom
+	provinces += p_siedlce
 }

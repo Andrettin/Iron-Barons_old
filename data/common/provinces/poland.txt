@@ -58,6 +58,16 @@ p_posen = {
 	color = { 208 23 78 }
 }
 
+p_radom = {
+	county = c_radom
+	color = { 251 166 47 }
+}
+
+p_siedlce = {
+	county = c_siedlce
+	color = { 210 245 13 }
+}
+
 p_stanislawow = {
 	county = c_stanislawow
 	color = { 76 216 95 }
