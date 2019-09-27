@@ -10,3 +10,11 @@ r_royal_hungary = {
 r_hungary = { #the territory of modern Hungary
 	provinces += p_hungary
 }
+
+r_hungary_croatia_slavonia = {
+	provinces += p_hungary
+	provinces += p_burgenland
+	provinces += p_croatia
+	provinces += p_slavonia
+	provinces += p_fiume
+}

@@ -1,0 +1,13 @@
+laborers = {
+	province = p_transylvania
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1786.1.1 = {
+		size = 1412985 #Transylvania had a population of 1,412,985 in 1786 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1809.1.1 = {
+		size = 1660600 #Transylvania had an estimated population of 1,660,600 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}

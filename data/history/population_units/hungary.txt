@@ -1,3 +1,27 @@
+laborers = {
+	region = r_hungary_croatia_slavonia
+	discount_existing = yes
+	discount_any_type = yes
+	discount_types -= gentlemen
+	discount_types -= clergymen
+	
+	1785.1.1 = {
+		size = 7008574 #Hungary-Croatia-Slavonia had a population (not counting the nobility and clergy) of 7,008,574 in 1785 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1787.1.1 = {
+		size = 7116789 #Hungary-Croatia-Slavonia had a population (not counting the nobility and clergy) of 7,116,789 in 1787 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1808.1.1 = {
+		size = 7555920 #Hungary-Croatia-Slavonia had a population (not counting the nobility and clergy) of 7,555,920 in 180(8?) AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+
+	1809.1.1 = {
+		size = 7990000 #Hungary-Croatia-Slavonia had an estimated population (not counting the nobility and clergy) of 7,990,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}
+
 gentlemen = {
 	region = r_royal_hungary
 	discount_existing = yes
