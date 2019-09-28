@@ -15,11 +15,6 @@ k_hanover = {
 	capital_province = p_hanover
 }
 
-k_prussia = {
-	color = { 0 49 83 }
-	capital_province = p_brandenburg
-}
-
 d_baden = {
 	de_jure_liege_title = k_germany
 	color = { 255 221 0 }
@@ -42,12 +37,6 @@ d_darmstadt = {
 	de_jure_liege_title = k_germany
 	color = { 226 0 26 }
 	capital_province = p_darmstadt
-}
-
-d_east_prussia = {
-	de_jure_liege_title = k_prussia
-	color = { 0 49 83 }
-	capital_province = p_east_prussia
 }
 
 d_holstein = {
@@ -128,12 +117,6 @@ d_westphalia = {
 	capital_province = p_westphalia
 }
 
-d_west_prussia = {
-	de_jure_liege_title = k_prussia
-	color = { 77 77 77 }
-	capital_province = p_danzig
-}
-
 c_baden = {
 	de_jure_liege_title = d_baden
 	color = { 255 221 0 }
@@ -154,19 +137,9 @@ c_brunswick = {
 	color = { 0 0 204 }
 }
 
-c_danzig = {
-	de_jure_liege_title = d_west_prussia
-	color = { 77 77 77 }
-}
-
 c_darmstadt = {
 	de_jure_liege_title = d_darmstadt
 	color = { 226 0 26 }
-}
-
-c_east_prussia = {
-	de_jure_liege_title = d_east_prussia
-	color = { 0 49 83 }
 }
 
 c_farther_pomerania = {
@@ -242,11 +215,6 @@ c_schwerin = {
 c_strelitz = {
 	de_jure_liege_title = d_strelitz
 	color = { 252 195 0 }
-}
-
-c_thorn = {
-	de_jure_liege_title = d_west_prussia
-	color = { 225 196 236 }
 }
 
 c_westphalia = {
@@ -398,56 +366,12 @@ b_brunswick = {
 	de_jure_liege_title = c_brunswick
 }
 
-b_danzig = {
-	de_jure_liege_title = c_danzig
-}
-
-b_elbing = {
-	de_jure_liege_title = c_danzig
-}
-
-b_marienburg = {
-	de_jure_liege_title = c_danzig
-}
-
-b_marienwerder = {
-	de_jure_liege_title = c_danzig
-}
-
 b_darmstadt = {
 	de_jure_liege_title = c_darmstadt
 }
 
 b_heppenheim = {
 	de_jure_liege_title = c_darmstadt
-}
-
-b_allenstein = {
-	de_jure_liege_title = c_east_prussia
-}
-
-b_boyen = {
-	de_jure_liege_title = c_east_prussia
-}
-
-b_eydtkuhnen = {
-	de_jure_liege_title = c_east_prussia
-}
-
-b_gumbinnen = {
-	de_jure_liege_title = c_east_prussia
-}
-
-b_konigsberg = {
-	de_jure_liege_title = c_east_prussia
-}
-
-b_memel = {
-	de_jure_liege_title = c_east_prussia
-}
-
-b_tilsit = {
-	de_jure_liege_title = c_east_prussia
 }
 
 b_kolberg = {
@@ -676,14 +600,6 @@ b_wismar = {
 
 b_strelitz = {
 	de_jure_liege_title = c_strelitz
-}
-
-b_graudenz = {
-	de_jure_liege_title = c_thorn
-}
-
-b_thorn = {
-	de_jure_liege_title = c_thorn
 }
 
 b_arnsberg = {

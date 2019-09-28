@@ -1,0 +1,83 @@
+k_prussia = {
+	color = { 0 49 83 }
+	capital_province = p_brandenburg
+}
+
+d_east_prussia = {
+	de_jure_liege_title = k_prussia
+	color = { 0 49 83 }
+	capital_province = p_east_prussia
+}
+
+d_west_prussia = {
+	de_jure_liege_title = k_prussia
+	color = { 77 77 77 }
+	capital_province = p_danzig
+}
+
+c_danzig = {
+	de_jure_liege_title = d_west_prussia
+	color = { 77 77 77 }
+}
+
+c_east_prussia = {
+	de_jure_liege_title = d_east_prussia
+	color = { 0 49 83 }
+}
+
+c_thorn = {
+	de_jure_liege_title = d_west_prussia
+	color = { 225 196 236 }
+}
+
+b_danzig = {
+	de_jure_liege_title = c_danzig
+}
+
+b_elbing = {
+	de_jure_liege_title = c_danzig
+}
+
+b_marienburg = {
+	de_jure_liege_title = c_danzig
+}
+
+b_marienwerder = {
+	de_jure_liege_title = c_danzig
+}
+
+b_allenstein = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_boyen = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_eydtkuhnen = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_gumbinnen = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_konigsberg = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_memel = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_tilsit = {
+	de_jure_liege_title = c_east_prussia
+}
+
+b_graudenz = {
+	de_jure_liege_title = c_thorn
+}
+
+b_thorn = {
+	de_jure_liege_title = c_thorn
+}
