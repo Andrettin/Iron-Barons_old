@@ -28,6 +28,11 @@ p_karlstadt = {
 	color = { 129 221 154 }
 }
 
+p_sisak = {
+	county = c_sisak
+	color = { 134 230 230 }
+}
+
 p_slavonia = {
 	county = c_slavonia
 	color = { 202 45 184 }

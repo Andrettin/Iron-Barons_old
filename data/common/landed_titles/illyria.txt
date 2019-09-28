@@ -58,6 +58,11 @@ c_karlstadt = {
 	color = { 24 211 173 }
 }
 
+c_sisak = {
+	de_jure_liege_title = d_croatia
+	color = { 27 194 12 }
+}
+
 c_slavonia = {
 	de_jure_liege_title = d_slavonia
 	color = { 91 114 215 }
@@ -105,6 +110,10 @@ b_zengg = {
 	de_jure_liege_title = c_karlstadt
 }
 
+b_sisak = {
+	de_jure_liege_title = c_sisak
+}
+
 b_carlowitz = {
 	de_jure_liege_title = c_slavonia
 }
@@ -127,6 +136,10 @@ b_semlin = {
 
 b_trieste = {
 	de_jure_liege_title = c_trieste
+}
+
+b_warasdin = {
+	de_jure_liege_title = c_zagreb
 }
 
 b_zagreb = {

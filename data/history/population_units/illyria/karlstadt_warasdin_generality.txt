@@ -1,5 +1,5 @@
 laborers = {
-	region = r_karlstadt_warasdin_military_frontier
+	region = r_karlstadt_warasdin_generality
 	discount_existing = yes
 	discount_any_type = yes
 	

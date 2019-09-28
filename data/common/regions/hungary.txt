@@ -4,6 +4,7 @@ r_royal_hungary = {
 	provinces += p_transylvania
 	provinces += p_bjelovar
 	provinces += p_karlstadt
+	provinces += p_sisak
 	provinces += p_zagreb
 	provinces += p_slavonia
 	provinces += p_fiume

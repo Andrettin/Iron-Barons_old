@@ -1,0 +1,25 @@
+laborers = {
+	province = p_sisak #Banalian Frontier
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1799.1.1 = {
+		size = 93605 #the Banalian Frontier had a population of 93,605 in 1799 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1803.1.1 = {
+		size = 92900 #the Banalian Frontier had a population of 92,900 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1806.1.1 = {
+		size = 95397 #the Banalian Frontier had a population of 95,397 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1807.1.1 = {
+		size = 95442 #the Banalian Frontier had a population of 95,442 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+	
+	1809.1.1 = {
+		size = 96000 #the Banalian Frontier had an estimated population of 96,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+	}
+}
