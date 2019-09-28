@@ -5,13 +5,20 @@ r_yugoslavia = {
 
 r_croatia = { #the territory of modern Croatia
 	provinces += p_bjelovar
+	provinces += p_brod
 	provinces += p_dalmatia
 	provinces += p_fiume
 	provinces += p_istria
 	provinces += p_karlstadt
 	provinces += p_sisak
 	provinces += p_slavonia
+	provinces += p_vukovar
 	provinces += p_zagreb
+}
+
+r_serbia = { #the territory of modern Serbia
+	provinces += p_neusatz
+	provinces += p_peterwardein
 }
 
 r_slovenia = { #the territory of modern Slovenia

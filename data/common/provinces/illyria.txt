@@ -3,6 +3,11 @@ p_bjelovar = {
 	color = { 52 240 184 }
 }
 
+p_brod = {
+	county = c_brod
+	color = { 36 69 218 }
+}
+
 p_dalmatia = {
 	county = c_dalmatia
 	color = { 55 112 202 }
@@ -28,6 +33,16 @@ p_karlstadt = {
 	color = { 129 221 154 }
 }
 
+p_neusatz = {
+	county = c_neusatz
+	color = { 112 95 226 }
+}
+
+p_peterwardein = {
+	county = c_peterwardein
+	color = { 182 222 38 }
+}
+
 p_sisak = {
 	county = c_sisak
 	color = { 134 230 230 }
@@ -41,6 +56,11 @@ p_slavonia = {
 p_trieste = {
 	county = c_trieste
 	color = { 216 196 14 }
+}
+
+p_vukovar = {
+	county = c_vukovar
+	color = { 26 208 93 }
 }
 
 p_zagreb = {

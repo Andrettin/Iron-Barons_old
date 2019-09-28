@@ -1,4 +1,5 @@
 b_bjelovar = "Bjelovar"
+b_brod = "Brod"
 b_carlowitz = "Carlowitz"
 b_esseg = "Esseg"
 b_fiume = "Fiume"
@@ -14,6 +15,7 @@ b_split = "Split"
 b_split_italian = "Spalato"
 b_trieste = "Trieste"
 b_trieste_german = "Triest"
+b_vukovar = "Vukovar"
 b_warasdin = "Warasdin"
 b_zagreb = "Zagreb"
 b_zagreb_german = "Agram" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

@@ -1,4 +1,5 @@
 c_burgenland = "Burgenland"
 c_hungary = "Hungary"
+c_neusatz = "Neusatz"
 c_transylvania = "Transylvania"
 c_transylvania_german = "Siebenbürgen" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.

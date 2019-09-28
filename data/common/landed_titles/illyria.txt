@@ -33,6 +33,11 @@ c_bjelovar = {
 	color = { 191 215 194 }
 }
 
+c_brod = {
+	de_jure_liege_title = d_slavonia
+	color = { 7 45 168 }
+}
+
 c_dalmatia = {
 	de_jure_liege_title = d_dalmatia
 	color = { 62 73 143 }
@@ -58,6 +63,11 @@ c_karlstadt = {
 	color = { 24 211 173 }
 }
 
+c_peterwardein = {
+	de_jure_liege_title = d_slavonia
+	color = { 35 58 126 }
+}
+
 c_sisak = {
 	de_jure_liege_title = d_croatia
 	color = { 27 194 12 }
@@ -73,6 +83,11 @@ c_trieste = {
 	color = { 188 30 19 }
 }
 
+c_vukovar = {
+	de_jure_liege_title = d_slavonia
+	color = { 88 164 172 }
+}
+
 c_zagreb = {
 	de_jure_liege_title = d_croatia
 	color = { 225 14 30 }
@@ -80,6 +95,10 @@ c_zagreb = {
 
 b_bjelovar = {
 	de_jure_liege_title = c_bjelovar
+}
+
+b_brod = {
+	de_jure_liege_title = c_brod
 }
 
 b_split = {
@@ -110,19 +129,23 @@ b_zengg = {
 	de_jure_liege_title = c_karlstadt
 }
 
+b_carlowitz = {
+	de_jure_liege_title = c_peterwardein
+}
+
+b_peterwardein = {
+	de_jure_liege_title = c_peterwardein
+}
+
+b_semlin = {
+	de_jure_liege_title = c_peterwardein
+}
+
 b_sisak = {
 	de_jure_liege_title = c_sisak
 }
 
-b_carlowitz = {
-	de_jure_liege_title = c_slavonia
-}
-
 b_esseg = {
-	de_jure_liege_title = c_slavonia
-}
-
-b_peterwardein = {
 	de_jure_liege_title = c_slavonia
 }
 
@@ -130,12 +153,12 @@ b_pozhega = {
 	de_jure_liege_title = c_slavonia
 }
 
-b_semlin = {
-	de_jure_liege_title = c_slavonia
-}
-
 b_trieste = {
 	de_jure_liege_title = c_trieste
+}
+
+b_vukovar = {
+	de_jure_liege_title = c_vukovar
 }
 
 b_warasdin = {

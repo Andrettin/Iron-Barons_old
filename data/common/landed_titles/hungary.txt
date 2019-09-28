@@ -25,6 +25,11 @@ c_hungary = {
 	color = { 131 15 15 }
 }
 
+c_neusatz = {
+	de_jure_liege_title = d_hungary
+	color = { 28 239 229 }
+}
+
 c_transylvania = {
 	de_jure_liege_title = d_transylvania
 	color = { 255 215 0 }
@@ -40,6 +45,14 @@ b_buda = {
 
 b_pest = {
 	de_jure_liege_title = c_hungary
+}
+
+b_neusatz = {
+	de_jure_liege_title = c_neusatz
+}
+
+b_titel = {
+	de_jure_liege_title = c_neusatz
 }
 
 b_klausenburg = {
