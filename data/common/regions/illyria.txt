@@ -29,3 +29,9 @@ r_karlstadt_warasdin_generality = {
 	provinces += p_karlstadt #Karlstadt Generality
 	provinces += p_bjelovar #Warasdin Generality (which, interestingly, did not include Warasdin itself)
 }
+
+r_peterwardein_generality_and_tschaikisten = {
+	provinces += p_brod
+	provinces += p_peterwardein
+	provinces += p_vukovar
+}
