@@ -1,6 +1,6 @@
-p_croatia = {
-	county = c_croatia
-	color = { 183 217 124 }
+p_bjelovar = {
+	county = c_bjelovar
+	color = { 52 240 184 }
 }
 
 p_dalmatia = {
@@ -23,6 +23,11 @@ p_istria = {
 	color = { 57 206 144 }
 }
 
+p_karlstadt = {
+	county = c_karlstadt
+	color = { 129 221 154 }
+}
+
 p_slavonia = {
 	county = c_slavonia
 	color = { 202 45 184 }
@@ -31,4 +36,9 @@ p_slavonia = {
 p_trieste = {
 	county = c_trieste
 	color = { 216 196 14 }
+}
+
+p_zagreb = {
+	county = c_zagreb
+	color = { 183 217 124 }
 }

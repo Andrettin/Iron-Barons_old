@@ -4,13 +4,20 @@ r_yugoslavia = {
 }
 
 r_croatia = { #the territory of modern Croatia
-	provinces += p_croatia
-	provinces += p_slavonia
-	provinces += p_fiume
+	provinces += p_bjelovar
 	provinces += p_dalmatia
+	provinces += p_fiume
 	provinces += p_istria
+	provinces += p_karlstadt
+	provinces += p_slavonia
+	provinces += p_zagreb
 }
 
 r_slovenia = { #the territory of modern Slovenia
 	provinces += p_carniola
+}
+
+r_karlstadt_warasdin_military_frontier = {
+	provinces += p_karlstadt #Karlstadt Generality
+	provinces += p_bjelovar #Warasdin Generality (which, interestingly, did not include Warasdin itself)
 }

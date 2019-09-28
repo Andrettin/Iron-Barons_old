@@ -2,7 +2,9 @@ r_royal_hungary = {
 	provinces += p_hungary
 	provinces += p_burgenland
 	provinces += p_transylvania
-	provinces += p_croatia
+	provinces += p_bjelovar
+	provinces += p_karlstadt
+	provinces += p_zagreb
 	provinces += p_slavonia
 	provinces += p_fiume
 }
@@ -11,10 +13,10 @@ r_hungary = { #the territory of modern Hungary
 	provinces += p_hungary
 }
 
-r_hungary_croatia_slavonia = {
+r_hungary_croatia_slavonia = { #excludes the military frontier
 	provinces += p_hungary
 	provinces += p_burgenland
-	provinces += p_croatia
+	provinces += p_zagreb
 	provinces += p_slavonia
 	provinces += p_fiume
 }

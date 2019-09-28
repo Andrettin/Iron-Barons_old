@@ -7,7 +7,7 @@ k_illyria = {
 d_croatia = {
 	de_jure_liege_title = k_hungary
 	color = { 225 14 30 }
-	capital_province = p_croatia
+	capital_province = p_zagreb
 }
 
 d_dalmatia = {
@@ -28,9 +28,9 @@ d_slavonia = {
 	capital_province = p_slavonia
 }
 
-c_croatia = {
+c_bjelovar = {
 	de_jure_liege_title = d_croatia
-	color = { 225 14 30 }
+	color = { 191 215 194 }
 }
 
 c_dalmatia = {
@@ -53,6 +53,11 @@ c_istria = {
 	color = { 66 71 129 }
 }
 
+c_karlstadt = {
+	de_jure_liege_title = d_croatia
+	color = { 24 211 173 }
+}
+
 c_slavonia = {
 	de_jure_liege_title = d_slavonia
 	color = { 91 114 215 }
@@ -63,16 +68,13 @@ c_trieste = {
 	color = { 188 30 19 }
 }
 
-b_agram = {
-	de_jure_liege_title = c_croatia
+c_zagreb = {
+	de_jure_liege_title = d_croatia
+	color = { 225 14 30 }
 }
 
-b_karlstadt = {
-	de_jure_liege_title = c_croatia
-}
-
-b_zengg = {
-	de_jure_liege_title = c_croatia
+b_bjelovar = {
+	de_jure_liege_title = c_bjelovar
 }
 
 b_split = {
@@ -93,6 +95,14 @@ b_gradisca = {
 
 b_pola = {
 	de_jure_liege_title = c_istria
+}
+
+b_karlstadt = {
+	de_jure_liege_title = c_karlstadt
+}
+
+b_zengg = {
+	de_jure_liege_title = c_karlstadt
 }
 
 b_carlowitz = {
@@ -117,4 +127,8 @@ b_semlin = {
 
 b_trieste = {
 	de_jure_liege_title = c_trieste
+}
+
+b_zagreb = {
+	de_jure_liege_title = c_zagreb
 }
