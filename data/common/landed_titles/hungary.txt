@@ -3,6 +3,12 @@ k_hungary = {
 	capital_province = p_hungary
 }
 
+d_banat = {
+	de_jure_liege_title = k_hungary
+	color = { 40 138 178 }
+	capital_province = p_temesvar
+}
+
 d_hungary = {
 	de_jure_liege_title = k_hungary
 	color = { 131 15 15 }
@@ -25,9 +31,34 @@ c_hungary = {
 	color = { 131 15 15 }
 }
 
+c_kikinda = {
+	de_jure_liege_title = d_banat
+	color = { 240 15 76 }
+}
+
 c_neusatz = {
 	de_jure_liege_title = d_hungary
 	color = { 28 239 229 }
+}
+
+c_melencze = {
+	de_jure_liege_title = d_banat
+	color = { 67 8 158 }
+}
+
+c_pancsova = {
+	de_jure_liege_title = d_banat
+	color = { 143 8 15 }
+}
+
+c_resita = {
+	de_jure_liege_title = d_banat
+	color = { 2 87 180 }
+}
+
+c_temesvar = {
+	de_jure_liege_title = d_banat
+	color = { 165 47 43 }
 }
 
 c_transylvania = {
@@ -47,12 +78,60 @@ b_pest = {
 	de_jure_liege_title = c_hungary
 }
 
+b_kikinda = {
+	de_jure_liege_title = c_kikinda
+}
+
+b_szoreg = {
+	de_jure_liege_title = c_kikinda
+}
+
+b_melencze = {
+	de_jure_liege_title = c_melencze
+}
+
+b_perlasz = {
+	de_jure_liege_title = c_melencze
+}
+
 b_neusatz = {
 	de_jure_liege_title = c_neusatz
 }
 
 b_titel = {
 	de_jure_liege_title = c_neusatz
+}
+
+b_alibunar = {
+	de_jure_liege_title = c_pancsova
+}
+
+b_pancsova = {
+	de_jure_liege_title = c_pancsova
+}
+
+b_weisskirchen = {
+	de_jure_liege_title = c_pancsova
+}
+
+b_werschitz = {
+	de_jure_liege_title = c_pancsova
+}
+
+b_mehadia = {
+	de_jure_liege_title = c_resita
+}
+
+b_resita = {
+	de_jure_liege_title = c_resita
+}
+
+b_lugos = {
+	de_jure_liege_title = c_temesvar
+}
+
+b_temesvar = {
+	de_jure_liege_title = c_temesvar
 }
 
 b_klausenburg = {

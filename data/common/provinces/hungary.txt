@@ -8,6 +8,36 @@ p_hungary = {
 	color = { 57 174 209 }
 }
 
+p_kikinda = {
+	county = c_kikinda
+	color = { 18 221 52 }
+}
+
+p_melencze = {
+	county = c_melencze
+	color = { 153 223 47 }
+}
+
+p_neusatz = {
+	county = c_neusatz
+	color = { 112 95 226 }
+}
+
+p_pancsova = {
+	county = c_pancsova
+	color = { 104 234 156 }
+}
+
+p_resita = {
+	county = c_resita
+	color = { 233 141 125 }
+}
+
+p_temesvar = {
+	county = c_temesvar
+	color = { 204 27 113 }
+}
+
 p_transylvania = {
 	county = c_transylvania
 	color = { 205 120 94 }

@@ -1,0 +1,12 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	b_pancsova = town #Pancsova existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_werschitz = town #Werschitz existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_weisskirchen = town #Weisskirchen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_alibunar = village #Alibunar existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = b_pancsova
+}

@@ -1,3 +1,5 @@
 r_romania = { #the territory of modern Romania
+	provinces += p_resita
+	provinces += p_temesvar
 	provinces += p_transylvania
 }

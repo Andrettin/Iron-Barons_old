@@ -33,11 +33,6 @@ p_karlstadt = {
 	color = { 129 221 154 }
 }
 
-p_neusatz = {
-	county = c_neusatz
-	color = { 112 95 226 }
-}
-
 p_peterwardein = {
 	county = c_peterwardein
 	color = { 182 222 38 }

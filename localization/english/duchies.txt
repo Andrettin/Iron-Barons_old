@@ -1,3 +1,4 @@
+d_banat = "Banat"
 d_belgium = "Belgium"
 d_bohemia = "Bohemia"
 d_bohemia_german = "Böhmen" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.

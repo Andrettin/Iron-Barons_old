@@ -1,0 +1,4 @@
+1815.1.1 = {
+	holder = random
+	liege_title = e_austria #part of the (Austrian) Banat Military Frontier as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

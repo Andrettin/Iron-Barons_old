@@ -1,5 +1,6 @@
 r_yugoslavia = {
 	subregions += r_croatia
+	subregions += r_serbia
 	subregions += r_slovenia
 }
 
@@ -17,7 +18,10 @@ r_croatia = { #the territory of modern Croatia
 }
 
 r_serbia = { #the territory of modern Serbia
+	provinces += p_kikinda
+	provinces += p_melencze
 	provinces += p_neusatz
+	provinces += p_pancsova
 	provinces += p_peterwardein
 }
 
