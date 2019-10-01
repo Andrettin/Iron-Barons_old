@@ -130,6 +130,10 @@ b_vienna = {
 	de_jure_liege_title = c_lower_austria
 }
 
+b_wiener_neustadt = {
+	de_jure_liege_title = c_lower_austria
+}
+
 b_salzburg = {
 	de_jure_liege_title = c_salzburg
 }

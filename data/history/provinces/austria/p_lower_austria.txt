@@ -9,6 +9,7 @@ religion = catholic
 1807.1.1 = {
 	b_sankt_polten = town #Sankt Pölten existed as of 1807; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
 	b_krems = town #Krems existed as of 1807; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
+	b_wiener_neustadt = town #(Wiener) Neustadt existed as of 1807, and was considered a town ("Stadt"); Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
 }
 
 1815.1.1 = {
