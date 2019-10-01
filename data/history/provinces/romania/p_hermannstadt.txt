@@ -4,6 +4,9 @@ religion = orthodox
 	culture = romanian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	b_hermannstadt = town #Hermannstadt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_vizakna = town #Vizakna existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_medgyes = town #Medgyes existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	b_gr_scheuern = village #Gr. Scheuern existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = b_hermannstadt
 }

@@ -33,8 +33,24 @@ b_csik_szereda = {
 	de_jure_liege_title = c_csik_szereda
 }
 
+b_gr_scheuern = {
+	de_jure_liege_title = c_hermannstadt
+}
+
 b_hermannstadt = {
 	de_jure_liege_title = c_hermannstadt
+}
+
+b_medgyes = {
+	de_jure_liege_title = c_hermannstadt
+}
+
+b_vizakna = {
+	de_jure_liege_title = c_hermannstadt
+}
+
+b_fogaras = {
+	de_jure_liege_title = c_kronstadt
 }
 
 b_kronstadt = {
@@ -45,6 +61,58 @@ b_sepsi_sz_gyorgy = {
 	de_jure_liege_title = c_sepsi_sz_gyorgy
 }
 
+b_bistritz = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_broos = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_csucsa = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_dees = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_deva = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_karlsburg = {
+	de_jure_liege_title = c_transylvania
+}
+
 b_klausenburg = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_maros_vasarhely = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_muhlenbach = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_piski = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_schassburg = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_szamos_ujvar = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_szasz_regen = {
+	de_jure_liege_title = c_transylvania
+}
+
+b_zsibo = {
 	de_jure_liege_title = c_transylvania
 }
