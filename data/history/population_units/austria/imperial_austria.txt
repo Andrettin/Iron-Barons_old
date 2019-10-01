@@ -30,7 +30,17 @@ soldiers = {
 	discount_existing = yes
 	discount_types += officers
 	
-	1809.1.1 = {
-		size = 600000 #the Empire of Austria had 600,000 individuals under military jurisdiction outside of the military frontiers in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+	1807.1.1 = {
+		size = 897380 #the Empire of Austria had 897,380 individuals under military jurisdiction inside and outside of the military frontiers in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
+	}
+}
+
+soldiers = {
+	region = r_imperial_austria_1806_without_military_frontiers
+	discount_existing = yes
+	discount_types += officers
+	
+	1807.1.1 = {
+		size = 600000 #the Empire of Austria had 600,000 individuals under military jurisdiction outside of the military frontiers in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
 	}
 }

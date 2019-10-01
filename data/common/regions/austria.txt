@@ -12,6 +12,21 @@ r_imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
 	provinces += p_trieste
 }
 
+r_imperial_austria_1806_without_military_frontiers = { #the territory of the Empire of Austria, 1806-1809 (without the military frontiers)
+	provinces += p_lower_austria
+	provinces += p_upper_austria
+	provinces += p_styria
+	provinces += p_carinthia
+	provinces += p_salzburg
+	subregions += r_carniola_and_gorz
+	provinces += p_bohemia
+	subregions += r_moravia_and_silesia
+	subregions += r_galicia_and_west_galicia
+	subregions += r_hungary_croatia_slavonia #excludes military frontiers
+	subregions += r_transylvanian_core #excludes military its frontier
+	provinces += p_trieste
+}
+
 r_imperial_austria_1809 = { #the territory of the Empire of Austria, 1809-1812
 	provinces += p_lower_austria
 	provinces += p_upper_austria
