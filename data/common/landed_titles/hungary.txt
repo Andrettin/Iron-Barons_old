@@ -15,12 +15,6 @@ d_hungary = {
 	capital_province = p_hungary
 }
 
-d_transylvania = {
-	de_jure_liege_title = k_hungary
-	color = { 255 215 0 }
-	capital_province = p_transylvania
-}
-
 c_burgenland = {
 	de_jure_liege_title = d_hungary
 	color = { 255 165 0 }
@@ -59,11 +53,6 @@ c_resita = {
 c_temesvar = {
 	de_jure_liege_title = d_banat
 	color = { 165 47 43 }
-}
-
-c_transylvania = {
-	de_jure_liege_title = d_transylvania
-	color = { 255 215 0 }
 }
 
 b_eisenstadt = {
@@ -132,8 +121,4 @@ b_lugos = {
 
 b_temesvar = {
 	de_jure_liege_title = c_temesvar
-}
-
-b_klausenburg = {
-	de_jure_liege_title = c_transylvania
 }

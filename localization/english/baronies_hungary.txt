@@ -3,7 +3,6 @@ b_buda = "Buda"
 b_buda_german = "Ofen" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 b_eisenstadt = "Eisenstadt"
 b_kikinda = "Kikinda"
-b_klausenburg = "Klausenburg"
 b_lugos = "Lugos"
 b_mehadia = "Mehadia"
 b_melencze = "Melencze"

@@ -1,0 +1,6 @@
+c_csik_szereda = "Csik-Szereda"
+c_hermannstadt = "Hermannstadt"
+c_kronstadt = "Kronstadt"
+c_sepsi_sz_gyorgy = "Sepsi-Sz. György"
+c_transylvania = "Transylvania"
+c_transylvania_german = "Siebenbürgen" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.

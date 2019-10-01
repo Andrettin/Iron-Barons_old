@@ -1,0 +1,24 @@
+p_csik_szereda = {
+	county = c_csik_szereda
+	color = { 129 213 213 }
+}
+
+p_hermannstadt = {
+	county = c_hermannstadt
+	color = { 175 221 34 }
+}
+
+p_kronstadt = {
+	county = c_kronstadt
+	color = { 205 60 62 }
+}
+
+p_sepsi_sz_gyorgy = {
+	county = c_sepsi_sz_gyorgy
+	color = { 69 217 89 }
+}
+
+p_transylvania = {
+	county = c_transylvania
+	color = { 205 120 94 }
+}

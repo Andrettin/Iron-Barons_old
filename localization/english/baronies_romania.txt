@@ -1,0 +1,5 @@
+b_csik_szereda = "Csik-Szereda"
+b_hermannstadt = "Hermannstadt"
+b_kronstadt = "Kronstadt"
+b_klausenburg = "Klausenburg"
+b_sepsi_sz_gyorgy = "Sepsi-Sz. György"

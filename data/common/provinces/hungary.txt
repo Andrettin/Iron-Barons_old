@@ -37,8 +37,3 @@ p_temesvar = {
 	county = c_temesvar
 	color = { 204 27 113 }
 }
-
-p_transylvania = {
-	county = c_transylvania
-	color = { 205 120 94 }
-}

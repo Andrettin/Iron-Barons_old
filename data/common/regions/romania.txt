@@ -1,5 +1,24 @@
 r_romania = { #the territory of modern Romania
 	provinces += p_resita
 	provinces += p_temesvar
+	subregions += r_transylvania
+}
+
+r_transylvania = {
 	provinces += p_transylvania
+	provinces += p_csik_szereda
+	provinces += p_hermannstadt
+	provinces += p_kronstadt
+	provinces += p_sepsi_sz_gyorgy
+}
+
+r_transylvanian_core = { #Transylvania without its military frontier
+	provinces += p_transylvania
+}
+
+r_transylvanian_military_frontier = {
+	provinces += p_csik_szereda
+	provinces += p_hermannstadt
+	provinces += p_kronstadt
+	provinces += p_sepsi_sz_gyorgy
 }

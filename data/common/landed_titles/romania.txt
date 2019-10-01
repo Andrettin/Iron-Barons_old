@@ -1,0 +1,50 @@
+d_transylvania = {
+	de_jure_liege_title = k_hungary
+	color = { 255 215 0 }
+	capital_province = p_transylvania
+}
+
+c_csik_szereda = {
+	de_jure_liege_title = d_transylvania
+	color = { 241 223 211 }
+}
+
+c_hermannstadt = {
+	de_jure_liege_title = d_transylvania
+	color = { 241 8 46 }
+}
+
+c_kronstadt = {
+	de_jure_liege_title = d_transylvania
+	color = { 237 45 65 }
+}
+
+c_sepsi_sz_gyorgy = {
+	de_jure_liege_title = d_transylvania
+	color = { 154 121 97 }
+}
+
+c_transylvania = {
+	de_jure_liege_title = d_transylvania
+	color = { 255 215 0 }
+}
+
+b_csik_szereda = {
+	de_jure_liege_title = c_csik_szereda
+}
+
+b_hermannstadt = {
+	de_jure_liege_title = c_hermannstadt
+}
+
+b_kronstadt = {
+	de_jure_liege_title = c_kronstadt
+}
+
+b_sepsi_sz_gyorgy = {
+	de_jure_liege_title = c_sepsi_sz_gyorgy
+}
+
+b_klausenburg = {
+	de_jure_liege_title = c_transylvania
+}
