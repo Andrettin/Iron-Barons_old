@@ -18,7 +18,7 @@ Item {
 		radius: 5
 	}
 
-	Map {
+	GrandStrategyMap {
 		id: map
 		x: -3596
 		y: -584
