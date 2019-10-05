@@ -52,6 +52,7 @@ Item {
 						border.width: 2
 						smooth: false
 						clip: true
+						opacity: 0.9
 
 						MouseArea {
 							property bool contained_in_shape: false
@@ -301,10 +302,10 @@ Item {
 
 		Keys.onPressed: {
 			if (event.key === Qt.Key_Z) {
-				map.zoomLevel += 1
+				map.zoomLevel += 0.5
 			} else if (event.key === Qt.Key_X) {
 				if (map.zoomLevel > 1) {
-					map.zoomLevel -= 1
+					map.zoomLevel -= 0.5
 				}
 			}
 		}
