@@ -50,7 +50,7 @@ Item {
 						color: province.county.realm.color
 						border.color: province.selected ? "yellow" : "black"
 						border.width: 2
-						smooth: false
+						smooth: true
 						clip: true
 						opacity: 0.9
 

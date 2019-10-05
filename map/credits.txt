@@ -4,6 +4,7 @@
 /map/provinces/p_dalmatia.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/p_espirito_santo.txt (www.naturalearthdata.com) (public domain)
 /map/provinces/p_hungary.txt (www.github.com/OpenHistoricalMap/data) (public domain)
+/map/provinces/p_lombardy.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 /map/provinces/p_lower_austria.txt (www.naturalearthdata.com) (public domain)
 /map/provinces/p_minas_gerais.txt (www.naturalearthdata.com) (public domain)
 /map/provinces/p_moravia.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
@@ -14,6 +15,7 @@
 /map/provinces/p_troppau.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/p_tyrol.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/p_upper_austria.txt (www.naturalearthdata.com) (public domain)
+/map/provinces/p_venetia.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 
 www.naturalearthdata.com (political borders and administrative divisions) (public domain)
 www.github.com/OpenHistoricalMap/data (political borders and administrative divisions) (public domain)
