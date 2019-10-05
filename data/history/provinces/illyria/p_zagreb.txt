@@ -6,5 +6,5 @@ religion = catholic
 	b_zagreb = town #Zagreb/Agram existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	b_warasdin = town #Warasdin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_warasdin
+	capital_holding = b_zagreb
 }
