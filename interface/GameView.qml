@@ -1,6 +1,9 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
 import QtQuick.Window 2.12
+import QtPositioning 5.13
+import QtLocation 5.13
+import Qt.labs.location 1.0
 
 Item {
 	anchors.fill: parent
@@ -19,9 +22,62 @@ Item {
 	}
 
 	GrandStrategyMap {
-		id: map
+		id: gs_map
 		x: -3596
 		y: -584
+	}
+
+
+	Map {
+		id: map
+		anchors.fill: parent
+		plugin: Plugin { name: "itemsoverlay" }
+		color: "transparent"
+		center: QtPositioning.coordinate(48.2082, 16.3738) // Vienna
+		zoomLevel: 5
+
+		Repeater {
+			model: metternich.provinces
+
+			MapItemGroup {
+				property var province: modelData
+
+				Repeater {
+					model: modelData.geopolygons
+
+					MapPolygon {
+						geoShape: modelData
+						color: province.county.realm.color
+						border.color: province.selected ? "yellow" : "black"
+						border.width: 2
+						smooth: false
+						clip: true
+
+						MouseArea {
+							property bool contained_in_shape: false
+
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip(province.name + (province.county ? "<br><br>Country: " + province.county.realm.titled_name : ""))
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+
+							onClicked: {
+								if (metternich.selected_holding) {
+									metternich.selected_holding.selected = false
+								}
+								if (province.selectable) {
+									province.selected = true
+								} else if (metternich.selected_province) {
+									metternich.selected_province.selected = false
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
 	}
 
 	Timer {
@@ -29,7 +85,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveLeft(1)
+			map.center = map.center.atDistanceAndAzimuth(10000, 270)
 		}
 	}
 
@@ -38,7 +94,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveRight(1)
+			map.center = map.center.atDistanceAndAzimuth(10000, 90)
 		}
 	}
 
@@ -47,7 +103,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveUp(1)
+			map.center = map.center.atDistanceAndAzimuth(10000, 0)
 		}
 	}
 
@@ -56,7 +112,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveDown(1)
+			map.center = map.center.atDistanceAndAzimuth(10000, 180)
 		}
 	}
 
@@ -245,14 +301,10 @@ Item {
 
 		Keys.onPressed: {
 			if (event.key === Qt.Key_Z) {
-				map.scale *= 2
-				map.x *= 2
-				map.y *= 2
+				map.zoomLevel += 1
 			} else if (event.key === Qt.Key_X) {
-				if (map.scale > 1) {
-					map.scale /= 2
-					map.x /= 2
-					map.y /= 2
+				if (map.zoomLevel > 1) {
+					map.zoomLevel -= 1
 				}
 			}
 		}
