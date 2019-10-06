@@ -36,6 +36,18 @@ Item {
 		center: QtPositioning.coordinate(48.2082, 16.3738) // Vienna
 		zoomLevel: 5
 
+		MouseArea {
+			anchors.fill: parent
+			onClicked: {
+				if (metternich.selected_province) {
+					metternich.selected_province.selected = false
+				}
+				if (metternich.selected_holding) {
+					metternich.selected_holding.selected = false
+				}
+			}
+		}
+
 		Repeater {
 			model: metternich.provinces
 
