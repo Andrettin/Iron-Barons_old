@@ -62,6 +62,7 @@
 /map/provinces/romania/p_kronstadt.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/romania/p_sepsi_sz_gyorgy.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/romania/p_transylvania.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
+/map/terrain/plains.txt (www.naturalearthdata.com) (public domain)
 
 www.naturalearthdata.com (political borders and administrative divisions) (public domain)
 www.github.com/OpenHistoricalMap/data (political borders and administrative divisions) (public domain)
