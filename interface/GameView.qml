@@ -59,7 +59,7 @@ Item {
 
 					MapPolygon {
 						geoShape: modelData
-						color: province.county.realm.color
+						color: province.terrain.water ? "#0080ff" : province.county.realm.color
 						border.color: province.selected ? "yellow" : "black"
 						border.width: 2
 						smooth: true
