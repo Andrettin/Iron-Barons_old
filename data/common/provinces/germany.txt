@@ -28,6 +28,10 @@ p_darmstadt = {
 	color = { 211 6 141 }
 }
 
+p_east_frisia = {
+	county = c_east_frisia
+}
+
 p_east_prussia = {
 	county = c_east_prussia
 	color = { 65 220 96 }

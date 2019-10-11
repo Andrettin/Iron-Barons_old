@@ -142,6 +142,11 @@ c_darmstadt = {
 	color = { 226 0 26 }
 }
 
+c_east_frisia = {
+	de_jure_liege_title = d_luneburg
+	color = { 12 0 186 }
+}
+
 c_farther_pomerania = {
 	de_jure_liege_title = d_pomerania
 	color = { 199 178 236 }
@@ -374,6 +379,22 @@ b_heppenheim = {
 	de_jure_liege_title = c_darmstadt
 }
 
+b_aurich = {
+	de_jure_liege_title = c_east_frisia
+}
+
+b_emden = {
+	de_jure_liege_title = c_east_frisia
+}
+
+b_meppen = {
+	de_jure_liege_title = c_east_frisia
+}
+
+b_osnabruck = {
+	de_jure_liege_title = c_east_frisia
+}
+
 b_kolberg = {
 	de_jure_liege_title = c_farther_pomerania
 }
@@ -398,10 +419,6 @@ b_gottingen = {
 	de_jure_liege_title = c_gottingen
 }
 
-b_aurich = {
-	de_jure_liege_title = c_hanover
-}
-
 b_bremen = {
 	de_jure_liege_title = c_hanover
 }
@@ -414,10 +431,6 @@ b_celle = {
 	de_jure_liege_title = c_hanover
 }
 
-b_emden = {
-	de_jure_liege_title = c_hanover
-}
-
 b_hanover = {
 	de_jure_liege_title = c_hanover
 }
@@ -427,14 +440,6 @@ b_hildesheim = {
 }
 
 b_luneburg = {
-	de_jure_liege_title = c_hanover
-}
-
-b_meppen = {
-	de_jure_liege_title = c_hanover
-}
-
-b_osnabruck = {
 	de_jure_liege_title = c_hanover
 }
 
