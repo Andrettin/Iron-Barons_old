@@ -52,6 +52,10 @@ p_gottingen = {
 	color = { 127 110 64 }
 }
 
+p_hamburg = {
+	county = c_hamburg
+}
+
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }

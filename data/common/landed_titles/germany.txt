@@ -162,6 +162,11 @@ c_gottingen = {
 	color = { 218 18 26 }
 }
 
+c_hamburg = {
+	de_jure_liege_title = d_holstein
+	color = { 240 23 40 }
+}
+
 c_hanover = {
 	de_jure_liege_title = d_luneburg
 	color = { 255 206 8 }
@@ -417,6 +422,14 @@ b_homburg = {
 
 b_gottingen = {
 	de_jure_liege_title = c_gottingen
+}
+
+b_altona = {
+	de_jure_liege_title = c_hamburg
+}
+
+b_hamburg = {
+	de_jure_liege_title = c_hamburg
 }
 
 b_bremen = {

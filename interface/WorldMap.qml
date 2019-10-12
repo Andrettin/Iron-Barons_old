@@ -7,10 +7,12 @@ import Qt.labs.location 1.0
 Map {
 	id: map
 	anchors.fill: parent
-	activeMapType: map.supportedMapTypes[1]
+	//activeMapType: map.supportedMapTypes[1]
 	plugin: Plugin {
-		name: "osm"
+//		name: "osm"
+		name: "itemsoverlay"
 
+		/*
 		PluginParameter {
 			name: "osm.mapping.offline.directory"
 			value: "./map/tiles/"
@@ -20,6 +22,7 @@ Map {
 			name: "osm.mapping.providersrepository.disabled"
 			value: true
 		}
+		*/
 	}
 	color: "transparent"
 	zoomLevel: 5
