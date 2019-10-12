@@ -7,7 +7,8 @@ import Qt.labs.location 1.0
 Map {
 	id: map
 	anchors.fill: parent
-	//activeMapType: map.supportedMapTypes[1]
+//	activeMapType: map.supportedMapTypes[1]
+	copyrightsVisible: false
 	plugin: Plugin {
 //		name: "osm"
 		name: "itemsoverlay"
@@ -24,7 +25,7 @@ Map {
 		}
 		*/
 	}
-	color: "transparent"
+	color: "black"
 	zoomLevel: 5
 
 	Component.onCompleted: {

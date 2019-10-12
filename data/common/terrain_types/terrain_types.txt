@@ -57,3 +57,9 @@ river = {
 	navigable = true
 	river = true
 }
+
+steppe = {
+	modifier = {
+		population_capacity = 80000
+	}
+}
