@@ -76,6 +76,11 @@ c_mazovia = {
 	color = { 212 41 61 }
 }
 
+c_plock = {
+	de_jure_liege_title = d_warsaw
+	color = { 20 60 145 }
+}
+
 c_podlasie = {
 	de_jure_liege_title = d_warsaw
 	color = { 170 20 20 }
@@ -179,27 +184,7 @@ b_virballen = {
 	de_jure_liege_title = c_mariampol
 }
 
-b_modlin = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_nur = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_ostrolenka = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_plock = {
-	de_jure_liege_title = c_mazovia
-}
-
 b_praga = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_pultusk = {
 	de_jure_liege_title = c_mazovia
 }
 
@@ -213,6 +198,26 @@ b_warsaw = {
 
 b_wola = {
 	de_jure_liege_title = c_mazovia
+}
+
+b_modlin = {
+	de_jure_liege_title = c_plock
+}
+
+b_nur = {
+	de_jure_liege_title = c_plock
+}
+
+b_ostrolenka = {
+	de_jure_liege_title = c_plock
+}
+
+b_plock = {
+	de_jure_liege_title = c_plock
+}
+
+b_pultusk = {
+	de_jure_liege_title = c_plock
 }
 
 b_augustowo = {

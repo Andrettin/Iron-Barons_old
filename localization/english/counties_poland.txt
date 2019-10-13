@@ -13,6 +13,7 @@ c_lublin_polish = "Lubelskie" #Source: "Philip's International School Atlas", 20
 c_mariampol = "Mariampol"
 c_mazovia = "Mazovia"
 c_mazovia_polish = "Mazowieckie" #Source: "Philip's International School Atlas", 2006, p. 60.
+c_plock = "Plock"
 c_podlasie = "Podlasie"
 c_podlasie_polish = "Podlaskie" #Source: "Philip's International School Atlas", 2006, p. 60.
 c_posen = "Posen"

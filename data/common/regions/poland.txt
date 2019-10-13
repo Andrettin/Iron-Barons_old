@@ -11,6 +11,7 @@ r_poland = { #the territory of modern Poland
 	provinces += p_lodz
 	provinces += p_lublin
 	provinces += p_mazovia
+	provinces += p_plock
 	provinces += p_oppeln
 	provinces += p_podlasie
 	provinces += p_posen
