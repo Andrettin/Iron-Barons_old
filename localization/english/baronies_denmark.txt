@@ -1,0 +1,8 @@
+b_eckernforde = "Eckernförde"
+b_flensburg = "Flensburg"
+b_friedrichstadt = "Friedrichstadt"
+b_glucksburg = "Glücksburg"
+b_idstedt = "Idstedt"
+b_missunde = "Missunde"
+b_oversee = "Översee"
+b_schleswig = "Schleswig"

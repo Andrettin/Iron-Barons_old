@@ -1,0 +1,3 @@
+p_south_schleswig = {
+	county = c_south_schleswig
+}
