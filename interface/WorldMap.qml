@@ -62,25 +62,51 @@ Map {
 					clip: true
 					//opacity: 0.9
 
-					MouseArea {
-						property bool contained_in_shape: false
-
+					ProvinceMouseArea {
+						province: parent.parent.province
 						anchors.fill: parent
-						hoverEnabled: true
-						ToolTip.text: tooltip(province.name + (province.county ? "<br><br>Country: " + province.county.realm.titled_name : ""))
-						ToolTip.visible: containsMouse
-						ToolTip.delay: 1000
+					}
+				}
+			}
+		}
+	}
 
-						onClicked: {
-							if (metternich.selected_holding) {
-								metternich.selected_holding.selected = false
-							}
-							if (province.selectable) {
-								province.selected = true
-							} else if (metternich.selected_province) {
-								metternich.selected_province.selected = false
-							}
+	Repeater {
+		model: metternich.river_provinces
+
+		MapItemGroup {
+			property var province: modelData
+
+			Repeater {
+				model: modelData.geopaths
+
+				MapItemGroup {
+					property int path_width: map.zoomLevel - 3
+
+					visible: map.zoomLevel >= 4
+
+					//border
+					MapPolyline {
+						geoShape: modelData
+						line.color: "black"
+						line.width: path_width + 4
+						smooth: true
+						clip: true
+						//opacity: 0.9
+
+						ProvinceMouseArea {
+							province: parent.parent.parent.province
+							anchors.fill: parent
 						}
+					}
+
+					MapPolyline {
+						geoShape: modelData
+						line.color: "#0080ff"
+						line.width: path_width
+						smooth: true
+						clip: true
+						//opacity: 0.9
 					}
 				}
 			}
