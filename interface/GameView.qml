@@ -27,7 +27,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(100000, 270)
+			map.center = map.center.atDistanceAndAzimuth(10000, 270)
 		}
 	}
 
@@ -36,7 +36,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(100000, 90)
+			map.center = map.center.atDistanceAndAzimuth(10000, 90)
 		}
 	}
 
@@ -45,7 +45,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(100000, 0)
+			map.center = map.center.atDistanceAndAzimuth(10000, 0)
 		}
 	}
 
@@ -54,7 +54,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(100000, 180)
+			map.center = map.center.atDistanceAndAzimuth(10000, 180)
 		}
 	}
 
