@@ -55,12 +55,12 @@ Map {
 
 				MapPolygon {
 					geoShape: modelData
-					color: province.terrain.water ? "#0080ff" : province.county.realm.color
-					border.color: province.selected ? "yellow" : "black"
+					color: province.selected ? "yellow" : (province.terrain.water ? "#0080ff" : province.county.realm.color)
+					border.color: "black"
 					border.width: 2
 					smooth: true
 					clip: true
-					opacity: 0.9
+					//opacity: 0.9
 
 					MouseArea {
 						property bool contained_in_shape: false
