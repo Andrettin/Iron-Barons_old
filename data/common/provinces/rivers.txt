@@ -26,3 +26,7 @@ p_rhine_river = {
 p_upper_danube_river = {
 	terrain = river
 }
+
+p_upper_rhine_river = {
+	terrain = river
+}

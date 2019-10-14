@@ -83,7 +83,7 @@ Map {
 				MapItemGroup {
 					property int path_width: map.zoomLevel - 3
 
-					visible: map.zoomLevel >= 4
+					visible: map.zoomLevel >= 5
 
 					//border
 					MapPolyline {
