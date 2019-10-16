@@ -30,6 +30,7 @@ p_darmstadt = {
 
 p_east_frisia = {
 	county = c_east_frisia
+	color = { 237 68 103 }
 }
 
 p_east_prussia = {
@@ -54,6 +55,7 @@ p_gottingen = {
 
 p_hamburg = {
 	county = c_hamburg
+	color = { 97 95 41 }
 }
 
 p_hanover = {

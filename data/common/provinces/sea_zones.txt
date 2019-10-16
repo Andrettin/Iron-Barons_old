@@ -19,6 +19,7 @@ p_irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see correcti
 }
 
 p_kattegat = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
+	color = { 154 33 89 }
 	terrain = ocean
 }
 
@@ -43,6 +44,7 @@ p_skagerrak = { #Source: "Limits of Oceans and Seas", 1953, p. 6.
 }
 
 p_south_atlantic_ocean = {
+	color = { 127 161 32 }
 	terrain = ocean
 }
 
@@ -52,5 +54,6 @@ p_strait_of_gibraltar = {
 }
 
 p_waddenzee = {
+	color = { 206 103 16 }
 	terrain = ocean
 }

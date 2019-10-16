@@ -1,3 +1,4 @@
 p_south_schleswig = {
 	county = c_south_schleswig
+	color = { 223 14 171 }
 }

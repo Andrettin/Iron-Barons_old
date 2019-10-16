@@ -1,32 +1,34 @@
 p_danube_river = {
-	terrain = river
 	color = { 165 117 246 }
+	terrain = river
 }
 
 p_drave_river = {
-	terrain = river
 	color = { 101 132 246 }
+	terrain = river
 }
 
 p_elbe_river = {
-	terrain = river
 	color = { 162 106 13 }
+	terrain = river
 }
 
 p_po_river = {
-	terrain = river
 	color = { 22 216 82 }
+	terrain = river
 }
 
 p_rhine_river = {
-	terrain = river
 	color = { 66 184 72 }
+	terrain = river
 }
 
 p_upper_danube_river = {
+	color = { 166 193 236 }
 	terrain = river
 }
 
 p_upper_rhine_river = {
+	color = { 78 187 60 }
 	terrain = river
 }

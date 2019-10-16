@@ -50,6 +50,7 @@ p_mazovia = {
 
 p_plock = {
 	county = c_plock
+	color = { 87 126 41 }
 }
 
 p_podlasie = {
