@@ -81,15 +81,15 @@ Map {
 				model: modelData.geopaths
 
 				MapItemGroup {
-					property int path_width: map.zoomLevel - 3
+					property int path_width: Math.max(map.zoomLevel - 3, 2)
 
-					visible: map.zoomLevel >= 5
+					visible: map.zoomLevel >= 4
 
 					//border
 					MapPolyline {
 						geoShape: modelData
 						line.color: "black"
-						line.width: path_width + 4
+						line.width: path_width + (path_width >= 2 ? 4 : 2)
 						smooth: true
 						clip: true
 						//opacity: 0.9
