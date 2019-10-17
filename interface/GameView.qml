@@ -1,6 +1,6 @@
 import QtQuick 2.13
-import QtQuick.Controls 2.5
-import QtQuick.Window 2.12
+import QtQuick.Controls 2.13
+import QtQuick.Window 2.13
 
 Item {
 	anchors.fill: parent
@@ -18,6 +18,14 @@ Item {
 		radius: 5
 	}
 
+	function get_scroll_pixels() {
+		if (key_handler.ctrlPressed) {
+			return 50
+		}
+
+		return 5
+	}
+
 	WorldMap {
 		id: map
 	}
@@ -27,7 +35,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(10000, 270)
+			map.moveLeft(get_scroll_pixels())
 		}
 	}
 
@@ -36,7 +44,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(10000, 90)
+			map.moveRight(get_scroll_pixels())
 		}
 	}
 
@@ -45,7 +53,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(10000, 0)
+			map.moveUp(get_scroll_pixels())
 		}
 	}
 
@@ -54,7 +62,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.center = map.center.atDistanceAndAzimuth(10000, 180)
+			map.moveDown(get_scroll_pixels())
 		}
 	}
 
@@ -235,6 +243,7 @@ Item {
 		property bool rightPressed: false
 		property bool upPressed: false
 		property bool downPressed: false
+		property bool ctrlPressed: false
 
 		Keys.onLeftPressed: leftPressed = true
 		Keys.onRightPressed: rightPressed = true
@@ -242,12 +251,8 @@ Item {
 		Keys.onDownPressed: downPressed = true
 
 		Keys.onPressed: {
-			if (event.key === Qt.Key_Z) {
-				map.zoomLevel += 0.5
-			} else if (event.key === Qt.Key_X) {
-				if (map.zoomLevel > 1) {
-					map.zoomLevel -= 0.5
-				}
+			if (event.key === Qt.Key_Control) {
+				ctrlPressed = true
 			}
 		}
 
@@ -260,6 +265,14 @@ Item {
 				upPressed = false
 			} else if (event.key === Qt.Key_Down) {
 				downPressed = false
+			} else if (event.key === Qt.Key_Control) {
+				ctrlPressed = false
+			/*
+			} else if (event.key === Qt.Key_Z) {
+				map.zoomLevel += 0.5
+			} else if (event.key === Qt.Key_X) {
+				map.zoomLevel -= 0.5
+			*/
 			}
 		}
 	}
