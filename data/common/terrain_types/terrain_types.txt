@@ -45,6 +45,7 @@ ocean = {
 
 plains = {
 	color = { 128 128 0 }
+	default_terrain = true
 	
 	modifier = {
 		population_capacity = 100000
