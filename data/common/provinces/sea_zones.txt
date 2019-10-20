@@ -1,45 +1,5 @@
-p_baltic_sea = { #Source: http://www.euratlas.net/history/europe/1/index.html
-	color = { 23 100 217 }
-	terrain = ocean
-}
-
-p_english_channel = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
-	color = { 185 68 254 }
-	terrain = ocean
-}
-
-p_gulf_of_bothnia = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
-	color = { 229 241 21 }
-	terrain = ocean
-}
-
-p_irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
-	color = { 228 173 80 }
-	terrain = ocean
-}
-
-p_kattegat = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
-	color = { 154 33 89 }
-	terrain = ocean
-}
-
-p_north_atlantic_ocean = {
-	color = { 43 62 60 }
-	terrain = ocean
-}
-
 p_north_sea = {
 	color = { 33 189 156 }
-	terrain = ocean
-}
-
-p_skagerrak = { #Source: "Limits of Oceans and Seas", 1953, p. 6.
-	color = { 246 139 66 }
-	terrain = ocean
-}
-
-p_south_atlantic_ocean = {
-	color = { 127 161 32 }
 	terrain = ocean
 }
 

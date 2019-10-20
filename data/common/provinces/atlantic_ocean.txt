@@ -1,0 +1,34 @@
+p_bay_of_biscay = {
+	color = { 163 175 39 }
+	terrain = ocean
+}
+
+p_bristol_channel = {
+	color = { 91 126 190 }
+	terrain = ocean
+}
+
+p_english_channel = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+	color = { 185 68 254 }
+	terrain = ocean
+}
+
+p_inner_seas = {
+	color = { 191 181 75 }
+	terrain = ocean
+}
+
+p_irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+	color = { 228 173 80 }
+	terrain = ocean
+}
+
+p_north_atlantic_ocean = {
+	color = { 43 62 60 }
+	terrain = ocean
+}
+
+p_south_atlantic_ocean = {
+	color = { 127 161 32 }
+	terrain = ocean
+}

@@ -1,0 +1,7 @@
+p_bay_of_biscay = "Bay of Biscay"
+p_bristol_channel = "Bristol Channel"
+p_english_channel = "English Channel"
+p_inner_seas = "Inner Seas"
+p_irish_sea = "Irish Sea"
+p_north_atlantic_ocean = "North Atlantic Ocean"
+p_south_atlantic_ocean = "South Atlantic Ocean"

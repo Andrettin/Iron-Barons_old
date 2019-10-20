@@ -1,0 +1,54 @@
+p_baltic_sea = {
+	color = { 23 100 217 }
+	terrain = ocean
+}
+
+p_bay_of_mecklenburg = {
+	color = { 103 33 156 }
+	terrain = ocean
+}
+
+p_danish_waters = {
+	color = { 246 181 204 }
+	terrain = ocean
+}
+
+p_gulf_of_bothnia = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
+	color = { 229 241 21 }
+	terrain = ocean
+}
+
+p_gulf_of_finland = {
+	color = { 125 19 217 }
+	terrain = ocean
+}
+
+p_gulf_of_riga = {
+	color = { 181 29 66 }
+	terrain = ocean
+}
+
+p_kattegat = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
+	color = { 154 33 89 }
+	terrain = ocean
+}
+
+p_konigsberg_lagoon = {
+	color = { 163 6 242 }
+	terrain = ocean
+}
+
+p_oresund = {
+	color = { 229 245 131 }
+	terrain = ocean
+}
+
+p_skagerrak = { #Source: "Limits of Oceans and Seas", 1953, p. 6.
+	color = { 246 139 66 }
+	terrain = ocean
+}
+
+p_stettin_lagoon = {
+	color = { 230 164 113 }
+	terrain = ocean
+}
