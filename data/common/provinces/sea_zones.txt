@@ -23,11 +23,6 @@ p_kattegat = { #Source: "Limits of Oceans and Seas", 1953, p. 5.
 	terrain = ocean
 }
 
-p_mediterranean_sea = {
-	color = { 78 41 160 }
-	terrain = ocean
-}
-
 p_north_atlantic_ocean = {
 	color = { 43 62 60 }
 	terrain = ocean
@@ -45,11 +40,6 @@ p_skagerrak = { #Source: "Limits of Oceans and Seas", 1953, p. 6.
 
 p_south_atlantic_ocean = {
 	color = { 127 161 32 }
-	terrain = ocean
-}
-
-p_strait_of_gibraltar = {
-	color = { 216 243 124 }
 	terrain = ocean
 }
 
