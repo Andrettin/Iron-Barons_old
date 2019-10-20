@@ -1,44 +1,34 @@
 p_danube_river = {
 	color = { 165 117 246 }
-	terrain = river
+	terrain = major_river
+}
+
+p_drave_river = {
+	color = { 96 2 186 }
+	terrain = major_river
 }
 
 p_elbe_river = {
 	color = { 162 106 13 }
-	terrain = river
-}
-
-p_lower_drave_river = {
-	color = { 96 2 186 }
-	terrain = river
-}
-
-p_mur_river = {
-	color = { 123 41 93 }
-	terrain = river
+	terrain = major_river
 }
 
 p_po_river = {
 	color = { 22 216 82 }
-	terrain = river
+	terrain = major_river
 }
 
 p_rhine_river = {
 	color = { 66 184 72 }
-	terrain = river
+	terrain = major_river
 }
 
 p_upper_danube_river = {
 	color = { 166 193 236 }
-	terrain = river
-}
-
-p_upper_drave_river = {
-	color = { 101 132 246 }
-	terrain = river
+	terrain = major_river
 }
 
 p_upper_rhine_river = {
 	color = { 78 187 60 }
-	terrain = river
+	terrain = major_river
 }

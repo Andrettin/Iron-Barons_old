@@ -1,7 +1,9 @@
 p_lake_constance = {
 	color = { 123 114 73 }
+	terrain = lake
 }
 
 p_lake_geneva = {
 	color = { 251 119 88 }
+	terrain = lake
 }
