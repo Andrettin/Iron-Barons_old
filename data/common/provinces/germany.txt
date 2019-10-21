@@ -18,11 +18,6 @@ p_brunswick = {
 	color = { 234 211 250 }
 }
 
-p_danzig = {
-	county = c_danzig
-	color = { 248 144 8 }
-}
-
 p_darmstadt = {
 	county = c_darmstadt
 	color = { 211 6 141 }
@@ -31,11 +26,6 @@ p_darmstadt = {
 p_east_frisia = {
 	county = c_east_frisia
 	color = { 237 68 103 }
-}
-
-p_east_prussia = {
-	county = c_east_prussia
-	color = { 65 220 96 }
 }
 
 p_farther_pomerania = {
@@ -113,17 +103,27 @@ p_schwerin = {
 	color = { 138 14 78 }
 }
 
+p_sigmaringen = {
+	county = c_sigmaringen
+	color = { 238 40 36 }
+}
+
 p_strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }
 }
 
-p_thorn = {
-	county = c_thorn
-	color = { 166 167 52 }
-}
-
 p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }
+}
+
+p_wurtemberg = {
+	county = c_wurtemberg
+	color = { 192 202 36 }
+}
+
+p_zollern = {
+	county = c_zollern
+	color = { 79 139 68 }
 }

@@ -15,6 +15,12 @@ k_hanover = {
 	capital_province = p_hanover
 }
 
+k_wurtemberg = {
+	de_jure_liege_title = e_germany
+	color = { 11 20 54 }
+	capital_province = p_wurtemberg
+}
+
 d_baden = {
 	de_jure_liege_title = k_germany
 	color = { 255 221 0 }
@@ -115,6 +121,12 @@ d_westphalia = {
 	de_jure_liege_title = k_germany
 	color = { 221 0 0 }
 	capital_province = p_westphalia
+}
+
+d_wurtemberg = {
+	de_jure_liege_title = k_wurtemberg
+	color = { 192 202 36 }
+	capital_province = p_wurtemberg
 }
 
 c_baden = {
@@ -222,6 +234,11 @@ c_schwerin = {
 	color = { 226 0 26 }
 }
 
+c_sigmaringen = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 194 228 13 }
+}
+
 c_strelitz = {
 	de_jure_liege_title = d_strelitz
 	color = { 252 195 0 }
@@ -230,6 +247,16 @@ c_strelitz = {
 c_westphalia = {
 	de_jure_liege_title = d_westphalia
 	color = { 221 0 0 }
+}
+
+c_wurtemberg = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 192 202 36 }
+}
+
+c_zollern = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 206 213 175 }
 }
 
 b_carlsruhe = {
@@ -616,6 +643,10 @@ b_wismar = {
 	de_jure_liege_title = c_schwerin
 }
 
+b_sigmaringen = {
+	de_jure_liege_title = c_sigmaringen
+}
+
 b_strelitz = {
 	de_jure_liege_title = c_strelitz
 }
@@ -654,4 +685,28 @@ b_siegen = {
 
 b_wesel = {
 	de_jure_liege_title = c_westphalia
+}
+
+b_heilbronn = {
+	de_jure_liege_title = c_wurtemberg
+}
+
+b_hohen_asperg = {
+	de_jure_liege_title = c_wurtemberg
+}
+
+b_stuttgart = {
+	de_jure_liege_title = c_wurtemberg
+}
+
+b_tubingen = {
+	de_jure_liege_title = c_wurtemberg
+}
+
+b_ulm = {
+	de_jure_liege_title = c_wurtemberg
+}
+
+b_hechingen = {
+	de_jure_liege_title = c_zollern
 }
