@@ -1,5 +1,5 @@
 craftsmen = { #urban population
-	holding = b_wiener_neustadt
+	holding = h_wiener_neustadt
 	discount_existing = yes
 	discount_any_type = yes
 	

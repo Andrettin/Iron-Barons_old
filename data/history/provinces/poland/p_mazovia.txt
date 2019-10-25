@@ -3,10 +3,10 @@ religion = catholic
 1815.1.1 = {
 	culture = polish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_warsaw = city #Warsaw existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_praga = town #Praga existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_warka = town #Warka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_wola = village #Wola existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_warsaw = city #Warsaw existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_praga = town #Praga existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_warka = town #Warka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_wola = village #Wola existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_warsaw
+	capital_holding = h_warsaw
 }

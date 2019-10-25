@@ -1,4 +1,44 @@
 p_south_schleswig = {
 	county = c_south_schleswig
 	color = { 223 14 171 }
+
+	h_eckernforde = {
+		barony = b_eckernforde
+		settlement = true
+	}
+
+	h_flensburg = {
+		barony = b_flensburg
+		settlement = true
+	}
+
+	h_friedrichstadt = {
+		barony = b_friedrichstadt
+		settlement = true
+	}
+
+	h_glucksburg = {
+		barony = b_glucksburg
+		settlement = true
+	}
+
+	h_idstedt = {
+		barony = b_idstedt
+		settlement = true
+	}
+
+	h_missunde = {
+		barony = b_missunde
+		settlement = true
+	}
+
+	h_oversee = {
+		barony = b_oversee
+		settlement = true
+	}
+
+	h_schleswig = {
+		barony = b_schleswig
+		settlement = true
+	}
 }

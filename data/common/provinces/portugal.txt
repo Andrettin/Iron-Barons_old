@@ -1,4 +1,9 @@
 p_portugal = {
 	county = c_portugal
 	color = { 36 81 20 }
+
+	h_lisbon = {
+		barony = b_lisbon
+		settlement = true
+	}
 }

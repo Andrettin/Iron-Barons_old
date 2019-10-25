@@ -3,9 +3,9 @@ religion = protestant
 1815.1.1 = {
 	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_kiel = city #Kiel was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_rendsburg = town #Rendsburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_itzehoe = town #Itzehoe was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_kiel = city #Kiel was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_rendsburg = town #Rendsburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_itzehoe = town #Itzehoe was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_kiel
+	capital_holding = h_kiel
 }

@@ -3,10 +3,10 @@ religion = protestant
 1815.1.1 = {
 	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_osnabruck = city #Osnabrück existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_meppen = town #Meppen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_emden = town #Emden existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_aurich = town #Aurich existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_osnabruck = city #Osnabrück existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_meppen = town #Meppen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_emden = town #Emden existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_aurich = town #Aurich existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_osnabruck
+	capital_holding = h_osnabruck
 }

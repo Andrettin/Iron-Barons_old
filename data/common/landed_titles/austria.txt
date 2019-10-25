@@ -54,150 +54,121 @@ d_upper_austria = {
 c_carinthia = {
 	de_jure_liege_title = d_carinthia
 	color = { 165 255 250 }
+	
+	b_klagenfurt = {
+	}
+
+	b_villach = {
+	}
 }
 
 c_carniola = {
 	de_jure_liege_title = d_carniola
 	color = { 0 86 148 }
+
+	b_adelsberg = {
+	}
+
+	b_laibach = {
+	}
 }
 
 c_lower_austria = {
 	de_jure_liege_title = d_lower_austria
 	color = { 0 86 148 }
+
+	b_bruck = {
+	}
+
+	b_frohsdorf = {
+	}
+
+	b_ganserndorf = {
+	}
+
+	b_krems = {
+	}
+
+	b_sankt_polten = {
+	}
+
+	b_schwechat = {
+	}
+
+	b_vienna = {
+	}
+
+	b_wiener_neustadt = {
+	}
 }
 
 c_salzburg = {
 	de_jure_liege_title = d_salzburg
 	color = { 151 155 134 }
+
+	b_salzburg = {
+	}
+
+	b_gastein = {
+	}
 }
 
 c_styria = {
 	de_jure_liege_title = d_styria
 	color = { 48 137 4 }
+
+	b_bruck_styria = {
+	}
+
+	b_cilli = {
+	}
+
+	b_graz = {
+	}
+
+	b_marburg = {
+	}
 }
 
 c_tyrol = {
 	de_jure_liege_title = d_tyrol
 	color = { 188 0 7 }
+
+	b_bozen = {
+	}
+
+	b_bregenz = {
+	}
+
+	b_franzensfeste = {
+	}
+
+	b_glurns = {
+	}
+
+	b_innsbruck = {
+	}
+
+	b_kufstein = {
+	}
+
+	b_trent = {
+	}
 }
 
 c_upper_austria = {
 	de_jure_liege_title = d_upper_austria
 	color = { 31 26 23 }
-}
 
-b_klagenfurt = {
-	de_jure_liege_title = c_carinthia
-}
+	b_ischl = {
+	}
 
-b_villach = {
-	de_jure_liege_title = c_carinthia
-}
+	b_linz = {
+	}
 
-b_adelsberg = {
-	de_jure_liege_title = c_carniola
-}
+	b_steyr = {
+	}
 
-b_laibach = {
-	de_jure_liege_title = c_carniola
-}
-
-b_bruck = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_frohsdorf = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_ganserndorf = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_krems = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_sankt_polten = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_schwechat = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_vienna = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_wiener_neustadt = {
-	de_jure_liege_title = c_lower_austria
-}
-
-b_salzburg = {
-	de_jure_liege_title = c_salzburg
-}
-
-b_gastein = {
-	de_jure_liege_title = c_salzburg
-}
-
-b_bruck_styria = {
-	de_jure_liege_title = c_styria
-}
-
-b_cilli = {
-	de_jure_liege_title = c_styria
-}
-
-b_graz = {
-	de_jure_liege_title = c_styria
-}
-
-b_marburg = {
-	de_jure_liege_title = c_styria
-}
-
-b_bozen = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_bregenz = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_franzensfeste = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_glurns = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_innsbruck = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_kufstein = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_trent = {
-	de_jure_liege_title = c_tyrol
-}
-
-b_ischl = {
-	de_jure_liege_title = c_upper_austria
-}
-
-b_linz = {
-	de_jure_liege_title = c_upper_austria
-}
-
-b_steyr = {
-	de_jure_liege_title = c_upper_austria
-}
-
-b_wels = {
-	de_jure_liege_title = c_upper_austria
+	b_wels = {
+	}
 }

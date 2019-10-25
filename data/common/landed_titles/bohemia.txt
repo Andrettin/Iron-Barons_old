@@ -25,135 +25,106 @@ d_teschen = {
 c_bohemia = {
 	de_jure_liege_title = d_bohemia
 	color = { 197 114 24 }
+
+	b_budweis = {
+	}
+
+	b_carlsbad = {
+	}
+
+	b_chlum = {
+	}
+
+	b_eger = {
+	}
+
+	b_gabel = {
+	}
+
+	b_gitschin = {
+	}
+
+	b_huhnerwasser = {
+	}
+
+	b_josefstadt = {
+	}
+
+	b_koniggratz = {
+	}
+
+	b_koniginhof = {
+	}
+
+	b_munchengratz = {
+	}
+
+	b_nachod = {
+	}
+
+	b_pardubitz = {
+	}
+
+	b_pilsen = {
+	}
+
+	b_prague = {
+	}
+
+	b_sadowa = {
+	}
+
+	b_schweinschadel = {
+	}
+
+	b_skalitz = {
+	}
+
+	b_teplitz = {
+	}
+
+	b_trautenau = {
+	}
 }
 
 c_moravia = {
 	de_jure_liege_title = d_moravia
 	color = { 14 21 124 }
+
+	b_brunn = {
+	}
+
+	b_iglau = {
+	}
+
+	b_kremsier = {
+	}
+
+	b_nikolsburg = {
+	}
+
+	b_olmutz = {
+	}
+
+	b_spielberg = {
+	}
+
+	b_tobitschau = {
+	}
 }
 
 c_teschen = {
 	de_jure_liege_title = d_teschen
 	color = { 255 159 23 }
+
+	b_teschen = {
+	}
 }
 
 c_troppau = {
 	de_jure_liege_title = d_moravia #perhaps should be its own duchy? as it was not a part of Moravia administratively
 	color = { 231 229 223 }
-}
-
-b_budweis = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_carlsbad = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_chlum = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_eger = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_gabel = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_gitschin = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_huhnerwasser = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_josefstadt = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_koniggratz = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_koniginhof = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_munchengratz = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_nachod = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_pardubitz = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_pilsen = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_prague = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_sadowa = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_schweinschadel = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_skalitz = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_teplitz = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_trautenau = {
-	de_jure_liege_title = c_bohemia
-}
-
-b_brunn = {
-	de_jure_liege_title = c_moravia
-}
-
-b_iglau = {
-	de_jure_liege_title = c_moravia
-}
-
-b_kremsier = {
-	de_jure_liege_title = c_moravia
-}
-
-b_nikolsburg = {
-	de_jure_liege_title = c_moravia
-}
-
-b_olmutz = {
-	de_jure_liege_title = c_moravia
-}
-
-b_spielberg = {
-	de_jure_liege_title = c_moravia
-}
-
-b_tobitschau = {
-	de_jure_liege_title = c_moravia
-}
-
-b_teschen = {
-	de_jure_liege_title = c_teschen
-}
-
-b_troppau = {
-	de_jure_liege_title = c_troppau
+	
+	b_troppau = {
+	}
 }

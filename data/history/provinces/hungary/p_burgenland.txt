@@ -3,7 +3,7 @@ religion = catholic
 1815.1.1 = {
 	culture = austrian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_eisenstadt = town
+	h_eisenstadt = town
 	
-	capital_holding = b_eisenstadt
+	capital_holding = h_eisenstadt
 }

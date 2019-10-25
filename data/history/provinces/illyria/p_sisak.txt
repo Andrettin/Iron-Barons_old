@@ -3,7 +3,7 @@ religion = catholic
 1815.1.1 = {
 	culture = croatian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_sisak = town
+	h_sisak = town
 	
-	capital_holding = b_sisak
+	capital_holding = h_sisak
 }

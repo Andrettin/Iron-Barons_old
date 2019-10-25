@@ -1,64 +1,159 @@
 p_bjelovar = {
 	county = c_bjelovar
 	color = { 52 240 184 }
+
+	h_bjelovar = {
+		barony = b_bjelovar
+		settlement = true
+	}
 }
 
 p_brod = {
 	county = c_brod
 	color = { 36 69 218 }
+
+	h_brod = {
+		barony = b_brod
+		settlement = true
+	}
 }
 
 p_dalmatia = {
 	county = c_dalmatia
 	color = { 55 112 202 }
+
+	h_split = {
+		barony = b_split
+		settlement = true
+	}
 }
 
 p_fiume = {
 	county = c_fiume
 	color = { 69 205 187 }
+
+	h_fiume = {
+		barony = b_fiume
+		settlement = true
+	}
 }
 
 p_gorz = {
 	county = c_gorz
 	color = { 220 100 213 }
+
+	h_gorz = {
+		barony = b_gorz
+		settlement = true
+	}
+
+	h_gradisca = {
+		barony = b_gradisca
+		settlement = true
+	}
 }
 
 p_istria = {
 	county = c_istria
 	color = { 57 206 144 }
+
+	h_pola = {
+		barony = b_pola
+		settlement = true
+	}
 }
 
 p_karlstadt = {
 	county = c_karlstadt
 	color = { 129 221 154 }
+
+	h_karlstadt = {
+		barony = b_karlstadt
+		settlement = true
+	}
+
+	h_zengg = {
+		barony = b_zengg
+		settlement = true
+	}
 }
 
 p_peterwardein = {
 	county = c_peterwardein
 	color = { 182 222 38 }
+
+	h_carlowitz = {
+		barony = b_carlowitz
+		settlement = true
+	}
+
+	h_peterwardein = {
+		barony = b_peterwardein
+		settlement = true
+	}
+
+	h_semlin = {
+		barony = b_semlin
+		settlement = true
+	}
 }
 
 p_sisak = {
 	county = c_sisak
 	color = { 134 230 230 }
+
+	h_sisak = {
+		barony = b_sisak
+		settlement = true
+	}
 }
 
 p_slavonia = {
 	county = c_slavonia
 	color = { 202 45 184 }
+
+	h_esseg = {
+		barony = b_esseg
+		settlement = true
+	}
+
+	h_pozhega = {
+		barony = b_pozhega
+		settlement = true
+	}
 }
 
 p_trieste = {
 	county = c_trieste
 	color = { 216 196 14 }
+
+	h_trieste = {
+		barony = b_trieste
+		settlement = true
+	}
 }
 
 p_vukovar = {
 	county = c_vukovar
 	color = { 26 208 93 }
+
+	h_vukovar = {
+		barony = b_vukovar
+		settlement = true
+	}
 }
 
 p_zagreb = {
 	county = c_zagreb
 	color = { 183 217 124 }
+
+	h_warasdin = {
+		barony = b_warasdin
+		settlement = true
+	}
+
+	h_zagreb = {
+		barony = b_zagreb
+		settlement = true
+	}
 }

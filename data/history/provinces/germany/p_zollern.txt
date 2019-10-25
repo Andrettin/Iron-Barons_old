@@ -3,7 +3,7 @@ religion = protestant
 1815.1.1 = {
 	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_hechingen = town
+	h_hechingen = town
 	
-	capital_holding = b_hechingen
+	capital_holding = h_hechingen
 }

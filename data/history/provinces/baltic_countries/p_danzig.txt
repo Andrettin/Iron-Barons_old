@@ -3,14 +3,14 @@ religion = catholic
 1815.1.1 = {
 	culture = polish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_danzig = city #Danzig existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_elbing = city #Elbing existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_marienburg = town #Marienburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_marienwerder = town #Marienwerder existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_danzig = city #Danzig existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_elbing = city #Elbing existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_marienburg = town #Marienburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_marienwerder = town #Marienwerder existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_danzig
+	capital_holding = h_danzig
 	
-	b_danzig = {
+	h_danzig = {
 		culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 		religion = protestant
 	}

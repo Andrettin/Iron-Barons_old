@@ -29,293 +29,242 @@ d_warsaw = {
 c_czestochowa = {
 	de_jure_liege_title = d_warsaw
 	color = { 0 103 177 }
+
+	b_czestochowa = {
+	}
 }
 
 c_kalisz = {
 	de_jure_liege_title = d_warsaw
 	color = { 230 230 250 }
+
+	b_kalisz = {
+	}
 }
 
 c_kielce = {
 	de_jure_liege_title = d_warsaw
 	color = { 98 156 174 }
+
+	b_busk = {
+	}
+
+	b_kielce = {
+	}
+
+	b_sandomierz = {
+	}
 }
 
 c_krakow = {
 	de_jure_liege_title = d_warsaw
 	color = { 89 105 233 }
+
+	b_krakow = {
+	}
 }
 
 c_lemberg = {
 	de_jure_liege_title = d_galicia
 	color = { 0 103 177 }
+
+	b_lemberg = {
+	}
 }
 
 c_lesser_poland = {
 	de_jure_liege_title = d_galicia
 	color = { 136 8 6 }
+
+	b_neu_sandec = {
+	}
+
+	b_tarnow = {
+	}
 }
 
 c_lodz = {
 	de_jure_liege_title = d_warsaw
 	color = { 255 215 0 }
+
+	b_lodz = {
+	}
+
+	b_piotrkow = {
+	}
 }
 
 c_lublin = {
 	de_jure_liege_title = d_warsaw
 	color = { 131 15 15 }
+
+	b_cholm = {
+	}
+
+	b_ivangorod = {
+	}
+
+	b_lublin = {
+	}
+
+	b_zamosc = {
+	}
 }
 
 c_mariampol = {
 	de_jure_liege_title = d_warsaw
 	color = { 2 156 188 }
+
+	b_mariampol = {
+	}
+
+	b_virballen = {
+	}
 }
 
 c_mazovia = {
 	de_jure_liege_title = d_warsaw
 	color = { 212 41 61 }
+
+	b_praga = {
+	}
+
+	b_warka = {
+	}
+
+	b_warsaw = {
+	}
+
+	b_wola = {
+	}
 }
 
 c_plock = {
 	de_jure_liege_title = d_warsaw
 	color = { 20 60 145 }
+
+	b_modlin = {
+	}
+
+	b_nur = {
+	}
+
+	b_ostrolenka = {
+	}
+
+	b_plock = {
+	}
+
+	b_pultusk = {
+	}
 }
 
 c_podlasie = {
 	de_jure_liege_title = d_warsaw
 	color = { 170 20 20 }
+
+	b_augustowo = {
+	}
+
+	b_lomzha = {
+	}
+
+	b_tykocin = {
+	}
 }
 
 c_posen = {
 	de_jure_liege_title = d_posen
 	color = { 237 11 10 }
+
+	b_bordo = {
+	}
+
+	b_bromberg = {
+	}
+
+	b_gnesen = {
+	}
+
+	b_koschmin = {
+	}
+
+	b_lissa = {
+	}
+
+	b_miloslaw = {
+	}
+
+	b_posen = {
+	}
+
+	b_rogalin = {
+	}
+
+	b_schneidemuhl = {
+	}
+
+	b_schroda = {
+	}
+
+	b_wreschen = {
+	}
+
+	b_xions = {
+	}
 }
 
 c_radom = {
 	de_jure_liege_title = d_warsaw
 	color = { 239 31 40 }
+
+	b_radom = {
+	}
 }
 
 c_siedlce = {
 	de_jure_liege_title = d_warsaw
 	color = { 227 213 250 }
+
+	b_siedlce = {
+	}
 }
 
 c_stanislawow = {
 	de_jure_liege_title = d_galicia
 	color = { 230 230 250 }
+
+	b_stanislawow = {
+	}
 }
 
 c_subcarpathia = {
 	de_jure_liege_title = d_galicia
 	color = { 229 229 229 }
+
+	b_dukla = {
+	}
+
+	b_jaroslaw = {
+	}
+
+	b_przemysl = {
+	}
 }
 
 c_wloclawek = {
 	de_jure_liege_title = d_warsaw
 	color = { 170 20 20 }
-}
 
-b_czestochowa = {
-	de_jure_liege_title = c_czestochowa
-}
+	b_osseg = {
+	}
 
-b_kalisz = {
-	de_jure_liege_title = c_kalisz
-}
+	b_radziejewo = {
+	}
 
-b_busk = {
-	de_jure_liege_title = c_kielce
-}
+	b_rypin = {
+	}
 
-b_kielce = {
-	de_jure_liege_title = c_kielce
-}
-
-b_sandomierz = {
-	de_jure_liege_title = c_kielce
-}
-
-b_krakow = {
-	de_jure_liege_title = c_krakow
-}
-
-b_lemberg = {
-	de_jure_liege_title = c_lemberg
-}
-
-b_neu_sandec = {
-	de_jure_liege_title = c_lesser_poland
-}
-
-b_tarnow = {
-	de_jure_liege_title = c_lesser_poland
-}
-
-b_lodz = {
-	de_jure_liege_title = c_lodz
-}
-
-b_piotrkow = {
-	de_jure_liege_title = c_lodz
-}
-
-b_cholm = {
-	de_jure_liege_title = c_lublin
-}
-
-b_ivangorod = {
-	de_jure_liege_title = c_lublin
-}
-
-b_lublin = {
-	de_jure_liege_title = c_lublin
-}
-
-b_zamosc = {
-	de_jure_liege_title = c_lublin
-}
-
-b_mariampol = {
-	de_jure_liege_title = c_mariampol
-}
-
-b_virballen = {
-	de_jure_liege_title = c_mariampol
-}
-
-b_praga = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_warka = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_warsaw = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_wola = {
-	de_jure_liege_title = c_mazovia
-}
-
-b_modlin = {
-	de_jure_liege_title = c_plock
-}
-
-b_nur = {
-	de_jure_liege_title = c_plock
-}
-
-b_ostrolenka = {
-	de_jure_liege_title = c_plock
-}
-
-b_plock = {
-	de_jure_liege_title = c_plock
-}
-
-b_pultusk = {
-	de_jure_liege_title = c_plock
-}
-
-b_augustowo = {
-	de_jure_liege_title = c_podlasie
-}
-
-b_lomzha = {
-	de_jure_liege_title = c_podlasie
-}
-
-b_tykocin = {
-	de_jure_liege_title = c_podlasie
-}
-
-b_bordo = {
-	de_jure_liege_title = c_posen
-}
-
-b_bromberg = {
-	de_jure_liege_title = c_posen
-}
-
-b_gnesen = {
-	de_jure_liege_title = c_posen
-}
-
-b_koschmin = {
-	de_jure_liege_title = c_posen
-}
-
-b_lissa = {
-	de_jure_liege_title = c_posen
-}
-
-b_miloslaw = {
-	de_jure_liege_title = c_posen
-}
-
-b_posen = {
-	de_jure_liege_title = c_posen
-}
-
-b_rogalin = {
-	de_jure_liege_title = c_posen
-}
-
-b_schneidemuhl = {
-	de_jure_liege_title = c_posen
-}
-
-b_schroda = {
-	de_jure_liege_title = c_posen
-}
-
-b_wreschen = {
-	de_jure_liege_title = c_posen
-}
-
-b_xions = {
-	de_jure_liege_title = c_posen
-}
-
-b_radom = {
-	de_jure_liege_title = c_radom
-}
-
-b_siedlce = {
-	de_jure_liege_title = c_siedlce
-}
-
-b_stanislawow = {
-	de_jure_liege_title = c_stanislawow
-}
-
-b_dukla = {
-	de_jure_liege_title = c_subcarpathia
-}
-
-b_jaroslaw = {
-	de_jure_liege_title = c_subcarpathia
-}
-
-b_przemysl = {
-	de_jure_liege_title = c_subcarpathia
-}
-
-b_osseg = {
-	de_jure_liege_title = c_wloclawek
-}
-
-b_radziejewo = {
-	de_jure_liege_title = c_wloclawek
-}
-
-b_rypin = {
-	de_jure_liege_title = c_wloclawek
-}
-
-b_wloclawek = {
-	de_jure_liege_title = c_wloclawek
+	b_wloclawek = {
+	}
 }

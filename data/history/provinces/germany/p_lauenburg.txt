@@ -3,8 +3,8 @@ religion = protestant
 1812.1.1 = {
 	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_lauenburg = town #Lauenburg existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
-	b_lubeck = city #Lübeck existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
+	h_lauenburg = town #Lauenburg existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
+	h_lubeck = city #Lübeck existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
 	
-	capital_holding = b_lauenburg
+	capital_holding = h_lauenburg
 }

@@ -1,19 +1,39 @@
 p_espirito_santo = {
 	county = c_espirito_santo
 	color = { 60 226 224 }
+
+	h_espirito_santo = {
+		barony = b_espirito_santo
+		settlement = true
+	}
 }
 
 p_minas_gerais = {
 	county = c_minas_gerais
 	color = { 117 233 106 }
+
+	h_ouro_preto = {
+		barony = b_ouro_preto
+		settlement = true
+	}
 }
 
 p_rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
+
+	h_rio_de_janeiro = {
+		barony = b_rio_de_janeiro
+		settlement = true
+	}
 }
 
 p_sao_paulo = {
 	county = c_sao_paulo
 	color = { 145 219 25 }
+
+	h_sao_paulo = {
+		barony = b_sao_paulo
+		settlement = true
+	}
 }

@@ -132,581 +132,468 @@ d_wurtemberg = {
 c_baden = {
 	de_jure_liege_title = d_baden
 	color = { 255 221 0 }
+
+	b_carlsruhe = {
+	}
+
+	b_dossenbach = {
+	}
+
+	b_freiburg = {
+	}
+
+	b_geroldseck = {
+	}
+
+	b_heidelberg = {
+	}
+
+	b_hundheim = {
+	}
+
+	b_kandern = {
+	}
+
+	b_mannheim = {
+	}
+
+	b_offenburg = {
+	}
+
+	b_rastatt = {
+	}
+
+	b_tauberbischofsheim = {
+	}
+
+	b_waghausel = {
+	}
 }
 
 c_brandenburg = {
 	de_jure_liege_title = d_brandenburg
 	color = { 230 0 0 }
+
+	b_berlin = {
+	}
+
+	b_brandenburg = {
+	}
+
+	b_cottbus = {
+	}
+
+	b_frankfurt_on_the_oder = {
+	}
+
+	b_guben = {
+	}
+
+	b_kustrin = {
+	}
+
+	b_landsberg = {
+	}
+
+	b_neu_ruppin = {
+	}
+
+	b_potsdam = {
+	}
+
+	b_prenzlau = {
+	}
+
+	b_schonhausen = {
+	}
+
+	b_spandau = {
+	}
+
+	b_wittenberg = {
+	}
 }
 
 c_breslau = {
 	de_jure_liege_title = d_silesia
 	color = { 185 253 25 }
+
+	b_breslau = {
+	}
+
+	b_glatz = {
+	}
+
+	b_glogau = {
+	}
+
+	b_gorlitz = {
+	}
+
+	b_landeshut = {
+	}
+
+	b_liegnitz = {
+	}
+
+	b_ols = {
+	}
+
+	b_schweidnitz = {
+	}
+
+	b_silberberg = {
+	}
+
+	b_zillerthal = {
+	}
 }
 
 c_brunswick = {
 	de_jure_liege_title = d_brunswick
 	color = { 0 0 204 }
+
+	b_brunswick = {
+	}
 }
 
 c_darmstadt = {
 	de_jure_liege_title = d_darmstadt
 	color = { 226 0 26 }
+
+	b_darmstadt = {
+	}
+
+	b_heppenheim = {
+	}
 }
 
 c_east_frisia = {
 	de_jure_liege_title = d_luneburg
 	color = { 12 0 186 }
+
+	b_aurich = {
+	}
+
+	b_emden = {
+	}
+
+	b_meppen = {
+	}
+
+	b_osnabruck = {
+	}
 }
 
 c_farther_pomerania = {
 	de_jure_liege_title = d_pomerania
 	color = { 199 178 236 }
+
+	b_kolberg = {
+	}
+
+	b_koslin = {
+	}
+
+	b_stargard = {
+	}
 }
 
 c_giessen = {
 	de_jure_liege_title = d_darmstadt
 	color = { 0 82 159 }
+
+	b_giessen = {
+	}
+
+	b_homburg = {
+	}
 }
 
 c_gottingen = {
 	de_jure_liege_title = d_luneburg
 	color = { 218 18 26 }
+
+	b_gottingen = {
+	}
 }
 
 c_hamburg = {
 	de_jure_liege_title = d_holstein
 	color = { 240 23 40 }
+
+	b_altona = {
+	}
+
+	b_hamburg = {
+	}
 }
 
 c_hanover = {
 	de_jure_liege_title = d_luneburg
 	color = { 255 206 8 }
+
+	b_bremen = {
+	}
+
+	b_bremerhaven = {
+	}
+
+	b_celle = {
+	}
+
+	b_hanover = {
+	}
+
+	b_hildesheim = {
+	}
+
+	b_luneburg = {
+	}
+
+	b_stade = {
+	}
 }
 
 c_hither_pomerania = {
 	de_jure_liege_title = d_pomerania
 	color = { 214 40 40 }
+
+	b_greifswald = {
+	}
+
+	b_stettin = {
+	}
+
+	b_stralsund = {
+	}
+
+	b_swinemunde = {
+	}
 }
 
 c_holstein = {
 	de_jure_liege_title = d_holstein
 	color = { 208 12 51 }
+	
+	b_itzehoe = {
+	}
+
+	b_kiel = {
+	}
+
+	b_rendsburg = {
+	}
 }
 
 c_kassel = {
 	de_jure_liege_title = d_kassel
 	color = { 226 249 247 }
+
+	b_bronzell = {
+	}
+
+	b_frankfurt = {
+	}
+
+	b_fulda = {
+	}
+
+	b_hanau = {
+	}
+
+	b_kassel = {
+	}
+
+	b_marburg_hesse = {
+	}
 }
 
 c_kattowitz = {
 	de_jure_liege_title = d_silesia
 	color = { 0 61 106 }
+
+	b_ratibor = {
+	}
 }
 
 c_lauenburg = {
 	de_jure_liege_title = d_lauenburg
 	color = { 252 221 9 }
+
+	b_lauenburg = {
+	}
+
+	b_lubeck = {
+	}
 }
 
 c_magdeburg = {
 	de_jure_liege_title = d_magdeburg
 	color = { 202 231 204 }
+
+	b_dessau = {
+	}
+
+	b_erfurt = {
+	}
+
+	b_halberstadt = {
+	}
+
+	b_halle = {
+	}
+
+	b_langensalza = {
+	}
+
+	b_magdeburg = {
+	}
+
+	b_merseburg = {
+	}
+
+	b_muhlhausen = {
+	}
+
+	b_sondershausen = {
+	}
+
+	b_torgau = {
+	}
 }
 
 c_nassau = {
 	de_jure_liege_title = d_nassau
 	color = { 255 91 0 }
+
+	b_wetzlar = {
+	}
+
+	b_wiesbaden = {
+	}
 }
 
 c_oldenburg = {
 	de_jure_liege_title = d_oldenburg
 	color = { 0 0 255 }
+
+	b_brake = {
+	}
+
+	b_elsfleth = {
+	}
+
+	b_oldenburg = {
+	}
+
+	b_wilhelmshaven = {
+	}
 }
 
 c_oppeln = {
 	de_jure_liege_title = d_silesia
 	color = { 0 103 177 }
+
+	b_kosel = {
+	}
+
+	b_neisse = {
+	}
+
+	b_oppeln = {
+	}
 }
 
 c_schwerin = {
 	de_jure_liege_title = d_schwerin
 	color = { 226 0 26 }
+
+	b_parchim = {
+	}
+
+	b_rostock = {
+	}
+
+	b_schwerin = {
+	}
+
+	b_wismar = {
+	}
 }
 
 c_sigmaringen = {
 	de_jure_liege_title = d_wurtemberg
 	color = { 194 228 13 }
+
+	b_sigmaringen = {
+	}
 }
 
 c_strelitz = {
 	de_jure_liege_title = d_strelitz
 	color = { 252 195 0 }
+
+	b_strelitz = {
+	}
 }
 
 c_westphalia = {
 	de_jure_liege_title = d_westphalia
 	color = { 221 0 0 }
+
+	b_arnsberg = {
+	}
+
+	b_dusseldorf = {
+	}
+
+	b_elberfeld = {
+	}
+
+	b_essen = {
+	}
+
+	b_lippstadt = {
+	}
+
+	b_minden = {
+	}
+
+	b_munster = {
+	}
+
+	b_siegen = {
+	}
+
+	b_wesel = {
+	}
 }
 
 c_wurtemberg = {
 	de_jure_liege_title = d_wurtemberg
 	color = { 192 202 36 }
+
+	b_heilbronn = {
+	}
+
+	b_hohen_asperg = {
+	}
+
+	b_stuttgart = {
+	}
+
+	b_tubingen = {
+	}
+
+	b_ulm = {
+	}
 }
 
 c_zollern = {
 	de_jure_liege_title = d_wurtemberg
 	color = { 206 213 175 }
-}
 
-b_carlsruhe = {
-	de_jure_liege_title = c_baden
-}
-
-b_dossenbach = {
-	de_jure_liege_title = c_baden
-}
-
-b_freiburg = {
-	de_jure_liege_title = c_baden
-}
-
-b_geroldseck = {
-	de_jure_liege_title = c_baden
-}
-
-b_heidelberg = {
-	de_jure_liege_title = c_baden
-}
-
-b_hundheim = {
-	de_jure_liege_title = c_baden
-}
-
-b_kandern = {
-	de_jure_liege_title = c_baden
-}
-
-b_mannheim = {
-	de_jure_liege_title = c_baden
-}
-
-b_offenburg = {
-	de_jure_liege_title = c_baden
-}
-
-b_rastatt = {
-	de_jure_liege_title = c_baden
-}
-
-b_tauberbischofsheim = {
-	de_jure_liege_title = c_baden
-}
-
-b_waghausel = {
-	de_jure_liege_title = c_baden
-}
-
-b_berlin = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_brandenburg = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_cottbus = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_frankfurt_on_the_oder = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_guben = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_kustrin = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_landsberg = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_neu_ruppin = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_potsdam = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_prenzlau = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_schonhausen = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_spandau = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_wittenberg = {
-	de_jure_liege_title = c_brandenburg
-}
-
-b_breslau = {
-	de_jure_liege_title = c_breslau
-}
-
-b_glatz = {
-	de_jure_liege_title = c_breslau
-}
-
-b_glogau = {
-	de_jure_liege_title = c_breslau
-}
-
-b_gorlitz = {
-	de_jure_liege_title = c_breslau
-}
-
-b_landeshut = {
-	de_jure_liege_title = c_breslau
-}
-
-b_liegnitz = {
-	de_jure_liege_title = c_breslau
-}
-
-b_ols = {
-	de_jure_liege_title = c_breslau
-}
-
-b_schweidnitz = {
-	de_jure_liege_title = c_breslau
-}
-
-b_silberberg = {
-	de_jure_liege_title = c_breslau
-}
-
-b_zillerthal = {
-	de_jure_liege_title = c_breslau
-}
-
-b_brunswick = {
-	de_jure_liege_title = c_brunswick
-}
-
-b_darmstadt = {
-	de_jure_liege_title = c_darmstadt
-}
-
-b_heppenheim = {
-	de_jure_liege_title = c_darmstadt
-}
-
-b_aurich = {
-	de_jure_liege_title = c_east_frisia
-}
-
-b_emden = {
-	de_jure_liege_title = c_east_frisia
-}
-
-b_meppen = {
-	de_jure_liege_title = c_east_frisia
-}
-
-b_osnabruck = {
-	de_jure_liege_title = c_east_frisia
-}
-
-b_kolberg = {
-	de_jure_liege_title = c_farther_pomerania
-}
-
-b_koslin = {
-	de_jure_liege_title = c_farther_pomerania
-}
-
-b_stargard = {
-	de_jure_liege_title = c_farther_pomerania
-}
-
-b_giessen = {
-	de_jure_liege_title = c_giessen
-}
-
-b_homburg = {
-	de_jure_liege_title = c_giessen
-}
-
-b_gottingen = {
-	de_jure_liege_title = c_gottingen
-}
-
-b_altona = {
-	de_jure_liege_title = c_hamburg
-}
-
-b_hamburg = {
-	de_jure_liege_title = c_hamburg
-}
-
-b_bremen = {
-	de_jure_liege_title = c_hanover
-}
-
-b_bremerhaven = {
-	de_jure_liege_title = c_hanover
-}
-
-b_celle = {
-	de_jure_liege_title = c_hanover
-}
-
-b_hanover = {
-	de_jure_liege_title = c_hanover
-}
-
-b_hildesheim = {
-	de_jure_liege_title = c_hanover
-}
-
-b_luneburg = {
-	de_jure_liege_title = c_hanover
-}
-
-b_stade = {
-	de_jure_liege_title = c_hanover
-}
-
-b_greifswald = {
-	de_jure_liege_title = c_hither_pomerania
-}
-
-b_stettin = {
-	de_jure_liege_title = c_hither_pomerania
-}
-
-b_stralsund = {
-	de_jure_liege_title = c_hither_pomerania
-}
-
-b_swinemunde = {
-	de_jure_liege_title = c_hither_pomerania
-}
-
-b_itzehoe = {
-	de_jure_liege_title = c_holstein
-}
-
-b_kiel = {
-	de_jure_liege_title = c_holstein
-}
-
-b_rendsburg = {
-	de_jure_liege_title = c_holstein
-}
-
-b_bronzell = {
-	de_jure_liege_title = c_kassel
-}
-
-b_frankfurt = {
-	de_jure_liege_title = c_kassel
-}
-
-b_fulda = {
-	de_jure_liege_title = c_kassel
-}
-
-b_hanau = {
-	de_jure_liege_title = c_kassel
-}
-
-b_kassel = {
-	de_jure_liege_title = c_kassel
-}
-
-b_marburg_hesse = {
-	de_jure_liege_title = c_kassel
-}
-
-b_ratibor = {
-	de_jure_liege_title = c_kattowitz
-}
-
-b_lauenburg = {
-	de_jure_liege_title = c_lauenburg
-}
-
-b_lubeck = {
-	de_jure_liege_title = c_lauenburg
-}
-
-b_dessau = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_erfurt = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_halberstadt = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_halle = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_langensalza = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_magdeburg = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_merseburg = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_muhlhausen = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_sondershausen = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_torgau = {
-	de_jure_liege_title = c_magdeburg
-}
-
-b_wetzlar = {
-	de_jure_liege_title = c_nassau
-}
-
-b_wiesbaden = {
-	de_jure_liege_title = c_nassau
-}
-
-b_brake = {
-	de_jure_liege_title = c_oldenburg
-}
-
-b_elsfleth = {
-	de_jure_liege_title = c_oldenburg
-}
-
-b_oldenburg = {
-	de_jure_liege_title = c_oldenburg
-}
-
-b_wilhelmshaven = {
-	de_jure_liege_title = c_oldenburg
-}
-
-b_kosel = {
-	de_jure_liege_title = c_oppeln
-}
-
-b_neisse = {
-	de_jure_liege_title = c_oppeln
-}
-
-b_oppeln = {
-	de_jure_liege_title = c_oppeln
-}
-
-b_parchim = {
-	de_jure_liege_title = c_schwerin
-}
-
-b_rostock = {
-	de_jure_liege_title = c_schwerin
-}
-
-b_schwerin = {
-	de_jure_liege_title = c_schwerin
-}
-
-b_wismar = {
-	de_jure_liege_title = c_schwerin
-}
-
-b_sigmaringen = {
-	de_jure_liege_title = c_sigmaringen
-}
-
-b_strelitz = {
-	de_jure_liege_title = c_strelitz
-}
-
-b_arnsberg = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_dusseldorf = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_elberfeld = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_essen = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_lippstadt = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_minden = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_munster = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_siegen = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_wesel = {
-	de_jure_liege_title = c_westphalia
-}
-
-b_heilbronn = {
-	de_jure_liege_title = c_wurtemberg
-}
-
-b_hohen_asperg = {
-	de_jure_liege_title = c_wurtemberg
-}
-
-b_stuttgart = {
-	de_jure_liege_title = c_wurtemberg
-}
-
-b_tubingen = {
-	de_jure_liege_title = c_wurtemberg
-}
-
-b_ulm = {
-	de_jure_liege_title = c_wurtemberg
-}
-
-b_hechingen = {
-	de_jure_liege_title = c_zollern
+	b_hechingen = {
+	}
 }

@@ -18,45 +18,36 @@ d_netherlands = {
 c_limburg = {
 	de_jure_liege_title = d_limburg
 	color = { 246 197 10 }
+
+	b_maastricht = {
+	}
 }
 
 c_netherlands = {
 	de_jure_liege_title = d_netherlands
 	color = { 226 64 30 }
-}
 
-b_maastricht = {
-	de_jure_liege_title = c_limburg
-}
+	b_amsterdam = {
+	}
 
-b_amsterdam = {
-	de_jure_liege_title = c_netherlands
-}
+	b_arnheim = {
+	}
 
-b_arnheim = {
-	de_jure_liege_title = c_netherlands
-}
+	b_groningen = {
+	}
 
-b_groningen = {
-	de_jure_liege_title = c_netherlands
-}
+	b_haarlem = {
+	}
 
-b_haarlem = {
-	de_jure_liege_title = c_netherlands
-}
+	b_the_hague = {
+	}
 
-b_the_hague = {
-	de_jure_liege_title = c_netherlands
-}
+	b_hertogenbosch = {
+	}
 
-b_hertogenbosch = {
-	de_jure_liege_title = c_netherlands
-}
+	b_rotterdam = {
+	}
 
-b_rotterdam = {
-	de_jure_liege_title = c_netherlands
-}
-
-b_utrecht = {
-	de_jure_liege_title = c_netherlands
+	b_utrecht = {
+	}
 }

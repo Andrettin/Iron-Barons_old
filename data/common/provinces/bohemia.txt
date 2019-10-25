@@ -1,19 +1,164 @@
 p_bohemia = {
 	county = c_bohemia
 	color = { 30 207 116 }
+
+	h_budweis = {
+		barony = b_budweis
+		settlement = true
+	}
+
+	h_carlsbad = {
+		barony = b_carlsbad
+		settlement = true
+	}
+
+	h_chlum = {
+		barony = b_chlum
+		settlement = true
+	}
+
+	h_eger = {
+		barony = b_eger
+		settlement = true
+	}
+
+	h_gabel = {
+		barony = b_gabel
+		settlement = true
+	}
+
+	h_gitschin = {
+		barony = b_gitschin
+		settlement = true
+	}
+
+	h_huhnerwasser = {
+		barony = b_huhnerwasser
+		settlement = true
+	}
+
+	h_josefstadt = {
+		barony = b_josefstadt
+		settlement = true
+	}
+
+	h_koniggratz = {
+		barony = b_koniggratz
+		settlement = true
+	}
+
+	h_koniginhof = {
+		barony = b_koniginhof
+		settlement = true
+	}
+
+	h_munchengratz = {
+		barony = b_munchengratz
+		settlement = true
+	}
+
+	h_nachod = {
+		barony = b_nachod
+		settlement = true
+	}
+
+	h_pardubitz = {
+		barony = b_pardubitz
+		settlement = true
+	}
+
+	h_pilsen = {
+		barony = b_pilsen
+		settlement = true
+	}
+
+	h_prague = {
+		barony = b_prague
+		settlement = true
+	}
+
+	h_sadowa = {
+		barony = b_sadowa
+		settlement = true
+	}
+
+	h_schweinschadel = {
+		barony = b_schweinschadel
+		settlement = true
+	}
+
+	h_skalitz = {
+		barony = b_skalitz
+		settlement = true
+	}
+
+	h_teplitz = {
+		barony = b_teplitz
+		settlement = true
+	}
+
+	h_trautenau = {
+		barony = b_trautenau
+		settlement = true
+	}
 }
 
 p_moravia = {
 	county = c_moravia
 	color = { 224 131 143 }
+
+	h_brunn = {
+		barony = b_brunn
+		settlement = true
+	}
+
+	h_iglau = {
+		barony = b_iglau
+		settlement = true
+	}
+
+	h_kremsier = {
+		barony = b_kremsier
+		settlement = true
+	}
+
+	h_nikolsburg = {
+		barony = b_nikolsburg
+		settlement = true
+	}
+
+	h_olmutz = {
+		barony = b_olmutz
+		settlement = true
+	}
+
+	h_spielberg = {
+		barony = b_spielberg
+		settlement = true
+	}
+
+	h_tobitschau = {
+		barony = b_tobitschau
+		settlement = true
+	}
 }
 
 p_teschen = {
 	county = c_teschen
 	color = { 250 97 3 }
+
+	h_teschen = {
+		barony = b_teschen
+		settlement = true
+	}
 }
 
 p_troppau = {
 	county = c_troppau
 	color = { 208 156 43 }
+	
+	h_troppau = {
+		barony = b_troppau
+		settlement = true
+	}
 }

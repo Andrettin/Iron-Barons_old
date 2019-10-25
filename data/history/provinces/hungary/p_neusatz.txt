@@ -3,8 +3,8 @@ religion = catholic
 1815.1.1 = {
 	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_neusatz = town #Neusatz existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_titel = village #Titel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_neusatz = town #Neusatz existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_titel = village #Titel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_neusatz
+	capital_holding = h_neusatz
 }

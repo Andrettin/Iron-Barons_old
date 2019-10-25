@@ -1,14 +1,64 @@
 p_arlon = {
 	county = c_arlon
 	color = { 190 160 229 }
+
+	h_arlon = {
+		barony = b_arlon
+		settlement = true
+	}
 }
 
 p_belgium = {
 	county = c_belgium
 	color = { 95 134 74 }
+
+	h_antwerp = {
+		barony = b_antwerp
+		settlement = true
+	}
+
+	h_bruges = {
+		barony = b_bruges
+		settlement = true
+	}
+
+	h_brussels = {
+		barony = b_brussels
+		settlement = true
+	}
+
+	h_ghent = {
+		barony = b_ghent
+		settlement = true
+	}
+
+	h_liege = {
+		barony = b_liege
+		settlement = true
+	}
+
+	h_mons = {
+		barony = b_mons
+		settlement = true
+	}
+
+	h_namur = {
+		barony = b_namur
+		settlement = true
+	}
+
+	h_ostend = {
+		barony = b_ostend
+		settlement = true
+	}
 }
 
 p_luxembourg = {
 	county = c_luxembourg
 	color = { 217 202 129 }
+
+	h_luxembourg = {
+		barony = b_luxembourg
+		settlement = true
+	}
 }

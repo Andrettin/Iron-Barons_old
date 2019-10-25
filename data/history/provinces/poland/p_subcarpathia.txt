@@ -3,9 +3,9 @@ religion = catholic
 1815.1.1 = {
 	culture = polish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_przemysl = town #Przemysl existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_jaroslaw = town #Jaroslaw existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_dukla = town #Dukla existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_przemysl = town #Przemysl existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_jaroslaw = town #Jaroslaw existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_dukla = town #Dukla existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_przemysl
+	capital_holding = h_przemysl
 }

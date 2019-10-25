@@ -1,34 +1,179 @@
 p_carinthia = {
 	county = c_carinthia
 	color = { 132 134 64 }
+	
+	h_klagenfurt = {
+		barony = b_klagenfurt
+		settlement = true
+	}
+
+	h_villach = {
+		barony = b_villach
+		settlement = true
+	}
 }
 
 p_carniola = {
 	county = c_carniola
 	color = { 88 147 162 }
+
+	h_adelsberg = {
+		barony = b_adelsberg
+		settlement = true
+	}
+
+	h_laibach = {
+		barony = b_laibach
+		settlement = true
+	}
 }
 
 p_lower_austria = {
 	county = c_lower_austria
 	color = { 42 3 128 }
+
+	h_bruck = {
+		barony = b_bruck
+		settlement = true
+	}
+
+	h_frohsdorf = {
+		barony = b_frohsdorf
+		settlement = true
+	}
+
+	h_ganserndorf = {
+		barony = b_ganserndorf
+		settlement = true
+	}
+
+	h_krems = {
+		barony = b_krems
+		settlement = true
+	}
+
+	h_sankt_polten = {
+		barony = b_sankt_polten
+		settlement = true
+	}
+
+	h_schwechat = {
+		barony = b_schwechat
+		settlement = true
+	}
+
+	h_vienna = {
+		barony = b_vienna
+		settlement = true
+	}
+
+	h_wiener_neustadt = {
+		barony = b_wiener_neustadt
+		settlement = true
+	}
 }
 
 p_salzburg = {
 	county = c_salzburg
 	color = { 148 32 207 }
+
+	h_salzburg = {
+		barony = b_salzburg
+		settlement = true
+	}
+
+	h_gastein = {
+		barony = b_gastein
+		settlement = true
+	}
 }
 
 p_styria = {
 	county = c_styria
 	color = { 203 243 54 }
+
+	h_bruck_styria = {
+		barony = b_bruck_styria
+		settlement = true
+	}
+
+	h_cilli = {
+		barony = b_cilli
+		settlement = true
+	}
+
+	h_graz = {
+		barony = b_graz
+		settlement = true
+	}
+
+	h_marburg = {
+		barony = b_marburg
+		settlement = true
+	}
 }
 
 p_tyrol = {
 	county = c_tyrol
 	color = { 220 13 46 }
+
+	h_bozen = {
+		barony = b_bozen
+		settlement = true
+	}
+
+	h_bregenz = {
+		barony = b_bregenz
+		settlement = true
+	}
+
+	h_franzensfeste = {
+		barony = b_franzensfeste
+		settlement = true
+	}
+
+	h_glurns = {
+		barony = b_glurns
+		settlement = true
+	}
+
+	h_innsbruck = {
+		barony = b_innsbruck
+		settlement = true
+	}
+
+	h_kufstein = {
+		barony = b_kufstein
+		settlement = true
+	}
+
+	h_trent = {
+		barony = b_trent
+		settlement = true
+	}
 }
 
 p_upper_austria = {
 	county = c_upper_austria
 	color = { 84 6 1 }
+
+	h_ischl = {
+		barony = b_ischl
+		settlement = true
+	}
+
+	h_linz = {
+		barony = b_linz
+		settlement = true
+	}
+
+	h_steyr = {
+		barony = b_steyr
+		settlement = true
+	}
+
+	h_wels = {
+		barony = b_wels
+		settlement = true
+	}
 }

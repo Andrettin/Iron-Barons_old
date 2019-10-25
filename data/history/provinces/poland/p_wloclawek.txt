@@ -3,10 +3,10 @@ religion = catholic
 1815.1.1 = {
 	culture = polish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_wloclawek = town #Wloclawek existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_radziejewo = town #Radziejewo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_rypin = town #Rypin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_osseg = village #Osseg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_wloclawek = town #Wloclawek existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_radziejewo = town #Radziejewo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_rypin = town #Rypin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_osseg = village #Osseg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_wloclawek
+	capital_holding = h_wloclawek
 }

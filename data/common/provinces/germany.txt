@@ -1,129 +1,694 @@
 p_baden = {
 	county = c_baden
 	color = { 218 171 19 }
+
+	h_carlsruhe = {
+		barony = b_carlsruhe
+		settlement = true
+	}
+
+	h_dossenbach = {
+		barony = b_dossenbach
+		settlement = true
+	}
+
+	h_freiburg = {
+		barony = b_freiburg
+		settlement = true
+	}
+
+	h_geroldseck = {
+		barony = b_geroldseck
+		settlement = true
+	}
+
+	h_heidelberg = {
+		barony = b_heidelberg
+		settlement = true
+	}
+
+	h_hundheim = {
+		barony = b_hundheim
+		settlement = true
+	}
+
+	h_kandern = {
+		barony = b_kandern
+		settlement = true
+	}
+
+	h_mannheim = {
+		barony = b_mannheim
+		settlement = true
+	}
+
+	h_offenburg = {
+		barony = b_offenburg
+		settlement = true
+	}
+
+	h_rastatt = {
+		barony = b_rastatt
+		settlement = true
+	}
+
+	h_tauberbischofsheim = {
+		barony = b_tauberbischofsheim
+		settlement = true
+	}
+
+	h_waghausel = {
+		barony = b_waghausel
+		settlement = true
+	}
 }
 
 p_brandenburg = {
 	county = c_brandenburg
 	color = { 37 55 4 }
+
+	h_berlin = {
+		barony = b_berlin
+		settlement = true
+	}
+
+	h_brandenburg = {
+		barony = b_brandenburg
+		settlement = true
+	}
+
+	h_cottbus = {
+		barony = b_cottbus
+		settlement = true
+	}
+
+	h_frankfurt_on_the_oder = {
+		barony = b_frankfurt_on_the_oder
+		settlement = true
+	}
+
+	h_guben = {
+		barony = b_guben
+		settlement = true
+	}
+
+	h_kustrin = {
+		barony = b_kustrin
+		settlement = true
+	}
+
+	h_landsberg = {
+		barony = b_landsberg
+		settlement = true
+	}
+
+	h_neu_ruppin = {
+		barony = b_neu_ruppin
+		settlement = true
+	}
+
+	h_potsdam = {
+		barony = b_potsdam
+		settlement = true
+	}
+
+	h_prenzlau = {
+		barony = b_prenzlau
+		settlement = true
+	}
+
+	h_schonhausen = {
+		barony = b_schonhausen
+		settlement = true
+	}
+
+	h_spandau = {
+		barony = b_spandau
+		settlement = true
+	}
+
+	h_wittenberg = {
+		barony = b_wittenberg
+		settlement = true
+	}
 }
 
 p_breslau = {
 	county = c_breslau
 	color = { 103 186 205 }
+
+	h_breslau = {
+		barony = b_breslau
+		settlement = true
+	}
+
+	h_glatz = {
+		barony = b_glatz
+		settlement = true
+	}
+
+	h_glogau = {
+		barony = b_glogau
+		settlement = true
+	}
+
+	h_gorlitz = {
+		barony = b_gorlitz
+		settlement = true
+	}
+
+	h_landeshut = {
+		barony = b_landeshut
+		settlement = true
+	}
+
+	h_liegnitz = {
+		barony = b_liegnitz
+		settlement = true
+	}
+
+	h_ols = {
+		barony = b_ols
+		settlement = true
+	}
+
+	h_schweidnitz = {
+		barony = b_schweidnitz
+		settlement = true
+	}
+
+	h_silberberg = {
+		barony = b_silberberg
+		settlement = true
+	}
+
+	h_zillerthal = {
+		barony = b_zillerthal
+		settlement = true
+	}
 }
 
 p_brunswick = {
 	county = c_brunswick
 	color = { 234 211 250 }
+
+	h_brunswick = {
+		barony = b_brunswick
+		settlement = true
+	}
 }
 
 p_darmstadt = {
 	county = c_darmstadt
 	color = { 211 6 141 }
+
+	h_darmstadt = {
+		barony = b_darmstadt
+		settlement = true
+	}
+
+	h_heppenheim = {
+		barony = b_heppenheim
+		settlement = true
+	}
 }
 
 p_east_frisia = {
 	county = c_east_frisia
 	color = { 237 68 103 }
+
+	h_aurich = {
+		barony = b_aurich
+		settlement = true
+	}
+
+	h_emden = {
+		barony = b_emden
+		settlement = true
+	}
+
+	h_meppen = {
+		barony = b_meppen
+		settlement = true
+	}
+
+	h_osnabruck = {
+		barony = b_osnabruck
+		settlement = true
+	}
 }
 
 p_farther_pomerania = {
 	county = c_farther_pomerania
 	color = { 91 25 205 }
+
+	h_kolberg = {
+		barony = b_kolberg
+		settlement = true
+	}
+
+	h_koslin = {
+		barony = b_koslin
+		settlement = true
+	}
+
+	h_stargard = {
+		barony = b_stargard
+		settlement = true
+	}
 }
 
 p_giessen = {
 	county = c_giessen
 	color = { 249 53 64 }
+
+	h_giessen = {
+		barony = b_giessen
+		settlement = true
+	}
+
+	h_homburg = {
+		barony = b_homburg
+		settlement = true
+	}
 }
 
 p_gottingen = {
 	county = c_gottingen
 	color = { 127 110 64 }
+
+	h_gottingen = {
+		barony = b_gottingen
+		settlement = true
+	}
 }
 
 p_hamburg = {
 	county = c_hamburg
 	color = { 97 95 41 }
+
+	h_altona = {
+		barony = b_altona
+		settlement = true
+	}
+
+	h_hamburg = {
+		barony = b_hamburg
+		settlement = true
+	}
 }
 
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
+
+	h_bremen = {
+		barony = b_bremen
+		settlement = true
+	}
+
+	h_bremerhaven = {
+		barony = b_bremerhaven
+		settlement = true
+	}
+
+	h_celle = {
+		barony = b_celle
+		settlement = true
+	}
+
+	h_hanover = {
+		barony = b_hanover
+		settlement = true
+	}
+
+	h_hildesheim = {
+		barony = b_hildesheim
+		settlement = true
+	}
+
+	h_luneburg = {
+		barony = b_luneburg
+		settlement = true
+	}
+
+	h_stade = {
+		barony = b_stade
+		settlement = true
+	}
 }
 
 p_hither_pomerania = {
 	county = c_hither_pomerania
 	color = { 164 255 28 }
+
+	h_greifswald = {
+		barony = b_greifswald
+		settlement = true
+	}
+
+	h_stettin = {
+		barony = b_stettin
+		settlement = true
+	}
+
+	h_stralsund = {
+		barony = b_stralsund
+		settlement = true
+	}
+
+	h_swinemunde = {
+		barony = b_swinemunde
+		settlement = true
+	}
 }
 
 p_holstein = {
 	county = c_holstein
 	color = { 101 97 115 }
+	
+	h_itzehoe = {
+		barony = b_itzehoe
+		settlement = true
+	}
+
+	h_kiel = {
+		barony = b_kiel
+		settlement = true
+	}
+
+	h_rendsburg = {
+		barony = b_rendsburg
+		settlement = true
+	}
 }
 
 p_kassel = {
 	county = c_kassel
 	color = { 22 220 110 }
+
+	h_bronzell = {
+		barony = b_bronzell
+		settlement = true
+	}
+
+	h_frankfurt = {
+		barony = b_frankfurt
+		settlement = true
+	}
+
+	h_fulda = {
+		barony = b_fulda
+		settlement = true
+	}
+
+	h_hanau = {
+		barony = b_hanau
+		settlement = true
+	}
+
+	h_kassel = {
+		barony = b_kassel
+		settlement = true
+	}
+
+	h_marburg_hesse = {
+		barony = b_marburg_hesse
+		settlement = true
+	}
 }
 
 p_kattowitz = {
 	county = c_kattowitz
 	color = { 131 14 60 }
+
+	h_ratibor = {
+		barony = b_ratibor
+		settlement = true
+	}
 }
 
 p_lauenburg = {
 	county = c_lauenburg
 	color = { 4 157 15 }
+
+	h_lauenburg = {
+		barony = b_lauenburg
+		settlement = true
+	}
+
+	h_lubeck = {
+		barony = b_lubeck
+		settlement = true
+	}
 }
 
 p_magdeburg = {
 	county = c_magdeburg
 	color = { 250 85 103 }
+
+	h_dessau = {
+		barony = b_dessau
+		settlement = true
+	}
+
+	h_erfurt = {
+		barony = b_erfurt
+		settlement = true
+	}
+
+	h_halberstadt = {
+		barony = b_halberstadt
+		settlement = true
+	}
+
+	h_halle = {
+		barony = b_halle
+		settlement = true
+	}
+
+	h_langensalza = {
+		barony = b_langensalza
+		settlement = true
+	}
+
+	h_magdeburg = {
+		barony = b_magdeburg
+		settlement = true
+	}
+
+	h_merseburg = {
+		barony = b_merseburg
+		settlement = true
+	}
+
+	h_muhlhausen = {
+		barony = b_muhlhausen
+		settlement = true
+	}
+
+	h_sondershausen = {
+		barony = b_sondershausen
+		settlement = true
+	}
+
+	h_torgau = {
+		barony = b_torgau
+		settlement = true
+	}
 }
 
 p_nassau = {
 	county = c_nassau
 	color = { 15 44 242 }
+
+	h_wetzlar = {
+		barony = b_wetzlar
+		settlement = true
+	}
+
+	h_wiesbaden = {
+		barony = b_wiesbaden
+		settlement = true
+	}
 }
 
 p_oldenburg = {
 	county = c_oldenburg
 	color = { 118 56 154 }
+
+	h_brake = {
+		barony = b_brake
+		settlement = true
+	}
+
+	h_elsfleth = {
+		barony = b_elsfleth
+		settlement = true
+	}
+
+	h_oldenburg = {
+		barony = b_oldenburg
+		settlement = true
+	}
+
+	h_wilhelmshaven = {
+		barony = b_wilhelmshaven
+		settlement = true
+	}
 }
 
 p_oppeln = {
 	county = c_oppeln
 	color = { 208 155 124 }
+
+	h_kosel = {
+		barony = b_kosel
+		settlement = true
+	}
+
+	h_neisse = {
+		barony = b_neisse
+		settlement = true
+	}
+
+	h_oppeln = {
+		barony = b_oppeln
+		settlement = true
+	}
 }
 
 p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
+
+	h_parchim = {
+		barony = b_parchim
+		settlement = true
+	}
+
+	h_rostock = {
+		barony = b_rostock
+		settlement = true
+	}
+
+	h_schwerin = {
+		barony = b_schwerin
+		settlement = true
+	}
+
+	h_wismar = {
+		barony = b_wismar
+		settlement = true
+	}
 }
 
 p_sigmaringen = {
 	county = c_sigmaringen
 	color = { 238 40 36 }
+
+	h_sigmaringen = {
+		barony = b_sigmaringen
+		settlement = true
+	}
 }
 
 p_strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }
+
+	h_strelitz = {
+		barony = b_strelitz
+		settlement = true
+	}
 }
 
 p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }
+
+	h_arnsberg = {
+		barony = b_arnsberg
+		settlement = true
+	}
+
+	h_dusseldorf = {
+		barony = b_dusseldorf
+		settlement = true
+	}
+
+	h_elberfeld = {
+		barony = b_elberfeld
+		settlement = true
+	}
+
+	h_essen = {
+		barony = b_essen
+		settlement = true
+	}
+
+	h_lippstadt = {
+		barony = b_lippstadt
+		settlement = true
+	}
+
+	h_minden = {
+		barony = b_minden
+		settlement = true
+	}
+
+	h_munster = {
+		barony = b_munster
+		settlement = true
+	}
+
+	h_siegen = {
+		barony = b_siegen
+		settlement = true
+	}
+
+	h_wesel = {
+		barony = b_wesel
+		settlement = true
+	}
 }
 
 p_wurtemberg = {
 	county = c_wurtemberg
 	color = { 192 202 36 }
+
+	h_heilbronn = {
+		barony = b_heilbronn
+		settlement = true
+	}
+
+	h_hohen_asperg = {
+		barony = b_hohen_asperg
+		settlement = true
+	}
+
+	h_stuttgart = {
+		barony = b_stuttgart
+		settlement = true
+	}
+
+	h_tubingen = {
+		barony = b_tubingen
+		settlement = true
+	}
+
+	h_ulm = {
+		barony = b_ulm
+		settlement = true
+	}
 }
 
 p_zollern = {
 	county = c_zollern
 	color = { 79 139 68 }
+
+	h_hechingen = {
+		barony = b_hechingen
+		settlement = true
+	}
 }

@@ -3,18 +3,18 @@ religion = catholic
 1815.1.1 = {
 	culture = austrian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_graz = city #Graz was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_marburg = town #Marburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_cilli = town #Cilli was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_bruck_styria = town #Bruck was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_graz = city #Graz was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_marburg = town #Marburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_cilli = town #Cilli was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_bruck_styria = town #Bruck was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_graz
+	capital_holding = h_graz
 	
-	b_cilli = {
+	h_cilli = {
 		culture = slovene #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	}
 	
-	b_marburg = {
+	h_marburg = {
 		culture = slovene #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	}
 }

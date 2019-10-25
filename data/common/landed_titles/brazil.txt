@@ -36,35 +36,31 @@ d_sao_paulo = {
 c_espirito_santo = {
 	de_jure_liege_title = d_espirito_santo
 	color = { 201 128 227 }
+
+	b_espirito_santo = {
+	}
 }
 
 c_minas_gerais = {
 	de_jure_liege_title = d_minas_gerais
 	color = { 237 250 195 }
+
+	b_ouro_preto = {
+	}
 }
 
 c_rio_de_janeiro = {
 	de_jure_liege_title = d_rio_de_janeiro
 	color = { 0 175 239 }
+
+	b_rio_de_janeiro = {
+	}
 }
 
 c_sao_paulo = {
 	de_jure_liege_title = d_sao_paulo
 	color = { 63 91 95 }
-}
 
-b_espirito_santo = {
-	de_jure_liege_title = c_espirito_santo
-}
-
-b_ouro_preto = {
-	de_jure_liege_title = c_minas_gerais
-}
-
-b_rio_de_janeiro = {
-	de_jure_liege_title = c_rio_de_janeiro
-}
-
-b_sao_paulo = {
-	de_jure_liege_title = c_sao_paulo
+	b_sao_paulo = {
+	}
 }

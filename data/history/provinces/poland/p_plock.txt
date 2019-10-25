@@ -3,11 +3,11 @@ religion = catholic
 1815.1.1 = {
 	culture = polish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_plock = town #Plock existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_modlin = town #Modlin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_pultusk = town #Pultusk existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_ostrolenka = town #Ostrolenka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_nur = village #Nur existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.	
+	h_plock = town #Plock existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_modlin = town #Modlin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_pultusk = town #Pultusk existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_ostrolenka = town #Ostrolenka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_nur = village #Nur existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.	
 	
-	capital_holding = b_plock
+	capital_holding = h_plock
 }

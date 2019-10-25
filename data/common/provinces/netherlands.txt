@@ -1,9 +1,54 @@
 p_limburg = {
 	county = c_limburg
 	color = { 153 211 235 }
+
+	h_maastricht = {
+		barony = b_maastricht
+		settlement = true
+	}
 }
 
 p_netherlands = {
 	county = c_netherlands
 	color = { 235 143 160 }
+
+	h_amsterdam = {
+		barony = b_amsterdam
+		settlement = true
+	}
+
+	h_arnheim = {
+		barony = b_arnheim
+		settlement = true
+	}
+
+	h_groningen = {
+		barony = b_groningen
+		settlement = true
+	}
+
+	h_haarlem = {
+		barony = b_haarlem
+		settlement = true
+	}
+
+	h_the_hague = {
+		barony = b_the_hague
+		settlement = true
+	}
+
+	h_hertogenbosch = {
+		barony = b_hertogenbosch
+		settlement = true
+	}
+
+	h_rotterdam = {
+		barony = b_rotterdam
+		settlement = true
+	}
+
+	h_utrecht = {
+		barony = b_utrecht
+		settlement = true
+	}
 }

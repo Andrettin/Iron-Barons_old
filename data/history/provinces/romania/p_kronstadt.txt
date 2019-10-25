@@ -3,8 +3,8 @@ religion = orthodox
 1815.1.1 = {
 	culture = romanian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_kronstadt = city #Kronstadt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_fogaras = town #Fogaras existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_kronstadt = city #Kronstadt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_fogaras = town #Fogaras existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_kronstadt
+	capital_holding = h_kronstadt
 }

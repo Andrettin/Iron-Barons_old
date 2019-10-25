@@ -1,39 +1,124 @@
 p_burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }
+
+	h_eisenstadt = {
+		barony = b_eisenstadt
+		settlement = true
+	}
 }
 
 p_hungary = {
 	county = c_hungary
 	color = { 57 174 209 }
+
+	h_buda = {
+		barony = b_buda
+		settlement = true
+	}
+
+	h_pest = {
+		barony = b_pest
+		settlement = true
+	}
 }
 
 p_kikinda = {
 	county = c_kikinda
 	color = { 18 221 52 }
+
+	h_kikinda = {
+		barony = b_kikinda
+		settlement = true
+	}
+
+	h_szoreg = {
+		barony = b_szoreg
+		settlement = true
+	}
 }
 
 p_melencze = {
 	county = c_melencze
 	color = { 153 223 47 }
+
+	h_melencze = {
+		barony = b_melencze
+		settlement = true
+	}
+
+	h_perlasz = {
+		barony = b_perlasz
+		settlement = true
+	}
 }
 
 p_neusatz = {
 	county = c_neusatz
 	color = { 112 95 226 }
+
+	h_neusatz = {
+		barony = b_neusatz
+		settlement = true
+	}
+
+	h_titel = {
+		barony = b_titel
+		settlement = true
+	}
 }
 
 p_pancsova = {
 	county = c_pancsova
 	color = { 104 234 156 }
+
+	h_alibunar = {
+		barony = b_alibunar
+		settlement = true
+	}
+
+	h_pancsova = {
+		barony = b_pancsova
+		settlement = true
+	}
+
+	h_weisskirchen = {
+		barony = b_weisskirchen
+		settlement = true
+	}
+
+	h_werschitz = {
+		barony = b_werschitz
+		settlement = true
+	}
 }
 
 p_resita = {
 	county = c_resita
 	color = { 233 141 125 }
+
+	h_mehadia = {
+		barony = b_mehadia
+		settlement = true
+	}
+
+	h_resita = {
+		barony = b_resita
+		settlement = true
+	}
 }
 
 p_temesvar = {
 	county = c_temesvar
 	color = { 204 27 113 }
+
+	h_lugos = {
+		barony = b_lugos
+		settlement = true
+	}
+
+	h_temesvar = {
+		barony = b_temesvar
+		settlement = true
+	}
 }

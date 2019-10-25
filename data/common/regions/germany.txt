@@ -63,5 +63,5 @@ r_germany = { #the territory of the modern Federal Republic of Germany
 	provinces += p_westphalia
 	provinces += p_wurtemberg
 	provinces += p_zollern
-	holdings -= b_stettin
+	holdings -= h_stettin
 }

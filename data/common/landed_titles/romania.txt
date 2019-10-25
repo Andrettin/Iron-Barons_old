@@ -7,112 +7,90 @@ d_transylvania = {
 c_csik_szereda = {
 	de_jure_liege_title = d_transylvania
 	color = { 241 223 211 }
+
+	b_csik_szereda = {
+	}
 }
 
 c_hermannstadt = {
 	de_jure_liege_title = d_transylvania
 	color = { 241 8 46 }
+
+	b_gr_scheuern = {
+	}
+
+	b_hermannstadt = {
+	}
+
+	b_medgyes = {
+	}
+
+	b_vizakna = {
+	}
 }
 
 c_kronstadt = {
 	de_jure_liege_title = d_transylvania
 	color = { 237 45 65 }
+
+	b_fogaras = {
+	}
+
+	b_kronstadt = {
+	}
 }
 
 c_sepsi_sz_gyorgy = {
 	de_jure_liege_title = d_transylvania
 	color = { 154 121 97 }
+
+	b_sepsi_sz_gyorgy = {
+	}
 }
 
 c_transylvania = {
 	de_jure_liege_title = d_transylvania
 	color = { 255 215 0 }
-}
 
-b_csik_szereda = {
-	de_jure_liege_title = c_csik_szereda
-}
+	b_bistritz = {
+	}
 
-b_gr_scheuern = {
-	de_jure_liege_title = c_hermannstadt
-}
+	b_broos = {
+	}
 
-b_hermannstadt = {
-	de_jure_liege_title = c_hermannstadt
-}
+	b_csucsa = {
+	}
 
-b_medgyes = {
-	de_jure_liege_title = c_hermannstadt
-}
+	b_dees = {
+	}
 
-b_vizakna = {
-	de_jure_liege_title = c_hermannstadt
-}
+	b_deva = {
+	}
 
-b_fogaras = {
-	de_jure_liege_title = c_kronstadt
-}
+	b_karlsburg = {
+	}
 
-b_kronstadt = {
-	de_jure_liege_title = c_kronstadt
-}
+	b_klausenburg = {
+	}
 
-b_sepsi_sz_gyorgy = {
-	de_jure_liege_title = c_sepsi_sz_gyorgy
-}
+	b_maros_vasarhely = {
+	}
 
-b_bistritz = {
-	de_jure_liege_title = c_transylvania
-}
+	b_muhlenbach = {
+	}
 
-b_broos = {
-	de_jure_liege_title = c_transylvania
-}
+	b_piski = {
+	}
 
-b_csucsa = {
-	de_jure_liege_title = c_transylvania
-}
+	b_schassburg = {
+	}
 
-b_dees = {
-	de_jure_liege_title = c_transylvania
-}
+	b_szamos_ujvar = {
+	}
 
-b_deva = {
-	de_jure_liege_title = c_transylvania
-}
+	b_szasz_regen = {
+	}
 
-b_karlsburg = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_klausenburg = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_maros_vasarhely = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_muhlenbach = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_piski = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_schassburg = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_szamos_ujvar = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_szasz_regen = {
-	de_jure_liege_title = c_transylvania
-}
-
-b_zsibo = {
-	de_jure_liege_title = c_transylvania
+	b_zsibo = {
+	}
 }

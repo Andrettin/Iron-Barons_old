@@ -1,24 +1,134 @@
 p_csik_szereda = {
 	county = c_csik_szereda
 	color = { 129 213 213 }
+
+	h_csik_szereda = {
+		barony = b_csik_szereda
+		settlement = true
+	}
 }
 
 p_hermannstadt = {
 	county = c_hermannstadt
 	color = { 175 221 34 }
+
+	h_gr_scheuern = {
+		barony = b_gr_scheuern
+		settlement = true
+	}
+
+	h_hermannstadt = {
+		barony = b_hermannstadt
+		settlement = true
+	}
+
+	h_medgyes = {
+		barony = b_medgyes
+		settlement = true
+	}
+
+	h_vizakna = {
+		barony = b_vizakna
+		settlement = true
+	}
 }
 
 p_kronstadt = {
 	county = c_kronstadt
 	color = { 205 60 62 }
+
+	h_fogaras = {
+		barony = b_fogaras
+		settlement = true
+	}
+
+	h_kronstadt = {
+		barony = b_kronstadt
+		settlement = true
+	}
 }
 
 p_sepsi_sz_gyorgy = {
 	county = c_sepsi_sz_gyorgy
 	color = { 69 217 89 }
+
+	h_sepsi_sz_gyorgy = {
+		barony = b_sepsi_sz_gyorgy
+		settlement = true
+	}
 }
 
 p_transylvania = {
 	county = c_transylvania
 	color = { 205 120 94 }
+
+	h_bistritz = {
+		barony = b_bistritz
+		settlement = true
+	}
+
+	h_broos = {
+		barony = b_broos
+		settlement = true
+	}
+
+	h_csucsa = {
+		barony = b_csucsa
+		settlement = true
+	}
+
+	h_dees = {
+		barony = b_dees
+		settlement = true
+	}
+
+	h_deva = {
+		barony = b_deva
+		settlement = true
+	}
+
+	h_karlsburg = {
+		barony = b_karlsburg
+		settlement = true
+	}
+
+	h_klausenburg = {
+		barony = b_klausenburg
+		settlement = true
+	}
+
+	h_maros_vasarhely = {
+		barony = b_maros_vasarhely
+		settlement = true
+	}
+
+	h_muhlenbach = {
+		barony = b_muhlenbach
+		settlement = true
+	}
+
+	h_piski = {
+		barony = b_piski
+		settlement = true
+	}
+
+	h_schassburg = {
+		barony = b_schassburg
+		settlement = true
+	}
+
+	h_szamos_ujvar = {
+		barony = b_szamos_ujvar
+		settlement = true
+	}
+
+	h_szasz_regen = {
+		barony = b_szasz_regen
+		settlement = true
+	}
+
+	h_zsibo = {
+		barony = b_zsibo
+		settlement = true
+	}
 }

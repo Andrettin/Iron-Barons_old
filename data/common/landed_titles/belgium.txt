@@ -18,54 +18,44 @@ d_luxembourg = {
 c_arlon = {
 	de_jure_liege_title = d_luxembourg
 	color = { 30 127 203 }
+
+	b_arlon = {
+	}
 }
 
 c_belgium = {
 	de_jure_liege_title = d_belgium
 	color = { 250 224 66 }
+
+	b_antwerp = {
+	}
+
+	b_bruges = {
+	}
+
+	b_brussels = {
+	}
+
+	b_ghent = {
+	}
+
+	b_liege = {
+	}
+
+	b_mons = {
+	}
+
+	b_namur = {
+	}
+
+	b_ostend = {
+	}
 }
 
 c_luxembourg = {
 	de_jure_liege_title = d_luxembourg
 	color = { 0 161 222 }
-}
 
-b_arlon = {
-	de_jure_liege_title = c_arlon
-}
-
-b_antwerp = {
-	de_jure_liege_title = c_belgium
-}
-
-b_bruges = {
-	de_jure_liege_title = c_belgium
-}
-
-b_brussels = {
-	de_jure_liege_title = c_belgium
-}
-
-b_ghent = {
-	de_jure_liege_title = c_belgium
-}
-
-b_liege = {
-	de_jure_liege_title = c_belgium
-}
-
-b_mons = {
-	de_jure_liege_title = c_belgium
-}
-
-b_namur = {
-	de_jure_liege_title = c_belgium
-}
-
-b_ostend = {
-	de_jure_liege_title = c_belgium
-}
-
-b_luxembourg = {
-	de_jure_liege_title = c_luxembourg
+	b_luxembourg = {
+	}
 }

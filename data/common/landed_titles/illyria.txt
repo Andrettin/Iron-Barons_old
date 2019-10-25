@@ -31,140 +31,121 @@ d_slavonia = {
 c_bjelovar = {
 	de_jure_liege_title = d_croatia
 	color = { 191 215 194 }
+
+	b_bjelovar = {
+	}
 }
 
 c_brod = {
 	de_jure_liege_title = d_slavonia
 	color = { 7 45 168 }
+
+	b_brod = {
+	}
 }
 
 c_dalmatia = {
 	de_jure_liege_title = d_dalmatia
 	color = { 62 73 143 }
+
+	b_split = {
+	}
 }
 
 c_fiume = {
 	de_jure_liege_title = d_croatia
 	color = { 70 198 199 }
+
+	b_fiume = {
+	}
 }
 
 c_gorz = {
 	de_jure_liege_title = d_istria
 	color = { 2 1 221 }
+
+	b_gorz = {
+	}
+
+	b_gradisca = {
+	}
 }
 
 c_istria = {
 	de_jure_liege_title = d_istria
 	color = { 66 71 129 }
+
+	b_pola = {
+	}
 }
 
 c_karlstadt = {
 	de_jure_liege_title = d_croatia
 	color = { 24 211 173 }
+
+	b_karlstadt = {
+	}
+
+	b_zengg = {
+	}
 }
 
 c_peterwardein = {
 	de_jure_liege_title = d_slavonia
 	color = { 35 58 126 }
+
+	b_carlowitz = {
+	}
+
+	b_peterwardein = {
+	}
+
+	b_semlin = {
+	}
 }
 
 c_sisak = {
 	de_jure_liege_title = d_croatia
 	color = { 27 194 12 }
+
+	b_sisak = {
+	}
 }
 
 c_slavonia = {
 	de_jure_liege_title = d_slavonia
 	color = { 91 114 215 }
+
+	b_esseg = {
+	}
+
+	b_pozhega = {
+	}
 }
 
 c_trieste = {
 	de_jure_liege_title = d_istria
 	color = { 188 30 19 }
+
+	b_trieste = {
+	}
 }
 
 c_vukovar = {
 	de_jure_liege_title = d_slavonia
 	color = { 88 164 172 }
+
+	b_vukovar = {
+	}
 }
 
 c_zagreb = {
 	de_jure_liege_title = d_croatia
 	color = { 225 14 30 }
-}
 
-b_bjelovar = {
-	de_jure_liege_title = c_bjelovar
-}
+	b_warasdin = {
+	}
 
-b_brod = {
-	de_jure_liege_title = c_brod
-}
-
-b_split = {
-	de_jure_liege_title = c_dalmatia
-}
-
-b_fiume = {
-	de_jure_liege_title = c_fiume
-}
-
-b_gorz = {
-	de_jure_liege_title = c_gorz
-}
-
-b_gradisca = {
-	de_jure_liege_title = c_gorz
-}
-
-b_pola = {
-	de_jure_liege_title = c_istria
-}
-
-b_karlstadt = {
-	de_jure_liege_title = c_karlstadt
-}
-
-b_zengg = {
-	de_jure_liege_title = c_karlstadt
-}
-
-b_carlowitz = {
-	de_jure_liege_title = c_peterwardein
-}
-
-b_peterwardein = {
-	de_jure_liege_title = c_peterwardein
-}
-
-b_semlin = {
-	de_jure_liege_title = c_peterwardein
-}
-
-b_sisak = {
-	de_jure_liege_title = c_sisak
-}
-
-b_esseg = {
-	de_jure_liege_title = c_slavonia
-}
-
-b_pozhega = {
-	de_jure_liege_title = c_slavonia
-}
-
-b_trieste = {
-	de_jure_liege_title = c_trieste
-}
-
-b_vukovar = {
-	de_jure_liege_title = c_vukovar
-}
-
-b_warasdin = {
-	de_jure_liege_title = c_zagreb
-}
-
-b_zagreb = {
-	de_jure_liege_title = c_zagreb
+	b_zagreb = {
+	}
 }

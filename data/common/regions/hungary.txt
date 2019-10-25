@@ -29,9 +29,9 @@ r_hungary_croatia_slavonia = { #excludes the military frontier
 	#Banat (without its military frontier)
 	provinces += p_kikinda
 	provinces += p_melencze
-	holdings -= b_perlasz
-	holdings += b_werschitz
-	holdings += b_resita
+	holdings -= h_perlasz
+	holdings += h_werschitz
+	holdings += h_resita
 	provinces += p_temesvar
 }
 
@@ -46,7 +46,7 @@ r_banat = {
 r_banat_military_frontier = {
 	provinces += p_pancsova
 	provinces += p_resita
-	holdings += b_perlasz
-	holdings -= b_werschitz
-	holdings -= b_resita
+	holdings += h_perlasz
+	holdings -= h_werschitz
+	holdings -= h_resita
 }

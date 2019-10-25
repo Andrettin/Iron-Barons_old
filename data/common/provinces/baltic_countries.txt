@@ -1,14 +1,79 @@
 p_danzig = {
 	county = c_danzig
 	color = { 248 144 8 }
+
+	h_danzig = {
+		barony = b_danzig
+		settlement = true
+	}
+
+	h_elbing = {
+		barony = b_elbing
+		settlement = true
+	}
+
+	h_marienburg = {
+		barony = b_marienburg
+		settlement = true
+	}
+
+	h_marienwerder = {
+		barony = b_marienwerder
+		settlement = true
+	}
 }
 
 p_east_prussia = {
 	county = c_east_prussia
 	color = { 65 220 96 }
+
+	h_allenstein = {
+		barony = b_allenstein
+		settlement = true
+	}
+
+	h_boyen = {
+		barony = b_boyen
+		settlement = true
+	}
+
+	h_eydtkuhnen = {
+		barony = b_eydtkuhnen
+		settlement = true
+	}
+
+	h_gumbinnen = {
+		barony = b_gumbinnen
+		settlement = true
+	}
+
+	h_konigsberg = {
+		barony = b_konigsberg
+		settlement = true
+	}
+
+	h_memel = {
+		barony = b_memel
+		settlement = true
+	}
+
+	h_tilsit = {
+		barony = b_tilsit
+		settlement = true
+	}
 }
 
 p_thorn = {
 	county = c_thorn
 	color = { 166 167 52 }
+
+	h_graudenz = {
+		barony = b_graudenz
+		settlement = true
+	}
+
+	h_thorn = {
+		barony = b_thorn
+		settlement = true
+	}
 }

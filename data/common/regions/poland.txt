@@ -21,7 +21,7 @@ r_poland = { #the territory of modern Poland
 	provinces += p_thorn
 	provinces += p_wloclawek
 	provinces += p_teschen
-	holdings += b_stettin
+	holdings += h_stettin
 }
 
 r_galicia = {

@@ -1,89 +1,344 @@
 p_czestochowa = {
 	county = c_czestochowa
 	color = { 233 218 54 }
+
+	h_czestochowa = {
+		barony = b_czestochowa
+		settlement = true
+	}
 }
 
 p_kalisz = {
 	county = c_kalisz
 	color = { 209 138 16 }
+
+	h_kalisz = {
+		barony = b_kalisz
+		settlement = true
+	}
 }
 
 p_kielce = {
 	county = c_kielce
 	color = { 87 224 239 }
+
+	h_busk = {
+		barony = b_busk
+		settlement = true
+	}
+
+	h_kielce = {
+		barony = b_kielce
+		settlement = true
+	}
+
+	h_sandomierz = {
+		barony = b_sandomierz
+		settlement = true
+	}
 }
 
 p_krakow = {
 	county = c_krakow
 	color = { 14 205 65 }
+
+	h_krakow = {
+		barony = b_krakow
+		settlement = true
+	}
 }
 
 p_lemberg = {
 	county = c_lemberg
 	color = { 230 77 156 }
+
+	h_lemberg = {
+		barony = b_lemberg
+		settlement = true
+	}
 }
 
 p_lesser_poland = {
 	county = c_lesser_poland
 	color = { 242 146 139 }
+
+	h_neu_sandec = {
+		barony = b_neu_sandec
+		settlement = true
+	}
+
+	h_tarnow = {
+		barony = b_tarnow
+		settlement = true
+	}
 }
 
 p_lodz = {
 	county = c_lodz
 	color = { 60 96 215 }
+
+	h_lodz = {
+		barony = b_lodz
+		settlement = true
+	}
+
+	h_piotrkow = {
+		barony = b_piotrkow
+		settlement = true
+	}
 }
 
 p_lublin = {
 	county = c_lublin
 	color = { 70 135 210 }
+
+	h_cholm = {
+		barony = b_cholm
+		settlement = true
+	}
+
+	h_ivangorod = {
+		barony = b_ivangorod
+		settlement = true
+	}
+
+	h_lublin = {
+		barony = b_lublin
+		settlement = true
+	}
+
+	h_zamosc = {
+		barony = b_zamosc
+		settlement = true
+	}
 }
 
 p_mariampol = {
 	county = c_mariampol
 	color = { 118 165 216 }
+
+	h_mariampol = {
+		barony = b_mariampol
+		settlement = true
+	}
+
+	h_virballen = {
+		barony = b_virballen
+		settlement = true
+	}
 }
 
 p_mazovia = {
 	county = c_mazovia
 	color = { 138 57 209 }
+
+	h_praga = {
+		barony = b_praga
+		settlement = true
+	}
+
+	h_warka = {
+		barony = b_warka
+		settlement = true
+	}
+
+	h_warsaw = {
+		barony = b_warsaw
+		settlement = true
+	}
+
+	h_wola = {
+		barony = b_wola
+		settlement = true
+	}
 }
 
 p_plock = {
 	county = c_plock
 	color = { 87 126 41 }
+
+	h_modlin = {
+		barony = b_modlin
+		settlement = true
+	}
+
+	h_nur = {
+		barony = b_nur
+		settlement = true
+	}
+
+	h_ostrolenka = {
+		barony = b_ostrolenka
+		settlement = true
+	}
+
+	h_plock = {
+		barony = b_plock
+		settlement = true
+	}
+
+	h_pultusk = {
+		barony = b_pultusk
+		settlement = true
+	}
 }
 
 p_podlasie = {
 	county = c_podlasie
 	color = { 193 119 201 }
+
+	h_augustowo = {
+		barony = b_augustowo
+		settlement = true
+	}
+
+	h_lomzha = {
+		barony = b_lomzha
+		settlement = true
+	}
+
+	h_tykocin = {
+		barony = b_tykocin
+		settlement = true
+	}
 }
 
 p_posen = {
 	county = c_posen
 	color = { 208 23 78 }
+
+	h_bordo = {
+		barony = b_bordo
+		settlement = true
+	}
+
+	h_bromberg = {
+		barony = b_bromberg
+		settlement = true
+	}
+
+	h_gnesen = {
+		barony = b_gnesen
+		settlement = true
+	}
+
+	h_koschmin = {
+		barony = b_koschmin
+		settlement = true
+	}
+
+	h_lissa = {
+		barony = b_lissa
+		settlement = true
+	}
+
+	h_miloslaw = {
+		barony = b_miloslaw
+		settlement = true
+	}
+
+	h_posen = {
+		barony = b_posen
+		settlement = true
+	}
+
+	h_rogalin = {
+		barony = b_rogalin
+		settlement = true
+	}
+
+	h_schneidemuhl = {
+		barony = b_schneidemuhl
+		settlement = true
+	}
+
+	h_schroda = {
+		barony = b_schroda
+		settlement = true
+	}
+
+	h_wreschen = {
+		barony = b_wreschen
+		settlement = true
+	}
+
+	h_xions = {
+		barony = b_xions
+		settlement = true
+	}
 }
 
 p_radom = {
 	county = c_radom
 	color = { 251 166 47 }
+
+	h_radom = {
+		barony = b_radom
+		settlement = true
+	}
 }
 
 p_siedlce = {
 	county = c_siedlce
 	color = { 210 245 13 }
+
+	h_siedlce = {
+		barony = b_siedlce
+		settlement = true
+	}
 }
 
 p_stanislawow = {
 	county = c_stanislawow
 	color = { 76 216 95 }
+
+	h_stanislawow = {
+		barony = b_stanislawow
+		settlement = true
+	}
 }
 
 p_subcarpathia = {
 	county = c_subcarpathia
 	color = { 218 118 51 }
+
+	h_dukla = {
+		barony = b_dukla
+		settlement = true
+	}
+
+	h_jaroslaw = {
+		barony = b_jaroslaw
+		settlement = true
+	}
+
+	h_przemysl = {
+		barony = b_przemysl
+		settlement = true
+	}
 }
 
 p_wloclawek = {
 	county = c_wloclawek
 	color = { 205 107 32 }
+
+	h_osseg = {
+		barony = b_osseg
+		settlement = true
+	}
+
+	h_radziejewo = {
+		barony = b_radziejewo
+		settlement = true
+	}
+
+	h_rypin = {
+		barony = b_rypin
+		settlement = true
+	}
+
+	h_wloclawek = {
+		barony = b_wloclawek
+		settlement = true
+	}
 }

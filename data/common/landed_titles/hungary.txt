@@ -18,107 +18,90 @@ d_hungary = {
 c_burgenland = {
 	de_jure_liege_title = d_hungary
 	color = { 255 165 0 }
+
+	b_eisenstadt = {
+	}
 }
 
 c_hungary = {
 	de_jure_liege_title = d_hungary
 	color = { 131 15 15 }
+
+	b_buda = {
+	}
+
+	b_pest = {
+	}
 }
 
 c_kikinda = {
 	de_jure_liege_title = d_banat
 	color = { 240 15 76 }
-}
 
-c_neusatz = {
-	de_jure_liege_title = d_hungary
-	color = { 28 239 229 }
+	b_kikinda = {
+	}
+
+	b_szoreg = {
+	}
 }
 
 c_melencze = {
 	de_jure_liege_title = d_banat
 	color = { 67 8 158 }
+
+	b_melencze = {
+	}
+
+	b_perlasz = {
+	}
+}
+
+c_neusatz = {
+	de_jure_liege_title = d_hungary
+	color = { 28 239 229 }
+
+	b_neusatz = {
+	}
+
+	b_titel = {
+	}
 }
 
 c_pancsova = {
 	de_jure_liege_title = d_banat
 	color = { 143 8 15 }
+
+	b_alibunar = {
+	}
+
+	b_pancsova = {
+	}
+
+	b_weisskirchen = {
+	}
+
+	b_werschitz = {
+	}
 }
 
 c_resita = {
 	de_jure_liege_title = d_banat
 	color = { 2 87 180 }
+
+	b_mehadia = {
+	}
+
+	b_resita = {
+	}
 }
 
 c_temesvar = {
 	de_jure_liege_title = d_banat
 	color = { 165 47 43 }
-}
 
-b_eisenstadt = {
-	de_jure_liege_title = c_burgenland
-}
+	b_lugos = {
+	}
 
-b_buda = {
-	de_jure_liege_title = c_hungary
-}
-
-b_pest = {
-	de_jure_liege_title = c_hungary
-}
-
-b_kikinda = {
-	de_jure_liege_title = c_kikinda
-}
-
-b_szoreg = {
-	de_jure_liege_title = c_kikinda
-}
-
-b_melencze = {
-	de_jure_liege_title = c_melencze
-}
-
-b_perlasz = {
-	de_jure_liege_title = c_melencze
-}
-
-b_neusatz = {
-	de_jure_liege_title = c_neusatz
-}
-
-b_titel = {
-	de_jure_liege_title = c_neusatz
-}
-
-b_alibunar = {
-	de_jure_liege_title = c_pancsova
-}
-
-b_pancsova = {
-	de_jure_liege_title = c_pancsova
-}
-
-b_weisskirchen = {
-	de_jure_liege_title = c_pancsova
-}
-
-b_werschitz = {
-	de_jure_liege_title = c_pancsova
-}
-
-b_mehadia = {
-	de_jure_liege_title = c_resita
-}
-
-b_resita = {
-	de_jure_liege_title = c_resita
-}
-
-b_lugos = {
-	de_jure_liege_title = c_temesvar
-}
-
-b_temesvar = {
-	de_jure_liege_title = c_temesvar
+	b_temesvar = {
+	}
 }

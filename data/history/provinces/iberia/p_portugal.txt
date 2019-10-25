@@ -3,7 +3,7 @@ religion = catholic
 1815.1.1 = {
 	culture = portuguese #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_lisbon = city #Lisbon existed as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 89.
+	h_lisbon = city #Lisbon existed as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 89.
 	
-	capital_holding = b_lisbon
+	capital_holding = h_lisbon
 }

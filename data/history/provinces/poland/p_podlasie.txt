@@ -3,9 +3,9 @@ religion = orthodox
 1815.1.1 = {
 	culture = belarusian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	b_lomzha = city #Lomzha existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_tykocin = town #Tykocin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	b_augustowo = town #Augustowo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_lomzha = city #Lomzha existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_tykocin = town #Tykocin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_augustowo = town #Augustowo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
-	capital_holding = b_lomzha
+	capital_holding = h_lomzha
 }

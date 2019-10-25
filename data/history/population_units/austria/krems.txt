@@ -1,5 +1,5 @@
 craftsmen = { #urban population
-	holding = b_krems
+	holding = h_krems
 	discount_existing = yes
 	discount_any_type = yes
 	

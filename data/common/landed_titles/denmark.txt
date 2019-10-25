@@ -18,36 +18,28 @@ d_schleswig = {
 c_south_schleswig = {
 	de_jure_liege_title = d_schleswig
 	color = { 15 16 137 }
-}
 
-b_eckernforde = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_eckernforde = {
+	}
 
-b_flensburg = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_flensburg = {
+	}
 
-b_friedrichstadt = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_friedrichstadt = {
+	}
 
-b_glucksburg = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_glucksburg = {
+	}
 
-b_idstedt = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_idstedt = {
+	}
 
-b_missunde = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_missunde = {
+	}
 
-b_oversee = {
-	de_jure_liege_title = c_south_schleswig
-}
+	b_oversee = {
+	}
 
-b_schleswig = {
-	de_jure_liege_title = c_south_schleswig
+	b_schleswig = {
+	}
 }

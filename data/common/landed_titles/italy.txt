@@ -24,101 +24,78 @@ d_venetia = {
 c_lombardy = {
 	de_jure_liege_title = d_lombardy
 	color = { 155 102 24 }
+
+	b_bergamo = {
+	}
+
+	b_bormio = {
+	}
+
+	b_brescia = {
+	}
+
+	b_chiavenna = {
+	}
+
+	b_como = {
+	}
+
+	b_cremona = {
+	}
+
+	b_magenta = {
+	}
+
+	b_milan = {
+	}
+
+	b_pavia = {
+	}
+
+	b_solferino = {
+	}
 }
 
 c_venetia = {
 	de_jure_liege_title = d_venetia
 	color = { 188 0 7 }
-}
 
-b_bergamo = {
-	de_jure_liege_title = c_lombardy
-}
+	b_custozza = {
+	}
 
-b_bormio = {
-	de_jure_liege_title = c_lombardy
-}
+	b_legnago = {
+	}
 
-b_brescia = {
-	de_jure_liege_title = c_lombardy
-}
+	b_mantua = {
+	}
 
-b_chiavenna = {
-	de_jure_liege_title = c_lombardy
-}
+	b_osoppo = {
+	}
 
-b_como = {
-	de_jure_liege_title = c_lombardy
-}
+	b_padua = {
+	}
 
-b_cremona = {
-	de_jure_liege_title = c_lombardy
-}
+	b_palmanova = {
+	}
 
-b_magenta = {
-	de_jure_liege_title = c_lombardy
-}
+	b_peschiera = {
+	}
 
-b_milan = {
-	de_jure_liege_title = c_lombardy
-}
+	b_treviso = {
+	}
 
-b_pavia = {
-	de_jure_liege_title = c_lombardy
-}
+	b_udine = {
+	}
 
-b_solferino = {
-	de_jure_liege_title = c_lombardy
-}
+	b_venice = {
+	}
 
-b_custozza = {
-	de_jure_liege_title = c_venetia
-}
+	b_verona = {
+	}
 
-b_legnago = {
-	de_jure_liege_title = c_venetia
-}
+	b_vicenza = {
+	}
 
-b_mantua = {
-	de_jure_liege_title = c_venetia
-}
-
-b_osoppo = {
-	de_jure_liege_title = c_venetia
-}
-
-b_padua = {
-	de_jure_liege_title = c_venetia
-}
-
-b_palmanova = {
-	de_jure_liege_title = c_venetia
-}
-
-b_peschiera = {
-	de_jure_liege_title = c_venetia
-}
-
-b_treviso = {
-	de_jure_liege_title = c_venetia
-}
-
-b_udine = {
-	de_jure_liege_title = c_venetia
-}
-
-b_venice = {
-	de_jure_liege_title = c_venetia
-}
-
-b_verona = {
-	de_jure_liege_title = c_venetia
-}
-
-b_vicenza = {
-	de_jure_liege_title = c_venetia
-}
-
-b_villafranca = {
-	de_jure_liege_title = c_venetia
+	b_villafranca = {
+	}
 }

@@ -12,8 +12,7 @@ d_portugal = {
 c_portugal = {
 	de_jure_liege_title = d_portugal
 	color = { 0 102 0 }
-}
 
-b_lisbon = {
-	de_jure_liege_title = c_portugal
+	b_lisbon = {
+	}
 }
