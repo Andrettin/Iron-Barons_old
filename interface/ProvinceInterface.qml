@@ -35,7 +35,7 @@ Item {
 		anchors.top: parent.top
 		anchors.topMargin: 48
 		anchors.horizontalCenter: parent.horizontalCenter
-		holding: metternich.selected_province ? metternich.selected_province.capital_holding : null
+		holding_slot: metternich.selected_province ? metternich.selected_province.capital_holding.slot : null
 		imageWidth: 128
 		imageHeight: 128
 	}
@@ -317,11 +317,11 @@ Item {
 				rowSpacing: 1
 
 				Repeater {
-					model: metternich.selected_province ? metternich.selected_province.holdings : []
+					model: metternich.selected_province ? metternich.selected_province.holding_slots : []
 
 					Holding {
-						visible: model.modelData !== metternich.selected_province.capital_holding
-						holding: model.modelData
+						visible: model.modelData !== metternich.selected_province.capital_holding.slot
+						holding_slot: model.modelData
 					}
 				}
 			}
