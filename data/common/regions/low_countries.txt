@@ -5,8 +5,17 @@ r_low_countries = {
 }
 
 r_netherlands = {
-	provinces += p_netherlands
+	provinces += p_drenthe
+	provinces += p_frisia
+	provinces += p_gelderland
+	provinces += p_groningen
 	provinces += p_limburg
+	provinces += p_north_brabant
+	provinces += p_north_holland
+	provinces += p_overijssel
+	provinces += p_south_holland
+	provinces += p_utrecht
+	provinces += p_zeeland
 }
 
 r_belgium = {

@@ -1,3 +1,43 @@
+p_drenthe = {
+	county = c_drenthe
+	color = { 187 206 202 }
+	
+	h_koevorden = {
+		barony = b_koevorden
+		settlement = true
+	}
+}
+
+p_frisia = {
+	county = c_frisia
+	color = { 1 21 171 }
+	
+	h_leeuwarden = {
+		barony = b_leeuwarden
+		settlement = true
+	}
+}
+
+p_gelderland = {
+	county = c_gelderland
+	color = { 49 34 2 }
+
+	h_arnheim = {
+		barony = b_arnheim
+		settlement = true
+	}
+}
+
+p_groningen = {
+	county = c_groningen
+	color = { 195 238 117 }
+
+	h_groningen = {
+		barony = b_groningen
+		settlement = true
+	}
+}
+
 p_limburg = {
 	county = c_limburg
 	color = { 153 211 235 }
@@ -8,8 +48,18 @@ p_limburg = {
 	}
 }
 
-p_netherlands = {
-	county = c_netherlands
+p_north_brabant = {
+	county = c_north_brabant
+	color = { 191 57 26 }
+
+	h_hertogenbosch = {
+		barony = b_hertogenbosch
+		settlement = true
+	}
+}
+
+p_north_holland = {
+	county = c_north_holland
 	color = { 235 143 160 }
 
 	h_amsterdam = {
@@ -17,28 +67,28 @@ p_netherlands = {
 		settlement = true
 	}
 
-	h_arnheim = {
-		barony = b_arnheim
-		settlement = true
-	}
-
-	h_groningen = {
-		barony = b_groningen
-		settlement = true
-	}
-
 	h_haarlem = {
 		barony = b_haarlem
 		settlement = true
 	}
+}
 
-	h_the_hague = {
-		barony = b_the_hague
+p_overijssel = {
+	county = c_overijssel
+	color = { 217 195 0 }
+	
+	h_zwolle = {
+		barony = b_zwolle
 		settlement = true
 	}
+}
 
-	h_hertogenbosch = {
-		barony = b_hertogenbosch
+p_south_holland = {
+	county = c_south_holland
+	color = { 234 235 49 }
+	
+	h_the_hague = {
+		barony = b_the_hague
 		settlement = true
 	}
 
@@ -46,9 +96,24 @@ p_netherlands = {
 		barony = b_rotterdam
 		settlement = true
 	}
+}
 
+p_utrecht = {
+	county = c_utrecht
+	color = { 197 54 6 }
+	
 	h_utrecht = {
 		barony = b_utrecht
+		settlement = true
+	}
+}
+
+p_zeeland = {
+	county = c_zeeland
+	color = { 240 251 186 }
+	
+	h_middelburg = {
+		barony = b_middelburg
 		settlement = true
 	}
 }

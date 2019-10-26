@@ -1,6 +1,6 @@
 k_netherlands = {
 	color = { 226 64 30 }
-	capital_province = p_netherlands
+	capital_province = p_north_holland
 }
 
 d_limburg = {
@@ -12,7 +12,39 @@ d_limburg = {
 d_netherlands = {
 	de_jure_liege_title = k_netherlands
 	color = { 226 64 30 }
-	capital_province = p_netherlands
+	capital_province = p_north_holland
+}
+
+c_drenthe = {
+	de_jure_liege_title = d_netherlands
+	color = { 187 206 202 }
+	
+	b_koevorden = {
+	}
+}
+
+c_frisia = {
+	de_jure_liege_title = d_netherlands
+	color = { 1 21 171 }
+	
+	b_leeuwarden = {
+	}
+}
+
+c_gelderland = {
+	de_jure_liege_title = d_netherlands
+	color = { 49 34 2 }
+
+	b_arnheim = {
+	}
+}
+
+c_groningen = {
+	de_jure_liege_title = d_netherlands
+	color = { 195 238 117 }
+
+	b_groningen = {
+	}
 }
 
 c_limburg = {
@@ -23,31 +55,56 @@ c_limburg = {
 	}
 }
 
-c_netherlands = {
+c_north_brabant = {
+	de_jure_liege_title = d_netherlands
+	color = { 191 57 26 }
+
+	b_hertogenbosch = {
+	}
+}
+
+c_north_holland = {
 	de_jure_liege_title = d_netherlands
 	color = { 226 64 30 }
 
 	b_amsterdam = {
 	}
 
-	b_arnheim = {
-	}
-
-	b_groningen = {
-	}
-
 	b_haarlem = {
 	}
+}
 
-	b_the_hague = {
+c_overijssel = {
+	de_jure_liege_title = d_netherlands
+	color = { 217 195 0 }
+	
+	b_zwolle = {
 	}
+}
 
-	b_hertogenbosch = {
+c_south_holland = {
+	de_jure_liege_title = d_netherlands
+	color = { 234 235 49 }
+	
+	b_the_hague = {
 	}
 
 	b_rotterdam = {
 	}
+}
 
+c_utrecht = {
+	de_jure_liege_title = d_netherlands
+	color = { 197 54 6 }
+	
 	b_utrecht = {
+	}
+}
+
+c_zeeland = {
+	de_jure_liege_title = d_netherlands
+	color = { 240 251 186 }
+	
+	b_middelburg = {
 	}
 }

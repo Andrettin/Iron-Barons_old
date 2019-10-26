@@ -7,3 +7,8 @@ p_waddenzee = {
 	color = { 206 103 16 }
 	terrain = ocean
 }
+
+p_zuiderzee = {
+	color = { 77 200 124 }
+	terrain = ocean
+}

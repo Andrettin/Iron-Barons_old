@@ -32,11 +32,7 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_carniola
 	provinces += p_tyrol
 	provinces += p_salzburg
-	provinces += p_netherlands
-	provinces += p_limburg
-	provinces += p_belgium
-	provinces += p_arlon
-	provinces += p_luxembourg
+	subregions += r_low_countries
 }
 
 r_germany = { #the territory of the modern Federal Republic of Germany

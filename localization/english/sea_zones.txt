@@ -1,2 +1,3 @@
 p_north_sea = "North Sea"
 p_waddenzee = "Waddenzee"
+p_zuiderzee = "Zuiderzee"
