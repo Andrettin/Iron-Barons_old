@@ -32,3 +32,8 @@ p_upper_rhine_river = {
 	color = { 78 187 60 }
 	terrain = major_river
 }
+
+p_waal_river = {
+	color = { 237 52 3 }
+	terrain = major_river
+}
