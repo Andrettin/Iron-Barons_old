@@ -307,11 +307,6 @@ p_hanover = {
 		settlement = true
 	}
 
-	h_bremerhaven = {
-		barony = b_bremerhaven
-		settlement = true
-	}
-
 	h_celle = {
 		barony = b_celle
 		settlement = true
@@ -334,6 +329,11 @@ p_hanover = {
 
 	h_stade = {
 		barony = b_stade
+		settlement = true
+	}
+
+	h_bremerhaven = {
+		barony = b_bremerhaven
 		settlement = true
 	}
 }
@@ -367,13 +367,13 @@ p_holstein = {
 	county = c_holstein
 	color = { 101 97 115 }
 	
-	h_itzehoe = {
-		barony = b_itzehoe
+	h_kiel = {
+		barony = b_kiel
 		settlement = true
 	}
 
-	h_kiel = {
-		barony = b_kiel
+	h_itzehoe = {
+		barony = b_itzehoe
 		settlement = true
 	}
 

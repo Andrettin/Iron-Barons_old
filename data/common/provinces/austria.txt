@@ -17,13 +17,13 @@ p_carniola = {
 	county = c_carniola
 	color = { 88 147 162 }
 
-	h_adelsberg = {
-		barony = b_adelsberg
+	h_laibach = {
+		barony = b_laibach
 		settlement = true
 	}
 
-	h_laibach = {
-		barony = b_laibach
+	h_adelsberg = {
+		barony = b_adelsberg
 		settlement = true
 	}
 }
@@ -31,6 +31,21 @@ p_carniola = {
 p_lower_austria = {
 	county = c_lower_austria
 	color = { 42 3 128 }
+
+	h_vienna = {
+		barony = b_vienna
+		settlement = true
+	}
+
+	h_sankt_polten = {
+		barony = b_sankt_polten
+		settlement = true
+	}
+
+	h_krems = {
+		barony = b_krems
+		settlement = true
+	}
 
 	h_bruck = {
 		barony = b_bruck
@@ -47,23 +62,8 @@ p_lower_austria = {
 		settlement = true
 	}
 
-	h_krems = {
-		barony = b_krems
-		settlement = true
-	}
-
-	h_sankt_polten = {
-		barony = b_sankt_polten
-		settlement = true
-	}
-
 	h_schwechat = {
 		barony = b_schwechat
-		settlement = true
-	}
-
-	h_vienna = {
-		barony = b_vienna
 		settlement = true
 	}
 
@@ -92,6 +92,11 @@ p_styria = {
 	county = c_styria
 	color = { 203 243 54 }
 
+	h_graz = {
+		barony = b_graz
+		settlement = true
+	}
+
 	h_bruck_styria = {
 		barony = b_bruck_styria
 		settlement = true
@@ -99,11 +104,6 @@ p_styria = {
 
 	h_cilli = {
 		barony = b_cilli
-		settlement = true
-	}
-
-	h_graz = {
-		barony = b_graz
 		settlement = true
 	}
 
@@ -116,6 +116,11 @@ p_styria = {
 p_tyrol = {
 	county = c_tyrol
 	color = { 220 13 46 }
+
+	h_innsbruck = {
+		barony = b_innsbruck
+		settlement = true
+	}
 
 	h_bozen = {
 		barony = b_bozen
@@ -137,11 +142,6 @@ p_tyrol = {
 		settlement = true
 	}
 
-	h_innsbruck = {
-		barony = b_innsbruck
-		settlement = true
-	}
-
 	h_kufstein = {
 		barony = b_kufstein
 		settlement = true
@@ -157,13 +157,13 @@ p_upper_austria = {
 	county = c_upper_austria
 	color = { 84 6 1 }
 
-	h_ischl = {
-		barony = b_ischl
+	h_linz = {
+		barony = b_linz
 		settlement = true
 	}
 
-	h_linz = {
-		barony = b_linz
+	h_ischl = {
+		barony = b_ischl
 		settlement = true
 	}
 
