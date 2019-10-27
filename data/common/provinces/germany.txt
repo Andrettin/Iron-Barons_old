@@ -708,6 +708,111 @@ p_strelitz = {
 	}
 }
 
+p_thuringia = {
+	county = c_thuringia
+	color = { 14 139 158 }
+	
+	h_gotha = {
+		barony = b_gotha
+		settlement = true
+	}
+	
+	h_jena = {
+		barony = b_jena
+		settlement = true
+	}
+	
+	h_weimar = {
+		barony = b_weimar
+		settlement = true
+	}
+	
+	h_coburg = {
+		barony = b_coburg
+		settlement = true
+	}
+	
+	h_altenburg = {
+		barony = b_altenburg
+		settlement = true
+	}
+	
+	h_gera = {
+		barony = b_gera
+		settlement = true
+	}
+	
+	h_rudolstadt = {
+		barony = b_rudolstadt
+		settlement = true
+	}
+	
+	h_meiningen = {
+		barony = b_meiningen
+		settlement = true
+	}
+	
+	h_eisenach = {
+		barony = b_eisenach
+		settlement = true
+	}
+	
+	h_wartburg = {
+		barony = b_wartburg
+		settlement = true
+	}
+	
+	h_dermbach = {
+		barony = b_dermbach
+		settlement = true
+	}
+}
+
+p_upper_saxony = {
+	county = c_upper_saxony
+	color = { 8 118 12 }
+	
+	h_leipzig = {
+		barony = b_leipzig
+		settlement = true
+	}
+	
+	h_dresden = {
+		barony = b_dresden
+		settlement = true
+	}
+	
+	h_chemnitz = {
+		barony = b_chemnitz
+		settlement = true
+	}
+	
+	h_plauen = {
+		barony = b_plauen
+		settlement = true
+	}
+	
+	h_zwickau = {
+		barony = b_zwickau
+		settlement = true
+	}
+	
+	h_bautzen = {
+		barony = b_bautzen
+		settlement = true
+	}
+	
+	h_zittau = {
+		barony = b_zittau
+		settlement = true
+	}
+	
+	h_konigstein = {
+		barony = b_konigstein
+		settlement = true
+	}
+}
+
 p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }

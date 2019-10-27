@@ -21,6 +21,12 @@ k_hanover = {
 	capital_province = p_hanover
 }
 
+k_saxony = {
+	de_jure_liege_title = e_germany
+	color = { 8 118 12 }
+	capital_province = p_upper_saxony
+}
+
 k_wurtemberg = {
 	de_jure_liege_title = e_germany
 	color = { 11 20 54 }
@@ -117,6 +123,12 @@ d_pomerania = {
 	capital_province = p_hither_pomerania
 }
 
+d_saxony = {
+	de_jure_liege_title = k_saxony
+	color = { 8 118 12 }
+	capital_province = p_upper_saxony
+}
+
 d_schwerin = {
 	de_jure_liege_title = k_germany
 	color = { 226 0 26 }
@@ -127,6 +139,12 @@ d_strelitz = {
 	de_jure_liege_title = k_germany
 	color = { 252 195 0 }
 	capital_province = p_strelitz
+}
+
+d_thuringia = {
+	de_jure_liege_title = k_germany
+	color = { 14 139 158 }
+	capital_province = p_thuringia
 }
 
 d_westphalia = {
@@ -614,6 +632,73 @@ c_strelitz = {
 	color = { 252 195 0 }
 
 	b_strelitz = {
+	}
+}
+
+c_thuringia = {
+	de_jure_liege_title = d_saxony
+	color = { 14 139 158 }
+	
+	b_gotha = {
+	}
+	
+	b_jena = {
+	}
+	
+	b_weimar = {
+	}
+	
+	b_coburg = {
+	}
+	
+	b_altenburg = {
+	}
+	
+	b_gera = {
+	}
+	
+	b_rudolstadt = {
+	}
+	
+	b_meiningen = {
+	}
+	
+	b_eisenach = {
+	}
+	
+	b_wartburg = {
+	}
+	
+	b_dermbach = {
+	}
+}
+
+c_upper_saxony = {
+	de_jure_liege_title = d_saxony
+	color = { 8 118 12 }
+	
+	b_leipzig = {
+	}
+	
+	b_dresden = {
+	}
+	
+	b_chemnitz = {
+	}
+	
+	b_plauen = {
+	}
+	
+	b_zwickau = {
+	}
+	
+	b_bautzen = {
+	}
+	
+	b_zittau = {
+	}
+	
+	b_konigstein = {
 	}
 }
 
