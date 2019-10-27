@@ -1,4 +1,5 @@
 k_austria = "Austria"
+k_bavaria = "Bavaria"
 k_belgium = "Belgium"
 k_bohemia = "Bohemia"
 k_brazil = "Brazil"

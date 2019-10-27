@@ -3,6 +3,12 @@ e_germany = {
 	capital_province = p_kassel #Frankfurt
 }
 
+k_bavaria = {
+	de_jure_liege_title = e_germany
+	color = { 33 195 182 }
+	capital_province = p_bavaria
+}
+
 k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
@@ -25,6 +31,12 @@ d_baden = {
 	de_jure_liege_title = k_germany
 	color = { 255 221 0 }
 	capital_province = p_baden
+}
+
+d_bavaria = {
+	de_jure_liege_title = k_bavaria
+	color = { 33 195 182 }
+	capital_province = p_bavaria
 }
 
 d_brandenburg = {
@@ -170,6 +182,35 @@ c_baden = {
 	}
 }
 
+c_bavaria = {
+	de_jure_liege_title = d_bavaria
+	color = { 33 195 182 }
+
+	b_ratisbon = {
+	}
+	
+	b_munich = {
+	}
+	
+	b_freising = {
+	}
+	
+	b_landshut = {
+	}
+	
+	b_straubing = {
+	}
+	
+	b_passau = {
+	}
+	
+	b_augsburg = {
+	}
+	
+	b_kempten = {
+	}
+}
+
 c_brandenburg = {
 	de_jure_liege_title = d_brandenburg
 	color = { 230 0 0 }
@@ -296,6 +337,44 @@ c_farther_pomerania = {
 	}
 
 	b_stargard = {
+	}
+}
+
+c_franconia = {
+	de_jure_liege_title = d_bavaria
+	color = { 191 76 76 }
+
+	b_nuremberg = {
+	}
+
+	b_bamberg = {
+	}
+
+	b_ingolstadt = {
+	}
+
+	b_furth = {
+	}
+
+	b_wurzburg = {
+	}
+
+	b_schweinfurt = {
+	}
+
+	b_kissingen = {
+	}
+
+	b_aschaffenburg = {
+	}
+
+	b_hof = {
+	}
+
+	b_leuchtenberg = {
+	}
+
+	b_seybothenreuth = {
 	}
 }
 

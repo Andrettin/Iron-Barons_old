@@ -1,11 +1,13 @@
 r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population" article
 	provinces += p_baden
+	provinces += p_bavaria
 	provinces += p_brandenburg
 	provinces += p_breslau
 	provinces += p_brunswick
 	provinces += p_darmstadt
 	provinces += p_east_frisia
 	provinces += p_farther_pomerania
+	provinces += p_franconia
 	provinces += p_giessen
 	provinces += p_gottingen
 	provinces += p_hamburg
@@ -37,10 +39,12 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 
 r_germany = { #the territory of the modern Federal Republic of Germany
 	provinces += p_baden
+	provinces += p_bavaria
 	provinces += p_brandenburg
 	provinces += p_brunswick
 	provinces += p_darmstadt
 	provinces += p_east_frisia
+	provinces += p_franconia
 	provinces += p_giessen
 	provinces += p_gottingen
 	provinces += p_hamburg

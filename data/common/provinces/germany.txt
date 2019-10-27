@@ -63,6 +63,51 @@ p_baden = {
 	}
 }
 
+p_bavaria = {
+	county = c_bavaria
+	color = { 33 195 182 }
+
+	h_ratisbon = {
+		barony = b_ratisbon
+		settlement = true
+	}
+	
+	h_munich = {
+		barony = b_munich
+		settlement = true
+	}
+	
+	h_freising = {
+		barony = b_freising
+		settlement = true
+	}
+	
+	h_landshut = {
+		barony = b_landshut
+		settlement = true
+	}
+	
+	h_straubing = {
+		barony = b_straubing
+		settlement = true
+	}
+	
+	h_passau = {
+		barony = b_passau
+		settlement = true
+	}
+	
+	h_augsburg = {
+		barony = b_augsburg
+		settlement = true
+	}
+	
+	h_kempten = {
+		barony = b_kempten
+		settlement = true
+	}
+}
+
 p_brandenburg = {
 	county = c_brandenburg
 	color = { 37 55 4 }
@@ -254,6 +299,66 @@ p_farther_pomerania = {
 
 	h_stargard = {
 		barony = b_stargard
+		settlement = true
+	}
+}
+
+p_franconia = {
+	county = c_franconia
+	color = { 191 76 76 }
+
+	h_nuremberg = {
+		barony = b_nuremberg
+		settlement = true
+	}
+
+	h_bamberg = {
+		barony = b_bamberg
+		settlement = true
+	}
+
+	h_ingolstadt = {
+		barony = b_ingolstadt
+		settlement = true
+	}
+
+	h_furth = {
+		barony = b_furth
+		settlement = true
+	}
+
+	h_wurzburg = {
+		barony = b_wurzburg
+		settlement = true
+	}
+
+	h_schweinfurt = {
+		barony = b_schweinfurt
+		settlement = true
+	}
+
+	h_kissingen = {
+		barony = b_kissingen
+		settlement = true
+	}
+
+	h_aschaffenburg = {
+		barony = b_aschaffenburg
+		settlement = true
+	}
+
+	h_hof = {
+		barony = b_hof
+		settlement = true
+	}
+
+	h_leuchtenberg = {
+		barony = b_leuchtenberg
+		settlement = true
+	}
+
+	h_seybothenreuth = {
+		barony = b_seybothenreuth
 		settlement = true
 	}
 }
