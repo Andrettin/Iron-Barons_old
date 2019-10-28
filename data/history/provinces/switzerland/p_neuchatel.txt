@@ -1,0 +1,9 @@
+religion = protestant
+
+1815.1.1 = {
+	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_neuchatel = town
+	
+	capital_holding = h_neuchatel
+}

@@ -1,2 +1,3 @@
 appointment_succession = "Appointment"
+open_elective_succession = "Open Elective"
 primogeniture_succession = "Primogeniture"

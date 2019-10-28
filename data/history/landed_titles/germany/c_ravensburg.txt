@@ -1,0 +1,5 @@
+1815.1.1 = {
+	holder = random
+	liege_title = k_wurtemberg #part of the Kingdom of Wurtemberg as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += appointment_succession
+}

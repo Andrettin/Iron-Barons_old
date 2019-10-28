@@ -27,6 +27,7 @@ c_nassau = "Nassau"
 c_oldenburg = "Oldenburg"
 c_oppeln = "Oppeln"
 c_oppeln_polish = "Opolskie" #Source: "Philip's International School Atlas", 2006, p. 60.
+c_ravensburg = "Ravensburg"
 c_schwerin = "Schwerin"
 c_sigmaringen = "Sigmaringen"
 c_strelitz = "Strelitz"

@@ -1,0 +1,4 @@
+r_switzerland = {
+	provinces += p_neuchatel
+	provinces += p_switzerland
+}

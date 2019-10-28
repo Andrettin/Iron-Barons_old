@@ -1,0 +1,99 @@
+p_neuchatel = {
+	county = c_neuchatel
+	color = { 166 149 33 }
+	
+	h_neuchatel = {
+		barony = b_neuchatel
+		settlement = true
+	}
+}
+
+p_switzerland = {
+	county = c_switzerland
+	color = { 228 43 35 }
+
+	h_bern = {
+		barony = b_bern
+		settlement = true
+	}
+
+	h_zurich = {
+		barony = b_zurich
+		settlement = true
+	}
+
+	h_basel = {
+		barony = b_basel
+		settlement = true
+	}
+
+	h_geneva = {
+		barony = b_geneva
+		settlement = true
+	}
+
+	h_lausanne = {
+		barony = b_lausanne
+		settlement = true
+	}
+
+	h_lucerne = {
+		barony = b_lucerne
+		settlement = true
+	}
+
+	h_aarau = {
+		barony = b_aarau
+		settlement = true
+	}
+
+	h_sarnen = {
+		barony = b_sarnen
+		settlement = true
+	}
+
+	h_biel = {
+		barony = b_biel
+		settlement = true
+	}
+
+	h_fribourg = {
+		barony = b_fribourg
+		settlement = true
+	}
+
+	h_sion = {
+		barony = b_sion
+		settlement = true
+	}
+
+	h_st_gall = {
+		barony = b_st_gall
+		settlement = true
+	}
+
+	h_coire = {
+		barony = b_coire
+		settlement = true
+	}
+
+	h_bellinzona = {
+		barony = b_bellinzona
+		settlement = true
+	}
+
+	h_constance = {
+		barony = b_constance
+		settlement = true
+	}
+
+	h_gisikon = {
+		barony = b_gisikon
+		settlement = true
+	}
+
+	h_arenenberg = {
+		barony = b_arenenberg
+		settlement = true
+	}
+}

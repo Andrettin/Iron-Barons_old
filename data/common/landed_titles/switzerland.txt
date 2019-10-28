@@ -1,0 +1,75 @@
+k_switzerland = {
+	de_jure_liege_title = e_france
+	color = { 228 43 35 }
+	capital_province = p_switzerland
+}
+
+d_switzerland = {
+	de_jure_liege_title = k_switzerland
+	color = { 228 43 35 }
+	capital_province = p_switzerland
+}
+
+c_neuchatel = {
+	de_jure_liege_title = d_switzerland
+	color = { 166 149 33 }
+	
+	b_neuchatel = {
+	}
+}
+
+c_switzerland = {
+	de_jure_liege_title = d_switzerland
+	color = { 228 43 35 }
+
+	b_bern = {
+	}
+
+	b_zurich = {
+	}
+
+	b_basel = {
+	}
+
+	b_geneva = {
+	}
+
+	b_lausanne = {
+	}
+
+	b_lucerne = {
+	}
+
+	b_aarau = {
+	}
+
+	b_sarnen = {
+	}
+
+	b_biel = {
+	}
+
+	b_fribourg = {
+	}
+
+	b_sion = {
+	}
+
+	b_st_gall = {
+	}
+
+	b_coire = {
+	}
+
+	b_bellinzona = {
+	}
+
+	b_constance = {
+	}
+
+	b_gisikon = {
+	}
+
+	b_arenenberg = {
+	}
+}

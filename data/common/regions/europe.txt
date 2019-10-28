@@ -9,5 +9,6 @@ r_non_cis_europe = { #Europe excluding the countries in the Commonwealth of Inde
 	subregions += r_poland
 	subregions += r_portugal
 	subregions += r_romania
+	subregions += r_switzerland
 	subregions += r_yugoslavia
 }

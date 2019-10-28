@@ -2,6 +2,10 @@ appointment_succession = {
 	group = succession
 }
 
+open_elective_succession = {
+	group = succession
+}
+
 primogeniture_succession = {
 	group = succession
 }

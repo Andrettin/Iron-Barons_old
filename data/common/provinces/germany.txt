@@ -1,68 +1,3 @@
-p_baden = {
-	county = c_baden
-	color = { 218 171 19 }
-
-	h_carlsruhe = {
-		barony = b_carlsruhe
-		settlement = true
-	}
-
-	h_dossenbach = {
-		barony = b_dossenbach
-		settlement = true
-	}
-
-	h_freiburg = {
-		barony = b_freiburg
-		settlement = true
-	}
-
-	h_geroldseck = {
-		barony = b_geroldseck
-		settlement = true
-	}
-
-	h_heidelberg = {
-		barony = b_heidelberg
-		settlement = true
-	}
-
-	h_hundheim = {
-		barony = b_hundheim
-		settlement = true
-	}
-
-	h_kandern = {
-		barony = b_kandern
-		settlement = true
-	}
-
-	h_mannheim = {
-		barony = b_mannheim
-		settlement = true
-	}
-
-	h_offenburg = {
-		barony = b_offenburg
-		settlement = true
-	}
-
-	h_rastatt = {
-		barony = b_rastatt
-		settlement = true
-	}
-
-	h_tauberbischofsheim = {
-		barony = b_tauberbischofsheim
-		settlement = true
-	}
-
-	h_waghausel = {
-		barony = b_waghausel
-		settlement = true
-	}
-}
-
 p_bavaria = {
 	county = c_bavaria
 	color = { 33 195 182 }
@@ -688,16 +623,6 @@ p_schwerin = {
 	}
 }
 
-p_sigmaringen = {
-	county = c_sigmaringen
-	color = { 238 40 36 }
-
-	h_sigmaringen = {
-		barony = b_sigmaringen
-		settlement = true
-	}
-}
-
 p_strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }
@@ -859,46 +784,6 @@ p_westphalia = {
 
 	h_wesel = {
 		barony = b_wesel
-		settlement = true
-	}
-}
-
-p_wurtemberg = {
-	county = c_wurtemberg
-	color = { 192 202 36 }
-
-	h_heilbronn = {
-		barony = b_heilbronn
-		settlement = true
-	}
-
-	h_hohen_asperg = {
-		barony = b_hohen_asperg
-		settlement = true
-	}
-
-	h_stuttgart = {
-		barony = b_stuttgart
-		settlement = true
-	}
-
-	h_tubingen = {
-		barony = b_tubingen
-		settlement = true
-	}
-
-	h_ulm = {
-		barony = b_ulm
-		settlement = true
-	}
-}
-
-p_zollern = {
-	county = c_zollern
-	color = { 79 139 68 }
-
-	h_hechingen = {
-		barony = b_hechingen
 		settlement = true
 	}
 }

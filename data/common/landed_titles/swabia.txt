@@ -1,0 +1,105 @@
+k_wurtemberg = {
+	de_jure_liege_title = e_germany
+	color = { 11 20 54 }
+	capital_province = p_wurtemberg
+}
+
+d_baden = {
+	de_jure_liege_title = k_germany
+	color = { 255 221 0 }
+	capital_province = p_baden
+}
+
+d_wurtemberg = {
+	de_jure_liege_title = k_wurtemberg
+	color = { 192 202 36 }
+	capital_province = p_wurtemberg
+}
+
+c_baden = {
+	de_jure_liege_title = d_baden
+	color = { 255 221 0 }
+
+	b_carlsruhe = {
+	}
+
+	b_dossenbach = {
+	}
+
+	b_freiburg = {
+	}
+
+	b_geroldseck = {
+	}
+
+	b_heidelberg = {
+	}
+
+	b_hundheim = {
+	}
+
+	b_kandern = {
+	}
+
+	b_mannheim = {
+	}
+
+	b_offenburg = {
+	}
+
+	b_rastatt = {
+	}
+
+	b_tauberbischofsheim = {
+	}
+
+	b_lorrack = {
+	}
+
+	b_waghausel = {
+	}
+}
+
+c_ravensburg = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 40 108 254 }
+	
+	b_ravensburg = {
+	}
+}
+
+c_sigmaringen = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 194 228 13 }
+
+	b_sigmaringen = {
+	}
+}
+
+c_wurtemberg = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 192 202 36 }
+
+	b_heilbronn = {
+	}
+
+	b_hohen_asperg = {
+	}
+
+	b_stuttgart = {
+	}
+
+	b_tubingen = {
+	}
+
+	b_ulm = {
+	}
+}
+
+c_zollern = {
+	de_jure_liege_title = d_wurtemberg
+	color = { 206 213 175 }
+
+	b_hechingen = {
+	}
+}
