@@ -1,5 +1,6 @@
 gentlemen = { #landed gentry
 	color = { 236 236 236 }
+	icon_tag = soldiers
 
 	holding_types += city
 	holding_types += metropolis

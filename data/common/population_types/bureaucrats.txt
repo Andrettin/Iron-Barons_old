@@ -1,5 +1,6 @@
 bureaucrats = {
 	color = { 67 111 77 }
+	icon_tag = soldiers
 
 	holding_types += town
 	holding_types += city

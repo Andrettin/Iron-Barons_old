@@ -1,5 +1,6 @@
 slaves = {
 	color = { 132 84 105 }
+	icon_tag = soldiers
 
 	holding_types += village
 	holding_types += town

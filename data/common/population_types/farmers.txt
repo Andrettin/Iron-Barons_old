@@ -1,5 +1,6 @@
 farmers = {
 	color = { 198 12 48 }
+	icon_tag = soldiers
 
 	holding_types += village
 	holding_types += town

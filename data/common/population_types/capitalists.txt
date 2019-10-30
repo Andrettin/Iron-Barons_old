@@ -1,5 +1,6 @@
 capitalists = {
 	color = { 226 64 30 }
+	icon_tag = soldiers
 
 	holding_types += city
 	holding_types += metropolis

@@ -1,5 +1,6 @@
 clergymen = {
 	color = { 218 18 26 }
+	icon_tag = soldiers
 
 	holding_types += village
 	holding_types += town

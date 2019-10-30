@@ -26,14 +26,13 @@ Item {
 					width: population_unit_area.width
 					height: 32
 
-					Text {
-						text: model.modelData.type.name
-						anchors.verticalCenter: parent.verticalCenter
+					Image {
+						source: model.modelData.icon_path
+						width: 32
+						height: 32
 						anchors.left: parent.left
-						color: "black"
-						font.pixelSize: 12
-						font.family: "tahoma"
-						font.bold: true
+						anchors.leftMargin: 24
+						anchors.verticalCenter: parent.verticalCenter
 					}
 
 					Text {

@@ -1,5 +1,6 @@
 intellectuals = {
 	color = { 0 38 84 }
+	icon_tag = soldiers
 
 	holding_types += town
 	holding_types += city
