@@ -117,5 +117,7 @@
 /graphics/icons/diploma_large.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/hammer.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/hammer_large.png (by Exidelo) (licensed under the CC0)
+/graphics/icons/population_units/soldier.png (by Jinn) (licensed under the CC0) (reference: Brazilian Voluntários da Pátria soldiers)
+/graphics/icons/population_units/soldier_small.png (by Jinn) (licensed under the CC0)
 /graphics/icons/wealth.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/wealth_large.png (by Exidelo) (licensed under the CC0)
