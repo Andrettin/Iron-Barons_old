@@ -69,6 +69,8 @@
 /graphics/flags/k_sweden.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/holdings/city.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/city_large.png (by Jinn) (licensed under the CC0)
+/graphics/holdings/city_coastal.png (by Jinn) (licensed under the CC0) (reference: the Terreiro do Paço in Lisbon)
+/graphics/holdings/city_coastal_large.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/town.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/town_large.png (by Jinn) (licensed under the CC0) (references: early 19th century Brazilian towns of Vila Rica and São Paulo)
 /graphics/holdings/university.png (by Jinn) (licensed under the CC0)
