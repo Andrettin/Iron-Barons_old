@@ -1,0 +1,23 @@
+african = {
+}
+
+afro_amerindian = {
+}
+
+afro_european = {
+}
+
+amerindian = {
+}
+
+amerindo_european = {
+}
+
+east_asian = {
+}
+
+european = {
+}
+
+south_asian = {
+}

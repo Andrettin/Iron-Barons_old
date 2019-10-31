@@ -1,0 +1,8 @@
+african = "African"
+afro_amerindian = "Afro-Amerindian"
+afro_european = "Afro-European"
+amerindian = "Amerindian"
+amerindo_european = "Amerindo-European"
+east_asian = "East Asian"
+european = "European"
+south_asian = "South Asian"
