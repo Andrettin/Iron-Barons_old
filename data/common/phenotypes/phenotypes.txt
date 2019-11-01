@@ -1,4 +1,8 @@
 african = {
+	mixing_results = {
+		amerindian = afro_amerindian
+		european = afro_european
+	}
 }
 
 afro_amerindian = {
@@ -10,6 +14,11 @@ afro_european = {
 
 amerindian = {
 	icon_fallback_phenotype = afro_european
+	
+	mixing_results = {
+		african = afro_amerindian
+		european = amerindo_european
+	}
 }
 
 amerindo_european = {
@@ -21,6 +30,10 @@ east_asian = {
 }
 
 european = {
+	mixing_results = {
+		african = afro_european
+		amerindian = amerindo_european
+	}
 }
 
 south_asian = {
