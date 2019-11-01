@@ -2,22 +2,27 @@ african = {
 }
 
 afro_amerindian = {
+	icon_fallback_phenotype = afro_european
 }
 
 afro_european = {
 }
 
 amerindian = {
+	icon_fallback_phenotype = afro_european
 }
 
 amerindo_european = {
+	icon_fallback_phenotype = european
 }
 
 east_asian = {
+	icon_fallback_phenotype = european
 }
 
 european = {
 }
 
 south_asian = {
+	icon_fallback_phenotype = afro_european
 }
