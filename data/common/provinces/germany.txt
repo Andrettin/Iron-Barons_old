@@ -738,6 +738,16 @@ p_upper_saxony = {
 	}
 }
 
+p_waldeck = {
+	county = c_waldeck
+	color = { 157 182 58 }
+
+	h_waldeck = {
+		barony = b_waldeck
+		settlement = true
+	}
+}
+
 p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }

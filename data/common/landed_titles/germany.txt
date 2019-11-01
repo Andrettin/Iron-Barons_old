@@ -635,6 +635,14 @@ c_upper_saxony = {
 	}
 }
 
+c_waldeck = {
+	de_jure_liege_title = d_westphalia
+	color = { 157 182 58 }
+
+	b_waldeck = {
+	}
+}
+
 c_westphalia = {
 	de_jure_liege_title = d_westphalia
 	color = { 221 0 0 }
