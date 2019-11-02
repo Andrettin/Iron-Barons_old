@@ -43,6 +43,31 @@ p_bavaria = {
 	}
 }
 
+p_berg = {
+	county = c_berg
+	color = { 166 141 108 }
+
+	h_dusseldorf = {
+		barony = b_dusseldorf
+		settlement = true
+	}
+
+	h_elberfeld = {
+		barony = b_elberfeld
+		settlement = true
+	}
+
+	h_essen = {
+		barony = b_essen
+		settlement = true
+	}
+
+	h_wesel = {
+		barony = b_wesel
+		settlement = true
+	}
+}
+
 p_brandenburg = {
 	county = c_brandenburg
 	color = { 37 55 4 }
@@ -423,6 +448,21 @@ p_holstein = {
 	}
 }
 
+p_julich = {
+	county = c_julich
+	color = { 243 189 48 }
+
+	h_cologne = {
+		barony = b_cologne
+		settlement = true
+	}
+
+	h_bonn = {
+		barony = b_bonn
+		settlement = true
+	}
+}
+
 p_kassel = {
 	county = c_kassel
 	color = { 22 220 110 }
@@ -613,6 +653,41 @@ p_oppeln = {
 	}
 }
 
+p_rhineland = {
+	county = c_rhineland
+	color = { 4 153 14 }
+
+	h_aachen = {
+		barony = b_aachen
+		settlement = true
+	}
+
+	h_coblenz = {
+		barony = b_coblenz
+		settlement = true
+	}
+
+	h_trier = {
+		barony = b_trier
+		settlement = true
+	}
+
+	h_saarlouis = {
+		barony = b_saarlouis
+		settlement = true
+	}
+
+	h_birkenfeld = {
+		barony = b_birkenfeld
+		settlement = true
+	}
+
+	h_meisenheim = {
+		barony = b_meisenheim
+		settlement = true
+	}
+}
+
 p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
@@ -772,21 +847,6 @@ p_westphalia = {
 		settlement = true
 	}
 
-	h_dusseldorf = {
-		barony = b_dusseldorf
-		settlement = true
-	}
-
-	h_elberfeld = {
-		barony = b_elberfeld
-		settlement = true
-	}
-
-	h_essen = {
-		barony = b_essen
-		settlement = true
-	}
-
 	h_lippstadt = {
 		barony = b_lippstadt
 		settlement = true
@@ -804,11 +864,6 @@ p_westphalia = {
 
 	h_siegen = {
 		barony = b_siegen
-		settlement = true
-	}
-
-	h_wesel = {
-		barony = b_wesel
 		settlement = true
 	}
 }

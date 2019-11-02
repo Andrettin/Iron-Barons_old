@@ -1,0 +1,14 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_aachen = city #Aix-la-Chapelle existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_coblenz = city #Coblenz existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_trier = city #Trèves existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_saarlouis = town #Saarlouis existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_birkenfeld = town #Birkenfeld existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_meisenheim = village #Meisenheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_coblenz
+}

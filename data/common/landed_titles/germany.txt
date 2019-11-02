@@ -63,6 +63,12 @@ d_homburg = {
 	capital_province = p_giessen
 }
 
+d_julich = {
+	de_jure_liege_title = k_germany
+	color = { 243 189 48 }
+	capital_province = p_julich
+}
+
 d_kassel = {
 	de_jure_liege_title = k_germany
 	color = { 226 249 247 }
@@ -85,6 +91,12 @@ d_magdeburg = {
 	de_jure_liege_title = k_germany
 	color = { 202 231 204 }
 	capital_province = p_magdeburg
+}
+
+d_rhineland = {
+	de_jure_liege_title = k_germany
+	color = { 4 153 14 }
+	capital_province = p_rhineland
 }
 
 d_silesia = {
@@ -167,6 +179,24 @@ c_bavaria = {
 	}
 	
 	b_kempten = {
+	}
+}
+
+c_berg = {
+	de_jure_liege_title = d_julich
+	color = { 166 141 108 }
+
+
+	b_dusseldorf = {
+	}
+
+	b_elberfeld = {
+	}
+	
+	b_essen = {
+	}
+
+	b_wesel = {
 	}
 }
 
@@ -424,6 +454,17 @@ c_holstein = {
 	}
 }
 
+c_julich = {
+	de_jure_liege_title = d_julich
+	color = { 243 189 48 }
+
+	b_cologne = {
+	}
+
+	b_bonn = {
+	}
+}
+
 c_kassel = {
 	de_jure_liege_title = d_kassel
 	color = { 226 249 247 }
@@ -554,6 +595,29 @@ c_oppeln = {
 	}
 }
 
+c_rhineland = {
+	de_jure_liege_title = d_rhineland
+	color = { 4 153 14 }
+
+	b_aachen = {
+	}
+
+	b_coblenz = {
+	}
+
+	b_trier = {
+	}
+
+	b_saarlouis = {
+	}
+
+	b_birkenfeld = {
+	}
+
+	b_meisenheim = {
+	}
+}
+
 c_schwerin = {
 	de_jure_liege_title = d_schwerin
 	color = { 226 0 26 }
@@ -661,15 +725,6 @@ c_westphalia = {
 	b_arnsberg = {
 	}
 
-	b_dusseldorf = {
-	}
-
-	b_elberfeld = {
-	}
-
-	b_essen = {
-	}
-
 	b_lippstadt = {
 	}
 
@@ -680,8 +735,5 @@ c_westphalia = {
 	}
 
 	b_siegen = {
-	}
-
-	b_wesel = {
 	}
 }
