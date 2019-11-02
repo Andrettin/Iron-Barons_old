@@ -20,7 +20,7 @@ Item {
 
 	function get_scroll_pixels() {
 		if (key_handler.ctrlPressed) {
-			return 50
+			return 25
 		}
 
 		return 5

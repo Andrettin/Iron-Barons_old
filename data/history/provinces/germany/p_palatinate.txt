@@ -1,0 +1,12 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_kaiserslautern = town #Kaiserslautern existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_landau = town #Landau existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_germersheim = town #Germersheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_hambach = village #Hambach existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_kaiserslautern
+}

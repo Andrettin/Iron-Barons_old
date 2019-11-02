@@ -6,7 +6,6 @@ religion = catholic
 	h_aachen = city #Aix-la-Chapelle existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_coblenz = city #Coblenz existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_trier = city #Trèves existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_saarlouis = town #Saarlouis existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_birkenfeld = town #Birkenfeld existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_meisenheim = village #Meisenheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	

@@ -593,6 +593,21 @@ p_magdeburg = {
 	}
 }
 
+p_mainz = {
+	county = c_mainz
+	color = { 156 36 18 }
+
+	h_mainz = {
+		barony = b_mainz
+		settlement = true
+	}
+
+	h_worms = {
+		barony = b_worms
+		settlement = true
+	}
+}
+
 p_nassau = {
 	county = c_nassau
 	color = { 15 44 242 }
@@ -653,6 +668,31 @@ p_oppeln = {
 	}
 }
 
+p_palatinate = {
+	county = c_palatinate
+	color = { 77 42 49 }
+
+	h_kaiserslautern = {
+		barony = b_kaiserslautern
+		settlement = true
+	}
+
+	h_landau = {
+		barony = b_landau
+		settlement = true
+	}
+
+	h_germersheim = {
+		barony = b_germersheim
+		settlement = true
+	}
+
+	h_hambach = {
+		barony = b_hambach
+		settlement = true
+	}
+}
+
 p_rhineland = {
 	county = c_rhineland
 	color = { 4 153 14 }
@@ -672,11 +712,6 @@ p_rhineland = {
 		settlement = true
 	}
 
-	h_saarlouis = {
-		barony = b_saarlouis
-		settlement = true
-	}
-
 	h_birkenfeld = {
 		barony = b_birkenfeld
 		settlement = true
@@ -684,6 +719,16 @@ p_rhineland = {
 
 	h_meisenheim = {
 		barony = b_meisenheim
+		settlement = true
+	}
+}
+
+p_saarland = {
+	county = c_saarland
+	color = { 93 100 252 }
+
+	h_saarlouis = {
+		barony = b_saarlouis
 		settlement = true
 	}
 }

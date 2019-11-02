@@ -1,0 +1,3 @@
+1815.11.1 = {
+	holder_title = d_rhineland #became a part of the Prussian Rhenish province in November 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

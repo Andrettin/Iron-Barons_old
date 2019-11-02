@@ -553,6 +553,17 @@ c_magdeburg = {
 	}
 }
 
+c_mainz = {
+	de_jure_liege_title = d_darmstadt
+	color = { 156 36 18 }
+
+	b_mainz = {
+	}
+
+	b_worms = {
+	}
+}
+
 c_nassau = {
 	de_jure_liege_title = d_nassau
 	color = { 255 91 0 }
@@ -595,6 +606,23 @@ c_oppeln = {
 	}
 }
 
+c_palatinate = {
+	de_jure_liege_title = d_bavaria
+	color = { 77 42 49 }
+
+	b_kaiserslautern = {
+	}
+
+	b_landau = {
+	}
+
+	b_germersheim = {
+	}
+
+	b_hambach = {
+	}
+}
+
 c_rhineland = {
 	de_jure_liege_title = d_rhineland
 	color = { 4 153 14 }
@@ -608,13 +636,18 @@ c_rhineland = {
 	b_trier = {
 	}
 
-	b_saarlouis = {
-	}
-
 	b_birkenfeld = {
 	}
 
 	b_meisenheim = {
+	}
+}
+
+c_saarland = {
+	de_jure_liege_title = d_rhineland
+	color = { 93 100 252 }
+
+	b_saarlouis = {
 	}
 }
 
