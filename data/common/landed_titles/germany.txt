@@ -466,6 +466,17 @@ c_lauenburg = {
 	}
 }
 
+c_lippe = {
+	de_jure_liege_title = d_westphalia
+	color = { 235 45 34 }
+
+	b_detmold = {
+	}
+
+	b_pyrmont = {
+	}
+}
+
 c_magdeburg = {
 	de_jure_liege_title = d_magdeburg
 	color = { 202 231 204 }
@@ -636,7 +647,7 @@ c_upper_saxony = {
 }
 
 c_waldeck = {
-	de_jure_liege_title = d_westphalia
+	de_jure_liege_title = d_kassel
 	color = { 157 182 58 }
 
 	b_waldeck = {

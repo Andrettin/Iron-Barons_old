@@ -483,6 +483,21 @@ p_lauenburg = {
 	}
 }
 
+p_lippe = {
+	county = c_lippe
+	color = { 235 45 34 }
+
+	h_detmold = {
+		barony = b_detmold
+		settlement = true
+	}
+
+	h_pyrmont = {
+		barony = b_pyrmont
+		settlement = true
+	}
+}
+
 p_magdeburg = {
 	county = c_magdeburg
 	color = { 250 85 103 }
