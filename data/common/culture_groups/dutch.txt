@@ -1,4 +1,5 @@
 dutch = {
+	color = { 226 64 30 }
 	default_phenotype = european
 
 	male_names = {

@@ -1,3 +1,4 @@
 east_slavic = {
+	color = { 0 57 166 }
 	default_phenotype = european
 }

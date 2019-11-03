@@ -1,3 +1,4 @@
 hungarian = {
+	color = { 67 111 77 }
 	default_phenotype = european
 }

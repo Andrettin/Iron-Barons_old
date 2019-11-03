@@ -1,4 +1,5 @@
 german = {
+	color = { 160 160 160 }
 	default_phenotype = european
 	
 	male_names = {

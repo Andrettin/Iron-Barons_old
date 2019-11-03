@@ -1,3 +1,4 @@
 italian = {
+	color = { 0 153 0 }
 	default_phenotype = european
 }

@@ -1,3 +1,4 @@
 south_slavic = {
+	color = { 82 95 203 }
 	default_phenotype = european
 }

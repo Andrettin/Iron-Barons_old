@@ -1,3 +1,4 @@
 iberian = {
+	color = { 246 174 41 }
 	default_phenotype = european
 }

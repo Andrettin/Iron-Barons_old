@@ -1,4 +1,5 @@
 french = {
+	color = { 0 38 84 }
 	default_phenotype = european
 
 	male_names = {
