@@ -7,6 +7,9 @@ Item {
 
 	enum Mode {
 		Country,
+		DeJureEmpire,
+		DeJureKingdom,
+		DeJureDuchy,
 		Culture,
 		CultureGroup,
 		Religion
@@ -78,6 +81,9 @@ Item {
 						model.modelData.name
 						+ (model.modelData.county ? "<br>" : "")
 						+ (model.modelData.county && metternich.map_mode === WorldMap.Mode.Country ? "<br>Country: " + model.modelData.county.realm.titled_name : "")
+						+ (model.modelData.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br>De Jure Empire: " + model.modelData.de_jure_empire.name : "")
+						+ (model.modelData.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br>De Jure Kingdom: " + model.modelData.de_jure_kingdom.name : "")
+						+ (model.modelData.de_jure_duchy && metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "<br>De Jure Duchy: " + model.modelData.de_jure_duchy.name : "")
 						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture: " + model.modelData.culture.name : "")
 						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + model.modelData.culture.culture_group.name : "")
 						+ (model.modelData.religion && metternich.map_mode === WorldMap.Mode.Religion ? "<br>Religion: " + model.modelData.religion.name : "")

@@ -279,10 +279,10 @@ Item {
 
 	Button {
 		id: country_map_mode_button
-		anchors.bottom: culture_map_mode_button.top
+		anchors.bottom: de_jure_empire_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Country</font>"
-		width: 96
+		width: 128
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
@@ -291,11 +291,50 @@ Item {
 	}
 
 	Button {
+		id: de_jure_empire_map_mode_button
+		anchors.bottom: de_jure_kingdom_map_mode_button.top
+		anchors.right: parent.right
+		text: "<font color=\"black\">De Jure Empire</font>"
+		width: 128
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			metternich.map_mode = WorldMap.Mode.DeJureEmpire
+		}
+	}
+
+	Button {
+		id: de_jure_kingdom_map_mode_button
+		anchors.bottom: de_jure_duchy_map_mode_button.top
+		anchors.right: parent.right
+		text: "<font color=\"black\">De Jure Kingdom</font>"
+		width: 128
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			metternich.map_mode = WorldMap.Mode.DeJureKingdom
+		}
+	}
+
+	Button {
+		id: de_jure_duchy_map_mode_button
+		anchors.bottom: culture_map_mode_button.top
+		anchors.right: parent.right
+		text: "<font color=\"black\">De Jure Duchy</font>"
+		width: 128
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			metternich.map_mode = WorldMap.Mode.DeJureDuchy
+		}
+	}
+
+	Button {
 		id: culture_map_mode_button
 		anchors.bottom: culture_group_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture</font>"
-		width: 96
+		width: 128
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
@@ -308,7 +347,7 @@ Item {
 		anchors.bottom: religion_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture Group</font>"
-		width: 96
+		width: 128
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
@@ -321,7 +360,7 @@ Item {
 		anchors.bottom: parent.bottom
 		anchors.right: parent.right
 		text: "<font color=\"black\">Religion</font>"
-		width: 96
+		width: 128
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
