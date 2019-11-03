@@ -8,6 +8,7 @@ d_switzerland = {
 	de_jure_liege_title = k_switzerland
 	color = { 228 43 35 }
 	capital_province = p_switzerland
+	flag_tag = k_switzerland
 }
 
 c_neuchatel = {

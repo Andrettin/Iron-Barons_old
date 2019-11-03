@@ -12,6 +12,7 @@ d_galicia = {
 	de_jure_liege_title = k_galicia
 	color = { 153 0 0 }
 	capital_province = p_lemberg
+	flag_tag = k_galicia
 }
 
 d_posen = {
@@ -24,6 +25,7 @@ d_warsaw = {
 	de_jure_liege_title = k_poland
 	color = { 212 41 61 }
 	capital_province = p_mazovia
+	flag_tag = k_poland
 }
 
 c_czestochowa = {

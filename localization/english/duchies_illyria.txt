@@ -1,4 +1,5 @@
 d_croatia = "Croatia"
 d_dalmatia = "Dalmatia"
 d_istria = "Istria"
+d_istria_german = "Küstenland"
 d_slavonia = "Slavonia"

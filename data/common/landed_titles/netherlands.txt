@@ -13,6 +13,7 @@ d_netherlands = {
 	de_jure_liege_title = k_netherlands
 	color = { 226 64 30 }
 	capital_province = p_north_holland
+	flag_tag = k_netherlands
 }
 
 c_drenthe = {

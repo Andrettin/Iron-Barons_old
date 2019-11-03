@@ -68,6 +68,7 @@ d_julich = {
 	de_jure_liege_title = k_germany
 	color = { 243 189 48 }
 	capital_province = p_julich
+	flag_tag = b_cologne
 }
 
 d_kassel = {
@@ -94,18 +95,6 @@ d_magdeburg = {
 	capital_province = p_magdeburg
 }
 
-d_rhineland = {
-	de_jure_liege_title = k_germany
-	color = { 4 153 14 }
-	capital_province = p_rhineland
-}
-
-d_silesia = {
-	de_jure_liege_title = k_germany
-	color = { 185 253 25 }
-	capital_province = p_breslau
-}
-
 d_nassau = {
 	de_jure_liege_title = k_germany
 	color = { 255 91 0 }
@@ -124,10 +113,17 @@ d_pomerania = {
 	capital_province = p_hither_pomerania
 }
 
+d_rhineland = {
+	de_jure_liege_title = k_germany
+	color = { 4 153 14 }
+	capital_province = p_rhineland
+}
+
 d_saxony = {
 	de_jure_liege_title = k_saxony
 	color = { 8 118 12 }
 	capital_province = p_upper_saxony
+	flag_tag = k_saxony
 }
 
 d_schwerin = {
@@ -136,10 +132,17 @@ d_schwerin = {
 	capital_province = p_schwerin
 }
 
+d_silesia = {
+	de_jure_liege_title = k_germany
+	color = { 185 253 25 }
+	capital_province = p_breslau
+}
+
 d_strelitz = {
 	de_jure_liege_title = k_germany
 	color = { 252 195 0 }
 	capital_province = p_strelitz
+	flag_tag = d_schwerin
 }
 
 d_thuringia = {
@@ -186,6 +189,7 @@ c_bavaria = {
 c_berg = {
 	de_jure_liege_title = d_julich
 	color = { 166 141 108 }
+	flag_tag = b_dusseldorf
 
 
 	b_dusseldorf = {
@@ -458,6 +462,7 @@ c_holstein = {
 c_julich = {
 	de_jure_liege_title = d_julich
 	color = { 243 189 48 }
+	flag_tag = b_cologne
 
 	b_cologne = {
 	}

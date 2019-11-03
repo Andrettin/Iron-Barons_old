@@ -7,6 +7,7 @@ d_belgium = {
 	de_jure_liege_title = k_belgium
 	color = { 250 224 66 }
 	capital_province = p_belgium
+	flag_tag = k_belgium
 }
 
 d_luxembourg = {

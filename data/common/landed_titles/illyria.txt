@@ -8,12 +8,14 @@ d_croatia = {
 	de_jure_liege_title = k_hungary
 	color = { 225 14 30 }
 	capital_province = p_zagreb
+	flag_tag = k_croatia
 }
 
 d_dalmatia = {
 	de_jure_liege_title = k_italy
 	color = { 62 73 143 }
 	capital_province = p_dalmatia
+	flag_tag = k_dalmatia
 }
 
 d_istria = {
@@ -26,6 +28,7 @@ d_slavonia = {
 	de_jure_liege_title = k_hungary
 	color = { 91 114 215 }
 	capital_province = p_slavonia
+	flag_tag = k_slavonia
 }
 
 c_bjelovar = {

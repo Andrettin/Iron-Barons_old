@@ -13,6 +13,7 @@ d_hungary = {
 	de_jure_liege_title = k_hungary
 	color = { 131 15 15 }
 	capital_province = p_hungary
+	flag_tag = k_hungary
 }
 
 c_burgenland = {

@@ -7,6 +7,7 @@ d_portugal = {
 	de_jure_liege_title = k_portugal
 	color = { 0 102 0 }
 	capital_province = p_portugal
+	flag_tag = k_portugal
 }
 
 c_portugal = {

@@ -8,6 +8,7 @@ d_bohemia = {
 	de_jure_liege_title = k_bohemia
 	color = { 197 114 24 }
 	capital_province = p_bohemia
+	flag_tag = k_bohemia
 }
 
 d_moravia = {
@@ -20,6 +21,7 @@ d_teschen = {
 	de_jure_liege_title = k_bohemia
 	color = { 255 159 23 }
 	capital_province = p_teschen
+	flag_tag = c_teschen
 }
 
 c_bohemia = {
