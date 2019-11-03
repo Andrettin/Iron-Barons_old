@@ -13,6 +13,7 @@ k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 160 160 160 }
 	capital_province = p_kassel #Frankfurt
+	flag_tag = e_germany
 }
 
 k_hanover = {

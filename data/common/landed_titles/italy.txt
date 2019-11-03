@@ -1,6 +1,7 @@
 e_italy = {
 	color = { 0 153 0 }
 	capital_province = p_lombardy #should be Rome instead
+	flag_tag = k_italy
 }
 
 k_italy = {
