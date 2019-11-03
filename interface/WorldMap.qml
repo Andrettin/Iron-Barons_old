@@ -5,6 +5,13 @@ import MaskedMouseArea 1.0
 Item {
 	id: map
 
+	enum Mode {
+		Country,
+		Culture,
+		CultureGroup,
+		Religion
+	}
+
 	function moveLeft(pixels) {
 		map.x += pixels * map.scale
 	}
@@ -67,7 +74,14 @@ Item {
 					anchors.fill: parent
 					alphaThreshold: 0.4
 					maskSource: parent.source
-					ToolTip.text: tooltip(model.modelData.name + (model.modelData.county ? "<br><br>Country: " + model.modelData.county.realm.titled_name : ""))
+					ToolTip.text: tooltip(
+						model.modelData.name
+						+ (model.modelData.county ? "<br>" : "")
+						+ (model.modelData.county && metternich.map_mode === WorldMap.Mode.Country ? "<br>Country: " + model.modelData.county.realm.titled_name : "")
+						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture: " + model.modelData.culture.name : "")
+						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + model.modelData.culture.culture_group.name : "")
+						+ (model.modelData.religion && metternich.map_mode === WorldMap.Mode.Religion ? "<br>Religion: " + model.modelData.religion.name : "")
+					)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 					onClicked: {

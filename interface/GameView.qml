@@ -286,7 +286,7 @@ Item {
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			metternich.set_map_mode(0)
+			metternich.map_mode = WorldMap.Mode.Country
 		}
 	}
 
@@ -299,7 +299,7 @@ Item {
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			metternich.set_map_mode(1)
+			metternich.map_mode = WorldMap.Mode.Culture
 		}
 	}
 
@@ -312,7 +312,7 @@ Item {
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			metternich.set_map_mode(2)
+			metternich.map_mode = WorldMap.Mode.CultureGroup
 		}
 	}
 
@@ -325,7 +325,7 @@ Item {
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			metternich.set_map_mode(3)
+			metternich.map_mode = WorldMap.Mode.Religion
 		}
 	}
 }
