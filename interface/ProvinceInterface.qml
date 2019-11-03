@@ -68,13 +68,13 @@ Item {
 
 	Item {
 		id: empire_area
+		visible: metternich.selected_province
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: culture_chart.bottom
 		anchors.topMargin: 16
-		visible: metternich.selected_province
 
 		Text {
 			id: de_jure_empire_label
@@ -86,27 +86,43 @@ Item {
 			font.family: "tahoma"
 		}
 
-		Text {
-			id: province_de_jure_empire
-			text: metternich.selected_province ? (metternich.selected_province.empire && metternich.selected_province.empire !== metternich.selected_province.de_jure_empire ? metternich.selected_province.empire.name + " / " : "") + (metternich.selected_province.de_jure_empire ? metternich.selected_province.de_jure_empire.name : "None") : ""
+		LandedTitleFlag {
+			id: de_facto_empire_flag
+			landed_title: metternich.selected_province && metternich.selected_province.empire && metternich.selected_province.empire !== metternich.selected_province.de_jure_empire ? metternich.selected_province.empire : null
+			anchors.right: empire_flag_separator.left
+			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
+		}
+
+		Text {
+			id: empire_flag_separator
+			text: metternich.selected_province && metternich.selected_province.empire && metternich.selected_province.empire !== metternich.selected_province.de_jure_empire ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
+			anchors.right: de_jure_empire_flag.left
+			anchors.rightMargin: 4
+			anchors.verticalCenter: parent.verticalCenter
+		}
+
+		LandedTitleFlag {
+			id: de_jure_empire_flag
+			landed_title: metternich.selected_province ? metternich.selected_province.de_jure_empire : null
+			anchors.right: parent.right
+			anchors.verticalCenter: parent.verticalCenter
 		}
 	}
 
 	Item {
 		id: kingdom_area
+		visible: metternich.selected_province
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: empire_area.bottom
-		anchors.topMargin: 16
-		visible: metternich.selected_province
+		anchors.topMargin: 20
 
 		Text {
 			id: de_jure_kingdom_label
@@ -118,27 +134,43 @@ Item {
 			font.family: "tahoma"
 		}
 
-		Text {
-			id: province_de_jure_kingdom
-			text: metternich.selected_province ? (metternich.selected_province.kingdom && metternich.selected_province.kingdom !== metternich.selected_province.de_jure_kingdom ? metternich.selected_province.kingdom.name + " / " : "") + (metternich.selected_province.de_jure_kingdom ? metternich.selected_province.de_jure_kingdom.name : "None") : ""
+		LandedTitleFlag {
+			id: de_facto_kingdom_flag
+			landed_title: metternich.selected_province && metternich.selected_province.kingdom && metternich.selected_province.kingdom !== metternich.selected_province.de_jure_kingdom ? metternich.selected_province.kingdom : null
+			anchors.right: kingdom_flag_separator.left
+			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
+		}
+
+		Text {
+			id: kingdom_flag_separator
+			text: metternich.selected_province && metternich.selected_province.kingdom && metternich.selected_province.kingdom !== metternich.selected_province.de_jure_kingdom ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
+			anchors.right: de_jure_kingdom_flag.left
+			anchors.rightMargin: 4
+			anchors.verticalCenter: parent.verticalCenter
+		}
+
+		LandedTitleFlag {
+			id: de_jure_kingdom_flag
+			landed_title: metternich.selected_province ? metternich.selected_province.de_jure_kingdom : null
+			anchors.right: parent.right
+			anchors.verticalCenter: parent.verticalCenter
 		}
 	}
 
 	Item {
 		id: duchy_area
+		visible: metternich.selected_province
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: kingdom_area.bottom
-		anchors.topMargin: 16
-		visible: metternich.selected_province
+		anchors.topMargin: 20
 
 		Text {
 			id: de_jure_duchy_label
@@ -150,26 +182,42 @@ Item {
 			font.family: "tahoma"
 		}
 
-		Text {
-			id: province_de_jure_duchy
-			text: metternich.selected_province ? (metternich.selected_province.duchy && metternich.selected_province.duchy !== metternich.selected_province.de_jure_duchy ? metternich.selected_province.duchy.name + " / " : "") + (metternich.selected_province.de_jure_duchy ? metternich.selected_province.de_jure_duchy.name : "None") : ""
+		LandedTitleFlag {
+			id: de_facto_duchy_flag
+			landed_title: metternich.selected_province && metternich.selected_province.duchy && metternich.selected_province.duchy !== metternich.selected_province.de_jure_duchy ? metternich.selected_province.duchy : null
+			anchors.right: duchy_flag_separator.left
+			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
+		}
+
+		Text {
+			id: duchy_flag_separator
+			text: metternich.selected_province && metternich.selected_province.duchy && metternich.selected_province.duchy !== metternich.selected_province.de_jure_duchy ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
+			anchors.right: de_jure_duchy_flag.left
+			anchors.rightMargin: 4
+			anchors.verticalCenter: parent.verticalCenter
+		}
+
+		LandedTitleFlag {
+			id: de_jure_duchy_flag
+			landed_title: metternich.selected_province ? metternich.selected_province.de_jure_duchy : null
+			anchors.right: parent.right
+			anchors.verticalCenter: parent.verticalCenter
 		}
 	}
 
 	Item {
 		id: population_area
+		anchors.topMargin: 20
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: duchy_area.bottom
-		anchors.topMargin: 16
 
 		Text {
 			id: population_label
@@ -195,12 +243,12 @@ Item {
 
 	Item {
 		id: terrain_area
+		anchors.topMargin: 20
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: population_area.bottom
-		anchors.topMargin: 16
 
 		Text {
 			id: terrain_label
