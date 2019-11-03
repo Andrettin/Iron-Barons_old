@@ -74,11 +74,11 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: culture_chart.bottom
 		anchors.topMargin: 16
-		visible: metternich.selected_province && metternich.selected_province.empire
+		visible: metternich.selected_province
 
 		Text {
 			id: de_jure_empire_label
-			text: qsTr("De Jure Empire")
+			text: qsTr("Empire")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
@@ -88,7 +88,7 @@ Item {
 
 		Text {
 			id: province_de_jure_empire
-			text: metternich.selected_province && metternich.selected_province.empire ? metternich.selected_province.empire.name : ""
+			text: metternich.selected_province ? (metternich.selected_province.empire && metternich.selected_province.empire !== metternich.selected_province.de_jure_empire ? metternich.selected_province.empire.name + " / " : "") + (metternich.selected_province.de_jure_empire ? metternich.selected_province.de_jure_empire.name : "None") : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -106,11 +106,11 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: empire_area.bottom
 		anchors.topMargin: 16
-		visible: metternich.selected_province && metternich.selected_province.kingdom
+		visible: metternich.selected_province
 
 		Text {
 			id: de_jure_kingdom_label
-			text: qsTr("De Jure Kingdom")
+			text: qsTr("Kingdom")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
@@ -120,7 +120,7 @@ Item {
 
 		Text {
 			id: province_de_jure_kingdom
-			text: metternich.selected_province && metternich.selected_province.kingdom ? metternich.selected_province.kingdom.name : ""
+			text: metternich.selected_province ? (metternich.selected_province.kingdom && metternich.selected_province.kingdom !== metternich.selected_province.de_jure_kingdom ? metternich.selected_province.kingdom.name + " / " : "") + (metternich.selected_province.de_jure_kingdom ? metternich.selected_province.de_jure_kingdom.name : "None") : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -138,11 +138,11 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: kingdom_area.bottom
 		anchors.topMargin: 16
-		visible: metternich.selected_province && metternich.selected_province.duchy
+		visible: metternich.selected_province
 
 		Text {
 			id: de_jure_duchy_label
-			text: qsTr("De Jure Duchy")
+			text: qsTr("Duchy")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
@@ -152,7 +152,7 @@ Item {
 
 		Text {
 			id: province_de_jure_duchy
-			text: metternich.selected_province && metternich.selected_province.duchy ? metternich.selected_province.duchy.name : ""
+			text: metternich.selected_province ? (metternich.selected_province.duchy && metternich.selected_province.duchy !== metternich.selected_province.de_jure_duchy ? metternich.selected_province.duchy.name + " / " : "") + (metternich.selected_province.de_jure_duchy ? metternich.selected_province.de_jure_duchy.name : "None") : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
