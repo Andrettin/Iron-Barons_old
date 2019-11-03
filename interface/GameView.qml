@@ -292,7 +292,7 @@ Item {
 
 	Button {
 		id: culture_map_mode_button
-		anchors.bottom: religion_map_mode_button.top
+		anchors.bottom: culture_group_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture</font>"
 		width: 80
@@ -300,6 +300,19 @@ Item {
 		font.pixelSize: 12
 		onClicked: {
 			metternich.set_map_mode(1)
+		}
+	}
+
+	Button {
+		id: culture_group_map_mode_button
+		anchors.bottom: religion_map_mode_button.top
+		anchors.right: parent.right
+		text: "<font color=\"black\">Culture Group</font>"
+		width: 80
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			metternich.set_map_mode(2)
 		}
 	}
 
@@ -312,7 +325,7 @@ Item {
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			metternich.set_map_mode(2)
+			metternich.set_map_mode(3)
 		}
 	}
 }
