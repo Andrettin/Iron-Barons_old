@@ -282,7 +282,7 @@ Item {
 		anchors.bottom: culture_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Country</font>"
-		width: 80
+		width: 96
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
@@ -295,7 +295,7 @@ Item {
 		anchors.bottom: culture_group_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture</font>"
-		width: 80
+		width: 96
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
@@ -308,7 +308,7 @@ Item {
 		anchors.bottom: religion_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture Group</font>"
-		width: 80
+		width: 96
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
@@ -321,7 +321,7 @@ Item {
 		anchors.bottom: parent.bottom
 		anchors.right: parent.right
 		text: "<font color=\"black\">Religion</font>"
-		width: 80
+		width: 96
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
