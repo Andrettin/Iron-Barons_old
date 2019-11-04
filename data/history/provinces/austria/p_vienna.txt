@@ -8,17 +8,15 @@ religion = catholic
 
 1807.1.1 = {
 	h_sankt_polten = town #Sankt Pölten existed as of 1807; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
-	h_krems = town #Krems existed as of 1807; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
 	h_wiener_neustadt = town #(Wiener) Neustadt existed as of 1807, and was considered a town ("Stadt"); Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
 }
 
 1815.1.1 = {
 	culture = austrian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_bruck = town #Bruck was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_ganserndorf = village #Gänserndorf was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_schwechat = village #Schwechat was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_frohsdorf = village #Frohsdorf was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_bruck = town #Bruck existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_schwechat = village #Schwechat existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_frohsdorf = village #Frohsdorf existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_vienna
 }

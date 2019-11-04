@@ -1,12 +1,12 @@
 e_austria = {
 	color = { 236 236 236 }
-	capital_province = p_lower_austria
+	capital_province = p_vienna
 }
 
 k_austria = { #represents the Kreis of Austria in the HRE, and the post-WW1 republic of Austria
 	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
 	color = { 236 236 236 }
-	capital_province = p_lower_austria
+	capital_province = p_vienna
 }
 
 d_carinthia = {
@@ -24,7 +24,7 @@ d_carniola = {
 d_lower_austria = {
 	de_jure_liege_title = k_austria
 	color = { 0 86 148 }
-	capital_province = p_lower_austria
+	capital_province = p_vienna
 }
 
 d_salzburg = {
@@ -48,7 +48,7 @@ d_tyrol = {
 d_upper_austria = {
 	de_jure_liege_title = k_austria
 	color = { 31 26 23 }
-	capital_province = p_upper_austria
+	capital_province = p_traunviertel
 }
 
 c_carinthia = {
@@ -73,32 +73,22 @@ c_carniola = {
 	}
 }
 
-c_lower_austria = {
+c_manhartsberg = {
 	de_jure_liege_title = d_lower_austria
-	color = { 0 86 148 }
-
-	b_bruck = {
-	}
-
-	b_frohsdorf = {
-	}
-
-	b_ganserndorf = {
-	}
+	color = { 32 13 27 }
 
 	b_krems = {
 	}
 
-	b_sankt_polten = {
+	b_ganserndorf = {
 	}
+}
 
-	b_schwechat = {
-	}
+c_muhlviertel = {
+	de_jure_liege_title = d_upper_austria
+	color = { 19 44 1 }
 
-	b_vienna = {
-	}
-
-	b_wiener_neustadt = {
+	b_wildberg = {
 	}
 }
 
@@ -130,6 +120,23 @@ c_styria = {
 	}
 }
 
+c_traunviertel = {
+	de_jure_liege_title = d_upper_austria
+	color = { 31 26 23 }
+
+	b_linz = {
+	}
+
+	b_steyr = {
+	}
+
+	b_wels = {
+	}
+
+	b_ischl = {
+	}
+}
+
 c_tyrol = {
 	de_jure_liege_title = d_tyrol
 	color = { 188 0 7 }
@@ -156,19 +163,25 @@ c_tyrol = {
 	}
 }
 
-c_upper_austria = {
-	de_jure_liege_title = d_upper_austria
-	color = { 31 26 23 }
+c_vienna = {
+	de_jure_liege_title = d_lower_austria
+	color = { 0 86 148 }
 
-	b_ischl = {
+	b_vienna = {
 	}
 
-	b_linz = {
+	b_sankt_polten = {
 	}
 
-	b_steyr = {
+	b_wiener_neustadt = {
 	}
 
-	b_wels = {
+	b_bruck = {
+	}
+
+	b_schwechat = {
+	}
+
+	b_frohsdorf = {
 	}
 }

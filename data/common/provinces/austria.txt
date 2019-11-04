@@ -28,32 +28,12 @@ p_carniola = {
 	}
 }
 
-p_lower_austria = {
-	county = c_lower_austria
-	color = { 42 3 128 }
-
-	h_vienna = {
-		barony = b_vienna
-		settlement = true
-	}
-
-	h_sankt_polten = {
-		barony = b_sankt_polten
-		settlement = true
-	}
+p_manhartsberg = {
+	county = c_manhartsberg
+	color = { 32 13 27 }
 
 	h_krems = {
 		barony = b_krems
-		settlement = true
-	}
-
-	h_bruck = {
-		barony = b_bruck
-		settlement = true
-	}
-
-	h_frohsdorf = {
-		barony = b_frohsdorf
 		settlement = true
 	}
 
@@ -61,14 +41,14 @@ p_lower_austria = {
 		barony = b_ganserndorf
 		settlement = true
 	}
+}
 
-	h_schwechat = {
-		barony = b_schwechat
-		settlement = true
-	}
+p_muhlviertel = {
+	county = c_muhlviertel
+	color = { 19 44 1 }
 
-	h_wiener_neustadt = {
-		barony = b_wiener_neustadt
+	h_wildberg = {
+		barony = b_wildberg
 		settlement = true
 	}
 }
@@ -153,17 +133,12 @@ p_tyrol = {
 	}
 }
 
-p_upper_austria = {
-	county = c_upper_austria
+p_traunviertel = {
+	county = c_traunviertel
 	color = { 84 6 1 }
 
 	h_linz = {
 		barony = b_linz
-		settlement = true
-	}
-
-	h_ischl = {
-		barony = b_ischl
 		settlement = true
 	}
 
@@ -174,6 +149,46 @@ p_upper_austria = {
 
 	h_wels = {
 		barony = b_wels
+		settlement = true
+	}
+
+	h_ischl = {
+		barony = b_ischl
+		settlement = true
+	}
+}
+
+p_vienna = {
+	county = c_vienna
+	color = { 42 3 128 }
+
+	h_vienna = {
+		barony = b_vienna
+		settlement = true
+	}
+
+	h_sankt_polten = {
+		barony = b_sankt_polten
+		settlement = true
+	}
+
+	h_wiener_neustadt = {
+		barony = b_wiener_neustadt
+		settlement = true
+	}
+
+	h_bruck = {
+		barony = b_bruck
+		settlement = true
+	}
+
+	h_schwechat = {
+		barony = b_schwechat
+		settlement = true
+	}
+
+	h_frohsdorf = {
+		barony = b_frohsdorf
 		settlement = true
 	}
 }

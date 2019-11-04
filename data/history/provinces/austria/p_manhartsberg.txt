@@ -1,0 +1,13 @@
+religion = catholic
+
+1807.1.1 = {
+	h_krems = town #Krems existed as of 1807; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
+}
+
+1815.1.1 = {
+	culture = austrian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_ganserndorf = village #Gänserndorf existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_krems
+}
