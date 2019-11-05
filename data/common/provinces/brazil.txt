@@ -4,7 +4,7 @@ p_espirito_santo = {
 
 	h_espirito_santo = {
 		barony = b_espirito_santo
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,7 +14,7 @@ p_minas_gerais = {
 
 	h_ouro_preto = {
 		barony = b_ouro_preto
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -24,7 +24,7 @@ p_rio_de_janeiro = {
 
 	h_rio_de_janeiro = {
 		barony = b_rio_de_janeiro
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -34,6 +34,6 @@ p_sao_paulo = {
 
 	h_sao_paulo = {
 		barony = b_sao_paulo
-		settlement = true
+		type = settlement
 	}
 }

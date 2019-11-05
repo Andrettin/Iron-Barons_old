@@ -4,52 +4,52 @@ p_lombardy = {
 
 	h_bergamo = {
 		barony = b_bergamo
-		settlement = true
+		type = settlement
 	}
 
 	h_bormio = {
 		barony = b_bormio
-		settlement = true
+		type = settlement
 	}
 
 	h_brescia = {
 		barony = b_brescia
-		settlement = true
+		type = settlement
 	}
 
 	h_chiavenna = {
 		barony = b_chiavenna
-		settlement = true
+		type = settlement
 	}
 
 	h_como = {
 		barony = b_como
-		settlement = true
+		type = settlement
 	}
 
 	h_cremona = {
 		barony = b_cremona
-		settlement = true
+		type = settlement
 	}
 
 	h_magenta = {
 		barony = b_magenta
-		settlement = true
+		type = settlement
 	}
 
 	h_milan = {
 		barony = b_milan
-		settlement = true
+		type = settlement
 	}
 
 	h_pavia = {
 		barony = b_pavia
-		settlement = true
+		type = settlement
 	}
 
 	h_solferino = {
 		barony = b_solferino
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -59,66 +59,66 @@ p_venetia = {
 
 	h_custozza = {
 		barony = b_custozza
-		settlement = true
+		type = settlement
 	}
 
 	h_legnago = {
 		barony = b_legnago
-		settlement = true
+		type = settlement
 	}
 
 	h_mantua = {
 		barony = b_mantua
-		settlement = true
+		type = settlement
 	}
 
 	h_osoppo = {
 		barony = b_osoppo
-		settlement = true
+		type = settlement
 	}
 
 	h_padua = {
 		barony = b_padua
-		settlement = true
+		type = settlement
 	}
 
 	h_palmanova = {
 		barony = b_palmanova
-		settlement = true
+		type = settlement
 	}
 
 	h_peschiera = {
 		barony = b_peschiera
-		settlement = true
+		type = settlement
 	}
 
 	h_treviso = {
 		barony = b_treviso
-		settlement = true
+		type = settlement
 	}
 
 	h_udine = {
 		barony = b_udine
-		settlement = true
+		type = settlement
 	}
 
 	h_venice = {
 		barony = b_venice
-		settlement = true
+		type = settlement
 	}
 
 	h_verona = {
 		barony = b_verona
-		settlement = true
+		type = settlement
 	}
 
 	h_vicenza = {
 		barony = b_vicenza
-		settlement = true
+		type = settlement
 	}
 
 	h_villafranca = {
 		barony = b_villafranca
-		settlement = true
+		type = settlement
 	}
 }

@@ -4,67 +4,67 @@ p_baden = {
 
 	h_carlsruhe = {
 		barony = b_carlsruhe
-		settlement = true
+		type = settlement
 	}
 
 	h_dossenbach = {
 		barony = b_dossenbach
-		settlement = true
+		type = settlement
 	}
 
 	h_freiburg = {
 		barony = b_freiburg
-		settlement = true
+		type = settlement
 	}
 
 	h_geroldseck = {
 		barony = b_geroldseck
-		settlement = true
+		type = settlement
 	}
 
 	h_heidelberg = {
 		barony = b_heidelberg
-		settlement = true
+		type = settlement
 	}
 
 	h_hundheim = {
 		barony = b_hundheim
-		settlement = true
+		type = settlement
 	}
 
 	h_kandern = {
 		barony = b_kandern
-		settlement = true
+		type = settlement
 	}
 
 	h_mannheim = {
 		barony = b_mannheim
-		settlement = true
+		type = settlement
 	}
 
 	h_offenburg = {
 		barony = b_offenburg
-		settlement = true
+		type = settlement
 	}
 
 	h_rastatt = {
 		barony = b_rastatt
-		settlement = true
+		type = settlement
 	}
 
 	h_tauberbischofsheim = {
 		barony = b_tauberbischofsheim
-		settlement = true
+		type = settlement
 	}
 
 	h_lorrack = {
 		barony = b_lorrack
-		settlement = true
+		type = settlement
 	}
 
 	h_waghausel = {
 		barony = b_waghausel
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -74,7 +74,7 @@ p_ravensburg = {
 	
 	h_ravensburg = {
 		barony = b_ravensburg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -84,7 +84,7 @@ p_sigmaringen = {
 
 	h_sigmaringen = {
 		barony = b_sigmaringen
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -94,27 +94,27 @@ p_wurtemberg = {
 
 	h_heilbronn = {
 		barony = b_heilbronn
-		settlement = true
+		type = settlement
 	}
 
 	h_hohen_asperg = {
 		barony = b_hohen_asperg
-		settlement = true
+		type = settlement
 	}
 
 	h_stuttgart = {
 		barony = b_stuttgart
-		settlement = true
+		type = settlement
 	}
 
 	h_tubingen = {
 		barony = b_tubingen
-		settlement = true
+		type = settlement
 	}
 
 	h_ulm = {
 		barony = b_ulm
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -124,6 +124,6 @@ p_zollern = {
 
 	h_hechingen = {
 		barony = b_hechingen
-		settlement = true
+		type = settlement
 	}
 }

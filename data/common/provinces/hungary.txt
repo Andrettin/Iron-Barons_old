@@ -4,7 +4,7 @@ p_burgenland = {
 
 	h_eisenstadt = {
 		barony = b_eisenstadt
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,12 +14,12 @@ p_hungary = {
 
 	h_buda = {
 		barony = b_buda
-		settlement = true
+		type = settlement
 	}
 
 	h_pest = {
 		barony = b_pest
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -29,12 +29,12 @@ p_kikinda = {
 
 	h_kikinda = {
 		barony = b_kikinda
-		settlement = true
+		type = settlement
 	}
 
 	h_szoreg = {
 		barony = b_szoreg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -44,12 +44,12 @@ p_melencze = {
 
 	h_melencze = {
 		barony = b_melencze
-		settlement = true
+		type = settlement
 	}
 
 	h_perlasz = {
 		barony = b_perlasz
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -59,12 +59,12 @@ p_neusatz = {
 
 	h_neusatz = {
 		barony = b_neusatz
-		settlement = true
+		type = settlement
 	}
 
 	h_titel = {
 		barony = b_titel
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -74,22 +74,22 @@ p_pancsova = {
 
 	h_alibunar = {
 		barony = b_alibunar
-		settlement = true
+		type = settlement
 	}
 
 	h_pancsova = {
 		barony = b_pancsova
-		settlement = true
+		type = settlement
 	}
 
 	h_weisskirchen = {
 		barony = b_weisskirchen
-		settlement = true
+		type = settlement
 	}
 
 	h_werschitz = {
 		barony = b_werschitz
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -99,12 +99,12 @@ p_resita = {
 
 	h_mehadia = {
 		barony = b_mehadia
-		settlement = true
+		type = settlement
 	}
 
 	h_resita = {
 		barony = b_resita
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -114,11 +114,11 @@ p_temesvar = {
 
 	h_lugos = {
 		barony = b_lugos
-		settlement = true
+		type = settlement
 	}
 
 	h_temesvar = {
 		barony = b_temesvar
-		settlement = true
+		type = settlement
 	}
 }

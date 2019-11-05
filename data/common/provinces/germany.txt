@@ -4,42 +4,42 @@ p_bavaria = {
 
 	h_ratisbon = {
 		barony = b_ratisbon
-		settlement = true
+		type = settlement
 	}
 	
 	h_munich = {
 		barony = b_munich
-		settlement = true
+		type = settlement
 	}
 	
 	h_freising = {
 		barony = b_freising
-		settlement = true
+		type = settlement
 	}
 	
 	h_landshut = {
 		barony = b_landshut
-		settlement = true
+		type = settlement
 	}
 	
 	h_straubing = {
 		barony = b_straubing
-		settlement = true
+		type = settlement
 	}
 	
 	h_passau = {
 		barony = b_passau
-		settlement = true
+		type = settlement
 	}
 	
 	h_augsburg = {
 		barony = b_augsburg
-		settlement = true
+		type = settlement
 	}
 	
 	h_kempten = {
 		barony = b_kempten
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -49,22 +49,22 @@ p_berg = {
 
 	h_dusseldorf = {
 		barony = b_dusseldorf
-		settlement = true
+		type = settlement
 	}
 
 	h_elberfeld = {
 		barony = b_elberfeld
-		settlement = true
+		type = settlement
 	}
 
 	h_essen = {
 		barony = b_essen
-		settlement = true
+		type = settlement
 	}
 
 	h_wesel = {
 		barony = b_wesel
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -74,67 +74,67 @@ p_brandenburg = {
 
 	h_berlin = {
 		barony = b_berlin
-		settlement = true
+		type = settlement
 	}
 
 	h_brandenburg = {
 		barony = b_brandenburg
-		settlement = true
+		type = settlement
 	}
 
 	h_cottbus = {
 		barony = b_cottbus
-		settlement = true
+		type = settlement
 	}
 
 	h_frankfurt_on_the_oder = {
 		barony = b_frankfurt_on_the_oder
-		settlement = true
+		type = settlement
 	}
 
 	h_guben = {
 		barony = b_guben
-		settlement = true
+		type = settlement
 	}
 
 	h_kustrin = {
 		barony = b_kustrin
-		settlement = true
+		type = settlement
 	}
 
 	h_landsberg = {
 		barony = b_landsberg
-		settlement = true
+		type = settlement
 	}
 
 	h_neu_ruppin = {
 		barony = b_neu_ruppin
-		settlement = true
+		type = settlement
 	}
 
 	h_potsdam = {
 		barony = b_potsdam
-		settlement = true
+		type = settlement
 	}
 
 	h_prenzlau = {
 		barony = b_prenzlau
-		settlement = true
+		type = settlement
 	}
 
 	h_schonhausen = {
 		barony = b_schonhausen
-		settlement = true
+		type = settlement
 	}
 
 	h_spandau = {
 		barony = b_spandau
-		settlement = true
+		type = settlement
 	}
 
 	h_wittenberg = {
 		barony = b_wittenberg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -144,52 +144,52 @@ p_breslau = {
 
 	h_breslau = {
 		barony = b_breslau
-		settlement = true
+		type = settlement
 	}
 
 	h_glatz = {
 		barony = b_glatz
-		settlement = true
+		type = settlement
 	}
 
 	h_glogau = {
 		barony = b_glogau
-		settlement = true
+		type = settlement
 	}
 
 	h_gorlitz = {
 		barony = b_gorlitz
-		settlement = true
+		type = settlement
 	}
 
 	h_landeshut = {
 		barony = b_landeshut
-		settlement = true
+		type = settlement
 	}
 
 	h_liegnitz = {
 		barony = b_liegnitz
-		settlement = true
+		type = settlement
 	}
 
 	h_ols = {
 		barony = b_ols
-		settlement = true
+		type = settlement
 	}
 
 	h_schweidnitz = {
 		barony = b_schweidnitz
-		settlement = true
+		type = settlement
 	}
 
 	h_silberberg = {
 		barony = b_silberberg
-		settlement = true
+		type = settlement
 	}
 
 	h_zillerthal = {
 		barony = b_zillerthal
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -199,7 +199,7 @@ p_brunswick = {
 
 	h_brunswick = {
 		barony = b_brunswick
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -209,12 +209,12 @@ p_darmstadt = {
 
 	h_darmstadt = {
 		barony = b_darmstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_heppenheim = {
 		barony = b_heppenheim
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -224,22 +224,22 @@ p_east_frisia = {
 
 	h_aurich = {
 		barony = b_aurich
-		settlement = true
+		type = settlement
 	}
 
 	h_emden = {
 		barony = b_emden
-		settlement = true
+		type = settlement
 	}
 
 	h_meppen = {
 		barony = b_meppen
-		settlement = true
+		type = settlement
 	}
 
 	h_osnabruck = {
 		barony = b_osnabruck
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -249,17 +249,17 @@ p_farther_pomerania = {
 
 	h_kolberg = {
 		barony = b_kolberg
-		settlement = true
+		type = settlement
 	}
 
 	h_koslin = {
 		barony = b_koslin
-		settlement = true
+		type = settlement
 	}
 
 	h_stargard = {
 		barony = b_stargard
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -269,57 +269,57 @@ p_franconia = {
 
 	h_nuremberg = {
 		barony = b_nuremberg
-		settlement = true
+		type = settlement
 	}
 
 	h_bamberg = {
 		barony = b_bamberg
-		settlement = true
+		type = settlement
 	}
 
 	h_ingolstadt = {
 		barony = b_ingolstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_furth = {
 		barony = b_furth
-		settlement = true
+		type = settlement
 	}
 
 	h_wurzburg = {
 		barony = b_wurzburg
-		settlement = true
+		type = settlement
 	}
 
 	h_schweinfurt = {
 		barony = b_schweinfurt
-		settlement = true
+		type = settlement
 	}
 
 	h_kissingen = {
 		barony = b_kissingen
-		settlement = true
+		type = settlement
 	}
 
 	h_aschaffenburg = {
 		barony = b_aschaffenburg
-		settlement = true
+		type = settlement
 	}
 
 	h_hof = {
 		barony = b_hof
-		settlement = true
+		type = settlement
 	}
 
 	h_leuchtenberg = {
 		barony = b_leuchtenberg
-		settlement = true
+		type = settlement
 	}
 
 	h_seybothenreuth = {
 		barony = b_seybothenreuth
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -329,12 +329,12 @@ p_giessen = {
 
 	h_giessen = {
 		barony = b_giessen
-		settlement = true
+		type = settlement
 	}
 
 	h_homburg = {
 		barony = b_homburg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -344,7 +344,7 @@ p_gottingen = {
 
 	h_gottingen = {
 		barony = b_gottingen
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -354,12 +354,12 @@ p_hamburg = {
 
 	h_altona = {
 		barony = b_altona
-		settlement = true
+		type = settlement
 	}
 
 	h_hamburg = {
 		barony = b_hamburg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -369,37 +369,37 @@ p_hanover = {
 
 	h_bremen = {
 		barony = b_bremen
-		settlement = true
+		type = settlement
 	}
 
 	h_celle = {
 		barony = b_celle
-		settlement = true
+		type = settlement
 	}
 
 	h_hanover = {
 		barony = b_hanover
-		settlement = true
+		type = settlement
 	}
 
 	h_hildesheim = {
 		barony = b_hildesheim
-		settlement = true
+		type = settlement
 	}
 
 	h_luneburg = {
 		barony = b_luneburg
-		settlement = true
+		type = settlement
 	}
 
 	h_stade = {
 		barony = b_stade
-		settlement = true
+		type = settlement
 	}
 
 	h_bremerhaven = {
 		barony = b_bremerhaven
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -409,22 +409,22 @@ p_hither_pomerania = {
 
 	h_greifswald = {
 		barony = b_greifswald
-		settlement = true
+		type = settlement
 	}
 
 	h_stettin = {
 		barony = b_stettin
-		settlement = true
+		type = settlement
 	}
 
 	h_stralsund = {
 		barony = b_stralsund
-		settlement = true
+		type = settlement
 	}
 
 	h_swinemunde = {
 		barony = b_swinemunde
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -434,17 +434,17 @@ p_holstein = {
 	
 	h_kiel = {
 		barony = b_kiel
-		settlement = true
+		type = settlement
 	}
 
 	h_itzehoe = {
 		barony = b_itzehoe
-		settlement = true
+		type = settlement
 	}
 
 	h_rendsburg = {
 		barony = b_rendsburg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -454,12 +454,12 @@ p_julich = {
 
 	h_cologne = {
 		barony = b_cologne
-		settlement = true
+		type = settlement
 	}
 
 	h_bonn = {
 		barony = b_bonn
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -469,32 +469,32 @@ p_kassel = {
 
 	h_bronzell = {
 		barony = b_bronzell
-		settlement = true
+		type = settlement
 	}
 
 	h_frankfurt = {
 		barony = b_frankfurt
-		settlement = true
+		type = settlement
 	}
 
 	h_fulda = {
 		barony = b_fulda
-		settlement = true
+		type = settlement
 	}
 
 	h_hanau = {
 		barony = b_hanau
-		settlement = true
+		type = settlement
 	}
 
 	h_kassel = {
 		barony = b_kassel
-		settlement = true
+		type = settlement
 	}
 
 	h_marburg_hesse = {
 		barony = b_marburg_hesse
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -504,7 +504,7 @@ p_kattowitz = {
 
 	h_ratibor = {
 		barony = b_ratibor
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -514,12 +514,12 @@ p_lauenburg = {
 
 	h_lauenburg = {
 		barony = b_lauenburg
-		settlement = true
+		type = settlement
 	}
 
 	h_lubeck = {
 		barony = b_lubeck
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -529,12 +529,12 @@ p_lippe = {
 
 	h_detmold = {
 		barony = b_detmold
-		settlement = true
+		type = settlement
 	}
 
 	h_pyrmont = {
 		barony = b_pyrmont
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -544,52 +544,52 @@ p_magdeburg = {
 
 	h_dessau = {
 		barony = b_dessau
-		settlement = true
+		type = settlement
 	}
 
 	h_erfurt = {
 		barony = b_erfurt
-		settlement = true
+		type = settlement
 	}
 
 	h_halberstadt = {
 		barony = b_halberstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_halle = {
 		barony = b_halle
-		settlement = true
+		type = settlement
 	}
 
 	h_langensalza = {
 		barony = b_langensalza
-		settlement = true
+		type = settlement
 	}
 
 	h_magdeburg = {
 		barony = b_magdeburg
-		settlement = true
+		type = settlement
 	}
 
 	h_merseburg = {
 		barony = b_merseburg
-		settlement = true
+		type = settlement
 	}
 
 	h_muhlhausen = {
 		barony = b_muhlhausen
-		settlement = true
+		type = settlement
 	}
 
 	h_sondershausen = {
 		barony = b_sondershausen
-		settlement = true
+		type = settlement
 	}
 
 	h_torgau = {
 		barony = b_torgau
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -599,12 +599,12 @@ p_mainz = {
 
 	h_mainz = {
 		barony = b_mainz
-		settlement = true
+		type = settlement
 	}
 
 	h_worms = {
 		barony = b_worms
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -614,12 +614,12 @@ p_nassau = {
 
 	h_wetzlar = {
 		barony = b_wetzlar
-		settlement = true
+		type = settlement
 	}
 
 	h_wiesbaden = {
 		barony = b_wiesbaden
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -629,22 +629,22 @@ p_oldenburg = {
 
 	h_brake = {
 		barony = b_brake
-		settlement = true
+		type = settlement
 	}
 
 	h_elsfleth = {
 		barony = b_elsfleth
-		settlement = true
+		type = settlement
 	}
 
 	h_oldenburg = {
 		barony = b_oldenburg
-		settlement = true
+		type = settlement
 	}
 
 	h_wilhelmshaven = {
 		barony = b_wilhelmshaven
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -654,17 +654,17 @@ p_oppeln = {
 
 	h_kosel = {
 		barony = b_kosel
-		settlement = true
+		type = settlement
 	}
 
 	h_neisse = {
 		barony = b_neisse
-		settlement = true
+		type = settlement
 	}
 
 	h_oppeln = {
 		barony = b_oppeln
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -674,22 +674,22 @@ p_palatinate = {
 
 	h_kaiserslautern = {
 		barony = b_kaiserslautern
-		settlement = true
+		type = settlement
 	}
 
 	h_landau = {
 		barony = b_landau
-		settlement = true
+		type = settlement
 	}
 
 	h_germersheim = {
 		barony = b_germersheim
-		settlement = true
+		type = settlement
 	}
 
 	h_hambach = {
 		barony = b_hambach
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -699,27 +699,27 @@ p_rhineland = {
 
 	h_aachen = {
 		barony = b_aachen
-		settlement = true
+		type = settlement
 	}
 
 	h_coblenz = {
 		barony = b_coblenz
-		settlement = true
+		type = settlement
 	}
 
 	h_trier = {
 		barony = b_trier
-		settlement = true
+		type = settlement
 	}
 
 	h_birkenfeld = {
 		barony = b_birkenfeld
-		settlement = true
+		type = settlement
 	}
 
 	h_meisenheim = {
 		barony = b_meisenheim
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -729,7 +729,7 @@ p_saarland = {
 
 	h_saarlouis = {
 		barony = b_saarlouis
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -739,22 +739,22 @@ p_schwerin = {
 
 	h_parchim = {
 		barony = b_parchim
-		settlement = true
+		type = settlement
 	}
 
 	h_rostock = {
 		barony = b_rostock
-		settlement = true
+		type = settlement
 	}
 
 	h_schwerin = {
 		barony = b_schwerin
-		settlement = true
+		type = settlement
 	}
 
 	h_wismar = {
 		barony = b_wismar
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -764,7 +764,7 @@ p_strelitz = {
 
 	h_strelitz = {
 		barony = b_strelitz
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -774,57 +774,57 @@ p_thuringia = {
 	
 	h_gotha = {
 		barony = b_gotha
-		settlement = true
+		type = settlement
 	}
 	
 	h_jena = {
 		barony = b_jena
-		settlement = true
+		type = settlement
 	}
 	
 	h_weimar = {
 		barony = b_weimar
-		settlement = true
+		type = settlement
 	}
 	
 	h_coburg = {
 		barony = b_coburg
-		settlement = true
+		type = settlement
 	}
 	
 	h_altenburg = {
 		barony = b_altenburg
-		settlement = true
+		type = settlement
 	}
 	
 	h_gera = {
 		barony = b_gera
-		settlement = true
+		type = settlement
 	}
 	
 	h_rudolstadt = {
 		barony = b_rudolstadt
-		settlement = true
+		type = settlement
 	}
 	
 	h_meiningen = {
 		barony = b_meiningen
-		settlement = true
+		type = settlement
 	}
 	
 	h_eisenach = {
 		barony = b_eisenach
-		settlement = true
+		type = settlement
 	}
 	
 	h_wartburg = {
 		barony = b_wartburg
-		settlement = true
+		type = settlement
 	}
 	
 	h_dermbach = {
 		barony = b_dermbach
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -834,42 +834,42 @@ p_upper_saxony = {
 	
 	h_leipzig = {
 		barony = b_leipzig
-		settlement = true
+		type = settlement
 	}
 	
 	h_dresden = {
 		barony = b_dresden
-		settlement = true
+		type = settlement
 	}
 	
 	h_chemnitz = {
 		barony = b_chemnitz
-		settlement = true
+		type = settlement
 	}
 	
 	h_plauen = {
 		barony = b_plauen
-		settlement = true
+		type = settlement
 	}
 	
 	h_zwickau = {
 		barony = b_zwickau
-		settlement = true
+		type = settlement
 	}
 	
 	h_bautzen = {
 		barony = b_bautzen
-		settlement = true
+		type = settlement
 	}
 	
 	h_zittau = {
 		barony = b_zittau
-		settlement = true
+		type = settlement
 	}
 	
 	h_konigstein = {
 		barony = b_konigstein
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -879,7 +879,7 @@ p_waldeck = {
 
 	h_waldeck = {
 		barony = b_waldeck
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -889,26 +889,26 @@ p_westphalia = {
 
 	h_arnsberg = {
 		barony = b_arnsberg
-		settlement = true
+		type = settlement
 	}
 
 	h_lippstadt = {
 		barony = b_lippstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_minden = {
 		barony = b_minden
-		settlement = true
+		type = settlement
 	}
 
 	h_munster = {
 		barony = b_munster
-		settlement = true
+		type = settlement
 	}
 
 	h_siegen = {
 		barony = b_siegen
-		settlement = true
+		type = settlement
 	}
 }

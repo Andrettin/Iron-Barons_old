@@ -4,102 +4,102 @@ p_bohemia = {
 
 	h_budweis = {
 		barony = b_budweis
-		settlement = true
+		type = settlement
 	}
 
 	h_carlsbad = {
 		barony = b_carlsbad
-		settlement = true
+		type = settlement
 	}
 
 	h_chlum = {
 		barony = b_chlum
-		settlement = true
+		type = settlement
 	}
 
 	h_eger = {
 		barony = b_eger
-		settlement = true
+		type = settlement
 	}
 
 	h_gabel = {
 		barony = b_gabel
-		settlement = true
+		type = settlement
 	}
 
 	h_gitschin = {
 		barony = b_gitschin
-		settlement = true
+		type = settlement
 	}
 
 	h_huhnerwasser = {
 		barony = b_huhnerwasser
-		settlement = true
+		type = settlement
 	}
 
 	h_josefstadt = {
 		barony = b_josefstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_koniggratz = {
 		barony = b_koniggratz
-		settlement = true
+		type = settlement
 	}
 
 	h_koniginhof = {
 		barony = b_koniginhof
-		settlement = true
+		type = settlement
 	}
 
 	h_munchengratz = {
 		barony = b_munchengratz
-		settlement = true
+		type = settlement
 	}
 
 	h_nachod = {
 		barony = b_nachod
-		settlement = true
+		type = settlement
 	}
 
 	h_pardubitz = {
 		barony = b_pardubitz
-		settlement = true
+		type = settlement
 	}
 
 	h_pilsen = {
 		barony = b_pilsen
-		settlement = true
+		type = settlement
 	}
 
 	h_prague = {
 		barony = b_prague
-		settlement = true
+		type = settlement
 	}
 
 	h_sadowa = {
 		barony = b_sadowa
-		settlement = true
+		type = settlement
 	}
 
 	h_schweinschadel = {
 		barony = b_schweinschadel
-		settlement = true
+		type = settlement
 	}
 
 	h_skalitz = {
 		barony = b_skalitz
-		settlement = true
+		type = settlement
 	}
 
 	h_teplitz = {
 		barony = b_teplitz
-		settlement = true
+		type = settlement
 	}
 
 	h_trautenau = {
 		barony = b_trautenau
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -109,37 +109,37 @@ p_moravia = {
 
 	h_brunn = {
 		barony = b_brunn
-		settlement = true
+		type = settlement
 	}
 
 	h_iglau = {
 		barony = b_iglau
-		settlement = true
+		type = settlement
 	}
 
 	h_kremsier = {
 		barony = b_kremsier
-		settlement = true
+		type = settlement
 	}
 
 	h_nikolsburg = {
 		barony = b_nikolsburg
-		settlement = true
+		type = settlement
 	}
 
 	h_olmutz = {
 		barony = b_olmutz
-		settlement = true
+		type = settlement
 	}
 
 	h_spielberg = {
 		barony = b_spielberg
-		settlement = true
+		type = settlement
 	}
 
 	h_tobitschau = {
 		barony = b_tobitschau
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -149,7 +149,7 @@ p_teschen = {
 
 	h_teschen = {
 		barony = b_teschen
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -159,6 +159,6 @@ p_troppau = {
 	
 	h_troppau = {
 		barony = b_troppau
-		settlement = true
+		type = settlement
 	}
 }

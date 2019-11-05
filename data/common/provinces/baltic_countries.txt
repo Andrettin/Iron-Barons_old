@@ -4,22 +4,22 @@ p_danzig = {
 
 	h_danzig = {
 		barony = b_danzig
-		settlement = true
+		type = settlement
 	}
 
 	h_elbing = {
 		barony = b_elbing
-		settlement = true
+		type = settlement
 	}
 
 	h_marienburg = {
 		barony = b_marienburg
-		settlement = true
+		type = settlement
 	}
 
 	h_marienwerder = {
 		barony = b_marienwerder
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -29,37 +29,37 @@ p_east_prussia = {
 
 	h_allenstein = {
 		barony = b_allenstein
-		settlement = true
+		type = settlement
 	}
 
 	h_boyen = {
 		barony = b_boyen
-		settlement = true
+		type = settlement
 	}
 
 	h_eydtkuhnen = {
 		barony = b_eydtkuhnen
-		settlement = true
+		type = settlement
 	}
 
 	h_gumbinnen = {
 		barony = b_gumbinnen
-		settlement = true
+		type = settlement
 	}
 
 	h_konigsberg = {
 		barony = b_konigsberg
-		settlement = true
+		type = settlement
 	}
 
 	h_memel = {
 		barony = b_memel
-		settlement = true
+		type = settlement
 	}
 
 	h_tilsit = {
 		barony = b_tilsit
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -69,11 +69,11 @@ p_thorn = {
 
 	h_graudenz = {
 		barony = b_graudenz
-		settlement = true
+		type = settlement
 	}
 
 	h_thorn = {
 		barony = b_thorn
-		settlement = true
+		type = settlement
 	}
 }

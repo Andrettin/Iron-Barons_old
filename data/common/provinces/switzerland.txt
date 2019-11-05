@@ -4,7 +4,7 @@ p_neuchatel = {
 	
 	h_neuchatel = {
 		barony = b_neuchatel
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,86 +14,86 @@ p_switzerland = {
 
 	h_bern = {
 		barony = b_bern
-		settlement = true
+		type = settlement
 	}
 
 	h_zurich = {
 		barony = b_zurich
-		settlement = true
+		type = settlement
 	}
 
 	h_basel = {
 		barony = b_basel
-		settlement = true
+		type = settlement
 	}
 
 	h_geneva = {
 		barony = b_geneva
-		settlement = true
+		type = settlement
 	}
 
 	h_lausanne = {
 		barony = b_lausanne
-		settlement = true
+		type = settlement
 	}
 
 	h_lucerne = {
 		barony = b_lucerne
-		settlement = true
+		type = settlement
 	}
 
 	h_aarau = {
 		barony = b_aarau
-		settlement = true
+		type = settlement
 	}
 
 	h_sarnen = {
 		barony = b_sarnen
-		settlement = true
+		type = settlement
 	}
 
 	h_biel = {
 		barony = b_biel
-		settlement = true
+		type = settlement
 	}
 
 	h_fribourg = {
 		barony = b_fribourg
-		settlement = true
+		type = settlement
 	}
 
 	h_sion = {
 		barony = b_sion
-		settlement = true
+		type = settlement
 	}
 
 	h_st_gall = {
 		barony = b_st_gall
-		settlement = true
+		type = settlement
 	}
 
 	h_coire = {
 		barony = b_coire
-		settlement = true
+		type = settlement
 	}
 
 	h_bellinzona = {
 		barony = b_bellinzona
-		settlement = true
+		type = settlement
 	}
 
 	h_constance = {
 		barony = b_constance
-		settlement = true
+		type = settlement
 	}
 
 	h_gisikon = {
 		barony = b_gisikon
-		settlement = true
+		type = settlement
 	}
 
 	h_arenenberg = {
 		barony = b_arenenberg
-		settlement = true
+		type = settlement
 	}
 }

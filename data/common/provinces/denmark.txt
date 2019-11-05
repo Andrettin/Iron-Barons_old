@@ -4,41 +4,41 @@ p_south_schleswig = {
 
 	h_eckernforde = {
 		barony = b_eckernforde
-		settlement = true
+		type = settlement
 	}
 
 	h_flensburg = {
 		barony = b_flensburg
-		settlement = true
+		type = settlement
 	}
 
 	h_friedrichstadt = {
 		barony = b_friedrichstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_glucksburg = {
 		barony = b_glucksburg
-		settlement = true
+		type = settlement
 	}
 
 	h_idstedt = {
 		barony = b_idstedt
-		settlement = true
+		type = settlement
 	}
 
 	h_missunde = {
 		barony = b_missunde
-		settlement = true
+		type = settlement
 	}
 
 	h_oversee = {
 		barony = b_oversee
-		settlement = true
+		type = settlement
 	}
 
 	h_schleswig = {
 		barony = b_schleswig
-		settlement = true
+		type = settlement
 	}
 }

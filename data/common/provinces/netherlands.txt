@@ -4,7 +4,7 @@ p_drenthe = {
 	
 	h_koevorden = {
 		barony = b_koevorden
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,7 +14,7 @@ p_frisia = {
 	
 	h_leeuwarden = {
 		barony = b_leeuwarden
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -24,7 +24,7 @@ p_gelderland = {
 
 	h_arnheim = {
 		barony = b_arnheim
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -34,7 +34,7 @@ p_groningen = {
 
 	h_groningen = {
 		barony = b_groningen
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -44,7 +44,7 @@ p_limburg = {
 
 	h_maastricht = {
 		barony = b_maastricht
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -54,7 +54,7 @@ p_north_brabant = {
 
 	h_hertogenbosch = {
 		barony = b_hertogenbosch
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -64,12 +64,12 @@ p_north_holland = {
 
 	h_amsterdam = {
 		barony = b_amsterdam
-		settlement = true
+		type = settlement
 	}
 
 	h_haarlem = {
 		barony = b_haarlem
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -79,7 +79,7 @@ p_overijssel = {
 	
 	h_zwolle = {
 		barony = b_zwolle
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -89,12 +89,12 @@ p_south_holland = {
 	
 	h_the_hague = {
 		barony = b_the_hague
-		settlement = true
+		type = settlement
 	}
 
 	h_rotterdam = {
 		barony = b_rotterdam
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -104,7 +104,7 @@ p_utrecht = {
 	
 	h_utrecht = {
 		barony = b_utrecht
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -114,6 +114,6 @@ p_zeeland = {
 	
 	h_middelburg = {
 		barony = b_middelburg
-		settlement = true
+		type = settlement
 	}
 }

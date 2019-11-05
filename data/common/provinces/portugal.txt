@@ -4,6 +4,6 @@ p_portugal = {
 
 	h_lisbon = {
 		barony = b_lisbon
-		settlement = true
+		type = settlement
 	}
 }

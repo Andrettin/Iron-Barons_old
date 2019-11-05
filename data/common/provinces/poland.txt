@@ -4,7 +4,7 @@ p_czestochowa = {
 
 	h_czestochowa = {
 		barony = b_czestochowa
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,7 +14,7 @@ p_kalisz = {
 
 	h_kalisz = {
 		barony = b_kalisz
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -24,17 +24,17 @@ p_kielce = {
 
 	h_busk = {
 		barony = b_busk
-		settlement = true
+		type = settlement
 	}
 
 	h_kielce = {
 		barony = b_kielce
-		settlement = true
+		type = settlement
 	}
 
 	h_sandomierz = {
 		barony = b_sandomierz
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -44,7 +44,7 @@ p_krakow = {
 
 	h_krakow = {
 		barony = b_krakow
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -54,7 +54,7 @@ p_lemberg = {
 
 	h_lemberg = {
 		barony = b_lemberg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -64,12 +64,12 @@ p_lesser_poland = {
 
 	h_neu_sandec = {
 		barony = b_neu_sandec
-		settlement = true
+		type = settlement
 	}
 
 	h_tarnow = {
 		barony = b_tarnow
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -79,12 +79,12 @@ p_lodz = {
 
 	h_lodz = {
 		barony = b_lodz
-		settlement = true
+		type = settlement
 	}
 
 	h_piotrkow = {
 		barony = b_piotrkow
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -94,22 +94,22 @@ p_lublin = {
 
 	h_cholm = {
 		barony = b_cholm
-		settlement = true
+		type = settlement
 	}
 
 	h_ivangorod = {
 		barony = b_ivangorod
-		settlement = true
+		type = settlement
 	}
 
 	h_lublin = {
 		barony = b_lublin
-		settlement = true
+		type = settlement
 	}
 
 	h_zamosc = {
 		barony = b_zamosc
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -119,12 +119,12 @@ p_mariampol = {
 
 	h_mariampol = {
 		barony = b_mariampol
-		settlement = true
+		type = settlement
 	}
 
 	h_virballen = {
 		barony = b_virballen
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -134,22 +134,22 @@ p_mazovia = {
 
 	h_praga = {
 		barony = b_praga
-		settlement = true
+		type = settlement
 	}
 
 	h_warka = {
 		barony = b_warka
-		settlement = true
+		type = settlement
 	}
 
 	h_warsaw = {
 		barony = b_warsaw
-		settlement = true
+		type = settlement
 	}
 
 	h_wola = {
 		barony = b_wola
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -159,27 +159,27 @@ p_plock = {
 
 	h_modlin = {
 		barony = b_modlin
-		settlement = true
+		type = settlement
 	}
 
 	h_nur = {
 		barony = b_nur
-		settlement = true
+		type = settlement
 	}
 
 	h_ostrolenka = {
 		barony = b_ostrolenka
-		settlement = true
+		type = settlement
 	}
 
 	h_plock = {
 		barony = b_plock
-		settlement = true
+		type = settlement
 	}
 
 	h_pultusk = {
 		barony = b_pultusk
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -189,17 +189,17 @@ p_podlasie = {
 
 	h_augustowo = {
 		barony = b_augustowo
-		settlement = true
+		type = settlement
 	}
 
 	h_lomzha = {
 		barony = b_lomzha
-		settlement = true
+		type = settlement
 	}
 
 	h_tykocin = {
 		barony = b_tykocin
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -209,62 +209,62 @@ p_posen = {
 
 	h_bordo = {
 		barony = b_bordo
-		settlement = true
+		type = settlement
 	}
 
 	h_bromberg = {
 		barony = b_bromberg
-		settlement = true
+		type = settlement
 	}
 
 	h_gnesen = {
 		barony = b_gnesen
-		settlement = true
+		type = settlement
 	}
 
 	h_koschmin = {
 		barony = b_koschmin
-		settlement = true
+		type = settlement
 	}
 
 	h_lissa = {
 		barony = b_lissa
-		settlement = true
+		type = settlement
 	}
 
 	h_miloslaw = {
 		barony = b_miloslaw
-		settlement = true
+		type = settlement
 	}
 
 	h_posen = {
 		barony = b_posen
-		settlement = true
+		type = settlement
 	}
 
 	h_rogalin = {
 		barony = b_rogalin
-		settlement = true
+		type = settlement
 	}
 
 	h_schneidemuhl = {
 		barony = b_schneidemuhl
-		settlement = true
+		type = settlement
 	}
 
 	h_schroda = {
 		barony = b_schroda
-		settlement = true
+		type = settlement
 	}
 
 	h_wreschen = {
 		barony = b_wreschen
-		settlement = true
+		type = settlement
 	}
 
 	h_xions = {
 		barony = b_xions
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -274,7 +274,7 @@ p_radom = {
 
 	h_radom = {
 		barony = b_radom
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -284,7 +284,7 @@ p_siedlce = {
 
 	h_siedlce = {
 		barony = b_siedlce
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -294,7 +294,7 @@ p_stanislawow = {
 
 	h_stanislawow = {
 		barony = b_stanislawow
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -304,17 +304,17 @@ p_subcarpathia = {
 
 	h_dukla = {
 		barony = b_dukla
-		settlement = true
+		type = settlement
 	}
 
 	h_jaroslaw = {
 		barony = b_jaroslaw
-		settlement = true
+		type = settlement
 	}
 
 	h_przemysl = {
 		barony = b_przemysl
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -324,21 +324,21 @@ p_wloclawek = {
 
 	h_osseg = {
 		barony = b_osseg
-		settlement = true
+		type = settlement
 	}
 
 	h_radziejewo = {
 		barony = b_radziejewo
-		settlement = true
+		type = settlement
 	}
 
 	h_rypin = {
 		barony = b_rypin
-		settlement = true
+		type = settlement
 	}
 
 	h_wloclawek = {
 		barony = b_wloclawek
-		settlement = true
+		type = settlement
 	}
 }

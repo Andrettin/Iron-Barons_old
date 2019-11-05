@@ -4,7 +4,7 @@ p_arlon = {
 
 	h_arlon = {
 		barony = b_arlon
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,42 +14,42 @@ p_belgium = {
 
 	h_antwerp = {
 		barony = b_antwerp
-		settlement = true
+		type = settlement
 	}
 
 	h_bruges = {
 		barony = b_bruges
-		settlement = true
+		type = settlement
 	}
 
 	h_brussels = {
 		barony = b_brussels
-		settlement = true
+		type = settlement
 	}
 
 	h_ghent = {
 		barony = b_ghent
-		settlement = true
+		type = settlement
 	}
 
 	h_liege = {
 		barony = b_liege
-		settlement = true
+		type = settlement
 	}
 
 	h_mons = {
 		barony = b_mons
-		settlement = true
+		type = settlement
 	}
 
 	h_namur = {
 		barony = b_namur
-		settlement = true
+		type = settlement
 	}
 
 	h_ostend = {
 		barony = b_ostend
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -59,6 +59,6 @@ p_luxembourg = {
 
 	h_luxembourg = {
 		barony = b_luxembourg
-		settlement = true
+		type = settlement
 	}
 }

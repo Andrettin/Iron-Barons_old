@@ -4,7 +4,7 @@ p_csik_szereda = {
 
 	h_csik_szereda = {
 		barony = b_csik_szereda
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,22 +14,22 @@ p_hermannstadt = {
 
 	h_gr_scheuern = {
 		barony = b_gr_scheuern
-		settlement = true
+		type = settlement
 	}
 
 	h_hermannstadt = {
 		barony = b_hermannstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_medgyes = {
 		barony = b_medgyes
-		settlement = true
+		type = settlement
 	}
 
 	h_vizakna = {
 		barony = b_vizakna
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -39,12 +39,12 @@ p_kronstadt = {
 
 	h_fogaras = {
 		barony = b_fogaras
-		settlement = true
+		type = settlement
 	}
 
 	h_kronstadt = {
 		barony = b_kronstadt
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -54,7 +54,7 @@ p_sepsi_sz_gyorgy = {
 
 	h_sepsi_sz_gyorgy = {
 		barony = b_sepsi_sz_gyorgy
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -64,71 +64,71 @@ p_transylvania = {
 
 	h_bistritz = {
 		barony = b_bistritz
-		settlement = true
+		type = settlement
 	}
 
 	h_broos = {
 		barony = b_broos
-		settlement = true
+		type = settlement
 	}
 
 	h_csucsa = {
 		barony = b_csucsa
-		settlement = true
+		type = settlement
 	}
 
 	h_dees = {
 		barony = b_dees
-		settlement = true
+		type = settlement
 	}
 
 	h_deva = {
 		barony = b_deva
-		settlement = true
+		type = settlement
 	}
 
 	h_karlsburg = {
 		barony = b_karlsburg
-		settlement = true
+		type = settlement
 	}
 
 	h_klausenburg = {
 		barony = b_klausenburg
-		settlement = true
+		type = settlement
 	}
 
 	h_maros_vasarhely = {
 		barony = b_maros_vasarhely
-		settlement = true
+		type = settlement
 	}
 
 	h_muhlenbach = {
 		barony = b_muhlenbach
-		settlement = true
+		type = settlement
 	}
 
 	h_piski = {
 		barony = b_piski
-		settlement = true
+		type = settlement
 	}
 
 	h_schassburg = {
 		barony = b_schassburg
-		settlement = true
+		type = settlement
 	}
 
 	h_szamos_ujvar = {
 		barony = b_szamos_ujvar
-		settlement = true
+		type = settlement
 	}
 
 	h_szasz_regen = {
 		barony = b_szasz_regen
-		settlement = true
+		type = settlement
 	}
 
 	h_zsibo = {
 		barony = b_zsibo
-		settlement = true
+		type = settlement
 	}
 }

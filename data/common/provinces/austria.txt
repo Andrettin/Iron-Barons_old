@@ -4,12 +4,12 @@ p_carinthia = {
 	
 	h_klagenfurt = {
 		barony = b_klagenfurt
-		settlement = true
+		type = settlement
 	}
 
 	h_villach = {
 		barony = b_villach
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -19,12 +19,12 @@ p_carniola = {
 
 	h_laibach = {
 		barony = b_laibach
-		settlement = true
+		type = settlement
 	}
 
 	h_adelsberg = {
 		barony = b_adelsberg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -34,12 +34,12 @@ p_manhartsberg = {
 
 	h_krems = {
 		barony = b_krems
-		settlement = true
+		type = settlement
 	}
 
 	h_ganserndorf = {
 		barony = b_ganserndorf
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -49,7 +49,7 @@ p_muhlviertel = {
 
 	h_wildberg = {
 		barony = b_wildberg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -59,12 +59,12 @@ p_salzburg = {
 
 	h_salzburg = {
 		barony = b_salzburg
-		settlement = true
+		type = settlement
 	}
 
 	h_gastein = {
 		barony = b_gastein
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -74,22 +74,22 @@ p_styria = {
 
 	h_graz = {
 		barony = b_graz
-		settlement = true
+		type = settlement
 	}
 
 	h_bruck_styria = {
 		barony = b_bruck_styria
-		settlement = true
+		type = settlement
 	}
 
 	h_cilli = {
 		barony = b_cilli
-		settlement = true
+		type = settlement
 	}
 
 	h_marburg = {
 		barony = b_marburg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -99,37 +99,37 @@ p_tyrol = {
 
 	h_innsbruck = {
 		barony = b_innsbruck
-		settlement = true
+		type = settlement
 	}
 
 	h_bozen = {
 		barony = b_bozen
-		settlement = true
+		type = settlement
 	}
 
 	h_bregenz = {
 		barony = b_bregenz
-		settlement = true
+		type = settlement
 	}
 
 	h_franzensfeste = {
 		barony = b_franzensfeste
-		settlement = true
+		type = settlement
 	}
 
 	h_glurns = {
 		barony = b_glurns
-		settlement = true
+		type = settlement
 	}
 
 	h_kufstein = {
 		barony = b_kufstein
-		settlement = true
+		type = settlement
 	}
 
 	h_trent = {
 		barony = b_trent
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -139,22 +139,22 @@ p_traunviertel = {
 
 	h_linz = {
 		barony = b_linz
-		settlement = true
+		type = settlement
 	}
 
 	h_steyr = {
 		barony = b_steyr
-		settlement = true
+		type = settlement
 	}
 
 	h_wels = {
 		barony = b_wels
-		settlement = true
+		type = settlement
 	}
 
 	h_ischl = {
 		barony = b_ischl
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -164,31 +164,31 @@ p_vienna = {
 
 	h_vienna = {
 		barony = b_vienna
-		settlement = true
+		type = settlement
 	}
 
 	h_sankt_polten = {
 		barony = b_sankt_polten
-		settlement = true
+		type = settlement
 	}
 
 	h_wiener_neustadt = {
 		barony = b_wiener_neustadt
-		settlement = true
+		type = settlement
 	}
 
 	h_bruck = {
 		barony = b_bruck
-		settlement = true
+		type = settlement
 	}
 
 	h_schwechat = {
 		barony = b_schwechat
-		settlement = true
+		type = settlement
 	}
 
 	h_frohsdorf = {
 		barony = b_frohsdorf
-		settlement = true
+		type = settlement
 	}
 }

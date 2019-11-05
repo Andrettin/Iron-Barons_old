@@ -4,7 +4,7 @@ p_bjelovar = {
 
 	h_bjelovar = {
 		barony = b_bjelovar
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -14,7 +14,7 @@ p_brod = {
 
 	h_brod = {
 		barony = b_brod
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -24,7 +24,7 @@ p_dalmatia = {
 
 	h_split = {
 		barony = b_split
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -34,7 +34,7 @@ p_fiume = {
 
 	h_fiume = {
 		barony = b_fiume
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -44,12 +44,12 @@ p_gorz = {
 
 	h_gorz = {
 		barony = b_gorz
-		settlement = true
+		type = settlement
 	}
 
 	h_gradisca = {
 		barony = b_gradisca
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -59,7 +59,7 @@ p_istria = {
 
 	h_pola = {
 		barony = b_pola
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -69,12 +69,12 @@ p_karlstadt = {
 
 	h_karlstadt = {
 		barony = b_karlstadt
-		settlement = true
+		type = settlement
 	}
 
 	h_zengg = {
 		barony = b_zengg
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -84,17 +84,17 @@ p_peterwardein = {
 
 	h_carlowitz = {
 		barony = b_carlowitz
-		settlement = true
+		type = settlement
 	}
 
 	h_peterwardein = {
 		barony = b_peterwardein
-		settlement = true
+		type = settlement
 	}
 
 	h_semlin = {
 		barony = b_semlin
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -104,7 +104,7 @@ p_sisak = {
 
 	h_sisak = {
 		barony = b_sisak
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -114,12 +114,12 @@ p_slavonia = {
 
 	h_esseg = {
 		barony = b_esseg
-		settlement = true
+		type = settlement
 	}
 
 	h_pozhega = {
 		barony = b_pozhega
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -129,7 +129,7 @@ p_trieste = {
 
 	h_trieste = {
 		barony = b_trieste
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -139,7 +139,7 @@ p_vukovar = {
 
 	h_vukovar = {
 		barony = b_vukovar
-		settlement = true
+		type = settlement
 	}
 }
 
@@ -149,11 +149,11 @@ p_zagreb = {
 
 	h_warasdin = {
 		barony = b_warasdin
-		settlement = true
+		type = settlement
 	}
 
 	h_zagreb = {
 		barony = b_zagreb
-		settlement = true
+		type = settlement
 	}
 }
