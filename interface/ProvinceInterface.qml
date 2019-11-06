@@ -365,7 +365,7 @@ Item {
 				rowSpacing: 1
 
 				Repeater {
-					model: metternich.selected_province ? metternich.selected_province.holding_slots : []
+					model: metternich.selected_province ? metternich.selected_province.settlement_holding_slots : []
 
 					Holding {
 						visible: model.modelData !== metternich.selected_province.capital_holding.slot
