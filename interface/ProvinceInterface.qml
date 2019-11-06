@@ -5,6 +5,15 @@ Item {
 	id: province_interface
 	width: 306
 	height: 576
+	
+	enum HoldingAreaMode {
+		Settlements,
+		Palaces,
+		Other
+	}
+
+	property real holding_area_y: holding_area.y
+	property int holding_area_mode: ProvinceInterface.HoldingAreaMode.Settlements
 
 	Rectangle {
 		id: province_background
@@ -349,30 +358,18 @@ Item {
 		width: 290
 		height: 193
 
-		Flickable {
+		HoldingGrid {
+			id: settlement_holding_grid
 			anchors.fill: parent
-			contentWidth: holding_grid.width
-			contentHeight: holding_grid.height
-			clip: true
-			interactive: false
-			boundsBehavior: Flickable.StopAtBounds
-			ScrollBar.vertical: ScrollBar {}
+			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Settlements
+			holding_model: metternich.selected_province ? metternich.selected_province.settlement_holding_slots : []
+		}
 
-			Grid {
-				id: holding_grid
-				columns: 3
-				columnSpacing: 1
-				rowSpacing: 1
-
-				Repeater {
-					model: metternich.selected_province ? metternich.selected_province.settlement_holding_slots : []
-
-					Holding {
-						visible: model.modelData !== metternich.selected_province.capital_holding.slot
-						holding_slot: model.modelData
-					}
-				}
-			}
+		HoldingGrid {
+			id: extra_holding_grid
+			anchors.fill: parent
+			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Other
+			holding_model: metternich.selected_province ? [metternich.selected_province.university_holding_slot] : []
 		}
 	}
 

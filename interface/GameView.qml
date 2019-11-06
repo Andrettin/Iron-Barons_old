@@ -156,6 +156,49 @@ Item {
 		visible: metternich.selected_province !== null
 	}
 
+	Button {
+		id: settlement_holdings_button
+		anchors.top: province_interface.top
+		anchors.topMargin: province_interface.holding_area_y + 8
+		anchors.left: province_interface.right
+		visible: province_interface.visible
+		text: "<font color=\"black\">Settlements</font>"
+		width: 96
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			province_interface.holding_area_mode = ProvinceInterface.HoldingAreaMode.Settlements
+		}
+	}
+
+	Button {
+		id: palace_holdings_button
+		anchors.top: settlement_holdings_button.bottom
+		anchors.left: province_interface.right
+		visible: province_interface.visible
+		text: "<font color=\"black\">Palaces</font>"
+		width: 96
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			province_interface.holding_area_mode = ProvinceInterface.HoldingAreaMode.Palaces
+		}
+	}
+
+	Button {
+		id: extra_holdings_button
+		anchors.top: palace_holdings_button.bottom
+		anchors.left: province_interface.right
+		visible: province_interface.visible
+		text: "<font color=\"black\">Other</font>"
+		width: 96
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			province_interface.holding_area_mode = ProvinceInterface.HoldingAreaMode.Other
+		}
+	}
+
 	MouseArea {
 		id: scroll_left_area
 		anchors.left: parent.left
