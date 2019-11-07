@@ -1,4 +1,4 @@
-college = "College"
 courthouse = "Courthouse"
+engineering_college = "Engineering College"
+law_college = "Law College"
 library = "Library"
-university = "University"

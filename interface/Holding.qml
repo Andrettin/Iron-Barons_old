@@ -11,7 +11,7 @@ Item {
 	height: imageHeight + 32
 
 	Image {
-		source: holding ? "../graphics/holdings/" + holding.type.identifier + ".png" : (holding_slot ? "../graphics/holdings/slot.png" : "image://empty/")
+		source: holding ? holding.portrait_path : (holding_slot ? "../graphics/holdings/slot.png" : "image://empty/")
 		width: parent.imageWidth
 		height: parent.imageHeight
 		anchors.horizontalCenter: parent.horizontalCenter

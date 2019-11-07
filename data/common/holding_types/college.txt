@@ -1,0 +1,4 @@
+college = {
+	slot_type = university
+	portrait_tag = university
+}

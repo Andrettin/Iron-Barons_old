@@ -8,5 +8,6 @@ religion = catholic
 }
 
 1827.1.1 = {
-	h_sao_paulo += college #law college existent in São Paulo in 1827; Source: Otávio Tarquínio de Sousa, "Bernardo Pereira de Vasconcelos", p. 66.
+	university = college
+	university += law_college #law college existent in São Paulo in 1827; Source: Otávio Tarquínio de Sousa, "Bernardo Pereira de Vasconcelos", p. 66.
 }

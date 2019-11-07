@@ -7,6 +7,7 @@ religion = catholic
 	capital_holding = h_rio_de_janeiro
 }
 
-1865.1.1 = {
-	h_rio_de_janeiro += college #Instituto Politécnico Brasileiro founded in Rio de Janeiro in 1862. Source: Silvia Fernanda de Mendonça Figueirôa, "Ciência e tecnologia no Brasil Imperial: Guilherme Schüch, Barão de Capanema (1824-1908)", 2005, p. 446.
+1862.1.1 = {
+	university = college
+	university += engineering_college #Instituto Politécnico Brasileiro founded in Rio de Janeiro in 1862. Source: Silvia Fernanda de Mendonça Figueirôa, "Ciência e tecnologia no Brasil Imperial: Guilherme Schüch, Barão de Capanema (1824-1908)", 2005, p. 446.
 }
