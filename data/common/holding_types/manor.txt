@@ -1,3 +1,3 @@
 manor = {
-	settlement = yes
+	slot_type = settlement
 }

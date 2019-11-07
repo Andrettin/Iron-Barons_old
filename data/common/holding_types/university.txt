@@ -1,0 +1,3 @@
+university = {
+	slot_type = university
+}

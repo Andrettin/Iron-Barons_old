@@ -1,5 +1,5 @@
 city = {
-	settlement = yes
+	slot_type = settlement
 	
 	modifier = {
 		population_capacity_modifier = 3.0
