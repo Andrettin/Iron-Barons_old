@@ -6,6 +6,15 @@ Item {
 	id: holding_interface
 	anchors.fill: parent
 
+	onVisibleChanged: {
+		if (visible && metternich.selected_holding && !metternich.selected_holding.settlement) {
+			if (population_unit_area.visible) {
+				building_area.visible = true
+				population_unit_area.visible = false
+			}
+		}
+	}
+
 	Rectangle {
 		id: holding_background
 		anchors.fill: parent
@@ -20,7 +29,7 @@ Item {
 
 	Text {
 		id: holding_name
-		text: metternich.selected_holding ? metternich.selected_holding.name : ""
+		text: metternich.selected_holding ? (metternich.selected_holding.barony ?  metternich.selected_holding.name : metternich.selected_holding.titled_name) : ""
 		anchors.top: parent.top
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -38,6 +47,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: parent.top
 		anchors.topMargin: 64
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
 
 		Text {
 			id: population_label
@@ -69,6 +79,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: population_area.bottom
 		anchors.topMargin: 16
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
 
 		Text {
 			id: population_growth_label
@@ -100,6 +111,7 @@ Item {
 		anchors.rightMargin: 32
 		anchors.top: population_growth_area.bottom
 		anchors.topMargin: 16
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
 
 		Text {
 			id: population_capacity_label
@@ -130,6 +142,7 @@ Item {
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		dataSource: metternich.selected_holding
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
 	}
 
 	CultureChart {
@@ -138,6 +151,7 @@ Item {
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
 		dataSource: metternich.selected_holding
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
 	}
 
 	ReligionChart {
@@ -147,6 +161,7 @@ Item {
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		dataSource: metternich.selected_holding
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
 	}
 
 	BuildingInterface {
@@ -201,7 +216,7 @@ Item {
 		width: 80
 		height: 32
 		font.pixelSize: 12
-		visible: !population_unit_area.visible
+		visible: metternich.selected_holding && metternich.selected_holding.settlement && !population_unit_area.visible
 		onClicked: {
 			population_unit_area.visible = true
 			building_area.visible = false
