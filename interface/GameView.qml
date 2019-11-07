@@ -161,7 +161,7 @@ Item {
 		anchors.top: province_interface.top
 		anchors.topMargin: province_interface.holding_area_y + 8
 		anchors.left: province_interface.right
-		visible: province_interface.visible
+		visible: province_interface.visible && metternich.selected_holding === null
 		text: "<font color=\"black\">Settlements</font>"
 		width: 96
 		height: 32
@@ -175,7 +175,7 @@ Item {
 		id: palace_holdings_button
 		anchors.top: settlement_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible
+		visible: province_interface.visible && metternich.selected_holding === null
 		text: "<font color=\"black\">Palaces</font>"
 		width: 96
 		height: 32
@@ -189,7 +189,7 @@ Item {
 		id: extra_holdings_button
 		anchors.top: palace_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible
+		visible: province_interface.visible && metternich.selected_holding === null
 		text: "<font color=\"black\">Other</font>"
 		width: 96
 		height: 32
