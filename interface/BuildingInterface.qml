@@ -20,24 +20,25 @@ Item {
 			rowSpacing: 0
 
 			Repeater {
-				model: metternich.selected_holding ? metternich.selected_holding.available_buildings : []
+				model: metternich.selected_holding ? metternich.selected_holding.building_slots : []
 
 				Item {
 					width: building_area.width
 					height: 32
+					visible: true//model.modelData.available
 
 					Text {
-						text: model.modelData.name
+						text: model.modelData.building.name
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.left: parent.left
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"
-						font.bold: metternich.selected_holding.buildings.includes(model.modelData)
+						font.bold: model.modelData.built
 					}
 
 					Button {
-						visible: metternich.game.player_character.can_build_in_holding(metternich.selected_holding) && metternich.selected_holding.under_construction_building === null && !metternich.selected_holding.buildings.includes(model.modelData)
+						visible: metternich.game.player_character.can_build_in_holding(metternich.selected_holding) && metternich.selected_holding.under_construction_building === null && model.modelData.buildable && !model.modelData.built
 						anchors.top: parent.top
 						anchors.topMargin: 1
 						anchors.bottom: parent.bottom
@@ -47,12 +48,12 @@ Item {
 						text: "<font color=\"black\">Build</font>"
 						font.pixelSize: 12
 						font.family: "tahoma"
-						onClicked: metternich.selected_holding.order_construction(model.modelData)
+						onClicked: metternich.selected_holding.order_construction(model.modelData.building)
 					}
 
 					Text {
 						text: "Under Construction (" + metternich.selected_holding.construction_days + " days)"
-						visible: metternich.selected_holding.under_construction_building === model.modelData
+						visible: metternich.selected_holding.under_construction_building === model.modelData.building
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
 						color: "black"
@@ -62,7 +63,7 @@ Item {
 
 					Text {
 						text: "Built"
-						visible: metternich.selected_holding.buildings.includes(model.modelData)
+						visible: model.modelData.built
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
 						color: "black"
