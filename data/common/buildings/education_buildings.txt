@@ -17,6 +17,8 @@ engineering_college = {
 			holding_type = university
 			not = {
 				has_building = law_college
+				has_building = philosophy_college
+				has_building = theology_college
 			}
 		}
 	}
@@ -32,6 +34,42 @@ law_college = {
 			holding_type = university
 			not = {
 				has_building = engineering_college
+				has_building = philosophy_college
+				has_building = theology_college
+			}
+		}
+	}
+}
+
+philosophy_college = {
+	holding_types += college
+	holding_types += university
+	construction_days = 730
+	
+	conditions = {
+		or = {
+			holding_type = university
+			not = {
+				has_building = engineering_college
+				has_building = law_college
+				has_building = theology_college
+			}
+		}
+	}
+}
+
+theology_college = {
+	holding_types += college
+	holding_types += university
+	construction_days = 730
+	
+	conditions = {
+		or = {
+			holding_type = university
+			not = {
+				has_building = engineering_college
+				has_building = law_college
+				has_building = philosophy_college
 			}
 		}
 	}

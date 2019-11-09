@@ -1,0 +1,4 @@
+engineering_college = "Engineering College"
+law_college = "Law College"
+philosophy_college = "Philosophy College"
+theology_college = "Theology College"
