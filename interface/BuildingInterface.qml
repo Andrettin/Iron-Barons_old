@@ -25,7 +25,7 @@ Item {
 				Item {
 					width: building_area.width
 					height: 32
-					visible: true//model.modelData.available
+					visible: model.modelData.available
 
 					Text {
 						text: model.modelData.building.name
