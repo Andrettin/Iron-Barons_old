@@ -1,0 +1,16 @@
+r_france = { #the territory of modern France
+	provinces += p_ile_de_france
+	subregions += r_alsace
+	subregions += r_lorraine
+}
+
+r_alsace = {
+	provinces += p_colmar
+	provinces += p_strasbourg
+}
+
+r_lorraine = {
+	provinces += p_moselle
+	provinces += p_meurthe
+	provinces += p_vosges
+}

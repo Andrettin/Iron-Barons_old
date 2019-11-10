@@ -1,0 +1,7 @@
+c_colmar = "Colmar"
+c_ile_de_france = "Île-de-France"
+c_ile_de_france_anglo_saxon = "Isle of France" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 146-147.
+c_meurthe = "Meurthe"
+c_moselle = "Moselle"
+c_strasbourg = "Strasbourg"
+c_vosges = "Vosges"

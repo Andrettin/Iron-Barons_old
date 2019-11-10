@@ -1,0 +1,8 @@
+b_epinal = "Épinal"
+b_metz = "Metz"
+b_nancy = "Nancy"
+b_pfalzburg = "Pfalzburg"
+b_plombieres_les_bains = "Plombières-les-Bains"
+b_thionville = "Thionville"
+b_thionville_german = "Diedenhofen" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+b_toul = "Toul"

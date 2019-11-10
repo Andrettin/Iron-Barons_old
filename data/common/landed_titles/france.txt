@@ -1,4 +1,104 @@
 e_france = {
-	color = { 0 38 84 }
-	capital_province = p_lauenburg #should be Paris
+	color = { 0 0 153 }
+	capital_province = p_ile_de_france
+}
+
+k_france = {
+	de_jure_liege_title = e_france
+	color = { 0 0 153 }
+	capital_province = p_ile_de_france
+}
+
+d_alsace = {
+	de_jure_liege_title = k_france
+	color = { 255 34 26 }
+	capital_province = p_strasbourg
+}
+
+d_france = {
+	de_jure_liege_title = k_france
+	color = { 0 0 153 }
+	capital_province = p_ile_de_france
+	flag_tag = k_france
+}
+
+d_lorraine = {
+	de_jure_liege_title = k_france
+	color = { 203 225 64 }
+	capital_province = p_meurthe
+}
+
+c_colmar = {
+	de_jure_liege_title = d_alsace
+	color = { 227 177 53 }
+	
+	b_colmar = {
+	}
+	
+	b_mulhausen = {
+	}
+}
+
+c_ile_de_france = {
+	de_jure_liege_title = d_france
+	color = { 38 14 126 }
+	flag_tag = b_paris
+	
+	b_paris = {
+	}
+	
+	b_versailles = {
+	}
+}
+
+c_meurthe = {
+	de_jure_liege_title = d_lorraine
+	color = { 183 216 75 }
+	
+	b_nancy = {
+	}
+	
+	b_toul = {
+	}
+}
+
+c_moselle = {
+	de_jure_liege_title = d_lorraine
+	color = { 37 43 26 }
+	flag_tag = b_metz
+	
+	b_metz = {
+	}
+	
+	b_pfalzburg = {
+	}
+	
+	b_thionville = {
+	}
+}
+
+c_strasbourg = {
+	de_jure_liege_title = d_alsace
+	color = { 190 179 147 }
+	flag_tag = b_strasbourg
+	
+	b_strasbourg = {
+	}
+	
+	b_hagenau = {
+	}
+	
+	b_lauterburg = {
+	}
+}
+
+c_vosges = {
+	de_jure_liege_title = d_lorraine
+	color = { 28 155 43 }
+	
+	b_epinal = {
+	}
+	
+	b_plombieres_les_bains = {
+	}
 }

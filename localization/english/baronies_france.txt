@@ -1,0 +1,2 @@
+b_paris = "Paris"
+b_versailles = "Versailles"

@@ -1,0 +1,99 @@
+p_colmar = {
+	county = c_colmar
+	color = { 227 177 53 }
+
+	h_colmar = {
+		barony = b_colmar
+		type = settlement
+	}
+
+	h_mulhausen = {
+		barony = b_mulhausen
+		type = settlement
+	}
+}
+
+p_ile_de_france = {
+	county = c_ile_de_france
+	color = { 38 14 126 }
+
+	h_paris = {
+		barony = b_paris
+		type = settlement
+	}
+
+	h_versailles = {
+		barony = b_versailles
+		type = settlement
+	}
+}
+
+p_meurthe = {
+	county = c_meurthe
+	color = { 183 216 75 }
+
+	h_nancy = {
+		barony = b_nancy
+		type = settlement
+	}
+
+	h_toul = {
+		barony = b_toul
+		type = settlement
+	}
+}
+
+p_moselle = {
+	county = c_moselle
+	color = { 37 43 26 }
+
+	h_metz = {
+		barony = b_metz
+		type = settlement
+	}
+
+	h_thionville = {
+		barony = b_thionville
+		type = settlement
+	}
+
+	h_pfalzburg = {
+		barony = b_pfalzburg
+		type = settlement
+	}
+}
+
+p_strasbourg = {
+	county = c_strasbourg
+	color = { 190 179 147 }
+
+	h_strasbourg = {
+		barony = b_strasbourg
+		type = settlement
+	}
+	
+	h_hagenau = {
+		barony = b_hagenau
+		type = settlement
+	}
+
+	h_lauterburg = {
+		barony = b_lauterburg
+		type = settlement
+	}
+}
+
+p_vosges = {
+	county = c_vosges
+	color = { 28 155 43 }
+
+	h_epinal = {
+		barony = b_epinal
+		type = settlement
+	}
+
+	h_plombieres_les_bains = {
+		barony = b_plombieres_les_bains
+		type = settlement
+	}
+}
