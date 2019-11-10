@@ -1,6 +1,5 @@
 craftsmen = { #urban factory workers
 	color = { 206 17 36 }
-	icon_tag = soldiers
 
 	holding_types += town
 	holding_types += city
