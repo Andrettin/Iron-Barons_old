@@ -369,7 +369,7 @@ Item {
 			id: extra_holding_grid
 			anchors.fill: parent
 			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Other
-			holding_model: metternich.selected_province ? [metternich.selected_province.university_holding_slot] : []
+			holding_model: metternich.selected_province ? [metternich.selected_province.fort_holding_slot, metternich.selected_province.university_holding_slot] : []
 		}
 	}
 

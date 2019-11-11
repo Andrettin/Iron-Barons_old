@@ -1,6 +1,7 @@
 castle = "Castle"
 city = "City"
 college = "College"
+fort = "Fort"
 manor = "Manor"
 metropolis = "Metropolis"
 monastery = "Monastery"
