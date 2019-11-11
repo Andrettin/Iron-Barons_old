@@ -1,0 +1,4 @@
+hospital = {
+	slot_type = hospital
+	portrait_tag = university
+}
