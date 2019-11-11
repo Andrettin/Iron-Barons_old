@@ -23,7 +23,7 @@ Item {
 			ToolTip.text: tooltip(
 				holding ?
 					holding.titled_name + "<br>"
-					+ (holding.barony ? "<br>Holder: " + holding.barony.holder.titled_name : "")
+					+ (holding.owner ? "<br>Holder: " + holding.owner.titled_name : "")
 					+ (holding.settlement ? "<br>Population: " + holding.population : "")
 				: (holding_slot ? holding_slot.name : ""))
 			ToolTip.visible: containsMouse
