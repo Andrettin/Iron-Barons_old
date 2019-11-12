@@ -1,0 +1,8 @@
+culture = brazilian
+religion = catholic
+
+1549.1.1 = {
+	h_salvador = town #Salvador was founded by the Portuguese in 1549; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110, 214-215.
+	
+	capital_holding = h_salvador
+}

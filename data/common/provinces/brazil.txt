@@ -1,3 +1,13 @@
+p_bahia = {
+	county = c_bahia
+	color = { 240 0 73 }
+
+	h_salvador = {
+		barony = b_salvador
+		type = settlement
+	}
+}
+
 p_espirito_santo = {
 	county = c_espirito_santo
 	color = { 60 226 224 }
@@ -18,12 +28,52 @@ p_minas_gerais = {
 	}
 }
 
+p_parana = {
+	county = c_parana
+	color = { 27 188 111 }
+
+	h_curitiba = {
+		barony = b_curitiba
+		type = settlement
+	}
+}
+
 p_rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
 
 	h_rio_de_janeiro = {
 		barony = b_rio_de_janeiro
+		type = settlement
+	}
+}
+
+p_rio_grande_do_sul = {
+	county = c_rio_grande_do_sul
+	color = { 77 114 3 }
+
+	h_rio_grande = {
+		barony = b_rio_grande
+		type = settlement
+	}
+
+	h_porto_alegre = {
+		barony = b_porto_alegre
+		type = settlement
+	}
+}
+
+p_santa_catarina = {
+	county = c_santa_catarina
+	color = { 240 89 108 }
+
+	h_florianopolis = {
+		barony = b_florianopolis
+		type = settlement
+	}
+
+	h_laguna = {
+		barony = b_laguna
 		type = settlement
 	}
 }

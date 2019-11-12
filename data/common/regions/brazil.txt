@@ -1,6 +1,10 @@
 r_brazil = {
+	provinces += p_bahia
 	provinces += p_espirito_santo
 	provinces += p_minas_gerais
+	provinces += p_parana
 	provinces += p_rio_de_janeiro
+	provinces += p_rio_grande_do_sul
+	provinces += p_santa_catarina
 	provinces += p_sao_paulo
 }

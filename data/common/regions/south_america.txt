@@ -1,0 +1,3 @@
+r_south_america = {
+	subregions += r_brazil
+}

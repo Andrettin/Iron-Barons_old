@@ -9,6 +9,12 @@ k_brazil = {
 	capital_province = p_rio_de_janeiro
 }
 
+d_bahia = {
+	de_jure_liege_title = k_brazil
+	color = { 240 0 73 }
+	capital_province = p_bahia
+}
+
 d_espirito_santo = {
 	de_jure_liege_title = k_brazil
 	color = { 201 128 227 }
@@ -21,10 +27,28 @@ d_minas_gerais = {
 	capital_province = p_minas_gerais
 }
 
+d_parana = {
+	de_jure_liege_title = k_brazil
+	color = { 27 188 111 }
+	capital_province = p_parana
+}
+
 d_rio_de_janeiro = {
 	de_jure_liege_title = k_brazil
 	color = { 0 175 239 }
 	capital_province = p_rio_de_janeiro
+}
+
+d_rio_grande_do_sul = {
+	de_jure_liege_title = k_brazil
+	color = { 77 114 3 }
+	capital_province = p_rio_grande_do_sul
+}
+
+d_santa_catarina = {
+	de_jure_liege_title = k_brazil
+	color = { 240 89 108 }
+	capital_province = p_santa_catarina
 }
 
 d_sao_paulo = {
@@ -33,9 +57,19 @@ d_sao_paulo = {
 	capital_province = p_sao_paulo
 }
 
+c_bahia = {
+	de_jure_liege_title = d_bahia
+	color = { 240 0 73 }
+	flag_tag = d_bahia
+	
+	b_salvador = {
+	}
+}
+
 c_espirito_santo = {
 	de_jure_liege_title = d_espirito_santo
 	color = { 201 128 227 }
+	flag_tag = d_espirito_santo
 
 	b_espirito_santo = {
 	}
@@ -44,22 +78,59 @@ c_espirito_santo = {
 c_minas_gerais = {
 	de_jure_liege_title = d_minas_gerais
 	color = { 237 250 195 }
+	flag_tag = d_minas_gerais
 
 	b_ouro_preto = {
+	}
+}
+
+c_parana = {
+	de_jure_liege_title = d_parana
+	color = { 27 188 111 }
+	capital_province = p_parana
+	flag_tag = d_parana
+	
+	b_curitiba = {
 	}
 }
 
 c_rio_de_janeiro = {
 	de_jure_liege_title = d_rio_de_janeiro
 	color = { 0 175 239 }
+	flag_tag = d_rio_de_janeiro
 
 	b_rio_de_janeiro = {
+	}
+}
+
+c_rio_grande_do_sul = {
+	de_jure_liege_title = d_rio_grande_do_sul
+	color = { 77 114 3 }
+	flag_tag = d_rio_grande_do_sul
+	
+	b_rio_grande = { #Rio Grande/São Pedro
+	}
+	
+	b_porto_alegre = {
+	}
+}
+
+c_santa_catarina = {
+	de_jure_liege_title = d_santa_catarina
+	color = { 240 89 108 }
+	flag_tag = d_santa_catarina
+	
+	b_florianopolis = { #Florianópolis/Desterro
+	}
+
+	b_laguna = {
 	}
 }
 
 c_sao_paulo = {
 	de_jure_liege_title = d_sao_paulo
 	color = { 63 91 95 }
+	flag_tag = d_sao_paulo
 
 	b_sao_paulo = {
 	}

@@ -1,0 +1,8 @@
+culture = brazilian
+religion = catholic
+
+1815.1.1 = {
+	h_curitiba = town
+	
+	capital_holding = h_curitiba
+}
