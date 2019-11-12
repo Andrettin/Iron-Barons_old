@@ -8,4 +8,6 @@ r_modern_italy = {
 	provinces += p_venetia
 	provinces += p_trieste
 	provinces += p_gorz
+	provinces += p_trentino
+	provinces += p_south_tyrol
 }

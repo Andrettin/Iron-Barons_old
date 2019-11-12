@@ -28,6 +28,16 @@ p_carniola = {
 	}
 }
 
+p_east_tyrol = {
+	county = c_east_tyrol
+	color = { 220 99 145 }
+
+	h_lienz = {
+		barony = b_lienz
+		type = settlement
+	}
+}
+
 p_manhartsberg = {
 	county = c_manhartsberg
 	color = { 32 13 27 }
@@ -68,6 +78,26 @@ p_salzburg = {
 	}
 }
 
+p_south_tyrol = {
+	county = c_south_tyrol
+	color = { 221 235 137 }
+
+	h_bozen = {
+		barony = b_bozen
+		type = settlement
+	}
+
+	h_glurns = {
+		barony = b_glurns
+		type = settlement
+	}
+
+	h_franzensfeste = {
+		barony = b_franzensfeste
+		type = settlement
+	}
+}
+
 p_styria = {
 	county = c_styria
 	color = { 203 243 54 }
@@ -93,46 +123,6 @@ p_styria = {
 	}
 }
 
-p_tyrol = {
-	county = c_tyrol
-	color = { 220 13 46 }
-
-	h_innsbruck = {
-		barony = b_innsbruck
-		type = settlement
-	}
-
-	h_bozen = {
-		barony = b_bozen
-		type = settlement
-	}
-
-	h_bregenz = {
-		barony = b_bregenz
-		type = settlement
-	}
-
-	h_franzensfeste = {
-		barony = b_franzensfeste
-		type = settlement
-	}
-
-	h_glurns = {
-		barony = b_glurns
-		type = settlement
-	}
-
-	h_kufstein = {
-		barony = b_kufstein
-		type = settlement
-	}
-
-	h_trent = {
-		barony = b_trent
-		type = settlement
-	}
-}
-
 p_traunviertel = {
 	county = c_traunviertel
 	color = { 84 6 1 }
@@ -154,6 +144,31 @@ p_traunviertel = {
 
 	h_ischl = {
 		barony = b_ischl
+		type = settlement
+	}
+}
+
+p_trentino = {
+	county = c_trentino
+	color = { 123 80 198 }
+
+	h_trent = {
+		barony = b_trent
+		type = settlement
+	}
+}
+
+p_tyrol = {
+	county = c_tyrol
+	color = { 220 13 46 }
+
+	h_innsbruck = {
+		barony = b_innsbruck
+		type = settlement
+	}
+
+	h_kufstein = {
+		barony = b_kufstein
 		type = settlement
 	}
 }
@@ -189,6 +204,16 @@ p_vienna = {
 
 	h_frohsdorf = {
 		barony = b_frohsdorf
+		type = settlement
+	}
+}
+
+p_vorarlberg = {
+	county = c_vorarlberg
+	color = { 214 76 80 }
+
+	h_bregenz = {
+		barony = b_bregenz
 		type = settlement
 	}
 }

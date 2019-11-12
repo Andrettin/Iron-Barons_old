@@ -73,6 +73,14 @@ c_carniola = {
 	}
 }
 
+c_east_tyrol = {
+	de_jure_liege_title = d_tyrol
+	color = { 220 99 145 }
+
+	b_lienz = {
+	}
+}
+
 c_manhartsberg = {
 	de_jure_liege_title = d_lower_austria
 	color = { 32 13 27 }
@@ -100,6 +108,20 @@ c_salzburg = {
 	}
 
 	b_gastein = {
+	}
+}
+
+c_south_tyrol = {
+	de_jure_liege_title = d_tyrol
+	color = { 221 235 137 }
+	
+	b_bozen = {
+	}
+
+	b_glurns = {
+	}
+
+	b_franzensfeste = {
 	}
 }
 
@@ -137,29 +159,22 @@ c_traunviertel = {
 	}
 }
 
+c_trentino = {
+	de_jure_liege_title = d_tyrol
+	color = { 123 80 198 }
+
+	b_trent = {
+	}
+}
+
 c_tyrol = {
 	de_jure_liege_title = d_tyrol
 	color = { 188 0 7 }
-
-	b_bozen = {
-	}
-
-	b_bregenz = {
-	}
-
-	b_franzensfeste = {
-	}
-
-	b_glurns = {
-	}
 
 	b_innsbruck = {
 	}
 
 	b_kufstein = {
-	}
-
-	b_trent = {
 	}
 }
 
@@ -183,5 +198,13 @@ c_vienna = {
 	}
 
 	b_frohsdorf = {
+	}
+}
+
+c_vorarlberg = {
+	de_jure_liege_title = d_tyrol
+	color = { 214 76 80 }
+
+	b_bregenz = {
 	}
 }
