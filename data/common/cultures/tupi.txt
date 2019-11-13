@@ -1,0 +1,12 @@
+tupi = {
+	culture_group = tupi
+	color = { 14 119 43 }
+	
+	male_names = {
+		Bernardo Henrique João Joaquim José Manuel Pedro #Portuguese names as placeholders
+	}
+	
+	female_names = {
+		Joana Maria #Portuguese names as placeholders
+	}
+}

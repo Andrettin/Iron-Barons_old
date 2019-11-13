@@ -1,0 +1,4 @@
+tupi = {
+	color = { 14 119 43 }
+	default_phenotype = amerindian
+}
