@@ -12,7 +12,8 @@ Item {
 		DeJureDuchy,
 		Culture,
 		CultureGroup,
-		Religion
+		Religion,
+		ReligionGroup
 	}
 
 	function moveLeft(pixels) {
@@ -86,7 +87,8 @@ Item {
 						+ (model.modelData.de_jure_duchy && metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "<br>De Jure Duchy: " + model.modelData.de_jure_duchy.name : "")
 						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture: " + model.modelData.culture.name : "")
 						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + model.modelData.culture.culture_group.name : "")
-						+ (model.modelData.religion && metternich.map_mode === WorldMap.Mode.Religion ? "<br>Religion: " + model.modelData.religion.name : "")
+						+ (model.modelData.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion: " + model.modelData.religion.name : "")
+						+ (model.modelData.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + model.modelData.religion.religion_group.name : "")
 					)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
