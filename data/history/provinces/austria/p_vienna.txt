@@ -16,6 +16,7 @@ religion = catholic
 	h_bruck = town #Bruck existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_schwechat = village #Schwechat existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_frohsdorf = village #Frohsdorf existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_schonbrunn = aristocratic_palace
 	
 	capital_holding = h_vienna
 }

@@ -206,6 +206,11 @@ p_vienna = {
 		barony = b_frohsdorf
 		type = settlement
 	}
+	
+	h_schonbrunn = {
+		barony = b_schonbrunn
+		type = palace
+	}
 }
 
 p_vorarlberg = {

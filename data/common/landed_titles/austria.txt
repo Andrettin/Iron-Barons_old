@@ -199,6 +199,9 @@ c_vienna = {
 
 	b_frohsdorf = {
 	}
+	
+	b_schonbrunn = {
+	}
 }
 
 c_vorarlberg = {
