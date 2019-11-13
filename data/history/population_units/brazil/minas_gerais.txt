@@ -1,0 +1,70 @@
+laborers = {
+	province = p_minas_gerais
+	discount_existing = yes
+	discount_any_type = yes
+	discount_types -= slaves
+	
+	1786.1.1 = {
+		size = 188712 #188,712 free people lived in Minas Gerais in 1786; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1805.1.1 = {
+		size = 218223 #218,223 free people lived in Minas Gerais in 1805; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1808.1.1 = {
+		size = 284277 #284,277 free people lived in Minas Gerais in 1808; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1821.1.1 = {
+		size = 343333 #343,333 free people lived in Minas Gerais in 1821; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1823.1.1 = {
+		size = 378620 #378,620 free people lived in Minas Gerais in 1823; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+}
+
+slaves = {
+	province = p_minas_gerais
+	discount_existing = yes
+	phenotype = african
+	
+	1716.1.1 = {
+		size = 27909 #27,909 slaves lived in Minas Gerais in 1716; Source: "Linguagem, Domínio Senhorial e Identidade Étnica nas Minas Gerais de Meados do Século XVIII", p. 13.
+	}
+	
+	1718.1.1 = {
+		size = 35094 #35,094 slaves lived in Minas Gerais in 1718; Source: "Linguagem, Domínio Senhorial e Identidade Étnica nas Minas Gerais de Meados do Século XVIII", p. 13.
+	}
+	
+	1786.1.1 = {
+		size = 174135 #174,135 slaves lived in Minas Gerais in 1786; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1805.1.1 = {
+		size = 188761 #188,761 slaves lived in Minas Gerais in 1805; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1808.1.1 = {
+		size = 148772 #148,772 slaves lived in Minas Gerais in 1808; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1821.1.1 = {
+		size = 171204 #171,204 slaves lived in Minas Gerais in 1821; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+	
+	1823.1.1 = {
+		size = 140365 #140,365 slaves lived in Minas Gerais in 1823; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 282.
+	}
+}
+
+tribesmen = {
+	province = p_minas_gerais
+	culture = tupi
+	religion = pagan
+	
+	1855.1.1 = {
+		size = 1000 #1,000 Indians lived in Minas Gerais in 1855; Source: "O Brasil Imperial - Volume I - 1808-1831", p. 194.
+	}
+}
