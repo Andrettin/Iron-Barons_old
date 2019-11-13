@@ -10,6 +10,11 @@ mining_template = {
 	}
 	
 	employees = {
+		tribesmen = {
+			efficiency = 1.0
+			workforce_proportion = 1.0
+		}
+		
 		laborers = {
 			efficiency = 1.0
 			workforce_proportion = 1.0

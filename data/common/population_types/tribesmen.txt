@@ -1,0 +1,6 @@
+tribesmen = {
+	color = { 176 85 121 }
+	icon_tag = craftsmen
+
+	holding_types += village
+}
