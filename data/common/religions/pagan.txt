@@ -1,0 +1,4 @@
+pagan = {
+	religion_group = pagan
+	color = { 112 194 49 }
+}
