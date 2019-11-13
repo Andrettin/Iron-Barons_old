@@ -1,0 +1,4 @@
+aristocratic_palace = {
+	slot_type = palace
+	portrait_tag = university
+}

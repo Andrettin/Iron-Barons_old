@@ -1,3 +1,4 @@
+aristocratic_palace = "Aristocratic Palace"
 castle = "Castle"
 city = "City"
 college = "College"

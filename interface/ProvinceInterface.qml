@@ -366,6 +366,13 @@ Item {
 		}
 
 		HoldingGrid {
+			id: palace_holding_grid
+			anchors.fill: parent
+			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Palaces
+			holding_model: metternich.selected_province ? metternich.selected_province.palace_holding_slots : []
+		}
+
+		HoldingGrid {
 			id: extra_holding_grid
 			anchors.fill: parent
 			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Other
