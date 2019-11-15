@@ -20,6 +20,7 @@ r_alsace = {
 }
 
 r_franche_comte = {
+	provinces += p_doubs
 	provinces += p_haute_saone
 }
 

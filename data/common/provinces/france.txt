@@ -53,6 +53,16 @@ p_cote_dor = {
 	}
 }
 
+p_doubs = {
+	county = c_doubs
+	color = { 19 83 246 }
+
+	h_besancon = {
+		barony = b_besancon
+		type = settlement
+	}
+}
+
 p_haute_saone = {
 	county = c_haute_saone
 	color = { 180 10 59 }

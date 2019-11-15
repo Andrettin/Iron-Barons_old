@@ -71,6 +71,14 @@ c_cote_dor = {
 	}
 }
 
+c_doubs = {
+	de_jure_liege_title = d_france
+	color = { 19 83 246 }
+	
+	b_besancon = {
+	}
+}
+
 c_haute_saone = {
 	de_jure_liege_title = d_france
 	color = { 180 10 59 }

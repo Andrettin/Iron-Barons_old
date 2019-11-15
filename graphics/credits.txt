@@ -42,6 +42,7 @@
 /graphics/flags/c_aube.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0 and the CC-BY-SA 1.0)
 /graphics/flags/c_colmar.svg (by Mortadelo2005 and Patricia.fidi, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/c_cote_dor.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
+/graphics/flags/c_doubs.svg (by Ætoms, from the Wikimedia Commons) (licensed under the CC-BY-SA 4.0)
 /graphics/flags/c_marne.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0 and the CC-BY-SA 1.0)
 /graphics/flags/c_nord.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
 /graphics/flags/c_south_tyrol.svg (by F l a n k e r, from the Wikimedia Commons) (licensed under the CC-BY 3.0)
