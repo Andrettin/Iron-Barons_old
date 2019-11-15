@@ -17,6 +17,10 @@ r_alsace = {
 	provinces += p_strasbourg
 }
 
+r_franche_comte = {
+	provinces += p_haute_saone
+}
+
 r_lorraine = {
 	provinces += p_moselle
 	provinces += p_meurthe

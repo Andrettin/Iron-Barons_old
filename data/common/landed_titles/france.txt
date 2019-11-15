@@ -63,6 +63,14 @@ c_colmar = {
 	}
 }
 
+c_haute_saone = {
+	de_jure_liege_title = d_france
+	color = { 180 10 59 }
+	
+	b_belfort = {
+	}
+}
+
 c_ile_de_france = {
 	de_jure_liege_title = d_france
 	color = { 38 14 126 }

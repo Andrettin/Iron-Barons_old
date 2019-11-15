@@ -43,6 +43,16 @@ p_colmar = {
 	}
 }
 
+p_haute_saone = {
+	county = c_haute_saone
+	color = { 180 10 59 }
+
+	h_belfort = {
+		barony = b_belfort
+		type = settlement
+	}
+}
+
 p_ile_de_france = {
 	county = c_ile_de_france
 	color = { 38 14 126 }
