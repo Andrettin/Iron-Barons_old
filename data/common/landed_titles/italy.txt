@@ -10,6 +10,12 @@ k_italy = {
 	capital_province = p_lombardy #should be Rome instead
 }
 
+k_sardinia = {
+	de_jure_liege_title = e_italy
+	color = { 102 43 226 }
+	capital_province = p_lombardy #should be Turin instead
+}
+
 d_lombardy = {
 	de_jure_liege_title = k_italy
 	color = { 155 102 24 }
