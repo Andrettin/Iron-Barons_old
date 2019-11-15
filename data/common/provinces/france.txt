@@ -58,6 +58,26 @@ p_ile_de_france = {
 	}
 }
 
+p_marne = {
+	county = c_marne
+	color = { 84 25 187 }
+
+	h_reims = {
+		barony = b_reims
+		type = settlement
+	}
+
+	h_chalons = {
+		barony = b_chalons
+		type = settlement
+	}
+
+	h_vitry = {
+		barony = b_vitry
+		type = settlement
+	}
+}
+
 p_meurthe = {
 	county = c_meurthe
 	color = { 183 216 75 }
@@ -69,6 +89,21 @@ p_meurthe = {
 
 	h_toul = {
 		barony = b_toul
+		type = settlement
+	}
+}
+
+p_meuse = {
+	county = c_meuse
+	color = { 57 54 124 }
+
+	h_verdun = {
+		barony = b_verdun
+		type = settlement
+	}
+
+	h_montmedy = {
+		barony = b_montmedy
 		type = settlement
 	}
 }

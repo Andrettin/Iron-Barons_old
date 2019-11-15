@@ -75,6 +75,20 @@ c_ile_de_france = {
 	}
 }
 
+c_marne = {
+	de_jure_liege_title = d_france
+	color = { 84 25 187 }
+	
+	b_reims = {
+	}
+	
+	b_chalons = {
+	}
+	
+	b_vitry = {
+	}
+}
+
 c_meurthe = {
 	de_jure_liege_title = d_lorraine
 	color = { 183 216 75 }
@@ -83,6 +97,17 @@ c_meurthe = {
 	}
 	
 	b_toul = {
+	}
+}
+
+c_meuse = {
+	de_jure_liege_title = d_france
+	color = { 57 54 124 }
+	
+	b_verdun = {
+	}
+	
+	b_montmedy = {
 	}
 }
 
