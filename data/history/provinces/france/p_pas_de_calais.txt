@@ -1,0 +1,13 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_arras = city #Arras existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_boulogne = city #Boulogne existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_calais = town #Calais existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Arras had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Calais had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_arras
+}

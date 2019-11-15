@@ -128,6 +128,61 @@ p_moselle = {
 	}
 }
 
+p_nord = {
+	county = c_nord
+	color = { 213 219 71 }
+
+	h_lille = {
+		barony = b_lille
+		type = settlement
+	}
+	
+	h_valenciennes = {
+		barony = b_valenciennes
+		type = settlement
+	}
+	
+	h_dunkirk = {
+		barony = b_dunkirk
+		type = settlement
+	}
+}
+
+p_pas_de_calais = {
+	county = c_pas_de_calais
+	color = { 43 87 173 }
+
+	h_arras = {
+		barony = b_arras
+		type = settlement
+	}
+	
+	h_boulogne = {
+		barony = b_boulogne
+		type = settlement
+	}
+	
+	h_calais = {
+		barony = b_calais
+		type = settlement
+	}
+}
+
+p_somme = {
+	county = c_somme
+	color = { 124 35 92 }
+
+	h_amiens = {
+		barony = b_amiens
+		type = settlement
+	}
+	
+	h_ham = {
+		barony = b_ham
+		type = settlement
+	}
+}
+
 p_strasbourg = {
 	county = c_strasbourg
 	color = { 190 179 147 }

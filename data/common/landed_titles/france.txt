@@ -126,6 +126,45 @@ c_moselle = {
 	}
 }
 
+c_nord = {
+	de_jure_liege_title = d_france
+	color = { 213 219 71 }
+	
+	b_lille = {
+	}
+	
+	b_valenciennes = {
+	}
+	
+	b_dunkirk = {
+	}
+}
+
+c_pas_de_calais = {
+	de_jure_liege_title = d_france
+	color = { 43 87 173 }
+	
+	b_arras = {
+	}
+	
+	b_boulogne = {
+	}
+	
+	b_calais = {
+	}
+}
+
+c_somme = {
+	de_jure_liege_title = d_france
+	color = { 124 35 92 }
+	
+	b_amiens = {
+	}
+	
+	b_ham = {
+	}
+}
+
 c_strasbourg = {
 	de_jure_liege_title = d_alsace
 	color = { 190 179 147 }
