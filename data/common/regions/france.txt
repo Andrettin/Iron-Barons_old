@@ -3,12 +3,14 @@ r_france = { #the territory of modern France
 	provinces += p_aisne
 	provinces += p_ardennes
 	provinces += p_aube
+	provinces += p_cote_dor
 	provinces += p_marne
 	provinces += p_meuse
 	provinces += p_nord
 	provinces += p_pas_de_calais
 	provinces += p_somme
 	subregions += r_alsace
+	subregions += r_franche_comte
 	subregions += r_lorraine
 }
 
