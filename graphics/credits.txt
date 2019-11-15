@@ -122,6 +122,7 @@
 /graphics/flags/k_poland.svg (by Barryob, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0 and the GFDL)
 /graphics/flags/k_portugal.svg (by Vítor Luís Rodrigues and António Martins-Tuválkin, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/k_prussia.svg (by R-41, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
+/graphics/flags/k_sardinia.svg (by FDRMRZUSA, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/k_saxony.svg (by David Liuzzo, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_slavonia.svg (by DIREKTOR, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_sweden.svg (from the Wikimedia Commons) (in the public domain)
