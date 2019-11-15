@@ -43,6 +43,16 @@ p_colmar = {
 	}
 }
 
+p_cote_dor = {
+	county = c_cote_dor
+	color = { 200 208 75 }
+
+	h_dijon = {
+		barony = b_dijon
+		type = settlement
+	}
+}
+
 p_haute_saone = {
 	county = c_haute_saone
 	color = { 180 10 59 }
