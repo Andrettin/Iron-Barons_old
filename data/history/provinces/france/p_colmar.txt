@@ -1,5 +1,10 @@
 religion = catholic
 
+1789.1.1 = {
+	h_colmar = town
+	h_colmar += courthouse #Parlement or conseil souverain existent in Colmar in 1789; Source: William R. Shepherd, "Historical Atlas", 1911, p. 147.
+}
+
 1815.1.1 = {
 	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
