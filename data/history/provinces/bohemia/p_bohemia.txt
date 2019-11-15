@@ -23,6 +23,8 @@ religion = catholic
 	h_sadowa = village #Sadowa existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_chlum = village #Chlum existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_schweinschadel = village #Schweinschädel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Josefstadt had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Königgrätz had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_prague
 }

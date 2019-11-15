@@ -3,19 +3,24 @@ religion = catholic
 1815.1.1 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_venice = city #Venice was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_verona = city #Verona was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_mantua = city #Mantua was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_padua = city #Padua was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_treviso = city #Treviso was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_udine = city #Udine was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_vicenza = city #Vicenza was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_legnago = town #Legnago was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_peschiera = town #Peschiera was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_osoppo = village #Osoppo was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_palmanova = village #Palmanova was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_custozza = village #Custozza was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_villafranca = village #Villafranca was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_venice = city #Venice existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_verona = city #Verona existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_mantua = city #Mantua existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_padua = city #Padua existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_treviso = city #Treviso existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_udine = city #Udine existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_vicenza = city #Vicenza existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_legnago = town #Legnago existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_peschiera = town #Peschiera existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_osoppo = village #Osoppo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_palmanova = village #Palmanova existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_custozza = village #Custozza existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_villafranca = village #Villafranca existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Verona had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Mantua had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Peschiera had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Osoppo had a castle as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Palmanova had a castle as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_venice
 }

@@ -4,6 +4,7 @@ religion = catholic
 	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_luxembourg = town #Luxembourg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Luxembourg had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_luxembourg
 }

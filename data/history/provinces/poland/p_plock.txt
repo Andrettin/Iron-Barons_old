@@ -8,6 +8,7 @@ religion = catholic
 	h_pultusk = town #Pultusk existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_ostrolenka = town #Ostrolenka existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_nur = village #Nur existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.	
+	fort = fort #Modlin had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_plock
 }
