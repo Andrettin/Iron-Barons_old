@@ -28,6 +28,30 @@ d_lorraine = {
 	capital_province = p_meurthe
 }
 
+c_aisne = {
+	de_jure_liege_title = d_france
+	color = { 61 167 225 }
+	
+	b_soissons = {
+	}
+}
+
+c_ardennes = {
+	de_jure_liege_title = d_france
+	color = { 57 127 182 }
+	
+	b_sedan = {
+	}
+}
+
+c_aube = {
+	de_jure_liege_title = d_france
+	color = { 151 186 207 }
+	
+	b_troyes = {
+	}
+}
+
 c_colmar = {
 	de_jure_liege_title = d_alsace
 	color = { 227 177 53 }

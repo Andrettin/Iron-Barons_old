@@ -1,3 +1,33 @@
+p_aisne = {
+	county = c_aisne
+	color = { 61 167 225 }
+
+	h_soissons = {
+		barony = b_soissons
+		type = settlement
+	}
+}
+
+p_ardennes = {
+	county = c_ardennes
+	color = { 57 127 182 }
+
+	h_sedan = {
+		barony = b_sedan
+		type = settlement
+	}
+}
+
+p_aube = {
+	county = c_aube
+	color = { 151 186 207 }
+
+	h_troyes = {
+		barony = b_troyes
+		type = settlement
+	}
+}
+
 p_colmar = {
 	county = c_colmar
 	color = { 227 177 53 }

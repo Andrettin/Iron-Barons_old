@@ -1,3 +1,6 @@
+c_aisne = "Aisne"
+c_ardennes = "Ardennes"
+c_aube = "Aube"
 c_colmar = "Colmar"
 c_ile_de_france = "Île-de-France"
 c_ile_de_france_anglo_saxon = "Isle of France" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 146-147.

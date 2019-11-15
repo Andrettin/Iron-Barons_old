@@ -1,5 +1,8 @@
 r_france = { #the territory of modern France
 	provinces += p_ile_de_france
+	provinces += p_aisne
+	provinces += p_ardennes
+	provinces += p_aube
 	subregions += r_alsace
 	subregions += r_lorraine
 }
