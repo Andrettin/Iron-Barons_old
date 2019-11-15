@@ -1,0 +1,9 @@
+craftsmen = { #urban population
+	holding = h_paris
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1789.1.1 = {
+		size = 500000 #Paris had a population of 500,000 in 1789; Source: Eric J. Hobsbawm, "The Age of Revolution, Europe 1789-1848", p. 28.
+	}
+}
