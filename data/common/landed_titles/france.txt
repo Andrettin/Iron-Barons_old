@@ -99,6 +99,14 @@ c_ile_de_france = {
 	}
 }
 
+c_jura = {
+	de_jure_liege_title = d_france
+	color = { 201 50 23 }
+	
+	b_dole = {
+	}
+}
+
 c_marne = {
 	de_jure_liege_title = d_france
 	color = { 84 25 187 }

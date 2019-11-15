@@ -1,2 +1,3 @@
 b_belfort = "Belfort"
 b_besancon = "Besançon"
+b_dole = "Dôle"

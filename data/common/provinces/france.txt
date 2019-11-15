@@ -88,6 +88,16 @@ p_ile_de_france = {
 	}
 }
 
+p_jura = {
+	county = c_jura
+	color = { 201 50 23 }
+
+	h_dole = {
+		barony = b_dole
+		type = settlement
+	}
+}
+
 p_marne = {
 	county = c_marne
 	color = { 84 25 187 }
