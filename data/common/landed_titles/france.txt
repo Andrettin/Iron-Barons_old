@@ -111,6 +111,14 @@ c_haute_saone = {
 	}
 }
 
+c_hautes_alpes = {
+	de_jure_liege_title = d_france
+	color = { 175 73 65 }
+	
+	b_briancon = {
+	}
+}
+
 c_ile_de_france = {
 	de_jure_liege_title = d_france
 	color = { 38 14 126 }
@@ -120,6 +128,14 @@ c_ile_de_france = {
 	}
 	
 	b_versailles = {
+	}
+}
+
+c_isere = {
+	de_jure_liege_title = d_france
+	color = { 243 241 175 }
+	
+	b_grenoble = {
 	}
 }
 

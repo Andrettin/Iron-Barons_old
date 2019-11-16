@@ -103,6 +103,16 @@ p_haute_saone = {
 	}
 }
 
+p_hautes_alpes = {
+	county = c_hautes_alpes
+	color = { 175 73 65 }
+
+	h_briancon = {
+		barony = b_briancon
+		type = settlement
+	}
+}
+
 p_ile_de_france = {
 	county = c_ile_de_france
 	color = { 38 14 126 }
@@ -114,6 +124,16 @@ p_ile_de_france = {
 
 	h_versailles = {
 		barony = b_versailles
+		type = settlement
+	}
+}
+
+p_isere = {
+	county = c_isere
+	color = { 243 241 175 }
+
+	h_grenoble = {
+		barony = b_grenoble
 		type = settlement
 	}
 }
