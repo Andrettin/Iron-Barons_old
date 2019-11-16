@@ -53,6 +53,31 @@ p_lombardy = {
 	}
 }
 
+p_savoy = {
+	county = c_savoy
+	color = { 144 23 5 }
+
+	h_chambery = {
+		barony = b_chambery
+		type = settlement
+	}
+
+	h_annecy = {
+		barony = b_annecy
+		type = settlement
+	}
+}
+
+p_turin = {
+	county = c_turin
+	color = { 106 70 203 }
+
+	h_turin = {
+		barony = b_turin
+		type = settlement
+	}
+}
+
 p_venetia = {
 	county = c_venetia
 	color = { 240 155 38 }

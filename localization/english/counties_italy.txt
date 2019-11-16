@@ -1,4 +1,7 @@
 c_lombardy = "Lombardy"
+c_lombardy = "Lombardy"
 c_lombardy_german = "Lombardei"
 c_lombardy_italian = "Lombardia"
+c_savoy = "Savoy"
+c_turin = "Turin"
 c_venetia = "Venetia"

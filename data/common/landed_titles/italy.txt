@@ -13,13 +13,19 @@ k_italy = {
 k_sardinia = {
 	de_jure_liege_title = e_italy
 	color = { 102 43 226 }
-	capital_province = p_lombardy #should be Turin instead
+	capital_province = p_turin
 }
 
 d_lombardy = {
 	de_jure_liege_title = k_italy
 	color = { 155 102 24 }
 	capital_province = p_lombardy
+}
+
+d_savoy = {
+	de_jure_liege_title = k_sardinia
+	color = { 144 23 5 }
+	capital_province = p_savoy
 }
 
 d_venetia = {
@@ -60,6 +66,27 @@ c_lombardy = {
 	}
 
 	b_solferino = {
+	}
+}
+
+c_savoy = {
+	de_jure_liege_title = d_savoy
+	color = { 144 23 5 }
+	flag_tag = d_savoy
+	
+	b_chambery = {
+	}
+	
+	b_annecy = {
+	}
+}
+
+c_turin = {
+	de_jure_liege_title = d_savoy
+	color = { 106 70 203 }
+	flag_tag = b_turin
+	
+	b_turin = {
 	}
 }
 

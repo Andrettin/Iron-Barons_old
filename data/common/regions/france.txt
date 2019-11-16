@@ -18,6 +18,7 @@ r_france = { #the territory of modern France
 	provinces += p_puy_de_dome
 	provinces += p_rhone
 	provinces += p_saone
+	provinces += p_savoy
 	provinces += p_somme
 	subregions += r_alsace
 	subregions += r_franche_comte

@@ -1,6 +1,8 @@
 r_italy = {
 	provinces += p_lombardy
+	provinces += p_savoy
 	provinces += p_venetia
+	subregions += r_piedmont
 }
 
 r_modern_italy = {
@@ -10,4 +12,9 @@ r_modern_italy = {
 	provinces += p_gorz
 	provinces += p_trentino
 	provinces += p_south_tyrol
+	subregions += r_piedmont
+}
+
+r_piedmont = {
+	provinces += p_turin
 }
