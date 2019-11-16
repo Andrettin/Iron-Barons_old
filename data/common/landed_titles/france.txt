@@ -107,6 +107,17 @@ c_jura = {
 	}
 }
 
+c_loire = {
+	de_jure_liege_title = d_france
+	color = { 238 96 125 }
+	
+	b_st_etienne = {
+	}
+	
+	b_roanne = {
+	}
+}
+
 c_marne = {
 	de_jure_liege_title = d_france
 	color = { 84 25 187 }
@@ -183,6 +194,25 @@ c_pas_de_calais = {
 	}
 	
 	b_calais = {
+	}
+}
+
+c_rhone = {
+	de_jure_liege_title = d_france
+	color = { 213 168 47 }
+	
+	b_lyon = {
+	}
+}
+
+c_saone = {
+	de_jure_liege_title = d_france
+	color = { 215 237 26 }
+	
+	b_chalon = {
+	}
+	
+	b_macon = {
 	}
 }
 
