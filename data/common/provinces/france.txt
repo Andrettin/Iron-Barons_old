@@ -73,6 +73,26 @@ p_doubs = {
 	}
 }
 
+p_drome = {
+	county = c_drome
+	color = { 220 208 53 }
+
+	h_valence = {
+		barony = b_valence
+		type = settlement
+	}
+}
+
+p_haute_loire = {
+	county = c_haute_loire
+	color = { 222 18 54 }
+
+	h_le_puy = {
+		barony = b_le_puy
+		type = settlement
+	}
+}
+
 p_haute_saone = {
 	county = c_haute_saone
 	color = { 180 10 59 }

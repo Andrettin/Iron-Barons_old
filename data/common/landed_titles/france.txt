@@ -87,6 +87,22 @@ c_doubs = {
 	}
 }
 
+c_drome = {
+	de_jure_liege_title = d_france
+	color = { 220 208 53 }
+	
+	b_valence = {
+	}
+}
+
+c_haute_loire = {
+	de_jure_liege_title = d_france
+	color = { 222 18 54 }
+	
+	b_le_puy = {
+	}
+}
+
 c_haute_saone = {
 	de_jure_liege_title = d_france
 	color = { 180 10 59 }
