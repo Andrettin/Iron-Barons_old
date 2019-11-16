@@ -28,6 +28,16 @@ p_aube = {
 	}
 }
 
+p_cher = {
+	county = c_cher
+	color = { 41 104 145 }
+
+	h_bourges = {
+		barony = b_bourges
+		type = settlement
+	}
+}
+
 p_colmar = {
 	county = c_colmar
 	color = { 227 177 53 }
@@ -183,6 +193,16 @@ p_moselle = {
 	}
 }
 
+p_nievre = {
+	county = c_nievre
+	color = { 200 235 105 }
+
+	h_nevers = {
+		barony = b_nevers
+		type = settlement
+	}
+}
+
 p_nord = {
 	county = c_nord
 	color = { 213 219 71 }
@@ -219,6 +239,16 @@ p_pas_de_calais = {
 	
 	h_calais = {
 		barony = b_calais
+		type = settlement
+	}
+}
+
+p_puy_de_dome = {
+	county = c_puy_de_dome
+	color = { 171 185 82 }
+
+	h_clermont_ferrand = {
+		barony = b_clermont_ferrand
 		type = settlement
 	}
 }

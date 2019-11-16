@@ -52,6 +52,14 @@ c_aube = {
 	}
 }
 
+c_cher = {
+	de_jure_liege_title = d_france
+	color = { 41 104 145 }
+	
+	b_bourges = {
+	}
+}
+
 c_colmar = {
 	de_jure_liege_title = d_alsace
 	color = { 227 177 53 }
@@ -169,6 +177,14 @@ c_moselle = {
 	}
 }
 
+c_nievre = {
+	de_jure_liege_title = d_france
+	color = { 200 235 105 }
+	
+	b_nevers = {
+	}
+}
+
 c_nord = {
 	de_jure_liege_title = d_france
 	color = { 213 219 71 }
@@ -194,6 +210,14 @@ c_pas_de_calais = {
 	}
 	
 	b_calais = {
+	}
+}
+
+c_puy_de_dome = {
+	de_jure_liege_title = d_france
+	color = { 171 185 82 }
+	
+	b_clermont_ferrand = {
 	}
 }
 
