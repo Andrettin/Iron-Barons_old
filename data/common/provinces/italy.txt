@@ -1,3 +1,48 @@
+p_alessandria = {
+	county = c_alessandria
+	color = { 208 77 100 }
+
+	h_alessandria = {
+		barony = b_alessandria
+		type = settlement
+	}
+
+	h_asti = {
+		barony = b_asti
+		type = settlement
+	}
+
+	h_mortara = {
+		barony = b_mortara
+		type = settlement
+	}
+
+	h_montebello = {
+		barony = b_montebello
+		type = settlement
+	}
+}
+
+p_cuneo = {
+	county = c_cuneo
+	color = { 102 43 22 }
+
+	h_cuneo = {
+		barony = b_cuneo
+		type = settlement
+	}
+}
+
+p_genoa = {
+	county = c_genoa
+	color = { 251 127 106 }
+
+	h_genoa = {
+		barony = b_genoa
+		type = settlement
+	}
+}
+
 p_lombardy = {
 	county = c_lombardy
 	color = { 161 23 165 }
@@ -49,6 +94,21 @@ p_lombardy = {
 
 	h_solferino = {
 		barony = b_solferino
+		type = settlement
+	}
+}
+
+p_novara = {
+	county = c_novara
+	color = { 224 71 112 }
+
+	h_novara = {
+		barony = b_novara
+		type = settlement
+	}
+
+	h_vercelli = {
+		barony = b_vercelli
 		type = settlement
 	}
 }

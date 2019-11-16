@@ -1,0 +1,13 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_alessandria = city #Alessandria existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_asti = city #Asti existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_mortara = town #Mortara existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_montebello = village #Montebello existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Alessandria had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_alessandria
+}

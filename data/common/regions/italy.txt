@@ -1,4 +1,5 @@
 r_italy = {
+	provinces += p_genoa
 	provinces += p_lombardy
 	provinces += p_savoy
 	provinces += p_venetia
@@ -6,6 +7,7 @@ r_italy = {
 }
 
 r_modern_italy = {
+	provinces += p_genoa
 	provinces += p_lombardy
 	provinces += p_venetia
 	provinces += p_trieste
@@ -16,5 +18,8 @@ r_modern_italy = {
 }
 
 r_piedmont = {
+	provinces += p_alessandria
+	provinces += p_cuneo
+	provinces += p_novara
 	provinces += p_turin
 }

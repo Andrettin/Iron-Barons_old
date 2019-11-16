@@ -33,6 +33,7 @@
 /graphics/flags/b_arlon.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/b_cologne.svg (by Jürgen Krause, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/b_dusseldorf.svg (by LH Ddorf, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/b_genoa.svg (by Himasaram, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/b_metz.svg (by Danh, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/b_paris.svg (by Invitatious, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/b_rio_de_janeiro.svg (from the Wikimedia Commons) (in the public domain)

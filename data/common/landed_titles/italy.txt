@@ -34,6 +34,40 @@ d_venetia = {
 	capital_province = p_venetia
 }
 
+c_alessandria = {
+	de_jure_liege_title = d_savoy
+	color = { 208 77 100 }
+	
+	b_alessandria = {
+	}
+	
+	b_asti = {
+	}
+	
+	b_mortara = {
+	}
+	
+	b_montebello = {
+	}
+}
+
+c_cuneo = {
+	de_jure_liege_title = d_savoy
+	color = { 102 43 22 }
+	
+	b_cuneo = {
+	}
+}
+
+c_genoa = {
+	de_jure_liege_title = d_savoy
+	color = { 251 127 106 }
+	flag_tag = b_genoa
+	
+	b_genoa = {
+	}
+}
+
 c_lombardy = {
 	de_jure_liege_title = d_lombardy
 	color = { 155 102 24 }
@@ -66,6 +100,17 @@ c_lombardy = {
 	}
 
 	b_solferino = {
+	}
+}
+
+c_novara = {
+	de_jure_liege_title = d_savoy
+	color = { 224 71 112 }
+	
+	b_novara = {
+	}
+	
+	b_vercelli = {
 	}
 }
 
