@@ -1,0 +1,7 @@
+1786.1.1 = {
+	holder_title = k_denmark #part of the kingdom of Denmark about 1786; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 134-135.
+}
+
+1815.1.1 = {
+	holder_title = d_schleswig #part of the Duchy of Schleswig as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

@@ -1,1 +1,3 @@
+c_middle_jutland = "Middle Jutland"
+c_north_schleswig = "North Schleswig"
 c_south_schleswig = "South Schleswig"

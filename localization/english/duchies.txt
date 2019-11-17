@@ -7,6 +7,7 @@ d_carinthia = "Carinthia"
 d_carinthia_german = "Kärnten" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 d_carniola = "Carniola"
 d_carniola_german = "Krain" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+d_denmark = "Denmark"
 d_east_prussia = "East Prussia"
 d_france = "France"
 d_galicia = "Galicia"

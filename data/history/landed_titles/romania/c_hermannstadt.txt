@@ -1,4 +1,5 @@
 1815.1.1 = {
 	holder = random
 	liege_title = e_austria #part of the (Austrian) Transylvanian Military Frontier
+	laws += appointment_succession
 }

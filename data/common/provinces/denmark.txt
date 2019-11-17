@@ -1,3 +1,48 @@
+p_middle_jutland = {
+	county = c_middle_jutland
+	color = { 174 209 177 }
+
+	h_kolding = {
+		barony = b_kolding
+		type = settlement
+	}
+
+	h_fredericia = {
+		barony = b_fredericia
+		type = settlement
+	}
+
+	h_veile = {
+		barony = b_veile
+		type = settlement
+	}
+
+	h_horsens = {
+		barony = b_horsens
+		type = settlement
+	}
+}
+
+p_north_schleswig = {
+	county = c_north_schleswig
+	color = { 251 225 65 }
+
+	h_ribe = {
+		barony = b_ribe
+		type = settlement
+	}
+
+	h_sonderburg = {
+		barony = b_sonderburg
+		type = settlement
+	}
+
+	h_dlippel_bau = {
+		barony = b_dlippel_bau
+		type = settlement
+	}
+}
+
 p_south_schleswig = {
 	county = c_south_schleswig
 	color = { 223 14 171 }

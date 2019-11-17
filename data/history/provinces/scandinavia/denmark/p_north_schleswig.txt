@@ -1,0 +1,12 @@
+religion = protestant
+
+1815.1.1 = {
+	culture = danish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_ribe = town #Ribe existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_sonderburg = town #Sonderburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_dlippel_bau = village #Dlippel Bau existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Sonderburg had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_ribe
+}
