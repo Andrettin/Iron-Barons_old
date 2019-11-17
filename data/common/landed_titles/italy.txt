@@ -1,13 +1,18 @@
 e_italy = {
 	color = { 0 153 0 }
-	capital_province = p_lombardy #should be Rome instead
+	capital_province = p_latium
 	flag_tag = k_italy
 }
 
 k_italy = {
 	de_jure_liege_title = e_italy
 	color = { 0 153 0 }
-	capital_province = p_lombardy #should be Rome instead
+	capital_province = p_latium
+}
+
+k_papal_states = {
+	color = { 158 184 240 }
+	capital_province = p_latium
 }
 
 k_sardinia = {
@@ -16,10 +21,29 @@ k_sardinia = {
 	capital_province = p_turin
 }
 
+d_italy = {
+	de_jure_liege_title = k_italy
+	color = { 0 153 0 }
+	capital_province = p_latium
+	flag_tag = k_italy
+}
+
 d_lombardy = {
 	de_jure_liege_title = k_italy
 	color = { 155 102 24 }
 	capital_province = p_lombardy
+}
+
+d_modena = {
+	de_jure_liege_title = k_italy
+	color = { 231 24 79 }
+	capital_province = p_modena
+}
+
+d_parma = {
+	de_jure_liege_title = k_italy
+	color = { 63 152 172 }
+	capital_province = p_parma
 }
 
 d_savoy = {
@@ -35,7 +59,7 @@ d_venetia = {
 }
 
 c_alessandria = {
-	de_jure_liege_title = d_savoy
+	de_jure_liege_title = d_italy
 	color = { 208 77 100 }
 	
 	b_alessandria = {
@@ -52,7 +76,7 @@ c_alessandria = {
 }
 
 c_cuneo = {
-	de_jure_liege_title = d_savoy
+	de_jure_liege_title = d_italy
 	color = { 102 43 22 }
 	
 	b_cuneo = {
@@ -60,11 +84,22 @@ c_cuneo = {
 }
 
 c_genoa = {
-	de_jure_liege_title = d_savoy
+	de_jure_liege_title = d_italy
 	color = { 251 127 106 }
 	flag_tag = b_genoa
 	
 	b_genoa = {
+	}
+}
+
+c_latium = {
+	de_jure_liege_title = d_italy
+	color = { 57 237 186 }
+	
+	b_bologna = {
+	}
+	
+	b_ferrara = {
 	}
 }
 
@@ -103,14 +138,38 @@ c_lombardy = {
 	}
 }
 
+c_modena = {
+	de_jure_liege_title = d_modena
+	color = { 231 24 79 }
+	flag_tag = d_modena
+	
+	b_modena = {
+	}
+	
+	b_guastalla = {
+	}
+}
+
 c_novara = {
-	de_jure_liege_title = d_savoy
+	de_jure_liege_title = d_italy
 	color = { 224 71 112 }
 	
 	b_novara = {
 	}
 	
 	b_vercelli = {
+	}
+}
+
+c_parma = {
+	de_jure_liege_title = d_parma
+	color = { 63 152 172 }
+	flag_tag = d_parma
+	
+	b_parma = {
+	}
+	
+	b_piacenza = {
 	}
 }
 
@@ -127,7 +186,7 @@ c_savoy = {
 }
 
 c_turin = {
-	de_jure_liege_title = d_savoy
+	de_jure_liege_title = d_italy
 	color = { 106 70 203 }
 	flag_tag = b_turin
 	

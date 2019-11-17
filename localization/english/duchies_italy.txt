@@ -1,0 +1,4 @@
+d_italy = "Italy"
+d_modena = "Modena"
+d_parma = "Parma"
+d_savoy = "Savoy"

@@ -1,0 +1,8 @@
+1815.1.1 = {
+	holder = random
+	laws += primogeniture_succession
+}
+
+1860.1.1 = {
+	holder = none
+}

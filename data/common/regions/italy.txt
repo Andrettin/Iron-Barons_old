@@ -1,6 +1,9 @@
 r_italy = {
 	provinces += p_genoa
+	provinces += p_latium
 	provinces += p_lombardy
+	provinces += p_modena
+	provinces += p_parma
 	provinces += p_savoy
 	provinces += p_venetia
 	subregions += r_piedmont
@@ -8,7 +11,10 @@ r_italy = {
 
 r_modern_italy = {
 	provinces += p_genoa
+	provinces += p_latium
 	provinces += p_lombardy
+	provinces += p_modena
+	provinces += p_parma
 	provinces += p_venetia
 	provinces += p_trieste
 	provinces += p_gorz

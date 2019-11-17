@@ -43,6 +43,21 @@ p_genoa = {
 	}
 }
 
+p_latium = {
+	county = c_latium
+	color = { 57 237 186 }
+
+	h_bologna = {
+		barony = b_bologna
+		type = settlement
+	}
+
+	h_ferrara = {
+		barony = b_ferrara
+		type = settlement
+	}
+}
+
 p_lombardy = {
 	county = c_lombardy
 	color = { 161 23 165 }
@@ -98,6 +113,21 @@ p_lombardy = {
 	}
 }
 
+p_modena = {
+	county = c_modena
+	color = { 231 24 79 }
+
+	h_modena = {
+		barony = b_modena
+		type = settlement
+	}
+
+	h_guastalla = {
+		barony = b_guastalla
+		type = settlement
+	}
+}
+
 p_novara = {
 	county = c_novara
 	color = { 224 71 112 }
@@ -109,6 +139,21 @@ p_novara = {
 
 	h_vercelli = {
 		barony = b_vercelli
+		type = settlement
+	}
+}
+
+p_parma = {
+	county = c_parma
+	color = { 63 152 172 }
+
+	h_parma = {
+		barony = b_parma
+		type = settlement
+	}
+
+	h_piacenza = {
+		barony = b_piacenza
 		type = settlement
 	}
 }

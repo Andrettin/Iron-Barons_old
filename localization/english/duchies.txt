@@ -27,7 +27,6 @@ d_netherlands = "Netherlands"
 d_portugal = "Portugal"
 d_posen = "Posen"
 d_salzburg = "Salzburg"
-d_savoy = "Savoy"
 d_schleswig = "Schleswig"
 d_styria = "Styria"
 d_styria_german = "Steiermark" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
