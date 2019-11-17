@@ -17,7 +17,7 @@ Item {
 			id: building_grid
 			columns: 1
 			columnSpacing: 0
-			rowSpacing: 0
+			rowSpacing: 2
 
 			Repeater {
 				model: metternich.selected_holding ? metternich.selected_holding.building_slots : []
@@ -27,10 +27,28 @@ Item {
 					height: 32
 					visible: model.modelData.available
 
+					Image {
+						source: model.modelData.icon_path
+						width: 32
+						height: 32
+						anchors.left: parent.left
+						anchors.leftMargin: 8
+						anchors.verticalCenter: parent.verticalCenter
+
+						MouseArea {
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip(model.modelData.building.name)
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+						}
+					}
+
 					Text {
 						text: model.modelData.building.name
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.left: parent.left
+						anchors.leftMargin: 8 + 32 + 8
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"
