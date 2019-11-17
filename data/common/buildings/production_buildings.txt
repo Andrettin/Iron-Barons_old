@@ -8,6 +8,8 @@ cattle_ranch = {
 	construction_days = 365
 	employment_type = cattle_ranching
 	workforce = 100000
+	icon_tag = cattle
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = cattle
@@ -24,6 +26,8 @@ coal_mine = {
 	construction_days = 365
 	employment_type = coal_mining
 	workforce = 100000
+	icon_tag = coal
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = coal
@@ -40,6 +44,8 @@ cotton_plantation = {
 	construction_days = 365
 	employment_type = cotton_planting
 	workforce = 100000
+	icon_tag = cotton
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = cotton
@@ -56,6 +62,8 @@ grain_farm = {
 	construction_days = 365
 	employment_type = grain_farming
 	workforce = 100000
+	icon_tag = grain
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = grain
@@ -72,6 +80,8 @@ horse_ranch = {
 	construction_days = 365
 	employment_type = horse_ranching
 	workforce = 100000
+	icon_tag = horses
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = horses
@@ -88,6 +98,8 @@ iron_mine = {
 	construction_days = 365
 	employment_type = iron_mining
 	workforce = 100000
+	icon_tag = iron
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = iron
@@ -104,6 +116,8 @@ orchard = {
 	construction_days = 365
 	employment_type = fruit_growing
 	workforce = 100000
+	icon_tag = fruit
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = fruit
@@ -120,6 +134,8 @@ salt_mine = {
 	construction_days = 365
 	employment_type = salt_mining
 	workforce = 100000
+	icon_tag = salt
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = salt
@@ -136,6 +152,8 @@ sheep_ranch = {
 	construction_days = 365
 	employment_type = sheep_ranching
 	workforce = 100000
+	icon_tag = wool
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = wool
@@ -152,6 +170,8 @@ stone_quarry = {
 	construction_days = 365
 	employment_type = stone_quarrying
 	workforce = 100000
+	icon_tag = stone
+	icon_folder = commodities
 	
 	preconditions = {
 		commodity = stone
