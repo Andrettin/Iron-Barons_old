@@ -4,6 +4,7 @@ k_belgium = "Belgium"
 k_bohemia = "Bohemia"
 k_brazil = "Brazil"
 k_denmark = "Denmark"
+k_england = "England"
 k_france = "France"
 k_galicia = "Galicia"
 k_galicia_german = "Galizien" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.

@@ -1,0 +1,9 @@
+r_british_isles = {
+	subregions += r_england
+}
+
+r_england = {
+	provinces += p_kent
+	provinces += p_norfolk
+	provinces += p_suffolk
+}

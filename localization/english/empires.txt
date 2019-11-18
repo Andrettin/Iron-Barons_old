@@ -1,5 +1,6 @@
 e_austria = "Austria"
 e_brazil = "Brazil"
+e_britain = "Great Britain"
 e_france = "France"
 e_germany = "Germany"
 e_italy = "Italy"

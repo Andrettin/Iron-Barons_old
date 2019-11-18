@@ -1,0 +1,29 @@
+p_kent = {
+	county = c_kent
+	color = { 102 90 140 }
+
+	h_dover = {
+		barony = b_dover
+		type = settlement
+	}
+}
+
+p_norfolk = {
+	county = c_norfolk
+	color = { 251 212 49 }
+
+	h_norwich = {
+		barony = b_norwich
+		type = settlement
+	}
+}
+
+p_suffolk = {
+	county = c_suffolk
+	color = { 35 86 191 }
+
+	h_ipswich = {
+		barony = b_ipswich
+		type = settlement
+	}
+}

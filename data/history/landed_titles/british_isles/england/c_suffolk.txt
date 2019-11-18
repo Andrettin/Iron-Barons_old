@@ -1,0 +1,5 @@
+1815.1.1 = {
+	holder = random
+	liege_title = e_britain #part of the United Kingdom as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += appointment_succession
+}

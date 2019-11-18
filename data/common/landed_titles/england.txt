@@ -1,0 +1,41 @@
+e_britain = {
+	color = { 180 2 6 }
+	capital_province = p_kent #should be London
+}
+
+k_england = {
+	de_jure_liege_title = e_britain
+	color = { 180 2 6 }
+	capital_province = p_kent #should be London
+}
+
+d_england = {
+	de_jure_liege_title = k_england
+	color = { 180 2 6 }
+	capital_province = p_kent #should be London
+	flag_tag = k_england
+}
+
+c_kent = {
+	de_jure_liege_title = d_england
+	color = { 102 90 140 }
+
+	b_dover = {
+	}
+}
+
+c_norfolk = {
+	de_jure_liege_title = d_england
+	color = { 251 212 49 }
+
+	b_norwich = {
+	}
+}
+
+c_suffolk = {
+	de_jure_liege_title = d_england
+	color = { 35 86 191 }
+
+	b_ipswich = {
+	}
+}
