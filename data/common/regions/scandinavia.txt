@@ -1,8 +1,15 @@
 r_scandinavia = {
 	subregions += r_denmark
+	subregions += r_sweden
 }
 
 r_denmark = { #the territory of modern Denmark
+	provinces += p_funen
 	provinces += p_middle_jutland
 	provinces += p_north_schleswig
+	provinces += p_sjaelland
+}
+
+r_sweden = { #the territory of modern Sweden
+	provinces += p_scania
 }

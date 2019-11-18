@@ -1,3 +1,5 @@
+c_funen = "Funen"
 c_middle_jutland = "Middle Jutland"
 c_north_schleswig = "North Schleswig"
+c_sjaelland = "Sjaelland"
 c_south_schleswig = "South Schleswig"

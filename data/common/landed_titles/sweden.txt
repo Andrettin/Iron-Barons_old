@@ -1,0 +1,20 @@
+k_sweden = {
+	de_jure_liege_title = e_scandinavia
+	color = { 50 79 183 }
+	capital_province = p_scania #should be Stockholm instead
+}
+
+d_sweden = {
+	de_jure_liege_title = k_sweden
+	color = { 50 79 183 }
+	capital_province = p_scania #should be Stockholm instead
+	flag_tag = k_sweden
+}
+
+c_scania = {
+	de_jure_liege_title = d_sweden
+	color = { 226 61 40 }
+
+	b_malmo = {
+	}
+}

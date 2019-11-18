@@ -1,3 +1,13 @@
+p_funen = {
+	county = c_funen
+	color = { 84 48 146 }
+
+	h_odense = {
+		barony = b_odense
+		type = settlement
+	}
+}
+
 p_middle_jutland = {
 	county = c_middle_jutland
 	color = { 174 209 177 }
@@ -39,6 +49,31 @@ p_north_schleswig = {
 
 	h_dlippel_bau = {
 		barony = b_dlippel_bau
+		type = settlement
+	}
+}
+
+p_sjaelland = {
+	county = c_sjaelland
+	color = { 51 172 182 }
+
+	h_copenhagen = {
+		barony = b_copenhagen
+		type = settlement
+	}
+
+	h_helsingor = {
+		barony = b_helsingor
+		type = settlement
+	}
+
+	h_roskilde = {
+		barony = b_roskilde
+		type = settlement
+	}
+
+	h_korsor = {
+		barony = b_korsor
 		type = settlement
 	}
 }

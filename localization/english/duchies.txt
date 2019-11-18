@@ -31,6 +31,7 @@ d_salzburg = "Salzburg"
 d_schleswig = "Schleswig"
 d_styria = "Styria"
 d_styria_german = "Steiermark" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
+d_sweden = "Sweden"
 d_switzerland = "Switzerland"
 d_teschen = "Teschen"
 d_transylvania = "Transylvania"

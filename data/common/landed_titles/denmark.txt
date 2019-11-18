@@ -1,18 +1,13 @@
-e_scandinavia = {
-	color = { 255 222 0 }
-	capital_province = p_south_schleswig #should be Copenhagen/Sjaelland instead, or Stockholm
-}
-
 k_denmark = {
 	de_jure_liege_title = e_scandinavia
 	color = { 198 12 48 }
-	capital_province = p_south_schleswig #should be Copenhagen/Sjaelland instead
+	capital_province = p_sjaelland
 }
 
 d_denmark = {
 	de_jure_liege_title = k_denmark
 	color = { 198 12 48 }
-	capital_province = p_south_schleswig #should be Copenhagen/Sjaelland instead
+	capital_province = p_sjaelland
 	flag_tag = k_denmark
 }
 
@@ -20,6 +15,14 @@ d_schleswig = {
 	de_jure_liege_title = k_denmark
 	color = { 239 202 56 }
 	capital_province = p_south_schleswig
+}
+
+c_funen = {
+	de_jure_liege_title = d_denmark
+	color = { 84 48 146 }
+
+	b_odense = {
+	}
 }
 
 c_middle_jutland = {
@@ -50,6 +53,23 @@ c_north_schleswig = {
 	}
 
 	b_dlippel_bau = {
+	}
+}
+
+c_sjaelland = {
+	de_jure_liege_title = d_denmark
+	color = { 51 172 182 }
+
+	b_copenhagen = {
+	}
+
+	b_helsingor = {
+	}
+
+	b_roskilde = {
+	}
+
+	b_korsor = {
 	}
 }
 

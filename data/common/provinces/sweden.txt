@@ -1,0 +1,9 @@
+p_scania = {
+	county = c_scania
+	color = { 226 61 40 }
+
+	h_malmo = {
+		barony = b_malmo
+		type = settlement
+	}
+}
