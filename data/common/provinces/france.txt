@@ -152,8 +152,8 @@ p_loire = {
 	county = c_loire
 	color = { 238 96 125 }
 
-	h_st_etienne = {
-		barony = b_st_etienne
+	h_saint_etienne = {
+		barony = b_saint_etienne
 		type = settlement
 	}
 

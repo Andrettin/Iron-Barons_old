@@ -151,7 +151,7 @@ c_loire = {
 	de_jure_liege_title = d_france
 	color = { 238 96 125 }
 	
-	b_st_etienne = {
+	b_saint_etienne = {
 	}
 	
 	b_roanne = {
