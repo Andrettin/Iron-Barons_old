@@ -28,9 +28,6 @@ c_hungary = {
 	de_jure_liege_title = d_hungary
 	color = { 131 15 15 }
 
-	b_buda = {
-	}
-
 	b_pest = {
 	}
 }
@@ -43,6 +40,23 @@ c_kikinda = {
 	}
 
 	b_szoreg = {
+	}
+}
+
+c_komarom = {
+	de_jure_liege_title = d_hungary
+	color = { 240 243 52 }
+
+	b_komarom = {
+	}
+
+	b_ipoly_sagh = {
+	}
+
+	b_pered = {
+	}
+
+	b_nagy_sallo = {
 	}
 }
 
@@ -82,6 +96,31 @@ c_pancsova = {
 	}
 
 	b_werschitz = {
+	}
+}
+
+c_pannonia = {
+	de_jure_liege_title = d_hungary
+	color = { 73 22 197 }
+
+	b_buda = {
+	}
+}
+
+c_pressburg = {
+	de_jure_liege_title = d_hungary
+	color = { 107 108 168 }
+
+	b_pressburg = {
+	}
+
+	b_tyrnau = {
+	}
+
+	b_leopoldstadt = {
+	}
+
+	b_blumenau_slovakia = {
 	}
 }
 

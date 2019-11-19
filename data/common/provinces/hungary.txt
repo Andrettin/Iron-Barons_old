@@ -12,11 +12,6 @@ p_hungary = {
 	county = c_hungary
 	color = { 57 174 209 }
 
-	h_buda = {
-		barony = b_buda
-		type = settlement
-	}
-
 	h_pest = {
 		barony = b_pest
 		type = settlement
@@ -34,6 +29,31 @@ p_kikinda = {
 
 	h_szoreg = {
 		barony = b_szoreg
+		type = settlement
+	}
+}
+
+p_komarom = {
+	county = c_komarom
+	color = { 240 243 52 }
+
+	h_komarom = {
+		barony = b_komarom
+		type = settlement
+	}
+
+	h_ipoly_sagh = {
+		barony = b_ipoly_sagh
+		type = settlement
+	}
+
+	h_pered = {
+		barony = b_pered
+		type = settlement
+	}
+
+	h_nagy_sallo = {
+		barony = b_nagy_sallo
 		type = settlement
 	}
 }
@@ -89,6 +109,41 @@ p_pancsova = {
 
 	h_werschitz = {
 		barony = b_werschitz
+		type = settlement
+	}
+}
+
+p_pannonia = {
+	county = c_pannonia
+	color = { 73 22 197 }
+
+	h_buda = {
+		barony = b_buda
+		type = settlement
+	}
+}
+
+p_pressburg = {
+	county = c_pressburg
+	color = { 107 108 168 }
+
+	h_pressburg = {
+		barony = b_pressburg
+		type = settlement
+	}
+
+	h_tyrnau = {
+		barony = b_tyrnau
+		type = settlement
+	}
+
+	h_leopoldstadt = {
+		barony = b_leopoldstadt
+		type = settlement
+	}
+
+	h_blumenau_slovakia = {
+		barony = b_blumenau_slovakia
 		type = settlement
 	}
 }

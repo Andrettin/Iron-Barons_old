@@ -1,6 +1,8 @@
 r_royal_hungary = {
 	provinces += p_hungary
+	provinces += p_pannonia
 	provinces += p_burgenland
+	subregions += r_slovakia
 	provinces += p_neusatz
 	subregions += r_banat
 	subregions += r_transylvania
@@ -17,11 +19,14 @@ r_royal_hungary = {
 
 r_hungary = { #the territory of modern Hungary
 	provinces += p_hungary
+	provinces += p_pannonia
 }
 
 r_hungary_croatia_slavonia = { #excludes the military frontier
 	provinces += p_hungary
+	provinces += p_pannonia
 	provinces += p_burgenland
+	subregions += r_slovakia
 	provinces += p_fiume
 	provinces += p_zagreb
 	provinces += p_slavonia
@@ -49,4 +54,9 @@ r_banat_military_frontier = {
 	holdings += h_perlasz
 	holdings -= h_werschitz
 	holdings -= h_resita
+}
+
+r_slovakia = { #the territory of modern Slovakia
+	provinces += p_komarom
+	provinces += p_pressburg
 }

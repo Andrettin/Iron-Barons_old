@@ -1,0 +1,13 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = slovak #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_komarom = city #Komárom existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_ipoly_sagh = town #Ipoly-Sagh existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_pered = village #Pered existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_nagy_sallo = village #Nagy Sallo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Komárom had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_komarom
+}
