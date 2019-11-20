@@ -80,6 +80,20 @@ c_komarom = {
 	}
 }
 
+c_kosice = {
+	de_jure_liege_title = d_hungary
+	color = { 221 179 32 }
+
+	b_kosice = {
+	}
+
+	b_iglo = {
+	}
+
+	b_budamer = {
+	}
+}
+
 c_melencze = {
 	de_jure_liege_title = d_banat
 	color = { 67 8 158 }

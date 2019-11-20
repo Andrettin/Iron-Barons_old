@@ -88,6 +88,26 @@ p_komarom = {
 	}
 }
 
+p_kosice = {
+	county = c_kosice
+	color = { 221 179 32 }
+
+	h_kosice = {
+		barony = b_kosice
+		type = settlement
+	}
+
+	h_iglo = {
+		barony = b_iglo
+		type = settlement
+	}
+
+	h_budamer = {
+		barony = b_budamer
+		type = settlement
+	}
+}
+
 p_melencze = {
 	county = c_melencze
 	color = { 153 223 47 }
