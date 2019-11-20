@@ -127,6 +127,17 @@ c_pannonia = {
 	}
 }
 
+c_presov = {
+	de_jure_liege_title = d_hungary
+	color = { 183 3 42 }
+
+	b_presov = {
+	}
+
+	b_leutschau = {
+	}
+}
+
 c_pressburg = {
 	de_jure_liege_title = d_hungary
 	color = { 107 108 168 }

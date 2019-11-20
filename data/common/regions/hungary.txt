@@ -59,6 +59,7 @@ r_banat_military_frontier = {
 r_slovakia = { #the territory of modern Slovakia
 	provinces += p_banska_bystrica
 	provinces += p_komarom
+	provinces += p_presov
 	provinces += p_pressburg
 	provinces += p_zilina
 }

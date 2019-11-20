@@ -153,6 +153,21 @@ p_pannonia = {
 	}
 }
 
+p_presov = {
+	county = c_presov
+	color = { 183 3 42 }
+
+	h_presov = {
+		barony = b_presov
+		type = settlement
+	}
+	
+	h_leutschau = {
+		barony = b_leutschau
+		type = settlement
+	}
+}
+
 p_pressburg = {
 	county = c_pressburg
 	color = { 107 108 168 }
