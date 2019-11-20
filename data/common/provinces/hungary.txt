@@ -1,3 +1,33 @@
+p_banska_bystrica = {
+	county = c_banska_bystrica
+	color = { 176 19 45 }
+
+	h_banska_bystrica = {
+		barony = b_banska_bystrica
+		type = settlement
+	}
+
+	h_zolyom = {
+		barony = b_zolyom
+		type = settlement
+	}
+
+	h_kormoczbanya = {
+		barony = b_kormoczbanya
+		type = settlement
+	}
+
+	h_schemnitz = {
+		barony = b_schemnitz
+		type = settlement
+	}
+
+	h_losoncz = {
+		barony = b_losoncz
+		type = settlement
+	}
+}
+
 p_burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }

@@ -1,3 +1,5 @@
+c_banska_bystrica = "Banská Bystrica"
+c_banska_bystrica_german = "Neusohl"
 c_burgenland = "Burgenland"
 c_hungary = "Hungary"
 c_kikinda = "Kikinda"

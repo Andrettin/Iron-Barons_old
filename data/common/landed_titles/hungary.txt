@@ -16,6 +16,26 @@ d_hungary = {
 	flag_tag = k_hungary
 }
 
+c_banska_bystrica = {
+	de_jure_liege_title = d_hungary
+	color = { 176 19 45 }
+
+	b_banska_bystrica = {
+	}
+
+	b_zolyom = {
+	}
+
+	b_kormoczbanya = {
+	}
+
+	b_schemnitz = {
+	}
+
+	b_losoncz = {
+	}
+}
+
 c_burgenland = {
 	de_jure_liege_title = d_hungary
 	color = { 255 165 0 }

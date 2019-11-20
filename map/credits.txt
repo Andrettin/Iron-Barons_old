@@ -60,6 +60,7 @@
 /map/provinces/germany/p_westphalia.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/germany/p_wurtemberg.txt (http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0 and www.naturalearthdata.com) (licensed under the DL-DE-BY-2.0)
 /map/provinces/germany/p_zollern.txt (http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0 and www.naturalearthdata.com) (licensed under the DL-DE-BY-2.0)
+/map/provinces/hungary/p_banska_bystrica.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/hungary/p_burgenland.txt (www.naturalearthdata.com) (public domain)
 /map/provinces/hungary/p_hungary.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 /map/provinces/hungary/p_kikinda.txt (www.naturalearthdata.com) (public domain)
