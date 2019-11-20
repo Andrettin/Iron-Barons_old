@@ -165,3 +165,11 @@ c_temesvar = {
 	b_temesvar = {
 	}
 }
+
+c_zilina = {
+	de_jure_liege_title = d_hungary
+	color = { 24 111 43 }
+
+	b_budatin = {
+	}
+}

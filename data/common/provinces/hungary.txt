@@ -207,3 +207,13 @@ p_temesvar = {
 		type = settlement
 	}
 }
+
+p_zilina = {
+	county = c_zilina
+	color = { 24 111 43 }
+
+	h_budatin = {
+		barony = b_budatin
+		type = settlement
+	}
+}

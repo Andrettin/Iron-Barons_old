@@ -4,6 +4,7 @@ b_banska_bystrica_german = "Neusohl"
 b_blumenau_slovakia = "Blumenau"
 b_buda = "Buda"
 b_buda_german = "Ofen" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+b_budatin = "Budatin"
 b_eisenstadt = "Eisenstadt"
 b_ipoly_sagh = "Ipoly-Sagh"
 b_kikinda = "Kikinda"
