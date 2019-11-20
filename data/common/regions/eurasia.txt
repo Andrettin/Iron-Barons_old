@@ -1,5 +1,4 @@
 r_commonwealth_of_independent_states = {
-	provinces += p_east_prussia
-	provinces += p_lemberg
-	provinces += p_stanislawow
+	subregions += r_russian_federation
+	subregions += r_ukraine
 }

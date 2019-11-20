@@ -65,6 +65,7 @@
 /graphics/flags/c_south_tyrol.svg (by F l a n k e r, from the Wikimedia Commons) (licensed under the CC-BY 3.0)
 /graphics/flags/c_suffolk.svg (by Vexilo, from the Wikimedia Commons) (licensed under the CC-BY-SA 4.0)
 /graphics/flags/c_teschen.svg (by Poznaniak, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
+/graphics/flags/c_transcarpathia.svg (by Perhelion, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/c_trentino.svg (by Fulvio314, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/c_vorarlberg.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/c_vosges.svg (by Diades, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)

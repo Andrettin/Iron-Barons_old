@@ -191,6 +191,14 @@ c_temesvar = {
 	}
 }
 
+c_transcarpathia = {
+	de_jure_liege_title = d_hungary
+	color = { 70 139 248 }
+
+	b_munkacs = {
+	}
+}
+
 c_zilina = {
 	de_jure_liege_title = d_hungary
 	color = { 24 111 43 }

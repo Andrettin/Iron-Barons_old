@@ -74,6 +74,7 @@
 /map/provinces/hungary/p_resita.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/hungary/p_presov.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/hungary/p_temesvar.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
+/map/provinces/hungary/p_transcarpathia.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/hungary/p_zilina.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/provinces/iberia/p_portugal.txt (www.naturalearthdata.com) (public domain)
 /map/provinces/illyria/p_bjelovar.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)

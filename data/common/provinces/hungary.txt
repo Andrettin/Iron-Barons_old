@@ -243,6 +243,16 @@ p_temesvar = {
 	}
 }
 
+p_transcarpathia = {
+	county = c_transcarpathia
+	color = { 70 139 248 }
+
+	h_munkacs = {
+		barony = b_munkacs
+		type = settlement
+	}
+}
+
 p_zilina = {
 	county = c_zilina
 	color = { 24 111 43 }
