@@ -6,4 +6,8 @@ craftsmen = { #urban population
 	1561.1.1 = {
 		size = 15000 #Frankfurt had a population of 15,000 in 1561; Source: Henry Kamen, "The Iron Century", p. 421.
 	}
+	
+	1815.1.1 = {
+		size = 37000 #Frankfurt am Main had a population of 37,000 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 84.
+	}
 }
