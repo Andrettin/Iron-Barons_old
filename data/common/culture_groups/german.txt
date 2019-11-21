@@ -1,4 +1,5 @@
 german = {
+	species = human
 	color = { 160 160 160 }
 	default_phenotype = european
 	

@@ -1,4 +1,5 @@
 romanian = {
+	species = human
 	color = { 191 169 36 }
 	default_phenotype = european
 }

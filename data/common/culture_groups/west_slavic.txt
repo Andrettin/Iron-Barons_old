@@ -1,4 +1,5 @@
 west_slavic = {
+	species = human
 	color = { 212 41 61 }
 	default_phenotype = european
 }
