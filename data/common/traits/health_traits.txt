@@ -1,2 +1,5 @@
 incapable = {
 }
+
+sturdy = {
+}

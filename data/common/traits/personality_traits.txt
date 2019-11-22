@@ -3,3 +3,9 @@ cynical = {
 
 diligent = {
 }
+
+kind = {
+}
+
+shy = {
+}
