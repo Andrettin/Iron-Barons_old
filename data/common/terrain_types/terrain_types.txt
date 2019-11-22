@@ -72,3 +72,11 @@ steppe = {
 		population_capacity = 80000
 	}
 }
+
+swamp = {
+	color = { 192 64 64 }
+	
+	modifier = {
+		population_capacity = 80000
+	}
+}
