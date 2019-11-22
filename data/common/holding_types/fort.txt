@@ -1,4 +1,3 @@
 fort = {
 	slot_type = fort
-	portrait_tag = university
 }
