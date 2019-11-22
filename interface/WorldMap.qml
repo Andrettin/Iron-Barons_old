@@ -5,6 +5,8 @@ import MaskedMouseArea 1.0
 Item {
 	id: map
 
+	property var world: null
+
 	enum Mode {
 		Country,
 		DeJureEmpire,
@@ -32,16 +34,9 @@ Item {
 		map.y -= pixels * map.scale
 	}
 
-	Component.onCompleted: {
-		var center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
-		var map_center = metternich.coordinate_to_point(center_coordinate)
-		map.x = parent.width / 2 - map_center.x
-		map.y = parent.height / 2 - map_center.y
-	}
-
 	Image {
 		id: map_terrain
-		source: "../map/provinces.png"
+		source: world ? "../map/" + world.identifier + "/provinces.png" : "image://empty/"
 
 		MouseArea {
 			anchors.fill: parent
@@ -56,7 +51,7 @@ Item {
 		}
 
 		Repeater {
-			model: metternich.provinces
+			model: world ? world.provinces : []
 			Image {
 				x: model.modelData.rect.x
 				y: model.modelData.rect.y

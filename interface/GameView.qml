@@ -3,6 +3,10 @@ import QtQuick.Controls 2.13
 import QtQuick.Window 2.13
 
 Item {
+	id: game_view
+
+	property var current_world_map: null
+
 	anchors.fill: parent
 	Keys.forwardTo: key_handler
 
@@ -26,8 +30,35 @@ Item {
 		return 5
 	}
 
-	WorldMap {
-		id: map
+	Repeater {
+		model: metternich.worlds
+
+		WorldMap {
+			world: model.modelData
+			visible: metternich.current_world === world
+
+			onVisibleChanged: {
+				if (visible) {
+					game_view.current_world_map = this
+				}
+			}
+
+			Component.onCompleted: {
+				if (metternich.current_world === world) {
+					game_view.current_world_map = this
+				}
+
+				if (metternich.game.player_character.primary_title.capital_province.world === world) {
+					var center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
+					var map_center = world.coordinate_to_point(center_coordinate)
+					this.x = (game_view.parent.width / 2) - map_center.x
+					this.y = (game_view.parent.height / 2) - map_center.y
+				} else {
+					this.x = (game_view.parent.width / 2) - (this.width / 2)
+					this.y = (game_view.parent.height / 2) - (this.height / 2)
+				}
+			}
+		}
 	}
 
 	Timer {
@@ -35,7 +66,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveLeft(get_scroll_pixels())
+			current_world_map.moveLeft(get_scroll_pixels())
 		}
 	}
 
@@ -44,7 +75,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveRight(get_scroll_pixels())
+			current_world_map.moveRight(get_scroll_pixels())
 		}
 	}
 
@@ -53,7 +84,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveUp(get_scroll_pixels())
+			current_world_map.moveUp(get_scroll_pixels())
 		}
 	}
 
@@ -62,7 +93,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			map.moveDown(get_scroll_pixels())
+			current_world_map.moveDown(get_scroll_pixels())
 		}
 	}
 
@@ -312,9 +343,9 @@ Item {
 				ctrlPressed = false
 			/*
 			} else if (event.key === Qt.Key_Z) {
-				map.zoomLevel += 0.5
+				current_world_map.zoomLevel += 0.5
 			} else if (event.key === Qt.Key_X) {
-				map.zoomLevel -= 0.5
+				current_world_map.zoomLevel -= 0.5
 			*/
 			}
 		}

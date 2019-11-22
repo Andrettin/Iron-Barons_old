@@ -1,3 +1,4 @@
+default_world = earth
 start_date = 1815.11.20
 player_character = 10000000 #Franz I of Austria
 base_population_growth = 0.0001 #0.01%
