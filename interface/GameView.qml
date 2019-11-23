@@ -138,7 +138,7 @@ Item {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.right: parent.right
-		width: 160
+		width: 128
 		height: 64
 
 		Rectangle {
@@ -148,17 +148,33 @@ Item {
 
 		Item {
 			id: wealth_area
-			anchors.left: parent.left
 			anchors.right: parent.right
 			anchors.top: parent.top
+			width: 64 + 8 + 8 + 8
 			height: 32
+
+			Image {
+				anchors.verticalCenter: parent.verticalCenter
+				anchors.left: parent.left
+				anchors.leftMargin: 8
+
+				source: "../graphics/icons/wealth.png"
+
+				MouseArea {
+					anchors.fill: parent
+					hoverEnabled: true
+					ToolTip.text: tooltip("Wealth")
+					ToolTip.visible: containsMouse
+					ToolTip.delay: 1000
+				}
+			}
 
 			Text {
 				id: wealth_label
-				text: "Wealth: " + centesimal(metternich.game.player_character.wealth)
+				text: centesimal(metternich.game.player_character.wealth)
 				anchors.verticalCenter: parent.verticalCenter
-				anchors.left: parent.left
-				anchors.leftMargin: 32
+				anchors.right: parent.right
+				anchors.rightMargin: 8
 				color: "black"
 				font.pixelSize: 12
 				font.family: "tahoma"
@@ -177,7 +193,7 @@ Item {
 				text: metternich.game.current_date_string
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.right: parent.right
-				anchors.rightMargin: 28
+				anchors.rightMargin: 8
 				color: "black"
 				font.pixelSize: 12
 				font.family: "tahoma"
