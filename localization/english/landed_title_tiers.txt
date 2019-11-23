@@ -1,4 +1,5 @@
 empire = "Empire"
+empire_e_britain = "United Kingdom"
 kingdom = "Kingdom"
 duchy = "Duchy"
 county = "County"
