@@ -4,6 +4,8 @@ import MaskedMouseArea 1.0
 
 Item {
 	id: map
+	width: map_terrain.width
+	height: map_terrain.height
 
 	property var world: null
 
@@ -36,7 +38,7 @@ Item {
 
 	Image {
 		id: map_terrain
-		source: world ? "../map/" + world.identifier + "/provinces.png" : "image://empty/"
+		source: world ? world.cache_path + "/provinces.png" : "image://empty/"
 
 		MouseArea {
 			anchors.fill: parent

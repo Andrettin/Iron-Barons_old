@@ -30,6 +30,11 @@ Item {
 		return 5
 	}
 
+	Rectangle {
+		anchors.fill: parent
+		color: "black"
+	}
+
 	Repeater {
 		model: metternich.worlds
 
@@ -452,6 +457,30 @@ Item {
 		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.ReligionGroup
+		}
+	}
+
+	Grid {
+		id: world_button_grid
+		visible: metternich.worlds.length > 1
+		anchors.bottom: parent.bottom
+		anchors.right: country_map_mode_button.left
+		columns: 1
+		columnSpacing: 0
+		rowSpacing: 0
+
+		Repeater {
+			model: metternich.worlds
+
+			Button {
+				text: "<font color=\"black\">" + model.modelData.name + "</font>"
+				width: 128
+				height: 32
+				font.pixelSize: 12
+				onClicked: {
+					metternich.current_world = model.modelData
+				}
+			}
 		}
 	}
 }
