@@ -15,7 +15,7 @@
 10000414 = { #Johanna Sophie von Bayern; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
 	name = "Johanna Sophie"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	1367.1.1 = { #unknown, set to 30 years before first mention
@@ -128,7 +128,7 @@
 10000012 = { #Maximilian Joseph von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 15.
 	name = "Maximilian Joseph"
 	dynasty = von_wittelsbach
-	culture = german #from Bavaria
+	culture = bavarian #from Bavaria
 	religion = catholic
 	father = 10000471 #Friedrich von Wittelsbach (presumably, since he is the father of his sister)
 	1756.5.27 = {
@@ -240,7 +240,7 @@
 10000014 = { #Ludwig von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 15.
 	name = "Ludwig"
 	dynasty = von_wittelsbach
-	culture = german #from Bavaria
+	culture = bavarian #from Bavaria
 	religion = catholic
 	father = 10000012 #Maximilian Joseph von Wittelsbach
 	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
@@ -259,7 +259,7 @@
 10000450 = { #Auguste Amalie von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Auguste Amalie"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -279,7 +279,7 @@
 	name = "Caroline"
 	female = yes
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	father = 10000012 #Maximilian Joseph von Wittelsbach
 	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
@@ -295,7 +295,7 @@
 10000539 = { #Karl Theodor Maximilian von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Karl Theodor Maximilian"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	father = 10000012 #Maximilian Joseph von Wittelsbach
 	mother = 10000535 #Marie Wilhelmine Auguste von Hessen-Darmstadt
@@ -310,7 +310,7 @@
 10000095 = { #Elisabeth Luise von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 63.
 	name = "Elisabeth Luise"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -327,7 +327,7 @@
 10000324 = { #Amalie Auguste von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
 	name = "Amalie Auguste"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -347,7 +347,7 @@
 10000018 = { #Friederike Sophie Dorothee von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	name = "Friederike Sophie Dorothee"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -364,7 +364,7 @@
 10000191 = { #Marie Anne Leopoldine von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
 	name = "Marie Anne Leopoldine"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -382,7 +382,7 @@
 10000540 = { #Ludovike Wilhelmine von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Ludovike Wilhelmine"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -398,7 +398,7 @@
 10000541 = { #Maximiliane Josephine Karoline von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Maximiliane Josephine Karoline"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000012 #Maximilian Joseph von Wittelsbach
@@ -414,7 +414,7 @@
 10000537 = { #Maximilian Joseph von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	name = "Maximilian Joseph"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	father = 10000014 #Ludwig von Wittelsbach
 	mother = 10000117 #Therese von Sachsen-Altenburg
@@ -429,7 +429,7 @@
 10000538 = { #Mathilde Karoline Friederike von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	name = "Mathilde Karoline Friederike"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000014 #Ludwig von Wittelsbach
@@ -445,7 +445,7 @@
 10000030 = { #Princess Hildegard, daughter of Ludwig of Bavaria; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	name = "Hildegard" #source gives "Hildegarde"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000014 #Ludwig von Wittelsbach

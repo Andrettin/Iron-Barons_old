@@ -1,7 +1,7 @@
 10000741 = { #Karl Friedrich von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Karl Friedrich"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	1725.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000740 = { #Adam Alonsins von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25.
 	name = "Adam Alonsins"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000741 #Karl Friedrich von Hohenzollern-Sigmaringen
 	1762.6.20 = {
@@ -34,7 +34,7 @@
 10000748 = { #Marie Erescentie von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25.
 	name = "Marie Erescentie"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000741 #Karl Friedrich von Hohenzollern-Sigmaringen; presumably, as she is the sister of Adam Alonsins von Hohenzollern-Sigmaringen
@@ -53,7 +53,7 @@
 10000230 = { #Karl Anton von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Karl Anton"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000740 #Adam Alonsins von Hohenzollern-Sigmaringen
 	mother = 10000742 #Amalie Zephyrine von Salm-Kyrburg
@@ -79,7 +79,7 @@
 10000746 = { #Annunciate Karoline von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
 	name = "Annunciate Karoline"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000230 #Karl Anton von Hohenzollern-Sigmaringen
@@ -95,7 +95,7 @@
 10000747 = { #Karl Anton von Hohenzollern-Sigmaringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
 	name = "Karl Anton"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000230 #Karl Anton von Hohenzollern-Sigmaringen
 	mother = 10000745 #Antoinette
@@ -110,7 +110,7 @@
 10000228 = { #Amalie von Hohenzollern-Sigmaringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Amalie"
 	dynasty = von_hohenzollern_sigmaringen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000230 #Karl Anton von Hohenzollen-Sigmaringen

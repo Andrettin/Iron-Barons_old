@@ -1,7 +1,7 @@
 10000729 = { #Marie Anne von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
 	name = "Marie Anne"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	#paternal aunt of Hermann Friedrich Otto von Hohenzollern-Hechingen
@@ -20,7 +20,7 @@
 10000730 = { #Meinrad von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
 	name = "Meinrad"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	#paternal uncle of Hermann Friedrich Otto von Hohenzollern-Hechingen
 	1730.6.20 = {
@@ -35,7 +35,7 @@
 10000731 = { #Friedrich Anton von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
 	name = "Friedrich Anton"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	#paternal uncle of Hermann Friedrich Otto von Hohenzollern-Hechingen
 	1746.1.1 = { #unknown, set to 30 years before the birth of his first known child
@@ -52,7 +52,7 @@
 10000707 = { #Hermann Friedrich Otto von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Hermann Friedrich Otto"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	1750.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -71,7 +71,7 @@
 10000722 = { #Franz Xaver von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
 	name = "Franz Xaver"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	#brother of Hermann Friedrich Otto von Hohenzollern-Hechingen
 	#trait = tough_soldier
@@ -95,7 +95,7 @@
 10000728 = { #Felicite Therese von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 23-24.
 	name = "Felicite Therese"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	#sister of Hermann Friedrich Otto von Hohenzollern-Hechingen
@@ -111,7 +111,7 @@
 10000712 = { #Luise Juliane Constantie von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Luise Juliane Constantie"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
@@ -128,7 +128,7 @@
 10000734 = { #Joseph Wilhelm von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Joseph Wilhelm"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000731 #Friedrich Anton von Hohenzollern-Hechingen
 	mother = 10000732 #Ernestine Josephe von Sobeck und Kornitz
@@ -144,7 +144,7 @@
 10000706 = { #Friedrich Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Friedrich Hermann"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
 	1776.7.22 = {
@@ -162,7 +162,7 @@
 10000735 = { #Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Hermann"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000731 #Friedrich Anton von Hohenzollern-Hechingen
 	mother = 10000732 #Ernestine Josephe von Sobeck und Kornitz
@@ -180,7 +180,7 @@
 10000714 = { #Marie Antoine Philippine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Marie Antoine Philippine"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
@@ -197,7 +197,7 @@
 10000738 = { #Johann Karl von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Johann Karl"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000731 #Friedrich Anton von Hohenzollern-Hechingen
 	mother = 10000732 #Ernestine Josephe von Sobeck und Kornitz
@@ -212,7 +212,7 @@
 10000717 = { #Maximiliane Antoinette von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Maximiliane Antoinette"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
@@ -228,7 +228,7 @@
 10000718 = { #Josephine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Josephine"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000707 #Hermann Friedrich Otto von Hohenzollern-Hechingen
@@ -245,7 +245,7 @@
 10000724 = { #Friederich Anton von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Friederich Anton"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
 	mother = 10000723 #Marie Therese von Wildenstein
@@ -260,7 +260,7 @@
 10000725 = { #Friderike Julie von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Friderike Julie"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
 	mother = 10000723 #Marie Therese von Wildenstein
@@ -276,7 +276,7 @@
 10000726 = { #Friedrich Adalbert von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Friedrich Adalbert"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
 	mother = 10000723 #Marie Therese von Wildenstein
@@ -291,7 +291,7 @@
 10000727 = { #Friederike Josephine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Friederike Josephine"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000722 #Franz Xaver von Hohenzollern-Hechingen
 	mother = 10000723 #Marie Therese von Wildenstein
@@ -307,7 +307,7 @@
 10000710 = { #Friedrich Wilhelm Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
 	name = "Friedrich Wilhelm Hermann"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	father = 10000706 #Friedrich Hermann von Hohenzollern-Hechingen
 	mother = 10000708 #Luise Pauline von Curland
@@ -323,7 +323,7 @@
 10000737 = { #Karoline von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Karoline"
 	dynasty = von_hohenzollern_hechingen
-	culture = german
+	culture = swabian
 	religion = catholic
 	female = yes
 	father = 10000735 #Hermann von Hohenzollern-Hechingen

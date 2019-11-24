@@ -1,0 +1,4 @@
+swabian = {
+	culture_group = german
+	color = { 246 242 76 }
+}

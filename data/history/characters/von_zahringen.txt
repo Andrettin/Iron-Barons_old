@@ -1,7 +1,7 @@
 10000517 = { #Karl Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
 	name = "Karl Friedrich"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	1731.1.1 = { #unknown, set to 80 years before death (so that he is older than his son)
 		birth = yes
@@ -18,7 +18,7 @@
 10000526 = { #Karl Ludwig von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Karl Ludwig"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen
 	1741.1.1 = { #unknown, set to 60 years before death
@@ -35,7 +35,7 @@
 10000527 = { #Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
 	name = "Friedrich"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen
 	1756.8.29 = {
@@ -52,7 +52,7 @@
 10000529 = { #Ludwig Wilhelm August von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
 	name = "Ludwig Wilhelm August"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen
 	1763.2.9 = {
@@ -66,7 +66,7 @@
 10000519 = { #Catherine Amalie von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Catherine Amalie"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	traits += twin
@@ -83,7 +83,7 @@
 10000013 = { #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Friederike Wilhelmine Karoline"
 	dynasty = von_zahringen
-	culture = german #from Baden
+	culture = swabian #from Baden
 	religion = protestant
 	female = yes
 	traits += twin
@@ -100,7 +100,7 @@
 10000521 = { #Luise Marie von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Luise Marie"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000526 #Karl Ludwig von Zähringen
@@ -117,7 +117,7 @@
 10000522 = { #Friederike Dorothee von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Friederike Dorothee"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000526 #Karl Ludwig von Zähringen
@@ -136,7 +136,7 @@
 10000554 = { #Marie Elisabeth Wilhelmine von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
 	name = "Marie Elisabeth Wilhelmine"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000526 #Karl Ludwig von Zähringen
@@ -155,7 +155,7 @@
 10000516 = { #Karl Ludwig Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Karl Ludwig Friedrich"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000526 #Karl Ludwig von Zähringen
 	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt
@@ -175,7 +175,7 @@
 10000524 = { #Wilhelmine Luise von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Wilhelmine Luise"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000526 #Karl Ludwig von Zähringen
@@ -191,7 +191,7 @@
 10000520 = { #Luise Amalie von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	name = "Luise Amalie"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000516 #Karl Ludwig Friedrich von Zähringen
@@ -207,7 +207,7 @@
 10000177 = { #Leopold Friedrich von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 2.
 	name = "Leopold Friedrich" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	mother = 10000530 #Luise Karoline Geyer von Geyersberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
@@ -223,7 +223,7 @@
 10000273 = { #Wilhelm Ludwig August von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
 	name = "Wilhelm Ludwig August" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	mother = 10000530 #Luise Karoline Geyer von Geyersberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
@@ -241,7 +241,7 @@
 10000531 = { #Amalie Christine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	name = "Amalie Christine Karoline"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000517 #Karl Friedrich von Zähringen
@@ -257,7 +257,7 @@
 10000532 = { #Maximilian Friedrich Johann von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	name = "Maximilian Friedrich Johann"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen
 	mother = 10000530 #Luise Karoline Geyer von Geyersberg
@@ -272,7 +272,7 @@
 10000173 = { #Alexandrine von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Alexandrine"
 	dynasty = von_zahringen
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000177 #Leopold Friedrich von Zähringen

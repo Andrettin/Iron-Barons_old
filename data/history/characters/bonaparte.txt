@@ -1,5 +1,5 @@
 10000447 = { #Marie-Laetitia; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
-	name = "Marie Laetitia"
+	name = "Marie-Laetitia"
 	culture = french
 	religion = catholic
 	female = yes
@@ -45,7 +45,7 @@
 }
 
 10000437 = { #Louis-Napoléon Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Louis Napoléon"
+	name = "Louis-Napoléon"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
@@ -78,7 +78,7 @@
 }
 
 10000443 = { #Marie-Anne-Eliza Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Marie Anne Eliza"
+	name = "Marie-Anne-Eliza"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
@@ -94,7 +94,7 @@
 }
 
 10000444 = { #Marie-Pauline Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Marie Pauline"
+	name = "Marie-Pauline"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
