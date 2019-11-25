@@ -1,0 +1,6 @@
+c_grodno = {
+	color = { 207 172 208 }
+
+	b_grodno = {
+	}
+}

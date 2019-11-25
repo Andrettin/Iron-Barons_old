@@ -63,6 +63,16 @@ p_east_prussia = {
 	}
 }
 
+p_kaunas = {
+	county = c_kaunas
+	color = { 185 126 107 }
+
+	h_rossieny = {
+		barony = b_rossieny
+		type = settlement
+	}
+}
+
 p_thorn = {
 	county = c_thorn
 	color = { 166 167 52 }
@@ -74,6 +84,21 @@ p_thorn = {
 
 	h_thorn = {
 		barony = b_thorn
+		type = settlement
+	}
+}
+
+p_vilnius = {
+	county = c_vilnius
+	color = { 131 245 131 }
+
+	h_vilnius = {
+		barony = b_vilnius
+		type = settlement
+	}
+
+	h_vilkomir = {
+		barony = b_vilkomir
 		type = settlement
 	}
 }

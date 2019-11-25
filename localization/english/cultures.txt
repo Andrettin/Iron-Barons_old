@@ -1,6 +1,6 @@
 austrian = "Austrian"
 bavarian = "Bavarian"
-belarusian = "Belarusian"
+byelorussian = "Byelorussian"
 brazilian = "Brazilian"
 castillian = "Castillian"
 croatian = "Croatian"

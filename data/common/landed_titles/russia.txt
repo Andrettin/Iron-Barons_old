@@ -1,0 +1,4 @@
+e_russia = {
+	color = { 224 186 56 }
+	capital_province = p_grodno #should be Moscow instead
+}

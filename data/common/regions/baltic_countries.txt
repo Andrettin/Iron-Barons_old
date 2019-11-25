@@ -3,5 +3,7 @@ r_baltic_countries = {
 }
 
 r_lithuania = { #the territory of modern Lithuania
+	provinces += p_kaunas
 	provinces += p_mariampol
+	provinces += p_vilnius
 }

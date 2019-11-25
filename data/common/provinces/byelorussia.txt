@@ -1,0 +1,9 @@
+p_grodno = {
+	county = c_grodno
+	color = { 207 172 208 }
+
+	h_grodno = {
+		barony = b_grodno
+		type = settlement
+	}
+}
