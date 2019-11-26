@@ -1,9 +1,14 @@
 religion = catholic
 
+1250.1.1 = {
+	h_bologna = town
+	university = university #University existent in Bologna in 1250; Source: "Atlas de História Mundial", 2001, p. 144.
+}
+
 1815.1.1 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_bologna = city #Bologna existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_bologna = city
 	h_ferrara = city #Ferrara existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_bologna
