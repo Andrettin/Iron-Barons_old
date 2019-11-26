@@ -78,7 +78,7 @@ Item {
 					ToolTip.text: tooltip(
 						model.modelData.name
 						+ (model.modelData.county ? "<br>" : "")
-						+ (model.modelData.county && metternich.map_mode === WorldMap.Mode.Country ? "<br>Country: " + model.modelData.county.realm.titled_name : "")
+						+ (model.modelData.county && metternich.map_mode === WorldMap.Mode.Country && model.modelData.county.realm ? "<br>Country: " + model.modelData.county.realm.titled_name : "")
 						+ (model.modelData.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br>De Jure Empire: " + model.modelData.de_jure_empire.name : "")
 						+ (model.modelData.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br>De Jure Kingdom: " + model.modelData.de_jure_kingdom.name : "")
 						+ (model.modelData.de_jure_duchy && metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "<br>De Jure Duchy: " + model.modelData.de_jure_duchy.name : "")

@@ -206,6 +206,7 @@ Item {
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
 		visible: metternich.selected_province !== null
+		province: metternich.selected_province
 	}
 
 	Button {
