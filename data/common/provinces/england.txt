@@ -1,3 +1,13 @@
+p_gloucester = {
+	county = c_gloucester
+	color = { 85 254 228 }
+
+	h_bristol = {
+		barony = b_bristol
+		type = settlement
+	}
+}
+
 p_kent = {
 	county = c_kent
 	color = { 102 90 140 }
@@ -8,12 +18,32 @@ p_kent = {
 	}
 }
 
+p_london = {
+	county = c_london
+	color = { 242 84 91 }
+
+	h_london = {
+		barony = b_london
+		type = settlement
+	}
+}
+
 p_norfolk = {
 	county = c_norfolk
 	color = { 251 212 49 }
 
 	h_norwich = {
 		barony = b_norwich
+		type = settlement
+	}
+}
+
+p_oxford = {
+	county = c_oxford
+	color = { 196 244 110 }
+
+	h_oxford = {
+		barony = b_oxford
 		type = settlement
 	}
 }

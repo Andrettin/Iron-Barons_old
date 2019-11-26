@@ -1,3 +1,6 @@
+b_bristol = "Bristol"
 b_dover = "Dover"
 b_ipswich = "Ipswich"
+b_london = "London"
+b_oxford = "Oxford"
 b_norwich = "Norwich"

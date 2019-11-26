@@ -1,9 +1,17 @@
 r_british_isles = {
 	subregions += r_england
+	subregions += r_ireland
 }
 
 r_england = {
+	provinces += p_gloucester
 	provinces += p_kent
+	provinces += p_london
 	provinces += p_norfolk
+	provinces += p_oxford
 	provinces += p_suffolk
+}
+
+r_ireland = {
+	provinces += p_dublin
 }

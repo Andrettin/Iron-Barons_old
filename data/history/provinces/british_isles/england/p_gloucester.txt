@@ -1,0 +1,12 @@
+religion = protestant
+
+1815.1.1 = {
+	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
+
+1909.1.1 = {
+	h_bristol = town
+	university = university #University founded in Bristol in 1909; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+	
+	capital_holding = h_bristol
+}
