@@ -46,7 +46,7 @@ Item {
 		anchors.top: parent.top
 		anchors.topMargin: 48
 		anchors.horizontalCenter: parent.horizontalCenter
-		holding_slot: province && province.capital_holding ? province.capital_holding.slot : null
+		holding_slot: province && province.capital_holding_slot ? province.capital_holding_slot : null
 		imageWidth: 128
 		imageHeight: 128
 	}

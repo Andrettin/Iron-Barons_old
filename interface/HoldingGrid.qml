@@ -22,7 +22,7 @@ Flickable {
 			model: holding_flickable.holding_model
 
 			Holding {
-				visible: model.modelData !== metternich.selected_province.capital_holding.slot
+				visible: model.modelData !== metternich.selected_province.capital_holding_slot
 				holding_slot: model.modelData
 			}
 		}
