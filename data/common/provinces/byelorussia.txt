@@ -1,9 +1,34 @@
+p_brest_litovsk = {
+	county = c_brest_litovsk
+	color = { 143 107 154 }
+
+	h_brest_litovsk = {
+		barony = b_brest_litovsk
+		type = settlement
+	}
+}
+
 p_grodno = {
 	county = c_grodno
 	color = { 207 172 208 }
 
 	h_grodno = {
 		barony = b_grodno
+		type = settlement
+	}
+
+	h_slonim = {
+		barony = b_slonim
+		type = settlement
+	}
+
+	h_bialystok = {
+		barony = b_bialystok
+		type = settlement
+	}
+
+	h_bielsk = {
+		barony = b_bielsk
 		type = settlement
 	}
 }

@@ -1,6 +1,22 @@
+c_brest_litovsk = {
+	color = { 143 107 154 }
+
+	b_brest_litovsk = {
+	}
+}
+
 c_grodno = {
 	color = { 207 172 208 }
 
 	b_grodno = {
+	}
+
+	b_slonim = {
+	}
+
+	b_bialystok = {
+	}
+
+	b_bielsk = {
 	}
 }

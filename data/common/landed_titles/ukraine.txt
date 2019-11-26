@@ -1,0 +1,6 @@
+c_volhynia = {
+	color = { 161 211 120 }
+
+	b_kovel = {
+	}
+}

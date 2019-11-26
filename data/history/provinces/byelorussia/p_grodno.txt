@@ -4,6 +4,9 @@ religion = orthodox
 	culture = byelorussian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_grodno = town #Grodno existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_slonim = town #Slonim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_bialystok = town #Bialystok existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_bielsk = town #Bielsk existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	fort = fort #Grodno had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_grodno

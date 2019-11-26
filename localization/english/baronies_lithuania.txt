@@ -1,3 +1,4 @@
 b_rossieny = "Rossieny"
 b_vilkomir = "Vilkomir"
 b_vilnius = "Vilnius"
+b_vilnius_russian = "Vilna"

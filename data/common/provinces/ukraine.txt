@@ -1,0 +1,9 @@
+p_volhynia = {
+	county = c_volhynia
+	color = { 161 211 120 }
+
+	h_kovel = {
+		barony = b_kovel
+		type = settlement
+	}
+}

@@ -1,1 +1,5 @@
+b_bialystok = "Bialystok"
+b_bielsk = "Bielsk"
+b_brest_litovsk = "Brest-Litovsk"
 b_grodno = "Grodno"
+b_slonim = "Slonim"

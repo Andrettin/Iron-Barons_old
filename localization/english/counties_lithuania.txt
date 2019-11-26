@@ -1,2 +1,3 @@
 c_kaunas = "Kaunas"
 c_vilnius = "Vilnius"
+c_vilnius_russian = "Vilna"
