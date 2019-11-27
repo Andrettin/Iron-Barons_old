@@ -17,6 +17,7 @@ religion = catholic
 	h_schwechat = village #Schwechat existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_frohsdorf = village #Frohsdorf existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_schonbrunn = aristocratic_palace
+	university += engineering_college #Imperial Polytechnic Institute of Vienna founded in 1815; Source: Silvia Fernanda de Mendonça Figueirôa, "Ciência e tecnologia no Brasil Imperial: Guilherme Schüch, Barão de Capanema (1824-1908)", 2005, p. 442.
 	
 	capital_holding = h_vienna
 }

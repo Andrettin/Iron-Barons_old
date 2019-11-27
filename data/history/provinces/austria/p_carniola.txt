@@ -3,8 +3,8 @@ religion = catholic
 1815.1.1 = {
 	culture = slovene #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_laibach = town #Laibach was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_adelsberg = village #Adelsberg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_laibach = town #Laibach existed as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 86.
+	h_adelsberg = village #Adelsberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_laibach
 }
