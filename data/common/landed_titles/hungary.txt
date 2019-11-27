@@ -44,6 +44,23 @@ c_burgenland = {
 	}
 }
 
+c_fejer = {
+	de_jure_liege_title = d_hungary
+	color = { 73 22 197 }
+
+	b_buda = {
+	}
+
+	b_szekesfehervar = {
+	}
+
+	b_mor = {
+	}
+
+	b_velencze = {
+	}
+}
+
 c_hungary = {
 	de_jure_liege_title = d_hungary
 	color = { 131 15 15 }
@@ -130,14 +147,6 @@ c_pancsova = {
 	}
 
 	b_werschitz = {
-	}
-}
-
-c_pannonia = {
-	de_jure_liege_title = d_hungary
-	color = { 73 22 197 }
-
-	b_buda = {
 	}
 }
 

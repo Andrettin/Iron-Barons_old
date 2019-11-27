@@ -15,6 +15,7 @@ r_croatia = { #the territory of modern Croatia
 	provinces += p_slavonia
 	provinces += p_vukovar
 	provinces += p_zagreb
+	provinces += p_warasdin
 }
 
 r_serbia = { #the territory of modern Serbia

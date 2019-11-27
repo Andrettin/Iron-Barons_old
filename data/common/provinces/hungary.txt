@@ -38,6 +38,31 @@ p_burgenland = {
 	}
 }
 
+p_fejer = {
+	county = c_fejer
+	color = { 73 22 197 }
+
+	h_buda = {
+		barony = b_buda
+		type = settlement
+	}
+
+	h_szekesfehervar = {
+		barony = b_szekesfehervar
+		type = settlement
+	}
+
+	h_mor = {
+		barony = b_mor
+		type = settlement
+	}
+
+	h_velencze = {
+		barony = b_velencze
+		type = settlement
+	}
+}
+
 p_hungary = {
 	county = c_hungary
 	color = { 57 174 209 }
@@ -159,16 +184,6 @@ p_pancsova = {
 
 	h_werschitz = {
 		barony = b_werschitz
-		type = settlement
-	}
-}
-
-p_pannonia = {
-	county = c_pannonia
-	color = { 73 22 197 }
-
-	h_buda = {
-		barony = b_buda
 		type = settlement
 	}
 }

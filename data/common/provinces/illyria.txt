@@ -143,14 +143,19 @@ p_vukovar = {
 	}
 }
 
-p_zagreb = {
-	county = c_zagreb
-	color = { 183 217 124 }
+p_warasdin = {
+	county = c_warasdin
+	color = { 92 91 155 }
 
 	h_warasdin = {
 		barony = b_warasdin
 		type = settlement
 	}
+}
+
+p_zagreb = {
+	county = c_zagreb
+	color = { 183 217 124 }
 
 	h_zagreb = {
 		barony = b_zagreb

@@ -142,12 +142,17 @@ c_vukovar = {
 	}
 }
 
-c_zagreb = {
+c_warasdin = {
 	de_jure_liege_title = d_croatia
-	color = { 225 14 30 }
+	color = { 92 91 155 }
 
 	b_warasdin = {
 	}
+}
+
+c_zagreb = {
+	de_jure_liege_title = d_croatia
+	color = { 225 14 30 }
 
 	b_zagreb = {
 	}

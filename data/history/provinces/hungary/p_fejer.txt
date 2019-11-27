@@ -1,0 +1,14 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_buda = city #Buda existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_szekesfehervar = town #Székesfehérvár/Stuhlweissenburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_mor = town #Mor existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_velencze = village #Velencze existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Buda had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Székesfehérvár/Stuhlweissenburg had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_buda
+}
