@@ -67,6 +67,7 @@
 /map/earth/provinces/hungary/p_banska_bystrica.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/hungary/p_burgenland.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/hungary/p_fejer.txt (www.naturalearthdata.com) (public domain)
+/map/earth/provinces/hungary/p_gyor.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/hungary/p_hungary.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 /map/earth/provinces/hungary/p_kikinda.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/hungary/p_komarom.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)

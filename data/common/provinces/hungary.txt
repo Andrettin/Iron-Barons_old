@@ -63,6 +63,31 @@ p_fejer = {
 	}
 }
 
+p_gyor = {
+	county = c_gyor
+	color = { 251 103 28 }
+
+	h_gyor = {
+		barony = b_gyor
+		type = settlement
+	}
+
+	h_sopron = {
+		barony = b_sopron
+		type = settlement
+	}
+
+	h_csorna = {
+		barony = b_csorna
+		type = settlement
+	}
+
+	h_wieselburg = {
+		barony = b_wieselburg
+		type = settlement
+	}
+}
+
 p_hungary = {
 	county = c_hungary
 	color = { 57 174 209 }

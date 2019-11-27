@@ -61,6 +61,23 @@ c_fejer = {
 	}
 }
 
+c_gyor = {
+	de_jure_liege_title = d_hungary
+	color = { 251 103 28 }
+
+	b_gyor = {
+	}
+
+	b_sopron = {
+	}
+
+	b_csorna = {
+	}
+
+	b_wieselburg = {
+	}
+}
+
 c_hungary = {
 	de_jure_liege_title = d_hungary
 	color = { 131 15 15 }
