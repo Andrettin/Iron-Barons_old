@@ -46,4 +46,9 @@ p_halifax = {
 		barony = b_yarmouth
 		type = settlement
 	}
+
+	h_shubenacadie = {
+		barony = b_shubenacadie
+		type = settlement
+	}
 }

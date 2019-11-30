@@ -43,4 +43,7 @@ c_halifax = {
 	
 	b_yarmouth = {
 	}
+	
+	b_shubenacadie = {
+	}
 }
