@@ -6,6 +6,11 @@ p_amherstburg = {
 		barony = b_amherstburg
 		type = settlement
 	}
+
+	h_stewiacke = {
+		barony = b_stewiacke
+		type = settlement
+	}
 }
 
 p_cape_breton = {

@@ -1,0 +1,3 @@
+r_north_america = {
+	subregions += r_canada
+}

@@ -15,6 +15,9 @@ c_amherstburg = {
 	
 	b_amherstburg = {
 	}
+	
+	b_stewiacke = {
+	}
 }
 
 c_cape_breton = {

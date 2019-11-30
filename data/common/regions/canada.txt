@@ -1,0 +1,9 @@
+r_canada = {
+	subregions += r_nova_scotia
+}
+
+r_nova_scotia = {
+	provinces += p_amherstburg
+	provinces += p_cape_breton
+	provinces += p_halifax
+}
