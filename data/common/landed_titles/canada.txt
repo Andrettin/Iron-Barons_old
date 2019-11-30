@@ -1,0 +1,24 @@
+c_nova_scotia = {
+	color = { 18 146 209 }
+	
+	b_halifax = {
+	}
+	
+	b_annapolis = {
+	}
+	
+	b_shelburne = {
+	}
+	
+	b_yarmouth = {
+	}
+	
+	b_sydney = {
+	}
+	
+	b_louisbourg = {
+	}
+	
+	b_amherstburg = {
+	}
+}

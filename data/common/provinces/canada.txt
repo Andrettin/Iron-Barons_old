@@ -1,0 +1,39 @@
+p_nova_scotia = {
+	county = c_nova_scotia
+	color = { 18 146 209 }
+
+	h_halifax = {
+		barony = b_halifax
+		type = settlement
+	}
+
+	h_annapolis = {
+		barony = b_annapolis
+		type = settlement
+	}
+
+	h_shelburne = {
+		barony = b_shelburne
+		type = settlement
+	}
+
+	h_yarmouth = {
+		barony = b_yarmouth
+		type = settlement
+	}
+
+	h_sydney = {
+		barony = b_sydney
+		type = settlement
+	}
+
+	h_louisbourg = {
+		barony = b_louisbourg
+		type = settlement
+	}
+
+	h_amherstburg = {
+		barony = b_amherstburg
+		type = settlement
+	}
+}

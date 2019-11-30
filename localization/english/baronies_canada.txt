@@ -1,0 +1,7 @@
+b_amherstburg = "Amherstburg"
+b_annapolis = "Annapolis"
+b_halifax = "Halifax"
+b_louisbourg = "Louisbourg"
+b_shelburne = "Shelburne"
+b_sydney = "Sydney"
+b_yarmouth = "Yarmouth"
