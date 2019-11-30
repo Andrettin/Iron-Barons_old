@@ -121,6 +121,7 @@
 /graphics/flags/d_tyrol.svg (by Jon Harald Søby and W!B, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_upper_austria.svg (by Jon Harald Søby, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_venetia.svg (by F l a n k e r, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/d_wales.svg (by Tobias Jakobs, from the Wikimedia Commons) (licensed under the CC0)
 /graphics/flags/d_westphalia.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_west_prussia.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_wurtemberg.svg (by Sir Iain, from the Wikimedia Commons) (released to the public domain)
