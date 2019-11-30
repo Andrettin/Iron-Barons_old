@@ -1,1 +1,3 @@
-c_nova_scotia = "Nova Scotia"
+c_amherstburg = "Amherstburg"
+c_cape_breton = "Cape Breton"
+c_halifax = "Halifax"

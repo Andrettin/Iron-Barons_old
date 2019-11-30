@@ -1,0 +1,1 @@
+d_nova_scotia = "Nova Scotia"

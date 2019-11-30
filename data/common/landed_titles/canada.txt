@@ -1,4 +1,35 @@
-c_nova_scotia = {
+k_canada = {
+	color = { 221 44 41 }
+	capital_province = p_halifax #should be Ottawa instead
+}
+
+d_nova_scotia = {
+	de_jure_liege_title = k_canada
+	color = { 21 136 202 }
+	capital_province = p_halifax
+}
+
+c_amherstburg = {
+	de_jure_liege_title = d_nova_scotia
+	color = { 36 152 137 }
+	
+	b_amherstburg = {
+	}
+}
+
+c_cape_breton = {
+	de_jure_liege_title = d_nova_scotia
+	color = { 241 182 227 }
+	
+	b_sydney = {
+	}
+	
+	b_louisbourg = {
+	}
+}
+
+c_halifax = {
+	de_jure_liege_title = d_nova_scotia
 	color = { 18 146 209 }
 	
 	b_halifax = {
@@ -11,14 +42,5 @@ c_nova_scotia = {
 	}
 	
 	b_yarmouth = {
-	}
-	
-	b_sydney = {
-	}
-	
-	b_louisbourg = {
-	}
-	
-	b_amherstburg = {
 	}
 }
