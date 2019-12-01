@@ -37,6 +37,7 @@ r_imperial_austria_1809 = { #the territory of the Empire of Austria, 1809-1812
 	provinces += p_fejer
 	provinces += p_gyor
 	provinces += p_tolna
+	provinces += p_zala
 	provinces += p_burgenland
 	subregions += r_slovakia
 	provinces += p_transcarpathia

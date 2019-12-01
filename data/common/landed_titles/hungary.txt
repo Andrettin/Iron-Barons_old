@@ -250,6 +250,14 @@ c_transcarpathia = {
 	}
 }
 
+c_zala = {
+	de_jure_liege_title = d_hungary
+	color = { 78 44 216 }
+
+	b_nagy_kanizsa = {
+	}
+}
+
 c_zilina = {
 	de_jure_liege_title = d_hungary
 	color = { 24 111 43 }

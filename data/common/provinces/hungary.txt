@@ -328,6 +328,16 @@ p_transcarpathia = {
 	}
 }
 
+p_zala = {
+	county = c_zala
+	color = { 78 44 216 }
+
+	h_nagy_kanizsa = {
+		barony = b_nagy_kanizsa
+		type = settlement
+	}
+}
+
 p_zilina = {
 	county = c_zilina
 	color = { 24 111 43 }
