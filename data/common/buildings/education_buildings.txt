@@ -6,7 +6,6 @@ library = {
 	holding_types += university
 	construction_days = 365
 	icon_tag = book
-	icon_folder = items
 }
 
 engineering_college = {
@@ -14,7 +13,6 @@ engineering_college = {
 	holding_types += university
 	construction_days = 730
 	icon_tag = diploma
-	icon_folder = items
 	
 	conditions = {
 		or = {
@@ -33,7 +31,6 @@ law_college = {
 	holding_types += university
 	construction_days = 730
 	icon_tag = diploma
-	icon_folder = items
 	
 	conditions = {
 		or = {
@@ -52,7 +49,6 @@ philosophy_college = {
 	holding_types += university
 	construction_days = 730
 	icon_tag = diploma
-	icon_folder = items
 	
 	conditions = {
 		or = {
@@ -71,7 +67,6 @@ theology_college = {
 	holding_types += university
 	construction_days = 730
 	icon_tag = diploma
-	icon_folder = items
 	
 	conditions = {
 		or = {

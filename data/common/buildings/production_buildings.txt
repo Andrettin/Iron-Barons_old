@@ -9,7 +9,6 @@ cattle_ranch = {
 	employment_type = cattle_ranching
 	workforce = 100000
 	icon_tag = cattle
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = cattle
@@ -27,7 +26,6 @@ coal_mine = {
 	employment_type = coal_mining
 	workforce = 100000
 	icon_tag = coal
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = coal
@@ -45,7 +43,6 @@ coffee_plantation = {
 	employment_type = coffee_planting
 	workforce = 100000
 	icon_tag = coffee
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = coffee
@@ -63,7 +60,6 @@ cotton_plantation = {
 	employment_type = cotton_planting
 	workforce = 100000
 	icon_tag = cotton
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = cotton
@@ -81,7 +77,6 @@ grain_farm = {
 	employment_type = grain_farming
 	workforce = 100000
 	icon_tag = grain
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = grain
@@ -99,7 +94,6 @@ horse_ranch = {
 	employment_type = horse_ranching
 	workforce = 100000
 	icon_tag = horses
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = horses
@@ -117,7 +111,6 @@ iron_mine = {
 	employment_type = iron_mining
 	workforce = 100000
 	icon_tag = iron
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = iron
@@ -135,7 +128,6 @@ orchard = {
 	employment_type = fruit_growing
 	workforce = 100000
 	icon_tag = fruit
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = fruit
@@ -153,7 +145,6 @@ salt_mine = {
 	employment_type = salt_mining
 	workforce = 100000
 	icon_tag = salt
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = salt
@@ -171,7 +162,6 @@ sheep_ranch = {
 	employment_type = sheep_ranching
 	workforce = 100000
 	icon_tag = wool
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = wool
@@ -189,7 +179,6 @@ stone_quarry = {
 	employment_type = stone_quarrying
 	workforce = 100000
 	icon_tag = stone
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = stone
@@ -207,7 +196,6 @@ sugar_cane_plantation = {
 	employment_type = sugar_cane_planting
 	workforce = 100000
 	icon_tag = sugar_cane
-	icon_folder = commodities
 	
 	preconditions = {
 		commodity = sugar_cane
