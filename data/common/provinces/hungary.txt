@@ -28,6 +28,16 @@ p_banska_bystrica = {
 	}
 }
 
+p_baranya = {
+	county = c_baranya
+	color = { 50 10 55 }
+
+	h_pecs = {
+		barony = b_pecs
+		type = settlement
+	}
+}
+
 p_burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }

@@ -36,6 +36,14 @@ c_banska_bystrica = {
 	}
 }
 
+c_baranya = {
+	de_jure_liege_title = d_hungary
+	color = { 50 10 55 }
+
+	b_pecs = {
+	}
+}
+
 c_burgenland = {
 	de_jure_liege_title = d_hungary
 	color = { 255 165 0 }
