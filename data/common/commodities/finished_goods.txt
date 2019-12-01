@@ -6,6 +6,10 @@ furniture = {
 	base_price = 4.0
 }
 
+refined_sugar = {
+	base_price = 3.0
+}
+
 tools = {
 	base_price = 4.0
 }

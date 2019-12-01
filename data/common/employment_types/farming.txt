@@ -32,6 +32,12 @@ cattle_ranching = {
 	output_value = 1
 }
 
+coffee_planting = {
+	template = farming_template
+	output_commodity = coffee
+	output_value = 1
+}
+
 cotton_planting = {
 	template = farming_template
 	output_commodity = cotton
@@ -59,5 +65,11 @@ horse_ranching = {
 sheep_ranching = {
 	template = farming_template
 	output_commodity = wool
+	output_value = 1
+}
+
+sugar_cane_planting = {
+	template = farming_template
+	output_commodity = sugar_cane
 	output_value = 1
 }

@@ -31,6 +31,19 @@ coal = {
 	}
 }
 
+coffee = {
+	base_price = 1.0
+	
+	chance = {
+		factor = 2.5
+		
+		modifier = {
+			factor = 0
+			NOT = { terrain = plains }
+		}
+	}
+}
+
 copper = {
 	base_price = 1.0
 	
@@ -193,6 +206,19 @@ stone = {
 				terrain = hills
 				terrain = mountains
 			}
+		}
+	}
+}
+
+sugar_cane = {
+	base_price = 1.0
+	
+	chance = {
+		factor = 2.5
+		
+		modifier = {
+			factor = 0
+			NOT = { terrain = plains }
 		}
 	}
 }
