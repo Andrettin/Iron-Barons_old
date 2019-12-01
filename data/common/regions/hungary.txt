@@ -4,6 +4,7 @@ r_royal_hungary = {
 	provinces += p_fejer
 	provinces += p_gyor
 	provinces += p_tolna
+	provinces += p_vas
 	provinces += p_zala
 	provinces += p_burgenland
 	subregions += r_slovakia
@@ -29,6 +30,7 @@ r_hungary = { #the territory of modern Hungary
 	provinces += p_fejer
 	provinces += p_gyor
 	provinces += p_tolna
+	provinces += p_vas
 	provinces += p_zala
 }
 
@@ -38,6 +40,7 @@ r_hungary_croatia_slavonia = { #excludes the military frontier
 	provinces += p_fejer
 	provinces += p_gyor
 	provinces += p_tolna
+	provinces += p_vas
 	provinces += p_zala
 	provinces += p_burgenland
 	subregions += r_slovakia

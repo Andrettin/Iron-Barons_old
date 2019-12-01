@@ -328,6 +328,16 @@ p_transcarpathia = {
 	}
 }
 
+p_vas = {
+	county = c_vas
+	color = { 171 56 71 }
+
+	h_szombathely = {
+		barony = b_szombathely
+		type = settlement
+	}
+}
+
 p_zala = {
 	county = c_zala
 	color = { 78 44 216 }
