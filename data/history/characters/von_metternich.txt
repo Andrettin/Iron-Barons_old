@@ -1,0 +1,99 @@
+10000314 = { #Franz Georg Karl von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
+	name = "Franz Georg Karl"
+	dynasty = von_metternich
+	culture = german
+	religion = catholic
+	1746.3.9 = {
+		birth = yes
+	}
+	1771.1.9 = { #married on 1771.1.9 to Marie Beatrix von Kageneck
+		spouse = 10000588 #Marie Beatrix von Kageneck
+	}
+	#became imperial prince ("Reichfürst") of Metternich-Winneburg on 1803.6
+	1816.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+		death = yes
+	}
+}
+
+10000313 = { #Pauline von Metternich; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	name = "Pauline"
+	dynasty = von_metternich
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000314 #Franz Georg Karl von Metternich
+	mother = 10000588 #Marie Beatrix von Kageneck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
+	1771.11.22 = {
+		birth = yes
+	}
+	1817.2.23 = {
+		spouse = 10000312 #married on 1817.2.23 to Ferdinand August Friedrich von Württemberg
+	}
+	1851.1.1 = { #unknown, set to 80 years after birth (cannot be 60 as she was alive in 1847)
+		death = yes
+	}
+}
+
+10000590 = { #Clemens Wenceslaus Lothar von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
+	name = "Clemens Wenceslaus Lothar"
+	dynasty = von_metternich
+	culture = german
+	religion = catholic
+	father = 10000314 #Franz Georg Karl von Metternich
+	mother = 10000588 #Marie Beatrix von Kageneck
+	1773.5.15 = {
+		birth = yes
+	}
+	1795.9.27 = { #married on 1795.9.27 to Marie Eleonore, daughter of prince Ernst of Kaunitz-Rietberg
+		spouse = 10000591 #Marie Eleonore von Kaunitz
+	}
+	1833.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000595 = { #Joseph von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
+	name = "Joseph"
+	dynasty = von_metternich
+	culture = german
+	religion = catholic
+	father = 10000314 #Franz Georg Karl von Metternich
+	mother = 10000588 #Marie Beatrix von Kageneck
+	1774.11.14 = {
+		birth = yes
+	}
+	1834.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000593 = { #Marie Leopoldine von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
+	name = "Marie Leopoldine"
+	dynasty = von_metternich
+	culture = german
+	religion = catholic
+	female = yes
+	father = 10000590 #Clemens Wenceslaus Lothar von Metternich
+	mother = 10000591 #Marie Eleonore von Kaunitz
+	1797.1.17 = {
+		birth = yes
+	}
+	1857.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000594 = { #Franz Karl Victor von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
+	name = "Franz Karl Victor"
+	dynasty = von_metternich
+	culture = german
+	religion = catholic
+	father = 10000590 #Clemens Wenceslaus Lothar von Metternich
+	mother = 10000591 #Marie Eleonore von Kaunitz
+	1803.1.15 = {
+		birth = yes
+	}
+	1863.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

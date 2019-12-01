@@ -130,6 +130,14 @@ von_holstein_gottorp_oldenburg = {
 	culture = german
 }
 
+von_kageneck = {
+	culture = german
+}
+
+von_kaunitz = {
+	culture = german
+}
+
 von_kesselstatt = {
 	culture = german
 }
@@ -158,6 +166,10 @@ von_mensdorf = {
 	culture = german
 }
 
+von_metternich = {
+	culture = german
+}
+
 von_nassau_usingen = {
 	culture = german
 }
@@ -175,6 +187,10 @@ von_reuss_greiz = {
 }
 
 von_reuss_zu_ebersdorf = {
+	culture = german
+}
+
+von_reuss_schleiz_kostritz = {
 	culture = german
 }
 

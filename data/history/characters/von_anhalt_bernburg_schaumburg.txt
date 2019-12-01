@@ -96,15 +96,16 @@
 	dynasty = von_anhalt_bernburg_schaumburg
 	culture = german
 	religion = protestant
-	female = yes
+	female = true
 	father = 10000338 #Prince Victor Karl Friedrich of Anhalt-Bernburg-Schaumburg
 	mother = 10000493 #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	1797.12.2 = { #born on 1797.12.2; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
-		birth = yes
+		birth = true
 	}
 	#owner of the county of Holzappel and the lordship of Schaumburg as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	1817.9.14 = {
-		death = { death_reason = death_childbirth } #died on the same day her son was born
+		#death = { death_reason = death_childbirth } #died on the same day her son was born
+		death = true
 	}
 }
 
