@@ -1,7 +1,7 @@
 10000618 = { #Karl Ludwig Friederich von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
 	name = "Karl Ludwig Friederich"
 	dynasty = von_mecklenburg_strelitz
-	culture = german
+	culture = saxon
 	religion = protestant
 	1711.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000617 = { #Sophie Charlotte von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
 	name = "Sophie Charlotte"
 	dynasty = von_mecklenburg_strelitz
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000618 #Karl Ludwig Friederich von Mecklenburg-Strelitz
@@ -33,7 +33,7 @@
 10000455 = { #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 	name = "Charlotte Georgine"
 	dynasty = von_mecklenburg_strelitz
-	culture = german
+	culture = saxon
 	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 	female = yes
 	1765.1.1 = { #unknown, set to 20 years before marriage
@@ -50,7 +50,7 @@
 10000009 = { #Luise Auguste von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 42.
 	name = "Luise Auguste"
 	dynasty = von_mecklenburg_strelitz
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000618 #Karl Ludwig Friederich von Mecklenburg-Strelitz

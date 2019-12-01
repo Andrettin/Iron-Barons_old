@@ -1,7 +1,7 @@
 10000458 = { #Sophie von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	name = "Sophie"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
@@ -23,7 +23,7 @@
 10000175 = { #Juliane von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Juliane"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
@@ -45,7 +45,7 @@
 10000170 = { #Ernst I zu Sachsen-Coburg-Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Ernst"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
@@ -70,7 +70,7 @@
 10000180 = { #Ferdinand von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Ferdinand"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
@@ -99,7 +99,7 @@
 10000197 = { #Victoria von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	name = "Victoria"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
@@ -118,7 +118,7 @@
 10000107 = { #Leopold I of Belgium; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3, 17.
 	name = "Leopold"
 	dynasty = zu_sachsen_coburg_und_gotha
-	culture = german
+	culture = thuringian
 	religion = catholic
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	mother = 10000460 #Auguste Karoline von Reuss zu Ebersdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
@@ -147,7 +147,7 @@
 10000183 = { #Ferdinand von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Ferdinand"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
 	mother = 10000181 #Antoinette Kohary
@@ -169,7 +169,7 @@
 10000169 = { #Ernst II zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Ernst"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000170 #Ernst I zu Sachsen-Coburg und Gotha
 	mother = 10000171 #Louise von Sachsen-Gotha-Altenburg
@@ -191,7 +191,7 @@
 10000116 = { #Albert zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2, 30.
 	name = "Albert"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000170 #Ernst I zu Sachsen-Coburg und Gotha
 	mother = 10000171 #Louise von Sachsen-Gotha-Altenburg
@@ -212,7 +212,7 @@
 10000185 = { #August von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "August"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
 	mother = 10000181 #Antoinette Kohary
@@ -240,7 +240,7 @@
 10000195 = { #Victoria von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	name = "Victoria"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
@@ -260,7 +260,7 @@
 10000196 = { #Leopold von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	name = "Leopold"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000180 #Ferdinand von Sachsen-Saalfeld-Coburg
 	mother = 10000181 #Antoinette Kohary
@@ -286,7 +286,7 @@
 10000192 = { #Philipp zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Philipp"
 	dynasty = zu_sachsen_coburg_und_gotha
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000185 #August von Sachsen-Saalfeld-Coburg
 	mother = 10000186 #Clémentine d'Orléans
@@ -301,7 +301,7 @@
 10000193 = { #August zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	name = "August"
 	dynasty = zu_sachsen_coburg_und_gotha
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000185 #August von Sachsen-Saalfeld-Coburg
 	mother = 10000186 #Clémentine d'Orléans
@@ -316,7 +316,7 @@
 10000194 = { #Maria zu Sachsen-Coburg und Gotha; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	name = "Maria"
 	dynasty = zu_sachsen_coburg_und_gotha
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000185 #August von Sachsen-Saalfeld-Coburg

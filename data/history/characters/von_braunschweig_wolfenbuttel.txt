@@ -1,7 +1,7 @@
 10000557 = { #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
 	name = "Karl Wilhelm Ferdinand"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	1746.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000563 = { #Sophie Karoline Marie von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
 	name = "Sophie Karoline Marie"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	#sister of Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
@@ -31,7 +31,7 @@
 10000564 = { #Elisabeth Ulrike von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
 	name = "Elisabeth Ulrike"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	#sister of Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
@@ -50,7 +50,7 @@
 10000560 = { #Karl Georg August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
 	name = "Karl Georg August"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
 	1767.1.1 = { #unknown, set to one year before the birth of his oldest known sibling
@@ -66,7 +66,7 @@
 10000558 = { #Karoline Amalie Elisabeth von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
 	name = "Karoline Amalie Elisabeth"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
@@ -82,7 +82,7 @@
 10000559 = { #August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
 	name = "August"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
 	1769.6.17 = {
@@ -96,7 +96,7 @@
 10000553 = { #Wilhelm Friedrich von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
 	name = "Wilhelm Friedrich"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000557 #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel
 	1770.10.9 = {
@@ -113,7 +113,7 @@
 10000555 = { #Karl Friedrich August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
 	name = "Karl Friedrich August"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000553 #Wilhelm Friedrich von Braunschweig-Wolfenbüttel
 	mother = 10000554 #Marie Elisabeth Wilhelmine von Zähringen
@@ -126,9 +126,9 @@
 }
 
 10000556 = { #Karl Maximilian Friederich von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
-	name = "Karl Maximilian Friederich"
+	name = "Karl Maximilian" #"Karl Maximilian Friederich"
 	dynasty = von_braunschweig_wolfenbuttel
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000553 #Wilhelm Friedrich von Braunschweig-Wolfenbüttel
 	mother = 10000554 #Marie Elisabeth Wilhelmine von Zähringen

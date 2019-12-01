@@ -1,0 +1,98 @@
+10000410 = { #Anna von Braunschweig; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	name = "Anna"
+	dynasty = von_braunschweig
+	culture = saxon
+	religion = catholic
+	female = yes
+	1397.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#married Friedrich IV of Austria, and had her son Sigmund with him in 1427; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
+	1457.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000766 = { #Gottl. von Richthofen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Gottlieb"
+	dynasty = von_richthofen
+	culture = saxon
+	religion = protestant #lutheran
+	1748.1.1 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#baron of Richthofen
+	#married to Elisabeth Charlotte Friederike von Holstein-Beck
+	1808.2.25 = {
+		death = yes
+	}
+}
+
+10000512 = { #Johann Heinrich von Hochberg zu Fürstenstein; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
+	name = "Johann Heinrich"
+	dynasty = von_hochberg_zu_furstenstein
+	culture = saxon
+	religion = protestant
+	1761.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	1791.5.20 = { #married on 1791.5.20 to Anne Emilie von Anhalt-Pless
+		spouse = 10000511 #Anne Emilie von Anhalt-Pless
+	}
+	#duke of Hochberg zu Fürstenstein, as Johann Heinrich VI
+	1821.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000755 = { #Sophie Eleonore von Scheel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
+	name = "Sophie Eleonore"
+	dynasty = von_scheel
+	culture = saxon
+	religion = protestant #lutheran #presumably, given her husband's religion)
+	female = yes
+	#daughter of the baron of Scheel (a royal Danish minister of state)
+	1778.12.26 = {
+		birth = yes
+	}
+	#married in to Friederich Karl Emil von Holstein-Sonderburg-Augustenburg
+	1838.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000371 = { #Julia von Brandenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
+	name = "Julia"
+	dynasty = von_brandenburg
+	culture = saxon
+	religion = catholic
+	female = yes
+	1793.1.4 = {
+		birth = yes
+	}
+	1816.5.20 = {
+		spouse = 10000368 #married on 1816.5.20 to Ferdinand von Anhalt-Pless
+	}
+	#widowed on 1830.8.23
+	1854.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000359 = { #Emilie von Stolzenberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
+	name = "Emilie"
+	dynasty = von_stolzenberg
+	culture = saxon
+	religion = protestant
+	female = yes
+	1812.1.31 = {
+		birth = yes
+	}
+	1840.7.9 = {
+		spouse = 10000358 #married on 1840.7.9 to Wilhelm Woldemar von Anhalt-Dessau
+	}
+	#baroness of Stolzenberg as of 1847
+	1872.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

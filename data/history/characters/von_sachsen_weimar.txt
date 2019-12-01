@@ -1,7 +1,7 @@
 10000466 = { #Ernst August von Sachsen-Weimar-Eisenach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
 	name = "Ernst August"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	1698.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -14,7 +14,7 @@
 10000237 = { #Karl August von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "Karl August"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000466 #Ernst August von Sachsen-Weimar-Eisenach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
 	1757.9.3 = {
@@ -32,7 +32,7 @@
 10000236 = { #Karl Friedrich von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "Karl Friedrich"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000237 #Karl August von Sachsen-Weimar-Eisenach
 	mother = 10000467 #Luise von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
@@ -55,7 +55,7 @@
 10000469 = { #Karoline Luise von Sachsen-Weimar-Eisenach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
 	name = "Karoline Luise"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000237 #Karl August von Sachsen-Weimar-Eisenach
@@ -71,7 +71,7 @@
 10000212 = { #Bernhard von Sachsen-Weimar; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
 	name = "Bernhard"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000237 #Karl August von Sachsen-Weimar-Eisenach
 	mother = 10000467 #Luise von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
@@ -96,7 +96,7 @@
 10000239 = { #Marie von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "Marie"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000236 #Karl Friedrich von Sachsen-Weimar-Eisenach
@@ -113,7 +113,7 @@
 10000241 = { #Auguste von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "Auguste"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000236 #Karl Friedrich von Sachsen-Weimar-Eisenach
@@ -130,7 +130,7 @@
 10000242 = { #Karl von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "Karl"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000236 #Karl Friedrich von Sachsen-Weimar-Eisenach
 	mother = 10000238 #Maria Paulowna, daughter of Emperor Paul I of Russia
@@ -156,7 +156,7 @@
 10000244 = { #August von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "August"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000242 #Karl von Sachsen-Weimar-Eisenach
 	mother = 10000243 #Sophie van Oranje-Nassau
@@ -171,7 +171,7 @@
 10000245 = { #Eduard von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 5-6.
 	name = "Eduard"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000212 #Bernhard von Sachsen-Weimar
 	mother = 10000211 #Ida von Sachsen-Meiningen
@@ -194,7 +194,7 @@
 10000246 = { #Hermann von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 5-6.
 	name = "Hermann"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000212 #Bernhard von Sachsen-Weimar
 	mother = 10000211 #Ida von Sachsen-Meiningen
@@ -217,7 +217,7 @@
 10000252 = { #Gustav von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 5-6.
 	name = "Gustav"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000212 #Bernhard von Sachsen-Weimar
 	mother = 10000211 #Ida von Sachsen-Meiningen
@@ -235,7 +235,7 @@
 10000253 = { #Anna von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 5-6.
 	name = "Anna"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000212 #Bernhard von Sachsen-Weimar
@@ -251,7 +251,7 @@
 10000254 = { #Amélie von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 5-6.
 	name = "Amélie"
 	dynasty = von_sachsen_weimar_eisenach
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000212 #Bernhard von Sachsen-Weimar

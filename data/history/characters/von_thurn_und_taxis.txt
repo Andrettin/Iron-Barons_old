@@ -1,7 +1,7 @@
 10000296 = { #Sophie von Thurn und Taxis; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
 	name = "Sophie"
 	dynasty = von_thurn_und_taxis
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	1800.3.4 = {

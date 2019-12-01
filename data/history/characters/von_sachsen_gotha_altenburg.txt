@@ -1,7 +1,7 @@
 10000430 = { #Duke Ernst II of Saxe-Gotha; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
 	name = "Ernst"
 	dynasty = von_sachsen_gotha_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
 	1744.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -17,7 +17,7 @@
 10000172 = { #Duke August von Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	name = "August"
 	dynasty = von_sachsen_gotha_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-3.
 	father = 10000430 #Duke Ernst II of Saxe-Gotha; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
 	mother = 10000432 #Maria Charlotte von Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
@@ -40,7 +40,7 @@
 10000201 = { #Friedrich von Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1-2; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Friedrich"
 	dynasty = von_sachsen_gotha_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	father = 10000430 #Duke Ernst II of Saxe-Gotha; presumaby, as Friedrich was the brother of duke August; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
 	mother = 10000432 #Maria Charlotte von Sachsen-Meiningen; presumaby, as Friedrich was the brother of duke August; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.
@@ -56,7 +56,7 @@
 10000171 = { #Luise von Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 1; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 	name = "Luise"
 	dynasty = von_sachsen_gotha_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000172 #Duke August of Sachsen-Gotha-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.

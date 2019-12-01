@@ -13,6 +13,54 @@
 	}
 }
 
+10000393 = { #Jakob Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	name = "Jakob"
+	dynasty = fugger
+	culture = swabian
+	religion = catholic
+	#give_nickname = nick_the_wealthy #known as "the Rich"; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	#trait = midas_touched #renowned merchant, entrepreneur and banker; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	traits += administrator
+	1459.1.1 = { #born in 1459; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		birth = yes
+	}
+	1525.1.1 = { #died in 1525; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		death = yes
+	}
+}
+
+10000394 = { #Anton Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	name = "Anton"
+	dynasty = fugger
+	culture = swabian
+	religion = catholic
+	#trait = midas_touched #the Fugger family fortune reach its peak under Anton Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	1493.1.1 = { #born in 1493; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		birth = yes
+	}
+	#nephew of Jakob Fugger; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+	1560.1.1 = { #died in 1560; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 60.
+		death = yes
+	}
+}
+
+10000257 = { #Alfred von Neipperg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 80.
+	name = "Alfred"
+	dynasty = von_neipperg
+	culture = swabian
+	religion = protestant
+	1810.10.30 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1840.3.19 = { #married on 1840.3.19 to Maria von Württemberg
+		spouse = 10000255 #Maria von Württemberg
+	}
+	#count of Neipperg as of 1847
+	1870.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
 10000311 = { #Mr. von Taubenheim, the grand-écuyer of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
 	dynasty = von_taubenheim
 	culture = swabian

@@ -1,7 +1,7 @@
 10000669 = { #Albrecht von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 	name = "Albrecht"
 	dynasty = von_hohenlohe_langenburg
-	culture = german
+	culture = swabian
 	religion = protestant
 	1747.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000671 = { #Karl Ludwig von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
 	name = "Karl Ludwig"
 	dynasty = von_hohenlohe_langenburg
-	culture = german
+	culture = swabian
 	religion = protestant
 	1762.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -27,9 +27,9 @@
 }
 
 10000670 = { #Elisabeth Eleonore Charlotte von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
-	name = "Elisabeth Eleonore Charlotte"
+	name = "Elisabeth Eleonore" #"Elisabeth Eleonore Charlotte"
 	dynasty = von_hohenlohe_langenburg
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	father = 10000671 #Karl Ludwig von Hohenlohe-Langenburg
@@ -47,7 +47,7 @@
 10000205 = { #Luise von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Luise"
 	dynasty = von_hohenlohe_langenburg
-	culture = german
+	culture = swabian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	female = yes
 	father = 10000669 #Albrecht von Hohenlohe-Langenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
@@ -69,7 +69,7 @@
 10000282 = { #Helena von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
 	name = "Helena"
 	dynasty = von_hohenlohe_langenburg
-	culture = german
+	culture = swabian
 	religion = protestant
 	female = yes
 	1807.11.22 = {

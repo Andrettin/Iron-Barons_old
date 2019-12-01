@@ -1,7 +1,7 @@
 10000515 = { #Victor Friederich von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 8-9.
 	name = "Victor Friederich"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	1714.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000488 = { #Friedrich Albert von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	name = "Friedrich Albert"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000515 #Victor Friederich von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 8-9.
 	1736.1.1 = { #unknown, set to 60 years before death
@@ -30,7 +30,7 @@
 10000491 = { #Friederike Auguste von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6-7.
 	name = "Friederike Auguste"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000515 #Victor Friederich von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 8-9.
@@ -47,7 +47,7 @@
 10000492 = { #Christine Elisabeth von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6-7.
 	name = "Christine Elisabeth"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000515 #Victor Friederich von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 8-9.
@@ -62,7 +62,7 @@
 10000363 = { #Alexius von Anhalt-Bernburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Alexius"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000488 #Friedrich Albert von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	1767.6.12 = {
@@ -81,7 +81,7 @@
 10000490 = { #Pauline Christine von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6-7.
 	name = "Pauline Christine"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000488 #Friedrich Albert von Anhalt-Bernburg
@@ -97,7 +97,7 @@
 10000365 = { #Luise von Anhalt-Bernburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Luise"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000363 #Alexis von Anhalt-Bernburg
@@ -114,7 +114,7 @@
 10000362 = { #Alexander Karl von Anhalt-Bernburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Alexander Karl"
 	dynasty = von_anhalt_bernburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000363 #Alexis von Anhalt-Bernburg
 	mother = 10000489 #Marie Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6-7.

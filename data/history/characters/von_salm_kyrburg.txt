@@ -1,7 +1,7 @@
 10000743 = { #Philipp Joseph von Salm-Kyrburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 25.
 	name = "Philipp Joseph"
 	dynasty = von_salm_kyrburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	1732.1.1 = { #unknown, set to 30 years before the birth of his first known child
 		birth = yes
@@ -15,7 +15,7 @@
 10000742 = { #Amalie Zephyrine von Salm-Kyrburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 24-25.
 	name = "Amalie Zephyrine"
 	dynasty = von_salm_kyrburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000743 #Philipp Joseph von Salm-Kyrburg

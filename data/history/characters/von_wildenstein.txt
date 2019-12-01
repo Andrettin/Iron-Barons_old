@@ -1,7 +1,7 @@
 10000723 = { #Marie Therese von Wildenstein; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Marie Therese"
 	dynasty = von_wildenstein
-	culture = german
+	culture = franconian
 	religion = catholic
 	female = yes
 	1757.1.1 = { #unknown, set to 30 years before marriage

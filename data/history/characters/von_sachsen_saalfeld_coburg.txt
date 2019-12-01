@@ -1,7 +1,7 @@
 10000463 = { #Friedrich Josias von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 3-4.
 	name = "Friedrich Josias"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	#brother of Ernst von Sachsen-Saalfeld-Coburg's grandfather
 	#trait = tough_soldier
@@ -22,7 +22,7 @@
 10000457 = { #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	name = "Franz"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	1746.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -38,7 +38,7 @@
 10000462 = { #Karoline Ulrike von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	name = "Karoline Ulrike"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	#sister of Franz von Sachsen-Saalfeld-Coburg
@@ -57,7 +57,7 @@
 10000315 = { #Antoinette Ernestine Amalie von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
 	name = "Antoinette Ernestine Amalie"
 	dynasty = von_sachsen_saalfeld_coburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000457 #Franz von Sachsen-Saalfeld-Coburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.

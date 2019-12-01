@@ -1,7 +1,7 @@
 10000370 = { #Heinrich von Reuss-Schleiz-Köstritz; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
 	name = "Heinrich"
 	dynasty = von_reuss_schleiz_kostritz
-	culture = german
+	culture = thuringian
 	religion = protestant
 	1764.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -13,9 +13,9 @@
 }
 
 10000369 = { #Auguste Friederike Espérance von Reuss-Schleiz-Köstritz; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
-	name = "Auguste Friederike Espérance"
+	name = "Auguste Friederike" #"Auguste Friederike Espérance"
 	dynasty = von_reuss_schleiz_kostritz
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000370 #Heinrich von Reuss-Schleiz-Köstritz

@@ -1,7 +1,7 @@
 10000508 = { #Heinrich Ernst von Stollberg-Wernigerode; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Heinrich Ernst"
 	dynasty = von_stollberg_wernigerode
-	culture = german
+	culture = saxon
 	religion = protestant
 	1719.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -14,7 +14,7 @@
 10000507 = { #Luise Ferdinande von Stollberg-Wernigerode; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Luise Ferdinande"
 	dynasty = von_stollberg_wernigerode
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000508 #Heinrich Ernst von Stollberg-Wernigerode

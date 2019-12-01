@@ -1,7 +1,7 @@
 10000772 = { #Friederich August von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Friederich August"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	1725.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000774 = { #Georg Ludwig von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Georg Ludwig"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	#brother of Friederich August von Holstein-Gottorp-Oldenburg
 	1725.1.1 = { #unknown, set to 30 years before the birth of his son
@@ -32,7 +32,7 @@
 10000771 = { #Peter Friederich Wilhelm von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Peter Friederich Wilhelm"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	father = 10000772 #Friederich August von Holstein-Gottorp-Oldenburg
 	1754.1.3 = {
@@ -48,7 +48,7 @@
 10000773 = { #Hedwig Elisabeth Charlotte von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Hedwig Elisabeth Charlotte"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	female = yes
 	father = 10000772 #Friederich August von Holstein-Gottorp-Oldenburg
@@ -63,7 +63,7 @@
 10000776 = { #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Peter Friederich Ludwig"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	father = 10000774 #Georg Ludwig von Holstein-Gottorp-Oldenburg
 	mother = 10000775 #Sophie Charlotte von Holstein-Beck
@@ -88,7 +88,7 @@
 10000779 = { #Paul Friederich August von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Paul Friederich August"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	father = 10000776 #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
 	mother = 10000777 #Friederike Elisabeth Amalie von Württemberg
@@ -103,7 +103,7 @@
 10000780 = { #Peter Friederich Georg von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Peter Friederich Georg"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	father = 10000776 #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
 	mother = 10000777 #Friederike Elisabeth Amalie von Württemberg
@@ -119,9 +119,9 @@
 }
 
 10000781 = { #Peter Georg Paul von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Peter Georg Paul"
+	name = "Peter Georg" #"Peter Georg Paul"
 	dynasty = von_holstein_gottorp_oldenburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	father = 10000780 #Peter Friederich Georg von Holstein-Gottorp-Oldenburg
 	mother = 10000249 #Catherine Romanov

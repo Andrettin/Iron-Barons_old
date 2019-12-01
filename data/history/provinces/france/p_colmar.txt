@@ -6,7 +6,7 @@ religion = catholic
 }
 
 1815.1.1 = {
-	culture = german #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	culture = alsatian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_colmar = city #Colmar existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_mulhausen = city #Mülhausen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

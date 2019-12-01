@@ -1,0 +1,15 @@
+10000141 = { #Triangel Fuchs; Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs nach dem Oriente und nach Ostindien in der ersten Hälfte des 18. Jahrhunderts", 1900, pp. 50-51.
+	name = "Triangel"
+	dynasty = fuchs
+	culture = bavarian #correct?
+	religion = catholic
+	#trait = indulgent_wastrel #since he suffered failures in Vienna, and was the director of a short-lived company
+	1634.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#German merchant, suffered failures in Vienna
+	#was one of the two directors of Austria's oriental company, which was founded in 1664
+	1694.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}

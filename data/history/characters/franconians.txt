@@ -1,0 +1,32 @@
+10000530 = { #Luise Karoline Geyer von Geyersberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Luise Karoline"
+	dynasty = geyer_von_geyersberg
+	culture = franconian
+	religion = protestant
+	female = yes
+	1768.5.26 = {
+		birth = yes
+	}
+	#countess of Hochberg as of 1815
+	1790.8.29 = { #second wife of Karl Friedrich von Zähringen, having her first child with him on 1790.8.29
+		spouse = 10000517 #Karl Friedrich von Zähringen
+	}
+	1828.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}
+
+10000736 = { #Karoline von Weiher; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
+	name = "Karoline"
+	dynasty = von_weiher
+	culture = franconian
+	religion = catholic
+	female = yes
+	1775.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	#married on 1805.7.29 to Hermann von Hohenzollern-Hechingen
+	1835.1.1 = { #unknown, set to 30 years after marriage
+		death = yes
+	}
+}

@@ -1,4 +1,0 @@
-german = {
-	culture_group = german
-	color = { 160 160 160 }
-}

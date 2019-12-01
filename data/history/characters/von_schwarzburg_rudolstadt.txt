@@ -1,7 +1,7 @@
 10000660 = { #Christiane Luise von Schwarzburg-Rudolstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Christiane Luise"
 	dynasty = von_schwarzburg_rudolstadt
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	1748.1.1 = { #unknown, set to 60 years before death
@@ -13,9 +13,9 @@
 }
 
 10000348 = { #Caroline Auguste Louise von Schwarzburg-Rudolstadt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
-	name = "Caroline Auguste Louise"
+	name = "Caroline Auguste" #"Caroline Auguste Louise"
 	dynasty = von_schwarzburg_rudolstadt
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	1804.4.4 = {

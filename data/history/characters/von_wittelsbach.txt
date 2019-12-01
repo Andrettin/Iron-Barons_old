@@ -1,7 +1,7 @@
 10000425 = { #Ruprecht von Wittelsbach, Holy Roman Emperor; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 41.
 	name = "Ruprecht"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = rhenish
 	religion = catholic
 	1350.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -30,7 +30,7 @@
 10000471 = { #Friedrich von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
 	name = "Friedrich"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = rhenish
 	religion = catholic
 	1722.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -43,7 +43,7 @@
 10000543 = { #Christiane von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Christiane"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	#sister of Maximilian Joseph von Wittelsbach's father
@@ -58,7 +58,7 @@
 10000533 = { #Karl von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Karl"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = rhenish
 	religion = catholic
 	father = 10000471 #Friedrich von Wittelsbach (presumably, since he is the father of his sisters)
 	#brother of Maximilian Joseph von Wittelsbach
@@ -75,7 +75,7 @@
 10000534 = { #Karl Theodor von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10, 12.
 	name = "Karl Theodor"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	1739.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -89,7 +89,7 @@
 10000544 = { #Wilhelm von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 11.
 	name = "Wilhelm"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	#trait = tough_soldier
 	1752.11.10 = {
@@ -112,7 +112,7 @@
 10000551 = { #Luise Christine von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
 	name = "Luise Christine"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	#sister of Wilhelm von Wittelsbach
@@ -148,7 +148,7 @@
 10000337 = { #Marie Amalie Auguste von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
 	name = "Marie Amalie Auguste"
 	dynasty = von_wittelsbach #daughter of Friedrich of Pfalz-Zweibrücken; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000471 #Friedrich von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
@@ -166,7 +166,7 @@
 10000542 = { #Marie Anne von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
 	name = "Marie Anne"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000471 #Friedrich von Wittelsbach
@@ -181,7 +181,7 @@
 10000545 = { #Marie Elisabeth Amalie von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
 	name = "Marie Elisabeth Amalie"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	female = yes
 	father = 10000544 #Wilhelm von Wittelsbach
@@ -200,7 +200,7 @@
 10000547 = { #Pius August von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
 	name = "Pius August"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	father = 10000544 #Wilhelm von Wittelsbach
 	mother = 10000542 #Marie Anne von Wittelsbach
@@ -225,7 +225,7 @@
 10000550 = { #Maximilian Joseph von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
 	name = "Maximilian Joseph"
 	dynasty = von_wittelsbach
-	culture = german
+	culture = bavarian
 	religion = catholic
 	father = 10000547 #Pius August von Wittelsbach
 	mother = 10000548 #Amalie Luise Julie von Arenberg

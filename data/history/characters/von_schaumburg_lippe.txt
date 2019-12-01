@@ -1,7 +1,7 @@
 10000288 = { #Georg von Schaumburg-Lippe; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
 	name = "Georg"
 	dynasty = von_schaumburg_lippe
-	culture = german
+	culture = saxon
 	religion = protestant
 	1788.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -14,7 +14,7 @@
 10000287 = { #Mathilde Auguste von Schaumburg-Lippe; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 82.
 	name = "Mathilde Auguste"
 	dynasty = von_schaumburg_lippe
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000288 #Georg von Schaumburg-Lippe

@@ -1,7 +1,7 @@
 10000459 = { #Emanuel von Mensdorf; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
 	name = "Emanuel"
 	dynasty = von_mensdorf
-	culture = german
+	culture = rhenish
 	religion = catholic #correct?
 	#trait = tough_soldier
 	1774.1.1 = { #unknown, set to 30 years before first mention

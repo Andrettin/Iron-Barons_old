@@ -1,0 +1,4 @@
+franconian = {
+	culture_group = german
+	color = { 63 152 131 }
+}

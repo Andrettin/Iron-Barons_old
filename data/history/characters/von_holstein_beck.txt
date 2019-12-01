@@ -1,7 +1,7 @@
 10000510 = { #Friederich von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Friederich"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant
 	1713.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000775 = { #Sophie Charlotte von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	name = "Sophie Charlotte"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	female = yes
 	1725.1.1 = { #unknown, set to 30 years before the birth of her son
@@ -30,7 +30,7 @@
 10000509 = { #Marie Dorothee von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Marie Dorothee"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000510 #Friederich von Holstein-Beck
@@ -46,7 +46,7 @@
 10000762 = { #Karl Friederich Ludwig von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
 	name = "Karl Friederich Ludwig"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	1757.8.20 = {
 		birth = yes
@@ -62,7 +62,7 @@
 10000765 = { #Elisabeth Charlotte Friederike von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
 	name = "Elisabeth Charlotte Friederike"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	female = yes
 	father = 10000762 #Karl Friederich Ludwig von Holstein-Beck
@@ -79,7 +79,7 @@
 10000767 = { #Wilhelm Paul Leopold von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
 	name = "Wilhelm Paul Leopold"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	father = 10000762 #Karl Friederich Ludwig von Holstein-Beck
 	mother = 10000763 #Friederike Amalie von Schlieben
@@ -97,7 +97,7 @@
 10000768 = { #Luise Marie Friederike von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
 	name = "Luise Marie Friederike"
 	dynasty = von_holstein_beck
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	female = yes
 	father = 10000767 #Wilhelm Paul Leopold von Holstein-Beck
@@ -114,7 +114,7 @@
 	name = "Friederike Karoline Julie"
 	dynasty = von_holstein_beck
 	#in the Almanach de Gotha for 1847 she is a part of the Holstein-Glücksburg dynasty instead; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	female = yes
 	father = 10000767 #Wilhelm Paul Leopold von Holstein-Beck

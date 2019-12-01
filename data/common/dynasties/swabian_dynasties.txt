@@ -1,0 +1,51 @@
+fugger = {
+	culture = swabian
+}
+
+von_habsburg = {
+	culture = swabian
+}
+
+von_hohenlohe_langenburg = {
+	culture = swabian
+}
+
+von_hohenzollern = {
+	culture = swabian
+}
+
+von_hohenzollern_hechingen = {
+	culture = swabian
+}
+
+von_hohenzollern_sigmaringen = {
+	culture = swabian
+}
+
+von_liechtenstein = {
+	culture = swabian
+}
+
+von_neipperg = {
+	culture = swabian
+}
+
+von_wittelsbach = {
+	culture = swabian
+}
+
+von_wurttemberg = {
+	culture = swabian
+}
+
+von_zahringen = {
+	culture = swabian
+}
+
+von_zeil_wurzach = {
+	culture = swabian
+}
+
+von_zollern = {
+	culture = swabian
+}

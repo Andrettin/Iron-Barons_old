@@ -1,7 +1,7 @@
 10000733 = { #Felix von Sobeck und Kornitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Felix"
 	dynasty = von_sobeck_und_kornitz
-	culture = german
+	culture = saxon
 	religion = catholic
 	1722.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000732 = { #Ernestine Josephe von Sobeck und Kornitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 24.
 	name = "Ernestine Josephe"
 	dynasty = von_sobeck_und_kornitz
-	culture = german
+	culture = saxon
 	religion = catholic
 	female = yes
 	father = 10000733 #Felix von Sobeck und Kornitz

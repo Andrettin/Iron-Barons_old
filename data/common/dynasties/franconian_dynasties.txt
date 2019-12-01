@@ -1,0 +1,11 @@
+geyer_von_geyersberg = {
+	culture = franconian
+}
+
+von_weiher = {
+	culture = franconian
+}
+
+von_wildenstein = {
+	culture = franconian
+}

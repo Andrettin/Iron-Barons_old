@@ -1,0 +1,75 @@
+berghe_von_trips = {
+	culture = rhenish
+}
+
+von_arenberg = {
+	culture = rhenish
+}
+
+von_bentheim_steinfurth = {
+	culture = rhenish
+}
+
+von_haslingen = {
+	culture = rhenish
+}
+
+von_hessen_darmstadt = {
+	culture = rhenish
+}
+
+von_hessen_homburg = {
+	culture = rhenish
+}
+
+von_hessen_kassel = {
+	culture = rhenish
+}
+
+von_hessen_philippsthal = {
+	culture = rhenish
+}
+
+von_hessen_rotenburg = {
+	culture = rhenish
+}
+
+von_kageneck = {
+	culture = rhenish
+}
+
+von_kesselstatt = {
+	culture = rhenish
+}
+
+von_leiningen_heidesheim = {
+	culture = rhenish
+}
+
+von_mensdorf = {
+	culture = rhenish
+}
+
+von_metternich = {
+	culture = rhenish
+}
+
+von_nassau_usingen = {
+	culture = rhenish
+}
+
+von_nassau_weilburg = {
+	culture = rhenish
+}
+
+von_salm_kyrburg = {
+	culture = rhenish
+}
+
+von_solms_braunfels = {
+	culture = rhenish
+}
+
+von_waldeck_pyrmont = {
+	culture = rhenish
+}

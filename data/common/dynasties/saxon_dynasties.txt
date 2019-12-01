@@ -1,0 +1,127 @@
+von_anhalt_bernburg = {
+	culture = saxon
+}
+
+von_anhalt_bernburg_schaumburg = {
+	culture = saxon
+}
+
+von_anhalt_dessau = {
+	culture = saxon
+}
+
+von_anhalt_kothen = {
+	culture = saxon
+}
+
+von_anhalt_pless = {
+	culture = saxon
+}
+
+von_brandenburg = {
+	culture = saxon
+}
+
+von_braunschweig = {
+	culture = saxon
+}
+
+von_braunschweig_luneburg = {
+	culture = saxon
+}
+
+von_braunschweig_wolfenbuttel = {
+	culture = saxon
+}
+
+von_curland = {
+	culture = saxon
+}
+
+von_hochberg_zu_furstenstein = {
+	culture = saxon
+}
+
+von_hohenstein = {
+	culture = saxon
+}
+
+von_holstein_beck = {
+	culture = saxon
+}
+
+von_holstein_glucksburg = {
+	culture = saxon
+}
+
+von_holstein_gottorp_oldenburg = {
+	culture = saxon
+}
+
+von_kaunitz = {
+	culture = saxon
+}
+
+von_mecklenburg_schwerin = {
+	culture = saxon
+}
+
+von_mecklenburg_strelitz = {
+	culture = saxon
+}
+
+von_richthofen = {
+	culture = saxon
+}
+
+von_sachsen_altenburg = {
+	culture = saxon
+}
+
+von_sachsen_gotha_altenburg = {
+	culture = saxon
+}
+
+von_sachsen_hildburghausen = {
+	culture = saxon
+}
+
+von_sachsen_saalfeld_coburg = {
+	culture = saxon
+}
+
+von_sachsen_weimar_eisenach = {
+	culture = saxon
+}
+
+von_schaumburg_lippe = {
+	culture = saxon
+}
+
+von_scheel = {
+	culture = saxon
+}
+
+von_sobeck_und_kornitz = {
+	culture = saxon
+}
+
+von_stollberg_wernigerode = {
+	culture = saxon
+}
+
+von_stolzenberg = {
+	culture = saxon
+}
+
+von_wettin = {
+	culture = saxon
+}
+
+zu_sachsen_coburg_und_gotha = {
+	culture = saxon
+}
+
+zu_sachsen_meiningen = {
+	culture = saxon
+}

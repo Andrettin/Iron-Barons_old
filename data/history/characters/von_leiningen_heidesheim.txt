@@ -1,7 +1,7 @@
 10000682 = { #Christian Karl Reinhard von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
-	name = "Christian Karl Reinhard"
+	name = "Christian Karl" #"Christian Karl Reinhard"
 	dynasty = von_leiningen_heidesheim
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1699.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -13,9 +13,9 @@
 }
 
 10000681 = { #Marie Luise Albertine von Leiningen-Heidesheim; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
-	name = "Marie Luise Albertine"
+	name = "Marie Luise" #"Marie Luise Albertine"
 	dynasty = von_leiningen_heidesheim
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000682 #Christian Karl Reinhard von Leiningen-Heidesheim

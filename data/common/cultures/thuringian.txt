@@ -1,0 +1,4 @@
+thuringian = {
+	culture_group = german
+	color = { 37 69 111 }
+}

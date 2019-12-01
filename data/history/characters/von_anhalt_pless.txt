@@ -1,7 +1,7 @@
 10000367 = { #Friedrich Erdmann von Anhalt-Pless; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Friedrich Erdmann"
 	dynasty = von_anhalt_pless
-	culture = german
+	culture = saxon
 	religion = protestant
 	1731.10.26 = {
 		birth = yes
@@ -18,7 +18,7 @@
 10000368 = { #Ferdinand von Anhalt-Pless; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
 	name = "Ferdinand"
 	dynasty = von_anhalt_pless
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
 	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
@@ -46,7 +46,7 @@
 10000511 = { #Anne Emilie von Anhalt-Pless; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Anne Emilie"
 	dynasty = von_anhalt_pless
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
@@ -65,7 +65,7 @@
 10000366 = { #Heinrich von Anhalt-Pless; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9-10.
 	name = "Heinrich"
 	dynasty = von_anhalt_pless
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
 	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
@@ -95,7 +95,7 @@
 10000513 = { #Ludwig von Anhalt-Pless; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Ludwig"
 	dynasty = von_anhalt_pless
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000367 #Friedrich Erdmann von Anhalt-Pless
 	mother = 10000507 #Luise Ferdinande von Stollberg-Wernigerode

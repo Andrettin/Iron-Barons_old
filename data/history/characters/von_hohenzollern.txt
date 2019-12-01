@@ -1,7 +1,7 @@
 10000484 = { #Heinrich von Hohenzollern; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	name = "Heinrich"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	1721.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -14,7 +14,7 @@
 10000565 = { #Friederich Wilhelm von Hohenzollern; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 13.
 	name = "Friederich Wilhelm"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	1735.1.1 = { #unknown, set to 30 years before marriage
 		birth = yes
@@ -31,7 +31,7 @@
 10000483 = { #Luise Henriette Wilhelmine von Hohenzollern; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	name = "Luise Henriette"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000484 #Heinrich von Hohenzollern
@@ -47,7 +47,7 @@
 10000342 = { #Friedrich Ludwig Karl von Hohenzollern; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Friedrich Ludwig Karl"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	1766.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -61,7 +61,7 @@
 10000008 = { #Friedrich Wilhelm III of Prussia; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 42; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 63.
 	name = "Friedrich Wilhelm"
 	dynasty = von_hohenzollern
-	culture = german #from Prussia
+	culture = saxon #from Prussia
 	religion = protestant
 	1770.8.3 = {
 		birth = yes
@@ -75,7 +75,7 @@
 10000622 = { #Friederike von Hohenzollern; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
 	name = "Friederike"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000565 #Friederich Wilhelm von Hohenzollern
@@ -93,7 +93,7 @@
 10000637 = { #Friederike Christiane Auguste von Hohenzollern; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Friederike Christiane Auguste"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000565 #Friederich Wilhelm von Hohenzollern
@@ -111,7 +111,7 @@
 10000010 = { #Friedrich Wilhelm IV of Prussia; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 63.
 	name = "Friedrich Wilhelm"
 	dynasty = von_hohenzollern
-	culture = german #from Prussia
+	culture = saxon #from Prussia
 	religion = protestant
 	father = 10000008 #Friedrich Wilhelm III of Prussia
 	1795.10.15 = {
@@ -131,7 +131,7 @@
 10000341 = { #Friederike Louise Wilhelmina von Hohenzollern; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Friederike Louise Wilhelmina"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000342 #prince Friedrich Ludwig Karl of Prussia
@@ -149,7 +149,7 @@
 10000240 = { #Karl von Hohenzollern; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
 	name = "Karl"
 	dynasty = von_hohenzollern
-	culture = german
+	culture = saxon
 	religion = protestant
 	1817.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes

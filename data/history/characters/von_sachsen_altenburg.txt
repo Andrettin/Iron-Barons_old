@@ -1,7 +1,7 @@
 10000454 = { #Ernst von Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 	name = "Ernst"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 	1720.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000199 = { #Friedrich von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
 	name = "Friedrich"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
 	father = 10000454 #Ernst von Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 	1763.4.29 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
@@ -35,7 +35,7 @@
 10000219 = { #Charlotte von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 80.
 	name = "Charlotte"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000199 #Friedrich von Sachsen-Altenburg
@@ -55,7 +55,7 @@
 10000213 = { #Joseph von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Joseph"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000199 #Friedrich von Sachsen-Altenburg
 	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
@@ -77,7 +77,7 @@
 10000117 = { #Therese von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4, 15.
 	name = "Therese"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000199 #Friedrich von Sachsen-Altenburg
@@ -99,7 +99,7 @@
 10000456 = { #Charlotte Luise von Sachsen-Altenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
 	name = "Charlotte Luise"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
 	female = yes
 	father = 10000199 #Friedrich von Sachsen-Altenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
@@ -118,7 +118,7 @@
 10000221 = { #Georg von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Georg"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000199 #Friedrich von Sachsen-Altenburg
 	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
@@ -139,7 +139,7 @@
 10000226 = { #Friedrich von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Friedrich"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000199 #Friedrich von Sachsen-Altenburg
 	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
@@ -157,7 +157,7 @@
 10000227 = { #Eduard von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Eduard"
 	dynasty = von_sachsen_hildburghausen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000199 #Friedrich von Sachsen-Altenburg
 	mother = 10000455 #Charlotte Georgine von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 2-3.
@@ -188,7 +188,7 @@
 10000215 = { #Maria von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Maria"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000213 #Joseph von Sachsen-Altenburg
@@ -205,7 +205,7 @@
 10000216 = { #Therese von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Therese"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000213 #Joseph von Sachsen-Altenburg
@@ -221,7 +221,7 @@
 10000217 = { #Elisabeth von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Elisabeth"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000213 #Joseph von Sachsen-Altenburg
@@ -237,7 +237,7 @@
 10000224 = { #Ernst von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Ernst"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000221 #Georg von Sachsen-Altenburg
 	mother = 10000222 #Maria von Mecklenburg-Schwerin
@@ -252,7 +252,7 @@
 10000225 = { #Moritz von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Moritz"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000221 #Georg von Sachsen-Altenburg
 	mother = 10000222 #Maria von Mecklenburg-Schwerin
@@ -267,7 +267,7 @@
 10000218 = { #Alexandrine von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 4.
 	name = "Alexandrine"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000213 #Joseph von Sachsen-Altenburg
@@ -283,7 +283,7 @@
 10000232 = { #Therese von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
 	name = "Therese"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000227 #Eduard von Sachsen-Altenburg
@@ -299,7 +299,7 @@
 10000233 = { #Antoinette von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
 	name = "Antoinette"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000227 #Eduard von Sachsen-Altenburg
@@ -315,7 +315,7 @@
 10000234 = { #Albert von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
 	name = "Albert"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000227 #Eduard von Sachsen-Altenburg
 	mother = 10000229 #Luise von Reuss-Greiz
@@ -330,7 +330,7 @@
 10000235 = { #Maria von Sachsen-Altenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 4-5.
 	name = "Maria"
 	dynasty = von_sachsen_altenburg
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000227 #Eduard von Sachsen-Altenburg

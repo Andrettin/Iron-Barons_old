@@ -1,0 +1,11 @@
+fuchs = {
+	culture = bavarian #correct?
+}
+
+von_leuchtenberg = {
+	culture = bavarian
+}
+
+von_thurn_und_taxis = {
+	culture = bavarian
+}

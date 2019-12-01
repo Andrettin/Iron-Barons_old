@@ -1,7 +1,7 @@
 10000340 = { #Leopold Friedrich Franz von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Leopold Friedrich"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	1740.8.10 = {
 		birth = yes
@@ -17,7 +17,7 @@
 10000485 = { #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	name = "Friedrich"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000340 #Leopold Friedrich Franz von Anhalt-Dessau;
 	mother = 10000483 #Luise Henriette Wilhelmine von Hohenzollern
@@ -35,7 +35,7 @@
 10000346 = { #Auguste von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Auguste"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
@@ -52,7 +52,7 @@
 10000339 = { #Leopold Friedrich von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Leopold Friedrich"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
@@ -72,7 +72,7 @@
 10000347 = { #Georg Bernhard von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Georg Bernhard"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
@@ -93,7 +93,7 @@
 10000351 = { #Luise von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Luise"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
@@ -110,7 +110,7 @@
 10000352 = { #Friedrich August von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 8-9.
 	name = "Friedrich August"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
@@ -128,7 +128,7 @@
 10000358 = { #Wilhelm Waldemar von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 8-9.
 	name = "Wilhelm Waldemar"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000485 #Friedrich von Anhalt-Dessau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 	mother = 10000486 #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
@@ -146,7 +146,7 @@
 10000343 = { #Agnes von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Agnes"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000339 #Leopold Friedrich von Anhalt-Dessau
@@ -162,7 +162,7 @@
 10000350 = { #Luise von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Luise"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000347 #Georg Bernhard von Anhalt-Dessau
@@ -178,7 +178,7 @@
 10000344 = { #Friedrich Franz Nicolas von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Friedrich Franz Nicolas"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000339 #Leopold Friedrich von Anhalt-Dessau
 	mother = 10000341 #Friederike Louise Wilhelmina von Hohenzollern
@@ -194,7 +194,7 @@
 10000355 = { #Adelaide Maria von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Adelaide Maria"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000352 #Friedrich August von Anhalt-Dessau
@@ -210,7 +210,7 @@
 10000345 = { #Maria Anna von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
 	name = "Maria Anna"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000339 #Leopold Friedrich von Anhalt-Dessau
@@ -226,7 +226,7 @@
 10000356 = { #Bathilde Amalgonde von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Bathilde Amalgonde"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000352 #Friedrich August von Anhalt-Dessau
@@ -242,7 +242,7 @@
 10000357 = { #Hilda Charlotte von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Hilda Charlotte"
 	dynasty = von_anhalt_dessau
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000352 #Friedrich August von Anhalt-Dessau

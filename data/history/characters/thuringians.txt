@@ -1,0 +1,19 @@
+10000349 = { #Theresa Emma von Erdmannsdorff; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
+	name = "Theresa Emma"
+	dynasty = von_erdmannsdorff
+	culture = thuringian
+	religion = protestant
+	female = yes
+	1807.9.12 = {
+		birth = yes
+	}
+	#daughter of the grandmaster of the forests of Erdmannsdorff at Hohenahlsdorf
+	1831.10.4 = {
+		spouse = 10000347 #married on 1831.10.4 to Georg Bernhard von Anhalt-Dessau
+	}
+	#created countess of Reina
+	#countess of Reina as of 1847
+	1856.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

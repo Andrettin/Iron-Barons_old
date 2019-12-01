@@ -1,7 +1,7 @@
 10000498 = { #Karl Ludwig von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	name = "Karl Ludwig"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	1746.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -16,7 +16,7 @@
 10000499 = { #Franz Adolph von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	name = "Franz Adolph"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	#brother of Karl Ludwig von Anhalt-Bernburg-Schaumburg
 	1742.1.1 = { #unknown, set to 30 years before daughter's birth
@@ -30,7 +30,7 @@
 10000502 = { #Victor Amadeus von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 7-8.
 	name = "Victor Amadeus"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	#brother of Karl Ludwig von Anhalt-Bernburg-Schaumburg
 	1730.1.1 = { #unknown, set to 60 years before death
@@ -44,7 +44,7 @@
 10000360 = { #Friedrich Ludwig Adolf von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Friedrich Ludwig Adolf"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	1741.11.29 = {
 		birth = yes
@@ -59,7 +59,7 @@
 10000338 = { #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9, 12.
 	name = "Victor Karl Friedrich"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	father = 10000498 #Karl Ludwig von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	mother = 10000496 #Amalie Eleonore von Solms-Braunfels; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
@@ -78,7 +78,7 @@
 10000501 = { #Victorie Amalie von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	name = "Victorie Amalie"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000499 #Franz Adolph von Anhalt-Bernburg-Schaumburg
@@ -94,7 +94,7 @@
 10000045 = { #Hermine von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
 	name = "Hermine"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = true
 	father = 10000338 #Prince Victor Karl Friedrich of Anhalt-Bernburg-Schaumburg
@@ -112,7 +112,7 @@
 10000494 = { #Adelheid von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	name = "Adelheid"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
@@ -128,7 +128,7 @@
 10000361 = { #Emma von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Emma"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
@@ -145,7 +145,7 @@
 10000495 = { #Ida von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	name = "Ida"
 	dynasty = von_anhalt_bernburg_schaumburg
-	culture = german
+	culture = saxon
 	religion = protestant
 	female = yes
 	father = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg

@@ -1,7 +1,7 @@
 10000082 = { #Karl von Kesselstatt; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 266.
 	name = "Karl"
 	dynasty = von_kesselstatt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1764.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -17,7 +17,7 @@
 	name = "Kunigunde" #source gives "Cunégonde"
 	female = yes
 	dynasty = von_kesselstatt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000082 #Karl von Kesselstatt
 	1794.8.28 = {

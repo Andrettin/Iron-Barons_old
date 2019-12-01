@@ -1,7 +1,7 @@
 10000433 = { #Duke Anton Ulrich zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 2.
 	name = "Anton Ulrich"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	1721.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -16,7 +16,7 @@
 10000432 = { #Marie Charlotte zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1-2.
 	name = "Marie Charlotte"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000433 #Duke Anton Ulrich zu Sachsen-Meiningen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1-2
@@ -31,7 +31,7 @@
 10000204 = { #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Georg"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	1761.2.4 = { #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 		birth = yes
@@ -48,7 +48,7 @@
 10000665 = { #Luise Christiane zu Sachsen-Meiningen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
 	name = "Luise Christiane"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	1764.1.1 = { #unknown, set to 20 years before the birth of her first child
@@ -65,7 +65,7 @@
 10000210 = { #Adelheid zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Adelheid"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	female = yes
 	father = 10000204 #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
@@ -82,7 +82,7 @@
 10000211 = { #Ida zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
 	name = "Ida"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
 	female = yes
 	father = 10000204 #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
@@ -99,7 +99,7 @@
 10000203 = { #Bernhard zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Bernhard"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	father = 10000204 #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	mother = 10000205 #Luise von Hohenlohe-Langenburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
@@ -120,7 +120,7 @@
 10000208 = { #Georg zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Georg"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	father = 10000203 #Bernhard zu Sachsen-Meiningen
 	mother = 10000206 #Marie Friederike Wilhelmine von Hessen-Kassel
@@ -135,7 +135,7 @@
 10000209 = { #Augusta zu Sachsen-Meiningen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Augusta"
 	dynasty = zu_sachsen_meiningen
-	culture = german
+	culture = thuringian
 	religion = protestant
 	female = yes
 	father = 10000203 #Bernhard zu Sachsen-Meiningen

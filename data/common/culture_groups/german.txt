@@ -1,6 +1,6 @@
 german = {
 	species = human
-	color = { 160 160 160 }
+	color = { 25 57 55 }
 	default_phenotype = european
 	
 	male_names = {

@@ -1,0 +1,27 @@
+von_erdmannsdorff = {
+	culture = thuringian
+}
+
+von_reuss_greiz = {
+	culture = thuringian
+}
+
+von_reuss_zu_ebersdorf = {
+	culture = thuringian
+}
+
+von_reuss_schleiz_kostritz = {
+	culture = thuringian
+}
+
+von_schlieben = {
+	culture = thuringian
+}
+
+von_schwarzburg_rudolstadt = {
+	culture = thuringian
+}
+
+von_taubenheim = {
+	culture = thuringian
+}

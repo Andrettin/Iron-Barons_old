@@ -1,7 +1,7 @@
 10000589 = { #Friederich von Kageneck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
 	name = "Friederich"
 	dynasty = von_kageneck
-	culture = german
+	culture = rhenish
 	religion = catholic
 	1725.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000588 = { #Marie Beatrix von Kageneck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
 	name = "Marie Beatrix"
 	dynasty = von_kageneck
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000589 #Friederich von Kageneck

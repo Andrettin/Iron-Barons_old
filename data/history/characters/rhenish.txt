@@ -10,3 +10,51 @@
 		death = yes
 	}
 }
+
+10000770 = { #Geldrik Ludwig Wilhelm von Bentheim-Steinfurth; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
+	name = "Geldrik Ludwig" #"Geldrik Ludwig Wilhelm"
+	dynasty = von_bentheim_steinfurth
+	culture = rhenish
+	religion = protestant #lutheran
+	1746.1.1 = { #unknown, set to 30 years before marriage
+		birth = yes
+	}
+	1776.7.17 = { #married on 1776.7.17 to Juliane Wilhelmine von Holstein-Glücksburg
+		spouse = 10000769 #Juliane Wilhelmine von Holstein-Glücksburg
+	}
+	#count of Bentheim-Steinfurth
+	1806.1.1 = { #unknown, set to 30 years after marriage
+		death = yes
+	}
+}
+
+10000654 = { #Marie Franziske Berghe von Trips; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
+	name = "Marie Franziske"
+	dynasty = berghe_von_trips
+	culture = rhenish
+	religion = protestant
+	female = yes
+	1747.10.8 = { #unknown, set to 60 years before death
+		birth = yes
+	}
+	#countess of Berghe von Trips
+	#married to Ludwig von Hessen-Philippsthal
+	1807.1.1 = { #died in 1807
+		death = yes
+	}
+}
+
+10000500 = { #Marie Josephe von Haslingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
+	name = "Marie Josephe"
+	dynasty = von_haslingen
+	culture = rhenish
+	religion = protestant
+	female = yes
+	1752.1.1 = { #unknown, set to 20 years before daughter's birth
+		birth = yes
+	}
+	#countess of Haslingen
+	1812.1.1 = { #unknown, set to 60 years after birth
+		death = yes
+	}
+}

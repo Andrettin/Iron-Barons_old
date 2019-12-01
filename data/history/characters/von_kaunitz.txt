@@ -1,7 +1,7 @@
 10000592 = { #Ernst von Kaunitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
 	name = "Ernst"
 	dynasty = von_kaunitz
-	culture = german
+	culture = saxon
 	religion = catholic
 	1745.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -15,7 +15,7 @@
 10000591 = { #Marie Eleonore von Kaunitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
 	name = "Marie Eleonore"
 	dynasty = von_kaunitz
-	culture = german
+	culture = saxon
 	religion = catholic
 	female = yes
 	father = 10000592 #Ernst von Kaunitz

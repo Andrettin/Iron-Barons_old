@@ -1,7 +1,7 @@
 10000769 = { #Juliane Wilhelmine von Holstein-Glücksburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
 	name = "Juliane Wilhelmine"
 	dynasty = von_holstein_glucksburg
-	culture = german
+	culture = saxon
 	religion = protestant #lutheran
 	female = yes
 	#sister of duke Friederich Heinrich Wilhelm of Holstein-Glücksburg
