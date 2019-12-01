@@ -106,7 +106,7 @@ Item {
 		id: top_left_area
 		anchors.top: parent.top
 		anchors.left: parent.left
-		width: 160
+		width: player_character_label.width + 8 + 8
 		height: 32
 
 		Rectangle {
