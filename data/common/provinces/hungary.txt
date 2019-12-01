@@ -283,6 +283,31 @@ p_temesvar = {
 	}
 }
 
+p_tolna = {
+	county = c_tolna
+	color = { 123 175 85 }
+
+	h_tolna = {
+		barony = b_tolna
+		type = settlement
+	}
+
+	h_paks = {
+		barony = b_paks
+		type = settlement
+	}
+
+	h_foldvar = {
+		barony = b_foldvar
+		type = settlement
+	}
+
+	h_ozora = {
+		barony = b_ozora
+		type = settlement
+	}
+}
+
 p_transcarpathia = {
 	county = c_transcarpathia
 	color = { 70 139 248 }

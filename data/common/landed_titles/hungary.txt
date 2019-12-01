@@ -217,6 +217,23 @@ c_temesvar = {
 	}
 }
 
+c_tolna = {
+	de_jure_liege_title = d_hungary
+	color = { 123 175 85 }
+
+	b_tolna = {
+	}
+
+	b_paks = {
+	}
+
+	b_foldvar = {
+	}
+
+	b_ozora = {
+	}
+}
+
 c_transcarpathia = {
 	de_jure_liege_title = d_hungary
 	color = { 70 139 248 }

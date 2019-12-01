@@ -1,0 +1,12 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_tolna = town #Tolna existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_paks = town #Paks existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_foldvar = town #Földvar existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_ozora = village #Ozora existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_tolna
+}
