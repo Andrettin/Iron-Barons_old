@@ -48,6 +48,16 @@ p_burgenland = {
 	}
 }
 
+p_esztergom = {
+	county = c_esztergom
+	color = { 237 205 127 }
+
+	h_mocsa = {
+		barony = b_mocsa
+		type = settlement
+	}
+}
+
 p_fejer = {
 	county = c_fejer
 	color = { 73 22 197 }

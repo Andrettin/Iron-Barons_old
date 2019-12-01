@@ -52,6 +52,14 @@ c_burgenland = {
 	}
 }
 
+c_esztergom = {
+	de_jure_liege_title = d_hungary
+	color = { 237 205 127 }
+
+	b_mocsa = {
+	}
+}
+
 c_fejer = {
 	de_jure_liege_title = d_hungary
 	color = { 73 22 197 }
