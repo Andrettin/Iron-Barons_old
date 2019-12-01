@@ -1,7 +1,7 @@
 10000314 = { #Franz Georg Karl von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 84.
-	name = "Franz Georg Karl"
+	name = "Franz Georg" #"Franz Georg Karl"
 	dynasty = von_metternich
-	culture = german
+	culture = rhenish
 	religion = catholic
 	1746.3.9 = {
 		birth = yes
@@ -18,7 +18,7 @@
 10000313 = { #Pauline von Metternich; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
 	name = "Pauline"
 	dynasty = von_metternich
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000314 #Franz Georg Karl von Metternich
@@ -35,9 +35,9 @@
 }
 
 10000590 = { #Clemens Wenceslaus Lothar von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
-	name = "Clemens Wenceslaus Lothar"
+	name = "Clemens Wenceslaus" #"Clemens Wenceslaus Lothar"
 	dynasty = von_metternich
-	culture = german
+	culture = rhenish
 	religion = catholic
 	father = 10000314 #Franz Georg Karl von Metternich
 	mother = 10000588 #Marie Beatrix von Kageneck
@@ -55,7 +55,7 @@
 10000595 = { #Joseph von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 84-85.
 	name = "Joseph"
 	dynasty = von_metternich
-	culture = german
+	culture = rhenish
 	religion = catholic
 	father = 10000314 #Franz Georg Karl von Metternich
 	mother = 10000588 #Marie Beatrix von Kageneck
@@ -70,7 +70,7 @@
 10000593 = { #Marie Leopoldine von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
 	name = "Marie Leopoldine"
 	dynasty = von_metternich
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000590 #Clemens Wenceslaus Lothar von Metternich
@@ -84,9 +84,9 @@
 }
 
 10000594 = { #Franz Karl Victor von Metternich; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 85.
-	name = "Franz Karl Victor"
+	name = "Franz Karl" #"Franz Karl Victor"
 	dynasty = von_metternich
-	culture = german
+	culture = rhenish
 	religion = catholic
 	father = 10000590 #Clemens Wenceslaus Lothar von Metternich
 	mother = 10000591 #Marie Eleonore von Kaunitz

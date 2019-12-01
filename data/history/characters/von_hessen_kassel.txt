@@ -1,7 +1,7 @@
 10000640 = { #Friedrich von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Friedrich"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1725.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000202 = { #Wilhelm von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Wilhelm"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000640 #Friedrich von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	1743.1.3 = { #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
@@ -35,7 +35,7 @@
 10000571 = { #Karl von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 13, 18.
 	name = "Karl"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000640 #Friedrich von Hessen-Kassel
 	#trait = tough_soldier
@@ -59,7 +59,7 @@
 10000645 = { #Friederich von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 18-19.
 	name = "Friederich"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000640 #Friedrich von Hessen-Kassel
 	1747.9.11 = {
@@ -76,7 +76,7 @@
 10000570 = { #Marie Sophie Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 13, 18.
 	name = "Marie Sophie Friederike"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000571 #Karl von Hessen-Kassel
@@ -95,7 +95,7 @@
 10000489 = { #Marie Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Marie Friederike"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000202 #Wilhelm von Hessen-Kassel
@@ -114,7 +114,7 @@
 10000641 = { #Friedrich von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Friedrich"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000571 #Karl von Hessen-Kassel
 	mother = 10000578 #Louise af Danmark
@@ -129,7 +129,7 @@
 10000200 = { #Karoline Amalie von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 1, 18; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Karoline Amalie" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000202 #Wilhelm von Hessen-Kassel
@@ -149,7 +149,7 @@
 10000642 = { #Juliane Louise Amalie von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Juliane Louise Amalie"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000571 #Karl von Hessen-Kassel
@@ -165,7 +165,7 @@
 10000643 = { #Christian von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 18-19.
 	name = "Christian"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000571 #Karl von Hessen-Kassel
 	mother = 10000578 #Louise af Danmark
@@ -180,7 +180,7 @@
 10000207 = { #Wilhelm von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Wilhelm"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000202 #Wilhelm von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	mother = 10000575 #Vilhelmine Karoline af Danmark; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
@@ -199,7 +199,7 @@
 10000354 = { #Wilhelm von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Wilhelm"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000645 #Friederich von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	mother = 10000646 #Karoline Polyrene von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
@@ -217,7 +217,7 @@
 10000644 = { #Louise Karoline von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 18-19, 26.
 	name = "Louise Karoline"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000571 #Karl von Hessen-Kassel
@@ -234,7 +234,7 @@
 10000648 = { #Friedrich Wilhelm von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Friedrich Wilhelm"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000645 #Friederich von Hessen-Kassel
 	mother = 10000646 #Karoline Polyrene von Nassau-Usingen
@@ -249,7 +249,7 @@
 10000649 = { #Georg Karl von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Georg Karl"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000645 #Friederich von Hessen-Kassel
 	mother = 10000646 #Karoline Polyrene von Nassau-Usingen
@@ -264,7 +264,7 @@
 10000650 = { #Karoline Marie Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Karoline Marie Friederike"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000645 #Friederich von Hessen-Kassel
@@ -280,7 +280,7 @@
 10000651 = { #Wilhelmine Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Wilhelmine Friederike"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000645 #Friederich von Hessen-Kassel
@@ -296,7 +296,7 @@
 10000652 = { #Auguste Wilhelmine Louise von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Auguste Wilhelmine Louise"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000645 #Friederich von Hessen-Kassel
@@ -312,7 +312,7 @@
 10000638 = { #Karoline Friederike Wilhelmine von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Karoline Friederike Wilhelmine"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000207 #Wilhelm von Hessen-Kassel
@@ -328,7 +328,7 @@
 10000639 = { #Friedrich Wilhelm von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	name = "Friedrich Wilhelm"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000207 #Wilhelm von Hessen-Kassel
 	mother = 10000637 #Friederike Christiane Auguste von Hohenzollern
@@ -343,7 +343,7 @@
 10000206 = { #Marie Friederike Wilhelmine von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
 	name = "Marie Friederike Wilhelmine" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000207 #Wilhelm von Hessen-Kassel (Elector Wilhelm II of Hessen)
@@ -359,7 +359,7 @@
 10000353 = { #Maria Louise Charlotte von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	name = "Maria Louise Charlotte"
 	dynasty = von_hessen_kassel
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000354 #Wilhelm von Hessen-Kassel

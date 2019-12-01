@@ -1,7 +1,7 @@
 10000647 = { #Karl Wilhelm von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Karl Wilhelm"
 	dynasty = von_nassau_usingen
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1736.1.1 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
@@ -14,7 +14,7 @@
 10000506 = { #Friedrich August von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Friedrich August"
 	dynasty = von_nassau_usingen
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1742.1.1 = { #unknown, set to 30 years before his daughters's birth
 		birth = yes
@@ -28,7 +28,7 @@
 10000646 = { #Karoline Polyrene von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 	name = "Karoline Polyrene"
 	dynasty = von_nassau_usingen
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000647 #Karl Wilhelm von Nassau-Usingen
@@ -46,7 +46,7 @@
 10000505 = { #Karoline Friederike von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 8.
 	name = "Karoline Friederike"
 	dynasty = von_nassau_usingen
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000506 #Friedrich August von Nassau-Usingen
@@ -62,7 +62,7 @@
 10000528 = { #Christiane Luise von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
 	name = "Christiane Luise"
 	dynasty = von_nassau_usingen
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000506 #Friedrich August von Nassau-Usingen
@@ -80,7 +80,7 @@
 10000698 = { #Auguste Amalie von Nassau-Usingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Auguste Amalie"
 	dynasty = von_nassau_usingen
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000506 #Friedrich August von Nassau-Usingen

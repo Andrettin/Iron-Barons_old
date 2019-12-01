@@ -1,0 +1,35 @@
+10000412 = { #Beatrix von Zollern; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
+	name = "Beatrix"
+	dynasty = von_zollern
+	culture = swabian
+	religion = catholic
+	female = yes
+	1347.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	#married Albrecht III of Austria, and had her son Albrecht with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
+	1407.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}
+
+10000311 = { #Mr. von Taubenheim, the grand-écuyer of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
+	dynasty = von_taubenheim
+	culture = swabian
+	religion = protestant
+	1812.1.1 = { #unknown, set to 30 years before first mention
+		birth = yes
+	}
+	1842.9.17 = {
+		spouse = 10000310 #the husband of Maria Alexandrine Charlotte von Württemberg, after 1842.9.17
+	}
+	1847.1.1 = { #grand-écuyer of Württemberg as of 1847
+		employer = 10000247 #Wilhelm Friedrich von Württemberg
+		#effect = {
+		#	make_master_of_the_horse_effect = yes
+		#}
+	}
+	1872.1.1 = { #unknown, set to 30 years after first mention
+		death = yes
+	}
+}

@@ -1,7 +1,7 @@
 10000468 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4, 21.
 	name = "Ludwig"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1730.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000536 = { #Georg Wilhelm von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10, 21-22.
 	name = "Georg Wilhelm"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	#brother of landgrave Ludwig IX of Hesse-Darmstadt
 	1722.1.1 = { #unknown, set to 60 years before death
@@ -32,7 +32,7 @@
 10000680 = { #Karoline von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Karoline"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000468 #Ludwig von Hessen-Darmstadt
@@ -48,7 +48,7 @@
 10000683 = { #Ludwig Georg Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
 	name = "Ludwig Georg Karl"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
 	mother = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim
@@ -63,7 +63,7 @@
 10000679 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Ludwig"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000468 #Ludwig von Hessen-Darmstadt
 	1753.6.14 = {
@@ -82,7 +82,7 @@
 10000684 = { #Georg Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
 	name = "Georg Karl"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
 	mother = 10000681 #Marie Luise Albertine von Leiningen-Heidesheim
@@ -97,7 +97,7 @@
 10000525 = { #Amalie Friederike von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9, 21-22.
 	name = "Amalie Friederike"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000468 #Ludwig von Hessen-Darmstadt
@@ -115,7 +115,7 @@
 10000467 = { #Luise von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 4, 21-22.
 	name = "Luise"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000468 #Ludwig von Hessen-Darmstadt
@@ -133,7 +133,7 @@
 10000685 = { #Luise Karoline Henriette von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
 	name = "Luise Karoline Henriette"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
@@ -149,7 +149,7 @@
 10000693 = { #Christian Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
 	name = "Christian Ludwig"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000468 #Ludwig von Hessen-Darmstadt
 	1763.11.25 = {
@@ -163,7 +163,7 @@
 10000535 = { #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	name = "Marie Wilhelmine Auguste"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000536 #Georg Wilhelm von Hessen-Darmstadt
@@ -182,7 +182,7 @@
 10000686 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Ludwig"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000679 #Ludwig von Hessen-Darmstadt
 	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
@@ -201,7 +201,7 @@
 10000689 = { #Ludwig Georg Friedrich von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Ludwig Georg Friedrich"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000679 #Ludwig von Hessen-Darmstadt
 	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
@@ -219,7 +219,7 @@
 10000692 = { #Friedrich August Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Friedrich August Karl"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000679 #Ludwig von Hessen-Darmstadt
 	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
@@ -234,7 +234,7 @@
 10000694 = { #Emil Maximilian Leopold von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Emil Maximilian Leopold"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000679 #Ludwig von Hessen-Darmstadt
 	mother = 10000685 #Luise Karoline Henriette von Hessen-Darmstadt
@@ -249,7 +249,7 @@
 10000691 = { #Luise Charlotte Georgine von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Luise Charlotte Georgine"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000689 #Ludwig Georg Friedrich von Hessen-Darmstadt
@@ -265,7 +265,7 @@
 10000687 = { #Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Ludwig"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000686 #Ludwig von Hessen-Darmstadt
 	mother = 10000524 #Wilhelmine Luise von Zähringen
@@ -280,7 +280,7 @@
 10000688 = { #Karl Wilhelm Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
 	name = "Karl Wilhelm Ludwig"
 	dynasty = von_hessen_darmstadt
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000686 #Ludwig von Hessen-Darmstadt
 	mother = 10000524 #Wilhelmine Luise von Zähringen

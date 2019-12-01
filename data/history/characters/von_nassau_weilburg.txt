@@ -1,7 +1,7 @@
 10000268 = { #Karl von Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
 	name = "Karl"
 	dynasty = von_nassau_weilburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1750.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -14,7 +14,7 @@
 10000269 = { #Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	name = "Friedrich Wilhelm"
 	dynasty = von_nassau_weilburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1767.1.1 = { #unknown, set to 30 years before first mention
 		birth = yes
@@ -27,7 +27,7 @@
 10000493 = { #Amalie Charlotte von Nassau-Weilburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	name = "Amalie Charlotte"
 	dynasty = von_nassau_weilburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000268 #Karl von Nassau-Weilburg
@@ -45,7 +45,7 @@
 10000267 = { #Henriette von Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80-81.
 	name = "Henriette"
 	dynasty = von_nassau_weilburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000268 #prince Karl of Nassau-Weilburg
@@ -61,7 +61,7 @@
 10000028 = { #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
 	name = "Henriette"
 	dynasty = von_nassau_weilburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000269 #Friedrich Wilhelm, Prince of Nassau-Weilburg

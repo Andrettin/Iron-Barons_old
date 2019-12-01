@@ -1,7 +1,7 @@
 10000674 = { #Karl Emanuel von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
 	name = "Karl Emanuel"
 	dynasty = von_hessen_rotenburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	1752.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -18,7 +18,7 @@
 10000676 = { #Karl Constantin von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
 	name = "Karl Constantin"
 	dynasty = von_hessen_rotenburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	#brother of landgrave Karl Emanuel of Hesse-Rotenburg
 	1752.1.10 = {
@@ -32,7 +32,7 @@
 10000677 = { #Marie Antonie Friederike von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
 	name = "Marie Antonie Friederike"
 	dynasty = von_hessen_rotenburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	#sister of landgrave Karl Emanuel of Hesse-Rotenburg
@@ -50,7 +50,7 @@
 10000678 = { #Wilhelmine von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
 	name = "Wilhelmine"
 	dynasty = von_hessen_rotenburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	#sister of landgrave Karl Emanuel of Hesse-Rotenburg
@@ -68,7 +68,7 @@
 10000668 = { #Victor Amadeus von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
 	name = "Victor Amadeus"
 	dynasty = von_hessen_rotenburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	father = 10000674 #Karl Emanuel von Hessen-Rotenburg
 	mother = 10000673 #Leopoldine Adelgunde von Liechtenstein
@@ -87,7 +87,7 @@
 10000672 = { #Leopoldine Clotilde von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 20.
 	name = "Leopoldine Clotilde"
 	dynasty = von_hessen_rotenburg
-	culture = german
+	culture = rhenish
 	religion = catholic
 	female = yes
 	father = 10000674 #Karl Emanuel von Hessen-Rotenburg

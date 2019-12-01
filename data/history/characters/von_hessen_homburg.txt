@@ -1,7 +1,7 @@
 10000695 = { #Friedrich Karl Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Friedrich Karl Wilhelm"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	1691.1.1 = { #unknown, set to 60 years before death
 		birth = yes
@@ -15,7 +15,7 @@
 10000487 = { #Friedrich Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6, 22.
 	name = "Friedrich Ludwig Wilhelm"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000695 #Friedrich Karl Wilhelm von Hessen-Homburg
 	1748.1.30 = {
@@ -33,7 +33,7 @@
 10000696 = { #Friedrich Joseph Ludwig von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Friedrich Joseph Ludwig"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
 	mother = 10000680 #Karoline von Hessen-Darmstadt
@@ -49,7 +49,7 @@
 10000697 = { #Ludwig Wilhelm von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Ludwig Wilhelm"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
 	mother = 10000680 #Karoline von Hessen-Darmstadt
@@ -67,7 +67,7 @@
 10000699 = { #Karoline Luise von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Karoline Luise"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
@@ -84,7 +84,7 @@
 10000700 = { #Luise Ulrike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Luise Ulrike"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
@@ -100,7 +100,7 @@
 10000486 = { #Christiane Amalie von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 6, 22.
 	name = "Christiane Amalie"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
@@ -119,7 +119,7 @@
 10000701 = { #Auguste Friederike von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 22.
 	name = "Auguste Friederike"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
@@ -135,7 +135,7 @@
 10000702 = { #Philipp August Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Philipp August Friedrich"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
 	mother = 10000680 #Karoline von Hessen-Darmstadt
@@ -150,7 +150,7 @@
 10000703 = { #Gustav Adolph Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Gustav Adolph Friedrich"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
 	mother = 10000680 #Karoline von Hessen-Darmstadt
@@ -165,7 +165,7 @@
 10000704 = { #Ferdinand Heinrich Friedrich von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Ferdinand Heinrich Friedrich"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg
 	mother = 10000680 #Karoline von Hessen-Darmstadt
@@ -180,7 +180,7 @@
 10000705 = { #Amalie Marianne von Hessen-Homburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 22-23.
 	name = "Amalie Marianne"
 	dynasty = von_hessen_homburg
-	culture = german
+	culture = rhenish
 	religion = protestant
 	female = yes
 	father = 10000487 #Friedrich Ludwig Wilhelm von Hessen-Homburg

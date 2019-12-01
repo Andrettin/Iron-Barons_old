@@ -1,0 +1,12 @@
+10000448 = { #Karl, Grand Duke of Frankfurt; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
+	name = "Karl"
+	culture = rhenish
+	religion = catholic
+	#trait = martial_cleric #archbishop as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
+	1744.2.8 = { #born on 1744.2.8; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
+		birth = yes
+	}
+	1824.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1813)
+		death = yes
+	}
+}

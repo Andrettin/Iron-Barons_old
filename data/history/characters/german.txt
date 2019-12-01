@@ -1,18 +1,3 @@
-10000412 = { #Beatrix von Zollern; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
-	name = "Beatrix"
-	dynasty = von_zollern
-	culture = german
-	religion = catholic
-	female = yes
-	1347.1.1 = { #unknown, set to 30 years before first mention
-		birth = yes
-	}
-	#married Albrecht III of Austria, and had her son Albrecht with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
-	1407.1.1 = { #unknown, set to 30 years after first mention
-		death = yes
-	}
-}
-
 10000410 = { #Anna von Braunschweig; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
 	name = "Anna"
 	dynasty = von_braunschweig
@@ -75,21 +60,8 @@
 	}
 }
 
-10000448 = { #Karl, Grand Duke of Frankfurt; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
-	name = "Karl"
-	culture = german
-	religion = catholic
-	#trait = martial_cleric #archbishop as of 1813; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
-	1744.2.8 = { #born on 1744.2.8; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
-		birth = yes
-	}
-	1824.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1813)
-		death = yes
-	}
-}
-
 10000770 = { #Geldrik Ludwig Wilhelm von Bentheim-Steinfurth; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
-	name = "Geldrik Ludwig Wilhelm"
+	name = "Geldrik Ludwig" #"Geldrik Ludwig Wilhelm"
 	dynasty = von_bentheim_steinfurth
 	culture = german
 	religion = protestant #lutheran
@@ -268,27 +240,6 @@
 	}
 	#count of Neipperg as of 1847
 	1870.1.1 = { #unknown, set to 30 years after first mention
-		death = yes
-	}
-}
-
-10000311 = { #Mr. von Taubenheim, the grand-écuyer of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
-	dynasty = von_taubenheim
-	culture = german
-	religion = protestant
-	1812.1.1 = { #unknown, set to 30 years before first mention
-		birth = yes
-	}
-	1842.9.17 = {
-		spouse = 10000310 #the husband of Maria Alexandrine Charlotte von Württemberg, after 1842.9.17
-	}
-	1847.1.1 = { #grand-écuyer of Württemberg as of 1847
-		employer = 10000247 #Wilhelm Friedrich von Württemberg
-		#effect = {
-		#	make_master_of_the_horse_effect = yes
-		#}
-	}
-	1872.1.1 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
