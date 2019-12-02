@@ -1,5 +1,10 @@
 religion = catholic
 
+1547.1.1 = {
+	h_reims = town
+	university = university #University founded in Reims in 1547; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+}
+
 1815.1.1 = {
 	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
