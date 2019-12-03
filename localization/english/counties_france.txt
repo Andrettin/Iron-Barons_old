@@ -1,6 +1,7 @@
 c_aisne = "Aisne"
 c_ardennes = "Ardennes"
 c_aube = "Aube"
+c_calvados = "Calvados"
 c_cher = "Cher"
 c_colmar = "Colmar"
 c_cote_dor = "Côte-d'Or"

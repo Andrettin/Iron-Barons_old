@@ -52,6 +52,14 @@ c_aube = {
 	}
 }
 
+c_calvados = {
+	de_jure_liege_title = d_france
+	color = { 159 131 176 }
+	
+	b_caen = {
+	}
+}
+
 c_cher = {
 	de_jure_liege_title = d_france
 	color = { 41 104 145 }

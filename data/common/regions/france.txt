@@ -3,6 +3,7 @@ r_france = { #the territory of modern France
 	provinces += p_aisne
 	provinces += p_ardennes
 	provinces += p_aube
+	provinces += p_calvados
 	provinces += p_cher
 	provinces += p_cote_dor
 	provinces += p_drome
@@ -40,4 +41,8 @@ r_lorraine = {
 	provinces += p_moselle
 	provinces += p_meurthe
 	provinces += p_vosges
+}
+
+r_normandy = {
+	provinces += p_calvados
 }

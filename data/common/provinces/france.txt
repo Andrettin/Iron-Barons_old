@@ -28,6 +28,16 @@ p_aube = {
 	}
 }
 
+p_calvados = {
+	county = c_calvados
+	color = { 159 131 176 }
+
+	h_caen = {
+		barony = b_caen
+		type = settlement
+	}
+}
+
 p_cher = {
 	county = c_cher
 	color = { 41 104 145 }
