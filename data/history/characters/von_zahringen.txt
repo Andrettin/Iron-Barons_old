@@ -50,7 +50,7 @@
 }
 
 10000529 = { #Ludwig Wilhelm August von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 9-10.
-	name = "Ludwig Wilhelm August"
+	name = "Ludwig Wilhelm" #"Ludwig Wilhelm August"
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant
@@ -81,7 +81,7 @@
 }
 
 10000013 = { #Friederike Wilhelmine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
-	name = "Friederike Wilhelmine Karoline"
+	name = "Friederike Wilhelmine" #"Friederike Wilhelmine Karoline"
 	dynasty = von_zahringen
 	culture = swabian #from Baden
 	religion = protestant
@@ -134,7 +134,7 @@
 }
 
 10000554 = { #Marie Elisabeth Wilhelmine von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
-	name = "Marie Elisabeth Wilhelmine"
+	name = "Marie Elisabeth" #"Marie Elisabeth Wilhelmine"
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant
@@ -153,7 +153,7 @@
 }
 
 10000516 = { #Karl Ludwig Friedrich von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
-	name = "Karl Ludwig Friedrich"
+	name = "Karl Ludwig" #"Karl Ludwig Friedrich"
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant
@@ -221,7 +221,7 @@
 }
 
 10000273 = { #Wilhelm Ludwig August von Zähringen; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 81.
-	name = "Wilhelm Ludwig August" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
+	name = "Wilhelm Ludwig" #"Wilhelm Ludwig August" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant
@@ -239,7 +239,7 @@
 }
 
 10000531 = { #Amalie Christine Karoline von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
-	name = "Amalie Christine Karoline"
+	name = "Amalie Christine" #"Amalie Christine Karoline"
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant
@@ -255,7 +255,7 @@
 }
 
 10000532 = { #Maximilian Friedrich Johann von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
-	name = "Maximilian Friedrich Johann"
+	name = "Maximilian Friedrich" #"Maximilian Friedrich Johann"
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant

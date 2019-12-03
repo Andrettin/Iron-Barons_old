@@ -30,7 +30,7 @@
 }
 
 10000771 = { #Peter Friederich Wilhelm von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Peter Friederich Wilhelm"
+	name = "Peter Friederich" #"Peter Friederich Wilhelm"
 	dynasty = von_holstein_gottorp_oldenburg
 	culture = saxon
 	religion = protestant #lutheran
@@ -46,7 +46,7 @@
 }
 
 10000773 = { #Hedwig Elisabeth Charlotte von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Hedwig Elisabeth Charlotte"
+	name = "Hedwig Elisabeth" #"Hedwig Elisabeth Charlotte"
 	dynasty = von_holstein_gottorp_oldenburg
 	culture = saxon
 	religion = protestant #lutheran
@@ -61,7 +61,7 @@
 }
 
 10000776 = { #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Peter Friederich Ludwig"
+	name = "Peter Friederich" #"Peter Friederich Ludwig"
 	dynasty = von_holstein_gottorp_oldenburg
 	culture = saxon
 	religion = protestant #lutheran
@@ -86,7 +86,7 @@
 }
 
 10000779 = { #Paul Friederich August von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Paul Friederich August"
+	name = "Paul Friederich" #"Paul Friederich August"
 	dynasty = von_holstein_gottorp_oldenburg
 	culture = saxon
 	religion = protestant #lutheran
@@ -101,7 +101,7 @@
 }
 
 10000780 = { #Peter Friederich Georg von Holstein-Gottorp-Oldenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Peter Friederich Georg"
+	name = "Peter Friederich" #"Peter Friederich Georg"
 	dynasty = von_holstein_gottorp_oldenburg
 	culture = saxon
 	religion = protestant #lutheran

@@ -1,5 +1,5 @@
 10000618 = { #Karl Ludwig Friederich von Mecklenburg-Strelitz; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 16.
-	name = "Karl Ludwig Friederich"
+	name = "Karl Ludwig" #"Karl Ludwig Friederich"
 	dynasty = von_mecklenburg_strelitz
 	culture = saxon
 	religion = protestant

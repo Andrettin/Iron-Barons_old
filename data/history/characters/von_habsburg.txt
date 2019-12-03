@@ -217,7 +217,7 @@
 }
 
 10000384 = { #Archduke Ferdinand Karl Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
-	name = "Ferdinand Karl Joseph"
+	name = "Ferdinand Karl" #"Ferdinand Karl Joseph"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -240,7 +240,7 @@
 }
 
 10000385 = { #Archduke Maximilian Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 13.
-	name = "Maximilian Joseph Johann"
+	name = "Maximilian Joseph" #"Maximilian Joseph Johann"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -262,7 +262,7 @@
 }
 
 10000042 = { #Archduke Joseph Anton Johann; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12, 81.
-	name = "Joseph Anton Johann"
+	name = "Joseph Anton" #"Joseph Anton Johann"
 	dynasty = von_habsburg
 	religion = catholic
 	culture = austrian
@@ -293,7 +293,7 @@
 }
 
 10000006 = { #Archduke Johann Baptiste Joseph von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
-	name = "Johann Baptiste Joseph"
+	name = "Johann Baptiste" #"Johann Baptiste Joseph"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -317,7 +317,7 @@
 }
 
 10000063 = { #Archduke Reiner Joseph Johann von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
-	name = "Reiner Joseph Johann" #source gives "Reinier-Jos.-Jean-Mich.-François-Jérôme"
+	name = "Reiner Joseph" #"Reiner Joseph Johann" #source gives "Reinier-Jos.-Jean-Mich.-François-Jérôme"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -343,7 +343,7 @@
 }
 
 10000379 = { #Archduke Ludwig Joseph Anton von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11, 13.
-	name = "Ludwig Joseph Anton"
+	name = "Ludwig Joseph" #"Ludwig Joseph Anton"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -507,7 +507,7 @@
 }
 
 10000044 = { #Stefan Franz Victor von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
-	name = "Stefan Franz Victor" #source gives "Etienne-François-Victor"
+	name = "Stefan Franz" #"Stefan Franz Victor" #source gives "Etienne-François-Victor"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -593,7 +593,7 @@
 }
 
 10000374 = { #Leopold Ludwig Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
-	name = "Leopold Ludwig Maria"
+	name = "Leopold Ludwig" #"Leopold Ludwig Maria"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -616,7 +616,7 @@
 }
 
 10000375 = { #Ernst Karl Felix von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
-	name = "Ernst Karl Felix"
+	name = "Ernst Karl" #"Ernst Karl Felix"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -658,7 +658,7 @@
 }
 
 10000376 = { #Sigmund Leopold Reiner von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
-	name = "Sigmund Leopold Reiner"
+	name = "Sigmund Leopold" #"Sigmund Leopold Reiner"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -680,7 +680,7 @@
 }
 
 10000377 = { #Reiner Ferdinand Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
-	name = "Reiner Ferdinand Maria"
+	name = "Reiner Ferdinand" #"Reiner Ferdinand Maria"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -724,7 +724,7 @@
 }
 
 10000378 = { #Heinrich Anton Maria von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12-13.
-	name = "Heinrich Anton Maria"
+	name = "Heinrich Anton" #"Heinrich Anton Maria"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -801,7 +801,7 @@
 }
 
 10000047 = { #Joseph Karl Ludwig von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
-	name = "Joseph Karl Ludwig"
+	name = "Joseph Karl" #"Joseph Karl Ludwig"
 	dynasty = von_habsburg
 	culture = austrian
 	religion = catholic
@@ -831,7 +831,7 @@
 }
 
 10000048 = { #Maria Henriette Anna von Habsburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 12.
-	name = "Maria Henriette Anna"
+	name = "Maria Henriette" #"Maria Henriette Anna"
 	female = yes
 	dynasty = von_habsburg
 	culture = austrian

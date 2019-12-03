@@ -13,7 +13,7 @@
 }
 
 10000777 = { #Friederike Elisabeth Amalie von Württemberg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
-	name = "Friederike Elisabeth Amalie"
+	name = "Friederike Elisabeth" #"Friederike Elisabeth Amalie"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant #lutheran
@@ -44,7 +44,7 @@
 }
 
 10000251 = { #Duke Ludwig Friedrich Alexander of Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12, 80-81.
-	name = "Ludwig Friedrich Alexander"
+	name = "Ludwig Friedrich" #"Ludwig Friedrich Alexander"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -63,7 +63,7 @@
 }
 
 10000279 = { #Eugen Friedrich Heinrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
-	name = "Eugen Friedrich Heinrich"
+	name = "Eugen Friedrich" #"Eugen Friedrich Heinrich"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -76,7 +76,7 @@
 }
 
 10000298 = { #Wilhelm Friedrich Philipp von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 82.
-	name = "Wilhelm Friedrich Philipp"
+	name = "Wilhelm Friedrich" #"Wilhelm Friedrich Philipp"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -89,7 +89,7 @@
 }
 
 10000312 = { #Ferdinand August Friedrich von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 80, 83.
-	name = "Ferdinand August Friedrich"
+	name = "Ferdinand August" #"Ferdinand August Friedrich"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -106,7 +106,7 @@
 }
 
 10000178 = { #Alexander Friedrich Karl von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 2, 80, 83.
-	name = "Alexander Friedrich Karl"
+	name = "Alexander Friedrich" #"Alexander Friedrich Karl"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -251,7 +251,7 @@
 }
 
 10000043 = { #Maria Dorothée Wilhelmina von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 12, 81.
-	name = "Maria Dorothée Wilhelmina"
+	name = "Maria Dorothée" #"Maria Dorothée Wilhelmina"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -319,7 +319,7 @@
 }
 
 10000299 = { #Christian Friedrich Alexander von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
-	name = "Christian Friedrich Alexander"
+	name = "Christian Friedrich" #"Christian Friedrich Alexander"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -440,7 +440,7 @@
 }
 
 10000319 = { #Ernst Alexander Constantin von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
-	name = "Ernst Alexander Constantin"
+	name = "Ernst Alexander" #"Ernst Alexander Constantin"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -488,7 +488,7 @@
 }
 
 10000305 = { #Wilhelm Alexander Ferdinand von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
-	name = "Wilhelm Alexander Ferdinand"
+	name = "Wilhelm Alexander" #"Wilhelm Alexander Ferdinand"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -535,7 +535,7 @@
 }
 
 10000310 = { #Maria Alexandrine Charlotte von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
-	name = "Maria Alexandrine Charlotte"
+	name = "Maria Alexandrine" #"Maria Alexandrine Charlotte"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -765,7 +765,7 @@
 }
 
 10000302 = { #Wilhelmina Pauline Helene von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
-	name = "Wilhelmina Pauline Helene"
+	name = "Wilhelmina Pauline" #"Wilhelmina Pauline Helene"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -816,7 +816,7 @@
 }
 
 10000303 = { #Pauline Wilhelmina Franziska von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
-	name = "Pauline Wilhelmina Franziska"
+	name = "Pauline Wilhelmina" #"Pauline Wilhelmina Franziska"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -848,7 +848,7 @@
 }
 
 10000318 = { #Philipp Alexander Maria von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
-	name = "Philipp Alexander Maria"
+	name = "Philipp Alexander" #"Philipp Alexander Maria"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -897,7 +897,7 @@
 }
 
 10000308 = { #Eugénie Wilhelmina Maria von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
-	name = "Eugénie Wilhelmina Maria"
+	name = "Eugénie Wilhelmina" #"Eugénie Wilhelmina Maria"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
@@ -929,7 +929,7 @@
 }
 
 10000309 = { #Maria Josephine Friederike von Württemberg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
-	name = "Maria Josephine Friederike"
+	name = "Maria Josephine" #"Maria Josephine Friederike"
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
