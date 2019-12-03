@@ -166,6 +166,22 @@ c_loire = {
 	}
 }
 
+c_loire_atlantique = {
+	de_jure_liege_title = d_france
+	color = { 69 184 240 }
+	
+	b_nantes = {
+	}
+}
+
+c_maine = {
+	de_jure_liege_title = d_france
+	color = { 238 119 177 }
+	
+	b_angers = {
+	}
+}
+
 c_marne = {
 	de_jure_liege_title = d_france
 	color = { 84 25 187 }
@@ -236,6 +252,9 @@ c_nord = {
 	}
 	
 	b_dunkirk = {
+	}
+	
+	b_douai = {
 	}
 }
 

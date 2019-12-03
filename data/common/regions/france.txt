@@ -3,7 +3,6 @@ r_france = { #the territory of modern France
 	provinces += p_aisne
 	provinces += p_ardennes
 	provinces += p_aube
-	provinces += p_calvados
 	provinces += p_cher
 	provinces += p_cote_dor
 	provinces += p_drome
@@ -11,6 +10,8 @@ r_france = { #the territory of modern France
 	provinces += p_hautes_alpes
 	provinces += p_isere
 	provinces += p_loire
+	provinces += p_loire_atlantique
+	provinces += p_maine
 	provinces += p_marne
 	provinces += p_meuse
 	provinces += p_nievre
@@ -24,6 +25,7 @@ r_france = { #the territory of modern France
 	subregions += r_alsace
 	subregions += r_franche_comte
 	subregions += r_lorraine
+	subregions += r_normandy
 }
 
 r_alsace = {

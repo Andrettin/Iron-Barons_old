@@ -173,6 +173,26 @@ p_loire = {
 	}
 }
 
+p_loire_atlantique = {
+	county = c_loire_atlantique
+	color = { 69 184 240 }
+
+	h_nantes = {
+		barony = b_nantes
+		type = settlement
+	}
+}
+
+p_maine = {
+	county = c_maine
+	color = { 238 119 177 }
+
+	h_angers = {
+		barony = b_angers
+		type = settlement
+	}
+}
+
 p_marne = {
 	county = c_marne
 	color = { 84 25 187 }
@@ -269,6 +289,11 @@ p_nord = {
 	
 	h_dunkirk = {
 		barony = b_dunkirk
+		type = settlement
+	}
+	
+	h_douai = {
+		barony = b_douai
 		type = settlement
 	}
 }

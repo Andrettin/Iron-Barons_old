@@ -1,5 +1,10 @@
 religion = catholic
 
+1582.1.1 = {
+	h_douai = town
+	university = university #University founded in Douai in 1582; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+}
+
 1815.1.1 = {
 	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
