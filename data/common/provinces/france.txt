@@ -93,6 +93,16 @@ p_drome = {
 	}
 }
 
+p_gironde = {
+	county = c_gironde
+	color = { 128 106 254 }
+
+	h_bordeaux = {
+		barony = b_bordeaux
+		type = settlement
+	}
+}
+
 p_haute_loire = {
 	county = c_haute_loire
 	color = { 222 18 54 }
@@ -179,6 +189,16 @@ p_loire_atlantique = {
 
 	h_nantes = {
 		barony = b_nantes
+		type = settlement
+	}
+}
+
+p_loiret = {
+	county = c_loiret
+	color = { 196 55 170 }
+
+	h_orleans = {
+		barony = b_orleans
 		type = settlement
 	}
 }
@@ -384,6 +404,16 @@ p_strasbourg = {
 
 	h_lauterburg = {
 		barony = b_lauterburg
+		type = settlement
+	}
+}
+
+p_vienne = {
+	county = c_vienne
+	color = { 61 162 220 }
+
+	h_poitiers = {
+		barony = b_poitiers
 		type = settlement
 	}
 }

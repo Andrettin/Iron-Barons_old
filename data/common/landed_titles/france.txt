@@ -103,6 +103,14 @@ c_drome = {
 	}
 }
 
+c_gironde = {
+	de_jure_liege_title = d_france
+	color = { 128 106 254 }
+	
+	b_bordeaux = {
+	}
+}
+
 c_haute_loire = {
 	de_jure_liege_title = d_france
 	color = { 222 18 54 }
@@ -171,6 +179,14 @@ c_loire_atlantique = {
 	color = { 69 184 240 }
 	
 	b_nantes = {
+	}
+}
+
+c_loiret = {
+	de_jure_liege_title = d_france
+	color = { 196 55 170 }
+	
+	b_orleans = {
 	}
 }
 
@@ -322,6 +338,14 @@ c_strasbourg = {
 	}
 	
 	b_lauterburg = {
+	}
+}
+
+c_vienne = {
+	de_jure_liege_title = d_france
+	color = { 61 162 220 }
+	
+	b_poitiers = {
 	}
 }
 

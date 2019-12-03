@@ -1,0 +1,10 @@
+religion = catholic
+
+1305.1.1 = {
+	h_orleans = town
+	university = university #University founded in Orléans in 1305; Source: "Atlas de História Mundial", 2001, p. 144.
+}
+
+1815.1.1 = {
+	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
