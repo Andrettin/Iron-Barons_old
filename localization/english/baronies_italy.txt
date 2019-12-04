@@ -1,5 +1,6 @@
 b_alessandria = "Alessandria"
 b_annecy = "Annecy"
+b_aosta = "Aosta"
 b_asti = "Asti"
 b_bergamo = "Bergamo"
 b_bologna = "Bologna"

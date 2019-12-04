@@ -75,6 +75,14 @@ c_alessandria = {
 	}
 }
 
+c_aosta = {
+	de_jure_liege_title = d_italy
+	color = { 59 23 63 }
+	
+	b_aosta = {
+	}
+}
+
 c_cuneo = {
 	de_jure_liege_title = d_italy
 	color = { 102 43 22 }

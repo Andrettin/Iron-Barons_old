@@ -25,6 +25,7 @@ r_modern_italy = {
 
 r_piedmont = {
 	provinces += p_alessandria
+	provinces += p_aosta
 	provinces += p_cuneo
 	provinces += p_novara
 	provinces += p_turin

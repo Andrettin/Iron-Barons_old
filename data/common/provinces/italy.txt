@@ -23,6 +23,16 @@ p_alessandria = {
 	}
 }
 
+p_aosta = {
+	county = c_aosta
+	color = { 59 23 63 }
+
+	h_aosta = {
+		barony = b_aosta
+		type = settlement
+	}
+}
+
 p_cuneo = {
 	county = c_cuneo
 	color = { 102 43 22 }
