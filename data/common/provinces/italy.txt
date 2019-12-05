@@ -57,13 +57,8 @@ p_latium = {
 	county = c_latium
 	color = { 57 237 186 }
 
-	h_bologna = {
-		barony = b_bologna
-		type = settlement
-	}
-
-	h_ferrara = {
-		barony = b_ferrara
+	h_rome = {
+		barony = b_rome
 		type = settlement
 	}
 }
@@ -164,6 +159,21 @@ p_parma = {
 
 	h_piacenza = {
 		barony = b_piacenza
+		type = settlement
+	}
+}
+
+p_romagna = {
+	county = c_romagna
+	color = { 152 239 120 }
+
+	h_bologna = {
+		barony = b_bologna
+		type = settlement
+	}
+
+	h_ferrara = {
+		barony = b_ferrara
 		type = settlement
 	}
 }

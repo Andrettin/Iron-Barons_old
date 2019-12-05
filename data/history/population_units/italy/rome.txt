@@ -1,0 +1,9 @@
+craftsmen = { #urban population
+	holding = h_rome
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1600.1.1 = {
+		size = 100000 #Rome had a population of 100,000 in 1600; Source: Henry Kamen, "The Iron Century", p. 419.
+	}
+}

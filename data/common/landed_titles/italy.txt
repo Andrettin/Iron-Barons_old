@@ -104,10 +104,7 @@ c_latium = {
 	de_jure_liege_title = d_italy
 	color = { 57 237 186 }
 	
-	b_bologna = {
-	}
-	
-	b_ferrara = {
+	b_rome = {
 	}
 }
 
@@ -178,6 +175,17 @@ c_parma = {
 	}
 	
 	b_piacenza = {
+	}
+}
+
+c_romagna = {
+	de_jure_liege_title = d_italy
+	color = { 152 239 120 }
+	
+	b_bologna = {
+	}
+	
+	b_ferrara = {
 	}
 }
 
