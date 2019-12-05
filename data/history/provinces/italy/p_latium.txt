@@ -1,7 +1,8 @@
 religion = catholic
 
-1600.1.1 = {
-	h_rome = city #Rome existed as of 1600; Source: Henry Kamen, "The Iron Century", p. 419.
+1303.1.1 = {
+	h_rome = city
+	university = university #University founded in Rome in 1303; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
 1815.1.1 = {
