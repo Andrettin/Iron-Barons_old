@@ -118,6 +118,16 @@ p_lombardy = {
 	}
 }
 
+p_lucca = {
+	county = c_lucca
+	color = { 178 242 92 }
+
+	h_lucca = {
+		barony = b_lucca
+		type = settlement
+	}
+}
+
 p_modena = {
 	county = c_modena
 	color = { 231 24 79 }

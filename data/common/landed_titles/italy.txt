@@ -143,6 +143,14 @@ c_lombardy = {
 	}
 }
 
+c_lucca = {
+	de_jure_liege_title = d_italy
+	color = { 178 242 92 }
+	
+	b_lucca = {
+	}
+}
+
 c_modena = {
 	de_jure_liege_title = d_modena
 	color = { 231 24 79 }
