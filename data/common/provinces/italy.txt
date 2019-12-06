@@ -203,6 +203,21 @@ p_turin = {
 	}
 }
 
+p_tuscany = {
+	county = c_tuscany
+	color = { 141 86 217 }
+
+	h_florence = {
+		barony = b_florence
+		type = settlement
+	}
+
+	h_arezzo = {
+		barony = b_arezzo
+		type = settlement
+	}
+}
+
 p_venetia = {
 	county = c_venetia
 	color = { 240 155 38 }

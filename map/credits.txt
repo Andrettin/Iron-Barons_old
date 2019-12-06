@@ -115,6 +115,7 @@
 /map/earth/provinces/italy/p_romagna.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 /map/earth/provinces/italy/p_savoy.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/italy/p_turin.txt (www.github.com/OpenHistoricalMap/data) (public domain)
+/map/earth/provinces/italy/p_tuscany.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/italy/p_venetia.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 /map/earth/provinces/low_countries/p_arlon.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/low_countries/p_belgium.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)

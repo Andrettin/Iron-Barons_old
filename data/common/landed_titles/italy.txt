@@ -210,6 +210,17 @@ c_turin = {
 	}
 }
 
+c_tuscany = {
+	de_jure_liege_title = d_italy
+	color = { 141 86 217 }
+	
+	b_florence = {
+	}
+	
+	b_arezzo = {
+	}
+}
+
 c_venetia = {
 	de_jure_liege_title = d_venetia
 	color = { 188 0 7 }
