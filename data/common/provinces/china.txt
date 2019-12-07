@@ -98,12 +98,12 @@ p_tianjin = {
 	color = { 164 248 226 }
 }
 
-p_xinjiang = {
-	color = { 162 134 154 }
+p_tibet = {
+	color = { 27 102 6 }
 }
 
-p_xizang = {
-	color = { 27 102 6 }
+p_xinjiang = {
+	color = { 162 134 154 }
 }
 
 p_yunnan = {

@@ -24,8 +24,8 @@ r_china = {
 	provinces += p_shanxi
 	provinces += p_sichuan
 	provinces += p_tianjin
+	provinces += p_tibet
 	provinces += p_xinjiang
-	provinces += p_xizang
 	provinces += p_yunnan
 	provinces += p_zhejiang
 }
