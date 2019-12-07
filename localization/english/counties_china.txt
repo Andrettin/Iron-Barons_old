@@ -1,0 +1,4 @@
+p_beijing = "Beijing"
+p_hebei = "Hebei"
+p_shandong = "Shandong"
+p_tianjin = "Tianjin"

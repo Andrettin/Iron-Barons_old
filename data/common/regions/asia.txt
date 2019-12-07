@@ -1,0 +1,3 @@
+r_asia = {
+	subregions += r_china
+}

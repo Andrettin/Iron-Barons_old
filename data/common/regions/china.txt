@@ -1,0 +1,6 @@
+r_china = {
+	provinces += p_beijing
+	provinces += p_hebei
+	provinces += p_shandong
+	provinces += p_tianjin
+}

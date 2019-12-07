@@ -1,0 +1,15 @@
+p_beijing = {
+	color = { 218 68 8 }
+}
+
+p_hebei = {
+	color = { 218 152 90 }
+}
+
+p_shandong = {
+	color = { 212 219 47 }
+}
+
+p_tianjin = {
+	color = { 164 248 226 }
+}
