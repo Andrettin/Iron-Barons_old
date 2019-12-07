@@ -1,15 +1,115 @@
+p_anhui = {
+	color = { 212 207 144 }
+}
+
 p_beijing = {
 	color = { 218 68 8 }
+}
+
+p_chongqing = {
+	color = { 42 114 88 }
+}
+
+p_fujian = {
+	color = { 144 191 109 }
+}
+
+p_gansu = {
+	color = { 138 201 194 }
+}
+
+p_guangdong = {
+	color = { 123 170 1 }
+}
+
+p_guangxi = {
+	color = { 181 11 89 }
+}
+
+p_guizhou = {
+	color = { 153 212 219 }
+}
+
+p_hainan = {
+	color = { 245 231 68 }
 }
 
 p_hebei = {
 	color = { 218 152 90 }
 }
 
+p_henan = {
+	color = { 56 123 246 }
+}
+
+p_hubei = {
+	color = { 229 162 81 }
+}
+
+p_hunan = {
+	color = { 218 219 44 }
+}
+
+p_inner_mongolia = {
+	color = { 81 163 212 }
+}
+
+p_jiangsu = {
+	color = { 111 131 136 }
+}
+
+p_jiangxi = {
+	color = { 95 156 35 }
+}
+
+p_jilin = {
+	color = { 6 104 218 }
+}
+
+p_liaoning = {
+	color = { 111 99 21 }
+}
+
+p_ningxia = {
+	color = { 233 140 99 }
+}
+
+p_qinghai = {
+	color = { 215 248 59 }
+}
+
+p_shaanxi = {
+	color = { 215 66 54 }
+}
+
 p_shandong = {
 	color = { 212 219 47 }
 }
 
+p_shanxi = {
+	color = { 115 22 57 }
+}
+
+p_sichuan = {
+	color = { 121 148 223 }
+}
+
 p_tianjin = {
 	color = { 164 248 226 }
+}
+
+p_xinjiang = {
+	color = { 162 134 154 }
+}
+
+p_xizang = {
+	color = { 27 102 6 }
+}
+
+p_yunnan = {
+	color = { 55 171 231 }
+}
+
+p_zhejiang = {
+	color = { 68 143 223 }
 }
