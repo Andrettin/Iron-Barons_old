@@ -1,0 +1,18 @@
+r_india = {
+	provinces += p_andhra_pradesh
+	provinces += p_bihar
+	provinces += p_chhattisgarh
+	provinces += p_goa
+	provinces += p_gujarat
+	provinces += p_haryana
+	provinces += p_himachal_pradesh
+	provinces += p_jharkhand
+	provinces += p_karnataka
+	provinces += p_madhya_pradesh
+	provinces += p_maharashtra
+	provinces += p_orissa
+	provinces += p_punjab
+	provinces += p_rajasthan
+	provinces += p_tamil_nadu
+	provinces += p_uttar_pradesh
+}

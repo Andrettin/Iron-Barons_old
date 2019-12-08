@@ -1,3 +1,4 @@
 r_asia = {
 	subregions += r_china
+	subregions += r_india
 }

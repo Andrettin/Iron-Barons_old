@@ -1,0 +1,63 @@
+p_andhra_pradesh = {
+	color = { 231 222 88 }
+}
+
+p_bihar = {
+	color = { 223 226 107 }
+}
+
+p_chhattisgarh = {
+	color = { 198 44 36 }
+}
+
+p_goa = {
+	color = { 177 42 209 }
+}
+
+p_gujarat = {
+	color = { 166 124 3 }
+}
+
+p_haryana = {
+	color = { 211 104 68 }
+}
+
+p_himachal_pradesh = {
+	color = { 12 97 64 }
+}
+
+p_jharkhand = {
+	color = { 79 100 63 }
+}
+
+p_karnataka = {
+	color = { 109 80 75 }
+}
+
+p_madhya_pradesh = {
+	color = { 56 181 200 }
+}
+
+p_maharashtra = {
+	color = { 217 55 2 }
+}
+
+p_orissa = {
+	color = { 207 64 114 }
+}
+
+p_punjab = {
+	color = { 153 5 210 }
+}
+
+p_rajasthan = {
+	color = { 223 13 182 }
+}
+
+p_tamil_nadu = {
+	color = { 126 79 144 }
+}
+
+p_uttar_pradesh = {
+	color = { 113 100 52 }
+}

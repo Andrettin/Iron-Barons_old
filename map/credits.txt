@@ -104,6 +104,7 @@
 /map/earth/provinces/illyria/p_vukovar.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/illyria/p_warasdin.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/illyria/p_zagreb.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
+/map/earth/provinces/india/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/italy/p_alessandria.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/italy/p_aosta.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/italy/p_cuneo.txt (www.github.com/OpenHistoricalMap/data) (public domain)
