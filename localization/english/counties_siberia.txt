@@ -1,0 +1,2 @@
+p_chukotka = "Chukotka"
+p_kamchatka = "Kamchatka"

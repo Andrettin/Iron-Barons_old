@@ -7,11 +7,17 @@ r_soviet_union = {
 
 r_russian_federation = { #the territory of the modern Russian Federation
 	provinces += p_east_prussia
+	subregions += r_siberia
 }
 
 r_byelorussia = { #the territory of modern Belarus/the Byelorussian SSR
 	provinces += p_brest_litovsk
 	provinces += p_grodno
+}
+
+r_siberia = {
+	provinces += p_chukotka
+	provinces += p_kamchatka
 }
 
 r_ukraine = { #the territory of modern Ukraine
