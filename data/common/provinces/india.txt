@@ -10,6 +10,10 @@ p_chhattisgarh = {
 	color = { 198 44 36 }
 }
 
+p_delhi = {
+	color = { 15 124 240 }
+}
+
 p_goa = {
 	color = { 177 42 209 }
 }
@@ -32,6 +36,14 @@ p_jharkhand = {
 
 p_karnataka = {
 	color = { 109 80 75 }
+}
+
+p_kashmir = {
+	color = { 0 173 127 }
+}
+
+p_kerala = {
+	color = { 162 202 139 }
 }
 
 p_madhya_pradesh = {
