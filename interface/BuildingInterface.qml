@@ -17,7 +17,7 @@ Item {
 			id: building_grid
 			columns: 1
 			columnSpacing: 0
-			rowSpacing: 2
+			rowSpacing: 4
 
 			Repeater {
 				model: metternich.selected_holding ? metternich.selected_holding.building_slots : []
