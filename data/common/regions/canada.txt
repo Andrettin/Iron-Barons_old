@@ -1,11 +1,18 @@
 r_canada = {
 	subregions += r_nova_scotia
+	provinces += p_alberta
+	provinces += p_british_columbia
 	provinces += p_labrador
+	provinces += p_manitoba
 	provinces += p_new_brunswick
 	provinces += p_newfoundland
+	provinces += p_northwest_territories
+	provinces += p_nunavut
 	provinces += p_ontario
 	provinces += p_prince_edward_island
 	provinces += p_quebec
+	provinces += p_saskatchewan
+	provinces += p_yukon
 }
 
 r_nova_scotia = {

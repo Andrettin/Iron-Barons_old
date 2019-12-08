@@ -1,3 +1,7 @@
+p_alberta = {
+	color = { 6 203 161 }
+}
+
 p_amherstburg = {
 	county = c_amherstburg
 	color = { 36 152 137 }
@@ -11,6 +15,10 @@ p_amherstburg = {
 		barony = b_stewiacke
 		type = settlement
 	}
+}
+
+p_british_columbia = {
+	color = { 163 133 56 }
 }
 
 p_cape_breton = {
@@ -62,12 +70,24 @@ p_labrador = {
 	color = { 233 91 175 }
 }
 
+p_manitoba = {
+	color = { 86 226 164 }
+}
+
 p_new_brunswick = {
 	color = { 250 59 19 }
 }
 
 p_newfoundland = {
 	color = { 108 141 200 }
+}
+
+p_northwest_territories = {
+	color = { 245 164 64 }
+}
+
+p_nunavut = {
+	color = { 66 241 157 }
 }
 
 p_ontario = {
@@ -80,4 +100,12 @@ p_prince_edward_island = {
 
 p_quebec = {
 	color = { 194 235 127 }
+}
+
+p_saskatchewan = {
+	color = { 77 251 140 }
+}
+
+p_yukon = {
+	color = { 56 114 247 }
 }
