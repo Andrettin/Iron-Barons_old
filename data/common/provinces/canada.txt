@@ -57,3 +57,27 @@ p_halifax = {
 		type = settlement
 	}
 }
+
+p_labrador = {
+	color = { 233 91 175 }
+}
+
+p_new_brunswick = {
+	color = { 250 59 19 }
+}
+
+p_newfoundland = {
+	color = { 108 141 200 }
+}
+
+p_ontario = {
+	color = { 244 122 194 }
+}
+
+p_prince_edward_island = {
+	color = { 166 182 4 }
+}
+
+p_quebec = {
+	color = { 194 235 127 }
+}
