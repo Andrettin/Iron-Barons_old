@@ -12,7 +12,7 @@ engineering_college = {
 	holding_types += college
 	holding_types += university
 	construction_days = 730
-	icon_tag = diploma
+	icon_tag = cog
 	
 	conditions = {
 		or = {
@@ -66,7 +66,7 @@ theology_college = {
 	holding_types += college
 	holding_types += university
 	construction_days = 730
-	icon_tag = diploma
+	icon_tag = wooden_cross
 	
 	conditions = {
 		or = {
