@@ -1,0 +1,5 @@
+p_kujalleq = "Kujalleq"
+p_northeast_greenland = "Northeast Greenland"
+p_qaasuitsup = "Qaasuitsup"
+p_qeqqata = "Qeqqata"
+p_sermersooq = "Sermersooq"

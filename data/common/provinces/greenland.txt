@@ -1,0 +1,19 @@
+p_kujalleq = {
+	color = { 113 170 146 }
+}
+
+p_northeast_greenland = {
+	color = { 40 114 160 }
+}
+
+p_qaasuitsup = {
+	color = { 187 221 13 }
+}
+
+p_qeqqata = {
+	color = { 201 231 141 }
+}
+
+p_sermersooq = {
+	color = { 127 24 35 }
+}
