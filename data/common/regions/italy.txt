@@ -11,6 +11,7 @@ r_italy = {
 	provinces += p_tuscany
 	provinces += p_venetia
 	subregions += r_piedmont
+	subregions += r_sardinia
 }
 
 r_modern_italy = {
@@ -28,6 +29,7 @@ r_modern_italy = {
 	provinces += p_trentino
 	provinces += p_south_tyrol
 	subregions += r_piedmont
+	subregions += r_sardinia
 }
 
 r_piedmont = {
@@ -36,4 +38,9 @@ r_piedmont = {
 	provinces += p_cuneo
 	provinces += p_novara
 	provinces += p_turin
+}
+
+r_sardinia = {
+	provinces += p_cagliari
+	provinces += p_sassari
 }

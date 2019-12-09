@@ -33,6 +33,10 @@ p_aosta = {
 	}
 }
 
+p_cagliari = {
+	color = { 68 112 115 }
+}
+
 p_cuneo = {
 	county = c_cuneo
 	color = { 102 43 22 }
@@ -190,6 +194,10 @@ p_romagna = {
 		barony = b_ferrara
 		type = settlement
 	}
+}
+
+p_sassari = {
+	color = { 91 198 53 }
 }
 
 p_savoy = {
