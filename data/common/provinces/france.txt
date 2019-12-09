@@ -1,3 +1,7 @@
+p_ain = {
+	color = { 190 229 93 }
+}
+
 p_aisne = {
 	county = c_aisne
 	color = { 61 167 225 }
@@ -6,6 +10,10 @@ p_aisne = {
 		barony = b_soissons
 		type = settlement
 	}
+}
+
+p_alpes_de_haute_provence = {
+	color = { 56 197 244 }
 }
 
 p_ardennes = {

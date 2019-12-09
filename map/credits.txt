@@ -104,6 +104,7 @@
 /map/earth/provinces/europe/italy/p_lombardy.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/italy/p_lucca.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/italy/p_modena.txt (www.github.com/OpenHistoricalMap/data) (public domain)
+/map/earth/provinces/europe/italy/p_nice.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/italy/p_novara.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/italy/p_parma.txt (www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/italy/p_romagna.txt (www.github.com/OpenHistoricalMap/data and www.naturalearthdata.com) (public domain)

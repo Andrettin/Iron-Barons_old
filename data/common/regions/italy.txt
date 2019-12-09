@@ -4,6 +4,7 @@ r_italy = {
 	provinces += p_lombardy
 	provinces += p_lucca
 	provinces += p_modena
+	provinces += p_nice
 	provinces += p_parma
 	provinces += p_romagna
 	provinces += p_savoy

@@ -143,6 +143,10 @@ p_modena = {
 	}
 }
 
+p_nice = {
+	color = { 225 184 108 }
+}
+
 p_novara = {
 	county = c_novara
 	color = { 224 71 112 }

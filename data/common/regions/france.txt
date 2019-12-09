@@ -1,6 +1,8 @@
 r_france = { #the territory of modern France
 	provinces += p_ile_de_france
+	provinces += p_ain
 	provinces += p_aisne
+	provinces += p_alpes_de_haute_provence
 	provinces += p_ardennes
 	provinces += p_aube
 	provinces += p_cher
@@ -17,6 +19,7 @@ r_france = { #the territory of modern France
 	provinces += p_marne
 	provinces += p_meuse
 	provinces += p_nievre
+	provinces += p_nice
 	provinces += p_nord
 	provinces += p_pas_de_calais
 	provinces += p_puy_de_dome

@@ -1,5 +1,7 @@
+p_ain = "Ain"
 c_aisne = "Aisne"
 c_ardennes = "Ardennes"
+p_alpes_de_haute_provence = "Alpes-de-Haute-Provence"
 c_aube = "Aube"
 c_calvados = "Calvados"
 c_cher = "Cher"
