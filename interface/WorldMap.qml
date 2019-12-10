@@ -43,12 +43,13 @@ Item {
 		MouseArea {
 			anchors.fill: parent
 			onClicked: {
-				if (metternich.selected_province) {
+				if (metternich.selected_province !== null) {
 					metternich.selected_province.selected = false
 				}
-				if (metternich.selected_holding) {
+				if (metternich.selected_holding !== null) {
 					metternich.selected_holding.selected = false
 				}
+				metternich.selected_character = null
 			}
 		}
 
@@ -97,6 +98,7 @@ Item {
 						} else if (metternich.selected_province) {
 							metternich.selected_province.selected = false
 						}
+						metternich.selected_character = null
 					}
 				}
 			}

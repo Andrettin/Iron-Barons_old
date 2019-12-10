@@ -131,6 +131,13 @@ Item {
 				font.pixelSize: 12
 				font.family: "tahoma"
 			}
+
+			MouseArea {
+				anchors.fill: parent
+				onClicked: {
+					metternich.selected_character = metternich.game.player_character
+				}
+			}
 		}
 	}
 
@@ -205,8 +212,16 @@ Item {
 		id: province_interface
 		anchors.bottom: parent.bottom
 		anchors.left: parent.left
-		visible: metternich.selected_province !== null
+		visible: metternich.selected_province !== null && metternich.selected_character === null
 		province: metternich.selected_province
+	}
+
+	CharacterInterface {
+		id: character_interface
+		anchors.bottom: parent.bottom
+		anchors.left: parent.left
+		visible: metternich.selected_character !== null
+		character: metternich.selected_character
 	}
 
 	Button {
@@ -363,6 +378,17 @@ Item {
 				downPressed = false
 			} else if (event.key === Qt.Key_Control) {
 				ctrlPressed = false
+			} else if (event.key === Qt.Key_Escape) {
+				if (metternich.selected_character !== null) {
+					metternich.selected_character = null
+				} else {
+					if (metternich.selected_province !== null) {
+						metternich.selected_province.selected = false
+					}
+					if (metternich.selected_holding !== null) {
+						metternich.selected_holding.selected = false
+					}
+				}
 			/*
 			} else if (event.key === Qt.Key_Z) {
 				current_world_map.zoomLevel += 0.5
