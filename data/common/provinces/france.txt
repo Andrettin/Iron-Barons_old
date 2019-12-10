@@ -416,6 +416,10 @@ p_strasbourg = {
 	}
 }
 
+p_var = {
+	color = { 245 182 111 }
+}
+
 p_vienne = {
 	county = c_vienne
 	color = { 61 162 220 }
