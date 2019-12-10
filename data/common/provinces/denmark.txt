@@ -1,3 +1,7 @@
+p_bornholm = {
+	color = { 159 94 107 }
+}
+
 p_funen = {
 	county = c_funen
 	color = { 84 48 146 }
@@ -31,6 +35,10 @@ p_middle_jutland = {
 		barony = b_horsens
 		type = settlement
 	}
+}
+
+p_north_jutland = {
+	color = { 225 233 254 }
 }
 
 p_north_schleswig = {

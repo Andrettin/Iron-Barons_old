@@ -4,8 +4,10 @@ r_scandinavia = {
 }
 
 r_denmark = { #the territory of modern Denmark
+	provinces += p_bornholm
 	provinces += p_funen
 	provinces += p_middle_jutland
+	provinces += p_north_jutland
 	provinces += p_north_schleswig
 	provinces += p_sjaelland
 }
