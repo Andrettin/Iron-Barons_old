@@ -1,2 +1,3 @@
 nun = {
+	icon_tag = wooden_cross
 }

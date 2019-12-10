@@ -1,2 +1,3 @@
 intelligent = {
+	icon_tag = book
 }

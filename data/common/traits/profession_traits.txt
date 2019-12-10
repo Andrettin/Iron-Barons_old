@@ -1,11 +1,15 @@
 administrator = {
+	icon_tag = courthouse
 }
 
 architect = {
+	icon_tag = cog
 }
 
 poet = {
+	icon_tag = diploma
 }
 
 scholar = {
+	icon_tag = university
 }

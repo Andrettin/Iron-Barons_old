@@ -1,2 +1,3 @@
 twin = {
+	icon_tag = blood
 }

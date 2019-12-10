@@ -1,5 +1,7 @@
 incapable = {
+	icon_tag = blood
 }
 
 sturdy = {
+	icon_tag = wall
 }
