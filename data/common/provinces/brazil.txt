@@ -1,3 +1,19 @@
+p_acre = {
+	color = { 29 41 143 }
+}
+
+p_alagoas = {
+	color = { 62 61 23 }
+}
+
+p_amapa = {
+	color = { 51 213 191 }
+}
+
+p_amazonas = {
+	color = { 226 115 250 }
+}
+
 p_bahia = {
 	county = c_bahia
 	color = { 240 0 73 }
@@ -6,6 +22,10 @@ p_bahia = {
 		barony = b_salvador
 		type = settlement
 	}
+}
+
+p_ceara = {
+	color = { 130 235 88 }
 }
 
 p_espirito_santo = {
@@ -18,6 +38,10 @@ p_espirito_santo = {
 	}
 }
 
+p_maranhao = {
+	color = { 161 210 122 }
+}
+
 p_minas_gerais = {
 	county = c_minas_gerais
 	color = { 117 233 106 }
@@ -26,6 +50,14 @@ p_minas_gerais = {
 		barony = b_ouro_preto
 		type = settlement
 	}
+}
+
+p_para = {
+	color = { 50 138 138 }
+}
+
+p_paraiba = {
+	color = { 185 167 209 }
 }
 
 p_parana = {
@@ -38,6 +70,14 @@ p_parana = {
 	}
 }
 
+p_pernambuco = {
+	color = { 136 212 71 }
+}
+
+p_piaui = {
+	color = { 27 226 41 }
+}
+
 p_rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
@@ -46,6 +86,10 @@ p_rio_de_janeiro = {
 		barony = b_rio_de_janeiro
 		type = settlement
 	}
+}
+
+p_rio_grande_do_norte = {
+	color = { 105 130 239 }
 }
 
 p_rio_grande_do_sul = {
@@ -61,6 +105,10 @@ p_rio_grande_do_sul = {
 		barony = b_porto_alegre
 		type = settlement
 	}
+}
+
+p_rondonia = {
+	color = { 82 122 154 }
 }
 
 p_santa_catarina = {
@@ -86,4 +134,12 @@ p_sao_paulo = {
 		barony = b_sao_paulo
 		type = settlement
 	}
+}
+
+p_sergipe = {
+	color = { 122 91 162 }
+}
+
+p_tocantins = {
+	color = { 128 54 151 }
 }
