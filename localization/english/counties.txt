@@ -1,10 +1,4 @@
-c_bohemia = "Bohemia"
-c_bohemia_german = "Böhmen" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 c_danzig = "Danzig"
 c_east_prussia = "East Prussia"
-c_moravia = "Moravia"
-c_moravia_german = "Mähren" #Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 c_portugal = "Portugal"
-c_teschen = "Teschen"
-c_troppau = "Troppau"
 c_thorn = "Thorn"

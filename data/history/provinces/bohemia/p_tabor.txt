@@ -1,0 +1,9 @@
+religion = catholic
+
+1786.1.1 = {
+	h_tabor = town #Tabor existed as of c. 1786; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 134-135.
+}
+
+1815.1.1 = {
+	culture = czech #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

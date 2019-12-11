@@ -1,13 +1,13 @@
 k_bohemia = {
 	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
 	color = { 197 114 24 }
-	capital_province = p_bohemia
+	capital_province = p_central_bohemia
 }
 
 d_bohemia = {
 	de_jure_liege_title = k_bohemia
 	color = { 197 114 24 }
-	capital_province = p_bohemia
+	capital_province = p_central_bohemia
 	flag_tag = k_bohemia
 }
 
@@ -24,68 +24,68 @@ d_teschen = {
 	flag_tag = c_teschen
 }
 
-c_bohemia = {
+c_aussig = {
 	de_jure_liege_title = d_bohemia
-	color = { 197 114 24 }
+	color = { 85 77 57 }
 
-	b_budweis = {
+	b_teplitz = {
 	}
+}
+
+c_carlsbad = {
+	de_jure_liege_title = d_bohemia
+	color = { 55 53 242 }
 
 	b_carlsbad = {
 	}
 
-	b_chlum = {
-	}
-
 	b_eger = {
 	}
+}
 
-	b_gabel = {
+c_central_bohemia = {
+	de_jure_liege_title = d_bohemia
+	color = { 197 114 24 }
+
+	b_prague = {
 	}
 
-	b_gitschin = {
+	b_munchengratz = {
 	}
+}
 
-	b_huhnerwasser = {
+c_koniggratz = {
+	de_jure_liege_title = d_bohemia
+	color = { 175 50 230 }
+
+	b_koniggratz = {
 	}
 
 	b_josefstadt = {
 	}
 
-	b_koniggratz = {
-	}
-
-	b_koniginhof = {
-	}
-
-	b_munchengratz = {
+	b_skalitz = {
 	}
 
 	b_nachod = {
 	}
 
-	b_pardubitz = {
+	b_koniginhof = {
 	}
 
-	b_pilsen = {
+	b_gitschin = {
 	}
 
-	b_prague = {
+	b_trautenau = {
 	}
 
 	b_sadowa = {
 	}
 
+	b_chlum = {
+	}
+
 	b_schweinschadel = {
-	}
-
-	b_skalitz = {
-	}
-
-	b_teplitz = {
-	}
-
-	b_trautenau = {
 	}
 }
 
@@ -112,6 +112,49 @@ c_moravia = {
 	}
 
 	b_tobitschau = {
+	}
+}
+
+c_pardubitz = {
+	de_jure_liege_title = d_bohemia
+	color = { 192 235 180 }
+
+	b_pardubitz = {
+	}
+}
+
+c_pilsen = {
+	de_jure_liege_title = d_bohemia
+	color = { 230 91 126 }
+
+	b_pilsen = {
+	}
+}
+
+c_reichenberg = {
+	de_jure_liege_title = d_bohemia
+	color = { 208 99 244 }
+
+	b_huhnerwasser = {
+	}
+
+	b_gabel = {
+	}
+}
+
+c_south_bohemia = {
+	de_jure_liege_title = d_bohemia
+	color = { 175 88 78 }
+
+	b_budweis = {
+	}
+}
+
+c_tabor = {
+	de_jure_liege_title = d_bohemia
+	color = { 154 4 191 }
+
+	b_tabor = {
 	}
 }
 

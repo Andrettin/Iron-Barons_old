@@ -1,19 +1,19 @@
-p_bohemia = {
-	county = c_bohemia
-	color = { 30 207 116 }
+p_aussig = {
+	county = c_aussig
+	color = { 85 77 57 }
 
-	h_budweis = {
-		barony = b_budweis
+	h_teplitz = {
+		barony = b_teplitz
 		type = settlement
 	}
+}
+
+p_carlsbad = {
+	county = c_carlsbad
+	color = { 55 53 242 }
 
 	h_carlsbad = {
 		barony = b_carlsbad
-		type = settlement
-	}
-
-	h_chlum = {
-		barony = b_chlum
 		type = settlement
 	}
 
@@ -21,19 +21,29 @@ p_bohemia = {
 		barony = b_eger
 		type = settlement
 	}
+}
 
-	h_gabel = {
-		barony = b_gabel
+p_central_bohemia = {
+	county = c_central_bohemia
+	color = { 30 207 116 }
+
+	h_prague = {
+		barony = b_prague
 		type = settlement
 	}
 
-	h_gitschin = {
-		barony = b_gitschin
+	h_munchengratz = {
+		barony = b_munchengratz
 		type = settlement
 	}
+}
 
-	h_huhnerwasser = {
-		barony = b_huhnerwasser
+p_koniggratz = {
+	county = c_koniggratz
+	color = { 175 50 230 }
+
+	h_koniggratz = {
+		barony = b_koniggratz
 		type = settlement
 	}
 
@@ -42,18 +52,8 @@ p_bohemia = {
 		type = settlement
 	}
 
-	h_koniggratz = {
-		barony = b_koniggratz
-		type = settlement
-	}
-
-	h_koniginhof = {
-		barony = b_koniginhof
-		type = settlement
-	}
-
-	h_munchengratz = {
-		barony = b_munchengratz
+	h_skalitz = {
+		barony = b_skalitz
 		type = settlement
 	}
 
@@ -62,18 +62,18 @@ p_bohemia = {
 		type = settlement
 	}
 
-	h_pardubitz = {
-		barony = b_pardubitz
+	h_koniginhof = {
+		barony = b_koniginhof
 		type = settlement
 	}
 
-	h_pilsen = {
-		barony = b_pilsen
+	h_gitschin = {
+		barony = b_gitschin
 		type = settlement
 	}
 
-	h_prague = {
-		barony = b_prague
+	h_trautenau = {
+		barony = b_trautenau
 		type = settlement
 	}
 
@@ -82,23 +82,13 @@ p_bohemia = {
 		type = settlement
 	}
 
+	h_chlum = {
+		barony = b_chlum
+		type = settlement
+	}
+
 	h_schweinschadel = {
 		barony = b_schweinschadel
-		type = settlement
-	}
-
-	h_skalitz = {
-		barony = b_skalitz
-		type = settlement
-	}
-
-	h_teplitz = {
-		barony = b_teplitz
-		type = settlement
-	}
-
-	h_trautenau = {
-		barony = b_trautenau
 		type = settlement
 	}
 }
@@ -139,6 +129,61 @@ p_moravia = {
 
 	h_tobitschau = {
 		barony = b_tobitschau
+		type = settlement
+	}
+}
+
+p_pardubitz = {
+	county = c_pardubitz
+	color = { 192 235 180 }
+
+	h_pardubitz = {
+		barony = b_pardubitz
+		type = settlement
+	}
+}
+
+p_pilsen = {
+	county = c_pilsen
+	color = { 230 91 126 }
+
+	h_pilsen = {
+		barony = b_pilsen
+		type = settlement
+	}
+}
+
+p_reichenberg = {
+	county = c_reichenberg
+	color = { 208 99 244 }
+
+	h_huhnerwasser = {
+		barony = b_huhnerwasser
+		type = settlement
+	}
+
+	h_gabel = {
+		barony = b_gabel
+		type = settlement
+	}
+}
+
+p_south_bohemia = {
+	county = c_south_bohemia
+	color = { 175 88 78 }
+	
+	h_budweis = {
+		barony = b_budweis
+		type = settlement
+	}
+}
+
+p_tabor = {
+	county = c_tabor
+	color = { 154 4 191 }
+
+	h_tabor = {
+		barony = b_tabor
 		type = settlement
 	}
 }
