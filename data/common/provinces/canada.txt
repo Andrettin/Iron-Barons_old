@@ -10,11 +10,6 @@ p_amherstburg = {
 		barony = b_amherstburg
 		type = settlement
 	}
-
-	h_stewiacke = {
-		barony = b_stewiacke
-		type = settlement
-	}
 }
 
 p_british_columbia = {
@@ -57,11 +52,6 @@ p_halifax = {
 
 	h_yarmouth = {
 		barony = b_yarmouth
-		type = settlement
-	}
-
-	h_shubenacadie = {
-		barony = b_shubenacadie
 		type = settlement
 	}
 }
