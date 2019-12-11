@@ -12,6 +12,7 @@ r_italy = {
 	provinces += p_venetia
 	subregions += r_piedmont
 	subregions += r_sardinia
+	subregions += r_two_sicilies
 }
 
 r_modern_italy = {
@@ -30,6 +31,22 @@ r_modern_italy = {
 	provinces += p_south_tyrol
 	subregions += r_piedmont
 	subregions += r_sardinia
+	subregions += r_two_sicilies
+}
+
+r_naples = {
+	provinces += p_abruzzo_citra
+	provinces += p_abruzzo_ultra
+	provinces += p_bari
+	provinces += p_basilicata
+	provinces += p_calabria_citra
+	provinces += p_calabria_ultra
+	provinces += p_capitanata
+	provinces += p_molise
+	provinces += p_otranto
+	provinces += p_principato_citra
+	provinces += p_principato_ultra
+	provinces += p_terra_di_lavoro
 }
 
 r_piedmont = {
@@ -43,4 +60,15 @@ r_piedmont = {
 r_sardinia = {
 	provinces += p_cagliari
 	provinces += p_sassari
+}
+
+r_sicily = {
+	provinces += p_demona
+	provinces += p_mazzara
+	provinces += p_noto
+}
+
+r_two_sicilies = {
+	subregions += r_naples
+	subregions += r_sicily
 }

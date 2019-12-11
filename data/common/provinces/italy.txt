@@ -1,3 +1,11 @@
+p_abruzzo_citra = {
+	color = { 213 250 62 }
+}
+
+p_abruzzo_ultra = {
+	color = { 127 58 185 }
+}
+
 p_alessandria = {
 	county = c_alessandria
 	color = { 208 77 100 }
@@ -33,8 +41,28 @@ p_aosta = {
 	}
 }
 
+p_bari = {
+	color = { 255 218 67 }
+}
+
+p_basilicata = {
+	color = { 196 120 187 }
+}
+
 p_cagliari = {
 	color = { 68 112 115 }
+}
+
+p_calabria_citra = {
+	color = { 128 79 47 }
+}
+
+p_calabria_ultra = {
+	color = { 8 124 186 }
+}
+
+p_capitanata = {
+	color = { 189 71 94 }
 }
 
 p_cuneo = {
@@ -45,6 +73,10 @@ p_cuneo = {
 		barony = b_cuneo
 		type = settlement
 	}
+}
+
+p_demona = {
+	color = { 108 244 160 }
 }
 
 p_genoa = {
@@ -132,6 +164,10 @@ p_lucca = {
 	}
 }
 
+p_mazzara = {
+	color = { 64 1 84 }
+}
+
 p_modena = {
 	county = c_modena
 	color = { 231 24 79 }
@@ -147,8 +183,16 @@ p_modena = {
 	}
 }
 
+p_molise = {
+	color = { 52 213 41 }
+}
+
 p_nice = {
 	color = { 225 184 108 }
+}
+
+p_noto = {
+	color = { 100 246 40 }
 }
 
 p_novara = {
@@ -166,6 +210,10 @@ p_novara = {
 	}
 }
 
+p_otranto = {
+	color = { 111 229 80 }
+}
+
 p_parma = {
 	county = c_parma
 	color = { 63 152 172 }
@@ -179,6 +227,14 @@ p_parma = {
 		barony = b_piacenza
 		type = settlement
 	}
+}
+
+p_principato_citra = {
+	color = { 32 118 209 }
+}
+
+p_principato_ultra = {
+	color = { 58 187 202 }
 }
 
 p_romagna = {
@@ -213,6 +269,10 @@ p_savoy = {
 		barony = b_annecy
 		type = settlement
 	}
+}
+
+p_terra_di_lavoro = {
+	color = { 236 204 186 }
 }
 
 p_turin = {
