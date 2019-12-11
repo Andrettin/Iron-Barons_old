@@ -1,19 +1,24 @@
 cynical = {
 	icon_tag = blood
+	personality = true
 }
 
 diligent = {
 	icon_tag = hammer
+	personality = true
 }
 
 kind = {
 	icon_tag = wooden_cross
+	personality = true
 }
 
 proud = {
 	icon_tag = blood
+	personality = true
 }
 
 shy = {
 	icon_tag = wall
+	personality = true
 }
