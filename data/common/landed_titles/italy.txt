@@ -91,6 +91,17 @@ c_cuneo = {
 	}
 }
 
+c_demona = {
+	de_jure_liege_title = d_italy
+	color = { 108 244 160 }
+	
+	b_catania = {
+	}
+	
+	b_messina = {
+	}
+}
+
 c_genoa = {
 	de_jure_liege_title = d_italy
 	color = { 251 127 106 }
@@ -105,6 +116,12 @@ c_latium = {
 	color = { 57 237 186 }
 	
 	b_rome = {
+	}
+	
+	b_perugia = {
+	}
+	
+	b_macerata = {
 	}
 }
 
@@ -151,6 +168,14 @@ c_lucca = {
 	}
 }
 
+c_mazzara = {
+	de_jure_liege_title = d_italy
+	color = { 64 1 84 }
+	
+	b_palermo = {
+	}
+}
+
 c_modena = {
 	de_jure_liege_title = d_modena
 	color = { 231 24 79 }
@@ -160,6 +185,9 @@ c_modena = {
 	}
 	
 	b_guastalla = {
+	}
+	
+	b_reggio = {
 	}
 }
 
@@ -186,6 +214,14 @@ c_parma = {
 	}
 }
 
+c_principato_citra = {
+	de_jure_liege_title = d_italy
+	color = { 32 118 209 }
+	
+	b_salerno = {
+	}
+}
+
 c_romagna = {
 	de_jure_liege_title = d_italy
 	color = { 152 239 120 }
@@ -206,6 +242,14 @@ c_savoy = {
 	}
 	
 	b_annecy = {
+	}
+}
+
+c_terra_di_lavoro = {
+	de_jure_liege_title = d_italy
+	color = { 236 204 186 }
+	
+	b_naples = {
 	}
 }
 
@@ -233,25 +277,16 @@ c_venetia = {
 	de_jure_liege_title = d_venetia
 	color = { 188 0 7 }
 
-	b_custozza = {
+	b_venice = {
 	}
 
-	b_legnago = {
+	b_verona = {
 	}
 
 	b_mantua = {
 	}
 
-	b_osoppo = {
-	}
-
 	b_padua = {
-	}
-
-	b_palmanova = {
-	}
-
-	b_peschiera = {
 	}
 
 	b_treviso = {
@@ -260,13 +295,25 @@ c_venetia = {
 	b_udine = {
 	}
 
-	b_venice = {
-	}
-
-	b_verona = {
-	}
-
 	b_vicenza = {
+	}
+
+	b_cividale = {
+	}
+
+	b_legnago = {
+	}
+
+	b_peschiera = {
+	}
+
+	b_osoppo = {
+	}
+
+	b_palmanova = {
+	}
+
+	b_custozza = {
 	}
 
 	b_villafranca = {

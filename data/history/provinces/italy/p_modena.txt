@@ -1,5 +1,10 @@
 religion = catholic
 
+1250.1.1 = {
+	h_reggio = town
+	university = university #University existent in Reggio in 1250; Source: "Atlas de História Mundial", 2001, p. 144.
+}
+
 1815.1.1 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	

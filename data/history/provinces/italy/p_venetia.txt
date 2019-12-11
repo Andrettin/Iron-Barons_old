@@ -15,6 +15,11 @@ religion = catholic
 	#university = university #University founded in Treviso in 1318; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
+1353.1.1 = {
+	h_cividale = town
+	#university = university #University founded in Cividale in 1353; Source: "Atlas de História Mundial", 2001, p. 144.
+}
+
 1815.1.1 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	

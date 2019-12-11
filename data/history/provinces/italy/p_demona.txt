@@ -1,0 +1,15 @@
+religion = catholic
+
+1444.1.1 = {
+	h_catania = town
+	university = university #University founded in Catania in 1444; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1548.1.1 = {
+	h_messina = town
+	#university = university #University founded in Messina in 1548; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
+1815.1.1 = {
+	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
