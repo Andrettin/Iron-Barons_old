@@ -9,6 +9,7 @@ r_england = {
 	provinces += p_london
 	provinces += p_norfolk
 	provinces += p_oxford
+	provinces += p_somerset
 	provinces += p_suffolk
 }
 

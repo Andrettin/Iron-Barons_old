@@ -48,6 +48,10 @@ p_oxford = {
 	}
 }
 
+p_somerset = {
+	color = { 111 79 97 }
+}
+
 p_suffolk = {
 	county = c_suffolk
 	color = { 35 86 191 }
