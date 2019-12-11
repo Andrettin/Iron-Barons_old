@@ -38,8 +38,20 @@ p_espirito_santo = {
 	}
 }
 
+p_goias = {
+	color = { 195 46 160 }
+}
+
 p_maranhao = {
 	color = { 161 210 122 }
+}
+
+p_mato_grosso = {
+	color = { 75 197 17 }
+}
+
+p_mato_grosso_do_sul = {
+	color = { 173 134 234 }
 }
 
 p_minas_gerais = {
