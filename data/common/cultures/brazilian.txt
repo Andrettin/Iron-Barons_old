@@ -4,7 +4,6 @@ brazilian = {
 	
 	derivation_conditions = {
 		OR = {
-			region = r_brazil
 			de_jure_empire = e_brazil
 			de_jure_kingdom = k_brazil
 		}
