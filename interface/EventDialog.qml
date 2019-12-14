@@ -15,8 +15,6 @@ Item {
 	}
 
 	Drag.active: drag_area.drag.active
-	Drag.hotSpot.x: 10
-	Drag.hotSpot.y: 10
 
 	MouseArea {
 		id: drag_area
@@ -41,7 +39,7 @@ Item {
 		id: event_description
 		text: event_instance ? event_instance.description : ""
 		anchors.top: event_name.bottom
-		anchors.topMargin: 16
+		anchors.topMargin: 32
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
@@ -74,6 +72,7 @@ Item {
 				ToolTip.delay: 1000
 				onClicked: {
 					model.modelData.do_effects()
+					event_dialog.parent.forceActiveFocus()
 					metternich.remove_event_instance(event_instance)
 				}
 			}
