@@ -25,6 +25,32 @@ Item {
 		drag.target: parent
 	}
 
+	Text {
+		id: event_name
+		text: event_instance ? event_instance.name : ""
+		anchors.top: parent.top
+		anchors.topMargin: 16
+		anchors.horizontalCenter: parent.horizontalCenter
+		color: "black"
+		font.pixelSize: 14
+		font.family: "tahoma"
+		font.bold: true
+	}
+
+	Text {
+		id: event_description
+		text: event_instance ? event_instance.description : ""
+		anchors.top: event_name.bottom
+		anchors.topMargin: 16
+		anchors.left: parent.left
+		anchors.leftMargin: 8
+		anchors.right: parent.right
+		anchors.rightMargin: 8
+		color: "black"
+		font.pixelSize: 12
+		font.family: "tahoma"
+	}
+
 	Grid {
 		id: event_option_grid
 		anchors.bottom: parent.bottom
