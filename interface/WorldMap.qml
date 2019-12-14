@@ -55,6 +55,7 @@ Item {
 
 		Repeater {
 			model: world ? world.provinces : []
+			
 			Image {
 				x: model.modelData.rect.x
 				y: model.modelData.rect.y

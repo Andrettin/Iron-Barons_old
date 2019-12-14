@@ -1,0 +1,3 @@
+opt_no = "No"
+opt_ok = "OK"
+opt_yes = "Yes"

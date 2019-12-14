@@ -35,6 +35,10 @@ Item {
 		color: "black"
 	}
 
+	DropArea {
+		anchors.fill: parent
+	}
+
 	Repeater {
 		model: metternich.worlds
 
@@ -524,6 +528,16 @@ Item {
 					metternich.current_world = model.modelData
 				}
 			}
+		}
+	}
+	
+	Repeater {
+		model: metternich.event_instances
+
+		EventDialog {
+			event_instance: model.modelData
+			x: game_view.width / 2 - width / 2
+			y: game_view.height / 2 - height / 2
 		}
 	}
 }
