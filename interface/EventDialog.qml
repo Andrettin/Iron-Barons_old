@@ -69,6 +69,9 @@ Item {
 				text: "<font color=\"black\">" + model.modelData.name + "</font>"
 				font.pixelSize: 12
 				font.family: "tahoma"
+				ToolTip.text: tooltip(model.modelData.effects_string)
+				ToolTip.visible: hovered
+				ToolTip.delay: 1000
 				onClicked: {
 					model.modelData.do_effects()
 					metternich.remove_event_instance(event_instance)
