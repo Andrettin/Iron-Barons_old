@@ -69,10 +69,13 @@ c_thorn = {
 	de_jure_liege_title = d_west_prussia
 	color = { 225 196 236 }
 
+	b_thorn = {
+	}
+
 	b_graudenz = {
 	}
 
-	b_thorn = {
+	b_kulm = {
 	}
 }
 

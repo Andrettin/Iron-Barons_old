@@ -122,11 +122,6 @@ p_brandenburg = {
 		type = settlement
 	}
 
-	h_schonhausen = {
-		barony = b_schonhausen
-		type = settlement
-	}
-
 	h_spandau = {
 		barony = b_spandau
 		type = settlement
@@ -134,6 +129,11 @@ p_brandenburg = {
 
 	h_wittenberg = {
 		barony = b_wittenberg
+		type = settlement
+	}
+
+	h_schonhausen = {
+		barony = b_schonhausen
 		type = settlement
 	}
 }
@@ -737,8 +737,8 @@ p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
 
-	h_parchim = {
-		barony = b_parchim
+	h_schwerin = {
+		barony = b_schwerin
 		type = settlement
 	}
 
@@ -747,13 +747,13 @@ p_schwerin = {
 		type = settlement
 	}
 
-	h_schwerin = {
-		barony = b_schwerin
+	h_wismar = {
+		barony = b_wismar
 		type = settlement
 	}
 
-	h_wismar = {
-		barony = b_wismar
+	h_parchim = {
+		barony = b_parchim
 		type = settlement
 	}
 }

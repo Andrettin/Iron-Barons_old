@@ -1,5 +1,10 @@
 religion = protestant
 
+1409.1.1 = {
+	h_leipzig = town
+	university = university #University founded in Leipzig in 1409; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
 1815.1.1 = {
 	culture = thuringian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	

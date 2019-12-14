@@ -239,13 +239,13 @@ c_brandenburg = {
 	b_prenzlau = {
 	}
 
-	b_schonhausen = {
-	}
-
 	b_spandau = {
 	}
 
 	b_wittenberg = {
+	}
+
+	b_schonhausen = {
 	}
 }
 
@@ -661,16 +661,16 @@ c_schwerin = {
 	de_jure_liege_title = d_schwerin
 	color = { 226 0 26 }
 
-	b_parchim = {
+	b_schwerin = {
 	}
 
 	b_rostock = {
 	}
 
-	b_schwerin = {
+	b_wismar = {
 	}
 
-	b_wismar = {
+	b_parchim = {
 	}
 }
 

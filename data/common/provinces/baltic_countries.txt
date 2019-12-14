@@ -77,13 +77,18 @@ p_thorn = {
 	county = c_thorn
 	color = { 166 167 52 }
 
+	h_thorn = {
+		barony = b_thorn
+		type = settlement
+	}
+
 	h_graudenz = {
 		barony = b_graudenz
 		type = settlement
 	}
 
-	h_thorn = {
-		barony = b_thorn
+	h_kulm = {
+		barony = b_kulm
 		type = settlement
 	}
 }

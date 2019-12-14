@@ -1,11 +1,15 @@
 religion = catholic
 
+1459.1.1 = {
+	h_ingolstadt = town
+	university = university #University founded in Ingolstadt in 1459; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
 1815.1.1 = {
 	culture = franconian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_nuremberg = city #Nuremberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_bamberg = city #Bamberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_ingolstadt = town #Ingolstadt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_furth = city #Fürth existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_wurzburg = city #Würzburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_schweinfurt = town #Schweinfurt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
