@@ -72,7 +72,7 @@ Item {
 				ToolTip.delay: 1000
 				onClicked: {
 					model.modelData.do_effects()
-					event_dialog.parent.forceActiveFocus()
+					game_view.forceActiveFocus()
 					metternich.remove_event_instance(event_instance)
 				}
 			}

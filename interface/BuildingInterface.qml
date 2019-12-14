@@ -66,7 +66,10 @@ Item {
 						text: "<font color=\"black\">Build</font>"
 						font.pixelSize: 12
 						font.family: "tahoma"
-						onClicked: metternich.selected_holding.order_construction(model.modelData.building)
+						onClicked: {
+							metternich.selected_holding.order_construction(model.modelData.building)
+							game_view.forceActiveFocus()
+						}
 					}
 
 					Text {
