@@ -1,5 +1,16 @@
 p_arad = {
+	county = c_arad
 	color = { 185 194 88 }
+
+	h_arad = {
+		barony = b_arad
+		type = settlement
+	}
+
+	h_villagos = {
+		barony = b_villagos
+		type = settlement
+	}
 }
 
 p_banska_bystrica = {
@@ -47,7 +58,13 @@ p_bekes = {
 }
 
 p_bihor = {
+	county = c_bihor
 	color = { 209 71 103 }
+
+	h_grosswardein = {
+		barony = b_grosswardein
+		type = settlement
+	}
 }
 
 p_borsod = {

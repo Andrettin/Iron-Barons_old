@@ -16,6 +16,17 @@ d_hungary = {
 	flag_tag = k_hungary
 }
 
+c_arad = {
+	de_jure_liege_title = d_hungary
+	color = { 185 194 88 }
+
+	b_arad = {
+	}
+
+	b_villagos = {
+	}
+}
+
 c_banska_bystrica = {
 	de_jure_liege_title = d_hungary
 	color = { 176 19 45 }
@@ -41,6 +52,14 @@ c_baranya = {
 	color = { 50 10 55 }
 
 	b_pecs = {
+	}
+}
+
+c_bihor = {
+	de_jure_liege_title = d_hungary
+	color = { 209 71 103 }
+
+	b_grosswardein = {
 	}
 }
 
