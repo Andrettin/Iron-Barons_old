@@ -1,3 +1,7 @@
+p_arad = {
+	color = { 185 194 88 }
+}
+
 p_banska_bystrica = {
 	county = c_banska_bystrica
 	color = { 176 19 45 }
@@ -38,6 +42,14 @@ p_baranya = {
 	}
 }
 
+p_bekes = {
+	color = { 184 105 74 }
+}
+
+p_bihor = {
+	color = { 209 71 103 }
+}
+
 p_burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }
@@ -46,6 +58,10 @@ p_burgenland = {
 		barony = b_eisenstadt
 		type = settlement
 	}
+}
+
+p_csongrad = {
+	color = { 178 178 43 }
 }
 
 p_esztergom = {
@@ -108,14 +124,8 @@ p_gyor = {
 	}
 }
 
-p_hungary = {
-	county = c_hungary
-	color = { 57 174 209 }
-
-	h_pest = {
-		barony = b_pest
-		type = settlement
-	}
+p_heves = {
+	color = { 169 108 205 }
 }
 
 p_kikinda = {
@@ -178,6 +188,10 @@ p_kosice = {
 	}
 }
 
+p_maramures = {
+	color = { 58 172 146 }
+}
+
 p_melencze = {
 	county = c_melencze
 	color = { 153 223 47 }
@@ -208,6 +222,10 @@ p_neusatz = {
 	}
 }
 
+p_nograd = {
+	color = { 15 165 102 }
+}
+
 p_pancsova = {
 	county = c_pancsova
 	color = { 104 234 156 }
@@ -229,6 +247,16 @@ p_pancsova = {
 
 	h_werschitz = {
 		barony = b_werschitz
+		type = settlement
+	}
+}
+
+p_pest = {
+	county = c_pest
+	color = { 57 174 209 }
+
+	h_pest = {
+		barony = b_pest
 		type = settlement
 	}
 }
@@ -286,6 +314,10 @@ p_resita = {
 		barony = b_resita
 		type = settlement
 	}
+}
+
+p_satu_mare = {
+	color = { 151 109 216 }
 }
 
 p_somogy = {

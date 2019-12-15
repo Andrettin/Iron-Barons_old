@@ -1,5 +1,9 @@
 r_romania = { #the territory of modern Romania
+	provinces += p_arad
+	provinces += p_bihor
+	provinces += p_maramures
 	provinces += p_resita
+	provinces += p_satu_mare
 	provinces += p_temesvar
 	subregions += r_transylvania
 }

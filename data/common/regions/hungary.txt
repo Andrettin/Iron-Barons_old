@@ -1,12 +1,9 @@
 r_royal_hungary = {
-	provinces += p_hungary
-	provinces += p_baranya
-	provinces += p_esztergom
-	provinces += p_fejer
-	provinces += p_gyor
-	provinces += p_tolna
-	provinces += p_vas
-	provinces += p_zala
+	subregions += r_hungary
+	provinces += p_arad
+	provinces += p_bihor
+	provinces += p_maramures
+	provinces += p_satu_mare
 	provinces += p_burgenland
 	subregions += r_slovakia
 	provinces += p_transcarpathia
@@ -26,25 +23,26 @@ r_royal_hungary = {
 }
 
 r_hungary = { #the territory of modern Hungary
-	provinces += p_hungary
 	provinces += p_baranya
+	provinces += p_bekes
+	provinces += p_csongrad
 	provinces += p_esztergom
 	provinces += p_fejer
 	provinces += p_gyor
+	provinces += p_heves
+	provinces += p_nograd
+	provinces += p_pest
 	provinces += p_tolna
 	provinces += p_vas
 	provinces += p_zala
 }
 
 r_hungary_croatia_slavonia = { #excludes the military frontier
-	provinces += p_hungary
-	provinces += p_baranya
-	provinces += p_esztergom
-	provinces += p_fejer
-	provinces += p_gyor
-	provinces += p_tolna
-	provinces += p_vas
-	provinces += p_zala
+	subregions += r_hungary
+	provinces += p_arad
+	provinces += p_bihor
+	provinces += p_maramures
+	provinces += p_satu_mare
 	provinces += p_burgenland
 	subregions += r_slovakia
 	provinces += p_transcarpathia

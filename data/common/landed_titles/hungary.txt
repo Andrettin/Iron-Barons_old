@@ -1,6 +1,6 @@
 k_hungary = {
 	color = { 131 15 15 }
-	capital_province = p_hungary
+	capital_province = p_pest
 }
 
 d_banat = {
@@ -12,7 +12,7 @@ d_banat = {
 d_hungary = {
 	de_jure_liege_title = k_hungary
 	color = { 131 15 15 }
-	capital_province = p_hungary
+	capital_province = p_pest
 	flag_tag = k_hungary
 }
 
@@ -94,14 +94,6 @@ c_gyor = {
 	}
 }
 
-c_hungary = {
-	de_jure_liege_title = d_hungary
-	color = { 131 15 15 }
-
-	b_pest = {
-	}
-}
-
 c_kikinda = {
 	de_jure_liege_title = d_banat
 	color = { 240 15 76 }
@@ -180,6 +172,14 @@ c_pancsova = {
 	}
 
 	b_werschitz = {
+	}
+}
+
+c_pest = {
+	de_jure_liege_title = d_hungary
+	color = { 57 174 209 }
+
+	b_pest = {
 	}
 }
 
