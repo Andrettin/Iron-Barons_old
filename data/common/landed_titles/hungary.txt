@@ -50,6 +50,9 @@ c_borsod = {
 
 	b_miskolcz = {
 	}
+
+	b_tokay = {
+	}
 }
 
 c_burgenland = {
@@ -68,6 +71,9 @@ c_csongrad = {
 	}
 
 	b_csongrad = {
+	}
+
+	b_szentes = {
 	}
 }
 
@@ -110,6 +116,14 @@ c_gyor = {
 	}
 
 	b_wieselburg = {
+	}
+}
+
+c_hajdu = {
+	de_jure_liege_title = d_hungary
+	color = { 189 31 4 }
+
+	b_debreczin = {
 	}
 }
 
@@ -289,6 +303,17 @@ c_south_bacs = {
 	}
 
 	b_titel = {
+	}
+}
+
+c_szolnok = {
+	de_jure_liege_title = d_hungary
+	color = { 229 228 108 }
+
+	b_szolnok = {
+	}
+
+	b_tisza_fured = {
 	}
 }
 

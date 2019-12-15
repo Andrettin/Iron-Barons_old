@@ -58,6 +58,11 @@ p_borsod = {
 		barony = b_miskolcz
 		type = settlement
 	}
+
+	h_tokay = {
+		barony = b_tokay
+		type = settlement
+	}
 }
 
 p_burgenland = {
@@ -81,6 +86,11 @@ p_csongrad = {
 
 	h_csongrad = {
 		barony = b_csongrad
+		type = settlement
+	}
+
+	h_szentes = {
+		barony = b_szentes
 		type = settlement
 	}
 }
@@ -146,7 +156,13 @@ p_gyor = {
 }
 
 p_hajdu = {
+	county = c_hajdu
 	color = { 189 31 4 }
+
+	h_debreczin = {
+		barony = b_debreczin
+		type = settlement
+	}
 }
 
 p_heves = {
@@ -425,7 +441,18 @@ p_szabolcs = {
 }
 
 p_szolnok = {
+	county = c_szolnok
 	color = { 229 228 108 }
+
+	h_szolnok = {
+		barony = b_szolnok
+		type = settlement
+	}
+
+	h_tisza_fured = {
+		barony = b_tisza_fured
+		type = settlement
+	}
 }
 
 p_temesvar = {

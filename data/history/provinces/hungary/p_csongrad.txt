@@ -5,4 +5,5 @@ religion = catholic
 	
 	h_szegedin = city #Szegedin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_csongrad = town #Csongrád existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_szentes = town #Szentes existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }
