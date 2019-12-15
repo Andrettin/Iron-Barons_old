@@ -1,3 +1,8 @@
+k_romania = {
+	color = { 192 234 52 }
+	capital_province = p_wallachia
+}
+
 d_transylvania = {
 	de_jure_liege_title = k_hungary
 	color = { 255 215 0 }
@@ -92,5 +97,12 @@ c_transylvania = {
 	}
 
 	b_zsibo = {
+	}
+}
+
+c_wallachia = {
+	color = { 161 61 179 }
+
+	b_craiova = {
 	}
 }

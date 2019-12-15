@@ -1,6 +1,7 @@
 b_bistritz = "Bistritz"
 b_broos = "Broos"
 b_broos_hungarian = "Szaszvaros" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+b_craiova = "Craiova"
 b_csik_szereda = "Csik-Szereda"
 b_csucsa = "Csucsa"
 b_dees = "Dees"

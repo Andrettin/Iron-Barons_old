@@ -48,6 +48,10 @@ p_kronstadt = {
 	}
 }
 
+p_moldavia = {
+	color = { 157 149 144 }
+}
+
 p_sepsi_sz_gyorgy = {
 	county = c_sepsi_sz_gyorgy
 	color = { 69 217 89 }
@@ -129,6 +133,16 @@ p_transylvania = {
 
 	h_zsibo = {
 		barony = b_zsibo
+		type = settlement
+	}
+}
+
+p_wallachia = {
+	county = c_wallachia
+	color = { 161 61 179 }
+
+	h_craiova = {
+		barony = b_craiova
 		type = settlement
 	}
 }

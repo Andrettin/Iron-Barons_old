@@ -1,4 +1,6 @@
 r_romania = { #the territory of modern Romania
+	provinces += p_moldavia
+	provinces += p_wallachia
 	provinces += p_arad
 	provinces += p_bihor
 	provinces += p_maramures

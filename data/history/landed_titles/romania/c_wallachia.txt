@@ -1,0 +1,3 @@
+1859.1.1 = {
+	holder_title = k_romania #became a part of the Principality of Romania in 1859; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}
