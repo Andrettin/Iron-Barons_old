@@ -50,6 +50,10 @@ p_bihor = {
 	color = { 209 71 103 }
 }
 
+p_borsod = {
+	color = { 240 97 16 }
+}
+
 p_burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }
@@ -145,6 +149,10 @@ p_kikinda = {
 		barony = b_szoreg
 		type = settlement
 	}
+}
+
+p_kiskun = {
+	color = { 175 155 67 }
 }
 
 p_komarom = {
