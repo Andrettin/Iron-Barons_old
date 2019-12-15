@@ -124,6 +124,10 @@ p_gyor = {
 	}
 }
 
+p_hajdu = {
+	color = { 189 31 4 }
+}
+
 p_heves = {
 	color = { 169 108 205 }
 }
@@ -322,6 +326,14 @@ p_satu_mare = {
 
 p_somogy = {
 	color = { 80 118 252 }
+}
+
+p_szabolcs = {
+	color = { 97 20 217 }
+}
+
+p_szolnok = {
+	color = { 229 228 108 }
 }
 
 p_temesvar = {
