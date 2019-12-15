@@ -44,11 +44,30 @@ c_baranya = {
 	}
 }
 
+c_borsod = {
+	de_jure_liege_title = d_hungary
+	color = { 240 97 16 }
+
+	b_miskolcz = {
+	}
+}
+
 c_burgenland = {
 	de_jure_liege_title = d_hungary
 	color = { 255 165 0 }
 
 	b_eisenstadt = {
+	}
+}
+
+c_csongrad = {
+	de_jure_liege_title = d_hungary
+	color = { 178 178 43 }
+
+	b_szegedin = {
+	}
+
+	b_csongrad = {
 	}
 }
 
@@ -94,6 +113,20 @@ c_gyor = {
 	}
 }
 
+c_heves = {
+	de_jure_liege_title = d_hungary
+	color = { 169 108 205 }
+
+	b_gyongyos = {
+	}
+
+	b_hatvan = {
+	}
+
+	b_kapolna = {
+	}
+}
+
 c_kikinda = {
 	de_jure_liege_title = d_banat
 	color = { 240 15 76 }
@@ -102,6 +135,14 @@ c_kikinda = {
 	}
 
 	b_szoreg = {
+	}
+}
+
+c_kiskun = {
+	de_jure_liege_title = d_hungary
+	color = { 175 155 67 }
+
+	b_kecskemet = {
 	}
 }
 
@@ -180,6 +221,18 @@ c_pest = {
 	color = { 57 174 209 }
 
 	b_pest = {
+	}
+
+	b_godollo = {
+	}
+
+	b_waitzen = {
+	}
+
+	b_czegled = {
+	}
+
+	b_isaszeg = {
 	}
 }
 

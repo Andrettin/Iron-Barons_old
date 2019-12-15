@@ -51,7 +51,13 @@ p_bihor = {
 }
 
 p_borsod = {
+	county = c_borsod
 	color = { 240 97 16 }
+
+	h_miskolcz = {
+		barony = b_miskolcz
+		type = settlement
+	}
 }
 
 p_burgenland = {
@@ -65,7 +71,18 @@ p_burgenland = {
 }
 
 p_csongrad = {
+	county = c_csongrad
 	color = { 178 178 43 }
+
+	h_szegedin = {
+		barony = b_szegedin
+		type = settlement
+	}
+
+	h_csongrad = {
+		barony = b_csongrad
+		type = settlement
+	}
 }
 
 p_esztergom = {
@@ -133,7 +150,23 @@ p_hajdu = {
 }
 
 p_heves = {
+	county = c_heves
 	color = { 169 108 205 }
+
+	h_gyongyos = {
+		barony = b_gyongyos
+		type = settlement
+	}
+
+	h_hatvan = {
+		barony = b_hatvan
+		type = settlement
+	}
+
+	h_kapolna = {
+		barony = b_kapolna
+		type = settlement
+	}
 }
 
 p_kikinda = {
@@ -152,7 +185,13 @@ p_kikinda = {
 }
 
 p_kiskun = {
+	county = c_kiskun
 	color = { 175 155 67 }
+
+	h_kecskemet = {
+		barony = b_kecskemet
+		type = settlement
+	}
 }
 
 p_komarom = {
@@ -269,6 +308,26 @@ p_pest = {
 
 	h_pest = {
 		barony = b_pest
+		type = settlement
+	}
+
+	h_godollo = {
+		barony = b_godollo
+		type = settlement
+	}
+
+	h_waitzen = {
+		barony = b_waitzen
+		type = settlement
+	}
+
+	h_czegled = {
+		barony = b_czegled
+		type = settlement
+	}
+
+	h_isaszeg = {
+		barony = b_isaszeg
 		type = settlement
 	}
 }

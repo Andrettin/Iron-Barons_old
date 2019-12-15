@@ -1,0 +1,8 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_szegedin = city #Szegedin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_csongrad = town #Csongrád existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

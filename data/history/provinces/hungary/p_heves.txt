@@ -1,0 +1,9 @@
+religion = catholic
+
+1815.1.1 = {
+	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_gyongyos = town #Gyöngyös existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_hatvan = town #Hatvan existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_kapolna = village #Kapolna existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}
