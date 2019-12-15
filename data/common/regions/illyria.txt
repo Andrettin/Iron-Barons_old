@@ -22,8 +22,8 @@ r_serbia = { #the territory of modern Serbia
 	provinces += p_kikinda
 	provinces += p_melencze
 	provinces += p_north_bacs
+	provinces += p_south_bacs
 	provinces += p_west_bacs
-	provinces += p_neusatz
 	provinces += p_pancsova
 	provinces += p_peterwardein
 }

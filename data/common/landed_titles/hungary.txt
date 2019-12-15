@@ -147,17 +147,6 @@ c_melencze = {
 	}
 }
 
-c_neusatz = {
-	de_jure_liege_title = d_hungary
-	color = { 28 239 229 }
-
-	b_neusatz = {
-	}
-
-	b_titel = {
-	}
-}
-
 c_pancsova = {
 	de_jure_liege_title = d_banat
 	color = { 143 8 15 }
@@ -219,6 +208,17 @@ c_resita = {
 	}
 
 	b_resita = {
+	}
+}
+
+c_south_bacs = {
+	de_jure_liege_title = d_hungary
+	color = { 28 239 229 }
+
+	b_neusatz = {
+	}
+
+	b_titel = {
 	}
 }
 

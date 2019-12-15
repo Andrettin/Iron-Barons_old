@@ -219,21 +219,6 @@ p_melencze = {
 	}
 }
 
-p_neusatz = {
-	county = c_neusatz
-	color = { 112 95 226 }
-
-	h_neusatz = {
-		barony = b_neusatz
-		type = settlement
-	}
-
-	h_titel = {
-		barony = b_titel
-		type = settlement
-	}
-}
-
 p_nograd = {
 	color = { 15 165 102 }
 }
@@ -338,6 +323,21 @@ p_satu_mare = {
 
 p_somogy = {
 	color = { 80 118 252 }
+}
+
+p_south_bacs = {
+	county = c_south_bacs
+	color = { 112 95 226 }
+
+	h_neusatz = {
+		barony = b_neusatz
+		type = settlement
+	}
+
+	h_titel = {
+		barony = b_titel
+		type = settlement
+	}
 }
 
 p_szabolcs = {

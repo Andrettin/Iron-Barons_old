@@ -50,7 +50,7 @@
 }
 
 10000707 = { #Hermann Friedrich Otto von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
-	name = "Hermann Friedrich Otto"
+	name = "Hermann Friedrich" #"Hermann Friedrich Otto"
 	dynasty = von_hohenzollern_hechingen
 	culture = swabian
 	religion = catholic
