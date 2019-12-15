@@ -109,7 +109,7 @@
 }
 
 10000712 = { #Luise Juliane Constantie von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
-	name = "Luise Juliane Constantie"
+	name = "Luise Juliane" #"Luise Juliane Constantie"
 	dynasty = von_hohenzollern_hechingen
 	culture = swabian
 	religion = catholic
@@ -178,7 +178,7 @@
 }
 
 10000714 = { #Marie Antoine Philippine von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
-	name = "Marie Antoine Philippine"
+	name = "Marie Antoine" #"Marie Antoine Philippine"
 	dynasty = von_hohenzollern_hechingen
 	culture = swabian
 	religion = catholic
@@ -305,7 +305,7 @@
 }
 
 10000710 = { #Friedrich Wilhelm Hermann von Hohenzollern-Hechingen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
-	name = "Friedrich Wilhelm Hermann"
+	name = "Friedrich Wilhelm" #"Friedrich Wilhelm Hermann"
 	dynasty = von_hohenzollern_hechingen
 	culture = swabian
 	religion = catholic

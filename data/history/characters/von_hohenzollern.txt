@@ -45,7 +45,7 @@
 }
 
 10000342 = { #Friedrich Ludwig Karl von Hohenzollern; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
-	name = "Friedrich Ludwig Karl"
+	name = "Friedrich Ludwig" #"Friedrich Ludwig Karl"
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant
@@ -91,7 +91,7 @@
 }
 
 10000637 = { #Friederike Christiane Auguste von Hohenzollern; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
-	name = "Friederike Christiane Auguste"
+	name = "Friederike Christiane" #"Friederike Christiane Auguste"
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant
@@ -129,7 +129,7 @@
 }
 
 10000341 = { #Friederike Louise Wilhelmina von Hohenzollern; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
-	name = "Friederike Louise Wilhelmina"
+	name = "Friederike Louise" #"Friederike Louise Wilhelmina"
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant

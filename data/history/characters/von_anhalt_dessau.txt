@@ -1,5 +1,5 @@
 10000340 = { #Leopold Friedrich Franz von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
-	name = "Leopold Friedrich"
+	name = "Leopold Friedrich" #"Leopold Friedrich Franz"
 	dynasty = von_anhalt_dessau
 	culture = saxon
 	religion = protestant
@@ -176,7 +176,7 @@
 }
 
 10000344 = { #Friedrich Franz Nicolas von Anhalt-Dessau; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 8.
-	name = "Friedrich Franz Nicolas"
+	name = "Friedrich Franz" #"Friedrich Franz Nicolas"
 	dynasty = von_anhalt_dessau
 	culture = saxon
 	religion = protestant

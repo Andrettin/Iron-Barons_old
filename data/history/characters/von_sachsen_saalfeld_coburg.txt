@@ -55,7 +55,7 @@
 }
 
 10000315 = { #Antoinette Ernestine Amalie von Sachsen-Saalfeld-Coburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 83.
-	name = "Antoinette Ernestine Amalie"
+	name = "Antoinette Ernestine" #"Antoinette Ernestine Amalie"
 	dynasty = von_sachsen_saalfeld_coburg
 	culture = thuringian
 	religion = protestant

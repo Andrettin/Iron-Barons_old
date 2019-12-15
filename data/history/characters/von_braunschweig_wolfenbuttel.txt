@@ -1,5 +1,5 @@
 10000557 = { #Karl Wilhelm Ferdinand von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
-	name = "Karl Wilhelm Ferdinand"
+	name = "Karl Wilhelm" #"Karl Wilhelm Ferdinand"
 	dynasty = von_braunschweig_wolfenbuttel
 	culture = saxon
 	religion = protestant
@@ -13,7 +13,7 @@
 }
 
 10000563 = { #Sophie Karoline Marie von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
-	name = "Sophie Karoline Marie"
+	name = "Sophie Karoline" #"Sophie Karoline Marie"
 	dynasty = von_braunschweig_wolfenbuttel
 	culture = saxon
 	religion = protestant
@@ -48,7 +48,7 @@
 }
 
 10000560 = { #Karl Georg August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
-	name = "Karl Georg August"
+	name = "Karl Georg" #"Karl Georg August"
 	dynasty = von_braunschweig_wolfenbuttel
 	culture = saxon
 	religion = protestant
@@ -64,7 +64,7 @@
 }
 
 10000558 = { #Karoline Amalie Elisabeth von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 12-13.
-	name = "Karoline Amalie Elisabeth"
+	name = "Karoline Amalie" #"Karoline Amalie Elisabeth"
 	dynasty = von_braunschweig_wolfenbuttel
 	culture = saxon
 	religion = protestant
@@ -111,7 +111,7 @@
 }
 
 10000555 = { #Karl Friedrich August von Braunschweig-Wolfenbüttel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
-	name = "Karl Friedrich August"
+	name = "Karl Friedrich" #"Karl Friedrich August"
 	dynasty = von_braunschweig_wolfenbuttel
 	culture = saxon
 	religion = protestant

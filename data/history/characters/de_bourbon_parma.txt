@@ -12,7 +12,7 @@
 }
 
 10000320 = { #Princess Carolina Maria Teresa of Parma; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
-	name = "Carolina Maria Teresa"
+	name = "Carolina Maria" #"Carolina Maria Teresa"
 	dynasty = de_bourbon
 	culture = italian
 	religion = catholic

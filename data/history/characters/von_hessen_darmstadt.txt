@@ -46,7 +46,7 @@
 }
 
 10000683 = { #Ludwig Georg Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
-	name = "Ludwig Georg Karl"
+	name = "Ludwig Georg" #"Ludwig Georg Karl"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -131,7 +131,7 @@
 }
 
 10000685 = { #Luise Karoline Henriette von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 21-22.
-	name = "Luise Karoline Henriette"
+	name = "Luise Karoline" #"Luise Karoline Henriette"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -161,7 +161,7 @@
 }
 
 10000535 = { #Marie Wilhelmine Auguste von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
-	name = "Marie Wilhelmine Auguste"
+	name = "Marie Wilhelmine" #"Marie Wilhelmine Auguste"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -199,7 +199,7 @@
 }
 
 10000689 = { #Ludwig Georg Friedrich von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
-	name = "Ludwig Georg Friedrich"
+	name = "Ludwig Georg" #"Ludwig Georg Friedrich"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -217,7 +217,7 @@
 }
 
 10000692 = { #Friedrich August Karl von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
-	name = "Friedrich August Karl"
+	name = "Friedrich August" #"Friedrich August Karl"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -232,7 +232,7 @@
 }
 
 10000694 = { #Emil Maximilian Leopold von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
-	name = "Emil Maximilian Leopold"
+	name = "Emil Maximilian" #"Emil Maximilian Leopold"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -247,7 +247,7 @@
 }
 
 10000691 = { #Luise Charlotte Georgine von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
-	name = "Luise Charlotte Georgine"
+	name = "Luise Charlotte" #"Luise Charlotte Georgine"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant
@@ -278,7 +278,7 @@
 }
 
 10000688 = { #Karl Wilhelm Ludwig von Hessen-Darmstadt; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 21.
-	name = "Karl Wilhelm Ludwig"
+	name = "Karl Wilhelm" #"Karl Wilhelm Ludwig"
 	dynasty = von_hessen_darmstadt
 	culture = rhenish
 	religion = protestant

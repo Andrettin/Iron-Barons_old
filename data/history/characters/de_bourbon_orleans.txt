@@ -85,7 +85,7 @@
 }
 
 10000317 = { #Marie Christine Caroline d'Orléans; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 83-84.
-	name = "Marie Christine Caroline"
+	name = "Marie Christine" #"Marie Christine Caroline"
 	dynasty = de_bourbon_orleans
 	culture = french
 	religion = catholic

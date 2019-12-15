@@ -146,7 +146,7 @@
 }
 
 10000337 = { #Marie Amalie Auguste von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
-	name = "Marie Amalie Auguste"
+	name = "Marie Amalie" #"Marie Amalie Auguste"
 	dynasty = von_wittelsbach #daughter of Friedrich of Pfalz-Zweibrücken; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 4.
 	culture = rhenish
 	religion = catholic
@@ -179,7 +179,7 @@
 }
 
 10000545 = { #Marie Elisabeth Amalie von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 11-12.
-	name = "Marie Elisabeth Amalie"
+	name = "Marie Elisabeth" #"Marie Elisabeth Amalie"
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic
@@ -293,7 +293,7 @@
 }
 
 10000539 = { #Karl Theodor Maximilian von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
-	name = "Karl Theodor Maximilian"
+	name = "Karl Theodor" #"Karl Theodor Maximilian"
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic
@@ -345,7 +345,7 @@
 }
 
 10000018 = { #Friederike Sophie Dorothee von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 11.
-	name = "Friederike Sophie Dorothee"
+	name = "Friederike Sophie" #"Friederike Sophie Dorothee"
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic
@@ -362,7 +362,7 @@
 }
 
 10000191 = { #Marie Anne Leopoldine von Wittelsbach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
-	name = "Marie Anne Leopoldine"
+	name = "Marie Anne" #"Marie Anne Leopoldine"
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic
@@ -396,7 +396,7 @@
 }
 
 10000541 = { #Maximiliane Josephine Karoline von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 10-11.
-	name = "Maximiliane Josephine Karoline"
+	name = "Maximiliane Josephine" #"Maximiliane Josephine Karoline"
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic
@@ -427,7 +427,7 @@
 }
 
 10000538 = { #Mathilde Karoline Friederike von Wittelsbach; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 10.
-	name = "Mathilde Karoline Friederike"
+	name = "Mathilde Karoline" #"Mathilde Karoline Friederike"
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic

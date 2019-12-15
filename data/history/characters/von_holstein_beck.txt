@@ -44,7 +44,7 @@
 }
 
 10000762 = { #Karl Friederich Ludwig von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
-	name = "Karl Friederich Ludwig"
+	name = "Karl Friederich" #"Karl Friederich Ludwig"
 	dynasty = von_holstein_beck
 	culture = saxon
 	religion = protestant #lutheran
@@ -60,7 +60,7 @@
 }
 
 10000765 = { #Elisabeth Charlotte Friederike von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
-	name = "Elisabeth Charlotte Friederike"
+	name = "Elisabeth Charlotte" #"Elisabeth Charlotte Friederike"
 	dynasty = von_holstein_beck
 	culture = saxon
 	religion = protestant #lutheran
@@ -77,7 +77,7 @@
 }
 
 10000767 = { #Wilhelm Paul Leopold von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
-	name = "Wilhelm Paul Leopold"
+	name = "Wilhelm Paul" #"Wilhelm Paul Leopold"
 	dynasty = von_holstein_beck
 	culture = saxon
 	religion = protestant #lutheran
@@ -95,7 +95,7 @@
 }
 
 10000768 = { #Luise Marie Friederike von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
-	name = "Luise Marie Friederike"
+	name = "Luise Marie" #"Luise Marie Friederike"
 	dynasty = von_holstein_beck
 	culture = saxon
 	religion = protestant #lutheran
@@ -111,7 +111,7 @@
 }
 
 10000364 = { #Friederike Karoline Julie von Holstein-Beck; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 26.
-	name = "Friederike Karoline Julie"
+	name = "Friederike Karoline" #"Friederike Karoline Julie"
 	dynasty = von_holstein_beck
 	#in the Almanach de Gotha for 1847 she is a part of the Holstein-Glücksburg dynasty instead; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	culture = saxon

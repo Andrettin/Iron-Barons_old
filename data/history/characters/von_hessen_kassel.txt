@@ -74,7 +74,7 @@
 }
 
 10000570 = { #Marie Sophie Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 13, 18.
-	name = "Marie Sophie Friederike"
+	name = "Marie Sophie" #"Marie Sophie Friederike"
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
@@ -147,7 +147,7 @@
 }
 
 10000642 = { #Juliane Louise Amalie von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
-	name = "Juliane Louise Amalie"
+	name = "Juliane Louise" #"Juliane Louise Amalie"
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
@@ -262,7 +262,7 @@
 }
 
 10000650 = { #Karoline Marie Friederike von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
-	name = "Karoline Marie Friederike"
+	name = "Karoline Marie" #"Karoline Marie Friederike"
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
@@ -294,7 +294,7 @@
 }
 
 10000652 = { #Auguste Wilhelmine Louise von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
-	name = "Auguste Wilhelmine Louise"
+	name = "Auguste Wilhelmine" #"Auguste Wilhelmine Louise"
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
@@ -310,7 +310,7 @@
 }
 
 10000638 = { #Karoline Friederike Wilhelmine von Hessen-Kassel; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
-	name = "Karoline Friederike Wilhelmine"
+	name = "Karoline Friederike" #"Karoline Friederike Wilhelmine"
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
@@ -341,7 +341,7 @@
 }
 
 10000206 = { #Marie Friederike Wilhelmine von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
-	name = "Marie Friederike Wilhelmine" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
+	name = "Marie Friederike" #"Marie Friederike Wilhelmine" #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
@@ -357,7 +357,7 @@
 }
 
 10000353 = { #Maria Louise Charlotte von Hessen-Kassel; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
-	name = "Maria Louise Charlotte"
+	name = "Maria Louise" #"Maria Louise Charlotte"
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant

@@ -13,7 +13,7 @@
 }
 
 10000561 = { #Frederica Louise Willemine van Oranje-Nassau; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 13.
-	name = "Frederica Louise Willemine"
+	name = "Frederica Louise" #"Frederica Louise Willemine"
 	dynasty = van_oranje_nassau
 	culture = dutch
 	religion = protestant

@@ -157,7 +157,7 @@
 }
 
 10000335 = { #Auguste Népomucène Antoinette von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
-	name = "Auguste Népomucène Antoinette"
+	name = "Auguste Népomucène" #"Auguste Népomucène Antoinette"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -173,7 +173,7 @@
 }
 
 10000321 = { #Amalie Friederike Auguste von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
-	name = "Amalie Friederike Auguste"
+	name = "Amalie Friederike" #"Amalie Friederike Auguste"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -189,7 +189,7 @@
 }
 
 10000322 = { #Maria Ferdinandine Amalie von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
-	name = "Maria Ferdinandine Amalie"
+	name = "Maria Ferdinandine" #"Maria Ferdinandine Amalie"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -228,7 +228,7 @@
 }
 
 10000475 = { #Clemens Maria Joseph von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
-	name = "Clemens Maria Joseph"
+	name = "Clemens Maria" #"Clemens Maria Joseph"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -243,7 +243,7 @@
 }
 
 10000476 = { #Marie Anna Karoline von Wettin; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 5.
-	name = "Marie Anna Karoline"
+	name = "Marie Anna" #"Marie Anna Karoline"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -293,7 +293,7 @@
 }
 
 10000325 = { #Maria Auguste Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 6.
-	name = "Maria Auguste Friederike"
+	name = "Maria Auguste" #"Maria Auguste Friederike"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -402,7 +402,7 @@
 }
 
 10000332 = { #Margarete Caroline Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
-	name = "Margarete Caroline Friederike"
+	name = "Margarete Caroline" #"Margarete Caroline Friederike"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
@@ -418,7 +418,7 @@
 }
 
 10000333 = { #Sophie Maria Friederike von Wettin; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 6-7.
-	name = "Sophie Maria Friederike"
+	name = "Sophie Maria" #"Sophie Maria Friederike"
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic

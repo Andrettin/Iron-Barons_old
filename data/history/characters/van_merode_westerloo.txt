@@ -1,5 +1,5 @@
 10000711 = { #Louise Juliana Constantie van Merode-Westerloo; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 23.
-	name = "Louise Juliana Constantie"
+	name = "Louise Juliana" #"Louise Juliana Constantie"
 	dynasty = van_merode_westerloo
 	culture = flemish
 	religion = catholic

@@ -30,7 +30,7 @@
 }
 
 10000677 = { #Marie Antonie Friederike von Hessen-Rotenburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 20-21.
-	name = "Marie Antonie Friederike"
+	name = "Marie Antonie" #"Marie Antonie Friederike"
 	dynasty = von_hessen_rotenburg
 	culture = rhenish
 	religion = catholic

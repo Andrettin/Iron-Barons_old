@@ -83,7 +83,7 @@
 }
 
 10000619 = { #George Frederick Augustus of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
-	name = "George Frederick Augustus"
+	name = "George Frederick" #"George Frederick Augustus"
 	dynasty = von_braunschweig_luneburg
 	culture = english
 	religion = protestant
@@ -146,7 +146,7 @@
 }
 
 10000624 = { #Charlotte Augusta Matilda of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 16-17.
-	name = "Charlotte Augusta Matilda"
+	name = "Charlotte Augusta" #"Charlotte Augusta Matilda"
 	dynasty = von_braunschweig_luneburg
 	culture = english
 	religion = protestant
@@ -328,7 +328,7 @@
 }
 
 10000620 = { #Caroline Charlotte Augusta of Brunswick-Luneburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
-	name = "Caroline Charlotte Augusta"
+	name = "Caroline Charlotte" #"Caroline Charlotte Augusta"
 	dynasty = von_braunschweig_luneburg
 	culture = english
 	religion = protestant

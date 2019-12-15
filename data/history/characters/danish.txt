@@ -225,7 +225,7 @@
 }
 
 10000584 = { #Christian Fredrik Karl af Danmark; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 14.
-	name = "Christian Fredrik Karl"
+	name = "Christian Fredrik" #"Christian Fredrik Karl"
 	dynasty = af_danmark
 	culture = danish
 	religion = protestant

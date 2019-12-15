@@ -42,7 +42,7 @@
 }
 
 10000360 = { #Friedrich Ludwig Adolf von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
-	name = "Friedrich Ludwig Adolf"
+	name = "Friedrich Ludwig" #"Friedrich Ludwig Adolf"
 	dynasty = von_anhalt_bernburg_schaumburg
 	culture = saxon
 	religion = protestant
@@ -57,7 +57,7 @@
 }
 
 10000338 = { #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 9, 12.
-	name = "Victor Karl Friedrich"
+	name = "Victor Karl" #"Victor Karl Friedrich"
 	dynasty = von_anhalt_bernburg_schaumburg
 	culture = saxon
 	religion = protestant

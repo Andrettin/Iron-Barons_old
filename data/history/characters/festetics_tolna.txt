@@ -16,7 +16,7 @@
 }
 
 10000300 = { #Helene Antoinette Josephine Festetics-Tolna; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 82-83.
-	name = "Helene Antoinette Josephine"
+	name = "Helene Antoinette" #"Helene Antoinette Josephine"
 	dynasty = festetics_tolna
 	culture = hungarian #given her dynasty name
 	religion = catholic #given her dynasty name

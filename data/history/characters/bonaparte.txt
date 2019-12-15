@@ -78,7 +78,7 @@
 }
 
 10000443 = { #Marie-Anne-Eliza Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Marie-Anne-Eliza"
+	name = "Marie-Anne" #"Marie-Anne-Eliza"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
@@ -112,7 +112,7 @@
 }
 
 10000446 = { #Marie-Annonciade-Caroline Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 35.
-	name = "Marie Annonciade Caroline"
+	name = "Marie Annonciade" #"Marie Annonciade Caroline"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
@@ -144,7 +144,7 @@
 }
 
 10000440 = { #Charles Louis Napoléon Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 3-4.
-	name = "Charles Louis Napoléon"
+	name = "Charles Louis" #"Charles Louis Napoléon"
 	dynasty = bonaparte
 	culture = french
 	religion = catholic
