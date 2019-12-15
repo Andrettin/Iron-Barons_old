@@ -1,0 +1,39 @@
+p_achaea = {
+	color = { 200 98 198 }
+}
+
+p_aetolia = {
+	color = { 58 70 114 }
+}
+
+p_attica = {
+	color = { 103 37 25 }
+}
+
+p_boeotia = {
+	color = { 247 195 139 }
+}
+
+p_crete = {
+	color = { 22 187 73 }
+}
+
+p_cyclades = {
+	color = { 220 82 188 }
+}
+
+p_dodecanese = {
+	color = { 126 37 123 }
+}
+
+p_euboea = {
+	color = { 184 43 117 }
+}
+
+p_ionian_islands = {
+	color = { 5 178 199 }
+}
+
+p_peloponnese = {
+	color = { 50 188 139 }
+}
