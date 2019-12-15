@@ -224,7 +224,18 @@ p_nograd = {
 }
 
 p_north_bacs = {
+	county = c_north_bacs
 	color = { 126 66 17 }
+
+	h_maria_theresiopel = {
+		barony = b_maria_theresiopel
+		type = settlement
+	}
+
+	h_hegyes = {
+		barony = b_hegyes
+		type = settlement
+	}
 }
 
 p_pancsova = {
@@ -334,6 +345,16 @@ p_south_bacs = {
 		type = settlement
 	}
 
+	h_sz_tamas = {
+		barony = b_sz_tamas
+		type = settlement
+	}
+
+	h_o_becse = {
+		barony = b_o_becse
+		type = settlement
+	}
+
 	h_titel = {
 		barony = b_titel
 		type = settlement
@@ -417,7 +438,13 @@ p_veszprem = {
 }
 
 p_west_bacs = {
+	county = c_west_bacs
 	color = { 118 146 28 }
+
+	h_zombor = {
+		barony = b_zombor
+		type = settlement
+	}
 }
 
 p_zala = {

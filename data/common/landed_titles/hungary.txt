@@ -147,6 +147,17 @@ c_melencze = {
 	}
 }
 
+c_north_bacs = {
+	de_jure_liege_title = d_hungary
+	color = { 126 66 17 }
+
+	b_maria_theresiopel = {
+	}
+
+	b_hegyes = {
+	}
+}
+
 c_pancsova = {
 	de_jure_liege_title = d_banat
 	color = { 143 8 15 }
@@ -218,6 +229,12 @@ c_south_bacs = {
 	b_neusatz = {
 	}
 
+	b_sz_tamas = {
+	}
+
+	b_o_becse = {
+	}
+
 	b_titel = {
 	}
 }
@@ -263,6 +280,14 @@ c_vas = {
 	color = { 171 56 71 }
 
 	b_szombathely = {
+	}
+}
+
+c_west_bacs = {
+	de_jure_liege_title = d_hungary
+	color = { 118 146 28 }
+
+	b_zombor = {
 	}
 }
 

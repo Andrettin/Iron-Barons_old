@@ -4,6 +4,8 @@ religion = catholic
 	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_neusatz = town #Neusatz existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_sz_tamas = town #Sz. Tamas existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_o_becse = town #O Becse existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_titel = village #Titel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_neusatz
