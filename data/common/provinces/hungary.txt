@@ -238,6 +238,10 @@ p_nograd = {
 	color = { 15 165 102 }
 }
 
+p_north_bacs = {
+	color = { 126 66 17 }
+}
+
 p_pancsova = {
 	county = c_pancsova
 	color = { 104 234 156 }
@@ -410,6 +414,10 @@ p_vas = {
 
 p_veszprem = {
 	color = { 181 120 228 }
+}
+
+p_west_bacs = {
+	color = { 118 146 28 }
 }
 
 p_zala = {
