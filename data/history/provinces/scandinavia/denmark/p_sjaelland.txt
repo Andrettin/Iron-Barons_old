@@ -1,9 +1,13 @@
 religion = protestant
 
-1815.1.1 = {
+1478 = {
+	h_copenhagen = town
+	university = university #University founded in Copenhagen in 1478; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
 	culture = danish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_copenhagen = town #Copenhagen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_helsingor = town #Helsingör existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_roskilde = town #Roskilde existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_korsor = town #Korsör existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

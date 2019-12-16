@@ -1,14 +1,18 @@
 religion = protestant
 
+1527.1.1 = {
+	h_marburg_hesse = town
+	university = university #University founded in Marburg in 1527; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+}
+
 1815.1.1 = {
 	culture = rhenish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_kassel = city #Kassel was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_frankfurt = city #Frankfurt was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_fulda = town #Fulda was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_marburg_hesse = town #Marburg was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_hanau = town #Hanau was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_bronzell = village #Bronzell was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_kassel = city #Kassel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_frankfurt = city #Frankfurt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_fulda = town #Fulda existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_hanau = town #Hanau existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_bronzell = village #Bronzell existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_kassel
 }

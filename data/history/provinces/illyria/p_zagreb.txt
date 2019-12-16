@@ -7,3 +7,7 @@ religion = catholic
 	
 	capital_holding = h_zagreb
 }
+
+1874.1.1 = {
+	university = university #University founded in Zagreb in 1874; Source: A.J.P. Taylor, The Habsburg Monarchy, 1809-1918, 1964, p. 203.
+}

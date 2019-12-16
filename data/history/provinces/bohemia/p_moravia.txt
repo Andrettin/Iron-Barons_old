@@ -1,5 +1,10 @@
 religion = catholic
 
+1581.1.1 = {
+	h_olmutz = town
+	university = university #University founded in Olmütz in 1581; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
 1815.1.1 = {
 	culture = czech #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	

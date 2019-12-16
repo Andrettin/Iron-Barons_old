@@ -1,8 +1,13 @@
 religion = protestant
 
+1385.1.1 = {
+	h_heidelberg = town
+	university = university #University founded in Heidelberg in 1385; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
 1455.1.1 = {
 	h_freiburg = town
-	university = university #University founded in Freiburg in 1455; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+	#university = university #University founded in Freiburg in 1455; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
 1815.1.1 = {
