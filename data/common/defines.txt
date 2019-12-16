@@ -1,6 +1,6 @@
 default_world = earth
 start_date = 1815.11.20
-player_character = 10000000 #Franz I of Austria
+player_character_title = e_austria
 base_population_growth = 0.0001 #0.01%
 default_game_speed = normal
 cultural_derivation_factor = 0.005 #0.50%
