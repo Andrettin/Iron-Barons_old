@@ -1,5 +1,20 @@
 religion = protestant
 
+1365.1.1 = {
+	h_geneva = town
+	university = university #University founded in Geneva in 1365; Source: "Atlas de História Mundial", p. 144.
+}
+
+1459.1.1 = {
+	h_basel = town
+	#university = university #University founded in Basel in 1459; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1521.1.1 = {
+	h_zurich = town
+	#university = university #University founded in Zurich in 1521; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+}
+
 1815.1.1 = {
 	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	

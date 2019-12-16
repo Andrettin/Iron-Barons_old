@@ -1,5 +1,10 @@
 religion = catholic
 
+1389.1.1 = {
+	h_buda = town
+	university = university #University founded in Buda in 1389; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
 1815.1.1 = {
 	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	

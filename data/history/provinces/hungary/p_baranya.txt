@@ -1,9 +1,10 @@
 religion = catholic
 
+1367.1.1 = {
+	h_pecs = town
+	university = university #University founded in Pécs/Fünfkirchen in 1367; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
 1815.1.1 = {
 	culture = hungarian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
-	
-	h_pecs = town #Pécs/Fünfkirchen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	
-	capital_holding = h_pecs
 }
