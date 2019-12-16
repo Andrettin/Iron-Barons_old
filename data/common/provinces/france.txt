@@ -12,8 +12,16 @@ p_aisne = {
 	}
 }
 
+p_allier = {
+	color = { 196 143 203 }
+}
+
 p_alpes_de_haute_provence = {
 	color = { 56 197 244 }
+}
+
+p_ardeche = {
+	color = { 91 209 90 }
 }
 
 p_ardennes = {
@@ -119,6 +127,10 @@ p_haute_loire = {
 		barony = b_le_puy
 		type = settlement
 	}
+}
+
+p_haute_marne = {
+	color = { 249 219 62 }
 }
 
 p_haute_saone = {
@@ -326,6 +338,10 @@ p_nord = {
 	}
 }
 
+p_oise = {
+	color = { 14 61 55 }
+}
+
 p_pas_de_calais = {
 	county = c_pas_de_calais
 	color = { 43 87 173 }
@@ -379,6 +395,10 @@ p_saone = {
 		barony = b_macon
 		type = settlement
 	}
+}
+
+p_seine = {
+	color = { 253 153 26 }
 }
 
 p_somme = {
@@ -443,4 +463,8 @@ p_vosges = {
 		barony = b_plombieres_les_bains
 		type = settlement
 	}
+}
+
+p_yonne = {
+	color = { 30 16 13 }
 }
