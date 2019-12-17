@@ -107,6 +107,10 @@ p_doubs = {
 	}
 }
 
+p_dordogne = {
+	color = { 162 166 27 }
+}
+
 p_drome = {
 	county = c_drome
 	color = { 220 208 53 }
@@ -132,6 +136,10 @@ p_finistere = {
 
 p_gard = {
 	color = { 99 20 217 }
+}
+
+p_gers = {
+	color = { 162 208 252 }
 }
 
 p_gironde = {
@@ -178,6 +186,10 @@ p_hautes_alpes = {
 	}
 }
 
+p_hautes_pyrenees = {
+	color = { 30 25 61 }
+}
+
 p_ile_de_france = {
 	county = c_ile_de_france
 	color = { 38 14 126 }
@@ -217,6 +229,10 @@ p_jura = {
 	}
 }
 
+p_landes = {
+	color = { 53 249 89 }
+}
+
 p_loire = {
 	county = c_loire
 	color = { 238 96 125 }
@@ -250,6 +266,10 @@ p_loiret = {
 		barony = b_orleans
 		type = settlement
 	}
+}
+
+p_lot_et_garonne = {
+	color = { 29 189 179 }
 }
 
 p_maine = {
@@ -411,6 +431,10 @@ p_puy_de_dome = {
 		barony = b_clermont_ferrand
 		type = settlement
 	}
+}
+
+p_pyrenees_atlantiques = {
+	color = { 105 120 185 }
 }
 
 p_rhone = {
