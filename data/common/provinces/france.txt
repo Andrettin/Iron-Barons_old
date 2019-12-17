@@ -93,6 +93,10 @@ p_cote_dor = {
 	}
 }
 
+p_cotes_darmor = {
+	color = { 65 73 77 }
+}
+
 p_doubs = {
 	county = c_doubs
 	color = { 19 83 246 }
@@ -115,6 +119,15 @@ p_drome = {
 
 p_eure = {
 	color = { 28 44 101 }
+}
+
+
+p_eure_et_loir = {
+	color = { 39 58 162 }
+}
+
+p_finistere = {
+	color = { 234 209 85 }
 }
 
 p_gard = {
@@ -178,6 +191,10 @@ p_ile_de_france = {
 		barony = b_versailles
 		type = settlement
 	}
+}
+
+p_ille = {
+	color = { 118 175 197 }
 }
 
 p_isere = {
@@ -297,6 +314,10 @@ p_meuse = {
 		barony = b_montmedy
 		type = settlement
 	}
+}
+
+p_morbihan = {
+	color = { 2 82 28 }
 }
 
 p_moselle = {
