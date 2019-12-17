@@ -1,6 +1,6 @@
 tribesmen = {
 	color = { 176 85 121 }
-	icon_tag = craftsmen
+	icon_tag = slaves
 
 	holding_types += village
 }
