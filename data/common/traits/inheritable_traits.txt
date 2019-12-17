@@ -1,3 +1,3 @@
 intelligent = {
-	icon_tag = book
+	icon_tag = research
 }

@@ -14,7 +14,7 @@ kind = {
 }
 
 proud = {
-	icon_tag = blood
+	icon_tag = heater_shield
 	personality = true
 }
 

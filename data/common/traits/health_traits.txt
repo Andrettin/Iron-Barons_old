@@ -3,5 +3,5 @@ incapable = {
 }
 
 sturdy = {
-	icon_tag = wall
+	icon_tag = heater_shield
 }
