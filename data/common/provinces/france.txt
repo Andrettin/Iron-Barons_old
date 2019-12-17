@@ -58,6 +58,14 @@ p_calvados = {
 	}
 }
 
+p_charente = {
+	color = { 106 185 73 }
+}
+
+p_charente_maritime = {
+	color = { 43 29 105 }
+}
+
 p_cher = {
 	county = c_cher
 	color = { 41 104 145 }
@@ -95,6 +103,10 @@ p_cote_dor = {
 
 p_cotes_darmor = {
 	color = { 65 73 77 }
+}
+
+p_deux_sevres = {
+	color = { 106 166 20 }
 }
 
 p_doubs = {
@@ -174,6 +186,10 @@ p_haute_saone = {
 		barony = b_belfort
 		type = settlement
 	}
+}
+
+p_haute_vienne = {
+	color = { 69 130 239 }
 }
 
 p_hautes_alpes = {
@@ -511,6 +527,10 @@ p_var = {
 
 p_vaucluse = {
 	color = { 197 254 131 }
+}
+
+p_vendee = {
+	color = { 43 178 112 }
 }
 
 p_vienne = {
