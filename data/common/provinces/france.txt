@@ -44,6 +44,10 @@ p_aube = {
 	}
 }
 
+p_bouches_du_rhone = {
+	color = { 30 188 102 }
+}
+
 p_calvados = {
 	county = c_calvados
 	color = { 159 131 176 }
@@ -107,6 +111,14 @@ p_drome = {
 		barony = b_valence
 		type = settlement
 	}
+}
+
+p_eure = {
+	color = { 28 44 101 }
+}
+
+p_gard = {
+	color = { 99 20 217 }
 }
 
 p_gironde = {
@@ -233,6 +245,10 @@ p_maine = {
 	}
 }
 
+p_manche = {
+	color = { 170 183 116 }
+}
+
 p_marne = {
 	county = c_marne
 	color = { 84 25 187 }
@@ -342,6 +358,10 @@ p_oise = {
 	color = { 14 61 55 }
 }
 
+p_orne = {
+	color = { 85 164 31 }
+}
+
 p_pas_de_calais = {
 	county = c_pas_de_calais
 	color = { 43 87 173 }
@@ -401,6 +421,10 @@ p_seine = {
 	color = { 253 153 26 }
 }
 
+p_seine_maritime = {
+	color = { 78 32 93 }
+}
+
 p_somme = {
 	county = c_somme
 	color = { 124 35 92 }
@@ -438,6 +462,10 @@ p_strasbourg = {
 
 p_var = {
 	color = { 245 182 111 }
+}
+
+p_vaucluse = {
+	color = { 197 254 131 }
 }
 
 p_vienne = {
