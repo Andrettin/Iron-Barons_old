@@ -473,6 +473,10 @@ p_pyrenees_atlantiques = {
 	color = { 105 120 185 }
 }
 
+p_pyrenees_orientales = {
+	color = { 44 245 114 }
+}
+
 p_rhone = {
 	county = c_rhone
 	color = { 213 168 47 }

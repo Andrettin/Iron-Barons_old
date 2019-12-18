@@ -1,0 +1,15 @@
+p_barcelona = {
+	color = { 172 234 91 }
+}
+
+p_gerona = {
+	color = { 53 183 155 }
+}
+
+p_lerida = {
+	color = { 35 47 53 }
+}
+
+p_tarragona = {
+	color = { 221 1 82 }
+}

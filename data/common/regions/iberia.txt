@@ -1,3 +1,23 @@
+r_iberia = {
+	subregions += r_portugal
+	subregions += r_spain
+}
+
+r_aragon = {
+	subregions += r_catalonia
+}
+
 r_portugal = {
 	provinces += p_portugal
+}
+
+r_spain = {
+	subregions += r_aragon
+}
+
+r_catalonia = {
+	provinces += p_barcelona
+	provinces += p_gerona
+	provinces += p_lerida
+	provinces += p_tarragona
 }

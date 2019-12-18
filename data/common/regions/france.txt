@@ -52,6 +52,7 @@ r_france = { #the territory of modern France
 	provinces += p_pas_de_calais
 	provinces += p_puy_de_dome
 	provinces += p_pyrenees_atlantiques
+	provinces += p_pyrenees_orientales
 	provinces += p_rhone
 	provinces += p_saone
 	provinces += p_sarthe

@@ -109,7 +109,7 @@
 /map/earth/provinces/europe/hungary/p_west_bacs.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/hungary/p_zala.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/hungary/p_zilina.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
-/map/earth/provinces/europe/iberia/p_portugal.txt (www.naturalearthdata.com) (public domain)
+/map/earth/provinces/europe/iberia/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/illyria/p_bjelovar.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/illyria/p_brod.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/illyria/p_dalmatia.txt (www.github.com/OpenHistoricalMap/data) (public domain)

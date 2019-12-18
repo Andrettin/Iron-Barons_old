@@ -1,0 +1,4 @@
+p_barcelona = "Barcelona"
+p_gerona = "Gerona"
+p_lerida = "Lérida"
+p_tarragona = "Tarragona"
