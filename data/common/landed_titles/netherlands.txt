@@ -6,7 +6,7 @@ k_netherlands = {
 d_limburg = {
 	de_jure_liege_title = k_netherlands
 	color = { 246 197 10 }
-	capital_province = p_limburg
+	capital_province = p_north_limburg
 }
 
 d_netherlands = {
@@ -48,7 +48,7 @@ c_groningen = {
 	}
 }
 
-c_limburg = {
+c_north_limburg = {
 	de_jure_liege_title = d_limburg
 	color = { 246 197 10 }
 

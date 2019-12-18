@@ -1,0 +1,9 @@
+religion = catholic
+
+395 = {
+	h_tongres = town #Tongres existed as of c. 395; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 42-43.
+}
+
+1815 = {
+	culture = flemish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

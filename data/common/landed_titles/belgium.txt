@@ -1,12 +1,12 @@
 k_belgium = {
 	color = { 250 224 66 }
-	capital_province = p_belgium
+	capital_province = p_brabant
 }
 
 d_belgium = {
 	de_jure_liege_title = k_belgium
 	color = { 250 224 66 }
-	capital_province = p_belgium
+	capital_province = p_brabant
 	flag_tag = k_belgium
 }
 
@@ -14,6 +14,14 @@ d_luxembourg = {
 	de_jure_liege_title = k_germany
 	color = { 0 161 222 }
 	capital_province = p_luxembourg
+}
+
+c_antwerp = {
+	de_jure_liege_title = d_belgium
+	color = { 106 104 136 }
+
+	b_antwerp = {
+	}
 }
 
 c_arlon = {
@@ -24,32 +32,35 @@ c_arlon = {
 	}
 }
 
-c_belgium = {
+c_brabant = {
 	de_jure_liege_title = d_belgium
-	color = { 250 224 66 }
-
-	b_antwerp = {
-	}
-
-	b_bruges = {
-	}
+	color = { 95 134 74 }
 
 	b_brussels = {
 	}
+}
+
+c_east_flanders = {
+	de_jure_liege_title = d_belgium
+	color = { 225 168 131 }
 
 	b_ghent = {
 	}
+}
 
-	b_liege = {
-	}
+c_hainaut = {
+	de_jure_liege_title = d_belgium
+	color = { 88 133 216 }
 
 	b_mons = {
 	}
+}
 
-	b_namur = {
-	}
+c_liege = {
+	de_jure_liege_title = d_belgium
+	color = { 127 152 208 }
 
-	b_ostend = {
+	b_liege = {
 	}
 }
 
@@ -58,5 +69,32 @@ c_luxembourg = {
 	color = { 0 161 222 }
 
 	b_luxembourg = {
+	}
+}
+
+c_namur = {
+	de_jure_liege_title = d_belgium
+	color = { 89 139 28 }
+
+	b_namur = {
+	}
+}
+
+c_south_limburg = {
+	de_jure_liege_title = d_belgium
+	color = { 153 219 35 }
+
+	b_tongres = {
+	}
+}
+
+c_west_flanders = {
+	de_jure_liege_title = d_belgium
+	color = { 5 147 48 }
+
+	b_bruges = {
+	}
+
+	b_ostend = {
 	}
 }

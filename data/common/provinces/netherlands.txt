@@ -38,16 +38,6 @@ p_groningen = {
 	}
 }
 
-p_limburg = {
-	county = c_limburg
-	color = { 153 211 235 }
-
-	h_maastricht = {
-		barony = b_maastricht
-		type = settlement
-	}
-}
-
 p_north_brabant = {
 	county = c_north_brabant
 	color = { 191 57 26 }
@@ -69,6 +59,16 @@ p_north_holland = {
 
 	h_haarlem = {
 		barony = b_haarlem
+		type = settlement
+	}
+}
+
+p_north_limburg = {
+	county = c_north_limburg
+	color = { 153 211 235 }
+
+	h_maastricht = {
+		barony = b_maastricht
 		type = settlement
 	}
 }

@@ -1,3 +1,13 @@
+p_antwerp = {
+	county = c_antwerp
+	color = { 106 104 136 }
+
+	h_antwerp = {
+		barony = b_antwerp
+		type = settlement
+	}
+}
+
 p_arlon = {
 	county = c_arlon
 	color = { 190 160 229 }
@@ -8,47 +18,42 @@ p_arlon = {
 	}
 }
 
-p_belgium = {
-	county = c_belgium
+p_brabant = {
+	county = c_brabant
 	color = { 95 134 74 }
-
-	h_antwerp = {
-		barony = b_antwerp
-		type = settlement
-	}
-
-	h_bruges = {
-		barony = b_bruges
-		type = settlement
-	}
 
 	h_brussels = {
 		barony = b_brussels
 		type = settlement
 	}
+}
+
+p_east_flanders = {
+	county = c_east_flanders
+	color = { 225 168 131 }
 
 	h_ghent = {
 		barony = b_ghent
 		type = settlement
 	}
+}
 
-	h_liege = {
-		barony = b_liege
-		type = settlement
-	}
+p_hainaut = {
+	county = c_hainaut
+	color = { 88 133 216 }
 
 	h_mons = {
 		barony = b_mons
 		type = settlement
 	}
+}
 
-	h_namur = {
-		barony = b_namur
-		type = settlement
-	}
+p_liege = {
+	county = c_liege
+	color = { 127 152 208 }
 
-	h_ostend = {
-		barony = b_ostend
+	h_liege = {
+		barony = b_liege
 		type = settlement
 	}
 }
@@ -59,6 +64,41 @@ p_luxembourg = {
 
 	h_luxembourg = {
 		barony = b_luxembourg
+		type = settlement
+	}
+}
+
+p_namur = {
+	county = c_namur
+	color = { 89 139 28 }
+
+	h_namur = {
+		barony = b_namur
+		type = settlement
+	}
+}
+
+p_south_limburg = {
+	county = c_south_limburg
+	color = { 153 219 35 }
+
+	h_tongres = {
+		barony = b_tongres
+		type = settlement
+	}
+}
+
+p_west_flanders = {
+	county = c_west_flanders
+	color = { 5 147 48 }
+
+	h_bruges = {
+		barony = b_bruges
+		type = settlement
+	}
+
+	h_ostend = {
+		barony = b_ostend
 		type = settlement
 	}
 }

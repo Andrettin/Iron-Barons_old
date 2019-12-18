@@ -1,0 +1,9 @@
+1815.1.1 = {
+	holder = random
+	liege_title = k_netherlands #part of the Kingdom of the Netherlands as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += appointment_succession
+}
+
+1839.1.1 = {
+	liege_title = k_belgium #became a part of the Kingdom of Belgium in 1839; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

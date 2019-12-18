@@ -9,9 +9,9 @@ r_netherlands = {
 	provinces += p_frisia
 	provinces += p_gelderland
 	provinces += p_groningen
-	provinces += p_limburg
 	provinces += p_north_brabant
 	provinces += p_north_holland
+	provinces += p_north_limburg
 	provinces += p_overijssel
 	provinces += p_south_holland
 	provinces += p_utrecht
@@ -19,6 +19,13 @@ r_netherlands = {
 }
 
 r_belgium = {
-	provinces += p_belgium
+	provinces += p_antwerp
 	provinces += p_arlon
+	provinces += p_brabant
+	provinces += p_hainaut
+	provinces += p_east_flanders
+	provinces += p_liege
+	provinces += p_namur
+	provinces += p_south_limburg
+	provinces += p_west_flanders
 }
