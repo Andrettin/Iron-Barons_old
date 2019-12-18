@@ -1,6 +1,6 @@
 r_imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	provinces += p_salzburg
 	subregions += r_carniola_and_gorz
@@ -13,7 +13,7 @@ r_imperial_austria_1806 = { #the territory of the Empire of Austria, 1806-1809
 
 r_imperial_austria_1806_without_military_frontiers = { #the territory of the Empire of Austria, 1806-1809 (without the military frontiers)
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	provinces += p_salzburg
 	subregions += r_carniola_and_gorz
@@ -27,7 +27,7 @@ r_imperial_austria_1806_without_military_frontiers = { #the territory of the Emp
 
 r_imperial_austria_1809 = { #the territory of the Empire of Austria, 1809-1812
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	subregions += r_bohemia
 	subregions += r_moravia_and_silesia
@@ -53,7 +53,7 @@ r_imperial_austria_1809 = { #the territory of the Empire of Austria, 1809-1812
 
 r_imperial_austria_1815 = { #the territory of the Empire of Austria, 1815-1846
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	subregions += r_carniola_and_gorz
 	subregions += r_tyrol
@@ -72,7 +72,7 @@ r_imperial_austria_1815 = { #the territory of the Empire of Austria, 1815-1846
 
 r_imperial_austria_1846 = { #the territory of the Empire of Austria, 1846-1859
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	subregions += r_carniola_and_gorz
 	subregions += r_tyrol
@@ -92,7 +92,7 @@ r_imperial_austria_1846 = { #the territory of the Empire of Austria, 1846-1859
 
 r_imperial_austria_1859 = { #the territory of the Empire of Austria, 1859-1866
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	subregions += r_carniola_and_gorz
 	subregions += r_tyrol
@@ -111,7 +111,7 @@ r_imperial_austria_1859 = { #the territory of the Empire of Austria, 1859-1866
 
 r_imperial_austria_1866 = { #the territory of the Empire of Austria, 1866-1918
 	subregions += r_austria_proper
-	provinces += p_styria
+	subregions += r_styria
 	provinces += p_carinthia
 	subregions += r_carniola_and_gorz
 	subregions += r_tyrol
@@ -151,6 +151,11 @@ r_carniola_and_gorz = {
 r_lower_austria = {
 	provinces += p_vienna
 	provinces += p_manhartsberg
+}
+
+r_styria = {
+	provinces += p_styria
+	provinces += p_upper_styria
 }
 
 r_tyrol = {

@@ -111,16 +111,6 @@ p_styria = {
 		barony = b_bruck_styria
 		type = settlement
 	}
-
-	h_cilli = {
-		barony = b_cilli
-		type = settlement
-	}
-
-	h_marburg = {
-		barony = b_marburg
-		type = settlement
-	}
 }
 
 p_traunviertel = {
@@ -169,6 +159,21 @@ p_tyrol = {
 
 	h_kufstein = {
 		barony = b_kufstein
+		type = settlement
+	}
+}
+
+p_upper_styria = {
+	county = c_upper_styria
+	color = { 156 193 110 }
+
+	h_cilli = {
+		barony = b_cilli
+		type = settlement
+	}
+
+	h_marburg = {
+		barony = b_marburg
 		type = settlement
 	}
 }

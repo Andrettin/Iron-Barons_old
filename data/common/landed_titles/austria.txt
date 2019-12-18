@@ -129,16 +129,10 @@ c_styria = {
 	de_jure_liege_title = d_styria
 	color = { 48 137 4 }
 
-	b_bruck_styria = {
-	}
-
-	b_cilli = {
-	}
-
 	b_graz = {
 	}
 
-	b_marburg = {
+	b_bruck_styria = {
 	}
 }
 
@@ -175,6 +169,17 @@ c_tyrol = {
 	}
 
 	b_kufstein = {
+	}
+}
+
+c_upper_styria = {
+	de_jure_liege_title = d_styria
+	color = { 156 193 110 }
+
+	b_cilli = {
+	}
+	
+	b_marburg = {
 	}
 }
 
