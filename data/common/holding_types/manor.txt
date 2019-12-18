@@ -1,3 +1,4 @@
 manor = {
 	slot_type = settlement
+	portrait_tag = aristocratic_palace
 }

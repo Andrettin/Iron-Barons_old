@@ -1,2 +1,3 @@
 temple = {
+	portrait_tag = university
 }

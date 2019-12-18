@@ -1,3 +1,4 @@
 monastery = {
 	slot_type = settlement
+	portrait_tag = university
 }

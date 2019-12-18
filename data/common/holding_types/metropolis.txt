@@ -1,5 +1,6 @@
 metropolis = {
 	slot_type = settlement
+	portrait_tag = city
 	
 	modifier = {
 		population_capacity_modifier = 7.0
