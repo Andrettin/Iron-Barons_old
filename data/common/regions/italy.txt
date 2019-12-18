@@ -34,6 +34,11 @@ r_modern_italy = {
 	subregions += r_two_sicilies
 }
 
+r_corsica = {
+	provinces += p_corse_du_sud
+	provinces += p_haute_corse
+}
+
 r_naples = {
 	provinces += p_abruzzo_citra
 	provinces += p_abruzzo_ultra

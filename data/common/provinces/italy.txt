@@ -65,6 +65,10 @@ p_capitanata = {
 	color = { 189 71 94 }
 }
 
+p_corse_du_sud = {
+	color = { 210 45 70 }
+}
+
 p_cuneo = {
 	county = c_cuneo
 	color = { 102 43 22 }
@@ -98,6 +102,10 @@ p_genoa = {
 		barony = b_genoa
 		type = settlement
 	}
+}
+
+p_haute_corse = {
+	color = { 41 198 100 }
 }
 
 p_latium = {

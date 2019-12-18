@@ -1,3 +1,15 @@
+p_cornwall = {
+	color = { 124 3 97 }
+}
+
+p_devon = {
+	color = { 80 102 9 }
+}
+
+p_dorset = {
+	color = { 136 107 221 }
+}
+
 p_gloucester = {
 	county = c_gloucester
 	color = { 85 254 228 }

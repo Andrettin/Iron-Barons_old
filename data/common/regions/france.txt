@@ -80,6 +80,7 @@ r_france = { #the territory of modern France
 	subregions += r_franche_comte
 	subregions += r_lorraine
 	subregions += r_normandy
+	subregions += r_corsica
 }
 
 r_alsace = {

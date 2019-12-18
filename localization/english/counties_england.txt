@@ -1,3 +1,6 @@
+p_cornwall = "Cornwall"
+p_devon = "Devon"
+p_dorset = "Dorset"
 c_gloucester = "Gloucester"
 c_kent = "Kent"
 c_london = "London"
