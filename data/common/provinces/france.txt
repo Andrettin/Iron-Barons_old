@@ -48,6 +48,14 @@ p_aube = {
 	}
 }
 
+p_aude = {
+	color = { 130 57 121 }
+}
+
+p_aveyron = {
+	color = { 132 22 250 }
+}
+
 p_bouches_du_rhone = {
 	color = { 30 188 102 }
 }
@@ -60,6 +68,10 @@ p_calvados = {
 		barony = b_caen
 		type = settlement
 	}
+}
+
+p_cantal = {
+	color = { 208 27 162 }
 }
 
 p_charente = {
@@ -220,6 +232,10 @@ p_hautes_alpes = {
 
 p_hautes_pyrenees = {
 	color = { 30 25 61 }
+}
+
+p_herault = {
+	color = { 60 74 78 }
 }
 
 p_ile_de_france = {
@@ -567,6 +583,10 @@ p_strasbourg = {
 		barony = b_lauterburg
 		type = settlement
 	}
+}
+
+p_tarn = {
+	color = { 103 82 48 }
 }
 
 p_tarn_et_garonne = {
