@@ -105,6 +105,10 @@ p_cotes_darmor = {
 	color = { 65 73 77 }
 }
 
+p_creuse = {
+	color = { 51 207 12 }
+}
+
 p_deux_sevres = {
 	color = { 106 166 20 }
 }
@@ -225,6 +229,14 @@ p_ille = {
 	color = { 118 175 197 }
 }
 
+p_indre = {
+	color = { 195 57 56 }
+}
+
+p_indre_et_loire = {
+	color = { 163 21 225 }
+}
+
 p_isere = {
 	county = c_isere
 	color = { 243 241 175 }
@@ -247,6 +259,10 @@ p_jura = {
 
 p_landes = {
 	color = { 53 249 89 }
+}
+
+p_loir = {
+	color = { 110 104 97 }
 }
 
 p_loire = {
@@ -320,6 +336,10 @@ p_marne = {
 		barony = b_vitry
 		type = settlement
 	}
+}
+
+p_mayenne = {
+	color = { 245 116 167 }
 }
 
 p_meurthe = {
@@ -476,6 +496,10 @@ p_saone = {
 		barony = b_macon
 		type = settlement
 	}
+}
+
+p_sarthe = {
+	color = { 103 13 57 }
 }
 
 p_seine = {
