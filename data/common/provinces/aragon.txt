@@ -1,3 +1,11 @@
+p_alicante = {
+	color = { 161 18 160 }
+}
+
+p_balearic_islands = {
+	color = { 162 18 112 }
+}
+
 p_barcelona = {
 	color = { 172 234 91 }
 }
@@ -6,10 +14,22 @@ p_gerona = {
 	color = { 53 183 155 }
 }
 
+p_huesca = {
+	color = { 243 151 252 }
+}
+
 p_lerida = {
 	color = { 35 47 53 }
 }
 
 p_tarragona = {
 	color = { 221 1 82 }
+}
+
+p_teruel = {
+	color = { 199 14 197 }
+}
+
+p_valencia = {
+	color = { 179 252 129 }
 }

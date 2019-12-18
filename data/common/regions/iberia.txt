@@ -5,6 +5,11 @@ r_iberia = {
 
 r_aragon = {
 	subregions += r_catalonia
+	provinces += p_alicante
+	provinces += p_balearic_islands
+	provinces += p_huesca
+	provinces += p_teruel
+	provinces += p_valencia
 }
 
 r_portugal = {
