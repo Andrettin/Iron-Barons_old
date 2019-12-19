@@ -25,7 +25,7 @@ Item {
 				Item {
 					width: building_area.width
 					height: 32
-					visible: model.modelData.available
+					visible: model.modelData.available && (model.modelData.built || metternich.game.player_character.can_build_in_holding(metternich.selected_holding))
 
 					Image {
 						source: model.modelData.icon_path
