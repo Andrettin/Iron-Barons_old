@@ -13,5 +13,12 @@ r_denmark = { #the territory of modern Denmark
 }
 
 r_sweden = { #the territory of modern Sweden
+	provinces += p_dalarna
+	provinces += p_orebro
 	provinces += p_scania
+	provinces += p_sodermanland
+	provinces += p_stockholm
+	provinces += p_uppsala
+	provinces += p_varmland
+	provinces += p_vastmanland
 }

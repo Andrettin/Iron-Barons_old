@@ -1,1 +1,8 @@
+p_dalarna = "Dalarna"
+p_orebro = "Orebro"
 c_scania = "Scania"
+p_sodermanland = "Södermanland"
+p_stockholm = "Stockholm"
+p_uppsala = "Uppsala"
+p_varmland = "Värmland"
+p_vastmanland = "Västmanland"

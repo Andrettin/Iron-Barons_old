@@ -1,3 +1,11 @@
+p_dalarna = {
+	color = { 11 154 173 }
+}
+
+p_orebro = {
+	color = { 33 28 195 }
+}
+
 p_scania = {
 	county = c_scania
 	color = { 226 61 40 }
@@ -6,4 +14,24 @@ p_scania = {
 		barony = b_malmo
 		type = settlement
 	}
+}
+
+p_sodermanland = {
+	color = { 136 72 65 }
+}
+
+p_stockholm = {
+	color = { 50 166 2 }
+}
+
+p_uppsala = {
+	color = { 51 151 198 }
+}
+
+p_varmland = {
+	color = { 183 99 104 }
+}
+
+p_vastmanland = {
+	color = { 128 105 173 }
 }
