@@ -1,9 +1,37 @@
+p_blekinge = {
+	color = { 81 60 96 }
+}
+
 p_dalarna = {
 	color = { 11 154 173 }
 }
 
+p_gotland = {
+	color = { 152 171 212 }
+}
+
+p_halland = {
+	color = { 52 39 30 }
+}
+
+p_jonkoping = {
+	color = { 29 237 72 }
+}
+
+p_kalmar = {
+	color = { 211 224 4 }
+}
+
+p_kronoberg = {
+	color = { 93 182 65 }
+}
+
 p_orebro = {
 	color = { 33 28 195 }
+}
+
+p_ostergotland = {
+	color = { 186 38 103 }
 }
 
 p_scania = {
@@ -34,4 +62,8 @@ p_varmland = {
 
 p_vastmanland = {
 	color = { 128 105 173 }
+}
+
+p_vastra_gotaland = {
+	color = { 188 201 246 }
 }
