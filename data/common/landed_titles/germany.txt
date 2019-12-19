@@ -622,6 +622,9 @@ c_palatinate = {
 	b_kaiserslautern = {
 	}
 
+	b_neustadt = {
+	}
+
 	b_landau = {
 	}
 
@@ -764,18 +767,21 @@ c_westphalia = {
 	de_jure_liege_title = d_westphalia
 	color = { 221 0 0 }
 
-	b_arnsberg = {
+	b_munster = {
 	}
 
-	b_lippstadt = {
+	b_paderborn = {
 	}
 
 	b_minden = {
 	}
 
-	b_munster = {
+	b_siegen = {
 	}
 
-	b_siegen = {
+	b_arnsberg = {
+	}
+
+	b_lippstadt = {
 	}
 }

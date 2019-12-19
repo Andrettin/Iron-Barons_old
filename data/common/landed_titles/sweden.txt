@@ -18,3 +18,11 @@ c_scania = {
 	b_malmo = {
 	}
 }
+
+c_uppsala = {
+	de_jure_liege_title = d_sweden
+	color = { 51 151 198 }
+
+	b_uppsala = {
+	}
+}

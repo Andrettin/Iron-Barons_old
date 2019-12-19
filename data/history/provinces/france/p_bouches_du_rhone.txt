@@ -1,0 +1,10 @@
+religion = catholic
+
+1409 = {
+	h_aix_en_provence = town
+	university = university #University founded in Aix-en-Provence in 1409; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
+	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

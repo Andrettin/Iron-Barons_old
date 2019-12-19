@@ -65,7 +65,13 @@ p_stockholm = {
 }
 
 p_uppsala = {
+	county = c_uppsala
 	color = { 51 151 198 }
+
+	h_uppsala = {
+		barony = b_uppsala
+		type = settlement
+	}
 }
 
 p_varmland = {

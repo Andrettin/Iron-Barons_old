@@ -52,6 +52,14 @@ c_aube = {
 	}
 }
 
+c_bouches_du_rhone = {
+	de_jure_liege_title = d_france
+	color = { 30 188 102 }
+	
+	b_aix_en_provence = {
+	}
+}
+
 c_calvados = {
 	de_jure_liege_title = d_france
 	color = { 159 131 176 }
@@ -111,6 +119,14 @@ c_gironde = {
 	}
 }
 
+c_haute_garonne = {
+	de_jure_liege_title = d_france
+	color = { 64 201 136 }
+	
+	b_toulouse = {
+	}
+}
+
 c_haute_loire = {
 	de_jure_liege_title = d_france
 	color = { 222 18 54 }
@@ -132,6 +148,14 @@ c_hautes_alpes = {
 	color = { 175 73 65 }
 	
 	b_briancon = {
+	}
+}
+
+c_herault = {
+	de_jure_liege_title = d_france
+	color = { 60 74 78 }
+	
+	b_montpellier = {
 	}
 }
 
@@ -187,6 +211,14 @@ c_loiret = {
 	color = { 196 55 170 }
 	
 	b_orleans = {
+	}
+}
+
+c_lot = {
+	de_jure_liege_title = d_france
+	color = { 21 18 123 }
+	
+	b_cahors = {
 	}
 }
 
@@ -296,6 +328,14 @@ c_puy_de_dome = {
 	}
 }
 
+c_pyrenees_orientales = {
+	de_jure_liege_title = d_france
+	color = { 44 245 114 }
+	
+	b_perpignan = {
+	}
+}
+
 c_rhone = {
 	de_jure_liege_title = d_france
 	color = { 213 168 47 }
@@ -338,6 +378,14 @@ c_strasbourg = {
 	}
 	
 	b_lauterburg = {
+	}
+}
+
+c_vaucluse = {
+	de_jure_liege_title = d_france
+	color = { 197 254 131 }
+	
+	b_avignon = {
 	}
 }
 

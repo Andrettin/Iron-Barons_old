@@ -57,7 +57,13 @@ p_aveyron = {
 }
 
 p_bouches_du_rhone = {
+	county = c_bouches_du_rhone
 	color = { 30 188 102 }
+
+	h_aix_en_provence = {
+		barony = b_aix_en_provence
+		type = settlement
+	}
 }
 
 p_calvados = {
@@ -189,7 +195,13 @@ p_gironde = {
 }
 
 p_haute_garonne = {
+	county = c_haute_garonne
 	color = { 64 201 136 }
+
+	h_toulouse = {
+		barony = b_toulouse
+		type = settlement
+	}
 }
 
 p_haute_loire = {
@@ -235,7 +247,13 @@ p_hautes_pyrenees = {
 }
 
 p_herault = {
+	county = c_herault
 	color = { 60 74 78 }
+
+	h_montpellier = {
+		barony = b_montpellier
+		type = settlement
+	}
 }
 
 p_ile_de_france = {
@@ -329,7 +347,13 @@ p_loiret = {
 }
 
 p_lot = {
+	county = c_lot
 	color = { 21 18 123 }
+
+	h_cahors = {
+		barony = b_cahors
+		type = settlement
+	}
 }
 
 p_lot_et_garonne = {
@@ -510,7 +534,13 @@ p_pyrenees_atlantiques = {
 }
 
 p_pyrenees_orientales = {
+	county = c_pyrenees_orientales
 	color = { 44 245 114 }
+
+	h_perpignan = {
+		barony = b_perpignan
+		type = settlement
+	}
 }
 
 p_rhone = {
@@ -598,7 +628,13 @@ p_var = {
 }
 
 p_vaucluse = {
+	county = c_vaucluse
 	color = { 197 254 131 }
+
+	h_avignon = {
+		barony = b_avignon
+		type = settlement
+	}
 }
 
 p_vendee = {

@@ -682,6 +682,11 @@ p_palatinate = {
 		type = settlement
 	}
 
+	h_neustadt = {
+		barony = b_neustadt
+		type = settlement
+	}
+
 	h_landau = {
 		barony = b_landau
 		type = settlement
@@ -892,13 +897,13 @@ p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }
 
-	h_arnsberg = {
-		barony = b_arnsberg
+	h_munster = {
+		barony = b_munster
 		type = settlement
 	}
 
-	h_lippstadt = {
-		barony = b_lippstadt
+	h_paderborn = {
+		barony = b_paderborn
 		type = settlement
 	}
 
@@ -907,13 +912,18 @@ p_westphalia = {
 		type = settlement
 	}
 
-	h_munster = {
-		barony = b_munster
+	h_siegen = {
+		barony = b_siegen
 		type = settlement
 	}
 
-	h_siegen = {
-		barony = b_siegen
+	h_arnsberg = {
+		barony = b_arnsberg
+		type = settlement
+	}
+
+	h_lippstadt = {
+		barony = b_lippstadt
 		type = settlement
 	}
 }
