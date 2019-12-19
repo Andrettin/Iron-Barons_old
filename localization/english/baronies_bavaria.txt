@@ -1,6 +1,7 @@
 b_aschaffenburg = "Aschaffenburg"
 b_augsburg = "Augsburg"
 b_bamberg = "Bamberg"
+b_dillingen = "Dillingen"
 b_freising = "Freising"
 b_furth = "Fürth"
 b_hof = "Hof"

@@ -1,6 +1,6 @@
 p_alicante = "Alicante"
-p_balearic_islands = "Balearic Islands"
-p_balearic_islands_castillian = "Baleares"
+c_balearic_islands = "Balearic Islands"
+c_balearic_islands_castillian = "Baleares"
 p_barcelona = "Barcelona"
 p_castellon = "Castellón"
 p_gerona = "Gerona"

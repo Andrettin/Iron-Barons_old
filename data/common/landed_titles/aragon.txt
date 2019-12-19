@@ -1,0 +1,6 @@
+c_balearic_islands = {
+	color = { 162 18 112 }
+	
+	b_palma = {
+	}
+}

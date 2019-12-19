@@ -344,13 +344,16 @@ c_franconia = {
 	b_bamberg = {
 	}
 
-	b_ingolstadt = {
-	}
-
 	b_furth = {
 	}
 
 	b_wurzburg = {
+	}
+
+	b_ingolstadt = {
+	}
+
+	b_dillingen = {
 	}
 
 	b_schweinfurt = {

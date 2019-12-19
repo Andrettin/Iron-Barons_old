@@ -277,11 +277,6 @@ p_franconia = {
 		type = settlement
 	}
 
-	h_ingolstadt = {
-		barony = b_ingolstadt
-		type = settlement
-	}
-
 	h_furth = {
 		barony = b_furth
 		type = settlement
@@ -289,6 +284,16 @@ p_franconia = {
 
 	h_wurzburg = {
 		barony = b_wurzburg
+		type = settlement
+	}
+
+	h_ingolstadt = {
+		barony = b_ingolstadt
+		type = settlement
+	}
+
+	h_dillingen = {
+		barony = b_dillingen
 		type = settlement
 	}
 
