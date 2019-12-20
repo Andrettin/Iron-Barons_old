@@ -25,7 +25,12 @@ r_aragon = {
 }
 
 r_castille = {
+	provinces += p_asturias
+	provinces += p_burgos
+	provinces += p_cantabria
 	provinces += p_la_rioja
+	provinces += p_leon
+	provinces += p_palencia
 }
 
 r_navarre = {

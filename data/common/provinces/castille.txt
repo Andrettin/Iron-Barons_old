@@ -1,3 +1,23 @@
+p_asturias = {
+	color = { 46 91 103 }
+}
+
+p_burgos = {
+	color = { 0 85 46 }
+}
+
+p_cantabria = {
+	color = { 1 137 37 }
+}
+
 p_la_rioja = {
 	color = { 162 242 82 }
+}
+
+p_leon = {
+	color = { 201 142 117 }
+}
+
+p_palencia = {
+	color = { 49 141 148 }
 }

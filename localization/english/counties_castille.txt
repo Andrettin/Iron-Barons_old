@@ -1,1 +1,6 @@
+p_asturias = "Asturias"
+p_burgos = "Burgos"
+p_cantabria = "Cantabria"
 p_la_rioja = "La Rioja"
+p_leon = "León"
+p_palencia = "Palencia"
