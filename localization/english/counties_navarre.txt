@@ -1,0 +1,6 @@
+p_alava = "Álava"
+p_biscay = "Biscay"
+p_biscay_basque = "Bizkaia"
+p_gipuzkoa = "Gipuzkoa"
+p_navarre = "Navarre"
+p_navarre_castillian = "Navarra"

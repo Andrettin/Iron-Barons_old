@@ -1,0 +1,15 @@
+p_alava = {
+	color = { 241 152 5 }
+}
+
+p_biscay = {
+	color = { 85 198 129 }
+}
+
+p_gipuzkoa = {
+	color = { 74 189 9 }
+}
+
+p_navarre = {
+	color = { 210 197 21 }
+}

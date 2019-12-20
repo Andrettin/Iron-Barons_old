@@ -66,3 +66,7 @@ p_teruel = {
 p_valencia = {
 	color = { 179 252 129 }
 }
+
+p_zaragoza = {
+	color = { 202 26 200 }
+}

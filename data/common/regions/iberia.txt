@@ -3,6 +3,16 @@ r_iberia = {
 	subregions += r_spain
 }
 
+r_portugal = {
+	provinces += p_portugal
+}
+
+r_spain = {
+	subregions += r_aragon
+	subregions += r_castille
+	subregions += r_navarre
+}
+
 r_aragon = {
 	subregions += r_catalonia
 	provinces += p_alicante
@@ -11,14 +21,18 @@ r_aragon = {
 	provinces += p_huesca
 	provinces += p_teruel
 	provinces += p_valencia
+	provinces += p_zaragoza
 }
 
-r_portugal = {
-	provinces += p_portugal
+r_castille = {
+	provinces += p_la_rioja
 }
 
-r_spain = {
-	subregions += r_aragon
+r_navarre = {
+	provinces += p_alava
+	provinces += p_biscay
+	provinces += p_gipuzkoa
+	provinces += p_navarre
 }
 
 r_catalonia = {
