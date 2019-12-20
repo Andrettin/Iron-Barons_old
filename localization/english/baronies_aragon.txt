@@ -1,1 +1,5 @@
+b_barcelona = "Barcelona"
+b_huesca = "Huesca"
+b_lerida = "Lérida"
 b_palma = "Palma"
+b_vich = "Vich"

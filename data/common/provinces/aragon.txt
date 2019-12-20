@@ -13,7 +13,18 @@ p_balearic_islands = {
 }
 
 p_barcelona = {
+	county = c_barcelona
 	color = { 172 234 91 }
+
+	h_barcelona = {
+		barony = b_barcelona
+		type = settlement
+	}
+
+	h_vich = {
+		barony = b_vich
+		type = settlement
+	}
 }
 
 p_castellon = {
@@ -25,11 +36,23 @@ p_gerona = {
 }
 
 p_huesca = {
+	county = c_huesca
 	color = { 243 151 252 }
+
+	h_huesca = {
+		barony = b_huesca
+		type = settlement
+	}
 }
 
 p_lerida = {
+	county = c_lerida
 	color = { 35 47 53 }
+
+	h_lerida = {
+		barony = b_lerida
+		type = settlement
+	}
 }
 
 p_tarragona = {

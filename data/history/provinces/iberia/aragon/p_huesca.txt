@@ -1,0 +1,10 @@
+religion = catholic
+
+1354 = {
+	h_huesca = town
+	university = university #Major university founded in Huesca in 1354; Source: The Cambridge Modern History Atlas, 1912, p. 9; Source: Atlas de História Mundial, 2001, p. 144; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

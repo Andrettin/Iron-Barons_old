@@ -4,3 +4,27 @@ c_balearic_islands = {
 	b_palma = {
 	}
 }
+
+c_barcelona = {
+	color = { 172 234 91 }
+	
+	b_barcelona = {
+	}
+	
+	b_vich = {
+	}
+}
+
+c_huesca = {
+	color = { 162 18 112 }
+	
+	b_huesca = {
+	}
+}
+
+c_lerida = {
+	color = { 35 47 53 }
+	
+	b_lerida = {
+	}
+}
