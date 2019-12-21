@@ -56,7 +56,13 @@ p_lerida = {
 }
 
 p_tarragona = {
+	county = c_tarragona
 	color = { 221 1 82 }
+
+	h_tortosa = {
+		barony = b_tortosa
+		type = settlement
+	}
 }
 
 p_teruel = {
@@ -68,5 +74,11 @@ p_valencia = {
 }
 
 p_zaragoza = {
+	county = c_zaragoza
 	color = { 202 26 200 }
+
+	h_zaragoza = {
+		barony = b_zaragoza
+		type = settlement
+	}
 }

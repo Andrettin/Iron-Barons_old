@@ -28,3 +28,17 @@ c_lerida = {
 	b_lerida = {
 	}
 }
+
+c_tarragona = {
+	color = { 221 1 82 }
+	
+	b_tortosa = {
+	}
+}
+
+c_zaragoza = {
+	color = { 202 26 200 }
+	
+	b_zaragoza = {
+	}
+}
