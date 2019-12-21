@@ -1,3 +1,7 @@
+p_albacete = {
+	color = { 160 172 107 }
+}
+
 p_asturias = {
 	color = { 46 91 103 }
 }
@@ -22,6 +26,18 @@ p_cantabria = {
 	color = { 1 137 37 }
 }
 
+p_ciudad_real = {
+	color = { 6 132 12 }
+}
+
+p_cuenca = {
+	color = { 171 97 48 }
+}
+
+p_guadalajara = {
+	color = { 132 108 104 }
+}
+
 p_huelva = {
 	color = { 198 94 140 }
 }
@@ -40,6 +56,10 @@ p_leon = {
 
 p_lugo = {
 	color = { 55 172 177 }
+}
+
+p_madrid = {
+	color = { 124 44 233 }
 }
 
 p_orense = {
@@ -64,6 +84,10 @@ p_segovia = {
 
 p_soria = {
 	color = { 65 4 58 }
+}
+
+p_toledo = {
+	color = { 47 71 121 }
 }
 
 p_valladolid = {
