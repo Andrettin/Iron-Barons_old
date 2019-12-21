@@ -10,12 +10,28 @@ p_buskerud = {
 	color = { 173 142 35 }
 }
 
+p_finnmark = {
+	color = { 75 12 23 }
+}
+
 p_hedmark = {
 	color = { 220 180 111 }
 }
 
 p_hordaland = {
 	color = { 247 201 90 }
+}
+
+p_more_og_romsdal = {
+	color = { 105 230 62 }
+}
+
+p_nord_trondelag = {
+	color = { 25 255 94 }
+}
+
+p_nordland = {
+	color = { 62 110 34 }
 }
 
 p_oppland = {
@@ -34,8 +50,16 @@ p_sogn_og_fjordane = {
 	color = { 97 35 22 }
 }
 
+p_sor_trondelag = {
+	color = { 227 89 239 }
+}
+
 p_telemark = {
 	color = { 101 94 243 }
+}
+
+p_troms = {
+	color = { 85 188 106 }
 }
 
 p_vest_agder = {
