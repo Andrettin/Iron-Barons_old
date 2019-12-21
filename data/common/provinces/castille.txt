@@ -141,7 +141,18 @@ p_segovia = {
 }
 
 p_seville = {
+	county = c_seville
 	color = { 230 112 111 }
+
+	h_seville = {
+		barony = b_seville
+		type = settlement
+	}
+
+	h_osuna = {
+		barony = b_osuna
+		type = settlement
+	}
 }
 
 p_soria = {

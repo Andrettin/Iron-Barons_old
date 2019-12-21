@@ -1,0 +1,15 @@
+religion = catholic
+
+1504 = {
+	h_seville = town
+	university = university #Major university founded in Seville in 1504; Source: The Cambridge Modern History Atlas, p. 9; Source: Enrique Martínez Ruiz; Consuelo Maqueda, Atlas Histórico de España I, 2000, p. 225.
+}
+
+1548 = {
+	h_osuna = town
+	#university = university #Minor university founded in Osuna in 1548; Source: The Cambridge Modern History Atlas, 1912, p. 9; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

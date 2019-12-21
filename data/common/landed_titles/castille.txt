@@ -33,6 +33,16 @@ c_salamanca = {
 	}
 }
 
+c_seville = {
+	color = { 230 112 111 }
+	
+	b_seville = {
+	}
+	
+	b_osuna = {
+	}
+}
+
 c_soria = {
 	color = { 65 4 58 }
 	
