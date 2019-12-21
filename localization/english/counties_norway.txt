@@ -1,0 +1,6 @@
+p_akershus = "Akershus"
+p_buskerud = "Buskerud"
+p_hedmark = "Hedmark"
+p_oppland = "Oppland"
+p_ostfold = "Østfold"
+p_vestfold = "Vestfold"

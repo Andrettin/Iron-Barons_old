@@ -1,0 +1,23 @@
+p_akershus = {
+	color = { 211 128 27 }
+}
+
+p_buskerud = {
+	color = { 173 142 35 }
+}
+
+p_hedmark = {
+	color = { 220 180 111 }
+}
+
+p_oppland = {
+	color = { 132 214 16 }
+}
+
+p_ostfold = {
+	color = { 64 241 154 }
+}
+
+p_vestfold = {
+	color = { 82 63 60 }
+}

@@ -12,6 +12,15 @@ r_denmark = { #the territory of modern Denmark
 	provinces += p_sjaelland
 }
 
+r_norway = { #the territory of modern Norway
+	provinces += p_akershus
+	provinces += p_buskerud
+	provinces += p_hedmark
+	provinces += p_oppland
+	provinces += p_ostfold
+	provinces += p_vestfold
+}
+
 r_sweden = { #the territory of modern Sweden
 	provinces += p_blekinge
 	provinces += p_dalarna
