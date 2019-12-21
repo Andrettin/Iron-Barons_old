@@ -1,9 +1,29 @@
-p_portugal = {
-	county = c_portugal
+p_beja = {
+	color = { 92 14 117 }
+}
+
+p_evora = {
+	color = { 255 126 74 }
+}
+
+p_lisbon = {
+	county = c_lisbon
 	color = { 36 81 20 }
 
 	h_lisbon = {
 		barony = b_lisbon
 		type = settlement
 	}
+}
+
+p_portalegre = {
+	color = { 119 177 52 }
+}
+
+p_santarem = {
+	color = { 246 112 237 }
+}
+
+p_setubal = {
+	color = { 189 68 190 }
 }

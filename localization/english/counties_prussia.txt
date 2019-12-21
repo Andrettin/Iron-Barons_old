@@ -1,4 +1,3 @@
 c_danzig = "Danzig"
 c_east_prussia = "East Prussia"
-c_portugal = "Portugal"
 c_thorn = "Thorn"

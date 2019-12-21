@@ -1,18 +1,18 @@
 k_portugal = {
 	color = { 0 102 0 }
-	capital_province = p_portugal
+	capital_province = p_lisbon
 }
 
 d_portugal = {
 	de_jure_liege_title = k_portugal
 	color = { 0 102 0 }
-	capital_province = p_portugal
+	capital_province = p_lisbon
 	flag_tag = k_portugal
 }
 
-c_portugal = {
+c_lisbon = {
 	de_jure_liege_title = d_portugal
-	color = { 0 102 0 }
+	color = { 36 81 20 }
 
 	b_lisbon = {
 	}

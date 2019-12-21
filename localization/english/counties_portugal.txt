@@ -1,0 +1,7 @@
+p_beja = "Beja"
+p_evora = "Évora"
+c_lisbon = "Lisbon"
+c_lisbon_portuguese = "Lisboa"
+p_portalegre = "Portalegre"
+p_santarem = "Santarém"
+p_setubal = "Setúbal"
