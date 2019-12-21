@@ -1,0 +1,4 @@
+p_arabian_sea = {
+	color = { 195 238 95 }
+	terrain = ocean
+}
