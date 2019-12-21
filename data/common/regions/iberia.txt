@@ -3,7 +3,13 @@ r_iberia = {
 	subregions += r_spain
 }
 
-r_portugal = {
+r_portugal = { #the territory of modern Portugal
+	subregions += r_mainland_portugal
+	provinces += p_azores
+	provinces += p_madeira
+}
+
+r_mainland_portugal = {
 	provinces += p_aveiro
 	provinces += p_beja
 	provinces += p_braga
@@ -11,8 +17,10 @@ r_portugal = {
 	provinces += p_castelo_branco
 	provinces += p_coimbra
 	provinces += p_evora
+	provinces += p_faro
 	provinces += p_guarda
 	provinces += p_leiria
+	provinces += p_lisbon
 	provinces += p_lisbon
 	provinces += p_portalegre
 	provinces += p_porto

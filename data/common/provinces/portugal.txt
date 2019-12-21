@@ -2,6 +2,10 @@ p_aveiro = {
 	color = { 154 147 212 }
 }
 
+p_azores = {
+	color = { 248 173 146 }
+}
+
 p_beja = {
 	color = { 92 14 117 }
 }
@@ -26,6 +30,10 @@ p_evora = {
 	color = { 255 126 74 }
 }
 
+p_faro = {
+	color = { 190 145 33 }
+}
+
 p_guarda = {
 	color = { 253 118 24 }
 }
@@ -42,6 +50,10 @@ p_lisbon = {
 		barony = b_lisbon
 		type = settlement
 	}
+}
+
+p_madeira = {
+	color = { 216 59 75 }
 }
 
 p_portalegre = {
