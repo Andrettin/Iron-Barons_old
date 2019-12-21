@@ -1,0 +1,10 @@
+religion = catholic
+
+1346 = {
+	h_valladolid = town
+	university = university #University founded in Valladolid in 1346; Source: "Atlas de História Mundial", 2001, p. 144.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

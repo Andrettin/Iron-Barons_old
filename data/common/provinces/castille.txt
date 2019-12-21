@@ -11,7 +11,13 @@ p_asturias = {
 }
 
 p_avila = {
+	county = c_avila
 	color = { 83 91 24 }
+
+	h_avila = {
+		barony = b_avila
+		type = settlement
+	}
 }
 
 p_badajoz = {
@@ -35,7 +41,13 @@ p_cantabria = {
 }
 
 p_ciudad_real = {
+	county = c_ciudad_real
 	color = { 6 132 12 }
+
+	h_almagro = {
+		barony = b_almagro
+		type = settlement
+	}
 }
 
 p_cordoba = {
@@ -79,7 +91,13 @@ p_lugo = {
 }
 
 p_madrid = {
+	county = c_madrid
 	color = { 124 44 233 }
+
+	h_alcala_de_henares = {
+		barony = b_alcala_de_henares
+		type = settlement
+	}
 }
 
 p_malaga = {
@@ -95,7 +113,13 @@ p_orense = {
 }
 
 p_palencia = {
+	county = c_palencia
 	color = { 49 141 148 }
+
+	h_palencia = {
+		barony = b_palencia
+		type = settlement
+	}
 }
 
 p_pontevedra = {
@@ -103,7 +127,13 @@ p_pontevedra = {
 }
 
 p_salamanca = {
+	county = c_salamanca
 	color = { 142 190 24 }
+
+	h_salamanca = {
+		barony = b_salamanca
+		type = settlement
+	}
 }
 
 p_segovia = {
@@ -115,15 +145,33 @@ p_seville = {
 }
 
 p_soria = {
+	county = c_soria
 	color = { 65 4 58 }
+
+	h_osma = {
+		barony = b_osma
+		type = settlement
+	}
 }
 
 p_toledo = {
+	county = c_toledo
 	color = { 47 71 121 }
+
+	h_toledo = {
+		barony = b_toledo
+		type = settlement
+	}
 }
 
 p_valladolid = {
+	county = c_valladolid
 	color = { 149 67 72 }
+
+	h_valladolid = {
+		barony = b_valladolid
+		type = settlement
+	}
 }
 
 p_zamora = {

@@ -1,0 +1,55 @@
+c_avila = {
+	color = { 83 91 24 }
+	
+	b_avila = {
+	}
+}
+
+c_ciudad_real = {
+	color = { 6 132 12 }
+	
+	b_almagro = {
+	}
+}
+
+c_madrid = {
+	color = { 124 44 233 }
+	
+	b_alcala_de_henares = {
+	}
+}
+
+c_palencia = {
+	color = { 49 141 148 }
+	
+	b_palencia = {
+	}
+}
+
+c_salamanca = {
+	color = { 142 190 24 }
+	
+	b_salamanca = {
+	}
+}
+
+c_soria = {
+	color = { 65 4 58 }
+	
+	b_osma = {
+	}
+}
+
+c_toledo = {
+	color = { 47 71 121 }
+	
+	b_toledo = {
+	}
+}
+
+c_valladolid = {
+	color = { 149 67 72 }
+	
+	b_valladolid = {
+	}
+}

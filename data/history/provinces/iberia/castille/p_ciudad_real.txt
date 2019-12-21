@@ -1,0 +1,10 @@
+religion = catholic
+
+1553 = {
+	h_almagro = town
+	university = university #Minor university founded in Almagro in 1553; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

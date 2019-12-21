@@ -1,0 +1,8 @@
+b_alcala_de_henares = "Alcalá de Henares"
+b_almagro = "Almagro"
+b_avila = "Ávila"
+b_osma = "Osma"
+b_palencia = "Palencia"
+b_salamanca = "Salamanca"
+b_toledo = "Toledo"
+b_valladolid = "Valladolid"
