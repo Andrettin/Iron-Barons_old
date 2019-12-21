@@ -6,12 +6,24 @@ p_avila = {
 	color = { 83 91 24 }
 }
 
+p_badajoz = {
+	color = { 217 165 162 }
+}
+
 p_burgos = {
 	color = { 0 85 46 }
 }
 
+p_caceres = {
+	color = { 167 77 52 }
+}
+
 p_cantabria = {
 	color = { 1 137 37 }
+}
+
+p_huelva = {
+	color = { 198 94 140 }
 }
 
 p_la_coruna = {
