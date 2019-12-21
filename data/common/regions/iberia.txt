@@ -6,6 +6,8 @@ r_iberia = {
 r_portugal = {
 	provinces += p_aveiro
 	provinces += p_beja
+	provinces += p_braga
+	provinces += p_braganca
 	provinces += p_castelo_branco
 	provinces += p_coimbra
 	provinces += p_evora
@@ -13,8 +15,11 @@ r_portugal = {
 	provinces += p_leiria
 	provinces += p_lisbon
 	provinces += p_portalegre
+	provinces += p_porto
 	provinces += p_santarem
 	provinces += p_setubal
+	provinces += p_viana_do_castelo
+	provinces += p_vila_real
 	provinces += p_viseu
 }
 

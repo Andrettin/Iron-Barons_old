@@ -6,6 +6,14 @@ p_beja = {
 	color = { 92 14 117 }
 }
 
+p_braga = {
+	color = { 124 59 140 }
+}
+
+p_braganca = {
+	color = { 68 65 125 }
+}
+
 p_castelo_branco = {
 	color = { 172 247 105 }
 }
@@ -40,12 +48,24 @@ p_portalegre = {
 	color = { 119 177 52 }
 }
 
+p_porto = {
+	color = { 37 113 29 }
+}
+
 p_santarem = {
 	color = { 246 112 237 }
 }
 
 p_setubal = {
 	color = { 189 68 190 }
+}
+
+p_viana_do_castelo = {
+	color = { 43 177 99 }
+}
+
+p_vila_real = {
+	color = { 122 112 179 }
 }
 
 p_viseu = {
