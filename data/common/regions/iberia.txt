@@ -27,11 +27,17 @@ r_aragon = {
 r_castille = {
 	subregions += r_galicia_iberia
 	provinces += p_asturias
+	provinces += p_avila
 	provinces += p_burgos
 	provinces += p_cantabria
 	provinces += p_la_rioja
 	provinces += p_leon
 	provinces += p_palencia
+	provinces += p_salamanca
+	provinces += p_segovia
+	provinces += p_soria
+	provinces += p_valladolid
+	provinces += p_zamora
 }
 
 r_navarre = {
