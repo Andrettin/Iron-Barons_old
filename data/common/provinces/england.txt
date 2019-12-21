@@ -2,6 +2,10 @@ p_cornwall = {
 	color = { 124 3 97 }
 }
 
+p_cumbria = {
+	color = { 148 73 46 }
+}
+
 p_devon = {
 	color = { 80 102 9 }
 }
@@ -18,6 +22,10 @@ p_gloucester = {
 		barony = b_bristol
 		type = settlement
 	}
+}
+
+p_isle_of_man = {
+	color = { 112 66 67 }
 }
 
 p_kent = {

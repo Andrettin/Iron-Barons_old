@@ -5,9 +5,11 @@ r_british_isles = {
 
 r_england = {
 	provinces += p_cornwall
+	provinces += p_cumbria
 	provinces += p_devon
 	provinces += p_dorset
 	provinces += p_gloucester
+	provinces += p_isle_of_man
 	provinces += p_kent
 	provinces += p_london
 	provinces += p_norfolk
