@@ -2,6 +2,10 @@ p_albacete = {
 	color = { 160 172 107 }
 }
 
+p_almeria = {
+	color = { 163 118 3 }
+}
+
 p_asturias = {
 	color = { 46 91 103 }
 }
@@ -22,6 +26,10 @@ p_caceres = {
 	color = { 167 77 52 }
 }
 
+p_cadiz = {
+	color = { 179 218 131 }
+}
+
 p_cantabria = {
 	color = { 1 137 37 }
 }
@@ -30,8 +38,16 @@ p_ciudad_real = {
 	color = { 6 132 12 }
 }
 
+p_cordoba = {
+	color = { 22 207 46 }
+}
+
 p_cuenca = {
 	color = { 171 97 48 }
+}
+
+p_granada = {
+	color = { 186 40 175 }
 }
 
 p_guadalajara = {
@@ -40,6 +56,10 @@ p_guadalajara = {
 
 p_huelva = {
 	color = { 198 94 140 }
+}
+
+p_jaen = {
+	color = { 194 124 151 }
 }
 
 p_la_coruna = {
@@ -62,6 +82,14 @@ p_madrid = {
 	color = { 124 44 233 }
 }
 
+p_malaga = {
+	color = { 68 146 148 }
+}
+
+p_murcia = {
+	color = { 141 35 153 }
+}
+
 p_orense = {
 	color = { 215 109 108 }
 }
@@ -80,6 +108,10 @@ p_salamanca = {
 
 p_segovia = {
 	color = { 182 228 247 }
+}
+
+p_seville = {
+	color = { 230 112 111 }
 }
 
 p_soria = {
