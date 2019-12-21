@@ -14,10 +14,16 @@ r_denmark = { #the territory of modern Denmark
 
 r_norway = { #the territory of modern Norway
 	provinces += p_akershus
+	provinces += p_aust_agder
 	provinces += p_buskerud
 	provinces += p_hedmark
+	provinces += p_hordaland
 	provinces += p_oppland
 	provinces += p_ostfold
+	provinces += p_rogaland
+	provinces += p_sogn_og_fjordane
+	provinces += p_telemark
+	provinces += p_vest_agder
 	provinces += p_vestfold
 }
 
