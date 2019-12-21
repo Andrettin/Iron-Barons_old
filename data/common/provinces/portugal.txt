@@ -1,9 +1,29 @@
+p_aveiro = {
+	color = { 154 147 212 }
+}
+
 p_beja = {
 	color = { 92 14 117 }
 }
 
+p_castelo_branco = {
+	color = { 172 247 105 }
+}
+
+p_coimbra = {
+	color = { 244 157 147 }
+}
+
 p_evora = {
 	color = { 255 126 74 }
+}
+
+p_guarda = {
+	color = { 253 118 24 }
+}
+
+p_leiria = {
+	color = { 187 128 151 }
 }
 
 p_lisbon = {
@@ -26,4 +46,8 @@ p_santarem = {
 
 p_setubal = {
 	color = { 189 68 190 }
+}
+
+p_viseu = {
+	color = { 102 34 150 }
 }

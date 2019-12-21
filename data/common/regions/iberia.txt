@@ -4,12 +4,18 @@ r_iberia = {
 }
 
 r_portugal = {
+	provinces += p_aveiro
 	provinces += p_beja
+	provinces += p_castelo_branco
+	provinces += p_coimbra
 	provinces += p_evora
+	provinces += p_guarda
+	provinces += p_leiria
 	provinces += p_lisbon
 	provinces += p_portalegre
 	provinces += p_santarem
 	provinces += p_setubal
+	provinces += p_viseu
 }
 
 r_spain = {
