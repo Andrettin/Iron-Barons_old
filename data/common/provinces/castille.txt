@@ -7,7 +7,13 @@ p_almeria = {
 }
 
 p_asturias = {
+	county = c_asturias
 	color = { 46 91 103 }
+
+	h_oviedo = {
+		barony = b_oviedo
+		type = settlement
+	}
 }
 
 p_avila = {
@@ -104,7 +110,13 @@ p_jaen = {
 }
 
 p_la_coruna = {
+	county = c_la_coruna
 	color = { 166 161 75 }
+
+	h_santiago_de_compostela = {
+		barony = b_santiago_de_compostela
+		type = settlement
+	}
 }
 
 p_la_rioja = {

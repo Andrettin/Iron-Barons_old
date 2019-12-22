@@ -1,3 +1,10 @@
+c_asturias = {
+	color = { 46 91 103 }
+	
+	b_oviedo = {
+	}
+}
+
 c_avila = {
 	color = { 83 91 24 }
 	
@@ -40,6 +47,13 @@ c_jaen = {
 	color = { 194 124 151 }
 	
 	b_baeza = {
+	}
+}
+
+c_la_coruna = {
+	color = { 166 161 75 }
+	
+	b_santiago_de_compostela = {
 	}
 }
 

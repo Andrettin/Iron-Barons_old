@@ -1,0 +1,10 @@
+religion = catholic
+
+1580 = {
+	h_oviedo = town
+	university = university #University founded in Oviedo in 1580; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
