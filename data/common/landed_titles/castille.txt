@@ -12,10 +12,48 @@ c_ciudad_real = {
 	}
 }
 
+c_cordoba = {
+	color = { 22 207 46 }
+	
+	b_cordoba = {
+	}
+	
+	b_baena = {
+	}
+}
+
+c_granada = {
+	color = { 186 40 175 }
+	
+	b_granada = {
+	}
+}
+
+c_guadalajara = {
+	color = { 132 108 104 }
+	
+	b_siguenza = {
+	}
+}
+
+c_jaen = {
+	color = { 194 124 151 }
+	
+	b_baeza = {
+	}
+}
+
 c_madrid = {
 	color = { 124 44 233 }
 	
 	b_alcala_de_henares = {
+	}
+}
+
+c_murcia = {
+	color = { 141 35 153 }
+	
+	b_murcia = {
 	}
 }
 

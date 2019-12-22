@@ -1,0 +1,15 @@
+religion = catholic
+
+1553 = {
+	h_baena = town
+	university = university #University founded in Baena in 1553; Source: The Cambridge Modern History Atlas, p. 9.
+}
+
+1572 = {
+	h_cordoba = town
+	university = university #Minor university founded in Cordoba in 1572; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

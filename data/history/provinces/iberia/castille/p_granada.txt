@@ -1,0 +1,11 @@
+religion = catholic
+
+1526 = {
+	h_granada = town
+	university = university #University founded in Granada in 1526 (as given by Martínez Ruiz and Maqueda, The Cambridge Modern History Atlas gives 1531 instead), containing law studies; Source: The Cambridge Modern History Atlas, p. 9.
+	university += law_college
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

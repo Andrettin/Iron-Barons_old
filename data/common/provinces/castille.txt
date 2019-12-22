@@ -51,7 +51,18 @@ p_ciudad_real = {
 }
 
 p_cordoba = {
+	county = c_cordoba
 	color = { 22 207 46 }
+
+	h_cordoba = {
+		barony = b_cordoba
+		type = settlement
+	}
+
+	h_baena = {
+		barony = b_baena
+		type = settlement
+	}
 }
 
 p_cuenca = {
@@ -59,11 +70,23 @@ p_cuenca = {
 }
 
 p_granada = {
+	county = c_granada
 	color = { 186 40 175 }
+
+	h_granada = {
+		barony = b_granada
+		type = settlement
+	}
 }
 
 p_guadalajara = {
+	county = c_guadalajara
 	color = { 132 108 104 }
+
+	h_siguenza = {
+		barony = b_siguenza
+		type = settlement
+	}
 }
 
 p_huelva = {
@@ -71,7 +94,13 @@ p_huelva = {
 }
 
 p_jaen = {
+	county = c_jaen
 	color = { 194 124 151 }
+
+	h_baeza = {
+		barony = b_baeza
+		type = settlement
+	}
 }
 
 p_la_coruna = {
@@ -105,7 +134,13 @@ p_malaga = {
 }
 
 p_murcia = {
+	county = c_murcia
 	color = { 141 35 153 }
+
+	h_murcia = {
+		barony = b_murcia
+		type = settlement
+	}
 }
 
 p_orense = {
