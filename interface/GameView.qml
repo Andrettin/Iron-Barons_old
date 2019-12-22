@@ -57,14 +57,17 @@ Item {
 					game_view.current_world_map = this
 				}
 
+				var center_coordinate
+				var map_center
+
 				if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province.world === world) {
-					var center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
-					var map_center = world.coordinate_to_point(center_coordinate)
+					center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
+					map_center = world.coordinate_to_point(center_coordinate)
 					this.x = (game_view.parent.width / 2) - map_center.x
 					this.y = (game_view.parent.height / 2) - map_center.y
 				} else if (metternich.game.player_clade && metternich.game.player_clade.provinces[0].world === world) {
-					var center_coordinate = metternich.game.player_clade.provinces[0].center_coordinate;
-					var map_center = world.coordinate_to_point(center_coordinate)
+					center_coordinate = metternich.game.player_clade.provinces[0].center_coordinate;
+					map_center = world.coordinate_to_point(center_coordinate)
 					this.x = (game_view.parent.width / 2) - map_center.x
 					this.y = (game_view.parent.height / 2) - map_center.y
 				} else {
@@ -255,7 +258,7 @@ Item {
 		id: palace_holdings_button
 		anchors.top: settlement_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.palace_holding_slots.length > 0
+		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.palace_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
 		text: "<font color=\"black\">Palaces</font>"
 		width: 96
 		height: 32

@@ -58,7 +58,7 @@ Item {
 					MouseArea {
 						anchors.fill: parent
 						hoverEnabled: true
-						ToolTip.text: tooltip(model.modelData.species.name_plural + "<br>" + (model.modelData.clade ? "<br>Clade: " + model.modelData.clade.name : "") + "<br>Size: " + number_str(model.modelData.size))
+						ToolTip.text: tooltip(model.modelData.species.name_plural + "<br>" + (model.modelData.clade ? "<br>Clade: " + model.modelData.clade.name : "") + "<br>Size: " + number_str(model.modelData.size) + "<br>Biomass: " + number_str(model.modelData.biomass))
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}
