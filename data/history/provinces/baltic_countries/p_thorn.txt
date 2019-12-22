@@ -1,11 +1,11 @@
 religion = protestant
 
-1366.1.1 = {
+1366 = {
 	h_kulm = town
 	university = university #University founded in Kulm in 1366; Source: "Atlas de História Mundial", 2001, p. 144.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = saxon #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_thorn = town #Thorn existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

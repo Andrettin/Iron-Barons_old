@@ -8,14 +8,15 @@ Item {
 	
 	property var province: null
 
-	enum HoldingAreaMode {
+	enum Mode {
 		Settlements,
 		Palaces,
-		Other
+		Other,
+		Wildlife
 	}
 
 	property real holding_area_y: holding_area.y
-	property int holding_area_mode: ProvinceInterface.HoldingAreaMode.Settlements
+	property int mode: metternich.game.player_clade ? ProvinceInterface.Mode.Wildlife : ProvinceInterface.Mode.Settlements
 
 	Rectangle {
 		id: province_background
@@ -49,6 +50,7 @@ Item {
 		holding_slot: province && province.capital_holding_slot ? province.capital_holding_slot : null
 		imageWidth: 128
 		imageHeight: 128
+		visible: mode !== ProvinceInterface.Mode.Wildlife
 	}
 
 	PopulationTypeChart {
@@ -57,7 +59,7 @@ Item {
 		anchors.topMargin: 4
 		anchors.left: parent.left
 		anchors.leftMargin: 32
-		visible: province !== null && province.settlement_holdings.length > 0
+		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
 		dataSource: province
 	}
 
@@ -66,7 +68,7 @@ Item {
 		anchors.top: capital_holding.bottom
 		anchors.topMargin: 4
 		anchors.horizontalCenter: parent.horizontalCenter
-		visible: province !== null && province.settlement_holdings.length > 0
+		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
 		dataSource: province
 	}
 
@@ -76,13 +78,13 @@ Item {
 		anchors.topMargin: 4
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		visible: province !== null && province.settlement_holdings.length > 0
+		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
 		dataSource: province
 	}
 
 	Item {
 		id: empire_area
-		visible: province
+		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -130,7 +132,7 @@ Item {
 
 	Item {
 		id: kingdom_area
-		visible: province
+		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -178,7 +180,7 @@ Item {
 
 	Item {
 		id: duchy_area
-		visible: province
+		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -232,7 +234,7 @@ Item {
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: duchy_area.bottom
-		visible: province !== null && province.settlement_holdings.length > 0
+		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
 
 		Text {
 			id: population_label
@@ -258,12 +260,12 @@ Item {
 
 	Item {
 		id: terrain_area
-		anchors.topMargin: 20
+		anchors.top: mode !== ProvinceInterface.Mode.Wildlife ? population_area.bottom : parent.top
+		anchors.topMargin: mode !== ProvinceInterface.Mode.Wildlife ? 20 : 64
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: population_area.bottom
 
 		Text {
 			id: terrain_label
@@ -363,27 +365,42 @@ Item {
 		anchors.bottomMargin: 8
 		width: 290
 		height: 193
+		visible: mode !== ProvinceInterface.Mode.Wildlife
 
 		HoldingGrid {
 			id: settlement_holding_grid
 			anchors.fill: parent
-			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Settlements
+			visible: mode === ProvinceInterface.Mode.Settlements
 			holding_model: province ? province.settlement_holding_slots : []
 		}
 
 		HoldingGrid {
 			id: palace_holding_grid
 			anchors.fill: parent
-			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Palaces
+			visible: mode === ProvinceInterface.Mode.Palaces
 			holding_model: province ? province.palace_holding_slots : []
 		}
 
 		HoldingGrid {
 			id: extra_holding_grid
 			anchors.fill: parent
-			visible: holding_area_mode === ProvinceInterface.HoldingAreaMode.Other
+			visible: mode === ProvinceInterface.Mode.Other
 			holding_model: province ? [province.fort_holding_slot, province.university_holding_slot, province.hospital_holding_slot] : []
 		}
+	}
+
+
+	ProvinceWildlifeUnitInterface {
+		id: wildlife_unit_area
+		anchors.left: parent.left
+		anchors.leftMargin: 8
+		anchors.right: parent.right
+		anchors.rightMargin: 8
+		anchors.top: terrain_area.bottom
+		anchors.topMargin: 24
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 8
+		visible: mode === ProvinceInterface.Mode.Wildlife
 	}
 
 	HoldingInterface {

@@ -25,7 +25,7 @@ Item {
 				Item {
 					width: building_area.width
 					height: 32
-					visible: model.modelData.available && (model.modelData.built || metternich.game.player_character.can_build_in_holding(metternich.selected_holding))
+					visible: model.modelData.available && (model.modelData.built || (metternich.game.player_character && metternich.game.player_character.can_build_in_holding(metternich.selected_holding)))
 
 					Image {
 						source: model.modelData.icon_path
@@ -56,7 +56,7 @@ Item {
 					}
 
 					Button {
-						visible: metternich.game.player_character.can_build_in_holding(metternich.selected_holding) && metternich.selected_holding.under_construction_building === null && model.modelData.buildable && !model.modelData.built
+						visible: metternich.game.player_character && metternich.game.player_character.can_build_in_holding(metternich.selected_holding) && metternich.selected_holding.under_construction_building === null && model.modelData.buildable && !model.modelData.built
 						anchors.top: parent.top
 						anchors.topMargin: 1
 						anchors.bottom: parent.bottom

@@ -26,3 +26,9 @@ r_ukraine = { #the territory of modern Ukraine
 	provinces += p_transcarpathia
 	provinces += p_volhynia
 }
+
+r_chukotka_alaska = {
+	provinces += p_chukotka
+	provinces += p_alaska
+}
+

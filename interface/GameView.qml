@@ -57,8 +57,13 @@ Item {
 					game_view.current_world_map = this
 				}
 
-				if (metternich.game.player_character.primary_title.capital_province.world === world) {
+				if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province.world === world) {
 					var center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
+					var map_center = world.coordinate_to_point(center_coordinate)
+					this.x = (game_view.parent.width / 2) - map_center.x
+					this.y = (game_view.parent.height / 2) - map_center.y
+				} else if (metternich.game.player_clade && metternich.game.player_clade.provinces[0].world === world) {
+					var center_coordinate = metternich.game.player_clade.provinces[0].center_coordinate;
 					var map_center = world.coordinate_to_point(center_coordinate)
 					this.x = (game_view.parent.width / 2) - map_center.x
 					this.y = (game_view.parent.height / 2) - map_center.y
@@ -127,7 +132,7 @@ Item {
 
 			Text {
 				id: player_character_label
-				text: metternich.game.player_character.titled_name
+				text: metternich.game.player_character ? metternich.game.player_character.titled_name : metternich.game.player_clade.name
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
 				anchors.leftMargin: 8
@@ -139,7 +144,9 @@ Item {
 			MouseArea {
 				anchors.fill: parent
 				onClicked: {
-					metternich.selected_character = metternich.game.player_character
+					if (metternich.game.player_character !== null) {
+						metternich.selected_character = metternich.game.player_character
+					}
 				}
 			}
 		}
@@ -163,6 +170,7 @@ Item {
 			anchors.top: parent.top
 			width: 64 + 8 + 8 + 8
 			height: 32
+			visible: metternich.game.player_character
 
 			Image {
 				anchors.verticalCenter: parent.verticalCenter
@@ -182,7 +190,7 @@ Item {
 
 			Text {
 				id: wealth_label
-				text: centesimal(metternich.game.player_character.wealth)
+				text: metternich.game.player_character ? centesimal(metternich.game.player_character.wealth) : ""
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.right: parent.right
 				anchors.rightMargin: 8
@@ -233,13 +241,13 @@ Item {
 		anchors.top: province_interface.top
 		anchors.topMargin: province_interface.holding_area_y + 8
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null
+		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.settlement_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
 		text: "<font color=\"black\">Settlements</font>"
 		width: 96
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			province_interface.holding_area_mode = ProvinceInterface.HoldingAreaMode.Settlements
+			province_interface.mode = ProvinceInterface.Mode.Settlements
 		}
 	}
 
@@ -253,7 +261,7 @@ Item {
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			province_interface.holding_area_mode = ProvinceInterface.HoldingAreaMode.Palaces
+			province_interface.mode = ProvinceInterface.Mode.Palaces
 		}
 	}
 
@@ -261,13 +269,28 @@ Item {
 		id: extra_holdings_button
 		anchors.top: palace_holdings_button.visible ? palace_holdings_button.bottom : settlement_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null
+		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
 		text: "<font color=\"black\">Other</font>"
 		width: 96
 		height: 32
 		font.pixelSize: 12
 		onClicked: {
-			province_interface.holding_area_mode = ProvinceInterface.HoldingAreaMode.Other
+			province_interface.mode = ProvinceInterface.Mode.Other
+		}
+	}
+
+	Button {
+		id: wildlife_button
+		anchors.top: extra_holdings_button.visible ? extra_holdings_button.bottom : (palace_holdings_button.visible ? palace_holdings_button.bottom : (settlement_holdings_button.visible ? settlement_holdings_button.bottom : province_interface.top))
+		anchors.topMargin: settlement_holdings_button.visible ? 0 : (province_interface.holding_area_y + 8)
+		anchors.left: province_interface.right
+		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.wildlife_units.length > 0
+		text: "<font color=\"black\">Wildlife</font>"
+		width: 96
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			province_interface.mode = ProvinceInterface.Mode.Wildlife
 		}
 	}
 
@@ -496,7 +519,7 @@ Item {
 
 	Button {
 		id: religion_group_map_mode_button
-		anchors.bottom: parent.bottom
+		anchors.bottom: clade_map_mode_button.visible ? clade_map_mode_button.bottom : parent.bottom
 		anchors.right: parent.right
 		text: "<font color=\"black\">Religion Group</font>"
 		width: 128
@@ -504,6 +527,20 @@ Item {
 		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.ReligionGroup
+		}
+	}
+
+	Button {
+		id: clade_map_mode_button
+		visible: metternich.game.player_clade !== null
+		anchors.bottom: parent.bottom
+		anchors.right: parent.right
+		text: "<font color=\"black\">Clade</font>"
+		width: 128
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			metternich.map_mode = WorldMap.Mode.Clade
 		}
 	}
 
