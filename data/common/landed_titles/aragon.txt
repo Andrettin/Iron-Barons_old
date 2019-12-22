@@ -1,3 +1,10 @@
+c_alicante = {
+	color = { 161 18 160 }
+	
+	b_orihuela = {
+	}
+}
+
 c_balearic_islands = {
 	color = { 162 18 112 }
 	
@@ -33,6 +40,13 @@ c_tarragona = {
 	color = { 221 1 82 }
 	
 	b_tortosa = {
+	}
+}
+
+c_valencia = {
+	color = { 179 252 129 }
+	
+	b_valencia = {
 	}
 }
 

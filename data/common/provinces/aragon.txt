@@ -1,5 +1,11 @@
 p_alicante = {
+	county = c_alicante
 	color = { 161 18 160 }
+
+	h_orihuela = {
+		barony = b_orihuela
+		type = settlement
+	}
 }
 
 p_balearic_islands = {
@@ -70,7 +76,13 @@ p_teruel = {
 }
 
 p_valencia = {
+	county = c_valencia
 	color = { 179 252 129 }
+
+	h_valencia = {
+		barony = b_valencia
+		type = settlement
+	}
 }
 
 p_zaragoza = {
