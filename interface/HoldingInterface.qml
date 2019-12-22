@@ -61,7 +61,7 @@ Item {
 
 		Text {
 			id: holding_population
-			text: metternich.selected_holding ? metternich.selected_holding.population : ""
+			text: metternich.selected_holding ? number_str(metternich.selected_holding.population) : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
@@ -125,7 +125,7 @@ Item {
 
 		Text {
 			id: holding_population_capacity
-			text: metternich.selected_holding ? metternich.selected_holding.population_capacity : ""
+			text: metternich.selected_holding ? number_str(metternich.selected_holding.population_capacity) : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"

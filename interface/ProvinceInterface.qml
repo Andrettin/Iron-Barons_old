@@ -248,7 +248,7 @@ Item {
 
 		Text {
 			id: province_population
-			text: province ? province.population : ""
+			text: province ? number_str(province.population) : ""
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"

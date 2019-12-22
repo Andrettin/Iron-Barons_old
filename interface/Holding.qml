@@ -24,7 +24,7 @@ Item {
 				holding ?
 					holding.titled_name + "<br>"
 					+ (holding.owner ? "<br>Holder: " + holding.owner.titled_name : "")
-					+ (holding.settlement ? "<br>Population: " + holding.population : "")
+					+ (holding.settlement ? "<br>Population: " + number_str(holding.population) : "")
 				: (holding_slot ? holding_slot.name : ""))
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000

@@ -17,6 +17,11 @@ Window {
 		return "<font color=\"white\">" + text + "</font>"
 	}
 
+	//function to format numbers as text
+	function number_str(n) {
+		return n.toLocaleString(Qt.locale("en_US"), 'f', 0)
+	}
+
 	//function to format numbers with two decimal places
 	function centesimal(number, always_use_sign = false) {
 		var abs_number = Math.abs(number)
