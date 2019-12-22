@@ -7,3 +7,7 @@ religion = catholic
 	
 	capital_holding = h_lisbon
 }
+
+1911 = {
+	university = university #University founded in Lisbon in 1911; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}
