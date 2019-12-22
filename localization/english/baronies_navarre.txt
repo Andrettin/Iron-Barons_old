@@ -1,0 +1,3 @@
+b_irache = "Irache"
+b_onate = "Oñate"
+b_pamplona = "Pamplona"

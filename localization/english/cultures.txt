@@ -1,5 +1,6 @@
 alsatian = "Alsatian"
 austrian = "Austrian"
+basque = "Basque"
 bavarian = "Bavarian"
 byelorussian = "Byelorussian"
 brazilian = "Brazilian"

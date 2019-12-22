@@ -1,0 +1,12 @@
+basque = {
+	culture_group = basque
+	color = { 157 99 85 }
+
+	male_names = {
+		Carlos #placeholder name
+	}
+	
+	female_names = {
+		Maria #placeholder name
+	}
+}

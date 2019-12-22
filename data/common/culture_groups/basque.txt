@@ -1,0 +1,5 @@
+basque = {
+	species = human
+	color = { 157 99 85 }
+	default_phenotype = european
+}

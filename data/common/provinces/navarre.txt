@@ -7,9 +7,26 @@ p_biscay = {
 }
 
 p_gipuzkoa = {
+	county = c_gipuzkoa
 	color = { 74 189 9 }
+
+	h_onate = {
+		barony = b_onate
+		type = settlement
+	}
 }
 
 p_navarre = {
+	county = c_navarre
 	color = { 210 197 21 }
+
+	h_pamplona = {
+		barony = b_pamplona
+		type = settlement
+	}
+
+	h_irache = {
+		barony = b_irache
+		type = settlement
+	}
 }

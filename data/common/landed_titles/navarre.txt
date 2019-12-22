@@ -1,0 +1,16 @@
+c_gipuzkoa = {
+	color = { 74 189 9 }
+	
+	b_onate = {
+	}
+}
+
+c_navarre = {
+	color = { 210 197 21 }
+	
+	b_pamplona = {
+	}
+	
+	b_irache = {
+	}
+}

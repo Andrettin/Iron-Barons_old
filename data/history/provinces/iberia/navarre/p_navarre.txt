@@ -1,0 +1,15 @@
+religion = catholic
+
+1605 = {
+	h_irache = town
+	university = university #Minor university founded in Irache in 1605; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+}
+
+1628 = {
+	h_pamplona = town
+	#university = university #Major university founded in Pamplona in 1628; Source: Enrique Martínez Ruiz, Consuelo Maqueda, "Atlas Histórico de España I", 2000, p. 225.
+}
+
+1815 = {
+	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
