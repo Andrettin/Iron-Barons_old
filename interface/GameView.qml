@@ -159,7 +159,7 @@ Item {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.right: parent.right
-		width: 128
+		width: 160
 		height: 64
 
 		Rectangle {
