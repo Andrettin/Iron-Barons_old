@@ -9,7 +9,10 @@ r_england = {
 	provinces += p_cumbria
 	provinces += p_devon
 	provinces += p_dorset
+	provinces += p_east_sussex
+	provinces += p_essex
 	provinces += p_gloucester
+	provinces += p_hampshire
 	provinces += p_isle_of_man
 	provinces += p_kent
 	provinces += p_london
@@ -19,6 +22,8 @@ r_england = {
 	provinces += p_stafford
 	provinces += p_suffolk
 	provinces += p_warwick
+	provinces += p_west_sussex
+	provinces += p_wiltshire
 	provinces += p_worcester
 }
 
