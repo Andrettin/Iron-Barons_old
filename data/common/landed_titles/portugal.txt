@@ -10,10 +10,26 @@ d_portugal = {
 	flag_tag = k_portugal
 }
 
+c_coimbra = {
+	de_jure_liege_title = d_portugal
+	color = { 244 157 147 }
+
+	b_coimbra = {
+	}
+}
+
 c_lisbon = {
 	de_jure_liege_title = d_portugal
 	color = { 36 81 20 }
 
 	b_lisbon = {
+	}
+}
+
+c_oporto = {
+	de_jure_liege_title = d_portugal
+	color = { 37 113 29 }
+
+	b_oporto = {
 	}
 }

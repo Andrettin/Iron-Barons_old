@@ -23,7 +23,13 @@ p_castelo_branco = {
 }
 
 p_coimbra = {
+	county = c_coimbra
 	color = { 244 157 147 }
+
+	h_coimbra = {
+		barony = b_coimbra
+		type = settlement
+	}
 }
 
 p_evora = {
@@ -56,12 +62,18 @@ p_madeira = {
 	color = { 216 59 75 }
 }
 
-p_portalegre = {
-	color = { 119 177 52 }
+p_oporto = {
+	county = c_oporto
+	color = { 37 113 29 }
+
+	h_oporto = {
+		barony = b_oporto
+		type = settlement
+	}
 }
 
-p_porto = {
-	color = { 37 113 29 }
+p_portalegre = {
+	color = { 119 177 52 }
 }
 
 p_santarem = {

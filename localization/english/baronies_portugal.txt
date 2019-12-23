@@ -1,2 +1,5 @@
+b_coimbra = "Coimbra"
 b_lisbon = "Lisbon"
 b_lisbon_portuguese = "Lisboa"
+b_oporto = "Oporto"
+b_oporto_portuguese = "Porto"

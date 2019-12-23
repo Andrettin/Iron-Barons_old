@@ -1,0 +1,10 @@
+religion = catholic
+
+1815 = {
+	culture = portuguese #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
+
+1911 = {
+	h_oporto = town
+	university = university #University founded in Oporto in 1911; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}
