@@ -1,3 +1,7 @@
+p_cambridge = {
+	color = { 107 74 157 }
+}
+
 p_cornwall = {
 	color = { 124 3 97 }
 }
@@ -72,6 +76,10 @@ p_somerset = {
 	color = { 111 79 97 }
 }
 
+p_stafford = {
+	color = { 211 165 80 }
+}
+
 p_suffolk = {
 	county = c_suffolk
 	color = { 35 86 191 }
@@ -80,4 +88,12 @@ p_suffolk = {
 		barony = b_ipswich
 		type = settlement
 	}
+}
+
+p_warwick = {
+	color = { 195 142 115 }
+}
+
+p_worcester = {
+	color = { 73 75 204 }
 }

@@ -4,6 +4,7 @@ r_british_isles = {
 }
 
 r_england = {
+	provinces += p_cambridge
 	provinces += p_cornwall
 	provinces += p_cumbria
 	provinces += p_devon
@@ -15,7 +16,10 @@ r_england = {
 	provinces += p_norfolk
 	provinces += p_oxford
 	provinces += p_somerset
+	provinces += p_stafford
 	provinces += p_suffolk
+	provinces += p_warwick
+	provinces += p_worcester
 }
 
 r_ireland = {
