@@ -1,10 +1,15 @@
 religion = protestant
 
-1815.1.1 = {
+1575 = {
+	h_leyden = town
+	university = university #University founded in Leyden in 1575; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
+1815 = {
 	culture = dutch #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
-	h_the_hague = city #The Hague was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_rotterdam = city #Rotterdam was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_the_hague = city #The Hague existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_rotterdam = city #Rotterdam existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_the_hague
 }

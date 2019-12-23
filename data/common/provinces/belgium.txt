@@ -26,6 +26,11 @@ p_brabant = {
 		barony = b_brussels
 		type = settlement
 	}
+
+	h_louvain = {
+		barony = b_louvain
+		type = settlement
+	}
 }
 
 p_east_flanders = {

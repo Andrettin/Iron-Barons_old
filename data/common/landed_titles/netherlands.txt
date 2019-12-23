@@ -30,6 +30,9 @@ c_frisia = {
 	
 	b_leeuwarden = {
 	}
+	
+	b_franeker = {
+	}
 }
 
 c_gelderland = {
@@ -91,6 +94,9 @@ c_south_holland = {
 	}
 
 	b_rotterdam = {
+	}
+
+	b_leyden = {
 	}
 }
 

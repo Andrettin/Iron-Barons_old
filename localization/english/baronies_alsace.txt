@@ -1,5 +1,6 @@
 b_colmar = "Colmar"
 b_hagenau = "Hagenau"
 b_lauterburg = "Lauterburg"
+b_molsheim = "Molsheim"
 b_mulhausen = "Mülhausen"
 b_strasbourg = "Strasbourg"

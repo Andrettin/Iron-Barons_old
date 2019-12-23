@@ -1,9 +1,12 @@
 religion = protestant
 
+1585 = {
+	h_franeker = town
+	university = university #University founded in Franeker in 1585; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
 1815 = {
 	culture = dutch #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_leeuwarden = town
-	
-	capital_holding = h_leeuwarden
 }

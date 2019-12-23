@@ -604,6 +604,11 @@ p_strasbourg = {
 		type = settlement
 	}
 	
+	h_molsheim = {
+		barony = b_molsheim
+		type = settlement
+	}
+
 	h_hagenau = {
 		barony = b_hagenau
 		type = settlement

@@ -38,6 +38,9 @@ c_brabant = {
 
 	b_brussels = {
 	}
+
+	b_louvain = {
+	}
 }
 
 c_east_flanders = {

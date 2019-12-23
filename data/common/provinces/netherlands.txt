@@ -16,6 +16,11 @@ p_frisia = {
 		barony = b_leeuwarden
 		type = settlement
 	}
+	
+	h_franeker = {
+		barony = b_franeker
+		type = settlement
+	}
 }
 
 p_gelderland = {
@@ -94,6 +99,11 @@ p_south_holland = {
 
 	h_rotterdam = {
 		barony = b_rotterdam
+		type = settlement
+	}
+
+	h_leyden = {
+		barony = b_leyden
 		type = settlement
 	}
 }

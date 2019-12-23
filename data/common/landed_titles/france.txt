@@ -374,6 +374,9 @@ c_strasbourg = {
 	b_strasbourg = {
 	}
 	
+	b_molsheim = {
+	}
+	
 	b_hagenau = {
 	}
 	
