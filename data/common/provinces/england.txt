@@ -1,3 +1,11 @@
+p_bedfordshire = {
+	color = { 182 125 199 }
+}
+
+p_buckinghamshire = {
+	color = { 87 108 120 }
+}
+
 p_cambridgeshire = {
 	color = { 107 74 157 }
 }
@@ -60,6 +68,10 @@ p_herefordshire = {
 	color = { 219 144 212 }
 }
 
+p_hertfordshire = {
+	color = { 89 56 34 }
+}
+
 p_isle_of_man = {
 	color = { 112 66 67 }
 }
@@ -110,6 +122,10 @@ p_north_yorkshire = {
 	color = { 68 141 129 }
 }
 
+p_northamptonshire = {
+	color = { 211 133 33 }
+}
+
 p_northumberland = {
 	color = { 130 2 49 }
 }
@@ -148,6 +164,10 @@ p_suffolk = {
 		barony = b_ipswich
 		type = settlement
 	}
+}
+
+p_surrey = {
+	color = { 247 192 51 }
 }
 
 p_warwickshire = {
