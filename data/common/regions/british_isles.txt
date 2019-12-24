@@ -4,33 +4,40 @@ r_british_isles = {
 }
 
 r_england = {
-	provinces += p_cambridge
+	provinces += p_cambridgeshire
+	provinces += p_cheshire
 	provinces += p_cornwall
 	provinces += p_cumbria
+	provinces += p_derbyshire
 	provinces += p_devon
 	provinces += p_dorset
 	provinces += p_durham
 	provinces += p_east_sussex
 	provinces += p_east_yorkshire
 	provinces += p_essex
-	provinces += p_gloucester
+	provinces += p_gloucestershire
 	provinces += p_hampshire
+	provinces += p_herefordshire
 	provinces += p_isle_of_man
 	provinces += p_kent
 	provinces += p_lancashire
+	provinces += p_leicestershire
+	provinces += p_lincolnshire
 	provinces += p_london
 	provinces += p_norfolk
 	provinces += p_north_yorkshire
 	provinces += p_northumberland
-	provinces += p_oxford
+	provinces += p_nottinghamshire
+	provinces += p_oxfordshire
+	provinces += p_shropshire
 	provinces += p_somerset
-	provinces += p_stafford
+	provinces += p_staffordshire
 	provinces += p_suffolk
-	provinces += p_warwick
+	provinces += p_warwickshire
 	provinces += p_west_sussex
 	provinces += p_west_yorkshire
 	provinces += p_wiltshire
-	provinces += p_worcester
+	provinces += p_worcestershire
 }
 
 r_ireland = {

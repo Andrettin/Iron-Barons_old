@@ -16,7 +16,7 @@ d_england = {
 	flag_tag = k_england
 }
 
-c_gloucester = {
+c_gloucestershire = {
 	de_jure_liege_title = d_england
 	color = { 85 254 228 }
 
@@ -48,7 +48,7 @@ c_norfolk = {
 	}
 }
 
-c_oxford = {
+c_oxfordshire = {
 	de_jure_liege_title = d_england
 	color = { 196 244 110 }
 

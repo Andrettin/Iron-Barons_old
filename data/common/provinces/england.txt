@@ -1,5 +1,9 @@
-p_cambridge = {
+p_cambridgeshire = {
 	color = { 107 74 157 }
+}
+
+p_cheshire = {
+	color = { 48 58 68 }
 }
 
 p_cornwall = {
@@ -8,6 +12,10 @@ p_cornwall = {
 
 p_cumbria = {
 	color = { 148 73 46 }
+}
+
+p_derbyshire = {
+	color = { 223 146 117 }
 }
 
 p_devon = {
@@ -34,8 +42,8 @@ p_essex = {
 	color = { 171 188 249 }
 }
 
-p_gloucester = {
-	county = c_gloucester
+p_gloucestershire = {
+	county = c_gloucestershire
 	color = { 85 254 228 }
 
 	h_bristol = {
@@ -46,6 +54,10 @@ p_gloucester = {
 
 p_hampshire = {
 	color = { 103 61 23 }
+}
+
+p_herefordshire = {
+	color = { 219 144 212 }
 }
 
 p_isle_of_man = {
@@ -64,6 +76,14 @@ p_kent = {
 
 p_lancashire = {
 	color = { 235 197 115 }
+}
+
+p_leicestershire = {
+	color = { 86 193 49 }
+}
+
+p_lincolnshire = {
+	color = { 246 20 64 }
 }
 
 p_london = {
@@ -94,8 +114,12 @@ p_northumberland = {
 	color = { 130 2 49 }
 }
 
-p_oxford = {
-	county = c_oxford
+p_nottinghamshire = {
+	color = { 59 254 120 }
+}
+
+p_oxfordshire = {
+	county = c_oxfordshire
 	color = { 196 244 110 }
 
 	h_oxford = {
@@ -104,11 +128,15 @@ p_oxford = {
 	}
 }
 
+p_shropshire = {
+	color = { 116 184 205 }
+}
+
 p_somerset = {
 	color = { 111 79 97 }
 }
 
-p_stafford = {
+p_staffordshire = {
 	color = { 211 165 80 }
 }
 
@@ -122,7 +150,7 @@ p_suffolk = {
 	}
 }
 
-p_warwick = {
+p_warwickshire = {
 	color = { 195 142 115 }
 }
 
@@ -138,6 +166,6 @@ p_wiltshire = {
 	color = { 24 148 222 }
 }
 
-p_worcester = {
+p_worcestershire = {
 	color = { 73 75 204 }
 }
