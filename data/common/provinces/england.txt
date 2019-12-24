@@ -18,8 +18,16 @@ p_dorset = {
 	color = { 136 107 221 }
 }
 
+p_durham = {
+	color = { 90 26 21 }
+}
+
 p_east_sussex = {
 	color = { 202 142 74 }
+}
+
+p_east_yorkshire = {
+	color = { 129 126 209 }
 }
 
 p_essex = {
@@ -54,6 +62,10 @@ p_kent = {
 	}
 }
 
+p_lancashire = {
+	color = { 235 197 115 }
+}
+
 p_london = {
 	county = c_london
 	color = { 242 84 91 }
@@ -72,6 +84,14 @@ p_norfolk = {
 		barony = b_norwich
 		type = settlement
 	}
+}
+
+p_north_yorkshire = {
+	color = { 68 141 129 }
+}
+
+p_northumberland = {
+	color = { 130 2 49 }
 }
 
 p_oxford = {
@@ -108,6 +128,10 @@ p_warwick = {
 
 p_west_sussex = {
 	color = { 153 173 47 }
+}
+
+p_west_yorkshire = {
+	color = { 39 195 115 }
 }
 
 p_wiltshire = {
