@@ -1,0 +1,15 @@
+religion = protestant
+
+1815 = {
+	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
+
+1851 = {
+	h_manchester = town
+	university = university #University founded in Manchester in 1851; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}
+
+1903 = {
+	h_liverpool = town
+	#university = university #University founded in Liverpool in 1903; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}

@@ -7,7 +7,13 @@ p_buckinghamshire = {
 }
 
 p_cambridgeshire = {
+	county = c_cambridgeshire
 	color = { 107 74 157 }
+
+	h_cambridge = {
+		barony = b_cambridge
+		type = settlement
+	}
 }
 
 p_cheshire = {
@@ -35,7 +41,13 @@ p_dorset = {
 }
 
 p_durham = {
+	county = c_durham
 	color = { 90 26 21 }
+
+	h_durham = {
+		barony = b_durham
+		type = settlement
+	}
 }
 
 p_east_sussex = {
@@ -87,7 +99,18 @@ p_kent = {
 }
 
 p_lancashire = {
+	county = c_lancashire
 	color = { 235 197 115 }
+
+	h_manchester = {
+		barony = b_manchester
+		type = settlement
+	}
+
+	h_liverpool = {
+		barony = b_liverpool
+		type = settlement
+	}
 }
 
 p_leicestershire = {
@@ -171,7 +194,13 @@ p_surrey = {
 }
 
 p_warwickshire = {
+	county = c_warwickshire
 	color = { 195 142 115 }
+
+	h_birmingham = {
+		barony = b_birmingham
+		type = settlement
+	}
 }
 
 p_west_sussex = {
@@ -179,7 +208,18 @@ p_west_sussex = {
 }
 
 p_west_yorkshire = {
+	county = c_west_yorkshire
 	color = { 39 195 115 }
+
+	h_leeds = {
+		barony = b_leeds
+		type = settlement
+	}
+
+	h_sheffield = {
+		barony = b_sheffield
+		type = settlement
+	}
 }
 
 p_wiltshire = {

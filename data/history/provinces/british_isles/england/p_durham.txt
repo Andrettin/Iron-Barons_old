@@ -1,0 +1,10 @@
+religion = protestant
+
+1815 = {
+	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
+
+1832 = {
+	h_durham = town
+	university = university #University founded in Durham in 1832; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}

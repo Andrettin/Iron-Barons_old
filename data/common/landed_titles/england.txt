@@ -24,11 +24,38 @@ c_gloucestershire = {
 	}
 }
 
+c_cambridgeshire = {
+	de_jure_liege_title = d_england
+	color = { 107 74 157 }
+
+	b_cambridge = {
+	}
+}
+
+c_durham = {
+	de_jure_liege_title = d_england
+	color = { 90 26 21 }
+
+	b_durham = {
+	}
+}
+
 c_kent = {
 	de_jure_liege_title = d_england
 	color = { 102 90 140 }
 
 	b_dover = {
+	}
+}
+
+c_lancashire = {
+	de_jure_liege_title = d_england
+	color = { 235 197 115 }
+
+	b_manchester = {
+	}
+
+	b_liverpool = {
 	}
 }
 
@@ -61,5 +88,24 @@ c_suffolk = {
 	color = { 35 86 191 }
 
 	b_ipswich = {
+	}
+}
+
+c_warwickshire = {
+	de_jure_liege_title = d_england
+	color = { 195 142 115 }
+
+	b_birmingham = {
+	}
+}
+
+c_west_yorkshire = {
+	de_jure_liege_title = d_england
+	color = { 39 195 115 }
+
+	b_leeds = {
+	}
+
+	b_sheffield = {
 	}
 }

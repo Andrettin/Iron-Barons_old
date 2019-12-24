@@ -1,0 +1,15 @@
+religion = protestant
+
+1815 = {
+	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
+
+1904 = {
+	h_leeds = town
+	university = university #University founded in Leeds in 1904; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}
+
+1905 = {
+	h_sheffield = town
+	#university = university #University founded in Sheffield in 1905; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
+}

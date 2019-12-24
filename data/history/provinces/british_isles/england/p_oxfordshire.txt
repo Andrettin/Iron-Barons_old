@@ -1,12 +1,10 @@
 religion = protestant
 
-1250.1.1 = {
+1250 = {
 	h_oxford = town
 	university = university #University existent in Oxford in 1250; Source: "Atlas de História Mundial", p. 144.
-	
-	capital_holding = h_oxford
 }
 
-1815.1.1 = {
+1815 = {
 	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

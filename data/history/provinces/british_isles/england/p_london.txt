@@ -1,15 +1,15 @@
 religion = protestant
 
-1500.1.1 = {
+1500 = {
 	h_london = city #London existed as of 1500; Source: Lawrence Stone, "As Causas da Revolução Inglesa: 1529-1642", pp. 134-135.
 	
 	capital_holding = h_london
 }
 
-1815.1.1 = {
+1815 = {
 	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }
 
-1836.1.1 = {
+1836 = {
 	university = university #University founded in London in 1836; Source: David Thomson, "Europe Since Napoleon", 1966, p. 449.
 }
