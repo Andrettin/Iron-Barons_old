@@ -1,0 +1,39 @@
+p_anglesey = {
+	color = { 190 108 121 }
+}
+
+p_carmarthenshire = {
+	color = { 174 160 211 }
+}
+
+p_ceredigion = {
+	color = { 161 161 188 }
+}
+
+p_conwy = {
+	color = { 26 47 21 }
+}
+
+p_denbighshire = {
+	color = { 157 88 66 }
+}
+
+p_glamorgan = {
+	color = { 39 136 89 }
+}
+
+p_gwynedd = {
+	color = { 120 124 209 }
+}
+
+p_monmouthshire = {
+	color = { 156 37 163 }
+}
+
+p_pembrokeshire = {
+	color = { 123 36 102 }
+}
+
+p_powys = {
+	color = { 200 62 52 }
+}

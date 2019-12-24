@@ -2,6 +2,7 @@ r_british_isles = {
 	subregions += r_england
 	subregions += r_ireland
 	subregions += r_scotland
+	subregions += r_wales
 }
 
 r_england = {
@@ -67,4 +68,17 @@ r_scotland = {
 	provinces += p_shetland
 	provinces += p_stirling
 	provinces += p_western_isles
+}
+
+r_wales = {
+	provinces += p_anglesey
+	provinces += p_carmarthenshire
+	provinces += p_ceredigion
+	provinces += p_conwy
+	provinces += p_denbighshire
+	provinces += p_glamorgan
+	provinces += p_gwynedd
+	provinces += p_monmouthshire
+	provinces += p_pembrokeshire
+	provinces += p_powys
 }
