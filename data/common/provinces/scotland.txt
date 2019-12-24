@@ -1,0 +1,63 @@
+p_aberdeenshire = {
+	color = { 70 78 177 }
+}
+
+p_angus = {
+	color = { 184 111 55 }
+}
+
+p_argyll = {
+	color = { 29 40 64 }
+}
+
+p_ayrshire = {
+	color = { 241 197 153 }
+}
+
+p_dumfries = {
+	color = { 113 74 161 }
+}
+
+p_fife = {
+	color = { 195 157 146 }
+}
+
+p_highland = {
+	color = { 183 105 143 }
+}
+
+p_lanarkshire = {
+	color = { 172 210 214 }
+}
+
+p_lothian = {
+	color = { 69 96 76 }
+}
+
+p_moray = {
+	color = { 128 15 63 }
+}
+
+p_orkney = {
+	color = { 101 68 143 }
+}
+
+p_perthshire = {
+	color = { 227 160 102 }
+}
+
+p_scottish_borders = {
+	color = { 50 78 62 }
+}
+
+p_shetland = {
+	color = { 174 176 218 }
+}
+
+p_stirling = {
+	color = { 39 175 80 }
+}
+
+p_western_isles = {
+	color = { 6 37 51 }
+}

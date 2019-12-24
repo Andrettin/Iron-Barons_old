@@ -1,6 +1,7 @@
 r_british_isles = {
 	subregions += r_england
 	subregions += r_ireland
+	subregions += r_scotland
 }
 
 r_england = {
@@ -47,4 +48,23 @@ r_england = {
 
 r_ireland = {
 	provinces += p_dublin
+}
+
+r_scotland = {
+	provinces += p_aberdeenshire
+	provinces += p_angus
+	provinces += p_argyll
+	provinces += p_ayrshire
+	provinces += p_dumfries
+	provinces += p_fife
+	provinces += p_highland
+	provinces += p_lanarkshire
+	provinces += p_lothian
+	provinces += p_moray
+	provinces += p_orkney
+	provinces += p_perthshire
+	provinces += p_scottish_borders
+	provinces += p_shetland
+	provinces += p_stirling
+	provinces += p_western_isles
 }
