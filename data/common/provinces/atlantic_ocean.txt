@@ -8,8 +8,23 @@ p_bristol_channel = {
 	terrain = ocean
 }
 
+p_davis_strait = {
+	color = { 251 23 29 }
+	terrain = ocean
+}
+
 p_english_channel = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
 	color = { 185 68 254 }
+	terrain = ocean
+}
+
+p_gulf_of_maine = {
+	color = { 211 71 152 }
+	terrain = ocean
+}
+
+p_gulf_of_saint_lawrence = {
+	color = { 13 113 88 }
 	terrain = ocean
 }
 
@@ -20,6 +35,11 @@ p_inner_seas = {
 
 p_irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
 	color = { 228 173 80 }
+	terrain = ocean
+}
+
+p_labrador_sea = {
+	color = { 78 153 177 }
 	terrain = ocean
 }
 
