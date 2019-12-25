@@ -1,14 +1,68 @@
 k_switzerland = {
 	de_jure_liege_title = e_france
 	color = { 228 43 35 }
-	capital_province = p_switzerland
+	capital_province = p_bern
 }
 
 d_switzerland = {
 	de_jure_liege_title = k_switzerland
 	color = { 228 43 35 }
-	capital_province = p_switzerland
+	capital_province = p_bern
 	flag_tag = k_switzerland
+}
+
+c_aargau = {
+	de_jure_liege_title = d_switzerland
+	color = { 157 162 180 }
+
+	b_aarau = {
+	}
+}
+
+c_basel = {
+	de_jure_liege_title = d_switzerland
+	color = { 193 177 81 }
+
+	b_basel = {
+	}
+
+	b_biel = {
+	}
+}
+
+c_bern = {
+	de_jure_liege_title = d_switzerland
+	color = { 77 61 99 }
+
+	b_bern = {
+	}
+}
+
+c_fribourg = {
+	de_jure_liege_title = d_switzerland
+	color = { 221 138 103 }
+	
+	b_fribourg = {
+	}
+}
+
+c_graubunden = {
+	de_jure_liege_title = d_switzerland
+	color = { 215 210 19 }
+
+	b_coire = {
+	}
+}
+
+c_lucerne = {
+	de_jure_liege_title = d_switzerland
+	color = { 128 65 194 }
+	
+	b_lucerne = {
+	}
+
+	b_gisikon = {
+	}
 }
 
 c_neuchatel = {
@@ -19,58 +73,59 @@ c_neuchatel = {
 	}
 }
 
-c_switzerland = {
+c_sankt_gallen = {
 	de_jure_liege_title = d_switzerland
-	color = { 228 43 35 }
+	color = { 178 27 25 }
 
-	b_bern = {
-	}
-
-	b_zurich = {
-	}
-
-	b_basel = {
-	}
-
-	b_geneva = {
-	}
-
-	b_lausanne = {
-	}
-
-	b_lucerne = {
-	}
-
-	b_aarau = {
-	}
-
-	b_sarnen = {
-	}
-
-	b_biel = {
-	}
-
-	b_fribourg = {
-	}
-
-	b_sion = {
-	}
-
-	b_st_gall = {
-	}
-
-	b_coire = {
-	}
-
-	b_bellinzona = {
+	b_sankt_gallen = {
 	}
 
 	b_constance = {
 	}
 
-	b_gisikon = {
+	b_arenenberg = {
+	}
+}
+
+c_schwyz = {
+	de_jure_liege_title = d_switzerland
+	color = { 124 85 171 }
+
+	b_sarnen = {
+	}
+}
+
+c_ticino = {
+	de_jure_liege_title = d_switzerland
+	color = { 45 222 154 }
+
+	b_bellinzona = {
+	}
+}
+
+c_valais = {
+	de_jure_liege_title = d_switzerland
+	color = { 4 142 49 }
+
+	b_sion = {
+	}
+}
+
+c_vaud = {
+	de_jure_liege_title = d_switzerland
+	color = { 109 129 33 }
+	
+	b_geneva = {
 	}
 
-	b_arenenberg = {
+	b_lausanne = {
+	}
+}
+
+c_zurich = {
+	de_jure_liege_title = d_switzerland
+	color = { 67 78 13 }
+
+	b_zurich = {
 	}
 }

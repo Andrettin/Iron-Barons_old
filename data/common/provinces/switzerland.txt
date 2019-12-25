@@ -1,3 +1,73 @@
+p_aargau = {
+	county = c_aargau
+	color = { 157 162 180 }
+
+	h_aarau = {
+		barony = b_aarau
+		type = settlement
+	}
+}
+
+p_basel = {
+	county = c_basel
+	color = { 193 177 81 }
+
+	h_basel = {
+		barony = b_basel
+		type = settlement
+	}
+
+	h_biel = {
+		barony = b_biel
+		type = settlement
+	}
+}
+
+p_bern = {
+	county = c_bern
+	color = { 77 61 99 }
+
+	h_bern = {
+		barony = b_bern
+		type = settlement
+	}
+}
+
+p_fribourg = {
+	county = c_fribourg
+	color = { 221 138 103 }
+
+	h_fribourg = {
+		barony = b_fribourg
+		type = settlement
+	}
+}
+
+p_graubunden = {
+	county = c_graubunden
+	color = { 215 210 19 }
+
+	h_coire = {
+		barony = b_coire
+		type = settlement
+	}
+}
+
+p_lucerne = {
+	county = c_lucerne
+	color = { 128 65 194 }
+
+	h_lucerne = {
+		barony = b_lucerne
+		type = settlement
+	}
+
+	h_gisikon = {
+		barony = b_gisikon
+		type = settlement
+	}
+}
+
 p_neuchatel = {
 	county = c_neuchatel
 	color = { 166 149 33 }
@@ -8,24 +78,59 @@ p_neuchatel = {
 	}
 }
 
-p_switzerland = {
-	county = c_switzerland
-	color = { 228 43 35 }
+p_sankt_gallen = {
+	county = c_sankt_gallen
+	color = { 178 27 25 }
 
-	h_bern = {
-		barony = b_bern
+	h_sankt_gallen = {
+		barony = b_sankt_gallen
 		type = settlement
 	}
 
-	h_zurich = {
-		barony = b_zurich
+	h_constance = {
+		barony = b_constance
 		type = settlement
 	}
 
-	h_basel = {
-		barony = b_basel
+	h_arenenberg = {
+		barony = b_arenenberg
 		type = settlement
 	}
+}
+
+p_schwyz = {
+	county = c_schwyz
+	color = { 124 85 171 }
+	
+	h_sarnen = {
+		barony = b_sarnen
+		type = settlement
+	}
+}
+
+p_ticino = {
+	county = c_ticino
+	color = { 45 222 154 }
+
+	h_bellinzona = {
+		barony = b_bellinzona
+		type = settlement
+	}
+}
+
+p_valais = {
+	county = c_valais
+	color = { 4 142 49 }
+
+	h_sion = {
+		barony = b_sion
+		type = settlement
+	}
+}
+
+p_vaud = {
+	county = c_vaud
+	color = { 109 129 33 }
 
 	h_geneva = {
 		barony = b_geneva
@@ -36,64 +141,14 @@ p_switzerland = {
 		barony = b_lausanne
 		type = settlement
 	}
+}
 
-	h_lucerne = {
-		barony = b_lucerne
-		type = settlement
-	}
+p_zurich = {
+	county = c_zurich
+	color = { 67 78 13 }
 
-	h_aarau = {
-		barony = b_aarau
-		type = settlement
-	}
-
-	h_sarnen = {
-		barony = b_sarnen
-		type = settlement
-	}
-
-	h_biel = {
-		barony = b_biel
-		type = settlement
-	}
-
-	h_fribourg = {
-		barony = b_fribourg
-		type = settlement
-	}
-
-	h_sion = {
-		barony = b_sion
-		type = settlement
-	}
-
-	h_st_gall = {
-		barony = b_st_gall
-		type = settlement
-	}
-
-	h_coire = {
-		barony = b_coire
-		type = settlement
-	}
-
-	h_bellinzona = {
-		barony = b_bellinzona
-		type = settlement
-	}
-
-	h_constance = {
-		barony = b_constance
-		type = settlement
-	}
-
-	h_gisikon = {
-		barony = b_gisikon
-		type = settlement
-	}
-
-	h_arenenberg = {
-		barony = b_arenenberg
+	h_zurich = {
+		barony = b_zurich
 		type = settlement
 	}
 }

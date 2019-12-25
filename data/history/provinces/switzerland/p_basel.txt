@@ -1,0 +1,13 @@
+religion = protestant
+
+1459 = {
+	h_basel = town
+	university = university #University founded in Basel in 1459; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
+	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_basel = city #Basel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_biel = town #Biel existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

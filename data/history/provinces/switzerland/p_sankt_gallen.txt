@@ -1,0 +1,9 @@
+religion = protestant
+
+1815 = {
+	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+
+	h_sankt_gallen = town #St. Gall existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_constance = town #Constance existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_arenenberg = village #Arenenberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

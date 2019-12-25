@@ -1,0 +1,5 @@
+1815 = {
+	holder = random
+	liege_title = k_switzerland #part of Switzerland as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += open_elective_succession
+}

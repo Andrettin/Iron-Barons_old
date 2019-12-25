@@ -1,0 +1,13 @@
+religion = protestant
+
+1365 = {
+	h_geneva = town
+	university = university #University founded in Geneva in 1365; Source: "Atlas de História Mundial", p. 144.
+}
+
+1815 = {
+	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+
+	h_geneva = city #Geneva existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_lausanne = city #Lausanne existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}
