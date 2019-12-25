@@ -1,5 +1,5 @@
 e_germany = {
-	color = { 160 160 160 }
+	color = { 56 103 100 }
 	capital_province = p_kassel #Frankfurt
 }
 
@@ -11,7 +11,7 @@ k_bavaria = {
 
 k_germany = {
 	de_jure_liege_title = e_germany
-	color = { 160 160 160 }
+	color = { 56 103 100 }
 	capital_province = p_kassel #Frankfurt
 	flag_tag = e_germany
 }
@@ -36,7 +36,7 @@ d_bavaria = {
 
 d_brandenburg = {
 	de_jure_liege_title = k_germany
-	color = { 230 0 0 }
+	color = { 184 174 188 }
 	capital_province = p_brandenburg
 }
 
@@ -73,7 +73,7 @@ d_julich = {
 
 d_kassel = {
 	de_jure_liege_title = k_germany
-	color = { 226 249 247 }
+	color = { 185 221 165 }
 	capital_province = p_kassel
 }
 
@@ -85,7 +85,7 @@ d_lauenburg = {
 
 d_luneburg = {
 	de_jure_liege_title = k_hanover
-	color = { 206 15 37 }
+	color = { 108 88 62 }
 	capital_province = p_hanover
 }
 
@@ -128,7 +128,7 @@ d_saxony = {
 
 d_schwerin = {
 	de_jure_liege_title = k_germany
-	color = { 226 0 26 }
+	color = { 97 69 166 }
 	capital_province = p_schwerin
 }
 

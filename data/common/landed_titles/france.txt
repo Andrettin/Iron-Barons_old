@@ -11,7 +11,7 @@ k_france = {
 
 d_alsace = {
 	de_jure_liege_title = k_france
-	color = { 255 34 26 }
+	color = { 153 15 123 }
 	capital_province = p_strasbourg
 }
 

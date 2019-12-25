@@ -5,7 +5,7 @@ k_hungary = {
 
 d_banat = {
 	de_jure_liege_title = k_hungary
-	color = { 40 138 178 }
+	color = { 92 25 48 }
 	capital_province = p_temesvar
 }
 

@@ -41,7 +41,7 @@ d_styria = {
 
 d_tyrol = {
 	de_jure_liege_title = k_austria
-	color = { 188 0 7 }
+	color = { 169 6 99 }
 	capital_province = p_tyrol
 }
 
