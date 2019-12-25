@@ -1,9 +1,9 @@
-1815.1.1 = {
+1815 = {
 	holder = random
 	liege_title = k_sardinia #part of the Kingdom of Sardinia as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	laws += appointment_succession
 }
 
-1860.1.1 = {
+1860 = {
 	liege_title = k_france #became a part of France in 1860; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

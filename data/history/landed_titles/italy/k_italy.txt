@@ -1,4 +1,4 @@
-1861.1.1 = {
+1861 = {
 	holder = random
 	laws += primogeniture_succession
 }

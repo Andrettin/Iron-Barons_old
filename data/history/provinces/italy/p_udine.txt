@@ -1,0 +1,18 @@
+religion = catholic
+
+1353 = {
+	h_cividale = town
+	university = university #University founded in Cividale in 1353; Source: "Atlas de História Mundial", 2001, p. 144.
+}
+
+1815 = {
+	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_udine = city #Udine existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_osoppo = village #Osoppo existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_palmanova = village #Palmanova existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Osoppo had a castle as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	#fort = fort #Palmanova had a castle as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_udine
+}

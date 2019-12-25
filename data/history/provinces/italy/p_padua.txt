@@ -1,0 +1,12 @@
+religion = catholic
+
+1222 = {
+	h_padua = town
+	university = university #University founded in Padua in 1222; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
+	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_padua = city #Padua existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

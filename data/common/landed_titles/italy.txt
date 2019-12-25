@@ -31,7 +31,7 @@ d_italy = {
 d_lombardy = {
 	de_jure_liege_title = k_italy
 	color = { 155 102 24 }
-	capital_province = p_lombardy
+	capital_province = p_milan
 }
 
 d_modena = {
@@ -55,7 +55,7 @@ d_savoy = {
 d_venetia = {
 	de_jure_liege_title = k_italy
 	color = { 188 0 7 }
-	capital_province = p_venetia
+	capital_province = p_venice
 }
 
 c_alessandria = {
@@ -80,6 +80,33 @@ c_aosta = {
 	color = { 59 23 63 }
 	
 	b_aosta = {
+	}
+}
+
+c_bergamo = {
+	de_jure_liege_title = d_lombardy
+	color = { 145 79 248 }
+	
+	b_bergamo = {
+	}
+}
+
+c_brescia = {
+	de_jure_liege_title = d_lombardy
+	color = { 219 171 104 }
+	
+	b_brescia = {
+	}
+
+	b_solferino = {
+	}
+}
+
+c_cremona = {
+	de_jure_liege_title = d_lombardy
+	color = { 121 14 224 }
+
+	b_cremona = {
 	}
 }
 
@@ -125,41 +152,6 @@ c_latium = {
 	}
 }
 
-c_lombardy = {
-	de_jure_liege_title = d_lombardy
-	color = { 155 102 24 }
-
-	b_bergamo = {
-	}
-
-	b_bormio = {
-	}
-
-	b_brescia = {
-	}
-
-	b_chiavenna = {
-	}
-
-	b_como = {
-	}
-
-	b_cremona = {
-	}
-
-	b_magenta = {
-	}
-
-	b_milan = {
-	}
-
-	b_pavia = {
-	}
-
-	b_solferino = {
-	}
-}
-
 c_lucca = {
 	de_jure_liege_title = d_italy
 	color = { 178 242 92 }
@@ -168,11 +160,36 @@ c_lucca = {
 	}
 }
 
+c_mantua = {
+	de_jure_liege_title = d_venetia
+	color = { 202 165 38 }
+
+	b_mantua = {
+	}
+}
+
 c_mazzara = {
 	de_jure_liege_title = d_italy
 	color = { 64 1 84 }
 	
 	b_palermo = {
+	}
+}
+
+c_milan = {
+	de_jure_liege_title = d_lombardy
+	color = { 155 102 24 }
+
+	b_milan = {
+	}
+
+	b_pavia = {
+	}
+
+	b_como = {
+	}
+
+	b_magenta = {
 	}
 }
 
@@ -199,6 +216,14 @@ c_novara = {
 	}
 	
 	b_vercelli = {
+	}
+}
+
+c_padua = {
+	de_jure_liege_title = d_venetia
+	color = { 128 119 217 }
+
+	b_padua = {
 	}
 }
 
@@ -245,11 +270,30 @@ c_savoy = {
 	}
 }
 
+c_sondrio = {
+	de_jure_liege_title = d_lombardy
+	color = { 149 115 170 }
+	
+	b_bormio = {
+	}
+
+	b_chiavenna = {
+	}
+}
+
 c_terra_di_lavoro = {
 	de_jure_liege_title = d_italy
 	color = { 236 204 186 }
 	
 	b_naples = {
+	}
+}
+
+c_treviso = {
+	de_jure_liege_title = d_venetia
+	color = { 211 125 108 }
+
+	b_treviso = {
 	}
 }
 
@@ -273,44 +317,45 @@ c_tuscany = {
 	}
 }
 
-c_venetia = {
+c_udine = {
 	de_jure_liege_title = d_venetia
-	color = { 188 0 7 }
-
-	b_venice = {
-	}
-
-	b_verona = {
-	}
-
-	b_mantua = {
-	}
-
-	b_padua = {
-	}
-
-	b_treviso = {
-	}
+	color = { 25 136 31 }
 
 	b_udine = {
 	}
 
-	b_vicenza = {
-	}
-
 	b_cividale = {
-	}
-
-	b_legnago = {
-	}
-
-	b_peschiera = {
 	}
 
 	b_osoppo = {
 	}
 
 	b_palmanova = {
+	}
+}
+
+c_venice = {
+	de_jure_liege_title = d_venetia
+	color = { 188 0 7 }
+
+	b_venice = {
+	}
+}
+
+c_verona = {
+	de_jure_liege_title = d_venetia
+	color = { 73 200 112 }
+
+	b_verona = {
+	}
+
+	b_vicenza = {
+	}
+
+	b_legnago = {
+	}
+
+	b_peschiera = {
 	}
 
 	b_custozza = {

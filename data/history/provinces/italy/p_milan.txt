@@ -1,0 +1,17 @@
+religion = catholic
+
+1565 = {
+	h_milan = town
+	university = university #University founded in Milan in 1565; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
+1815 = {
+	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_milan = city #Milan existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_pavia = city #Pavia existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_como = town #Como existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_magenta = town #Magenta existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	
+	capital_holding = h_milan
+}

@@ -1,10 +1,10 @@
 religion = catholic
 
-1394.1.1 = {
+1394 = {
 	h_palermo = town
 	university = university #University founded in Palermo in 1394; Source: "The Cambridge Modern History Atlas", p. 9.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

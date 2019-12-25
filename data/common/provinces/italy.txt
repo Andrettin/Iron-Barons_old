@@ -49,6 +49,31 @@ p_basilicata = {
 	color = { 196 120 187 }
 }
 
+p_bergamo = {
+	county = c_bergamo
+	color = { 145 79 248 }
+
+	h_bergamo = {
+		barony = b_bergamo
+		type = settlement
+	}
+}
+
+p_brescia = {
+	county = c_brescia
+	color = { 219 171 104 }
+
+	h_brescia = {
+		barony = b_brescia
+		type = settlement
+	}
+
+	h_solferino = {
+		barony = b_solferino
+		type = settlement
+	}
+}
+
 p_cagliari = {
 	color = { 68 112 115 }
 }
@@ -67,6 +92,16 @@ p_capitanata = {
 
 p_corse_du_sud = {
 	color = { 210 45 70 }
+}
+
+p_cremona = {
+	county = c_cremona
+	color = { 121 14 224 }
+
+	h_cremona = {
+		barony = b_cremona
+		type = settlement
+	}
 }
 
 p_cuneo = {
@@ -128,44 +163,39 @@ p_latium = {
 	}
 }
 
-p_lombardy = {
-	county = c_lombardy
+p_lucca = {
+	county = c_lucca
+	color = { 178 242 92 }
+
+	h_lucca = {
+		barony = b_lucca
+		type = settlement
+	}
+}
+
+p_mantua = {
+	county = c_mantua
+	color = { 202 165 38 }
+
+	h_mantua = {
+		barony = b_mantua
+		type = settlement
+	}
+}
+
+p_mazzara = {
+	county = c_mazzara
+	color = { 64 1 84 }
+
+	h_palermo = {
+		barony = b_palermo
+		type = settlement
+	}
+}
+
+p_milan = {
+	county = c_milan
 	color = { 161 23 165 }
-
-	h_bergamo = {
-		barony = b_bergamo
-		type = settlement
-	}
-
-	h_bormio = {
-		barony = b_bormio
-		type = settlement
-	}
-
-	h_brescia = {
-		barony = b_brescia
-		type = settlement
-	}
-
-	h_chiavenna = {
-		barony = b_chiavenna
-		type = settlement
-	}
-
-	h_como = {
-		barony = b_como
-		type = settlement
-	}
-
-	h_cremona = {
-		barony = b_cremona
-		type = settlement
-	}
-
-	h_magenta = {
-		barony = b_magenta
-		type = settlement
-	}
 
 	h_milan = {
 		barony = b_milan
@@ -177,28 +207,13 @@ p_lombardy = {
 		type = settlement
 	}
 
-	h_solferino = {
-		barony = b_solferino
+	h_como = {
+		barony = b_como
 		type = settlement
 	}
-}
 
-p_lucca = {
-	county = c_lucca
-	color = { 178 242 92 }
-
-	h_lucca = {
-		barony = b_lucca
-		type = settlement
-	}
-}
-
-p_mazzara = {
-	county = c_mazzara
-	color = { 64 1 84 }
-
-	h_palermo = {
-		barony = b_palermo
+	h_magenta = {
+		barony = b_magenta
 		type = settlement
 	}
 }
@@ -252,6 +267,16 @@ p_novara = {
 
 p_otranto = {
 	color = { 111 229 80 }
+}
+
+p_padua = {
+	county = c_padua
+	color = { 128 119 217 }
+
+	h_padua = {
+		barony = b_padua
+		type = settlement
+	}
 }
 
 p_parma = {
@@ -317,12 +342,37 @@ p_savoy = {
 	}
 }
 
+p_sondrio = {
+	county = c_sondrio
+	color = { 149 115 170 }
+
+	h_bormio = {
+		barony = b_bormio
+		type = settlement
+	}
+
+	h_chiavenna = {
+		barony = b_chiavenna
+		type = settlement
+	}
+}
+
 p_terra_di_lavoro = {
 	county = c_terra_di_lavoro
 	color = { 236 204 186 }
 
 	h_naples = {
 		barony = b_naples
+		type = settlement
+	}
+}
+
+p_treviso = {
+	county = c_treviso
+	color = { 211 125 108 }
+
+	h_treviso = {
+		barony = b_treviso
 		type = settlement
 	}
 }
@@ -352,57 +402,17 @@ p_tuscany = {
 	}
 }
 
-p_venetia = {
-	county = c_venetia
-	color = { 240 155 38 }
-
-	h_venice = {
-		barony = b_venice
-		type = settlement
-	}
-
-	h_verona = {
-		barony = b_verona
-		type = settlement
-	}
-
-	h_mantua = {
-		barony = b_mantua
-		type = settlement
-	}
-
-	h_padua = {
-		barony = b_padua
-		type = settlement
-	}
-
-	h_treviso = {
-		barony = b_treviso
-		type = settlement
-	}
+p_udine = {
+	county = c_udine
+	color = { 25 136 31 }
 
 	h_udine = {
 		barony = b_udine
 		type = settlement
 	}
 
-	h_vicenza = {
-		barony = b_vicenza
-		type = settlement
-	}
-
 	h_cividale = {
 		barony = b_cividale
-		type = settlement
-	}
-
-	h_legnago = {
-		barony = b_legnago
-		type = settlement
-	}
-
-	h_peschiera = {
-		barony = b_peschiera
 		type = settlement
 	}
 
@@ -413,6 +423,41 @@ p_venetia = {
 
 	h_palmanova = {
 		barony = b_palmanova
+		type = settlement
+	}
+}
+
+p_venice = {
+	county = c_venice
+	color = { 240 155 38 }
+
+	h_venice = {
+		barony = b_venice
+		type = settlement
+	}
+}
+
+p_verona = {
+	county = c_verona
+	color = { 73 200 112 }
+
+	h_verona = {
+		barony = b_verona
+		type = settlement
+	}
+
+	h_vicenza = {
+		barony = b_vicenza
+		type = settlement
+	}
+
+	h_legnago = {
+		barony = b_legnago
+		type = settlement
+	}
+
+	h_peschiera = {
+		barony = b_peschiera
 		type = settlement
 	}
 

@@ -1,7 +1,6 @@
 r_italy = {
 	provinces += p_genoa
 	provinces += p_latium
-	provinces += p_lombardy
 	provinces += p_lucca
 	provinces += p_modena
 	provinces += p_nice
@@ -9,7 +8,7 @@ r_italy = {
 	provinces += p_romagna
 	provinces += p_savoy
 	provinces += p_tuscany
-	provinces += p_venetia
+	subregions += r_lombardy_venetia
 	subregions += r_piedmont
 	subregions += r_sardinia
 	subregions += r_two_sicilies
@@ -18,17 +17,16 @@ r_italy = {
 r_modern_italy = {
 	provinces += p_genoa
 	provinces += p_latium
-	provinces += p_lombardy
 	provinces += p_lucca
 	provinces += p_modena
 	provinces += p_parma
 	provinces += p_romagna
 	provinces += p_tuscany
-	provinces += p_venetia
 	provinces += p_trieste
 	provinces += p_gorz
 	provinces += p_trentino
 	provinces += p_south_tyrol
+	subregions += r_lombardy_venetia
 	subregions += r_piedmont
 	subregions += r_sardinia
 	subregions += r_two_sicilies
@@ -37,6 +35,19 @@ r_modern_italy = {
 r_corsica = {
 	provinces += p_corse_du_sud
 	provinces += p_haute_corse
+}
+
+r_lombardy = {
+	provinces += p_bergamo
+	provinces += p_brescia
+	provinces += p_cremona
+	provinces += p_milan
+	provinces += p_sondrio
+}
+
+r_lombardy_venetia = {
+	subregions += r_lombardy
+	subregions += r_venetia
 }
 
 r_naples = {
@@ -76,4 +87,13 @@ r_sicily = {
 r_two_sicilies = {
 	subregions += r_naples
 	subregions += r_sicily
+}
+
+r_venetia = {
+	provinces += p_mantua
+	provinces += p_padua
+	provinces += p_treviso
+	provinces += p_udine
+	provinces += p_venice
+	provinces += p_verona
 }

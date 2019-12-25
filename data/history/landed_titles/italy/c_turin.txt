@@ -1,7 +1,7 @@
-1815.1.1 = {
+1815 = {
 	holder_title = k_sardinia #part of the Kingdom of Sardinia as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }
 
-1861.1.1 = {
+1861 = {
 	holder_title = k_italy #became a part of the Kingdom of Italy in 1861; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

@@ -1,10 +1,10 @@
 religion = catholic
 
-1215.1.1 = {
+1215 = {
 	h_arezzo = town
 	university = university #University founded in Arezzo in 1215; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

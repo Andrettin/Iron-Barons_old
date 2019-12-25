@@ -1,20 +1,20 @@
 religion = catholic
 
-1303.1.1 = {
+1303 = {
 	h_rome = city
 	university = university #University founded in Rome in 1303; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1308.1.1 = {
+1308 = {
 	h_perugia = town
 	#university = university #University founded in Perugia in 1308; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1540.1.1 = {
+1540 = {
 	h_macerata = town
 	#university = university #University founded in Macerata in 1540; Source: "The Cambridge Modern History Atlas", p. 9.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = italian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }
