@@ -6,6 +6,10 @@ p_adiyaman = {
 	color = { 98 35 21 }
 }
 
+p_agri = {
+	color = { 29 53 14 }
+}
+
 p_antalya = {
 	color = { 142 125 69 }
 }
@@ -16,6 +20,14 @@ p_aydin = {
 
 p_balikesir = {
 	color = { 165 236 160 }
+}
+
+p_batman = {
+	color = { 94 13 141 }
+}
+
+p_bitlis = {
+	color = { 160 3 25 }
 }
 
 p_bursa = {
@@ -34,6 +46,10 @@ p_gaziantep = {
 	color = { 124 145 12 }
 }
 
+p_hakkari = {
+	color = { 195 189 26 }
+}
+
 p_kahramanmaras = {
 	color = { 187 121 29 }
 }
@@ -50,12 +66,20 @@ p_manisa = {
 	color = { 126 2 119 }
 }
 
+p_mardin = {
+	color = { 158 182 83 }
+}
+
 p_mersin = {
 	color = { 140 52 183 }
 }
 
 p_mugla = {
 	color = { 100 19 48 }
+}
+
+p_mus = {
+	color = { 211 188 12 }
 }
 
 p_osmaniye = {
@@ -66,10 +90,22 @@ p_sanliurfa = {
 	color = { 106 230 17 }
 }
 
+p_siirt = {
+	color = { 241 159 216 }
+}
+
+p_sirnak = {
+	color = { 206 39 53 }
+}
+
 p_smyrna = {
 	color = { 113 174 45 }
 }
 
 p_troad = {
 	color = { 6 65 60 }
+}
+
+p_van = {
+	color = { 50 17 116 }
 }

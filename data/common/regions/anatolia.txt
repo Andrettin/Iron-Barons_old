@@ -1,23 +1,32 @@
 r_anatolia = {
 	provinces += p_adana
 	provinces += p_adiyaman
+	provinces += p_agri
 	provinces += p_antalya
 	provinces += p_aydin
 	provinces += p_balikesir
+	provinces += p_batman
+	provinces += p_bitlis
 	provinces += p_bursa
 	provinces += p_diyarbakir
 	provinces += p_elazig
 	provinces += p_gaziantep
+	provinces += p_hakkari
 	provinces += p_kahramanmaras
 	provinces += p_kocaeli
 	provinces += p_malatya
 	provinces += p_manisa
+	provinces += p_mardin
 	provinces += p_mersin
 	provinces += p_mugla
+	provinces += p_mus
 	provinces += p_osmaniye
 	provinces += p_sanliurfa
+	provinces += p_siirt
+	provinces += p_sirnak
 	provinces += p_smyrna
 	provinces += p_troad
+	provinces += p_van
 }
 
 r_turkey = { #the territory of modern Turkey
