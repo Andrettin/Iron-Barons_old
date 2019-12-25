@@ -1,6 +1,12 @@
 r_anatolia = {
+	provinces += p_aydin
+	provinces += p_balikesir
 	provinces += p_bursa
 	provinces += p_kocaeli
+	provinces += p_manisa
+	provinces += p_mugla
+	provinces += p_smyrna
+	provinces += p_troad
 }
 
 r_turkey = { #the territory of modern Turkey

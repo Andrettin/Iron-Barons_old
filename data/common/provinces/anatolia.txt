@@ -1,7 +1,31 @@
+p_aydin = {
+	color = { 72 55 97 }
+}
+
+p_balikesir = {
+	color = { 165 236 160 }
+}
+
 p_bursa = {
 	color = { 161 41 169 }
 }
 
 p_kocaeli = {
 	color = { 148 136 53 }
+}
+
+p_manisa = {
+	color = { 126 2 119 }
+}
+
+p_mugla = {
+	color = { 100 19 48 }
+}
+
+p_smyrna = {
+	color = { 113 174 45 }
+}
+
+p_troad = {
+	color = { 6 65 60 }
 }
