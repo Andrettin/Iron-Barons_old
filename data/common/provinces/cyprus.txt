@@ -1,0 +1,19 @@
+p_larnaca = {
+	color = { 126 62 4 }
+}
+
+p_limassol = {
+	color = { 133 197 45 }
+}
+
+p_nicosia = {
+	color = { 233 136 112 }
+}
+
+p_northern_cyprus = {
+	color = { 156 146 52 }
+}
+
+p_paphos = {
+	color = { 134 134 99 }
+}

@@ -1,0 +1,8 @@
+r_cyprus = {
+	provinces += p_larnaca
+	provinces += p_limassol
+	provinces += p_nicosia
+	provinces += p_nicosia
+	provinces += p_northern_cyprus
+	provinces += p_paphos
+}

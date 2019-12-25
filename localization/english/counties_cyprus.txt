@@ -1,0 +1,5 @@
+p_larnaca = "Larnaca"
+p_limassol = "Limassol"
+p_nicosia = "Nicosia"
+p_northern_cyprus = "Northern Cyprus"
+p_paphos = "Paphos"
