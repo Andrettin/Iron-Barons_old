@@ -3,6 +3,11 @@ p_amundsen_gulf = {
 	terrain = ocean
 }
 
+p_arctic_ocean = {
+	color = { 216 212 232 }
+	terrain = ocean
+}
+
 p_baffin_bay = {
 	color = { 73 127 83 }
 	terrain = ocean

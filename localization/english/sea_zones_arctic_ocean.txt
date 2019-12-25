@@ -1,4 +1,5 @@
 p_amundsen_gulf = "Amundsen Gulf"
+p_arctic_ocean = "Arctic Ocean"
 p_baffin_bay = "Baffin Bay"
 p_beaufort_sea = "Beaufort Sea"
 p_foxe_basin = "Foxe Basin"
