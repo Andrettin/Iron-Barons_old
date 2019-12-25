@@ -1,3 +1,15 @@
+p_adana = {
+	color = { 164 43 218 }
+}
+
+p_adiyaman = {
+	color = { 98 35 21 }
+}
+
+p_antalya = {
+	color = { 142 125 69 }
+}
+
 p_aydin = {
 	color = { 72 55 97 }
 }
@@ -10,16 +22,48 @@ p_bursa = {
 	color = { 161 41 169 }
 }
 
+p_diyarbakir = {
+	color = { 135 78 133 }
+}
+
+p_elazig = {
+	color = { 160 124 86 }
+}
+
+p_gaziantep = {
+	color = { 124 145 12 }
+}
+
+p_kahramanmaras = {
+	color = { 187 121 29 }
+}
+
 p_kocaeli = {
 	color = { 148 136 53 }
+}
+
+p_malatya = {
+	color = { 125 95 70 }
 }
 
 p_manisa = {
 	color = { 126 2 119 }
 }
 
+p_mersin = {
+	color = { 140 52 183 }
+}
+
 p_mugla = {
 	color = { 100 19 48 }
+}
+
+p_osmaniye = {
+	color = { 188 92 255 }
+}
+
+p_sanliurfa = {
+	color = { 106 230 17 }
 }
 
 p_smyrna = {

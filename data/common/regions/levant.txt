@@ -1,0 +1,3 @@
+r_levant = {
+	provinces += p_hatay
+}
