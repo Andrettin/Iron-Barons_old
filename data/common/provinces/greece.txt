@@ -2,6 +2,10 @@ p_achaea = {
 	color = { 200 98 198 }
 }
 
+p_adrianople = {
+	color = { 250 138 142 }
+}
+
 p_aetolia = {
 	color = { 58 70 114 }
 }
@@ -12,6 +16,10 @@ p_attica = {
 
 p_boeotia = {
 	color = { 247 195 139 }
+}
+
+p_byzantium = {
+	color = { 149 72 188 }
 }
 
 p_central_macedonia = {
@@ -46,12 +54,20 @@ p_ionian_islands = {
 	color = { 5 178 199 }
 }
 
+p_kirklareli = {
+	color = { 33 174 140 }
+}
+
 p_north_aegean_islands = {
 	color = { 32 141 143 }
 }
 
 p_peloponnese = {
 	color = { 50 188 139 }
+}
+
+p_tekirdag = {
+	color = { 239 169 234 }
 }
 
 p_thessaly = {

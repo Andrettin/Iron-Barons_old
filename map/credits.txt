@@ -1,6 +1,4 @@
-/map/earth/provinces/asia/china/ (www.naturalearthdata.com) (public domain)
-/map/earth/provinces/asia/india/ (www.naturalearthdata.com) (public domain)
-/map/earth/provinces/asia/siberia/ (www.naturalearthdata.com) (public domain)
+/map/earth/provinces/asia/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/atlantic_ocean/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/austria/p_carinthia.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/austria/p_carniola.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)

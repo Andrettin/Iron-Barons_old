@@ -1,0 +1,7 @@
+p_bursa = {
+	color = { 161 41 169 }
+}
+
+p_kocaeli = {
+	color = { 148 136 53 }
+}

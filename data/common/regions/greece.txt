@@ -16,3 +16,10 @@ r_greece = { #the territory of modern Greece
 	provinces += p_thessaly
 	provinces += p_west_macedonia
 }
+
+r_thrace = {
+	provinces += p_adrianople
+	provinces += p_byzantium
+	provinces += p_kirklareli
+	provinces += p_tekirdag
+}

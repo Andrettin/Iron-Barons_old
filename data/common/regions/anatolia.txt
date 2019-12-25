@@ -1,0 +1,9 @@
+r_anatolia = {
+	provinces += p_bursa
+	provinces += p_kocaeli
+}
+
+r_turkey = { #the territory of modern Turkey
+	subregions += r_anatolia
+	subregions += r_thrace
+}
