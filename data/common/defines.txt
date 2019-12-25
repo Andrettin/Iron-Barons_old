@@ -4,3 +4,5 @@ player_character_title = e_austria
 base_population_growth = 0.0001 #0.01%
 default_game_speed = normal
 cultural_derivation_factor = 0.005 #0.50%
+max_settlement_slots_per_province = 7
+max_palace_slots_per_province = 6
