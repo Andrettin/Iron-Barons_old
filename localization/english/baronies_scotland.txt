@@ -1,0 +1,4 @@
+b_aberdeen = "Aberdeen"
+b_edinburgh = "Edinburgh"
+b_glasgow = "Glasgow"
+b_st_andrews = "St. Andrews"

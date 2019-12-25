@@ -1,0 +1,27 @@
+c_aberdeenshire = {
+	color = { 70 78 177 }
+
+	b_aberdeen = {
+	}
+}
+
+c_fife = {
+	color = { 195 157 146 }
+
+	b_st_andrews = {
+	}
+}
+
+c_lanarkshire = {
+	color = { 172 210 214 }
+
+	b_glasgow = {
+	}
+}
+
+c_lothian = {
+	color = { 69 96 76 }
+
+	b_edinburgh = {
+	}
+}

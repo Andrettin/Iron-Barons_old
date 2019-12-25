@@ -1,0 +1,10 @@
+religion = protestant
+
+1582 = {
+	h_edinburgh = town
+	university = university #University founded in Edinburgh in 1582; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
+1815 = {
+	culture = lowland_scottish #"English"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
