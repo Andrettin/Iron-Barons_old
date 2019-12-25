@@ -1,3 +1,17 @@
 r_levant = {
+	subregions += r_lebanon
+	subregions += r_syria
 	provinces += p_hatay
+}
+
+r_lebanon = {
+	provinces += p_beqaa
+	provinces += p_mount_lebanon
+	provinces += p_north_lebanon
+	provinces += p_south_lebanon
+}
+
+r_syria = {
+	provinces += p_lattakia
+	provinces += p_tartus
 }

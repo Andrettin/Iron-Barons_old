@@ -1,1 +1,7 @@
+p_beqaa = "Beqaa"
 p_hatay = "Hatay"
+p_lattakia = "Lattakia"
+p_mount_lebanon = "Mount Lebanon"
+p_north_lebanon = "North Lebanon"
+p_south_lebanon = "South Lebanon"
+p_tartus = "Tartus"

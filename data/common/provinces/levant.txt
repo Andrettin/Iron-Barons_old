@@ -1,3 +1,27 @@
+p_beqaa = {
+	color = { 61 170 163 }
+}
+
 p_hatay = {
 	color = { 30 133 69 }
+}
+
+p_lattakia = {
+	color = { 171 123 213 }
+}
+
+p_mount_lebanon = {
+	color = { 171 58 22 }
+}
+
+p_north_lebanon = {
+	color = { 242 224 51 }
+}
+
+p_south_lebanon = {
+	color = { 188 153 20 }
+}
+
+p_tartus = {
+	color = { 231 205 88 }
 }
