@@ -1,7 +1,25 @@
 r_yugoslavia = {
+	subregions += r_bosnia_herzegovina
 	subregions += r_croatia
 	subregions += r_serbia
 	subregions += r_slovenia
+}
+
+r_bosnia_herzegovina = { #the territory of modern Bosnia-Herzegovina
+	provinces += p_banja_luka
+	provinces += p_bijeljina
+	provinces += p_central_bosnia
+	provinces += p_doboj
+	provinces += p_foca
+	provinces += p_herzegovina_neretva
+	provinces += p_sarajevo
+	provinces += p_trebinje
+	provinces += p_tuzla
+	provinces += p_una_sana
+	provinces += p_vlasenica
+	provinces += p_west_bosnia
+	provinces += p_west_herzegovina
+	provinces += p_zenica_doboj
 }
 
 r_croatia = { #the territory of modern Croatia

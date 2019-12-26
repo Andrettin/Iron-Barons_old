@@ -1,0 +1,55 @@
+p_banja_luka = {
+	color = { 47 135 2 }
+}
+
+p_bijeljina = {
+	color = { 58 177 66 }
+}
+
+p_central_bosnia = {
+	color = { 47 118 35 }
+}
+
+p_doboj = {
+	color = { 56 0 16 }
+}
+
+p_foca = {
+	color = { 60 208 137 }
+}
+
+p_herzegovina_neretva = {
+	color = { 29 94 17 }
+}
+
+p_sarajevo = {
+	color = { 85 89 123 }
+}
+
+p_trebinje = {
+	color = { 237 119 34 }
+}
+
+p_tuzla = {
+	color = { 18 29 96 }
+}
+
+p_una_sana = {
+	color = { 206 176 18 }
+}
+
+p_vlasenica = {
+	color = { 226 75 163 }
+}
+
+p_west_bosnia = {
+	color = { 149 218 104 }
+}
+
+p_west_herzegovina = {
+	color = { 100 25 244 }
+}
+
+p_zenica_doboj = {
+	color = { 88 134 105 }
+}
