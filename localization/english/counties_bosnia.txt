@@ -1,4 +1,4 @@
-p_banja_luka = "Banja Luka"
+c_banja_luka = "Banja Luka"
 p_bijeljina = "Bijeljina"
 p_central_bosnia = "Central Bosnia"
 p_doboj = "Doboj"

@@ -1,0 +1,6 @@
+c_banja_luka = {
+	color = { 47 135 2 }
+
+	b_banja_luka = {
+	}
+}
