@@ -1,4 +1,4 @@
-1859.1.1 = {
-	holder = random
+1859 = {
+	holder = random #the Principality of Romania was founded in 1859; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	laws += primogeniture_succession
 }

@@ -113,6 +113,7 @@
 /graphics/flags/d_savoy.svg (by Patricia.fidi, from the Wikimedia Commons) (licensed under the CC0)
 /graphics/flags/d_schleswig.svg (by Ninane, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_schwerin.svg (by David Liuzzo, from the Wikimedia Commons) (in the public domain)
+/graphics/flags/d_serbia.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_silesia.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_slovenia.svg (by Achim1999, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_styria.svg (by David Liuzzo and Yaddah, from the Wikimedia Commons) (released to the public domain)

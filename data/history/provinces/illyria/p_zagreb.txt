@@ -1,6 +1,6 @@
 religion = catholic
 
-1815.1.1 = {
+1815 = {
 	culture = croatian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_zagreb = town #Zagreb/Agram existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
@@ -8,6 +8,6 @@ religion = catholic
 	capital_holding = h_zagreb
 }
 
-1874.1.1 = {
+1874 = {
 	university = university #University founded in Zagreb in 1874; Source: A.J.P. Taylor, The Habsburg Monarchy, 1809-1918, 1964, p. 203.
 }

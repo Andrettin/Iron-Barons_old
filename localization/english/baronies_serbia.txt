@@ -1,0 +1,2 @@
+b_belgrade = "Belgrade"
+b_belgrade_serbian = "Beograd"

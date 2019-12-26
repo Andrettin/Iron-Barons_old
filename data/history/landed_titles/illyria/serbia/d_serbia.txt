@@ -1,0 +1,4 @@
+1817 = {
+	holder = random #the Principality of Serbia was founded in 1817; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	laws += primogeniture_succession
+}

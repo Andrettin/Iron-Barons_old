@@ -1,0 +1,12 @@
+d_serbia = {
+	color = { 233 56 89 }
+	capital_province = p_belgrade
+}
+
+c_belgrade = {
+	de_jure_liege_title = d_serbia
+	color = { 11 44 81 }
+
+	b_belgrade = {
+	}
+}

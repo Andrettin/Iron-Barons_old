@@ -1,5 +1,5 @@
-p_belgrade = "Belgrade"
-p_belgrade_serbian = "Beograd"
+c_belgrade = "Belgrade"
+c_belgrade_serbian = "Beograd"
 p_bor = "Bor"
 p_branicevo = "Braničevo"
 p_jablanica = "Jablanica"

@@ -1,5 +1,11 @@
 p_belgrade = {
+	county = c_belgrade
 	color = { 11 44 81 }
+
+	h_belgrade = {
+		barony = b_belgrade
+		type = settlement
+	}
 }
 
 p_bor = {
