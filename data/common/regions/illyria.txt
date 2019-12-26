@@ -37,6 +37,24 @@ r_croatia = { #the territory of modern Croatia
 }
 
 r_serbia = { #the territory of modern Serbia
+	provinces += p_belgrade
+	provinces += p_bor
+	provinces += p_branicevo
+	provinces += p_jablanica
+	provinces += p_kolubara
+	provinces += p_macva
+	provinces += p_moravica
+	provinces += p_nisava
+	provinces += p_pcinja
+	provinces += p_pirot
+	provinces += p_podunavlje
+	provinces += p_pomoravlje
+	provinces += p_rasina
+	provinces += p_raska
+	provinces += p_sumadija
+	provinces += p_toplica
+	provinces += p_zajecar
+	provinces += p_zlatibor
 	provinces += p_kikinda
 	provinces += p_melencze
 	provinces += p_north_bacs
@@ -48,6 +66,7 @@ r_serbia = { #the territory of modern Serbia
 
 r_slovenia = { #the territory of modern Slovenia
 	provinces += p_carniola
+	provinces += p_upper_styria
 }
 
 r_karlstadt_warasdin_generality = {
