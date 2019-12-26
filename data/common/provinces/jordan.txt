@@ -1,0 +1,39 @@
+p_amman = {
+	color = { 157 182 250 }
+}
+
+p_aqaba = {
+	color = { 142 140 222 }
+}
+
+p_balqa = {
+	color = { 244 180 199 }
+}
+
+p_irbid = {
+	color = { 23 65 148 }
+}
+
+p_karak = {
+	color = { 205 35 171 }
+}
+
+p_maan = {
+	color = { 120 16 54 }
+}
+
+p_madaba = {
+	color = { 232 186 93 }
+}
+
+p_mafraq = {
+	color = { 164 138 34 }
+}
+
+p_tafilah = {
+	color = { 70 77 174 }
+}
+
+p_zarqa = {
+	color = { 132 213 196 }
+}

@@ -1,4 +1,5 @@
 r_levant = {
+	subregions += r_jordan
 	subregions += r_lebanon
 	subregions += r_palestine
 	subregions += r_sinai
@@ -6,7 +7,20 @@ r_levant = {
 	provinces += p_hatay
 }
 
-r_lebanon = {
+r_jordan = { #the territory of modern Jordan
+	provinces += p_amman
+	provinces += p_aqaba
+	provinces += p_balqa
+	provinces += p_irbid
+	provinces += p_karak
+	provinces += p_maan
+	provinces += p_madaba
+	provinces += p_mafraq
+	provinces += p_tafilah
+	provinces += p_zarqa
+}
+
+r_lebanon = { #the territory of modern Lebanon
 	provinces += p_beqaa
 	provinces += p_mount_lebanon
 	provinces += p_north_lebanon
@@ -26,7 +40,7 @@ r_sinai = {
 	provinces += p_south_sinai
 }
 
-r_syria = {
+r_syria = { #the territory of modern Syria
 	provinces += p_aleppo
 	provinces += p_ar_raqqah
 	provinces += p_as_suwayda
