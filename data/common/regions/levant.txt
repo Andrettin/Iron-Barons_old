@@ -27,7 +27,16 @@ r_sinai = {
 }
 
 r_syria = {
+	provinces += p_aleppo
+	provinces += p_ar_raqqah
+	provinces += p_as_suwayda
 	provinces += p_dara
+	provinces += p_dayr_az_zawr
+	provinces += p_hamah
+	provinces += p_hasaka
+	provinces += p_homs
+	provinces += p_idlib
 	provinces += p_lattakia
+	provinces += p_rif_dimashq
 	provinces += p_tartus
 }

@@ -1,13 +1,49 @@
+p_aleppo = {
+	color = { 97 26 136 }
+}
+
+p_ar_raqqah = {
+	color = { 27 129 47 }
+}
+
+p_as_suwayda = {
+	color = { 153 81 235 }
+}
+
 p_dara = {
 	color = { 231 136 217 }
+}
+
+p_dayr_az_zawr = {
+	color = { 115 209 10 }
+}
+
+p_hamah = {
+	color = { 23 81 49 }
+}
+
+p_hasaka = {
+	color = { 237 63 188 }
 }
 
 p_hatay = {
 	color = { 30 133 69 }
 }
 
+p_homs = {
+	color = { 182 240 75 }
+}
+
+p_idlib = {
+	color = { 169 60 234 }
+}
+
 p_lattakia = {
 	color = { 171 123 213 }
+}
+
+p_rif_dimashq = {
+	color = { 12 190 89 }
 }
 
 p_tartus = {
