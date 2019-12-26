@@ -1,0 +1,3 @@
+r_egypt = { #the territory of modern Egypt
+	subregions += r_sinai
+}
