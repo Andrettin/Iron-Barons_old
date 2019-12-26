@@ -1,2 +1,4 @@
+p_dead_sea = "Dead Sea"
 p_lake_constance = "Lake Constance"
 p_lake_geneva = "Lake Geneva"
+p_sea_of_galilee = "Sea of Galilee"

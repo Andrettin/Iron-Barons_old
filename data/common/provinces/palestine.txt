@@ -1,0 +1,27 @@
+p_hadarom = {
+	color = { 188 162 28 }
+}
+
+p_haifa = {
+	color = { 40 43 27 }
+}
+
+p_hamerkaz = {
+	color = { 80 21 3 }
+}
+
+p_hazafon = {
+	color = { 100 58 194 }
+}
+
+p_north_sinai = {
+	color = { 51 143 71 }
+}
+
+p_south_sinai = {
+	color = { 160 56 102 }
+}
+
+p_west_bank = {
+	color = { 34 47 228 }
+}

@@ -1,0 +1,15 @@
+p_dara = {
+	color = { 231 136 217 }
+}
+
+p_hatay = {
+	color = { 30 133 69 }
+}
+
+p_lattakia = {
+	color = { 171 123 213 }
+}
+
+p_tartus = {
+	color = { 231 205 88 }
+}

@@ -15,8 +15,10 @@ r_lebanon = {
 
 r_palestine = {
 	provinces += p_hadarom
+	provinces += p_haifa
 	provinces += p_hamerkaz
 	provinces += p_hazafon
+	provinces += p_west_bank
 }
 
 r_sinai = {
