@@ -1,13 +1,13 @@
 culture = brazilian
 religion = catholic
 
-1567.1.1 = {
+1567 = {
 	h_rio_de_janeiro = city #Rio de Janeiro was founded by the Portuguese in 1516/1567; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 107-110.
 	
 	capital_holding = h_rio_de_janeiro
 }
 
-1862.1.1 = {
+1862 = {
 	university = college
 	university += engineering_college #Instituto Politécnico Brasileiro founded in Rio de Janeiro in 1862. Source: Silvia Fernanda de Mendonça Figueirôa, "Ciência e tecnologia no Brasil Imperial: Guilherme Schüch, Barão de Capanema (1824-1908)", 2005, p. 446.
 }

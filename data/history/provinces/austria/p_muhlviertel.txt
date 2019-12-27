@@ -1,11 +1,11 @@
 religion = catholic
 
-1378.1.1 = {
+1378 = {
 	h_wildberg = village #Wildberg existed as of 1378; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 78-79.
 	
 	capital_holding = h_wildberg
 }
 
-1815.1.1 = {
+1815 = {
 	culture = austrian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

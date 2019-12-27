@@ -1,12 +1,12 @@
 culture = brazilian
 religion = catholic
 
-1736.1.1 = {
+1736 = {
 	h_rio_grande = town #Rio Grande/S. Pedro was founded in 1736; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 	
 	capital_holding = h_rio_grande
 }
 
-1740.1.1 = {
+1740 = {
 	h_porto_alegre = town #Porto Alegre was founded in 1740; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 }

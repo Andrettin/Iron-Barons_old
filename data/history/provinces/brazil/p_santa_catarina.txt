@@ -1,7 +1,7 @@
 culture = brazilian
 religion = catholic
 
-1654.1.1 = {
+1654 = {
 	h_laguna = town #Laguna was founded in 1654; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 	
 	capital_holding = h_laguna

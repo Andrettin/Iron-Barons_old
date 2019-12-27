@@ -1,11 +1,11 @@
 religion = catholic
 
-1465.1.1 = {
+1465 = {
 	h_pressburg = town
 	university = university #University founded in Presburg in 1465; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = slovak #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_pressburg = city #Pressburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

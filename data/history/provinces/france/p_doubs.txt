@@ -1,13 +1,13 @@
 religion = catholic
 
-1485.1.1 = {
+1485 = {
 	h_besancon = town
 	university = university #University founded in Besançon in 1485; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 	
 	capital_holding = h_besancon
 }
 
-1815.1.1 = {
+1815 = {
 	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_besancon = city #Besançon existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

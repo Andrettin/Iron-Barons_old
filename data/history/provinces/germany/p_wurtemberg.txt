@@ -1,11 +1,11 @@
 religion = protestant
 
-1416.1.1 = {
+1416 = {
 	h_tubingen = town
 	university = university #University founded in Tubingen in 1416; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_stuttgart = city #Stuttgart existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

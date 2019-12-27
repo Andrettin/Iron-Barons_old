@@ -1,7 +1,7 @@
 culture = brazilian
 religion = catholic
 
-1698.1.1 = {
+1698 = {
 	h_ouro_preto = town #Ouro Preto was founded in 1698/1711; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 	
 	capital_holding = h_ouro_preto

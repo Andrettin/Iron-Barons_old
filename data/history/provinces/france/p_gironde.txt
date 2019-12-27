@@ -1,10 +1,10 @@
 religion = catholic
 
-1441.1.1 = {
+1441 = {
 	h_bordeaux = town
 	university = university #University founded in Bordeaux in 1441; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

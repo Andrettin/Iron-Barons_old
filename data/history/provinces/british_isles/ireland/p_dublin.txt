@@ -1,12 +1,12 @@
 religion = catholic
 
-1312.1.1 = {
+1312 = {
 	h_dublin = town
 	university = university #University founded in Dublin in 1312; Source: "Atlas de História Mundial", p. 144.
 	
 	capital_holding = h_dublin
 }
 
-1815.1.1 = {
+1815 = {
 	culture = english #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

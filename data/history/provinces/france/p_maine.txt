@@ -1,10 +1,10 @@
 religion = catholic
 
-1250.1.1 = {
+1250 = {
 	h_angers = town
 	university = university #University existent in Angers in 1250; Source: "Atlas de História Mundial", 2001, p. 144.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 }

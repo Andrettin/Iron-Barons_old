@@ -1,7 +1,7 @@
 culture = brazilian
 religion = catholic
 
-1535.1.1 = {
+1535 = {
 	h_espirito_santo = village #Espírito Santo was founded in 1535; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 	
 	capital_holding = h_espirito_santo

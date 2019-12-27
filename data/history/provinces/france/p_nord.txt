@@ -1,11 +1,11 @@
 religion = catholic
 
-1582.1.1 = {
+1582 = {
 	h_douai = town
 	university = university #University founded in Douai in 1582; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = french #Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_lille = city #Lille existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

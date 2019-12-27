@@ -1,11 +1,11 @@
 religion = protestant
 
-1419.1.1 = {
+1419 = {
 	h_rostock = town
 	university = university #University founded in Rostock in 1419; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = saxon #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_schwerin = city #Schwerin was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
