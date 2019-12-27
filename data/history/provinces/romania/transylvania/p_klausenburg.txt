@@ -1,0 +1,15 @@
+religion = orthodox
+
+1580 = {
+	h_klausenburg = town
+	university = university #University founded in Klausenburg in 1580; Source: "The Cambridge Modern History Atlas", p. 9.
+}
+
+1815 = {
+	culture = romanian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_klausenburg = city #Klausenburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_szamos_ujvar = town #Szamos-Ujvar existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_dees = town #Dees existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_csucsa = village #Csucsa existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

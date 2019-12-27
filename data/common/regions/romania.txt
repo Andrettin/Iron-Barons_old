@@ -11,15 +11,17 @@ r_romania = { #the territory of modern Romania
 }
 
 r_transylvania = {
-	provinces += p_transylvania
-	provinces += p_csik_szereda
-	provinces += p_hermannstadt
-	provinces += p_kronstadt
-	provinces += p_sepsi_sz_gyorgy
+	subregions += r_transylvanian_core
+	subregions += r_transylvanian_military_frontier
 }
 
 r_transylvanian_core = { #Transylvania without its military frontier
-	provinces += p_transylvania
+	provinces += p_alba
+	provinces += p_bistritz
+	provinces += p_hunedoara
+	provinces += p_klausenburg
+	provinces += p_mures
+	provinces += p_salaj
 }
 
 r_transylvanian_military_frontier = {

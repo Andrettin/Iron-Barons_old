@@ -1,0 +1,9 @@
+p_wallachia = {
+	county = c_wallachia
+	color = { 161 61 179 }
+
+	h_craiova = {
+		barony = b_craiova
+		type = settlement
+	}
+}

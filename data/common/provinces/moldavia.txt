@@ -1,0 +1,3 @@
+p_moldavia = {
+	color = { 157 149 144 }
+}

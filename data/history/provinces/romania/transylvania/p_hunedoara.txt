@@ -1,0 +1,9 @@
+religion = orthodox
+
+1815 = {
+	culture = romanian #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_broos = town #Broos existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_deva = town #Deva existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_piski = village #Piski existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

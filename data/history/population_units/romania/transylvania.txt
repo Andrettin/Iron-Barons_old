@@ -1,5 +1,5 @@
 laborers = {
-	province = p_transylvania
+	region = r_transylvanian_core #Transylvania without its military frontier
 	discount_existing = yes
 	discount_any_type = yes
 	

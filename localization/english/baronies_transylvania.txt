@@ -1,7 +1,7 @@
 b_bistritz = "Bistritz"
+b_bistritz_romanian = "Bistrita"
 b_broos = "Broos"
 b_broos_hungarian = "Szaszvaros" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-b_craiova = "Craiova"
 b_csik_szereda = "Csik-Szereda"
 b_csucsa = "Csucsa"
 b_dees = "Dees"
@@ -12,6 +12,7 @@ b_hermannstadt = "Hermannstadt"
 b_karlsburg = "Karlsburg"
 b_kronstadt = "Kronstadt"
 b_klausenburg = "Klausenburg"
+b_klausenburg_romanian = "Cluj"
 b_maros_vasarhely = "Maros-Vasarhely"
 b_medgyes = "Medgyes"
 b_medgyes_german = "Mediasch" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

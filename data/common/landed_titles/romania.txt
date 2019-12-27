@@ -6,7 +6,26 @@ k_romania = {
 d_transylvania = {
 	de_jure_liege_title = k_hungary
 	color = { 255 215 0 }
-	capital_province = p_transylvania
+	capital_province = p_klausenburg
+}
+
+c_alba = {
+	de_jure_liege_title = d_transylvania
+	color = { 70 7 34 }
+
+	b_karlsburg = {
+	}
+
+	b_muhlenbach = {
+	}
+}
+
+c_bistritz = {
+	de_jure_liege_title = d_transylvania
+	color = { 155 13 11 }
+
+	b_bistritz = {
+	}
 }
 
 c_csik_szereda = {
@@ -21,16 +40,47 @@ c_hermannstadt = {
 	de_jure_liege_title = d_transylvania
 	color = { 241 8 46 }
 
-	b_gr_scheuern = {
+	b_hermannstadt = {
 	}
 
-	b_hermannstadt = {
+	b_vizakna = {
 	}
 
 	b_medgyes = {
 	}
 
-	b_vizakna = {
+	b_gr_scheuern = {
+	}
+}
+
+c_hunedoara = {
+	de_jure_liege_title = d_transylvania
+	color = { 115 169 60 }
+
+	b_broos = {
+	}
+
+	b_deva = {
+	}
+
+	b_piski = {
+	}
+}
+
+c_klausenburg = {
+	de_jure_liege_title = d_transylvania
+	color = { 205 120 94 }
+
+	b_klausenburg = {
+	}
+
+	b_szamos_ujvar = {
+	}
+
+	b_dees = {
+	}
+
+	b_csucsa = {
 	}
 }
 
@@ -38,10 +88,32 @@ c_kronstadt = {
 	de_jure_liege_title = d_transylvania
 	color = { 237 45 65 }
 
-	b_fogaras = {
+	b_kronstadt = {
 	}
 
-	b_kronstadt = {
+	b_fogaras = {
+	}
+}
+
+c_mures = {
+	de_jure_liege_title = d_transylvania
+	color = { 74 71 181 }
+
+	b_maros_vasarhely = {
+	}
+
+	b_szasz_regen = {
+	}
+
+	b_schassburg = {
+	}
+}
+
+c_salaj = {
+	de_jure_liege_title = d_transylvania
+	color = { 59 39 100 }
+
+	b_zsibo = {
 	}
 }
 
@@ -50,53 +122,6 @@ c_sepsi_sz_gyorgy = {
 	color = { 154 121 97 }
 
 	b_sepsi_sz_gyorgy = {
-	}
-}
-
-c_transylvania = {
-	de_jure_liege_title = d_transylvania
-	color = { 255 215 0 }
-
-	b_bistritz = {
-	}
-
-	b_broos = {
-	}
-
-	b_csucsa = {
-	}
-
-	b_dees = {
-	}
-
-	b_deva = {
-	}
-
-	b_karlsburg = {
-	}
-
-	b_klausenburg = {
-	}
-
-	b_maros_vasarhely = {
-	}
-
-	b_muhlenbach = {
-	}
-
-	b_piski = {
-	}
-
-	b_schassburg = {
-	}
-
-	b_szamos_ujvar = {
-	}
-
-	b_szasz_regen = {
-	}
-
-	b_zsibo = {
 	}
 }
 
