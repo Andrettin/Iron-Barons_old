@@ -1,8 +1,8 @@
-1812.1.1 = {
+1812 = {
 	liege_title = e_france #part of the Empire of the French as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.
 }
 
-1815.1.1 = {
+1815 = {
 	holder_title = d_lauenburg #part of the Duchy of Lauenburg as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	liege_title = none
 }

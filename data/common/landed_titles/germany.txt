@@ -224,12 +224,6 @@ c_brandenburg = {
 	b_guben = {
 	}
 
-	b_kustrin = {
-	}
-
-	b_landsberg = {
-	}
-
 	b_neu_ruppin = {
 	}
 
@@ -581,6 +575,17 @@ c_nassau = {
 	}
 
 	b_wiesbaden = {
+	}
+}
+
+c_neumark = {
+	de_jure_liege_title = d_brandenburg
+	color = { 116 19 95 }
+
+	b_kustrin = {
+	}
+
+	b_landsberg = {
 	}
 }
 

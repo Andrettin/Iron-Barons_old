@@ -1,6 +1,6 @@
 religion = protestant
 
-1812.1.1 = {
+1812 = {
 	culture = saxon #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_lauenburg = town #Lauenburg existed as of 1812; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 154-155.

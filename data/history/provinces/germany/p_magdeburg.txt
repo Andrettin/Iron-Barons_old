@@ -1,11 +1,11 @@
 religion = protestant
 
-1379.1.1 = {
+1379 = {
 	h_erfurt = town
 	university = university #University founded in Erfurt in 1379; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = saxon #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_magdeburg = city #Magdeburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

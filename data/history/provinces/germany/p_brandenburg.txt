@@ -1,16 +1,16 @@
 religion = protestant
 
-1502.1.1 = {
+1502 = {
 	h_wittenberg = town
 	university = university #University founded in Wittenberg in 1502; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1506.1.1 = {
+1506 = {
 	h_frankfurt_on_the_oder = town
 	#university = university #University founded in Frankfort-on-the-Oder in 1506; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = saxon #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_berlin = city #Berlin existed as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 82.
@@ -18,15 +18,12 @@ religion = protestant
 	h_frankfurt_on_the_oder = city #Frankfurt on the Oder existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_cottbus = town #Cottbus existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_guben = town #Guben existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_kustrin = town #Küstrin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	h_landsberg = town #Landsberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_neu_ruppin = town #Neu-Ruppin existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_potsdam = town #Potsdam existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_prenzlau = town #Prenzlau existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_spandau = town #Spandau existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	h_schonhausen = village #Schönhausen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	fort = fort #Spandau had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
-	#fort = fort #Küstrin had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	#fort = fort #Wittenberg had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_berlin

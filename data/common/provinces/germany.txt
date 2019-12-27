@@ -97,16 +97,6 @@ p_brandenburg = {
 		type = settlement
 	}
 
-	h_kustrin = {
-		barony = b_kustrin
-		type = settlement
-	}
-
-	h_landsberg = {
-		barony = b_landsberg
-		type = settlement
-	}
-
 	h_neu_ruppin = {
 		barony = b_neu_ruppin
 		type = settlement
@@ -624,6 +614,21 @@ p_nassau = {
 
 	h_wiesbaden = {
 		barony = b_wiesbaden
+		type = settlement
+	}
+}
+
+p_neumark = {
+	county = c_neumark
+	color = { 116 19 95 }
+
+	h_kustrin = {
+		barony = b_kustrin
+		type = settlement
+	}
+
+	h_landsberg = {
+		barony = b_landsberg
 		type = settlement
 	}
 }

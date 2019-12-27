@@ -1,11 +1,11 @@
 religion = protestant
 
-1607.1.1 = {
+1607 = {
 	h_giessen = town
 	university = university #University founded in Giessen in 1607; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
 }
 
-1815.1.1 = {
+1815 = {
 	culture = rhenish #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
 	h_homburg = town #Homburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.

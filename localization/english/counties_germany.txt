@@ -28,6 +28,7 @@ c_lippe = "Lippe"
 c_magdeburg = "Magdeburg"
 c_mainz = "Mainz"
 c_nassau = "Nassau"
+c_neumark = "Neumark"
 c_oldenburg = "Oldenburg"
 c_oppeln = "Oppeln"
 c_oppeln_polish = "Opolskie" #Source: "Philip's International School Atlas", 2006, p. 60.

@@ -1,7 +1,7 @@
-1815.1.1 = {
+1815 = {
 	holder = random
 }
 
-1850.1.1 = {
+1850 = {
 	liege_title = k_prussia #became a part of Prussia in 1850; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }
