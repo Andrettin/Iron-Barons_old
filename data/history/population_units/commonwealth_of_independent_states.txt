@@ -3,27 +3,27 @@ laborers = {
 	discount_existing = yes
 	discount_any_type = yes
 	
-	100.1.1 = {
+	100 = {
 		size = 8622000 #CIS had a population of around 8.622 millions in 100 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 	}
 
-	1000.1.1 = {
+	1000 = {
 		size = 6692000 #CIS had a population of around 6.692 millions in 1000 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 	}
 
-	1500.1.1 = {
+	1500 = {
 		size = 15947000 #CIS had a population of around 15.947 millions in 1500 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 	}
 
-	1600.1.1 = {
+	1600 = {
 		size = 19495000 #CIS had a population of around 19.495 millions in 1600 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 	}
 
-	1700.1.1 = {
+	1700 = {
 		size = 23015000 #CIS had a population of around 23.015 millions in 1700 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 	}
 
-	1810.1.1 = {
+	1810 = {
 		size = 48232000 #CIS had a population of around 48.232 millions in 1810 AD; Source: http://themasites.pbl.nl/tridion/en/themasites/hyde/basicdrivingfactors/population/index-2.html
 	}
 }

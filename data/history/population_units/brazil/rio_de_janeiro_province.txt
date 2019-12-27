@@ -3,7 +3,7 @@ tribesmen = {
 	culture = tupi
 	religion = pagan
 	
-	1555.1.1 = {
+	1555 = {
 		size = 500 #over 500 Tamoio Indians lived in France Antarctique in 1555; Source: Ronaldo Vainfas, "Dicionário do Brasil Colonial (1500-1808)", p. 584.
 	}
 }

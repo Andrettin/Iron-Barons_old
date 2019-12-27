@@ -1,7 +1,7 @@
 craftsmen = {
 	holding = h_fiume
 	
-	1780.1.1 = {
+	1780 = {
 		size = 400 #400 people in Fiume/Rijeka were employed in sugar refining in 1780; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 466.
 	}
 }

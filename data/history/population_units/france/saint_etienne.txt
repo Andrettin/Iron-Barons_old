@@ -3,15 +3,15 @@ craftsmen = { #urban population
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1815.1.1 = {
+	1815 = {
 		size = 14250 #St. Etienne had a population of 14,250 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 89.
 	}
 	
-	1831.1.1 = {
+	1831 = {
 		size = 16000 #Saint-Etienne had a population of 16,000 in 1831; Source: David Thomson, "Europe Since Napoleon", 1966, p. 180.
 	}
 	
-	1841.1.1 = {
+	1841 = {
 		size = 54000 #Saint-Etienne had a population of 54,000 in 1841; Source: David Thomson, "Europe Since Napoleon", 1966, p. 180.
 	}
 }

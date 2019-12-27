@@ -3,23 +3,23 @@ laborers = {
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1799.1.1 = {
+	1799 = {
 		size = 126771 #the Transylvanian Military Frontier had a population of 126,771 in 1799 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1803.1.1 = {
+	1803 = {
 		size = 138420 #the Transylvanian Military Frontier had a population of 138,420 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1806.1.1 = {
+	1806 = {
 		size = 135558 #the Transylvanian Military Frontier had a population of 135,558 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1807.1.1 = {
+	1807 = {
 		size = 136385 #the Transylvanian Military Frontier had a population of 136,385 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1809.1.1 = {
+	1809 = {
 		size = 137500 #the Transylvanian Military Frontier had an estimated population of 137,500 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 }

@@ -3,23 +3,23 @@ laborers = {
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1799.1.1 = {
+	1799 = {
 		size = 129216 #the Banatian Military Frontier had a population of 129,216 in 1799 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1803.1.1 = {
+	1803 = {
 		size = 146364 #the Banatian Military Frontier had a population of 146,364 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1806.1.1 = {
+	1806 = {
 		size = 157164 #the Banatian Military Frontier had a population of 157,164 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1807.1.1 = {
+	1807 = {
 		size = 162052 #the Banatian Military Frontier had a population of 162,(0?)52 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1809.1.1 = {
+	1809 = {
 		size = 165000 #the Banatian Military Frontier had an estimated population of 165,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 }

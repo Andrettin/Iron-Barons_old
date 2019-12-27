@@ -3,31 +3,31 @@ laborers = {
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1798.1.1 = {
+	1798 = {
 		size = 1013139 #Lower Austria had a population of 1,013,139 in 1798 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1800.1.1 = {
+	1800 = {
 		size = 1016512 #Lower Austria had a population of 1,016,512 in 1800 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1803.1.1 = {
+	1803 = {
 		size = 1042345 #Lower Austria had a population of 1,042,345 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1806.1.1 = {
+	1806 = {
 		size = 1053653 #Lower Austria had a population of 1,053,653 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1807.1.1 = {
+	1807 = {
 		size = 1049904 #Lower Austria had a population of 1,049,904 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1808.1.1 = {
+	1808 = {
 		size = 1060499 #Lower Austria had a population of 1,060,499 in 1808 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 
-	1809.1.1 = {
+	1809 = {
 		size = 1070000 #Lower Austria had an estimated population of 1,070,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 }

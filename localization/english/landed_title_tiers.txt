@@ -3,5 +3,6 @@ empire_e_britain = "United Kingdom"
 kingdom = "Kingdom"
 duchy = "Duchy"
 duchy_d_serbia = "Principality"
+duchy_d_transylvania = "Principality" #Grand Principality
 county = "County"
 barony = "Barony"

@@ -3,7 +3,7 @@ craftsmen = { #urban population
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1815.1.1 = {
+	1815 = {
 		size = 201628 #Amsterdam had a population of 201,628 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
 	}
 }

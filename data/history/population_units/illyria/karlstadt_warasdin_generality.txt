@@ -3,23 +3,23 @@ laborers = {
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1799.1.1 = {
+	1799 = {
 		size = 274921 #the Karlstadt-Warasdin Generality had a population of 274,921 in 1799 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1803.1.1 = {
+	1803 = {
 		size = 292788 #the Karlstadt-Warasdin Generality had a population of 292,788 in 1803 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1806.1.1 = {
+	1806 = {
 		size = 291073 #the Karlstadt-Warasdin Generality had a population of 291,073 in 1806 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1807.1.1 = {
+	1807 = {
 		size = 292488 #the Karlstadt-Warasdin Generality had a population of 292,488 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 	
-	1809.1.1 = {
+	1809 = {
 		size = 295000 #the Karlstadt-Warasdin Generality had an estimated population of 295,000 in 1809 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 10.
 	}
 }

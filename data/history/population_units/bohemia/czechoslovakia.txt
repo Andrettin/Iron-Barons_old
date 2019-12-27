@@ -3,23 +3,23 @@ laborers = {
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1.1.1 = {
+	1 = {
 		size = 1000000 #Czechoslovakia had a population of 1,000,000 in 1 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 	}
 
-	1000.1.1 = {
+	1000 = {
 		size = 1250000 #Czechoslovakia had a population of 1,250,000 in 1000 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 	}
 
-	1500.1.1 = {
+	1500 = {
 		size = 3000000 #Czechoslovakia had a population of 3,000,000 in 1500 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 	}
 
-	1600.1.1 = {
+	1600 = {
 		size = 4500000 #Czechoslovakia had a population of 4,500,000 in 1600 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 	}
 
-	1700.1.1 = {
+	1700 = {
 		size = 4500000 #Czechoslovakia had a population of 4,500,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
 	}
 }

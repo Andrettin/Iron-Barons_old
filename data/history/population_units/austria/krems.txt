@@ -3,7 +3,7 @@ craftsmen = { #urban population
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1807.1.1 = {
+	1807 = {
 		size = 3563 #Krems had a population of 3,563 in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 12.
 	}
 }

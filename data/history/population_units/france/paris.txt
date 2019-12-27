@@ -3,11 +3,11 @@ craftsmen = { #urban population
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1789.1.1 = {
+	1789 = {
 		size = 500000 #Paris had a population of 500,000 in 1789; Source: Eric J. Hobsbawm, "The Age of Revolution, Europe 1789-1848", p. 28.
 	}
 	
-	1815.1.1 = {
+	1815 = {
 		size = 649412 #Paris had a population of 649,412 in 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 88.
 	}
 }

@@ -3,7 +3,7 @@ craftsmen = { #urban population
 	discount_existing = yes
 	discount_any_type = yes
 	
-	1807.1.1 = {
+	1807 = {
 		size = 10680 #(Wiener) Neustadt had a population of 10,680 (3225 native men, 6802 native women and 653 foreigners) in 1807 AD; Source: Joseph Marx von Liechtenstern, "Statistische Uebersicht des Oesterreichischen Kaiser-Staats", 1809, p. 11.
 	}
 }
