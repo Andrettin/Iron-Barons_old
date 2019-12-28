@@ -1,0 +1,9 @@
+religion = protestant
+
+1786 = {
+	h_stockach = town #Stockach existed as of c. 1786; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 134-135.
+}
+
+1815 = {
+	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

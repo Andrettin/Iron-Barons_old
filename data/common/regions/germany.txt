@@ -1,5 +1,5 @@
 r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population" article
-	provinces += p_baden
+	subregions += r_baden_wurtemberg
 	provinces += p_bavaria
 	provinces += p_berg
 	provinces += p_brandenburg
@@ -26,18 +26,14 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_oldenburg
 	provinces += p_oppeln
 	provinces += p_palatinate
-	provinces += p_ravensburg
 	provinces += p_rhineland
 	provinces += p_saarland
 	provinces += p_schwerin
-	provinces += p_sigmaringen
 	provinces += p_strelitz
 	provinces += p_thuringia
 	provinces += p_upper_saxony
 	provinces += p_waldeck
 	provinces += p_westphalia
-	provinces += p_wurtemberg
-	provinces += p_zollern
 	subregions += r_austria_proper
 	subregions += r_styria
 	provinces += p_carinthia
@@ -49,7 +45,7 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 }
 
 r_germany = { #the territory of the modern Federal Republic of Germany
-	provinces += p_baden
+	subregions += r_baden_wurtemberg
 	provinces += p_bavaria
 	provinces += p_berg
 	provinces += p_brandenburg
@@ -73,18 +69,33 @@ r_germany = { #the territory of the modern Federal Republic of Germany
 	provinces += p_neumark
 	provinces += p_oldenburg
 	provinces += p_palatinate
-	provinces += p_ravensburg
 	provinces += p_rhineland
 	provinces += p_saarland
 	provinces += p_schwerin
-	provinces += p_sigmaringen
 	provinces += p_south_schleswig
 	provinces += p_strelitz
 	provinces += p_thuringia
 	provinces += p_upper_saxony
 	provinces += p_waldeck
 	provinces += p_westphalia
-	provinces += p_wurtemberg
-	provinces += p_zollern
 	holdings -= h_stettin
+}
+
+r_baden_wurtemberg = { #the territory of the state of Baden-Wurtemberg
+	subregions += r_baden
+	subregions += r_wurtemberg
+	provinces += p_sigmaringen
+	provinces += p_zollern
+}
+
+r_baden = { #the territory of the Grand Duchy of Baden
+	provinces += p_baden
+	provinces += p_constance
+	provinces += p_heidelberg
+	provinces += p_sundgau
+}
+
+r_wurtemberg = { #the territory of the Kingdom of Wurtemberg
+	provinces += p_ravensburg
+	provinces += p_wurtemberg
 }

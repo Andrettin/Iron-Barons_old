@@ -1,0 +1,15 @@
+religion = protestant
+
+1455 = {
+	h_freiburg = town
+	university = university #University founded in Freiburg in 1455; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
+	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_freiburg = city #Freiburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_kandern = town #Kandern existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_lorrack = town #Lörrack existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_dossenbach = village #Dossenbach existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

@@ -1,0 +1,16 @@
+religion = protestant
+
+1385 = {
+	h_heidelberg = town
+	university = university #University founded in Heidelberg in 1385; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
+	culture = swabian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_heidelberg = city #Heidelberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_mannheim = city #Mannheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_tauberbischofsheim = town #Tauberbischofsheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_hundheim = village #Hundheim existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Hundheim had a castle as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

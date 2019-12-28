@@ -2,43 +2,13 @@ p_baden = {
 	county = c_baden
 	color = { 218 171 19 }
 
+	h_rastatt = {
+		barony = b_rastatt
+		type = settlement
+	}
+
 	h_carlsruhe = {
 		barony = b_carlsruhe
-		type = settlement
-	}
-
-	h_dossenbach = {
-		barony = b_dossenbach
-		type = settlement
-	}
-
-	h_freiburg = {
-		barony = b_freiburg
-		type = settlement
-	}
-
-	h_geroldseck = {
-		barony = b_geroldseck
-		type = settlement
-	}
-
-	h_heidelberg = {
-		barony = b_heidelberg
-		type = settlement
-	}
-
-	h_hundheim = {
-		barony = b_hundheim
-		type = settlement
-	}
-
-	h_kandern = {
-		barony = b_kandern
-		type = settlement
-	}
-
-	h_mannheim = {
-		barony = b_mannheim
 		type = settlement
 	}
 
@@ -47,8 +17,38 @@ p_baden = {
 		type = settlement
 	}
 
-	h_rastatt = {
-		barony = b_rastatt
+	h_geroldseck = {
+		barony = b_geroldseck
+		type = settlement
+	}
+
+	h_waghausel = {
+		barony = b_waghausel
+		type = settlement
+	}
+}
+
+p_constance = {
+	county = c_constance
+	color = { 216 103 18 }
+	
+	h_stockach = {
+		barony = b_stockach
+		type = settlement
+	}
+}
+
+p_heidelberg = {
+	county = c_heidelberg
+	color = { 138 218 23 }
+
+	h_heidelberg = {
+		barony = b_heidelberg
+		type = settlement
+	}
+
+	h_mannheim = {
+		barony = b_mannheim
 		type = settlement
 	}
 
@@ -57,13 +57,8 @@ p_baden = {
 		type = settlement
 	}
 
-	h_lorrack = {
-		barony = b_lorrack
-		type = settlement
-	}
-
-	h_waghausel = {
-		barony = b_waghausel
+	h_hundheim = {
+		barony = b_hundheim
 		type = settlement
 	}
 }
@@ -84,6 +79,31 @@ p_sigmaringen = {
 
 	h_sigmaringen = {
 		barony = b_sigmaringen
+		type = settlement
+	}
+}
+
+p_sundgau = {
+	county = c_sundgau
+	color = { 20 11 56 }
+
+	h_freiburg = {
+		barony = b_freiburg
+		type = settlement
+	}
+
+	h_kandern = {
+		barony = b_kandern
+		type = settlement
+	}
+
+	h_lorrack = {
+		barony = b_lorrack
+		type = settlement
+	}
+
+	h_dossenbach = {
+		barony = b_dossenbach
 		type = settlement
 	}
 }

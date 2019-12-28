@@ -20,43 +20,44 @@ c_baden = {
 	de_jure_liege_title = d_baden
 	color = { 255 221 0 }
 
+	b_rastatt = {
+	}
+
 	b_carlsruhe = {
-	}
-
-	b_dossenbach = {
-	}
-
-	b_freiburg = {
-	}
-
-	b_geroldseck = {
-	}
-
-	b_heidelberg = {
-	}
-
-	b_hundheim = {
-	}
-
-	b_kandern = {
-	}
-
-	b_mannheim = {
 	}
 
 	b_offenburg = {
 	}
 
-	b_rastatt = {
+	b_geroldseck = {
+	}
+
+	b_waghausel = {
+	}
+}
+
+c_constance = {
+	de_jure_liege_title = d_baden
+	color = { 216 103 18 }
+	
+	b_stockach = {
+	}
+}
+
+c_heidelberg = {
+	de_jure_liege_title = d_baden
+	color = { 138 218 23 }
+
+	b_heidelberg = {
+	}
+
+	b_mannheim = {
 	}
 
 	b_tauberbischofsheim = {
 	}
 
-	b_lorrack = {
-	}
-
-	b_waghausel = {
+	b_hundheim = {
 	}
 }
 
@@ -73,6 +74,23 @@ c_sigmaringen = {
 	color = { 194 228 13 }
 
 	b_sigmaringen = {
+	}
+}
+
+c_sundgau = {
+	de_jure_liege_title = d_baden
+	color = { 20 11 56 }
+
+	b_freiburg = {
+	}
+
+	b_kandern = {
+	}
+
+	b_lorrack = {
+	}
+
+	b_dossenbach = {
 	}
 }
 

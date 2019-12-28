@@ -1,0 +1,30 @@
+budapest = { #Source: John Lukacs, "Budapest 1900: a historical portrait of a city and its culture", pp. 28-30.
+	conditions = {
+		culture = austrian
+		not = { trait = intelligent }
+		not = { trait = scholar }
+	}
+	
+	option = {
+		name = opt_yes
+		ai_chance = {
+			factor = 10
+		}
+		
+		effects = {
+			traits += proud
+			traits += shy
+			traits += kind
+			traits += intelligent
+		}
+	}
+	
+	option = {
+		name = opt_ok
+		
+		effects = {
+			traits += scholar
+			traits += administrator
+		}
+	}
+}
