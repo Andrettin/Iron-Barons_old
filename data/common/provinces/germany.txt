@@ -132,10 +132,10 @@ p_breslau = {
 		type = settlement
 	}
 
-	h_zillerthal = {
-		barony = b_zillerthal
-		type = settlement
-	}
+	#h_zillerthal = {
+	#	barony = b_zillerthal
+	#	type = settlement
+	#}
 }
 
 p_brunswick = {

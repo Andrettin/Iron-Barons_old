@@ -244,8 +244,8 @@ c_breslau = {
 	b_ols = {
 	}
 
-	b_zillerthal = {
-	}
+	#b_zillerthal = {
+	#}
 }
 
 c_brunswick = {
