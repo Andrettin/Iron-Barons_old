@@ -1,0 +1,19 @@
+religion = catholic
+
+1459 = {
+	h_ingolstadt = town
+	university = university #University founded in Ingolstadt in 1459; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1549 = {
+	h_dillingen = town
+	#university = university #University founded in Dillingen in 1549; Source: "The Cambridge Modern History Atlas", 1912, p. 9.
+}
+
+1815 = {
+	culture = franconian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_nuremberg = city #Nuremberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_furth = city #Fürth existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	fort = fort #Ingolstadt had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

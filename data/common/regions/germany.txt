@@ -1,6 +1,6 @@
 r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population" article
 	subregions += r_baden_wurtemberg
-	provinces += p_bavaria
+	subregions += r_bavaria
 	provinces += p_berg
 	provinces += p_brandenburg
 	provinces += p_breslau
@@ -8,7 +8,6 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_darmstadt
 	provinces += p_east_frisia
 	provinces += p_farther_pomerania
-	provinces += p_franconia
 	provinces += p_giessen
 	provinces += p_gottingen
 	provinces += p_hamburg
@@ -46,13 +45,12 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 
 r_germany = { #the territory of the modern Federal Republic of Germany
 	subregions += r_baden_wurtemberg
-	provinces += p_bavaria
+	subregions += r_bavaria
 	provinces += p_berg
 	provinces += p_brandenburg
 	provinces += p_brunswick
 	provinces += p_darmstadt
 	provinces += p_east_frisia
-	provinces += p_franconia
 	provinces += p_giessen
 	provinces += p_gottingen
 	provinces += p_hamburg
@@ -81,7 +79,7 @@ r_germany = { #the territory of the modern Federal Republic of Germany
 	holdings -= h_stettin
 }
 
-r_baden_wurtemberg = { #the territory of the state of Baden-Wurtemberg
+r_baden_wurtemberg = { #the territory of the modern state of Baden-Wurtemberg
 	subregions += r_baden
 	subregions += r_wurtemberg
 	provinces += p_sigmaringen
@@ -93,6 +91,16 @@ r_baden = { #the territory of the Grand Duchy of Baden
 	provinces += p_constance
 	provinces += p_heidelberg
 	provinces += p_sundgau
+}
+
+r_bavaria = { #the territory of the Kingdom of Bavaria
+	provinces += p_augsburg
+	provinces += p_lower_bavaria
+	provinces += p_lower_franconia
+	provinces += p_middle_franconia
+	provinces += p_upper_bavaria
+	provinces += p_upper_franconia
+	provinces += p_upper_palatinate
 }
 
 r_wurtemberg = { #the territory of the Kingdom of Wurtemberg

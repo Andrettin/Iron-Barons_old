@@ -1,0 +1,10 @@
+religion = catholic
+
+1815 = {
+	culture = bavarian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_ratisbon = city #Ratisbon existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_landshut = town #Landshut existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_straubing = town #Straubing existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_passau = town #Passau existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

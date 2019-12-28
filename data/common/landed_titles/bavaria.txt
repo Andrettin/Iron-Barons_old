@@ -1,0 +1,106 @@
+k_bavaria = {
+	de_jure_liege_title = e_germany
+	color = { 33 195 182 }
+	capital_province = p_upper_bavaria
+}
+
+d_bavaria = {
+	de_jure_liege_title = k_bavaria
+	color = { 33 195 182 }
+	capital_province = p_upper_bavaria
+}
+
+c_augsburg = {
+	de_jure_liege_title = d_bavaria
+	color = { 203 132 169 }
+	
+	b_augsburg = {
+	}
+	
+	b_kempten = {
+	}
+}
+
+c_lower_bavaria = {
+	de_jure_liege_title = d_bavaria
+	color = { 210 156 84 }
+
+	b_ratisbon = {
+	}
+	
+	b_landshut = {
+	}
+	
+	b_straubing = {
+	}
+	
+	b_passau = {
+	}
+}
+
+c_lower_franconia = {
+	de_jure_liege_title = d_bavaria
+	color = { 97 29 215 }
+
+	b_wurzburg = {
+	}
+
+	b_schweinfurt = {
+	}
+
+	b_kissingen = {
+	}
+
+	b_aschaffenburg = {
+	}
+}
+
+c_middle_franconia = {
+	de_jure_liege_title = d_bavaria
+	color = { 191 76 76 }
+
+	b_nuremberg = {
+	}
+
+	b_furth = {
+	}
+
+	b_ingolstadt = {
+	}
+
+	b_dillingen = {
+	}
+}
+
+c_upper_bavaria = {
+	de_jure_liege_title = d_bavaria
+	color = { 53 10 147 }
+	
+	b_munich = {
+	}
+	
+	b_freising = {
+	}
+}
+
+c_upper_franconia = {
+	de_jure_liege_title = d_bavaria
+	color = { 58 236 119 }
+
+	b_bamberg = {
+	}
+
+	b_hof = {
+	}
+
+	b_seybothenreuth = {
+	}
+}
+
+c_upper_palatinate = {
+	de_jure_liege_title = d_bavaria
+	color = { 128 192 39 }
+
+	b_leuchtenberg = {
+	}
+}

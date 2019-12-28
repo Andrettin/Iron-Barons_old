@@ -1,0 +1,9 @@
+religion = catholic
+
+1815 = {
+	culture = franconian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_bamberg = city #Bamberg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_hof = town #Hof existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_seybothenreuth = village #Seybothenreuth existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

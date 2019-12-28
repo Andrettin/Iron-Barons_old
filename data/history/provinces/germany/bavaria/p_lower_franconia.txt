@@ -1,0 +1,15 @@
+religion = catholic
+
+1402 = {
+	h_wurzburg = town
+	university = university #University founded in Wurzburg in 1402; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
+}
+
+1815 = {
+	culture = franconian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
+	
+	h_wurzburg = city #Würzburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_schweinfurt = town #Schweinfurt existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_kissingen = town #Kissingen existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	h_aschaffenburg = town #Aschaffenburg existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+}

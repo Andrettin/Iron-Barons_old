@@ -1,0 +1,134 @@
+p_augsburg = {
+	county = c_augsburg
+	color = { 203 132 169 }
+	
+	h_augsburg = {
+		barony = b_augsburg
+		type = settlement
+	}
+	
+	h_kempten = {
+		barony = b_kempten
+		type = settlement
+	}
+}
+
+p_lower_bavaria = {
+	county = c_lower_bavaria
+	color = { 210 156 84 }
+
+	h_ratisbon = {
+		barony = b_ratisbon
+		type = settlement
+	}
+	
+	h_landshut = {
+		barony = b_landshut
+		type = settlement
+	}
+	
+	h_straubing = {
+		barony = b_straubing
+		type = settlement
+	}
+	
+	h_passau = {
+		barony = b_passau
+		type = settlement
+	}
+}
+
+p_lower_franconia = {
+	county = c_lower_franconia
+	color = { 97 29 215 }
+
+	h_wurzburg = {
+		barony = b_wurzburg
+		type = settlement
+	}
+
+	h_schweinfurt = {
+		barony = b_schweinfurt
+		type = settlement
+	}
+
+	h_kissingen = {
+		barony = b_kissingen
+		type = settlement
+	}
+
+	h_aschaffenburg = {
+		barony = b_aschaffenburg
+		type = settlement
+	}
+}
+
+p_middle_franconia = {
+	county = c_middle_franconia
+	color = { 191 76 76 }
+
+	h_nuremberg = {
+		barony = b_nuremberg
+		type = settlement
+	}
+
+	h_furth = {
+		barony = b_furth
+		type = settlement
+	}
+
+	h_ingolstadt = {
+		barony = b_ingolstadt
+		type = settlement
+	}
+
+	h_dillingen = {
+		barony = b_dillingen
+		type = settlement
+	}
+}
+
+p_upper_bavaria = {
+	county = c_upper_bavaria
+	color = { 53 10 147 }
+	
+	h_munich = {
+		barony = b_munich
+		type = settlement
+	}
+	
+	h_freising = {
+		barony = b_freising
+		type = settlement
+	}
+}
+
+p_upper_franconia = {
+	county = c_upper_franconia
+	color = { 58 236 119 }
+
+	h_bamberg = {
+		barony = b_bamberg
+		type = settlement
+	}
+
+	h_hof = {
+		barony = b_hof
+		type = settlement
+	}
+
+	h_seybothenreuth = {
+		barony = b_seybothenreuth
+		type = settlement
+	}
+}
+
+p_upper_palatinate = {
+	county = c_upper_palatinate
+	color = { 128 192 39 }
+
+	h_leuchtenberg = {
+		barony = b_leuchtenberg
+		type = settlement
+	}
+}
