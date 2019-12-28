@@ -1,4 +1,4 @@
-1790.1.1 = {
+1790 = {
 	holder = random
 	liege_title = k_portugal #part of Portuguese Brazil c. 1790; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 214-215.
 	laws += appointment_succession

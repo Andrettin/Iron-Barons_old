@@ -1,3 +1,3 @@
-1815.1.1 = {
+1815 = {
 	holder_title = d_salzburg #part of the Austrian province of Salzburg as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

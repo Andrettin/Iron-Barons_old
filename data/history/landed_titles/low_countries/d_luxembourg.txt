@@ -1,12 +1,12 @@
-1467.1.1 = {
+1467 = {
 	holder = 10000387 #Charles I of Burgundy; the Duchy of Luxemburg was a Burgundian possession under Charles the Rash (1467-1477); Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
 }
 
-1477.1.1 = {
+1477 = {
 	holder = 10000389 #Marie de Bourgogne; her father Charles I, the duke of Burgundy and Luxembourg, died in 1477; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 247.
 }
 
-1815.1.1 = {
+1815 = {
 	holder_title = k_netherlands #part of the Kingdom of the Netherlands as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }
 

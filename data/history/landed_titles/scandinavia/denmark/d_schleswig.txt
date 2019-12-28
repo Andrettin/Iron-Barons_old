@@ -1,3 +1,3 @@
-1815.1.1 = {
+1815 = {
 	holder_title = k_denmark #the Duchy of Schleswig was held by Denmark as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

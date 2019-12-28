@@ -1,8 +1,8 @@
-1461.1.1 = {
+1461 = {
 	holder = 10000428 #Louis XI of France; became king of France in 1461; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
 }
 
-1483.1.1 = {
+1483 = {
 	holder = 10000429 #Charles VIII of France; became king of France in 1483; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
 }
 
@@ -10,7 +10,7 @@
 	holder = none #Napoléon became Emperor of the French on 1804.5.18; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 3.
 }
 
-1815.1.1 = {
+1815 = {
 	holder = 10000596 #Louis de Bourbon; king of France as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 15.
 }
 

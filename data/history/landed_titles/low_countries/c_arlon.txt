@@ -1,9 +1,9 @@
-1815.1.1 = {
+1815 = {
 	holder = random
 	liege_title = d_luxembourg #part of the Grand Duchy of Luxembourg as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	laws += appointment_succession
 }
 
-1839.1.1 = {
+1839 = {
 	liege_title = k_belgium #became a part of the Kingdom of Belgium in 1839; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

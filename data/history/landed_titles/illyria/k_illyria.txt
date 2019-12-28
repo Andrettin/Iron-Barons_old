@@ -1,9 +1,9 @@
-1815.1.1 = {
+1815 = {
 	holder = random
 	liege_title = e_austria #part of the Empire of Austria as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	laws += appointment_succession
 }
 
-1849.1.1 = {
+1849 = {
 	holder = none #ceased to exist in 1849; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

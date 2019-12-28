@@ -1,7 +1,7 @@
-1792.1.1 = {
+1792 = {
 	holder = 10000000 #Franz von Habsburg became Emperor of the Holy Roman Empire in 1792; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 250.
 }
 
-1815.1.1 = {
+1815 = {
 	holder_title = d_lower_austria #part of the Austrian province of Lower Austria as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }

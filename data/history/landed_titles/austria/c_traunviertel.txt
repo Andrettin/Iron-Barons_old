@@ -1,15 +1,15 @@
-1711.1.1 = {
+1711 = {
 	holder = 10000053 #Karl VI; became emperor of the HRE on 1711; Source: Ivan Erceg, "Außenhandel der Nordadriatischen Seestädte als Faktor im Entstehen der kapitalistischen Beziehungen in Österreich im 18. und 19. Jahrhundert", 1968, p. 464; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 249.
 }
 
-1790.1.1 = {
+1790 = {
 	holder = 10000024 #Leopold II von Habsburg of the Holy Roman Empire; became emperor on 1790; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 250.
 }
 
-1792.1.1 = {
+1792 = {
 	holder = 10000000 #Franz von Habsburg became Emperor of the Holy Roman Empire in 1792; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 250.
 }
 
-1815.1.1 = {
+1815 = {
 	holder_title = d_upper_austria #part of the Austrian province of Upper Austria as of 1815; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 }
