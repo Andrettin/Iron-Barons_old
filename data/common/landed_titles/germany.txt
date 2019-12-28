@@ -189,13 +189,7 @@ c_brandenburg = {
 	b_brandenburg = {
 	}
 
-	b_cottbus = {
-	}
-
 	b_frankfurt_on_the_oder = {
-	}
-
-	b_guben = {
 	}
 
 	b_neu_ruppin = {
@@ -208,12 +202,6 @@ c_brandenburg = {
 	}
 
 	b_spandau = {
-	}
-
-	b_wittenberg = {
-	}
-
-	b_schonhausen = {
 	}
 }
 
@@ -406,6 +394,14 @@ c_holstein = {
 	}
 }
 
+c_jerichow = {
+	de_jure_liege_title = d_magdeburg
+	color = { 192 81 166 }
+
+	b_schonhausen = {
+	}
+}
+
 c_julich = {
 	de_jure_liege_title = d_julich
 	color = { 243 189 48 }
@@ -468,6 +464,17 @@ c_lippe = {
 	}
 
 	b_pyrmont = {
+	}
+}
+
+c_lower_lusatia = {
+	de_jure_liege_title = d_brandenburg
+	color = { 178 224 116 }
+	
+	b_cottbus = {
+	}
+
+	b_guben = {
 	}
 }
 
@@ -728,5 +735,13 @@ c_westphalia = {
 	}
 
 	b_lippstadt = {
+	}
+}
+
+c_wittenberg = {
+	de_jure_liege_title = d_magdeburg
+	color = { 70 1 87 }
+
+	b_wittenberg = {
 	}
 }

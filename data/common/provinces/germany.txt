@@ -47,18 +47,8 @@ p_brandenburg = {
 		type = settlement
 	}
 
-	h_cottbus = {
-		barony = b_cottbus
-		type = settlement
-	}
-
 	h_frankfurt_on_the_oder = {
 		barony = b_frankfurt_on_the_oder
-		type = settlement
-	}
-
-	h_guben = {
-		barony = b_guben
 		type = settlement
 	}
 
@@ -79,16 +69,6 @@ p_brandenburg = {
 
 	h_spandau = {
 		barony = b_spandau
-		type = settlement
-	}
-
-	h_wittenberg = {
-		barony = b_wittenberg
-		type = settlement
-	}
-
-	h_schonhausen = {
-		barony = b_schonhausen
 		type = settlement
 	}
 }
@@ -368,6 +348,16 @@ p_holstein = {
 	}
 }
 
+p_jerichow = {
+	county = c_jerichow
+	color = { 147 72 137 }
+
+	h_schonhausen = {
+		barony = b_schonhausen
+		type = settlement
+	}
+}
+
 p_julich = {
 	county = c_julich
 	color = { 243 189 48 }
@@ -454,6 +444,21 @@ p_lippe = {
 
 	h_pyrmont = {
 		barony = b_pyrmont
+		type = settlement
+	}
+}
+
+p_lower_lusatia = {
+	county = c_lower_lusatia
+	color = { 212 238 128 }
+
+	h_cottbus = {
+		barony = b_cottbus
+		type = settlement
+	}
+
+	h_guben = {
+		barony = b_guben
 		type = settlement
 	}
 }
@@ -834,6 +839,16 @@ p_westphalia = {
 
 	h_lippstadt = {
 		barony = b_lippstadt
+		type = settlement
+	}
+}
+
+p_wittenberg = {
+	county = c_wittenberg
+	color = { 70 1 87 }
+
+	h_wittenberg = {
+		barony = b_wittenberg
 		type = settlement
 	}
 }
