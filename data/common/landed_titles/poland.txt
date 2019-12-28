@@ -28,6 +28,14 @@ d_warsaw = {
 	flag_tag = k_poland
 }
 
+c_bromberg = {
+	de_jure_liege_title = d_posen
+	color = { 118 219 109 }
+
+	b_bromberg = {
+	}
+}
+
 c_czestochowa = {
 	de_jure_liege_title = d_warsaw
 	color = { 0 103 177 }
@@ -82,6 +90,20 @@ c_lesser_poland = {
 	}
 
 	b_tarnow = {
+	}
+}
+
+c_lissa = {
+	de_jure_liege_title = d_posen
+	color = { 106 144 14 }
+
+	b_lissa = {
+	}
+
+	b_xions = {
+	}
+
+	b_koschmin = {
 	}
 }
 
@@ -179,40 +201,28 @@ c_posen = {
 	de_jure_liege_title = d_posen
 	color = { 237 11 10 }
 
-	b_bordo = {
-	}
-
-	b_bromberg = {
-	}
-
-	b_gnesen = {
-	}
-
-	b_koschmin = {
-	}
-
-	b_lissa = {
-	}
-
-	b_miloslaw = {
-	}
-
 	b_posen = {
-	}
-
-	b_rogalin = {
-	}
-
-	b_schneidemuhl = {
 	}
 
 	b_schroda = {
 	}
 
+	b_miloslaw = {
+	}
+
 	b_wreschen = {
 	}
 
-	b_xions = {
+	b_gnesen = {
+	}
+
+	b_schneidemuhl = {
+	}
+
+	b_rogalin = {
+	}
+
+	b_bordo = {
 	}
 }
 

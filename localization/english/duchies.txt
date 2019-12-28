@@ -27,6 +27,7 @@ d_moravia_german = "Mähren" #Source: Joseph Marx von Liechtenstern, "Statistisc
 d_netherlands = "Netherlands"
 d_portugal = "Portugal"
 d_posen = "Posen"
+d_posen_polish = "Wielkopolskie" #Source: "Philip's International School Atlas", 2006, p. 60.
 d_salzburg = "Salzburg"
 d_schleswig = "Schleswig"
 d_styria = "Styria"

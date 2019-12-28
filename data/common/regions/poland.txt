@@ -1,4 +1,5 @@
 r_poland = { #the territory of modern Poland
+	subregions += r_posen
 	provinces += p_breslau
 	provinces += p_czestochowa
 	provinces += p_danzig
@@ -15,7 +16,6 @@ r_poland = { #the territory of modern Poland
 	provinces += p_plock
 	provinces += p_oppeln
 	provinces += p_podlasie
-	provinces += p_posen
 	provinces += p_radom
 	provinces += p_siedlce
 	provinces += p_subcarpathia
@@ -39,4 +39,10 @@ r_galicia_and_west_galicia = {
 	provinces += p_lublin
 	provinces += p_radom
 	provinces += p_siedlce
+}
+
+r_posen = { #the territory of the Prussian province of Posen
+	provinces += p_bromberg
+	provinces += p_lissa
+	provinces += p_posen
 }

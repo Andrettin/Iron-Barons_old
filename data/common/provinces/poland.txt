@@ -1,3 +1,13 @@
+p_bromberg = {
+	county = c_bromberg
+	color = { 118 219 109 }
+
+	h_bromberg = {
+		barony = b_bromberg
+		type = settlement
+	}
+}
+
 p_czestochowa = {
 	county = c_czestochowa
 	color = { 233 218 54 }
@@ -69,6 +79,26 @@ p_lesser_poland = {
 
 	h_tarnow = {
 		barony = b_tarnow
+		type = settlement
+	}
+}
+
+p_lissa = {
+	county = c_lissa
+	color = { 106 144 14 }
+
+	h_lissa = {
+		barony = b_lissa
+		type = settlement
+	}
+
+	h_xions = {
+		barony = b_xions
+		type = settlement
+	}
+
+	h_koschmin = {
+		barony = b_koschmin
 		type = settlement
 	}
 }
@@ -207,48 +237,8 @@ p_posen = {
 	county = c_posen
 	color = { 208 23 78 }
 
-	h_bordo = {
-		barony = b_bordo
-		type = settlement
-	}
-
-	h_bromberg = {
-		barony = b_bromberg
-		type = settlement
-	}
-
-	h_gnesen = {
-		barony = b_gnesen
-		type = settlement
-	}
-
-	h_koschmin = {
-		barony = b_koschmin
-		type = settlement
-	}
-
-	h_lissa = {
-		barony = b_lissa
-		type = settlement
-	}
-
-	h_miloslaw = {
-		barony = b_miloslaw
-		type = settlement
-	}
-
 	h_posen = {
 		barony = b_posen
-		type = settlement
-	}
-
-	h_rogalin = {
-		barony = b_rogalin
-		type = settlement
-	}
-
-	h_schneidemuhl = {
-		barony = b_schneidemuhl
 		type = settlement
 	}
 
@@ -257,13 +247,33 @@ p_posen = {
 		type = settlement
 	}
 
+	h_miloslaw = {
+		barony = b_miloslaw
+		type = settlement
+	}
+
 	h_wreschen = {
 		barony = b_wreschen
 		type = settlement
 	}
 
-	h_xions = {
-		barony = b_xions
+	h_gnesen = {
+		barony = b_gnesen
+		type = settlement
+	}
+
+	h_schneidemuhl = {
+		barony = b_schneidemuhl
+		type = settlement
+	}
+
+	h_rogalin = {
+		barony = b_rogalin
+		type = settlement
+	}
+
+	h_bordo = {
+		barony = b_bordo
 		type = settlement
 	}
 }
