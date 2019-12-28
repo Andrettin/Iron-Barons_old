@@ -79,14 +79,14 @@ c_koniggratz = {
 	b_trautenau = {
 	}
 
-	b_sadowa = {
-	}
+	#b_sadowa = {
+	#}
 
-	b_chlum = {
-	}
+	#b_chlum = {
+	#}
 
-	b_schweinschadel = {
-	}
+	#b_schweinschadel = {
+	#}
 }
 
 c_moravia = {

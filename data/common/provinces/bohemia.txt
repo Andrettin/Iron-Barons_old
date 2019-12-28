@@ -77,20 +77,20 @@ p_koniggratz = {
 		type = settlement
 	}
 
-	h_sadowa = {
-		barony = b_sadowa
-		type = settlement
-	}
+	#h_sadowa = {
+	#	barony = b_sadowa
+	#	type = settlement
+	#}
 
-	h_chlum = {
-		barony = b_chlum
-		type = settlement
-	}
+	#h_chlum = {
+	#	barony = b_chlum
+	#	type = settlement
+	#}
 
-	h_schweinschadel = {
-		barony = b_schweinschadel
-		type = settlement
-	}
+	#h_schweinschadel = {
+	#	barony = b_schweinschadel
+	#	type = settlement
+	#}
 }
 
 p_moravia = {
