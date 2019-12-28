@@ -1,6 +1,8 @@
 r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population" article
 	subregions += r_baden_wurtemberg
 	subregions += r_bavaria
+	subregions += r_royal_saxony
+	subregions += r_thuringia
 	provinces += p_anhalt
 	provinces += p_berg
 	provinces += p_brandenburg
@@ -8,7 +10,6 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_brunswick
 	provinces += p_darmstadt
 	provinces += p_east_frisia
-	provinces += p_erfurt
 	provinces += p_farther_pomerania
 	provinces += p_giessen
 	provinces += p_gottingen
@@ -34,8 +35,6 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 	provinces += p_saarland
 	provinces += p_schwerin
 	provinces += p_strelitz
-	provinces += p_thuringia
-	provinces += p_upper_saxony
 	provinces += p_waldeck
 	provinces += p_westphalia
 	provinces += p_wittenberg
@@ -52,13 +51,14 @@ r_germany_netherlands = { #as used in Josiah Cox Russell's "Medieval Population"
 r_germany = { #the territory of the modern Federal Republic of Germany
 	subregions += r_baden_wurtemberg
 	subregions += r_bavaria
+	subregions += r_royal_saxony
+	subregions += r_thuringia
 	provinces += p_anhalt
 	provinces += p_berg
 	provinces += p_brandenburg
 	provinces += p_brunswick
 	provinces += p_darmstadt
 	provinces += p_east_frisia
-	provinces += p_erfurt
 	provinces += p_giessen
 	provinces += p_gottingen
 	provinces += p_hamburg
@@ -83,8 +83,6 @@ r_germany = { #the territory of the modern Federal Republic of Germany
 	provinces += p_schwerin
 	provinces += p_south_schleswig
 	provinces += p_strelitz
-	provinces += p_thuringia
-	provinces += p_upper_saxony
 	provinces += p_waldeck
 	provinces += p_westphalia
 	provinces += p_wittenberg
@@ -113,6 +111,19 @@ r_bavaria = { #the territory of the Kingdom of Bavaria
 	provinces += p_upper_bavaria
 	provinces += p_upper_franconia
 	provinces += p_upper_palatinate
+}
+
+r_royal_saxony = { #the territory of the Kingdom of Saxony
+	provinces += p_upper_lusatia
+	provinces += p_upper_saxony
+}
+
+r_thuringia = { #the territory of the modern state of Thuringia
+	provinces += p_altenburg
+	provinces += p_erfurt
+	provinces += p_gotha
+	provinces += p_meiningen
+	provinces += p_weimar
 }
 
 r_wurtemberg = { #the territory of the Kingdom of Wurtemberg

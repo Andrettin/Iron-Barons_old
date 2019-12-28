@@ -1,3 +1,13 @@
+p_altenburg = {
+	county = c_altenburg
+	color = { 160 8 180 }
+	
+	h_altenburg = {
+		barony = b_altenburg
+		type = settlement
+	}
+}
+
 p_anhalt = {
 	county = c_anhalt
 	color = { 41 80 22 }
@@ -234,6 +244,31 @@ p_giessen = {
 
 	h_homburg = {
 		barony = b_homburg
+		type = settlement
+	}
+}
+
+p_gotha = {
+	county = c_gotha
+	color = { 136 128 177 }
+	
+	h_gotha = {
+		barony = b_gotha
+		type = settlement
+	}
+	
+	h_eisenach = {
+		barony = b_eisenach
+		type = settlement
+	}
+	
+	h_wartburg = {
+		barony = b_wartburg
+		type = settlement
+	}
+	
+	h_dermbach = {
+		barony = b_dermbach
 		type = settlement
 	}
 }
@@ -493,6 +528,26 @@ p_mainz = {
 	}
 }
 
+p_meiningen = {
+	county = c_meiningen
+	color = { 224 245 136 }
+	
+	h_meiningen = {
+		barony = b_meiningen
+		type = settlement
+	}
+	
+	h_coburg = {
+		barony = b_coburg
+		type = settlement
+	}
+	
+	h_rudolstadt = {
+		barony = b_rudolstadt
+		type = settlement
+	}
+}
+
 p_merseburg = {
 	county = c_merseburg
 	color = { 125 66 108 }
@@ -693,62 +748,17 @@ p_strelitz = {
 	}
 }
 
-p_thuringia = {
-	county = c_thuringia
-	color = { 14 139 158 }
+p_upper_lusatia = {
+	county = c_upper_lusatia
+	color = { 25 89 65 }
 	
-	h_gotha = {
-		barony = b_gotha
+	h_bautzen = {
+		barony = b_bautzen
 		type = settlement
 	}
 	
-	h_jena = {
-		barony = b_jena
-		type = settlement
-	}
-	
-	h_weimar = {
-		barony = b_weimar
-		type = settlement
-	}
-	
-	h_coburg = {
-		barony = b_coburg
-		type = settlement
-	}
-	
-	h_altenburg = {
-		barony = b_altenburg
-		type = settlement
-	}
-	
-	h_gera = {
-		barony = b_gera
-		type = settlement
-	}
-	
-	h_rudolstadt = {
-		barony = b_rudolstadt
-		type = settlement
-	}
-	
-	h_meiningen = {
-		barony = b_meiningen
-		type = settlement
-	}
-	
-	h_eisenach = {
-		barony = b_eisenach
-		type = settlement
-	}
-	
-	h_wartburg = {
-		barony = b_wartburg
-		type = settlement
-	}
-	
-	h_dermbach = {
-		barony = b_dermbach
+	h_zittau = {
+		barony = b_zittau
 		type = settlement
 	}
 }
@@ -782,16 +792,6 @@ p_upper_saxony = {
 		type = settlement
 	}
 	
-	h_bautzen = {
-		barony = b_bautzen
-		type = settlement
-	}
-	
-	h_zittau = {
-		barony = b_zittau
-		type = settlement
-	}
-	
 	h_konigstein = {
 		barony = b_konigstein
 		type = settlement
@@ -804,6 +804,26 @@ p_waldeck = {
 
 	h_waldeck = {
 		barony = b_waldeck
+		type = settlement
+	}
+}
+
+p_weimar = {
+	county = c_weimar
+	color = { 152 76 45 }
+	
+	h_weimar = {
+		barony = b_weimar
+		type = settlement
+	}
+	
+	h_jena = {
+		barony = b_jena
+		type = settlement
+	}
+	
+	h_gera = {
+		barony = b_gera
 		type = settlement
 	}
 }

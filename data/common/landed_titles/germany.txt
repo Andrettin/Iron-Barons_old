@@ -142,13 +142,21 @@ d_strelitz = {
 d_thuringia = {
 	de_jure_liege_title = k_germany
 	color = { 14 139 158 }
-	capital_province = p_thuringia
+	capital_province = p_weimar
 }
 
 d_westphalia = {
 	de_jure_liege_title = k_germany
 	color = { 221 0 0 }
 	capital_province = p_westphalia
+}
+
+c_altenburg = {
+	de_jure_liege_title = d_saxony
+	color = { 160 8 180 }
+	
+	b_altenburg = {
+	}
 }
 
 c_anhalt = {
@@ -315,6 +323,23 @@ c_giessen = {
 	}
 
 	b_homburg = {
+	}
+}
+
+c_gotha = {
+	de_jure_liege_title = d_saxony
+	color = { 136 128 177 }
+	
+	b_gotha = {
+	}
+	
+	b_eisenach = {
+	}
+	
+	b_wartburg = {
+	}
+	
+	b_dermbach = {
 	}
 }
 
@@ -500,6 +525,20 @@ c_mainz = {
 	}
 }
 
+c_meiningen = {
+	de_jure_liege_title = d_saxony
+	color = { 224 245 136 }
+	
+	b_meiningen = {
+	}
+	
+	b_coburg = {
+	}
+	
+	b_rudolstadt = {
+	}
+}
+
 c_merseburg = {
 	de_jure_liege_title = d_magdeburg
 	color = { 125 66 108 }
@@ -640,41 +679,14 @@ c_strelitz = {
 	}
 }
 
-c_thuringia = {
+c_upper_lusatia = {
 	de_jure_liege_title = d_saxony
-	color = { 14 139 158 }
+	color = { 25 89 65 }
 	
-	b_gotha = {
+	b_bautzen = {
 	}
 	
-	b_jena = {
-	}
-	
-	b_weimar = {
-	}
-	
-	b_coburg = {
-	}
-	
-	b_altenburg = {
-	}
-	
-	b_gera = {
-	}
-	
-	b_rudolstadt = {
-	}
-	
-	b_meiningen = {
-	}
-	
-	b_eisenach = {
-	}
-	
-	b_wartburg = {
-	}
-	
-	b_dermbach = {
+	b_zittau = {
 	}
 }
 
@@ -697,12 +709,6 @@ c_upper_saxony = {
 	b_zwickau = {
 	}
 	
-	b_bautzen = {
-	}
-	
-	b_zittau = {
-	}
-	
 	b_konigstein = {
 	}
 }
@@ -712,6 +718,20 @@ c_waldeck = {
 	color = { 157 182 58 }
 
 	b_waldeck = {
+	}
+}
+
+c_weimar = {
+	de_jure_liege_title = d_saxony
+	color = { 152 76 45 }
+	
+	b_weimar = {
+	}
+	
+	b_jena = {
+	}
+	
+	b_gera = {
 	}
 }
 
