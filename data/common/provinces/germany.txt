@@ -92,11 +92,6 @@ p_breslau = {
 		type = settlement
 	}
 
-	h_glatz = {
-		barony = b_glatz
-		type = settlement
-	}
-
 	h_glogau = {
 		barony = b_glogau
 		type = settlement
@@ -107,18 +102,8 @@ p_breslau = {
 		type = settlement
 	}
 
-	h_landeshut = {
-		barony = b_landeshut
-		type = settlement
-	}
-
 	h_liegnitz = {
 		barony = b_liegnitz
-		type = settlement
-	}
-
-	h_ols = {
-		barony = b_ols
 		type = settlement
 	}
 
@@ -129,6 +114,21 @@ p_breslau = {
 
 	h_silberberg = {
 		barony = b_silberberg
+		type = settlement
+	}
+
+	h_glatz = {
+		barony = b_glatz
+		type = settlement
+	}
+
+	h_landeshut = {
+		barony = b_landeshut
+		type = settlement
+	}
+
+	h_ols = {
+		barony = b_ols
 		type = settlement
 	}
 

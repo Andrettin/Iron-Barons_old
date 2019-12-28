@@ -220,28 +220,28 @@ c_breslau = {
 	b_breslau = {
 	}
 
-	b_glatz = {
-	}
-
 	b_glogau = {
 	}
 
 	b_gorlitz = {
 	}
 
-	b_landeshut = {
-	}
-
 	b_liegnitz = {
-	}
-
-	b_ols = {
 	}
 
 	b_schweidnitz = {
 	}
 
 	b_silberberg = {
+	}
+
+	b_glatz = {
+	}
+
+	b_landeshut = {
+	}
+
+	b_ols = {
 	}
 
 	b_zillerthal = {
