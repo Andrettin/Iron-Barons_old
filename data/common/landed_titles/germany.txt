@@ -256,6 +256,14 @@ c_brunswick = {
 	}
 }
 
+c_coburg = {
+	de_jure_liege_title = d_saxony
+	color = { 107 38 220 }
+	
+	b_coburg = {
+	}
+}
+
 c_darmstadt = {
 	de_jure_liege_title = d_darmstadt
 	color = { 226 0 26 }
@@ -530,9 +538,6 @@ c_meiningen = {
 	color = { 224 245 136 }
 	
 	b_meiningen = {
-	}
-	
-	b_coburg = {
 	}
 	
 	b_rudolstadt = {

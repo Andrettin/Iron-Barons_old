@@ -148,6 +148,16 @@ p_brunswick = {
 	}
 }
 
+p_coburg = {
+	county = c_coburg
+	color = { 107 38 220 }
+	
+	h_coburg = {
+		barony = b_coburg
+		type = settlement
+	}
+}
+
 p_darmstadt = {
 	county = c_darmstadt
 	color = { 211 6 141 }
@@ -534,11 +544,6 @@ p_meiningen = {
 	
 	h_meiningen = {
 		barony = b_meiningen
-		type = settlement
-	}
-	
-	h_coburg = {
-		barony = b_coburg
 		type = settlement
 	}
 	

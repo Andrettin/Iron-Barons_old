@@ -103,7 +103,12 @@ r_baden = { #the territory of the Grand Duchy of Baden
 	provinces += p_sundgau
 }
 
-r_bavaria = { #the territory of the Kingdom of Bavaria
+r_bavaria = { #the territory of the modern state of Bavaria
+	subregions += r_royal_bavaria
+	provinces += p_coburg
+}
+
+r_royal_bavaria = { #the territory of the Kingdom of Bavaria
 	provinces += p_augsburg
 	provinces += p_lower_bavaria
 	provinces += p_lower_franconia
