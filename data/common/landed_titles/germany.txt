@@ -22,6 +22,12 @@ k_saxony = {
 	capital_province = p_upper_saxony
 }
 
+d_anhalt = {
+	de_jure_liege_title = k_germany
+	color = { 41 80 22 }
+	capital_province = p_anhalt
+}
+
 d_brandenburg = {
 	de_jure_liege_title = k_germany
 	color = { 184 174 188 }
@@ -143,6 +149,15 @@ d_westphalia = {
 	de_jure_liege_title = k_germany
 	color = { 221 0 0 }
 	capital_province = p_westphalia
+}
+
+c_anhalt = {
+	de_jure_liege_title = d_anhalt
+	color = { 41 80 22 }
+	flag_tag = d_anhalt
+
+	b_dessau = {
+	}
 }
 
 c_berg = {
@@ -270,6 +285,23 @@ c_east_frisia = {
 	}
 
 	b_osnabruck = {
+	}
+}
+
+c_erfurt = {
+	de_jure_liege_title = d_magdeburg
+	color = { 185 114 98 }
+
+	b_erfurt = {
+	}
+
+	b_sondershausen = {
+	}
+
+	b_langensalza = {
+	}
+
+	b_muhlhausen = {
 	}
 }
 
@@ -443,34 +475,10 @@ c_magdeburg = {
 	de_jure_liege_title = d_magdeburg
 	color = { 202 231 204 }
 
-	b_dessau = {
-	}
-
-	b_erfurt = {
-	}
-
-	b_halberstadt = {
-	}
-
-	b_halle = {
-	}
-
-	b_langensalza = {
-	}
-
 	b_magdeburg = {
 	}
 
-	b_merseburg = {
-	}
-
-	b_muhlhausen = {
-	}
-
-	b_sondershausen = {
-	}
-
-	b_torgau = {
+	b_halberstadt = {
 	}
 }
 
@@ -482,6 +490,20 @@ c_mainz = {
 	}
 
 	b_worms = {
+	}
+}
+
+c_merseburg = {
+	de_jure_liege_title = d_magdeburg
+	color = { 125 66 108 }
+
+	b_halle = {
+	}
+
+	b_torgau = {
+	}
+
+	b_merseburg = {
 	}
 }
 

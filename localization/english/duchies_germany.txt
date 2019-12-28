@@ -1,3 +1,4 @@
+d_anhalt = "Anhalt"
 d_baden = "Baden"
 d_bavaria = "Bavaria"
 d_bavaria_german = "Bayern"

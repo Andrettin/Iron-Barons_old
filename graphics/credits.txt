@@ -71,6 +71,7 @@
 /graphics/flags/c_vosges.svg (by Diades, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/c_zilina.svg (by Zirland, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/d_alsace.svg (by Mysid, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/d_anhalt.svg (by David Liuzzo, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_baden.svg (by David Liuzzo, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_bahia.svg (by E2m, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_banat.svg (by Jembezmamy, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)

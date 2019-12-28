@@ -1,3 +1,13 @@
+p_anhalt = {
+	county = c_anhalt
+	color = { 41 80 22 }
+
+	h_dessau = {
+		barony = b_dessau
+		type = settlement
+	}
+}
+
 p_berg = {
 	county = c_berg
 	color = { 166 141 108 }
@@ -184,6 +194,31 @@ p_east_frisia = {
 
 	h_osnabruck = {
 		barony = b_osnabruck
+		type = settlement
+	}
+}
+
+p_erfurt = {
+	county = c_erfurt
+	color = { 185 114 98 }
+
+	h_erfurt = {
+		barony = b_erfurt
+		type = settlement
+	}
+
+	h_sondershausen = {
+		barony = b_sondershausen
+		type = settlement
+	}
+
+	h_langensalza = {
+		barony = b_langensalza
+		type = settlement
+	}
+
+	h_muhlhausen = {
+		barony = b_muhlhausen
 		type = settlement
 	}
 }
@@ -427,53 +462,13 @@ p_magdeburg = {
 	county = c_magdeburg
 	color = { 250 85 103 }
 
-	h_dessau = {
-		barony = b_dessau
-		type = settlement
-	}
-
-	h_erfurt = {
-		barony = b_erfurt
-		type = settlement
-	}
-
-	h_halberstadt = {
-		barony = b_halberstadt
-		type = settlement
-	}
-
-	h_halle = {
-		barony = b_halle
-		type = settlement
-	}
-
-	h_langensalza = {
-		barony = b_langensalza
-		type = settlement
-	}
-
 	h_magdeburg = {
 		barony = b_magdeburg
 		type = settlement
 	}
 
-	h_merseburg = {
-		barony = b_merseburg
-		type = settlement
-	}
-
-	h_muhlhausen = {
-		barony = b_muhlhausen
-		type = settlement
-	}
-
-	h_sondershausen = {
-		barony = b_sondershausen
-		type = settlement
-	}
-
-	h_torgau = {
-		barony = b_torgau
+	h_halberstadt = {
+		barony = b_halberstadt
 		type = settlement
 	}
 }
@@ -489,6 +484,26 @@ p_mainz = {
 
 	h_worms = {
 		barony = b_worms
+		type = settlement
+	}
+}
+
+p_merseburg = {
+	county = c_merseburg
+	color = { 125 66 108 }
+
+	h_halle = {
+		barony = b_halle
+		type = settlement
+	}
+
+	h_torgau = {
+		barony = b_torgau
+		type = settlement
+	}
+
+	h_merseburg = {
+		barony = b_merseburg
 		type = settlement
 	}
 }
