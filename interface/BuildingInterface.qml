@@ -53,6 +53,14 @@ Item {
 						font.pixelSize: 12
 						font.family: "tahoma"
 						font.bold: model.modelData.built
+
+						MouseArea {
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip(model.modelData.building.name)
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+						}
 					}
 
 					Button {
@@ -87,6 +95,7 @@ Item {
 						visible: model.modelData.built
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
+						anchors.rightMargin: 8
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"

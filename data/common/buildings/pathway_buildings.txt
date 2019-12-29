@@ -1,0 +1,83 @@
+road = {
+	holding_types += trading_post
+	construction_days = 730
+	required_technologies += road
+	
+	preconditions = {
+		not = {
+			has_building = paved_road
+			has_building = horse_drawn_railroad
+			has_building = iron_railroad
+			has_building = steel_railroad
+		}
+		
+		or = {
+			has_building = road
+			not = { has_technology = paved_road }
+		}
+	}
+}
+
+paved_road = {
+	holding_types += trading_post
+	construction_days = 730
+	required_technologies += paved_road
+	icon_tag = road
+	
+	preconditions = {
+		not = {
+			has_building = horse_drawn_railroad
+			has_building = iron_railroad
+			has_building = steel_railroad
+		}
+		
+		or = {
+			has_building = paved_road
+			not = { has_technology = horse_drawn_railroad }
+		}
+	}
+}
+
+horse_drawn_railroad = {
+	holding_types += trading_post
+	construction_days = 730
+	required_technologies += horse_drawn_railroad
+	icon_tag = railroad
+	
+	preconditions = {
+		not = {
+			has_building = iron_railroad
+			has_building = steel_railroad
+		}
+		
+		or = {
+			has_building = horse_drawn_railroad
+			not = { has_technology = iron_railroad }
+		}
+	}
+}
+
+iron_railroad = {
+	holding_types += trading_post
+	construction_days = 730
+	required_technologies += iron_railroad
+	icon_tag = railroad
+	
+	preconditions = {
+		not = {
+			has_building = steel_railroad
+		}
+		
+		or = {
+			has_building = iron_railroad
+			not = { has_technology = steel_railroad }
+		}
+	}
+}
+
+steel_railroad = {
+	holding_types += trading_post
+	construction_days = 1
+	required_technologies += steel_railroad
+	icon_tag = railroad
+}

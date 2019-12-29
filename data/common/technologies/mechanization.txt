@@ -1,9 +1,9 @@
 seed_drill = {
 	category = economy
-	icon_tag = cog
+	icon_tag = grain
 }
 
 cotton_gin = {
 	category = economy
-	icon_tag = cog
+	icon_tag = cotton
 }
