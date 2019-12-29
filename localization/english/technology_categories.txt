@@ -1,0 +1,3 @@
+culture = "Culture"
+economy = "Economy"
+military = "Military"

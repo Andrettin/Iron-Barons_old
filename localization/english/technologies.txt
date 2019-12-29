@@ -1,0 +1,6 @@
+horse_drawn_railroad = "Horse-Drawn Railroad"
+iron_railroad = "Iron Railroad"
+iron_railroad_bridge = "Iron Railroad Bridge"
+paved_road = "Paved Road"
+road = "Road"
+steel_railroad = "Steel Railroad"

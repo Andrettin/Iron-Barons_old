@@ -1,0 +1,33 @@
+road = {
+	category = economy
+}
+
+paved_road = {
+	category = economy
+	icon_tag = road
+	required_technologies += road
+}
+
+horse_drawn_railroad = {
+	category = economy
+	icon_tag = railroad
+	required_technologies += paved_road
+}
+
+iron_railroad = {
+	category = economy
+	icon_tag = railroad
+	required_technologies += horse_drawn_railroad
+}
+
+iron_railroad_bridge = {
+	category = economy
+	icon_tag = railroad
+	required_technologies += iron_railroad
+}
+
+steel_railroad = {
+	category = economy
+	icon_tag = railroad
+	required_technologies += iron_railroad
+}
