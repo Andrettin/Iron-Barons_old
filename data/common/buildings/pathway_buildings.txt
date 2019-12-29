@@ -77,7 +77,7 @@ iron_railroad = {
 
 steel_railroad = {
 	holding_types += trading_post
-	construction_days = 1
+	construction_days = 730
 	required_technologies += steel_railroad
 	icon_tag = railroad
 }
