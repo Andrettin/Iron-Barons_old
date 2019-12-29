@@ -1,6 +1,8 @@
+cotton_gin = "Cotton Gin"
 horse_drawn_railroad = "Horse-Drawn Railroad"
 iron_railroad = "Iron Railroad"
 iron_railroad_bridge = "Iron Railroad Bridge"
 paved_road = "Paved Road"
 road = "Road"
+seed_drill = "Seed Drill"
 steel_railroad = "Steel Railroad"

@@ -1,0 +1,9 @@
+seed_drill = {
+	category = economy
+	icon_tag = cog
+}
+
+cotton_gin = {
+	category = economy
+	icon_tag = cog
+}
