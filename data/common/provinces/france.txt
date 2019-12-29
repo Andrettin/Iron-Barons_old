@@ -5,6 +5,7 @@ p_ain = {
 p_aisne = {
 	county = c_aisne
 	color = { 61 167 225 }
+	trade_node = amsterdam
 
 	h_soissons = {
 		barony = b_soissons
@@ -27,6 +28,7 @@ p_ardeche = {
 p_ardennes = {
 	county = c_ardennes
 	color = { 57 127 182 }
+	trade_node = amsterdam
 
 	h_sedan = {
 		barony = b_sedan
@@ -41,6 +43,7 @@ p_ariege = {
 p_aube = {
 	county = c_aube
 	color = { 151 186 207 }
+	trade_node = amsterdam
 
 	h_troyes = {
 		barony = b_troyes
@@ -59,6 +62,7 @@ p_aveyron = {
 p_bouches_du_rhone = {
 	county = c_bouches_du_rhone
 	color = { 30 188 102 }
+	trade_node = amsterdam
 
 	h_aix_en_provence = {
 		barony = b_aix_en_provence
@@ -69,6 +73,7 @@ p_bouches_du_rhone = {
 p_calvados = {
 	county = c_calvados
 	color = { 159 131 176 }
+	trade_node = amsterdam
 
 	h_caen = {
 		barony = b_caen
@@ -91,6 +96,7 @@ p_charente_maritime = {
 p_cher = {
 	county = c_cher
 	color = { 41 104 145 }
+	trade_node = amsterdam
 
 	h_bourges = {
 		barony = b_bourges
@@ -101,6 +107,7 @@ p_cher = {
 p_colmar = {
 	county = c_colmar
 	color = { 227 177 53 }
+	trade_node = amsterdam
 
 	h_colmar = {
 		barony = b_colmar
@@ -120,6 +127,7 @@ p_correze = {
 p_cote_dor = {
 	county = c_cote_dor
 	color = { 200 208 75 }
+	trade_node = amsterdam
 
 	h_dijon = {
 		barony = b_dijon
@@ -142,6 +150,7 @@ p_deux_sevres = {
 p_doubs = {
 	county = c_doubs
 	color = { 19 83 246 }
+	trade_node = amsterdam
 
 	h_besancon = {
 		barony = b_besancon
@@ -156,6 +165,7 @@ p_dordogne = {
 p_drome = {
 	county = c_drome
 	color = { 220 208 53 }
+	trade_node = amsterdam
 
 	h_valence = {
 		barony = b_valence
@@ -187,6 +197,7 @@ p_gers = {
 p_gironde = {
 	county = c_gironde
 	color = { 128 106 254 }
+	trade_node = amsterdam
 
 	h_bordeaux = {
 		barony = b_bordeaux
@@ -197,6 +208,7 @@ p_gironde = {
 p_haute_garonne = {
 	county = c_haute_garonne
 	color = { 64 201 136 }
+	trade_node = amsterdam
 
 	h_toulouse = {
 		barony = b_toulouse
@@ -207,6 +219,7 @@ p_haute_garonne = {
 p_haute_loire = {
 	county = c_haute_loire
 	color = { 222 18 54 }
+	trade_node = amsterdam
 
 	h_le_puy = {
 		barony = b_le_puy
@@ -221,6 +234,7 @@ p_haute_marne = {
 p_haute_saone = {
 	county = c_haute_saone
 	color = { 180 10 59 }
+	trade_node = amsterdam
 
 	h_belfort = {
 		barony = b_belfort
@@ -235,6 +249,7 @@ p_haute_vienne = {
 p_hautes_alpes = {
 	county = c_hautes_alpes
 	color = { 175 73 65 }
+	trade_node = amsterdam
 
 	h_briancon = {
 		barony = b_briancon
@@ -249,6 +264,7 @@ p_hautes_pyrenees = {
 p_herault = {
 	county = c_herault
 	color = { 60 74 78 }
+	trade_node = amsterdam
 
 	h_montpellier = {
 		barony = b_montpellier
@@ -259,6 +275,7 @@ p_herault = {
 p_ile_de_france = {
 	county = c_ile_de_france
 	color = { 38 14 126 }
+	trade_node = amsterdam
 
 	h_paris = {
 		barony = b_paris
@@ -286,6 +303,7 @@ p_indre_et_loire = {
 p_isere = {
 	county = c_isere
 	color = { 243 241 175 }
+	trade_node = amsterdam
 
 	h_grenoble = {
 		barony = b_grenoble
@@ -296,6 +314,7 @@ p_isere = {
 p_jura = {
 	county = c_jura
 	color = { 201 50 23 }
+	trade_node = amsterdam
 
 	h_dole = {
 		barony = b_dole
@@ -314,6 +333,7 @@ p_loir = {
 p_loire = {
 	county = c_loire
 	color = { 238 96 125 }
+	trade_node = amsterdam
 
 	h_saint_etienne = {
 		barony = b_saint_etienne
@@ -329,6 +349,7 @@ p_loire = {
 p_loire_atlantique = {
 	county = c_loire_atlantique
 	color = { 69 184 240 }
+	trade_node = amsterdam
 
 	h_nantes = {
 		barony = b_nantes
@@ -339,6 +360,7 @@ p_loire_atlantique = {
 p_loiret = {
 	county = c_loiret
 	color = { 196 55 170 }
+	trade_node = amsterdam
 
 	h_orleans = {
 		barony = b_orleans
@@ -349,6 +371,7 @@ p_loiret = {
 p_lot = {
 	county = c_lot
 	color = { 21 18 123 }
+	trade_node = amsterdam
 
 	h_cahors = {
 		barony = b_cahors
@@ -367,6 +390,7 @@ p_lozere = {
 p_maine = {
 	county = c_maine
 	color = { 238 119 177 }
+	trade_node = amsterdam
 
 	h_angers = {
 		barony = b_angers
@@ -381,6 +405,7 @@ p_manche = {
 p_marne = {
 	county = c_marne
 	color = { 84 25 187 }
+	trade_node = amsterdam
 
 	h_reims = {
 		barony = b_reims
@@ -405,6 +430,7 @@ p_mayenne = {
 p_meurthe = {
 	county = c_meurthe
 	color = { 183 216 75 }
+	trade_node = amsterdam
 
 	h_nancy = {
 		barony = b_nancy
@@ -420,6 +446,7 @@ p_meurthe = {
 p_meuse = {
 	county = c_meuse
 	color = { 57 54 124 }
+	trade_node = amsterdam
 
 	h_verdun = {
 		barony = b_verdun
@@ -439,6 +466,7 @@ p_morbihan = {
 p_moselle = {
 	county = c_moselle
 	color = { 37 43 26 }
+	trade_node = amsterdam
 
 	h_metz = {
 		barony = b_metz
@@ -459,6 +487,7 @@ p_moselle = {
 p_nievre = {
 	county = c_nievre
 	color = { 200 235 105 }
+	trade_node = amsterdam
 
 	h_nevers = {
 		barony = b_nevers
@@ -469,6 +498,7 @@ p_nievre = {
 p_nord = {
 	county = c_nord
 	color = { 213 219 71 }
+	trade_node = amsterdam
 
 	h_lille = {
 		barony = b_lille
@@ -502,6 +532,7 @@ p_orne = {
 p_pas_de_calais = {
 	county = c_pas_de_calais
 	color = { 43 87 173 }
+	trade_node = amsterdam
 
 	h_arras = {
 		barony = b_arras
@@ -522,6 +553,7 @@ p_pas_de_calais = {
 p_puy_de_dome = {
 	county = c_puy_de_dome
 	color = { 171 185 82 }
+	trade_node = amsterdam
 
 	h_clermont_ferrand = {
 		barony = b_clermont_ferrand
@@ -536,6 +568,7 @@ p_pyrenees_atlantiques = {
 p_pyrenees_orientales = {
 	county = c_pyrenees_orientales
 	color = { 44 245 114 }
+	trade_node = amsterdam
 
 	h_perpignan = {
 		barony = b_perpignan
@@ -546,6 +579,7 @@ p_pyrenees_orientales = {
 p_rhone = {
 	county = c_rhone
 	color = { 213 168 47 }
+	trade_node = amsterdam
 
 	h_lyon = {
 		barony = b_lyon
@@ -556,6 +590,7 @@ p_rhone = {
 p_saone = {
 	county = c_saone
 	color = { 215 237 26 }
+	trade_node = amsterdam
 
 	h_chalon = {
 		barony = b_chalon
@@ -583,6 +618,7 @@ p_seine_maritime = {
 p_somme = {
 	county = c_somme
 	color = { 124 35 92 }
+	trade_node = amsterdam
 
 	h_amiens = {
 		barony = b_amiens
@@ -598,6 +634,7 @@ p_somme = {
 p_strasbourg = {
 	county = c_strasbourg
 	color = { 190 179 147 }
+	trade_node = amsterdam
 
 	h_strasbourg = {
 		barony = b_strasbourg
@@ -635,6 +672,7 @@ p_var = {
 p_vaucluse = {
 	county = c_vaucluse
 	color = { 197 254 131 }
+	trade_node = amsterdam
 
 	h_avignon = {
 		barony = b_avignon
@@ -649,6 +687,7 @@ p_vendee = {
 p_vienne = {
 	county = c_vienne
 	color = { 61 162 220 }
+	trade_node = amsterdam
 
 	h_poitiers = {
 		barony = b_poitiers
@@ -659,6 +698,7 @@ p_vienne = {
 p_vosges = {
 	county = c_vosges
 	color = { 28 155 43 }
+	trade_node = amsterdam
 
 	h_epinal = {
 		barony = b_epinal

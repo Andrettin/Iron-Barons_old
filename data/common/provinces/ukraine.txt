@@ -1,6 +1,7 @@
 p_volhynia = {
 	county = c_volhynia
 	color = { 161 211 120 }
+	trade_node = danzig
 
 	h_kovel = {
 		barony = b_kovel

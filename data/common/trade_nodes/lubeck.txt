@@ -1,0 +1,4 @@
+lubeck = {
+	color = { 252 221 9 }
+	center_of_trade = p_lauenburg
+}

@@ -54,7 +54,7 @@ d_savoy = {
 
 d_venetia = {
 	de_jure_liege_title = k_italy
-	color = { 188 0 7 }
+	color = { 55 145 105 }
 	capital_province = p_venice
 }
 
@@ -336,7 +336,7 @@ c_udine = {
 
 c_venice = {
 	de_jure_liege_title = d_venetia
-	color = { 188 0 7 }
+	color = { 55 145 105 }
 
 	b_venice = {
 	}

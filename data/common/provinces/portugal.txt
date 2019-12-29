@@ -25,6 +25,7 @@ p_castelo_branco = {
 p_coimbra = {
 	county = c_coimbra
 	color = { 244 157 147 }
+	trade_node = lisbon
 
 	h_coimbra = {
 		barony = b_coimbra
@@ -51,6 +52,7 @@ p_leiria = {
 p_lisbon = {
 	county = c_lisbon
 	color = { 36 81 20 }
+	trade_node = lisbon
 
 	h_lisbon = {
 		barony = b_lisbon
@@ -65,6 +67,7 @@ p_madeira = {
 p_oporto = {
 	county = c_oporto
 	color = { 37 113 29 }
+	trade_node = lisbon
 
 	h_oporto = {
 		barony = b_oporto

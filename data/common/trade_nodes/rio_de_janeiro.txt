@@ -1,0 +1,4 @@
+rio_de_janeiro = {
+	color = { 0 146 63 }
+	center_of_trade = p_rio_de_janeiro
+}

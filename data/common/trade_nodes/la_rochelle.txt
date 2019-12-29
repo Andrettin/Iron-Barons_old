@@ -1,0 +1,4 @@
+#la_rochelle = {
+#	color = { 245 59 55 }
+#	center_of_trade = p_charente_maritime
+#}

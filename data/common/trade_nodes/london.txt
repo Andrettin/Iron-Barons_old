@@ -1,0 +1,4 @@
+london = {
+	color = { 180 2 6 }
+	center_of_trade = p_london
+}

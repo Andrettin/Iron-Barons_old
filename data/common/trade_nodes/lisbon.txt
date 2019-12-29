@@ -1,0 +1,4 @@
+lisbon = {
+	color = { 0 102 0 }
+	center_of_trade = p_lisbon
+}

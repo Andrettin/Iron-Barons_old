@@ -1,6 +1,7 @@
 p_brest_litovsk = {
 	county = c_brest_litovsk
 	color = { 143 107 154 }
+	trade_node = danzig
 
 	h_brest_litovsk = {
 		barony = b_brest_litovsk
@@ -11,6 +12,7 @@ p_brest_litovsk = {
 p_grodno = {
 	county = c_grodno
 	color = { 207 172 208 }
+	trade_node = danzig
 
 	h_grodno = {
 		barony = b_grodno

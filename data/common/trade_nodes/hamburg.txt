@@ -1,0 +1,4 @@
+hamburg = {
+	color = { 123 129 3 }
+	center_of_trade = p_hamburg
+}

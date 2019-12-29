@@ -1,0 +1,4 @@
+amsterdam = {
+	color = { 226 64 30 }
+	center_of_trade = p_north_holland
+}

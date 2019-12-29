@@ -1,6 +1,7 @@
 p_drenthe = {
 	county = c_drenthe
 	color = { 187 206 202 }
+	trade_node = amsterdam
 	
 	h_koevorden = {
 		barony = b_koevorden
@@ -11,6 +12,7 @@ p_drenthe = {
 p_frisia = {
 	county = c_frisia
 	color = { 1 21 171 }
+	trade_node = amsterdam
 	
 	h_leeuwarden = {
 		barony = b_leeuwarden
@@ -26,6 +28,7 @@ p_frisia = {
 p_gelderland = {
 	county = c_gelderland
 	color = { 49 34 2 }
+	trade_node = amsterdam
 
 	h_arnheim = {
 		barony = b_arnheim
@@ -36,6 +39,7 @@ p_gelderland = {
 p_groningen = {
 	county = c_groningen
 	color = { 195 238 117 }
+	trade_node = amsterdam
 
 	h_groningen = {
 		barony = b_groningen
@@ -46,6 +50,7 @@ p_groningen = {
 p_north_brabant = {
 	county = c_north_brabant
 	color = { 191 57 26 }
+	trade_node = amsterdam
 
 	h_hertogenbosch = {
 		barony = b_hertogenbosch
@@ -56,6 +61,7 @@ p_north_brabant = {
 p_north_holland = {
 	county = c_north_holland
 	color = { 235 143 160 }
+	trade_node = amsterdam
 
 	h_amsterdam = {
 		barony = b_amsterdam
@@ -71,6 +77,7 @@ p_north_holland = {
 p_north_limburg = {
 	county = c_north_limburg
 	color = { 153 211 235 }
+	trade_node = amsterdam
 
 	h_maastricht = {
 		barony = b_maastricht
@@ -81,6 +88,7 @@ p_north_limburg = {
 p_overijssel = {
 	county = c_overijssel
 	color = { 217 195 0 }
+	trade_node = amsterdam
 	
 	h_zwolle = {
 		barony = b_zwolle
@@ -91,6 +99,7 @@ p_overijssel = {
 p_south_holland = {
 	county = c_south_holland
 	color = { 234 235 49 }
+	trade_node = amsterdam
 	
 	h_the_hague = {
 		barony = b_the_hague
@@ -111,6 +120,7 @@ p_south_holland = {
 p_utrecht = {
 	county = c_utrecht
 	color = { 197 54 6 }
+	trade_node = amsterdam
 	
 	h_utrecht = {
 		barony = b_utrecht
@@ -121,6 +131,7 @@ p_utrecht = {
 p_zeeland = {
 	county = c_zeeland
 	color = { 240 251 186 }
+	trade_node = amsterdam
 	
 	h_middelburg = {
 		barony = b_middelburg

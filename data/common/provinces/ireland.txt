@@ -1,6 +1,7 @@
 p_dublin = {
 	county = c_dublin
 	color = { 98 64 38 }
+	trade_node = london
 
 	h_dublin = {
 		barony = b_dublin

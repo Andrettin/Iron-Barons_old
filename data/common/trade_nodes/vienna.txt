@@ -1,0 +1,4 @@
+vienna = {
+	color = { 236 236 236 }
+	center_of_trade = p_vienna
+}

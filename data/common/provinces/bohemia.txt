@@ -1,6 +1,7 @@
 p_aussig = {
 	county = c_aussig
 	color = { 85 77 57 }
+	trade_node = vienna
 
 	h_teplitz = {
 		barony = b_teplitz
@@ -11,6 +12,7 @@ p_aussig = {
 p_carlsbad = {
 	county = c_carlsbad
 	color = { 55 53 242 }
+	trade_node = vienna
 
 	h_carlsbad = {
 		barony = b_carlsbad
@@ -26,6 +28,7 @@ p_carlsbad = {
 p_central_bohemia = {
 	county = c_central_bohemia
 	color = { 30 207 116 }
+	trade_node = vienna
 
 	h_prague = {
 		barony = b_prague
@@ -41,6 +44,7 @@ p_central_bohemia = {
 p_koniggratz = {
 	county = c_koniggratz
 	color = { 175 50 230 }
+	trade_node = vienna
 
 	h_koniggratz = {
 		barony = b_koniggratz
@@ -96,6 +100,7 @@ p_koniggratz = {
 p_moravia = {
 	county = c_moravia
 	color = { 224 131 143 }
+	trade_node = vienna
 
 	h_brunn = {
 		barony = b_brunn
@@ -136,6 +141,7 @@ p_moravia = {
 p_pardubitz = {
 	county = c_pardubitz
 	color = { 192 235 180 }
+	trade_node = vienna
 
 	h_pardubitz = {
 		barony = b_pardubitz
@@ -146,6 +152,7 @@ p_pardubitz = {
 p_pilsen = {
 	county = c_pilsen
 	color = { 230 91 126 }
+	trade_node = vienna
 
 	h_pilsen = {
 		barony = b_pilsen
@@ -156,6 +163,7 @@ p_pilsen = {
 p_reichenberg = {
 	county = c_reichenberg
 	color = { 208 99 244 }
+	trade_node = vienna
 
 	h_huhnerwasser = {
 		barony = b_huhnerwasser
@@ -171,6 +179,7 @@ p_reichenberg = {
 p_south_bohemia = {
 	county = c_south_bohemia
 	color = { 175 88 78 }
+	trade_node = vienna
 	
 	h_budweis = {
 		barony = b_budweis
@@ -181,6 +190,7 @@ p_south_bohemia = {
 p_tabor = {
 	county = c_tabor
 	color = { 154 4 191 }
+	trade_node = vienna
 
 	h_tabor = {
 		barony = b_tabor
@@ -191,6 +201,7 @@ p_tabor = {
 p_teschen = {
 	county = c_teschen
 	color = { 250 97 3 }
+	trade_node = vienna
 
 	h_teschen = {
 		barony = b_teschen
@@ -201,6 +212,7 @@ p_teschen = {
 p_troppau = {
 	county = c_troppau
 	color = { 208 156 43 }
+	trade_node = vienna
 	
 	h_troppau = {
 		barony = b_troppau

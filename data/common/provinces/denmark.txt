@@ -5,6 +5,7 @@ p_bornholm = {
 p_funen = {
 	county = c_funen
 	color = { 84 48 146 }
+	trade_node = lubeck
 
 	h_odense = {
 		barony = b_odense
@@ -15,6 +16,7 @@ p_funen = {
 p_middle_jutland = {
 	county = c_middle_jutland
 	color = { 174 209 177 }
+	trade_node = lubeck
 
 	h_kolding = {
 		barony = b_kolding
@@ -44,6 +46,7 @@ p_north_jutland = {
 p_north_schleswig = {
 	county = c_north_schleswig
 	color = { 251 225 65 }
+	trade_node = hamburg
 
 	h_ribe = {
 		barony = b_ribe
@@ -64,6 +67,7 @@ p_north_schleswig = {
 p_sjaelland = {
 	county = c_sjaelland
 	color = { 51 172 182 }
+	trade_node = lubeck
 
 	h_copenhagen = {
 		barony = b_copenhagen
@@ -89,6 +93,7 @@ p_sjaelland = {
 p_south_schleswig = {
 	county = c_south_schleswig
 	color = { 223 14 171 }
+	trade_node = hamburg
 
 	h_eckernforde = {
 		barony = b_eckernforde
