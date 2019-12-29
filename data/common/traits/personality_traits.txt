@@ -1,3 +1,8 @@
+brave = {
+	icon_tag = lion
+	personality = true
+}
+
 cynical = {
 	icon_tag = blood
 	personality = true

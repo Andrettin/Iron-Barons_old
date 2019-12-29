@@ -223,6 +223,7 @@
 /graphics/icons/commodities/tools.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/wine.png (by Jinn) (licensed under the CC0)
 /graphics/icons/commodities/wool.png (by Jinn) (licensed under the CC0)
+/graphics/icons/fauna/lion.png (by Jinn) (licensed under the CC0)
 /graphics/icons/items/book.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/items/book_extra_1.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/items/book_large.png (by Exidelo) (licensed under the CC0)
