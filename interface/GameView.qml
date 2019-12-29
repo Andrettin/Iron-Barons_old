@@ -283,9 +283,23 @@ Item {
 	}
 
 	Button {
+		id: technologies_button
+		anchors.top: extra_holdings_button.bottom
+		anchors.left: province_interface.right
+		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
+		text: "<font color=\"black\">Technologies</font>"
+		width: 96
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			province_interface.mode = ProvinceInterface.Mode.Technologies
+		}
+	}
+
+	Button {
 		id: wildlife_button
-		anchors.top: extra_holdings_button.visible ? extra_holdings_button.bottom : (palace_holdings_button.visible ? palace_holdings_button.bottom : (settlement_holdings_button.visible ? settlement_holdings_button.bottom : province_interface.top))
-		anchors.topMargin: settlement_holdings_button.visible ? 0 : (province_interface.holding_area_y + 8)
+		anchors.top: technologies_button.visible ? technologies_button.bottom : province_interface.top
+		anchors.topMargin: technologies_button.visible ? 0 : (province_interface.holding_area_y + 8)
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.wildlife_units.length > 0
 		text: "<font color=\"black\">Wildlife</font>"

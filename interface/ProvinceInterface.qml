@@ -12,6 +12,7 @@ Item {
 		Settlements,
 		Palaces,
 		Other,
+		Technologies,
 		Wildlife
 	}
 
@@ -365,7 +366,7 @@ Item {
 		anchors.bottomMargin: 8
 		width: 290
 		height: 193
-		visible: mode !== ProvinceInterface.Mode.Wildlife
+		visible: mode !== ProvinceInterface.Mode.Wildlife && mode !== ProvinceInterface.Mode.Technologies
 
 		HoldingGrid {
 			id: settlement_holding_grid
@@ -389,6 +390,49 @@ Item {
 		}
 	}
 
+	Flickable {
+		id: technology_area
+		anchors.left: parent.left
+		anchors.leftMargin: 16
+		anchors.right: parent.right
+		anchors.rightMargin: 16
+		anchors.top: terrain_area.bottom
+		anchors.topMargin: 16
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 8
+		contentWidth: technology_grid.width
+		contentHeight: technology_grid.height
+		clip: true
+		interactive: false
+		boundsBehavior: Flickable.StopAtBounds
+		ScrollBar.vertical: ScrollBar {}
+		visible: mode === ProvinceInterface.Mode.Technologies
+
+		Grid {
+			id: technology_grid
+			columns: 7
+			columnSpacing: 4
+			rowSpacing: 4
+
+			Repeater {
+				model: province ? province.technologies : []
+
+				Image {
+					source: model.modelData.icon_path
+					width: 32
+					height: 32
+
+					MouseArea {
+						anchors.fill: parent
+						hoverEnabled: true
+						ToolTip.text: tooltip(model.modelData.name)
+						ToolTip.visible: containsMouse
+						ToolTip.delay: 1000
+					}
+				}
+			}
+		}
+	}
 
 	ProvinceWildlifeUnitInterface {
 		id: wildlife_unit_area

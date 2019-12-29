@@ -67,27 +67,19 @@ Item {
 			rowSpacing: 4
 
 			Repeater {
-				model: metternich.selected_character ? metternich.selected_character.traits : []
+				model: character ? character.traits : []
 
-				Item {
+				Image {
+					source: model.modelData.icon_path
 					width: 32
 					height: 32
 
-					Image {
-						source: model.modelData.icon_path
-						width: 32
-						height: 32
-						anchors.left: parent.left
-						anchors.leftMargin: 8
-						anchors.verticalCenter: parent.verticalCenter
-
-						MouseArea {
-							anchors.fill: parent
-							hoverEnabled: true
-							ToolTip.text: tooltip(model.modelData.name)
-							ToolTip.visible: containsMouse
-							ToolTip.delay: 1000
-						}
+					MouseArea {
+						anchors.fill: parent
+						hoverEnabled: true
+						ToolTip.text: tooltip(model.modelData.name)
+						ToolTip.visible: containsMouse
+						ToolTip.delay: 1000
 					}
 				}
 			}
