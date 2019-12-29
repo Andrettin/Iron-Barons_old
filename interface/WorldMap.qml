@@ -17,8 +17,7 @@ Item {
 		Culture,
 		CultureGroup,
 		Religion,
-		ReligionGroup,
-		Clade
+		ReligionGroup
 	}
 
 	function moveLeft(pixels) {
@@ -88,7 +87,6 @@ Item {
 						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + model.modelData.culture.culture_group.name : "")
 						+ (model.modelData.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br><br>Religion: " + model.modelData.religion.name : "")
 						+ (model.modelData.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + model.modelData.religion.religion_group.name : "")
-						+ (model.modelData.clade && metternich.map_mode === WorldMap.Mode.Clade ? "<br><br>Clade: " + model.modelData.clade.name : "")
 					)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000

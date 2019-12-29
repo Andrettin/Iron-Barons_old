@@ -65,11 +65,6 @@ Item {
 					map_center = world.coordinate_to_point(center_coordinate)
 					this.x = (game_view.parent.width / 2) - map_center.x
 					this.y = (game_view.parent.height / 2) - map_center.y
-				} else if (metternich.game.player_clade && metternich.game.player_clade.provinces[0].world === world) {
-					center_coordinate = metternich.game.player_clade.provinces[0].center_coordinate;
-					map_center = world.coordinate_to_point(center_coordinate)
-					this.x = (game_view.parent.width / 2) - map_center.x
-					this.y = (game_view.parent.height / 2) - map_center.y
 				} else {
 					this.x = (game_view.parent.width / 2) - (this.width / 2)
 					this.y = (game_view.parent.height / 2) - (this.height / 2)
@@ -135,7 +130,7 @@ Item {
 
 			Text {
 				id: player_character_label
-				text: metternich.game.player_character ? metternich.game.player_character.titled_name : metternich.game.player_clade.name
+				text: metternich.game.player_character ? metternich.game.player_character.titled_name : ""
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
 				anchors.leftMargin: 8
@@ -536,7 +531,7 @@ Item {
 
 	Button {
 		id: religion_group_map_mode_button
-		anchors.bottom: clade_map_mode_button.visible ? clade_map_mode_button.bottom : parent.bottom
+		anchors.bottom: parent.bottom
 		anchors.right: parent.right
 		text: "<font color=\"black\">Religion Group</font>"
 		width: 128
@@ -544,20 +539,6 @@ Item {
 		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.ReligionGroup
-		}
-	}
-
-	Button {
-		id: clade_map_mode_button
-		visible: metternich.game.player_clade !== null
-		anchors.bottom: parent.bottom
-		anchors.right: parent.right
-		text: "<font color=\"black\">Clade</font>"
-		width: 128
-		height: 32
-		font.pixelSize: 12
-		onClicked: {
-			metternich.map_mode = WorldMap.Mode.Clade
 		}
 	}
 

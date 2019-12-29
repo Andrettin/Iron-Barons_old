@@ -17,7 +17,7 @@ Item {
 	}
 
 	property real holding_area_y: holding_area.y
-	property int mode: metternich.game.player_clade ? ProvinceInterface.Mode.Wildlife : ProvinceInterface.Mode.Settlements
+	property int mode: ProvinceInterface.Mode.Settlements
 
 	Rectangle {
 		id: province_background
@@ -386,7 +386,7 @@ Item {
 			id: extra_holding_grid
 			anchors.fill: parent
 			visible: mode === ProvinceInterface.Mode.Other
-			holding_model: province ? [province.fort_holding_slot, province.university_holding_slot, province.hospital_holding_slot, province.factory_holding_slot] : []
+			holding_model: province ? [province.fort_holding_slot, province.university_holding_slot, province.hospital_holding_slot, province.trading_post_holding_slot, province.factory_holding_slot] : []
 		}
 	}
 
