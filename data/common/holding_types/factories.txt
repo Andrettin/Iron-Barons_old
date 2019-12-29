@@ -1,0 +1,4 @@
+textile_mill = {
+	slot_type = factory
+	portrait_tag = factory
+}

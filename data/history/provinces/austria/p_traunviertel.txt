@@ -1,5 +1,10 @@
 religion = catholic
 
+1672 = {
+	h_linz = town
+	factory = textile_mill #Christian Sind founded the Linzer Wollzeugfabrik (a wool textile factory located in Linz) in 1672; Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs nach dem Oriente und nach Ostindien in der ersten Hälfte des 18. Jahrhunderts", 1900, p. 57.
+}
+
 1815 = {
 	culture = austrian #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
 	
@@ -9,4 +14,8 @@ religion = catholic
 	h_ischl = village #Ischl existed as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_linz
+}
+
+1858 = {
+	factory = none #the Linzer Wollzeugfabrik was abolished in 1858; Source: Josef Dullinger, "Die Handelskompagnien Oesterreichs nach dem Oriente und nach Ostindien in der ersten Hälfte des 18. Jahrhunderts", 1900, pp. 72-73.
 }
