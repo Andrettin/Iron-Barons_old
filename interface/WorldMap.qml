@@ -1,5 +1,6 @@
-import QtQuick 2.12
-import QtQuick.Controls 2.5
+import QtQuick 2.14
+import QtQuick.Controls 2.14
+import QtQuick.Shapes 1.14
 import MaskedMouseArea 1.0
 
 Item {
@@ -104,6 +105,27 @@ Item {
 						}
 						metternich.selected_character = null
 					}
+				}
+			}
+		}
+
+		Repeater {
+			model: world ? world.trade_routes : []
+
+			Shape {
+				anchors.fill: parent
+				visible: metternich.map_mode === WorldMap.Mode.TradeNode
+
+				ShapePath {
+					strokeWidth: 4
+					strokeColor: "yellow"
+					strokeStyle: ShapePath.SolidLine
+					capStyle: ShapePath.RoundCap
+					joinStyle: ShapePath.RoundJoin
+					fillColor: "transparent"
+					startX: model.modelData.path_points[0].x
+					startY: model.modelData.path_points[0].y
+					PathPolyline { path: model.modelData.path_points }
 				}
 			}
 		}
