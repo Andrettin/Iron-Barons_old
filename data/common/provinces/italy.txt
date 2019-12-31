@@ -123,7 +123,7 @@ p_cuneo = {
 p_demona = {
 	county = c_demona
 	color = { 108 244 160 }
-	trade_node = genoa
+	trade_node = rome
 
 	h_catania = {
 		barony = b_catania
@@ -154,7 +154,7 @@ p_haute_corse = {
 p_latium = {
 	county = c_latium
 	color = { 57 237 186 }
-	trade_node = genoa
+	trade_node = rome
 
 	h_rome = {
 		barony = b_rome
@@ -197,7 +197,7 @@ p_mantua = {
 p_mazzara = {
 	county = c_mazzara
 	color = { 64 1 84 }
-	trade_node = genoa
+	trade_node = rome
 
 	h_palermo = {
 		barony = b_palermo
@@ -314,7 +314,7 @@ p_parma = {
 p_principato_citra = {
 	county = c_principato_citra
 	color = { 32 118 209 }
-	trade_node = genoa
+	trade_node = rome
 
 	h_salerno = {
 		barony = b_salerno
@@ -381,7 +381,7 @@ p_sondrio = {
 p_terra_di_lavoro = {
 	county = c_terra_di_lavoro
 	color = { 236 204 186 }
-	trade_node = genoa
+	trade_node = rome
 
 	h_naples = {
 		barony = b_naples
