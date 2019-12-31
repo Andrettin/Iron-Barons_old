@@ -113,12 +113,15 @@ Item {
 			model: world ? world.trade_routes : []
 
 			Shape {
-				anchors.fill: parent
+				x: model.modelData.rect.x
+				y: model.modelData.rect.y
+				width: model.modelData.rect.width
+				height: model.modelData.rect.height
 				visible: metternich.map_mode === WorldMap.Mode.TradeNode
 
 				ShapePath {
-					strokeWidth: 4
-					strokeColor: "yellow"
+					strokeWidth: 2
+					strokeColor: "gold"
 					strokeStyle: ShapePath.SolidLine
 					capStyle: ShapePath.RoundCap
 					joinStyle: ShapePath.RoundJoin
