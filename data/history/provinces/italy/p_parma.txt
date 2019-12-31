@@ -1,5 +1,10 @@
 religion = catholic
 
+-100 = {
+	trading_post = trading_post
+	trading_post += paved_road #the Aemilian Way roman road existed c. 100 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 29.
+}
+
 1248 = {
 	h_piacenza = town
 	university = university #University founded in Piacenza in 1248; Source: William R. Shepherd, "Historical Atlas", 1923, p. 100.
