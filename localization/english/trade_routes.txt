@@ -1,1 +1,3 @@
+cassian_way = "Cassian Way"
+flaminian_way = "Flaminian Way"
 postumian_way = "Postumian Way"
