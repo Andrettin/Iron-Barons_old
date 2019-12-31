@@ -1,3 +1,2 @@
 postumian_way = { #Postumian Way Roman road; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 26-27.
-	path = { p_genoa p_alessandria p_parma p_cremona p_mantua p_verona p_treviso p_venice } #path modified so that it ends in Venice instead of Aquileia
 }
