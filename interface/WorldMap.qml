@@ -59,19 +59,24 @@ Item {
 			model: world ? world.provinces : []
 			
 			Image {
+				property int flag: 0
+
 				x: model.modelData.rect.x
 				y: model.modelData.rect.y
 				width: model.modelData.rect.width
 				height: model.modelData.rect.height
-				source: "image://provinces/" + model.modelData.identifier
+				source: "image://provinces/" + model.modelData.identifier + "?flag=" + flag
 				cache: false
 
 				Connections {
 					target: model.modelData
 					onImageChanged: {
-						var old_source = source
-						source = "image://empty/"
-						source = old_source
+						//the flag is used for the workaround to make the image be reloaded
+						if (flag == 0) {
+							flag = 1
+						} else {
+							flag = 0
+						}
 					}
 				}
 
