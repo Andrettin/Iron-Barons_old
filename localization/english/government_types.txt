@@ -1,0 +1,5 @@
+absolute_monarchy = "Absolute Monarchy"
+aristocratic_republic = "Aristocratic Republic"
+constitutional_monarchy = "Constitutional Monarchy"
+democratic_republic = "Democratic Republic"
+governorate = "Governorate"

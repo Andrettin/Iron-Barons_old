@@ -1,0 +1,12 @@
+constitutional_monarchy = {
+	group = monarchy
+	allowed_holding_types += manor
+	allowed_holding_types += town
+	allowed_holding_types += city
+	allowed_holding_types += metropolis
+	allowed_holding_types += aristocratic_palace
+	
+	conditions = {
+		has_law = primogeniture_succession
+	}
+}

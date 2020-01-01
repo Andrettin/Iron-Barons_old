@@ -6,3 +6,4 @@ default_game_speed = normal
 cultural_derivation_factor = 0.005 #0.50%
 max_settlement_slots_per_province = 7
 max_palace_slots_per_province = 6
+succession_law_group = succession

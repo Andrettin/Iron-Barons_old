@@ -1,0 +1,4 @@
+monarchy = "Monarchy"
+republic = "Republic"
+theocracy = "Theocracy"
+tribe = "Tribe"

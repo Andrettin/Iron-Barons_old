@@ -1,0 +1,12 @@
+aristocratic_republic = {
+	group = republic
+	allowed_holding_types += manor
+	allowed_holding_types += town
+	allowed_holding_types += city
+	allowed_holding_types += metropolis
+	allowed_holding_types += aristocratic_palace
+	
+	conditions = {
+		has_law = aristocratic_elective_succession
+	}
+}

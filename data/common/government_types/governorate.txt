@@ -1,0 +1,11 @@
+governorate = {
+	group = republic
+	allowed_holding_types += village
+	allowed_holding_types += town
+	allowed_holding_types += city
+	allowed_holding_types += metropolis
+	
+	conditions = {
+		has_law = appointment_succession
+	}
+}
