@@ -1,0 +1,13 @@
+hellenic = {
+	species = human
+	color = { 70 178 213 }
+	default_phenotype = european
+
+	male_names = {
+		Alessandro #placeholder
+	}
+	
+	female_names = {
+		Giovanna #placeholder
+	}
+}
