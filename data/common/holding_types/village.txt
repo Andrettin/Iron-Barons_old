@@ -1,4 +1,5 @@
 village = {
 	slot_type = settlement
 	portrait_tag = town
+	default_laws += open_elective_succession
 }
