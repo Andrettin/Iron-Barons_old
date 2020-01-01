@@ -1,3 +1,4 @@
 1811.6.10 = {
 	holder = 10000516 #Karl Ludwig von Zähringen; succeeded his grandfather, grand duke Karl Friedrich of Baden, on 1811.6.10; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
+	laws += primogeniture_succession
 }

@@ -1,3 +1,4 @@
 1815 = {
 	holder = 10000615 #George of Brunswick-Luneburg
+	laws += primogeniture_succession
 }
