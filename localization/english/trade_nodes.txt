@@ -1,4 +1,5 @@
 amsterdam = "Amsterdam"
+athens = "Athens"
 byzantium = "Byzantium"
 byzantium_christian = "Constantinople"
 byzantium_turkish = "Istanbul"

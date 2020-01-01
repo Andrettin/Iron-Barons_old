@@ -11,7 +11,14 @@ p_aetolia = {
 }
 
 p_attica = {
+	county = c_attica
 	color = { 103 37 25 }
+	trade_node = athens
+	
+	h_athens = {
+		barony = b_athens
+		type = settlement
+	}
 }
 
 p_boeotia = {

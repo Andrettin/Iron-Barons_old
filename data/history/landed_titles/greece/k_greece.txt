@@ -1,0 +1,4 @@
+1830 = {
+	holder = random #Kingdom of Greece founded in 1830; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	laws += primogeniture_succession
+}

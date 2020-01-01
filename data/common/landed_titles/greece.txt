@@ -1,3 +1,15 @@
+k_greece = {
+	color = { 70 178 213 }
+	capital_province = p_attica
+}
+
+c_attica = {
+	color = { 103 37 25 }
+
+	b_athens = {
+	}
+}
+
 c_byzantium = {
 	color = { 149 72 188 }
 
