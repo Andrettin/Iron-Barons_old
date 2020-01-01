@@ -19,7 +19,14 @@ p_boeotia = {
 }
 
 p_byzantium = {
+	county = c_byzantium
 	color = { 149 72 188 }
+	trade_node = byzantium
+	
+	h_byzantium = {
+		barony = b_byzantium
+		type = settlement
+	}
 }
 
 p_central_macedonia = {

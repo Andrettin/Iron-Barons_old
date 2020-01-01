@@ -1,0 +1,25 @@
+laborers = {
+	region = r_turkey
+	discount_existing = yes
+	discount_any_type = yes
+	
+	1 = {
+		size = 6100000 #Turkey had a population of 6,100,000 in 1 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1000 = {
+		size = 7300000 #Turkey had a population of 7,300,000 in 1000 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1500 = {
+		size = 6300000 #Turkey had a population of 6,300,000 in 1500 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1600 = {
+		size = 7900000 #Turkey had a population of 7,900,000 in 1600 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+
+	1700 = {
+		size = 8400000 #Turkey had a population of 8,400,000 in 1700 AD; Source: Angus Maddison, "Statistics on World Population, GDP and Per Capita GDP, 1-2008 AD", 2010.
+	}
+}

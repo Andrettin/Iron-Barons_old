@@ -1,0 +1,6 @@
+c_byzantium = {
+	color = { 149 72 188 }
+
+	b_byzantium = {
+	}
+}

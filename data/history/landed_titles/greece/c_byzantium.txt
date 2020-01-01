@@ -1,0 +1,3 @@
+1683 = {
+	holder_title = e_turkey #part of the Ottoman Empire as of 1683; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+}
