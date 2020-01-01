@@ -14,7 +14,11 @@ Image {
 	MouseArea {
 		anchors.fill: parent
 		hoverEnabled: true
-		ToolTip.text: tooltip(landed_title ? landed_title.titled_name : "")
+		ToolTip.text: tooltip(
+			landed_title ?
+				landed_title.titled_name
+				+ (landed_title.holder ? "<br><br>Holder: " + landed_title.holder.titled_name + "<br>Government Type: " + landed_title.government_type.name : "")
+			: "")
 		ToolTip.visible: containsMouse
 		ToolTip.delay: 1000
 	}
