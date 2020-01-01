@@ -2,7 +2,11 @@ appointment_succession = {
 	group = succession
 }
 
-open_elective_succession = {
+aristocratic_elective_succession = { #only noble characters are eligible
+	group = succession
+}
+
+open_elective_succession = { #no social class restriction on eligibility
 	group = succession
 }
 

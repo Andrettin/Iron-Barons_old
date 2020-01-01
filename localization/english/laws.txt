@@ -1,3 +1,4 @@
 appointment_succession = "Appointment"
+aristocratic_elective_succession = "Aristocratic Elective"
 open_elective_succession = "Open Elective"
 primogeniture_succession = "Primogeniture"
