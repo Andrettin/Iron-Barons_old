@@ -1,0 +1,13 @@
+turkic = {
+	species = human
+	color = { 184 208 130 }
+	default_phenotype = european
+	
+	male_names = {
+		Ferenc Mátyás József #placeholder
+	}
+	
+	female_names = {
+		Karolina #placeholder
+	}
+}

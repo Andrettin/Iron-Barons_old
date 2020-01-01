@@ -1,0 +1,4 @@
+turkish = {
+	culture_group = turkic
+	color = { 184 208 130 }
+}
