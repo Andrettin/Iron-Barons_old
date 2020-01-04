@@ -1,5 +1,10 @@
 religion = protestant
 
+410 = {
+	trading_post = trading_post
+	trading_post += paved_road #the Ermine Street roman road existed c. 410; Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
+}
+
 1582 = {
 	h_edinburgh = town
 	university = university #University founded in Edinburgh in 1582; Source: "The Cambridge Modern History Atlas", p. 9.

@@ -1,5 +1,10 @@
 religion = protestant
 
+410 = {
+	trading_post = trading_post
+	trading_post += paved_road #the Ermine Street and Watling Street roman roads existed c. 410; Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
+}
+
 1250 = {
 	h_cambridge = town
 	university = university #University existent in Cambridge in 1250; Source: "Atlas de História Mundial", p. 144.

@@ -1,5 +1,10 @@
 religion = protestant
 
+410 = {
+	trading_post = trading_post
+	trading_post += paved_road #the Ermine Street and Watling Street roman roads existed c. 410; Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
+}
+
 1500 = {
 	h_london = city #London existed as of 1500; Source: Lawrence Stone, "As Causas da Revolução Inglesa: 1529-1642", pp. 134-135.
 	
