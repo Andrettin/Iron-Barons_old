@@ -19,7 +19,8 @@ Item {
 		CultureGroup,
 		Religion,
 		ReligionGroup,
-		TradeNode
+		TradeNode,
+		TradeArea
 	}
 
 	function moveLeft(pixels) {
@@ -94,8 +95,10 @@ Item {
 						+ (model.modelData.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + model.modelData.culture.culture_group.name : "")
 						+ (model.modelData.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br><br>Religion: " + model.modelData.religion.name : "")
 						+ (model.modelData.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + model.modelData.religion.religion_group.name : "")
-						+ (metternich.map_mode === WorldMap.Mode.TradeNode && model.modelData.trade_node && model.modelData.owner ? "<br><br>Trade Node: " + model.modelData.trade_node.name : "")
-						+ (metternich.map_mode === WorldMap.Mode.TradeNode && model.modelData.trade_node && model.modelData.trade_node.center_of_trade === model.modelData && model.modelData.owner ? "<br>Center of Trade" : "")
+						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_node && model.modelData.owner ? "<br><br>Trade Node: " + model.modelData.trade_node.name : "")
+						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_area && model.modelData.owner ? "<br>Trade Area: " + model.modelData.trade_area.name : "")
+						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_node && model.modelData.trade_node.center_of_trade === model.modelData && model.modelData.major_center_of_trade === false && model.modelData.owner ? "<br>Center of Trade" : "")
+						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_node && model.modelData.trade_node.center_of_trade === model.modelData && model.modelData.major_center_of_trade === true && model.modelData.owner ? "<br>Major Center of Trade" : "")
 					)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
@@ -122,7 +125,7 @@ Item {
 				y: model.modelData.rect.y
 				width: model.modelData.rect.width
 				height: model.modelData.rect.height
-				visible: metternich.map_mode === WorldMap.Mode.TradeNode
+				visible: metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea
 
 				ShapePath {
 					strokeWidth: 2
