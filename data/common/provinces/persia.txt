@@ -1,0 +1,123 @@
+p_alborz = {
+	color = { 197 108 46 }
+}
+
+p_ardebil = {
+	color = { 103 82 237 }
+}
+
+p_bushehr = {
+	color = { 53 16 37 }
+}
+
+p_chahar_mahall = {
+	color = { 91 169 71 }
+}
+
+p_east_azarbaijan = {
+	color = { 188 26 140 }
+}
+
+p_fars = {
+	color = { 117 253 64 }
+}
+
+p_gilan = {
+	color = { 198 168 5 }
+}
+
+p_golestan = {
+	color = { 55 61 96 }
+}
+
+p_hamadan = {
+	color = { 86 196 165 }
+}
+
+p_hormozgan = {
+	color = { 116 13 253 }
+}
+
+p_ilam = {
+	color = { 222 136 42 }
+}
+
+p_isfahan = {
+	color = { 159 41 99 }
+}
+
+p_kerman = {
+	color = { 223 248 71 }
+}
+
+p_kermanshah = {
+	color = { 6 180 28 }
+}
+
+p_khuzestan = {
+	color = { 6 108 112 }
+}
+
+p_kohgiluyeh = {
+	color = { 88 215 2 }
+}
+
+p_kordestan = {
+	color = { 69 114 123 }
+}
+
+p_lorestan = {
+	color = { 224 114 241 }
+}
+
+p_markazi = {
+	color = { 253 155 27 }
+}
+
+p_mazandaran = {
+	color = { 185 2 96 }
+}
+
+p_north_khorasan = {
+	color = { 25 82 28 }
+}
+
+p_qazvin = {
+	color = { 162 200 8 }
+}
+
+p_qom = {
+	color = { 121 26 231 }
+}
+
+p_razavi_khorasan = {
+	color = { 235 141 119 }
+}
+
+p_semnan = {
+	color = { 46 82 85 }
+}
+
+p_sistan = {
+	color = { 122 133 53 }
+}
+
+p_south_khorasan = {
+	color = { 17 211 125 }
+}
+
+p_teheran = {
+	color = { 216 43 136 }
+}
+
+p_west_azarbaijan = {
+	color = { 9 98 61 }
+}
+
+p_yazd = {
+	color = { 147 8 26 }
+}
+
+p_zanjan = {
+	color = { 180 3 230 }
+}
