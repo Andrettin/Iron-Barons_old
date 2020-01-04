@@ -1,11 +1,11 @@
 e_austria = {
-	color = { 236 236 236 }
+	color = { 224 224 224 }
 	capital_province = p_vienna
 }
 
 k_austria = { #represents the Kreis of Austria in the HRE, and the post-WW1 republic of Austria
 	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
-	color = { 236 236 236 }
+	color = { 224 224 224 }
 	capital_province = p_vienna
 }
 
