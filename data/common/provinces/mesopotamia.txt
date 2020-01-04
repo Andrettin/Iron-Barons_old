@@ -2,6 +2,10 @@ p_al_ahmadi = {
 	color = { 93 65 190 }
 }
 
+p_al_anbar = {
+	color = { 248 151 149 }
+}
+
 p_al_basrah = {
 	color = { 148 204 120 }
 }
@@ -22,12 +26,48 @@ p_an_najaf = {
 	color = { 110 8 253 }
 }
 
+p_arbela = {
+	color = { 189 105 97 }
+}
+
+p_as_sulaymaniyah = {
+	color = { 167 114 164 }
+}
+
+p_at_tamim = {
+	color = { 141 228 140 }
+}
+
+p_babylon = {
+	color = { 205 177 154 }
+}
+
 p_dhi_qar = {
 	color = { 130 33 42 }
 }
 
+p_dihok = {
+	color = { 148 184 210 }
+}
+
+p_diyala = {
+	color = { 161 101 85 }
+}
+
+p_karbala = {
+	color = { 110 77 80 }
+}
+
 p_maysan = {
 	color = { 150 158 1 }
+}
+
+p_nineveh = {
+	color = { 164 218 46 }
+}
+
+p_sala_ad_din = {
+	color = { 170 173 229 }
 }
 
 p_wasit = {
