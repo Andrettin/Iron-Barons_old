@@ -9,7 +9,6 @@ p_buckinghamshire = {
 p_cambridgeshire = {
 	county = c_cambridgeshire
 	color = { 107 74 157 }
-	trade_node = london
 
 	h_cambridge = {
 		barony = b_cambridge
@@ -44,7 +43,6 @@ p_dorset = {
 p_durham = {
 	county = c_durham
 	color = { 90 26 21 }
-	trade_node = london
 
 	h_durham = {
 		barony = b_durham
@@ -67,7 +65,6 @@ p_essex = {
 p_gloucestershire = {
 	county = c_gloucestershire
 	color = { 85 254 228 }
-	trade_node = london
 
 	h_bristol = {
 		barony = b_bristol
@@ -94,7 +91,6 @@ p_isle_of_man = {
 p_kent = {
 	county = c_kent
 	color = { 102 90 140 }
-	trade_node = london
 
 	h_dover = {
 		barony = b_dover
@@ -105,7 +101,6 @@ p_kent = {
 p_lancashire = {
 	county = c_lancashire
 	color = { 235 197 115 }
-	trade_node = london
 
 	h_manchester = {
 		barony = b_manchester
@@ -129,7 +124,6 @@ p_lincolnshire = {
 p_london = {
 	county = c_london
 	color = { 242 84 91 }
-	trade_node = london
 
 	h_london = {
 		barony = b_london
@@ -140,7 +134,6 @@ p_london = {
 p_norfolk = {
 	county = c_norfolk
 	color = { 251 212 49 }
-	trade_node = london
 
 	h_norwich = {
 		barony = b_norwich
@@ -167,7 +160,6 @@ p_nottinghamshire = {
 p_oxfordshire = {
 	county = c_oxfordshire
 	color = { 196 244 110 }
-	trade_node = london
 
 	h_oxford = {
 		barony = b_oxford
@@ -190,7 +182,6 @@ p_staffordshire = {
 p_suffolk = {
 	county = c_suffolk
 	color = { 35 86 191 }
-	trade_node = london
 
 	h_ipswich = {
 		barony = b_ipswich
@@ -205,7 +196,6 @@ p_surrey = {
 p_warwickshire = {
 	county = c_warwickshire
 	color = { 195 142 115 }
-	trade_node = london
 
 	h_birmingham = {
 		barony = b_birmingham
@@ -220,7 +210,6 @@ p_west_sussex = {
 p_west_yorkshire = {
 	county = c_west_yorkshire
 	color = { 39 195 115 }
-	trade_node = london
 
 	h_leeds = {
 		barony = b_leeds

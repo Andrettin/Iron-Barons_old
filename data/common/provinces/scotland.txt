@@ -1,7 +1,6 @@
 p_aberdeenshire = {
 	county = c_aberdeenshire
 	color = { 70 78 177 }
-	trade_node = london
 
 	h_aberdeen = {
 		barony = b_aberdeen
@@ -28,7 +27,6 @@ p_dumfries = {
 p_fife = {
 	county = c_fife
 	color = { 195 157 146 }
-	trade_node = london
 
 	h_st_andrews = {
 		barony = b_st_andrews
@@ -43,7 +41,6 @@ p_highland = {
 p_lanarkshire = {
 	county = c_lanarkshire
 	color = { 172 210 214 }
-	trade_node = london
 
 	h_glasgow = {
 		barony = b_glasgow
@@ -54,7 +51,6 @@ p_lanarkshire = {
 p_lothian = {
 	county = c_lothian
 	color = { 69 96 76 }
-	trade_node = london
 
 	h_edinburgh = {
 		barony = b_edinburgh

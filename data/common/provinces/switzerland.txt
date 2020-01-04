@@ -1,7 +1,6 @@
 p_aargau = {
 	county = c_aargau
 	color = { 157 162 180 }
-	trade_node = vienna
 
 	h_aarau = {
 		barony = b_aarau
@@ -12,7 +11,6 @@ p_aargau = {
 p_basel = {
 	county = c_basel
 	color = { 193 177 81 }
-	trade_node = vienna
 
 	h_basel = {
 		barony = b_basel
@@ -28,7 +26,6 @@ p_basel = {
 p_bern = {
 	county = c_bern
 	color = { 77 61 99 }
-	trade_node = vienna
 
 	h_bern = {
 		barony = b_bern
@@ -39,7 +36,6 @@ p_bern = {
 p_fribourg = {
 	county = c_fribourg
 	color = { 221 138 103 }
-	trade_node = vienna
 
 	h_fribourg = {
 		barony = b_fribourg
@@ -50,7 +46,6 @@ p_fribourg = {
 p_graubunden = {
 	county = c_graubunden
 	color = { 215 210 19 }
-	trade_node = vienna
 
 	h_coire = {
 		barony = b_coire
@@ -61,7 +56,6 @@ p_graubunden = {
 p_lucerne = {
 	county = c_lucerne
 	color = { 128 65 194 }
-	trade_node = vienna
 
 	h_lucerne = {
 		barony = b_lucerne
@@ -77,7 +71,6 @@ p_lucerne = {
 p_neuchatel = {
 	county = c_neuchatel
 	color = { 166 149 33 }
-	trade_node = vienna
 	
 	h_neuchatel = {
 		barony = b_neuchatel
@@ -88,7 +81,6 @@ p_neuchatel = {
 p_sankt_gallen = {
 	county = c_sankt_gallen
 	color = { 178 27 25 }
-	trade_node = vienna
 
 	h_sankt_gallen = {
 		barony = b_sankt_gallen
@@ -109,7 +101,6 @@ p_sankt_gallen = {
 p_schwyz = {
 	county = c_schwyz
 	color = { 124 85 171 }
-	trade_node = vienna
 	
 	h_sarnen = {
 		barony = b_sarnen
@@ -120,7 +111,6 @@ p_schwyz = {
 p_ticino = {
 	county = c_ticino
 	color = { 45 222 154 }
-	trade_node = vienna
 
 	h_bellinzona = {
 		barony = b_bellinzona
@@ -131,7 +121,6 @@ p_ticino = {
 p_valais = {
 	county = c_valais
 	color = { 4 142 49 }
-	trade_node = vienna
 
 	h_sion = {
 		barony = b_sion
@@ -142,7 +131,6 @@ p_valais = {
 p_vaud = {
 	county = c_vaud
 	color = { 109 129 33 }
-	trade_node = vienna
 
 	h_geneva = {
 		barony = b_geneva
@@ -158,7 +146,6 @@ p_vaud = {
 p_zurich = {
 	county = c_zurich
 	color = { 67 78 13 }
-	trade_node = vienna
 
 	h_zurich = {
 		barony = b_zurich

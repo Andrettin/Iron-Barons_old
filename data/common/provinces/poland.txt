@@ -1,7 +1,6 @@
 p_bromberg = {
 	county = c_bromberg
 	color = { 118 219 109 }
-	trade_node = danzig
 
 	h_bromberg = {
 		barony = b_bromberg
@@ -12,7 +11,6 @@ p_bromberg = {
 p_czestochowa = {
 	county = c_czestochowa
 	color = { 233 218 54 }
-	trade_node = danzig
 
 	h_czestochowa = {
 		barony = b_czestochowa
@@ -23,7 +21,6 @@ p_czestochowa = {
 p_kalisz = {
 	county = c_kalisz
 	color = { 209 138 16 }
-	trade_node = danzig
 
 	h_kalisz = {
 		barony = b_kalisz
@@ -34,7 +31,6 @@ p_kalisz = {
 p_kielce = {
 	county = c_kielce
 	color = { 87 224 239 }
-	trade_node = danzig
 
 	h_busk = {
 		barony = b_busk
@@ -55,7 +51,6 @@ p_kielce = {
 p_krakow = {
 	county = c_krakow
 	color = { 14 205 65 }
-	trade_node = danzig
 
 	h_krakow = {
 		barony = b_krakow
@@ -66,7 +61,6 @@ p_krakow = {
 p_lemberg = {
 	county = c_lemberg
 	color = { 230 77 156 }
-	trade_node = danzig
 
 	h_lemberg = {
 		barony = b_lemberg
@@ -77,7 +71,6 @@ p_lemberg = {
 p_lesser_poland = {
 	county = c_lesser_poland
 	color = { 242 146 139 }
-	trade_node = danzig
 
 	h_neu_sandec = {
 		barony = b_neu_sandec
@@ -93,7 +86,6 @@ p_lesser_poland = {
 p_lissa = {
 	county = c_lissa
 	color = { 106 144 14 }
-	trade_node = danzig
 
 	h_lissa = {
 		barony = b_lissa
@@ -114,7 +106,6 @@ p_lissa = {
 p_lodz = {
 	county = c_lodz
 	color = { 60 96 215 }
-	trade_node = danzig
 
 	h_lodz = {
 		barony = b_lodz
@@ -130,7 +121,6 @@ p_lodz = {
 p_lublin = {
 	county = c_lublin
 	color = { 70 135 210 }
-	trade_node = danzig
 
 	h_cholm = {
 		barony = b_cholm
@@ -156,7 +146,6 @@ p_lublin = {
 p_mariampol = {
 	county = c_mariampol
 	color = { 118 165 216 }
-	trade_node = danzig
 
 	h_mariampol = {
 		barony = b_mariampol
@@ -172,7 +161,6 @@ p_mariampol = {
 p_mazovia = {
 	county = c_mazovia
 	color = { 138 57 209 }
-	trade_node = danzig
 
 	h_praga = {
 		barony = b_praga
@@ -198,7 +186,6 @@ p_mazovia = {
 p_plock = {
 	county = c_plock
 	color = { 87 126 41 }
-	trade_node = danzig
 
 	h_modlin = {
 		barony = b_modlin
@@ -229,7 +216,6 @@ p_plock = {
 p_podlasie = {
 	county = c_podlasie
 	color = { 193 119 201 }
-	trade_node = danzig
 
 	h_augustowo = {
 		barony = b_augustowo
@@ -250,7 +236,6 @@ p_podlasie = {
 p_posen = {
 	county = c_posen
 	color = { 208 23 78 }
-	trade_node = danzig
 
 	h_posen = {
 		barony = b_posen
@@ -296,7 +281,6 @@ p_posen = {
 p_radom = {
 	county = c_radom
 	color = { 251 166 47 }
-	trade_node = danzig
 
 	h_radom = {
 		barony = b_radom
@@ -307,7 +291,6 @@ p_radom = {
 p_siedlce = {
 	county = c_siedlce
 	color = { 210 245 13 }
-	trade_node = danzig
 
 	h_siedlce = {
 		barony = b_siedlce
@@ -318,7 +301,6 @@ p_siedlce = {
 p_stanislawow = {
 	county = c_stanislawow
 	color = { 76 216 95 }
-	trade_node = danzig
 
 	h_stanislawow = {
 		barony = b_stanislawow
@@ -329,7 +311,6 @@ p_stanislawow = {
 p_subcarpathia = {
 	county = c_subcarpathia
 	color = { 218 118 51 }
-	trade_node = danzig
 
 	h_dukla = {
 		barony = b_dukla
@@ -350,7 +331,6 @@ p_subcarpathia = {
 p_wloclawek = {
 	county = c_wloclawek
 	color = { 205 107 32 }
-	trade_node = danzig
 
 	h_osseg = {
 		barony = b_osseg

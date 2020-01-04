@@ -9,7 +9,6 @@ p_almeria = {
 p_asturias = {
 	county = c_asturias
 	color = { 46 91 103 }
-	trade_node = seville
 
 	h_oviedo = {
 		barony = b_oviedo
@@ -20,7 +19,6 @@ p_asturias = {
 p_avila = {
 	county = c_avila
 	color = { 83 91 24 }
-	trade_node = seville
 
 	h_avila = {
 		barony = b_avila
@@ -51,7 +49,6 @@ p_cantabria = {
 p_ciudad_real = {
 	county = c_ciudad_real
 	color = { 6 132 12 }
-	trade_node = seville
 
 	h_almagro = {
 		barony = b_almagro
@@ -62,7 +59,6 @@ p_ciudad_real = {
 p_cordoba = {
 	county = c_cordoba
 	color = { 22 207 46 }
-	trade_node = seville
 
 	h_cordoba = {
 		barony = b_cordoba
@@ -82,7 +78,6 @@ p_cuenca = {
 p_granada = {
 	county = c_granada
 	color = { 186 40 175 }
-	trade_node = seville
 
 	h_granada = {
 		barony = b_granada
@@ -93,7 +88,6 @@ p_granada = {
 p_guadalajara = {
 	county = c_guadalajara
 	color = { 132 108 104 }
-	trade_node = seville
 
 	h_siguenza = {
 		barony = b_siguenza
@@ -108,7 +102,6 @@ p_huelva = {
 p_jaen = {
 	county = c_jaen
 	color = { 194 124 151 }
-	trade_node = seville
 
 	h_baeza = {
 		barony = b_baeza
@@ -119,7 +112,6 @@ p_jaen = {
 p_la_coruna = {
 	county = c_la_coruna
 	color = { 166 161 75 }
-	trade_node = seville
 
 	h_santiago_de_compostela = {
 		barony = b_santiago_de_compostela
@@ -142,7 +134,6 @@ p_lugo = {
 p_madrid = {
 	county = c_madrid
 	color = { 124 44 233 }
-	trade_node = seville
 
 	h_alcala_de_henares = {
 		barony = b_alcala_de_henares
@@ -157,7 +148,6 @@ p_malaga = {
 p_murcia = {
 	county = c_murcia
 	color = { 141 35 153 }
-	trade_node = seville
 
 	h_murcia = {
 		barony = b_murcia
@@ -172,7 +162,6 @@ p_orense = {
 p_palencia = {
 	county = c_palencia
 	color = { 49 141 148 }
-	trade_node = seville
 
 	h_palencia = {
 		barony = b_palencia
@@ -187,7 +176,6 @@ p_pontevedra = {
 p_salamanca = {
 	county = c_salamanca
 	color = { 142 190 24 }
-	trade_node = seville
 
 	h_salamanca = {
 		barony = b_salamanca
@@ -202,7 +190,6 @@ p_segovia = {
 p_seville = {
 	county = c_seville
 	color = { 230 112 111 }
-	trade_node = seville
 
 	h_seville = {
 		barony = b_seville
@@ -218,7 +205,6 @@ p_seville = {
 p_soria = {
 	county = c_soria
 	color = { 65 4 58 }
-	trade_node = seville
 
 	h_osma = {
 		barony = b_osma
@@ -229,7 +215,6 @@ p_soria = {
 p_toledo = {
 	county = c_toledo
 	color = { 47 71 121 }
-	trade_node = seville
 
 	h_toledo = {
 		barony = b_toledo
@@ -240,7 +225,6 @@ p_toledo = {
 p_valladolid = {
 	county = c_valladolid
 	color = { 149 67 72 }
-	trade_node = seville
 
 	h_valladolid = {
 		barony = b_valladolid

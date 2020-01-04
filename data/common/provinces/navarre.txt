@@ -9,7 +9,6 @@ p_biscay = {
 p_gipuzkoa = {
 	county = c_gipuzkoa
 	color = { 74 189 9 }
-	trade_node = seville
 
 	h_onate = {
 		barony = b_onate
@@ -20,7 +19,6 @@ p_gipuzkoa = {
 p_navarre = {
 	county = c_navarre
 	color = { 210 197 21 }
-	trade_node = seville
 
 	h_pamplona = {
 		barony = b_pamplona

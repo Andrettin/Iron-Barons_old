@@ -1,7 +1,6 @@
 p_alicante = {
 	county = c_alicante
 	color = { 161 18 160 }
-	trade_node = seville
 
 	h_orihuela = {
 		barony = b_orihuela
@@ -12,7 +11,6 @@ p_alicante = {
 p_balearic_islands = {
 	county = c_balearic_islands
 	color = { 162 18 112 }
-	trade_node = seville
 
 	h_palma = {
 		barony = b_palma
@@ -23,7 +21,6 @@ p_balearic_islands = {
 p_barcelona = {
 	county = c_barcelona
 	color = { 172 234 91 }
-	trade_node = seville
 
 	h_barcelona = {
 		barony = b_barcelona
@@ -47,7 +44,6 @@ p_gerona = {
 p_huesca = {
 	county = c_huesca
 	color = { 243 151 252 }
-	trade_node = seville
 
 	h_huesca = {
 		barony = b_huesca
@@ -58,7 +54,6 @@ p_huesca = {
 p_lerida = {
 	county = c_lerida
 	color = { 35 47 53 }
-	trade_node = seville
 
 	h_lerida = {
 		barony = b_lerida
@@ -69,7 +64,6 @@ p_lerida = {
 p_tarragona = {
 	county = c_tarragona
 	color = { 221 1 82 }
-	trade_node = seville
 
 	h_tortosa = {
 		barony = b_tortosa
@@ -84,7 +78,6 @@ p_teruel = {
 p_valencia = {
 	county = c_valencia
 	color = { 179 252 129 }
-	trade_node = seville
 
 	h_valencia = {
 		barony = b_valencia
@@ -95,7 +88,6 @@ p_valencia = {
 p_zaragoza = {
 	county = c_zaragoza
 	color = { 202 26 200 }
-	trade_node = seville
 
 	h_zaragoza = {
 		barony = b_zaragoza

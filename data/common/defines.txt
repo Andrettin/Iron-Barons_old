@@ -7,3 +7,9 @@ cultural_derivation_factor = 0.005 #0.50%
 max_settlement_slots_per_province = 7
 max_palace_slots_per_province = 6
 succession_law_group = succession
+
+trade_node_score_realm_modifier = -0.3 #modifier to the score for province trade node calculation if the center of trade is in the same realm as the province; negative values mean increased probability of the trade node being picked if it is in the same realm
+trade_node_score_culture_modifier = -0.05
+trade_node_score_culture_group_modifier = -0.05
+trade_node_score_religion_modifier = -0.05
+trade_node_score_religion_group_modifier = -0.05

@@ -17,7 +17,6 @@ p_amazonas = {
 p_bahia = {
 	county = c_bahia
 	color = { 240 0 73 }
-	trade_node = rio_de_janeiro
 
 	h_salvador = {
 		barony = b_salvador
@@ -32,7 +31,6 @@ p_ceara = {
 p_espirito_santo = {
 	county = c_espirito_santo
 	color = { 60 226 224 }
-	trade_node = rio_de_janeiro
 
 	h_espirito_santo = {
 		barony = b_espirito_santo
@@ -59,7 +57,6 @@ p_mato_grosso_do_sul = {
 p_minas_gerais = {
 	county = c_minas_gerais
 	color = { 117 233 106 }
-	trade_node = rio_de_janeiro
 
 	h_ouro_preto = {
 		barony = b_ouro_preto
@@ -78,7 +75,6 @@ p_paraiba = {
 p_parana = {
 	county = c_parana
 	color = { 27 188 111 }
-	trade_node = rio_de_janeiro
 
 	h_curitiba = {
 		barony = b_curitiba
@@ -97,7 +93,6 @@ p_piaui = {
 p_rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
-	trade_node = rio_de_janeiro
 
 	h_rio_de_janeiro = {
 		barony = b_rio_de_janeiro
@@ -112,7 +107,6 @@ p_rio_grande_do_norte = {
 p_rio_grande_do_sul = {
 	county = c_rio_grande_do_sul
 	color = { 77 114 3 }
-	trade_node = rio_de_janeiro
 
 	h_rio_grande = {
 		barony = b_rio_grande
@@ -132,7 +126,6 @@ p_rondonia = {
 p_santa_catarina = {
 	county = c_santa_catarina
 	color = { 240 89 108 }
-	trade_node = rio_de_janeiro
 
 	h_florianopolis = {
 		barony = b_florianopolis
@@ -148,7 +141,6 @@ p_santa_catarina = {
 p_sao_paulo = {
 	county = c_sao_paulo
 	color = { 145 219 25 }
-	trade_node = rio_de_janeiro
 
 	h_sao_paulo = {
 		barony = b_sao_paulo

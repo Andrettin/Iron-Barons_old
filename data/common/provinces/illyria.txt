@@ -1,7 +1,6 @@
 p_bjelovar = {
 	county = c_bjelovar
 	color = { 52 240 184 }
-	trade_node = vienna
 
 	h_bjelovar = {
 		barony = b_bjelovar
@@ -12,7 +11,6 @@ p_bjelovar = {
 p_brod = {
 	county = c_brod
 	color = { 36 69 218 }
-	trade_node = vienna
 
 	h_brod = {
 		barony = b_brod
@@ -23,7 +21,6 @@ p_brod = {
 p_dalmatia = {
 	county = c_dalmatia
 	color = { 55 112 202 }
-	trade_node = venice
 
 	h_split = {
 		barony = b_split
@@ -34,7 +31,6 @@ p_dalmatia = {
 p_fiume = {
 	county = c_fiume
 	color = { 69 205 187 }
-	trade_node = venice
 
 	h_fiume = {
 		barony = b_fiume
@@ -45,7 +41,6 @@ p_fiume = {
 p_gorz = {
 	county = c_gorz
 	color = { 220 100 213 }
-	trade_node = venice
 
 	h_gorz = {
 		barony = b_gorz
@@ -61,7 +56,6 @@ p_gorz = {
 p_istria = {
 	county = c_istria
 	color = { 57 206 144 }
-	trade_node = venice
 
 	h_pola = {
 		barony = b_pola
@@ -72,7 +66,6 @@ p_istria = {
 p_karlstadt = {
 	county = c_karlstadt
 	color = { 129 221 154 }
-	trade_node = vienna
 
 	h_karlstadt = {
 		barony = b_karlstadt
@@ -88,7 +81,6 @@ p_karlstadt = {
 p_peterwardein = {
 	county = c_peterwardein
 	color = { 182 222 38 }
-	trade_node = vienna
 
 	h_carlowitz = {
 		barony = b_carlowitz
@@ -109,7 +101,6 @@ p_peterwardein = {
 p_sisak = {
 	county = c_sisak
 	color = { 134 230 230 }
-	trade_node = vienna
 
 	h_sisak = {
 		barony = b_sisak
@@ -120,7 +111,6 @@ p_sisak = {
 p_slavonia = {
 	county = c_slavonia
 	color = { 202 45 184 }
-	trade_node = vienna
 
 	h_esseg = {
 		barony = b_esseg
@@ -136,7 +126,6 @@ p_slavonia = {
 p_trieste = {
 	county = c_trieste
 	color = { 216 196 14 }
-	trade_node = venice
 
 	h_trieste = {
 		barony = b_trieste
@@ -147,7 +136,6 @@ p_trieste = {
 p_vukovar = {
 	county = c_vukovar
 	color = { 26 208 93 }
-	trade_node = vienna
 
 	h_vukovar = {
 		barony = b_vukovar
@@ -158,7 +146,6 @@ p_vukovar = {
 p_warasdin = {
 	county = c_warasdin
 	color = { 92 91 155 }
-	trade_node = vienna
 
 	h_warasdin = {
 		barony = b_warasdin
@@ -169,7 +156,6 @@ p_warasdin = {
 p_zagreb = {
 	county = c_zagreb
 	color = { 183 217 124 }
-	trade_node = vienna
 
 	h_zagreb = {
 		barony = b_zagreb

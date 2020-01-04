@@ -13,7 +13,6 @@ p_aetolia = {
 p_attica = {
 	county = c_attica
 	color = { 103 37 25 }
-	trade_node = athens
 	
 	h_athens = {
 		barony = b_athens
@@ -28,7 +27,6 @@ p_boeotia = {
 p_byzantium = {
 	county = c_byzantium
 	color = { 149 72 188 }
-	trade_node = byzantium
 	
 	h_byzantium = {
 		barony = b_byzantium

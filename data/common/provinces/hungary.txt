@@ -1,7 +1,6 @@
 p_arad = {
 	county = c_arad
 	color = { 185 194 88 }
-	trade_node = vienna
 
 	h_arad = {
 		barony = b_arad
@@ -17,7 +16,6 @@ p_arad = {
 p_banska_bystrica = {
 	county = c_banska_bystrica
 	color = { 176 19 45 }
-	trade_node = vienna
 
 	h_banska_bystrica = {
 		barony = b_banska_bystrica
@@ -48,7 +46,6 @@ p_banska_bystrica = {
 p_baranya = {
 	county = c_baranya
 	color = { 50 10 55 }
-	trade_node = vienna
 
 	h_pecs = {
 		barony = b_pecs
@@ -63,7 +60,6 @@ p_bekes = {
 p_bihor = {
 	county = c_bihor
 	color = { 209 71 103 }
-	trade_node = vienna
 
 	h_grosswardein = {
 		barony = b_grosswardein
@@ -74,7 +70,6 @@ p_bihor = {
 p_borsod = {
 	county = c_borsod
 	color = { 240 97 16 }
-	trade_node = vienna
 
 	h_miskolcz = {
 		barony = b_miskolcz
@@ -90,7 +85,6 @@ p_borsod = {
 p_burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }
-	trade_node = vienna
 
 	h_eisenstadt = {
 		barony = b_eisenstadt
@@ -101,7 +95,6 @@ p_burgenland = {
 p_csongrad = {
 	county = c_csongrad
 	color = { 178 178 43 }
-	trade_node = vienna
 
 	h_szegedin = {
 		barony = b_szegedin
@@ -122,7 +115,6 @@ p_csongrad = {
 p_esztergom = {
 	county = c_esztergom
 	color = { 237 205 127 }
-	trade_node = vienna
 
 	h_mocsa = {
 		barony = b_mocsa
@@ -133,7 +125,6 @@ p_esztergom = {
 p_fejer = {
 	county = c_fejer
 	color = { 73 22 197 }
-	trade_node = vienna
 
 	h_buda = {
 		barony = b_buda
@@ -159,7 +150,6 @@ p_fejer = {
 p_gyor = {
 	county = c_gyor
 	color = { 251 103 28 }
-	trade_node = vienna
 
 	h_gyor = {
 		barony = b_gyor
@@ -185,7 +175,6 @@ p_gyor = {
 p_hajdu = {
 	county = c_hajdu
 	color = { 189 31 4 }
-	trade_node = vienna
 
 	h_debreczin = {
 		barony = b_debreczin
@@ -196,7 +185,6 @@ p_hajdu = {
 p_heves = {
 	county = c_heves
 	color = { 169 108 205 }
-	trade_node = vienna
 
 	h_gyongyos = {
 		barony = b_gyongyos
@@ -217,7 +205,6 @@ p_heves = {
 p_kikinda = {
 	county = c_kikinda
 	color = { 18 221 52 }
-	trade_node = vienna
 
 	h_kikinda = {
 		barony = b_kikinda
@@ -233,7 +220,6 @@ p_kikinda = {
 p_kiskun = {
 	county = c_kiskun
 	color = { 175 155 67 }
-	trade_node = vienna
 
 	h_kecskemet = {
 		barony = b_kecskemet
@@ -244,7 +230,6 @@ p_kiskun = {
 p_komarom = {
 	county = c_komarom
 	color = { 240 243 52 }
-	trade_node = vienna
 
 	h_komarom = {
 		barony = b_komarom
@@ -270,7 +255,6 @@ p_komarom = {
 p_kosice = {
 	county = c_kosice
 	color = { 221 179 32 }
-	trade_node = vienna
 
 	h_kosice = {
 		barony = b_kosice
@@ -295,7 +279,6 @@ p_maramures = {
 p_melencze = {
 	county = c_melencze
 	color = { 153 223 47 }
-	trade_node = vienna
 
 	h_melencze = {
 		barony = b_melencze
@@ -315,7 +298,6 @@ p_nograd = {
 p_north_bacs = {
 	county = c_north_bacs
 	color = { 126 66 17 }
-	trade_node = vienna
 
 	h_maria_theresiopel = {
 		barony = b_maria_theresiopel
@@ -331,7 +313,6 @@ p_north_bacs = {
 p_pancsova = {
 	county = c_pancsova
 	color = { 104 234 156 }
-	trade_node = vienna
 
 	h_alibunar = {
 		barony = b_alibunar
@@ -357,7 +338,6 @@ p_pancsova = {
 p_pest = {
 	county = c_pest
 	color = { 57 174 209 }
-	trade_node = vienna
 
 	h_pest = {
 		barony = b_pest
@@ -388,7 +368,6 @@ p_pest = {
 p_presov = {
 	county = c_presov
 	color = { 183 3 42 }
-	trade_node = vienna
 
 	h_presov = {
 		barony = b_presov
@@ -404,7 +383,6 @@ p_presov = {
 p_pressburg = {
 	county = c_pressburg
 	color = { 107 108 168 }
-	trade_node = vienna
 
 	h_pressburg = {
 		barony = b_pressburg
@@ -430,7 +408,6 @@ p_pressburg = {
 p_resita = {
 	county = c_resita
 	color = { 233 141 125 }
-	trade_node = vienna
 
 	h_mehadia = {
 		barony = b_mehadia
@@ -454,7 +431,6 @@ p_somogy = {
 p_south_bacs = {
 	county = c_south_bacs
 	color = { 112 95 226 }
-	trade_node = vienna
 
 	h_neusatz = {
 		barony = b_neusatz
@@ -484,7 +460,6 @@ p_szabolcs = {
 p_szolnok = {
 	county = c_szolnok
 	color = { 229 228 108 }
-	trade_node = vienna
 
 	h_szolnok = {
 		barony = b_szolnok
@@ -500,7 +475,6 @@ p_szolnok = {
 p_temesvar = {
 	county = c_temesvar
 	color = { 204 27 113 }
-	trade_node = vienna
 
 	h_lugos = {
 		barony = b_lugos
@@ -516,7 +490,6 @@ p_temesvar = {
 p_tolna = {
 	county = c_tolna
 	color = { 123 175 85 }
-	trade_node = vienna
 
 	h_tolna = {
 		barony = b_tolna
@@ -542,7 +515,6 @@ p_tolna = {
 p_transcarpathia = {
 	county = c_transcarpathia
 	color = { 70 139 248 }
-	trade_node = vienna
 
 	h_munkacs = {
 		barony = b_munkacs
@@ -557,7 +529,6 @@ p_trencin = {
 p_vas = {
 	county = c_vas
 	color = { 171 56 71 }
-	trade_node = vienna
 
 	h_szombathely = {
 		barony = b_szombathely
@@ -572,7 +543,6 @@ p_veszprem = {
 p_west_bacs = {
 	county = c_west_bacs
 	color = { 118 146 28 }
-	trade_node = vienna
 
 	h_zombor = {
 		barony = b_zombor
@@ -583,7 +553,6 @@ p_west_bacs = {
 p_zala = {
 	county = c_zala
 	color = { 78 44 216 }
-	trade_node = vienna
 
 	h_nagy_kanizsa = {
 		barony = b_nagy_kanizsa
@@ -594,7 +563,6 @@ p_zala = {
 p_zilina = {
 	county = c_zilina
 	color = { 24 111 43 }
-	trade_node = vienna
 
 	h_budatin = {
 		barony = b_budatin

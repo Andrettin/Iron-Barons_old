@@ -1,7 +1,6 @@
 p_altenburg = {
 	county = c_altenburg
 	color = { 160 8 180 }
-	trade_node = lubeck
 	
 	h_altenburg = {
 		barony = b_altenburg
@@ -12,7 +11,6 @@ p_altenburg = {
 p_anhalt = {
 	county = c_anhalt
 	color = { 41 80 22 }
-	trade_node = lubeck
 
 	h_dessau = {
 		barony = b_dessau
@@ -23,7 +21,6 @@ p_anhalt = {
 p_berg = {
 	county = c_berg
 	color = { 166 141 108 }
-	trade_node = hamburg
 
 	h_dusseldorf = {
 		barony = b_dusseldorf
@@ -49,7 +46,6 @@ p_berg = {
 p_brandenburg = {
 	county = c_brandenburg
 	color = { 37 55 4 }
-	trade_node = lubeck
 
 	h_berlin = {
 		barony = b_berlin
@@ -90,7 +86,6 @@ p_brandenburg = {
 p_breslau = {
 	county = c_breslau
 	color = { 103 186 205 }
-	trade_node = lubeck
 
 	h_breslau = {
 		barony = b_breslau
@@ -146,7 +141,6 @@ p_breslau = {
 p_brunswick = {
 	county = c_brunswick
 	color = { 234 211 250 }
-	trade_node = hamburg
 
 	h_brunswick = {
 		barony = b_brunswick
@@ -157,7 +151,6 @@ p_brunswick = {
 p_coburg = {
 	county = c_coburg
 	color = { 107 38 220 }
-	trade_node = lubeck
 	
 	h_coburg = {
 		barony = b_coburg
@@ -168,7 +161,6 @@ p_coburg = {
 p_darmstadt = {
 	county = c_darmstadt
 	color = { 211 6 141 }
-	trade_node = hamburg
 
 	h_darmstadt = {
 		barony = b_darmstadt
@@ -184,7 +176,6 @@ p_darmstadt = {
 p_east_frisia = {
 	county = c_east_frisia
 	color = { 237 68 103 }
-	trade_node = hamburg
 
 	h_aurich = {
 		barony = b_aurich
@@ -210,7 +201,6 @@ p_east_frisia = {
 p_erfurt = {
 	county = c_erfurt
 	color = { 185 114 98 }
-	trade_node = lubeck
 
 	h_erfurt = {
 		barony = b_erfurt
@@ -236,7 +226,6 @@ p_erfurt = {
 p_farther_pomerania = {
 	county = c_farther_pomerania
 	color = { 91 25 205 }
-	trade_node = lubeck
 
 	h_kolberg = {
 		barony = b_kolberg
@@ -257,7 +246,6 @@ p_farther_pomerania = {
 p_giessen = {
 	county = c_giessen
 	color = { 249 53 64 }
-	trade_node = hamburg
 
 	h_giessen = {
 		barony = b_giessen
@@ -273,7 +261,6 @@ p_giessen = {
 p_gotha = {
 	county = c_gotha
 	color = { 136 128 177 }
-	trade_node = lubeck
 	
 	h_gotha = {
 		barony = b_gotha
@@ -299,7 +286,6 @@ p_gotha = {
 p_gottingen = {
 	county = c_gottingen
 	color = { 127 110 64 }
-	trade_node = hamburg
 
 	h_gottingen = {
 		barony = b_gottingen
@@ -310,7 +296,6 @@ p_gottingen = {
 p_hamburg = {
 	county = c_hamburg
 	color = { 97 95 41 }
-	trade_node = hamburg
 
 	h_altona = {
 		barony = b_altona
@@ -326,7 +311,6 @@ p_hamburg = {
 p_hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
-	trade_node = hamburg
 
 	h_bremen = {
 		barony = b_bremen
@@ -367,7 +351,6 @@ p_hanover = {
 p_hither_pomerania = {
 	county = c_hither_pomerania
 	color = { 164 255 28 }
-	trade_node = lubeck
 
 	h_greifswald = {
 		barony = b_greifswald
@@ -393,7 +376,6 @@ p_hither_pomerania = {
 p_holstein = {
 	county = c_holstein
 	color = { 101 97 115 }
-	trade_node = hamburg
 	
 	h_kiel = {
 		barony = b_kiel
@@ -414,7 +396,6 @@ p_holstein = {
 p_jerichow = {
 	county = c_jerichow
 	color = { 147 72 137 }
-	trade_node = lubeck
 
 	h_schonhausen = {
 		barony = b_schonhausen
@@ -425,7 +406,6 @@ p_jerichow = {
 p_julich = {
 	county = c_julich
 	color = { 243 189 48 }
-	trade_node = hamburg
 
 	h_cologne = {
 		barony = b_cologne
@@ -441,7 +421,6 @@ p_julich = {
 p_kassel = {
 	county = c_kassel
 	color = { 22 220 110 }
-	trade_node = hamburg
 
 	h_bronzell = {
 		barony = b_bronzell
@@ -477,7 +456,6 @@ p_kassel = {
 p_kattowitz = {
 	county = c_kattowitz
 	color = { 131 14 60 }
-	trade_node = lubeck
 
 	h_ratibor = {
 		barony = b_ratibor
@@ -488,7 +466,6 @@ p_kattowitz = {
 p_lauenburg = {
 	county = c_lauenburg
 	color = { 4 157 15 }
-	trade_node = lubeck
 
 	h_lauenburg = {
 		barony = b_lauenburg
@@ -504,7 +481,6 @@ p_lauenburg = {
 p_lippe = {
 	county = c_lippe
 	color = { 235 45 34 }
-	trade_node = hamburg
 
 	h_detmold = {
 		barony = b_detmold
@@ -520,7 +496,6 @@ p_lippe = {
 p_lower_lusatia = {
 	county = c_lower_lusatia
 	color = { 212 238 128 }
-	trade_node = lubeck
 
 	h_cottbus = {
 		barony = b_cottbus
@@ -536,7 +511,6 @@ p_lower_lusatia = {
 p_magdeburg = {
 	county = c_magdeburg
 	color = { 250 85 103 }
-	trade_node = lubeck
 
 	h_magdeburg = {
 		barony = b_magdeburg
@@ -552,7 +526,6 @@ p_magdeburg = {
 p_mainz = {
 	county = c_mainz
 	color = { 156 36 18 }
-	trade_node = hamburg
 
 	h_mainz = {
 		barony = b_mainz
@@ -568,7 +541,6 @@ p_mainz = {
 p_meiningen = {
 	county = c_meiningen
 	color = { 224 245 136 }
-	trade_node = lubeck
 	
 	h_meiningen = {
 		barony = b_meiningen
@@ -584,7 +556,6 @@ p_meiningen = {
 p_merseburg = {
 	county = c_merseburg
 	color = { 125 66 108 }
-	trade_node = lubeck
 
 	h_halle = {
 		barony = b_halle
@@ -605,7 +576,6 @@ p_merseburg = {
 p_nassau = {
 	county = c_nassau
 	color = { 15 44 242 }
-	trade_node = hamburg
 
 	h_wetzlar = {
 		barony = b_wetzlar
@@ -621,7 +591,6 @@ p_nassau = {
 p_neumark = {
 	county = c_neumark
 	color = { 116 19 95 }
-	trade_node = lubeck
 
 	h_kustrin = {
 		barony = b_kustrin
@@ -637,7 +606,6 @@ p_neumark = {
 p_oldenburg = {
 	county = c_oldenburg
 	color = { 118 56 154 }
-	trade_node = hamburg
 
 	h_brake = {
 		barony = b_brake
@@ -663,7 +631,6 @@ p_oldenburg = {
 p_oppeln = {
 	county = c_oppeln
 	color = { 208 155 124 }
-	trade_node = lubeck
 
 	h_kosel = {
 		barony = b_kosel
@@ -684,7 +651,6 @@ p_oppeln = {
 p_palatinate = {
 	county = c_palatinate
 	color = { 77 42 49 }
-	trade_node = hamburg
 
 	h_kaiserslautern = {
 		barony = b_kaiserslautern
@@ -715,7 +681,6 @@ p_palatinate = {
 p_rhineland = {
 	county = c_rhineland
 	color = { 4 153 14 }
-	trade_node = hamburg
 
 	h_aachen = {
 		barony = b_aachen
@@ -746,7 +711,6 @@ p_rhineland = {
 p_saarland = {
 	county = c_saarland
 	color = { 93 100 252 }
-	trade_node = hamburg
 
 	h_saarlouis = {
 		barony = b_saarlouis
@@ -757,7 +721,6 @@ p_saarland = {
 p_schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
-	trade_node = lubeck
 
 	h_schwerin = {
 		barony = b_schwerin
@@ -783,7 +746,6 @@ p_schwerin = {
 p_strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }
-	trade_node = lubeck
 
 	h_strelitz = {
 		barony = b_strelitz
@@ -794,7 +756,6 @@ p_strelitz = {
 p_upper_lusatia = {
 	county = c_upper_lusatia
 	color = { 25 89 65 }
-	trade_node = lubeck
 	
 	h_bautzen = {
 		barony = b_bautzen
@@ -810,7 +771,6 @@ p_upper_lusatia = {
 p_upper_saxony = {
 	county = c_upper_saxony
 	color = { 8 118 12 }
-	trade_node = lubeck
 	
 	h_leipzig = {
 		barony = b_leipzig
@@ -846,7 +806,6 @@ p_upper_saxony = {
 p_waldeck = {
 	county = c_waldeck
 	color = { 157 182 58 }
-	trade_node = hamburg
 
 	h_waldeck = {
 		barony = b_waldeck
@@ -857,7 +816,6 @@ p_waldeck = {
 p_weimar = {
 	county = c_weimar
 	color = { 152 76 45 }
-	trade_node = lubeck
 	
 	h_weimar = {
 		barony = b_weimar
@@ -878,7 +836,6 @@ p_weimar = {
 p_westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }
-	trade_node = hamburg
 
 	h_munster = {
 		barony = b_munster
@@ -914,7 +871,6 @@ p_westphalia = {
 p_wittenberg = {
 	county = c_wittenberg
 	color = { 70 1 87 }
-	trade_node = lubeck
 
 	h_wittenberg = {
 		barony = b_wittenberg

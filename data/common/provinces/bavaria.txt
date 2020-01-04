@@ -1,7 +1,6 @@
 p_augsburg = {
 	county = c_augsburg
 	color = { 203 132 169 }
-	trade_node = vienna
 	
 	h_augsburg = {
 		barony = b_augsburg
@@ -17,7 +16,6 @@ p_augsburg = {
 p_lower_bavaria = {
 	county = c_lower_bavaria
 	color = { 210 156 84 }
-	trade_node = vienna
 
 	h_ratisbon = {
 		barony = b_ratisbon
@@ -43,7 +41,6 @@ p_lower_bavaria = {
 p_lower_franconia = {
 	county = c_lower_franconia
 	color = { 97 29 215 }
-	trade_node = vienna
 
 	h_wurzburg = {
 		barony = b_wurzburg
@@ -69,7 +66,6 @@ p_lower_franconia = {
 p_middle_franconia = {
 	county = c_middle_franconia
 	color = { 191 76 76 }
-	trade_node = vienna
 
 	h_nuremberg = {
 		barony = b_nuremberg
@@ -95,7 +91,6 @@ p_middle_franconia = {
 p_upper_bavaria = {
 	county = c_upper_bavaria
 	color = { 53 10 147 }
-	trade_node = vienna
 	
 	h_munich = {
 		barony = b_munich
@@ -111,7 +106,6 @@ p_upper_bavaria = {
 p_upper_franconia = {
 	county = c_upper_franconia
 	color = { 58 236 119 }
-	trade_node = vienna
 
 	h_bamberg = {
 		barony = b_bamberg
@@ -132,7 +126,6 @@ p_upper_franconia = {
 p_upper_palatinate = {
 	county = c_upper_palatinate
 	color = { 128 192 39 }
-	trade_node = vienna
 
 	h_leuchtenberg = {
 		barony = b_leuchtenberg

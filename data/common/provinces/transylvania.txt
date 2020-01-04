@@ -1,7 +1,6 @@
 p_alba = {
 	county = c_alba
 	color = { 70 7 34 }
-	trade_node = vienna
 
 	h_karlsburg = {
 		barony = b_karlsburg
@@ -17,7 +16,6 @@ p_alba = {
 p_bistritz = {
 	county = c_bistritz
 	color = { 155 13 11 }
-	trade_node = vienna
 
 	h_bistritz = {
 		barony = b_bistritz
@@ -28,7 +26,6 @@ p_bistritz = {
 p_csik_szereda = {
 	county = c_csik_szereda
 	color = { 129 213 213 }
-	trade_node = vienna
 
 	h_csik_szereda = {
 		barony = b_csik_szereda
@@ -39,7 +36,6 @@ p_csik_szereda = {
 p_hermannstadt = {
 	county = c_hermannstadt
 	color = { 175 221 34 }
-	trade_node = vienna
 
 	h_hermannstadt = {
 		barony = b_hermannstadt
@@ -65,7 +61,6 @@ p_hermannstadt = {
 p_hunedoara = {
 	county = c_hunedoara
 	color = { 115 169 60 }
-	trade_node = vienna
 
 	h_broos = {
 		barony = b_broos
@@ -86,7 +81,6 @@ p_hunedoara = {
 p_klausenburg = {
 	county = c_klausenburg
 	color = { 205 120 94 }
-	trade_node = vienna
 
 	h_klausenburg = {
 		barony = b_klausenburg
@@ -112,7 +106,6 @@ p_klausenburg = {
 p_kronstadt = {
 	county = c_kronstadt
 	color = { 205 60 62 }
-	trade_node = vienna
 
 	h_kronstadt = {
 		barony = b_kronstadt
@@ -128,7 +121,6 @@ p_kronstadt = {
 p_mures = {
 	county = c_mures
 	color = { 74 71 181 }
-	trade_node = vienna
 
 	h_maros_vasarhely = {
 		barony = b_maros_vasarhely
@@ -149,7 +141,6 @@ p_mures = {
 p_salaj = {
 	county = c_salaj
 	color = { 59 39 100 }
-	trade_node = vienna
 
 	h_zsibo = {
 		barony = b_zsibo
@@ -160,7 +151,6 @@ p_salaj = {
 p_sepsi_sz_gyorgy = {
 	county = c_sepsi_sz_gyorgy
 	color = { 69 217 89 }
-	trade_node = vienna
 
 	h_sepsi_sz_gyorgy = {
 		barony = b_sepsi_sz_gyorgy

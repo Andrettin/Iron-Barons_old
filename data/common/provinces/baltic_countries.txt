@@ -1,7 +1,6 @@
 p_danzig = {
 	county = c_danzig
 	color = { 248 144 8 }
-	trade_node = danzig
 
 	h_danzig = {
 		barony = b_danzig
@@ -27,7 +26,6 @@ p_danzig = {
 p_east_prussia = {
 	county = c_east_prussia
 	color = { 65 220 96 }
-	trade_node = danzig
 
 	h_allenstein = {
 		barony = b_allenstein
@@ -68,7 +66,6 @@ p_east_prussia = {
 p_kaunas = {
 	county = c_kaunas
 	color = { 185 126 107 }
-	trade_node = danzig
 
 	h_rossieny = {
 		barony = b_rossieny
@@ -79,7 +76,6 @@ p_kaunas = {
 p_thorn = {
 	county = c_thorn
 	color = { 166 167 52 }
-	trade_node = danzig
 
 	h_thorn = {
 		barony = b_thorn
@@ -100,7 +96,6 @@ p_thorn = {
 p_vilnius = {
 	county = c_vilnius
 	color = { 131 245 131 }
-	trade_node = danzig
 
 	h_vilnius = {
 		barony = b_vilnius
