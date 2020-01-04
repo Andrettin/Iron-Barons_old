@@ -4,5 +4,6 @@ r_asia = {
 	subregions += r_cyprus
 	subregions += r_india
 	subregions += r_levant
+	subregions += r_persia
 	subregions += r_siberia
 }
