@@ -1,0 +1,4 @@
+breslau = {
+	color = { 185 253 25 }
+	center_of_trade = p_breslau
+}

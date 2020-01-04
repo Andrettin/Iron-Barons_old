@@ -1,4 +1,4 @@
 danzig = {
-	color = { 212 41 61 }
+	color = { 77 77 77 }
 	center_of_trade = p_danzig
 }

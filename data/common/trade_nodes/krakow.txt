@@ -1,0 +1,4 @@
+krakow = {
+	color = { 89 105 233 }
+	center_of_trade = p_krakow
+}
