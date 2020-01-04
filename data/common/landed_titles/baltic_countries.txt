@@ -11,13 +11,13 @@ d_east_prussia = {
 
 d_west_prussia = {
 	de_jure_liege_title = k_prussia
-	color = { 77 77 77 }
+	color = { 75 63 97 }
 	capital_province = p_danzig
 }
 
 c_danzig = {
 	de_jure_liege_title = d_west_prussia
-	color = { 77 77 77 }
+	color = { 75 63 97 }
 
 	b_danzig = {
 	}
