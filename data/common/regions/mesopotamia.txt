@@ -1,0 +1,11 @@
+r_mesopotamia = {
+	provinces += p_al_ahmadi
+	provinces += p_al_basrah
+	provinces += p_al_jahrah
+	provinces += p_al_muthannia
+	provinces += p_al_qadisiyyah
+	provinces += p_an_najaf
+	provinces += p_dhi_qar
+	provinces += p_maysan
+	provinces += p_wasit
+}

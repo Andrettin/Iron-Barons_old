@@ -1,0 +1,35 @@
+p_al_ahmadi = {
+	color = { 93 65 190 }
+}
+
+p_al_basrah = {
+	color = { 148 204 120 }
+}
+
+p_al_jahrah = {
+	color = { 43 122 33 }
+}
+
+p_al_muthannia = {
+	color = { 83 136 131 }
+}
+
+p_al_qadisiyyah = {
+	color = { 134 245 61 }
+}
+
+p_an_najaf = {
+	color = { 110 8 253 }
+}
+
+p_dhi_qar = {
+	color = { 130 33 42 }
+}
+
+p_maysan = {
+	color = { 150 158 1 }
+}
+
+p_wasit = {
+	color = { 55 207 108 }
+}
