@@ -2,6 +2,14 @@ p_andhra_pradesh = {
 	color = { 231 222 88 }
 }
 
+p_azad_kashmir = {
+	color = { 177 191 201 }
+}
+
+p_baluchistan = {
+	color = { 156 10 157 }
+}
+
 p_bihar = {
 	color = { 223 226 107 }
 }
@@ -12,6 +20,14 @@ p_chhattisgarh = {
 
 p_delhi = {
 	color = { 15 124 240 }
+}
+
+p_east_punjab = {
+	color = { 153 5 210 }
+}
+
+p_gilgit = {
+	color = { 129 198 84 }
 }
 
 p_goa = {
@@ -46,6 +62,10 @@ p_kerala = {
 	color = { 162 202 139 }
 }
 
+p_khyber_pakhtunkhwa = {
+	color = { 115 98 55 }
+}
+
 p_madhya_pradesh = {
 	color = { 56 181 200 }
 }
@@ -58,12 +78,16 @@ p_orissa = {
 	color = { 207 64 114 }
 }
 
-p_punjab = {
-	color = { 153 5 210 }
+p_qabailistan = {
+	color = { 101 220 129 }
 }
 
 p_rajasthan = {
 	color = { 223 13 182 }
+}
+
+p_sind = {
+	color = { 37 230 140 }
 }
 
 p_tamil_nadu = {
@@ -72,4 +96,8 @@ p_tamil_nadu = {
 
 p_uttar_pradesh = {
 	color = { 113 100 52 }
+}
+
+p_west_punjab = {
+	color = { 14 158 92 }
 }

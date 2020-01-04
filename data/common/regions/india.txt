@@ -1,8 +1,14 @@
 r_india = {
+	subregions += r_republic_of_india
+	subregions += r_pakistan
+}
+
+r_republic_of_india = { #the territory of the modern Republic of India
 	provinces += p_andhra_pradesh
 	provinces += p_bihar
 	provinces += p_chhattisgarh
 	provinces += p_delhi
+	provinces += p_east_punjab
 	provinces += p_goa
 	provinces += p_gujarat
 	provinces += p_haryana
@@ -14,8 +20,17 @@ r_india = {
 	provinces += p_madhya_pradesh
 	provinces += p_maharashtra
 	provinces += p_orissa
-	provinces += p_punjab
 	provinces += p_rajasthan
 	provinces += p_tamil_nadu
 	provinces += p_uttar_pradesh
+}
+
+r_pakistan = { #the territory of modern Pakistan
+	provinces += p_azad_kashmir
+	provinces += p_baluchistan
+	provinces += p_gilgit
+	provinces += p_khyber_pakhtunkhwa
+	provinces += p_qabailistan
+	provinces += p_sind
+	provinces += p_west_punjab
 }
