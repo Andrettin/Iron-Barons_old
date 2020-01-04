@@ -1,3 +1,8 @@
+p_chilia_branch = {
+	color = { 177 42 179 }
+	terrain = major_river
+}
+
 p_danube_river = {
 	color = { 165 117 246 }
 	terrain = major_river
