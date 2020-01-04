@@ -6,12 +6,36 @@ p_adiyaman = {
 	color = { 98 35 21 }
 }
 
+p_afyonkarahisar = {
+	color = { 121 225 138 }
+}
+
 p_agri = {
 	color = { 29 53 14 }
 }
 
+p_aksaray = {
+	color = { 190 195 48 }
+}
+
+p_amasya = {
+	color = { 175 162 213 }
+}
+
+p_ankara = {
+	color = { 197 92 72 }
+}
+
 p_antalya = {
 	color = { 142 125 69 }
+}
+
+p_ardahan = {
+	color = { 88 46 59 }
+}
+
+p_artvin = {
+	color = { 200 118 79 }
 }
 
 p_aydin = {
@@ -22,40 +46,140 @@ p_balikesir = {
 	color = { 165 236 160 }
 }
 
+p_bartin = {
+	color = { 213 27 153 }
+}
+
 p_batman = {
 	color = { 94 13 141 }
+}
+
+p_bayburt = {
+	color = { 126 15 137 }
+}
+
+p_bilecik = {
+	color = { 133 89 95 }
+}
+
+p_bingol = {
+	color = { 92 36 100 }
 }
 
 p_bitlis = {
 	color = { 160 3 25 }
 }
 
+p_bolu = {
+	color = { 132 66 108 }
+}
+
+p_burdur = {
+	color = { 149 56 116 }
+}
+
 p_bursa = {
 	color = { 161 41 169 }
+}
+
+p_cankiri = {
+	color = { 105 35 33 }
+}
+
+p_corum = {
+	color = { 192 125 99 }
+}
+
+p_denizli = {
+	color = { 176 0 210 }
 }
 
 p_diyarbakir = {
 	color = { 135 78 133 }
 }
 
+p_duzce = {
+	color = { 220 62 71 }
+}
+
 p_elazig = {
 	color = { 160 124 86 }
+}
+
+p_erzincan = {
+	color = { 176 249 132 }
+}
+
+p_erzurum = {
+	color = { 176 128 118 }
+}
+
+p_eskisehir = {
+	color = { 209 231 78 }
 }
 
 p_gaziantep = {
 	color = { 124 145 12 }
 }
 
+p_giresun = {
+	color = { 211 202 47 }
+}
+
+p_gumushane = {
+	color = { 0 46 50 }
+}
+
 p_hakkari = {
 	color = { 195 189 26 }
+}
+
+p_isparta = {
+	color = { 238 152 235 }
 }
 
 p_kahramanmaras = {
 	color = { 187 121 29 }
 }
 
+p_karabuk = {
+	color = { 133 239 181 }
+}
+
+p_karaman = {
+	color = { 48 55 82 }
+}
+
+p_kars = {
+	color = { 172 139 85 }
+}
+
+p_kastamonu = {
+	color = { 178 175 60 }
+}
+
+p_kayseri = {
+	color = { 246 133 186 }
+}
+
+p_kinkkale = {
+	color = { 119 102 77 }
+}
+
+p_kirsehir = {
+	color = { 254 149 156 }
+}
+
 p_kocaeli = {
 	color = { 148 136 53 }
+}
+
+p_konya = {
+	color = { 179 142 224 }
+}
+
+p_kutahya = {
+	color = { 27 167 67 }
 }
 
 p_malatya = {
@@ -82,8 +206,32 @@ p_mus = {
 	color = { 211 188 12 }
 }
 
+p_nevsehir = {
+	color = { 182 44 121 }
+}
+
+p_nigde = {
+	color = { 227 222 124 }
+}
+
+p_ordu = {
+	color = { 104 164 153 }
+}
+
 p_osmaniye = {
 	color = { 188 92 255 }
+}
+
+p_rize = {
+	color = { 88 124 146 }
+}
+
+p_sakarya = {
+	color = { 166 109 143 }
+}
+
+p_samsun = {
+	color = { 8 151 96 }
 }
 
 p_sanliurfa = {
@@ -94,18 +242,50 @@ p_siirt = {
 	color = { 241 159 216 }
 }
 
+p_sinope = {
+	color = { 118 35 49 }
+}
+
 p_sirnak = {
 	color = { 206 39 53 }
+}
+
+p_sivas = {
+	color = { 211 163 159 }
 }
 
 p_smyrna = {
 	color = { 113 174 45 }
 }
 
+p_tokat = {
+	color = { 133 6 26 }
+}
+
+p_trebizond = {
+	color = { 178 98 11 }
+}
+
 p_troad = {
 	color = { 6 65 60 }
 }
 
+p_tunceli = {
+	color = { 120 151 6 }
+}
+
+p_usak = {
+	color = { 124 29 35 }
+}
+
 p_van = {
 	color = { 50 17 116 }
+}
+
+p_yozgat = {
+	color = { 33 174 60 }
+}
+
+p_zinguldak = {
+	color = { 159 252 49 }
 }
