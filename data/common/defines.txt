@@ -9,8 +9,8 @@ max_palace_slots_per_province = 6
 
 succession_law_group = succession
 
-trade_node_score_realm_modifier = -0.3 #modifier to the score for province trade node calculation if the center of trade is in the same realm as the province; negative values mean increased probability of the trade node being picked if it is in the same realm
-trade_node_score_culture_modifier = -0.05
-trade_node_score_culture_group_modifier = -0.05
-trade_node_score_religion_modifier = -0.05
-trade_node_score_religion_group_modifier = -0.05
+trade_node_score_realm_modifier = 0.5 #modifier to the score for province trade node calculation if the center of trade is in a different realm as the province; greater values mean decreased probability of the trade node being picked if it is in a different realm
+trade_node_score_culture_modifier = 0.12
+trade_node_score_culture_group_modifier = 0.13
+trade_node_score_religion_modifier = 0.12
+trade_node_score_religion_group_modifier = 0.13
