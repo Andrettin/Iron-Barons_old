@@ -21,11 +21,12 @@ Item {
 			anchors.fill: parent
 			hoverEnabled: true
 			ToolTip.text: tooltip(
-				holding ?
+				(holding ?
 					holding.titled_name + "<br>"
 					+ (holding.owner ? "<br>Holder: " + holding.owner.titled_name : "")
 					+ (holding.settlement ? "<br>Population: " + number_str(holding.population) : "")
 				: (holding_slot ? holding_slot.name : ""))
+				+ (holding_slot && holding_slot.settlement && holding_slot.holding_size !== 100 ? "<br>Holding Size: " + number_str(holding_slot.holding_size) + "%" : ""))
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000
 			onClicked: {
