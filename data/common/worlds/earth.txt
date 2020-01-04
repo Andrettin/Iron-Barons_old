@@ -1,2 +1,3 @@
 earth = {
+	surface_area = 510072000
 }
