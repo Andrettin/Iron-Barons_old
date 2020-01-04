@@ -1,0 +1,61 @@
+c_adana = {
+	color = { 164 43 218 }
+	
+	b_adana = {
+	}
+}
+
+c_antalya = {
+	color = { 142 125 69 }
+	
+	b_antalya = {
+	}
+}
+
+c_aydin = {
+	color = { 72 55 97 }
+	
+	b_aydin = {
+	}
+}
+
+c_bursa = {
+	color = { 161 41 169 }
+	
+	b_bursa = {
+	}
+}
+
+c_diyarbakir = {
+	color = { 135 78 133 }
+	
+	b_diyarbakir = {
+	}
+}
+
+c_gaziantep = {
+	color = { 124 145 12 }
+	
+	b_nizib = {
+	}
+}
+
+c_kocaeli = {
+	color = { 148 136 53 }
+	
+	b_scutari = {
+	}
+	
+	b_nicomedia = {
+	}
+
+	b_hunkiar_skelessi = {
+	}
+}
+
+c_smyrna = {
+	color = { 113 174 45 }
+	
+	b_smyrna = {
+	}
+}

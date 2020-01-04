@@ -1,5 +1,11 @@
 p_adana = {
+	county = c_adana
 	color = { 164 43 218 }
+	
+	h_adana = {
+		barony = b_adana
+		type = settlement
+	}
 }
 
 p_adiyaman = {
@@ -27,7 +33,13 @@ p_ankara = {
 }
 
 p_antalya = {
+	county = c_antalya
 	color = { 142 125 69 }
+	
+	h_antalya = {
+		barony = b_antalya
+		type = settlement
+	}
 }
 
 p_ardahan = {
@@ -39,7 +51,13 @@ p_artvin = {
 }
 
 p_aydin = {
+	county = c_aydin
 	color = { 72 55 97 }
+	
+	h_aydin = {
+		barony = b_aydin
+		type = settlement
+	}
 }
 
 p_balikesir = {
@@ -79,7 +97,13 @@ p_burdur = {
 }
 
 p_bursa = {
+	county = c_bursa
 	color = { 161 41 169 }
+	
+	h_bursa = {
+		barony = b_bursa
+		type = settlement
+	}
 }
 
 p_cankiri = {
@@ -95,7 +119,13 @@ p_denizli = {
 }
 
 p_diyarbakir = {
+	county = c_diyarbakir
 	color = { 135 78 133 }
+	
+	h_diyarbakir = {
+		barony = b_diyarbakir
+		type = settlement
+	}
 }
 
 p_duzce = {
@@ -119,7 +149,13 @@ p_eskisehir = {
 }
 
 p_gaziantep = {
+	county = c_gaziantep
 	color = { 124 145 12 }
+	
+	h_nizib = {
+		barony = b_nizib
+		type = settlement
+	}
 }
 
 p_giresun = {
@@ -171,7 +207,23 @@ p_kirsehir = {
 }
 
 p_kocaeli = {
+	county = c_kocaeli
 	color = { 148 136 53 }
+	
+	h_scutari = {
+		barony = b_scutari
+		type = settlement
+	}
+	
+	h_nicomedia = {
+		barony = b_nicomedia
+		type = settlement
+	}
+	
+	h_hunkiar_skelessi = {
+		barony = b_hunkiar_skelessi
+		type = settlement
+	}
 }
 
 p_konya = {
@@ -255,7 +307,13 @@ p_sivas = {
 }
 
 p_smyrna = {
+	county = c_smyrna
 	color = { 113 174 45 }
+	
+	h_smyrna = {
+		barony = b_smyrna
+		type = settlement
+	}
 }
 
 p_tokat = {
