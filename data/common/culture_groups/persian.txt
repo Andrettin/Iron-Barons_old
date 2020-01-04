@@ -1,0 +1,13 @@
+iranian = {
+	species = human
+	color = { 83 117 72 }
+	default_phenotype = european
+
+	male_names = {
+		Alessandro #placeholder
+	}
+	
+	female_names = {
+		Giovanna #placeholder
+	}
+}

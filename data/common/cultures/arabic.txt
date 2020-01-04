@@ -1,0 +1,4 @@
+arabic = {
+	culture_group = semitic
+	color = { 175 181 93 }
+}

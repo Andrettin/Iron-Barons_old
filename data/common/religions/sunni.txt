@@ -1,0 +1,4 @@
+sunni = {
+	religion_group = muslim
+	color = { 36 149 51 }
+}

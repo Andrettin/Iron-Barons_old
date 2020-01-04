@@ -1,1 +1,2 @@
 christian = "Christian"
+muslim = "Muslim"
