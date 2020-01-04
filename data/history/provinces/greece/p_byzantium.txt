@@ -2,6 +2,7 @@ religion = orthodox
 
 1683 = {
 	h_byzantium = city #Constantinople existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_san_stefano = town #San Stefano existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
 }
 
 1815 = {

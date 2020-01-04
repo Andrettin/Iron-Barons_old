@@ -1,0 +1,10 @@
+1683 = {
+	holder = random
+	liege_title = e_turkey #part of the Ottoman Empire as of 1683; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	laws += appointment_succession
+}
+
+1898 = {
+	liege_title = none #Crete became independent in 1898; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	laws += open_elective_succession
+}

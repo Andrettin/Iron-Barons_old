@@ -3,6 +3,27 @@ k_greece = {
 	capital_province = p_attica
 }
 
+c_achaea = {
+	color = { 200 98 198 }
+
+	b_patras = {
+	}
+}
+
+c_adrianople = {
+	color = { 250 138 142 }
+
+	b_adrianople = {
+	}
+}
+
+c_aetolia = {
+	color = { 58 70 114 }
+
+	b_missolonghi = {
+	}
+}
+
 c_attica = {
 	color = { 103 37 25 }
 
@@ -10,9 +31,97 @@ c_attica = {
 	}
 }
 
+c_boeotia = {
+	color = { 247 195 139 }
+
+	b_thebes = {
+	}
+}
+
 c_byzantium = {
 	color = { 149 72 188 }
 
 	b_byzantium = {
+	}
+
+	b_san_stefano = {
+	}
+}
+
+c_central_macedonia = {
+	color = { 141 33 99 }
+
+	b_salonika = {
+	}
+}
+
+c_crete = {
+	color = { 22 187 73 }
+
+	b_candia = {
+	}
+
+	b_retimo = {
+	}
+
+	b_canea = {
+	}
+}
+
+c_epirus = {
+	color = { 156 132 217 }
+
+	b_janina = {
+	}
+
+	b_arta = {
+	}
+
+	b_prevesa = {
+	}
+}
+
+c_peloponnese = {
+	color = { 50 188 139 }
+
+	b_tripolitza = {
+	}
+
+	b_sparta = {
+	}
+
+	b_corinth = {
+	}
+
+	b_nauplia = {
+	}
+
+	b_mistra = {
+	}
+
+	b_kalamata = {
+	}
+
+	b_navarino = {
+	}
+}
+
+c_rodosto = {
+	color = { 239 169 234 }
+
+	b_rodosto = {
+	}
+
+	b_gallipoli = {
+	}
+}
+
+c_thessaly = {
+	color = { 52 145 42 }
+
+	b_larissa = {
+	}
+
+	b_volo = {
 	}
 }

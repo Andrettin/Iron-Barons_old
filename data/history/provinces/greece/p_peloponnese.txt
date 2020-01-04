@@ -1,0 +1,15 @@
+religion = orthodox
+
+1683 = {
+	h_tripolitza = town #Tripolitza existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_sparta = town #Sparta existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_corinth = town #Corinth existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_nauplia = town #Nauplia existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_mistra = town #Mistra existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_kalamata = town #Kalamata existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_navarino = town #Navarino existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+}
+
+1815 = {
+	culture = greek #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

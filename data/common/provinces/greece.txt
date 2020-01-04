@@ -1,13 +1,31 @@
 p_achaea = {
+	county = c_achaea
 	color = { 200 98 198 }
+	
+	h_patras = {
+		barony = b_patras
+		type = settlement
+	}
 }
 
 p_adrianople = {
+	county = c_adrianople
 	color = { 250 138 142 }
+	
+	h_adrianople = {
+		barony = b_adrianople
+		type = settlement
+	}
 }
 
 p_aetolia = {
+	county = c_aetolia
 	color = { 58 70 114 }
+	
+	h_missolonghi = {
+		barony = b_missolonghi
+		type = settlement
+	}
 }
 
 p_attica = {
@@ -21,7 +39,13 @@ p_attica = {
 }
 
 p_boeotia = {
+	county = c_boeotia
 	color = { 247 195 139 }
+	
+	h_thebes = {
+		barony = b_thebes
+		type = settlement
+	}
 }
 
 p_byzantium = {
@@ -32,14 +56,41 @@ p_byzantium = {
 		barony = b_byzantium
 		type = settlement
 	}
+	
+	h_san_stefano = {
+		barony = b_san_stefano
+		type = settlement
+	}
 }
 
 p_central_macedonia = {
+	county = c_central_macedonia
 	color = { 141 33 99 }
+	
+	h_salonika = {
+		barony = b_salonika
+		type = settlement
+	}
 }
 
 p_crete = {
+	county = c_crete
 	color = { 22 187 73 }
+	
+	h_candia = {
+		barony = b_candia
+		type = settlement
+	}
+	
+	h_retimo = {
+		barony = b_retimo
+		type = settlement
+	}
+	
+	h_canea = {
+		barony = b_canea
+		type = settlement
+	}
 }
 
 p_cyclades = {
@@ -55,7 +106,23 @@ p_east_macedonia = {
 }
 
 p_epirus = {
+	county = c_epirus
 	color = { 156 132 217 }
+	
+	h_janina = {
+		barony = b_janina
+		type = settlement
+	}
+	
+	h_arta = {
+		barony = b_arta
+		type = settlement
+	}
+	
+	h_prevesa = {
+		barony = b_prevesa
+		type = settlement
+	}
 }
 
 p_euboea = {
@@ -75,15 +142,73 @@ p_north_aegean_islands = {
 }
 
 p_peloponnese = {
+	county = c_peloponnese
 	color = { 50 188 139 }
+	
+	h_tripolitza = {
+		barony = b_tripolitza
+		type = settlement
+	}
+	
+	h_sparta = {
+		barony = b_sparta
+		type = settlement
+	}
+	
+	h_corinth = {
+		barony = b_corinth
+		type = settlement
+	}
+	
+	h_nauplia = {
+		barony = b_nauplia
+		type = settlement
+	}
+	
+	h_mistra = {
+		barony = b_mistra
+		type = settlement
+	}
+	
+	h_kalamata = {
+		barony = b_kalamata
+		type = settlement
+	}
+	
+	h_navarino = {
+		barony = b_navarino
+		type = settlement
+	}
 }
 
-p_tekirdag = {
+p_rodosto = {
+	county = c_rodosto
 	color = { 239 169 234 }
+	
+	h_rodosto = {
+		barony = b_rodosto
+		type = settlement
+	}
+	
+	h_gallipoli = {
+		barony = b_gallipoli
+		type = settlement
+	}
 }
 
 p_thessaly = {
+	county = c_thessaly
 	color = { 52 145 42 }
+	
+	h_larissa = {
+		barony = b_larissa
+		type = settlement
+	}
+	
+	h_volo = {
+		barony = b_volo
+		type = settlement
+	}
 }
 
 p_west_macedonia = {

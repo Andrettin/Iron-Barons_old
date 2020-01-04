@@ -1,0 +1,10 @@
+religion = orthodox
+
+1683 = {
+	h_rodosto = town #Rodosto existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	h_gallipoli = town #Gallipoli existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+}
+
+1815 = {
+	culture = greek #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}
