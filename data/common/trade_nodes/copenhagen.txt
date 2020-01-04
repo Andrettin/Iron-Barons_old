@@ -1,0 +1,4 @@
+copenhagen = {
+	color = { 198 12 48 }
+	center_of_trade = p_sjaelland
+}

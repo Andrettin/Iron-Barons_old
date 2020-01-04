@@ -1,0 +1,4 @@
+edinburgh = {
+	color = { 47 3 138 }
+	center_of_trade = p_lothian
+}
