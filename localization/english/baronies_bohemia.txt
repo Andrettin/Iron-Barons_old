@@ -1,6 +1,7 @@
 b_brunn = "Brünn"
 b_brunn_czech = "Brno"
 b_budweis = "Budweis"
+b_budweis_czech = "Budejovice"
 b_carlsbad = "Carlsbad"
 b_chlum = "Chlum"
 b_eger = "Eger"

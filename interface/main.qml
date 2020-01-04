@@ -42,7 +42,7 @@ Window {
 			dest_number_string += "0"
 		}
 		dest_number_string += src_number_string.slice(src_number_string.length - 2)
-		return dest_number_string
+		return dest_number_string.toLocaleString(Qt.locale("en_US"), 'f', 2)
 	}
 
 	function start_game() {
