@@ -6,6 +6,7 @@ religion = catholic
 	h_lisbon = city #Lisbon existed as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 89.
 	
 	capital_holding = h_lisbon
+	major_center_of_trade = true
 }
 
 1911 = {
