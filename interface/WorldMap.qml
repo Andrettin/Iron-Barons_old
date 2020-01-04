@@ -11,6 +11,7 @@ Item {
 	property var world: null
 
 	enum Mode {
+		None,
 		Country,
 		DeJureEmpire,
 		DeJureKingdom,
