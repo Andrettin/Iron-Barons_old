@@ -7,7 +7,3 @@
 	liege_title = e_turkey #part of the Ottoman Empire as of 1683; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
 	laws += appointment_succession
 }
-
-1830 = {
-	liege_title = k_greece #became part of the Kingdom of Greece in 1830; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
-}

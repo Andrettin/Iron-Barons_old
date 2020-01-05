@@ -1,8 +1,17 @@
-religion = orthodox
+religion = pagan
+
+-1450 = {
+	culture = greek #part of the Mycenaean civilization c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+
+	h_amyclae = town #Amyclae existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+}
 
 1683 = {
 	h_sparta = town #Sparta existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
 	h_mistra = town #Mistra existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	
+	religion = orthodox
+	capital_holding = h_sparta
 }
 
 1815 = {

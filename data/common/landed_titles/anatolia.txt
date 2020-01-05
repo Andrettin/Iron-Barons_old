@@ -59,3 +59,10 @@ c_smyrna = {
 	b_smyrna = {
 	}
 }
+
+c_troad = {
+	color = { 6 65 60 }
+	
+	b_troy = {
+	}
+}

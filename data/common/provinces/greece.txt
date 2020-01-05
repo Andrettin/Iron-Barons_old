@@ -42,6 +42,21 @@ p_argolis = {
 	county = c_argolis
 	color = { 95 42 16 }
 	
+	h_mycenae = {
+		barony = b_mycenae
+		type = settlement
+	}
+	
+	h_tiryns = {
+		barony = b_tiryns
+		type = settlement
+	}
+	
+	h_epidaurus = {
+		barony = b_epidaurus
+		type = settlement
+	}
+	
 	h_nauplia = {
 		barony = b_nauplia
 		type = settlement
@@ -56,12 +71,37 @@ p_attica = {
 		barony = b_athens
 		type = settlement
 	}
+	
+	h_eleusis = {
+		barony = b_eleusis
+		type = settlement
+	}
+	
+	h_aphidnae = {
+		barony = b_aphidnae
+		type = settlement
+	}
 }
 
 p_boeotia = {
 	county = c_boeotia
 	color = { 247 195 139 }
 	
+	h_orchomenus = {
+		barony = b_orchomenus
+		type = settlement
+	}
+
+	h_goulas = {
+		barony = b_goulas
+		type = settlement
+	}
+
+	h_delphi = {
+		barony = b_delphi
+		type = settlement
+	}
+
 	h_thebes = {
 		barony = b_thebes
 		type = settlement
@@ -106,17 +146,37 @@ p_corinth = {
 p_crete = {
 	county = c_crete
 	color = { 22 187 73 }
-	
+
+	h_knossos = {
+		barony = b_knossos
+		type = settlement
+	}
+
+	h_dicte = {
+		barony = b_dicte
+		type = settlement
+	}
+
+	h_itanus = {
+		barony = b_itanus
+		type = settlement
+	}
+
+	h_phaestus = {
+		barony = b_phaestus
+		type = settlement
+	}
+
 	h_candia = {
 		barony = b_candia
 		type = settlement
 	}
-	
+
 	h_retimo = {
 		barony = b_retimo
 		type = settlement
 	}
-	
+
 	h_canea = {
 		barony = b_canea
 		type = settlement
@@ -128,7 +188,13 @@ p_cyclades = {
 }
 
 p_dodecanese = {
+	county = c_dodecanese
 	color = { 126 37 123 }
+
+	h_ialysus = {
+		barony = b_ialysus
+		type = settlement
+	}
 }
 
 p_east_macedonia = {
@@ -175,6 +241,11 @@ p_laconia = {
 	county = c_laconia
 	color = { 206 76 97 }
 	
+	h_amyclae = {
+		barony = b_amyclae
+		type = settlement
+	}
+	
 	h_sparta = {
 		barony = b_sparta
 		type = settlement
@@ -189,6 +260,11 @@ p_laconia = {
 p_messenia = {
 	county = c_messenia
 	color = { 46 193 96 }
+	
+	h_gerenia = {
+		barony = b_gerenia
+		type = settlement
+	}
 	
 	h_kalamata = {
 		barony = b_kalamata
@@ -223,12 +299,22 @@ p_rodosto = {
 p_thessaly = {
 	county = c_thessaly
 	color = { 52 145 42 }
-	
+
+	h_pagasae = {
+		barony = b_pagasae
+		type = settlement
+	}
+
+	h_iolcus = {
+		barony = b_iolcus
+		type = settlement
+	}
+
 	h_larissa = {
 		barony = b_larissa
 		type = settlement
 	}
-	
+
 	h_volo = {
 		barony = b_volo
 		type = settlement

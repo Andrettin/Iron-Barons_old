@@ -309,7 +309,7 @@ p_sivas = {
 p_smyrna = {
 	county = c_smyrna
 	color = { 113 174 45 }
-	
+
 	h_smyrna = {
 		barony = b_smyrna
 		type = settlement
@@ -325,7 +325,13 @@ p_trebizond = {
 }
 
 p_troad = {
+	county = c_troad
 	color = { 6 65 60 }
+
+	h_troy = {
+		barony = b_troy
+		type = settlement
+	}
 }
 
 p_tunceli = {

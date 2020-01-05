@@ -1,7 +1,18 @@
-religion = orthodox
+religion = pagan
+
+-1450 = {
+	culture = greek #part of the Mycenaean civilization c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+
+	h_mycenae = city #Mycenae was a center of the highest Mycenaean civilization c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+	h_tiryns = city #Tiryns was a center of the highest Mycenaean civilization c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+	h_epidaurus = town #Epidaurus existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+}
 
 1683 = {
 	h_nauplia = town #Nauplia existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	
+	religion = orthodox
+	capital_holding = h_nauplia
 }
 
 1815 = {
