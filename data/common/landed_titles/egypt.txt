@@ -1,0 +1,4 @@
+k_egypt = {
+	color = { 179 113 75 }
+	capital_province = p_rif_dimashq #should be Cairo or Memphis instead
+}

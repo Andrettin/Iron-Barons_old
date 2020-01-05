@@ -1,3 +1,10 @@
+c_rif_dimashq = {
+	color = { 12 190 89 }
+
+	b_damascus = {
+	}
+}
+
 c_tartus = {
 	color = { 231 205 88 }
 

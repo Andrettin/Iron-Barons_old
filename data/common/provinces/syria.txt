@@ -43,7 +43,13 @@ p_lattakia = {
 }
 
 p_rif_dimashq = {
+	county = c_rif_dimashq
 	color = { 12 190 89 }
+	
+	h_damascus = {
+		barony = b_damascus
+		type = settlement
+	}
 }
 
 p_tartus = {

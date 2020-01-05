@@ -145,6 +145,7 @@
 /graphics/flags/k_croatia.svg (by Samhanin, from the Wikimedia Commons) (licensed under the CC0)
 /graphics/flags/k_dalmatia.svg (by DIREKTOR, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_denmark.svg (by Madden, from the Wikimedia Commons) (in the public domain)
+/graphics/flags/k_egypt.svg (by Mysid, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/k_england.svg (by Plugsly, from the Wikimedia Commons) (licensed under the CC-BY-SA 4.0)
 /graphics/flags/k_france.svg (by Oren neu dag, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_galicia.svg (by EJavanainen, from the Wikimedia Commons) (released to the public domain)

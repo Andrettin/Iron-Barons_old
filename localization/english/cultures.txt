@@ -1,5 +1,6 @@
 alsatian = "Alsatian"
 arabic = "Arabic"
+aramaic = "Aramaic"
 austrian = "Austrian"
 basque = "Basque"
 bavarian = "Bavarian"

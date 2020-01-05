@@ -1,0 +1,4 @@
+-1450 = {
+	holder = random
+	laws += primogeniture_succession
+}

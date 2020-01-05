@@ -1,1 +1,2 @@
 b_arvad = "Arvad"
+b_damascus = "Damascus"

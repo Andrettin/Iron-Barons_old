@@ -1,0 +1,4 @@
+aramaic = {
+	culture_group = semitic
+	color = { 90 177 116 }
+}
