@@ -10,6 +10,7 @@ Image {
 	height: 16
 	sourceSize.width: 24
 	sourceSize.height: 16
+	fillMode: Image.Stretch
 
 	MouseArea {
 		anchors.fill: parent
