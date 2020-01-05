@@ -1,0 +1,5 @@
+nomadic_camp = {
+	slot_type = settlement
+	portrait_tag = town
+	default_laws += primogeniture_succession
+}

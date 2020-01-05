@@ -2,6 +2,8 @@ clergymen = {
 	color = { 218 18 26 }
 	icon_tag = soldiers
 
+	holding_types += nomadic_camp
+	holding_types += tribal_village
 	holding_types += village
 	holding_types += town
 	holding_types += city

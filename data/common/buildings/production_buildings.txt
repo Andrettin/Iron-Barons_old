@@ -1,4 +1,6 @@
 cattle_ranch = {
+	holding_types += nomadic_camp
+	holding_types += tribal_village
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -67,6 +69,7 @@ cotton_plantation = {
 }
 
 grain_farm = {
+	holding_types += tribal_village
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -84,6 +87,8 @@ grain_farm = {
 }
 
 horse_ranch = {
+	holding_types += nomadic_camp
+	holding_types += tribal_village
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -118,6 +123,7 @@ iron_mine = {
 }
 
 orchard = {
+	holding_types += tribal_village
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -152,6 +158,8 @@ salt_mine = {
 }
 
 sheep_ranch = {
+	holding_types += nomadic_camp
+	holding_types += tribal_village
 	holding_types += village
 	holding_types += town
 	holding_types += city
