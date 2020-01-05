@@ -1,10 +1,14 @@
 r_asia = {
-	subregions += r_anatolia
 	subregions += r_china
-	subregions += r_cyprus
 	subregions += r_india
+	subregions += r_middle_east
+	subregions += r_siberia
+}
+
+r_middle_east = {
+	subregions += r_anatolia
+	subregions += r_cyprus
 	subregions += r_levant
 	subregions += r_mesopotamia
 	subregions += r_persia
-	subregions += r_siberia
 }
