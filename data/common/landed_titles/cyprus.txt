@@ -1,4 +1,10 @@
+d_cyprus = {
+	color = { 168 67 47 }
+	capital_province = p_larnaca #should be p_nicosia instead
+}
+
 c_larnaca = {
+	de_jure_liege_title = d_cyprus
 	color = { 126 62 4 }
 
 	b_citium = {
@@ -6,6 +12,7 @@ c_larnaca = {
 }
 
 c_limassol = {
+	de_jure_liege_title = d_cyprus
 	color = { 133 197 45 }
 
 	b_amathus = {

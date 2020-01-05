@@ -1,4 +1,17 @@
+k_lebanon = {
+	color = { 94 104 124 }
+	capital_province = p_south_lebanon
+}
+
+d_lebanon = {
+	de_jure_liege_title = k_lebanon
+	color = { 94 104 124 }
+	capital_province = p_south_lebanon
+	flag_tag = k_lebanon
+}
+
 c_mount_lebanon = {
+	de_jure_liege_title = d_lebanon
 	color = { 171 58 22 }
 
 	b_byblos = {
@@ -6,6 +19,7 @@ c_mount_lebanon = {
 }
 
 c_south_lebanon = {
+	de_jure_liege_title = d_lebanon
 	color = { 188 153 20 }
 
 	b_tyre = {

@@ -1,9 +1,11 @@
 -1450 = {
 	holder = random
 	laws += primogeniture_succession
+	de_jure_liege_title = d_lebanon #Phoenicia
 }
 
 1683 = {
 	liege_title = e_turkey #part of the Ottoman Empire as of 1683; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
 	laws += appointment_succession
+	de_jure_liege_title = none
 }

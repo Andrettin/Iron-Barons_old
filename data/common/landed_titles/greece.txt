@@ -3,7 +3,15 @@ k_greece = {
 	capital_province = p_attica
 }
 
+d_greece = {
+	de_jure_liege_title = k_greece
+	color = { 70 178 213 }
+	capital_province = p_attica
+	flag_tag = k_greece
+}
+
 c_achaea = {
+	de_jure_liege_title = d_greece
 	color = { 200 98 198 }
 
 	b_patras = {
@@ -18,6 +26,7 @@ c_adrianople = {
 }
 
 c_aetolia = {
+	de_jure_liege_title = d_greece
 	color = { 58 70 114 }
 
 	b_missolonghi = {
@@ -25,6 +34,7 @@ c_aetolia = {
 }
 
 c_arcadia = {
+	de_jure_liege_title = d_greece
 	color = { 50 188 139 }
 
 	b_tripolitza = {
@@ -32,6 +42,7 @@ c_arcadia = {
 }
 
 c_argolis = {
+	de_jure_liege_title = d_greece
 	color = { 95 42 16 }
 
 	b_mycenae = {
@@ -48,6 +59,7 @@ c_argolis = {
 }
 
 c_attica = {
+	de_jure_liege_title = d_greece
 	color = { 103 37 25 }
 
 	b_athens = {
@@ -61,6 +73,7 @@ c_attica = {
 }
 
 c_boeotia = {
+	de_jure_liege_title = d_greece
 	color = { 247 195 139 }
 
 	b_orchomenus = {
@@ -101,6 +114,7 @@ c_corinth = {
 }
 
 c_crete = {
+	de_jure_liege_title = d_greece
 	color = { 22 187 73 }
 
 	b_knossos = {
@@ -126,6 +140,7 @@ c_crete = {
 }
 
 c_dodecanese = {
+	de_jure_liege_title = d_greece
 	color = { 126 37 123 }
 
 	b_ialysus = {
@@ -146,6 +161,7 @@ c_epirus = {
 }
 
 c_laconia = {
+	de_jure_liege_title = d_greece
 	color = { 206 76 97 }
 
 	b_amyclae = {
@@ -159,6 +175,7 @@ c_laconia = {
 }
 
 c_messenia = {
+	de_jure_liege_title = d_greece
 	color = { 46 193 96 }
 
 	b_gerenia = {
@@ -182,6 +199,7 @@ c_rodosto = {
 }
 
 c_thessaly = {
+	de_jure_liege_title = d_greece
 	color = { 52 145 42 }
 
 	b_pagasae = {
