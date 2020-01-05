@@ -1,0 +1,16 @@
+c_mount_lebanon = {
+	color = { 171 58 22 }
+
+	b_byblos = {
+	}
+}
+
+c_south_lebanon = {
+	color = { 188 153 20 }
+
+	b_tyre = {
+	}
+
+	b_sidon = {
+	}
+}

@@ -1,0 +1,6 @@
+c_tartus = {
+	color = { 231 205 88 }
+
+	b_arvad = {
+	}
+}

@@ -1,4 +1,5 @@
 p_beqaa = "Beqaa"
-p_mount_lebanon = "Mount Lebanon"
+c_mount_lebanon = "Mount Lebanon"
 p_north_lebanon = "North Lebanon"
-p_south_lebanon = "South Lebanon"
+c_south_lebanon = "South Lebanon"
+c_south_lebanon_phoenician = "Tyre"

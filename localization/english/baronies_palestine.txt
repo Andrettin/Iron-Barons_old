@@ -1,0 +1,2 @@
+b_gaza = "Gaza"
+b_megiddo = "Megiddo"

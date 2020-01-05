@@ -3,7 +3,13 @@ p_beqaa = {
 }
 
 p_mount_lebanon = {
+	county = c_mount_lebanon
 	color = { 171 58 22 }
+	
+	h_byblos = {
+		barony = b_byblos
+		type = settlement
+	}
 }
 
 p_north_lebanon = {
@@ -11,5 +17,16 @@ p_north_lebanon = {
 }
 
 p_south_lebanon = {
+	county = c_south_lebanon
 	color = { 188 153 20 }
+	
+	h_tyre = {
+		barony = b_tyre
+		type = settlement
+	}
+	
+	h_sidon = {
+		barony = b_sidon
+		type = settlement
+	}
 }

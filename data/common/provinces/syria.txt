@@ -47,5 +47,11 @@ p_rif_dimashq = {
 }
 
 p_tartus = {
+	county = c_tartus
 	color = { 231 205 88 }
+	
+	h_arvad = {
+		barony = b_arvad
+		type = settlement
+	}
 }

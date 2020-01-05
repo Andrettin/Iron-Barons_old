@@ -1,0 +1,13 @@
+c_hadarom = {
+	color = { 188 162 28 }
+
+	b_gaza = {
+	}
+}
+
+c_hazafon = {
+	color = { 100 58 194 }
+
+	b_megiddo = {
+	}
+}

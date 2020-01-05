@@ -1,5 +1,11 @@
 p_hadarom = {
+	county = c_hadarom
 	color = { 188 162 28 }
+	
+	h_gaza = {
+		barony = b_gaza
+		type = settlement
+	}
 }
 
 p_haifa = {
@@ -11,7 +17,13 @@ p_hamerkaz = {
 }
 
 p_hazafon = {
+	county = c_hazafon
 	color = { 100 58 194 }
+	
+	h_megiddo = {
+		barony = b_megiddo
+		type = settlement
+	}
 }
 
 p_north_sinai = {

@@ -1,0 +1,7 @@
+b_byblos = "Byblos"
+b_byblos_phoenician = "Gebal" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+b_byblos_roman = "Byblus"
+b_sidon = "Sidon"
+b_sidon_arabic = "Saida" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+b_tyre = "Tyre"
+b_tyre_phoenician = "Zor" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.

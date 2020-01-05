@@ -1,0 +1,4 @@
+tyre = {
+	color = { 94 104 124 }
+	center_of_trade = p_south_lebanon
+}

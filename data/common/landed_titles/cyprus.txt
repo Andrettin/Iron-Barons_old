@@ -1,0 +1,13 @@
+c_larnaca = {
+	color = { 126 62 4 }
+
+	b_citium = {
+	}
+}
+
+c_limassol = {
+	color = { 133 197 45 }
+
+	b_amathus = {
+	}
+}
