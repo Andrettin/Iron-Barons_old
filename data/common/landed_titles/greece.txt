@@ -24,6 +24,20 @@ c_aetolia = {
 	}
 }
 
+c_arcadia = {
+	color = { 50 188 139 }
+
+	b_tripolitza = {
+	}
+}
+
+c_argolis = {
+	color = { 95 42 16 }
+
+	b_nauplia = {
+	}
+}
+
 c_attica = {
 	color = { 103 37 25 }
 
@@ -55,6 +69,13 @@ c_central_macedonia = {
 	}
 }
 
+c_corinth = {
+	color = { 183 152 176 }
+
+	b_corinth = {
+	}
+}
+
 c_crete = {
 	color = { 22 187 73 }
 
@@ -81,23 +102,18 @@ c_epirus = {
 	}
 }
 
-c_peloponnese = {
-	color = { 50 188 139 }
-
-	b_tripolitza = {
-	}
+c_laconia = {
+	color = { 206 76 97 }
 
 	b_sparta = {
 	}
 
-	b_corinth = {
-	}
-
-	b_nauplia = {
-	}
-
 	b_mistra = {
 	}
+}
+
+c_messenia = {
+	color = { 46 193 96 }
 
 	b_kalamata = {
 	}

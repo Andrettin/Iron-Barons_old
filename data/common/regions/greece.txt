@@ -1,18 +1,23 @@
 r_greece = { #the territory of modern Greece
 	provinces += p_achaea
 	provinces += p_aetolia
+	provinces += p_arcadia
+	provinces += p_argolis
 	provinces += p_attica
 	provinces += p_boeotia
 	provinces += p_central_macedonia
+	provinces += p_corinth
 	provinces += p_crete
 	provinces += p_cyclades
 	provinces += p_dodecanese
 	provinces += p_east_macedonia
+	provinces += p_elis
 	provinces += p_epirus
 	provinces += p_euboea
 	provinces += p_ionian_islands
+	provinces += p_laconia
+	provinces += p_messenia
 	provinces += p_north_aegean_islands
-	provinces += p_peloponnese
 	provinces += p_thessaly
 	provinces += p_west_macedonia
 }

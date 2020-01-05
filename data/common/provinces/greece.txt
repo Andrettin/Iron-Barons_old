@@ -28,6 +28,26 @@ p_aetolia = {
 	}
 }
 
+p_arcadia = {
+	county = c_arcadia
+	color = { 50 188 139 }
+	
+	h_tripolitza = {
+		barony = b_tripolitza
+		type = settlement
+	}
+}
+
+p_argolis = {
+	county = c_argolis
+	color = { 95 42 16 }
+	
+	h_nauplia = {
+		barony = b_nauplia
+		type = settlement
+	}
+}
+
 p_attica = {
 	county = c_attica
 	color = { 103 37 25 }
@@ -73,6 +93,16 @@ p_central_macedonia = {
 	}
 }
 
+p_corinth = {
+	county = c_corinth
+	color = { 183 152 176 }
+	
+	h_corinth = {
+		barony = b_corinth
+		type = settlement
+	}
+}
+
 p_crete = {
 	county = c_crete
 	color = { 22 187 73 }
@@ -103,6 +133,10 @@ p_dodecanese = {
 
 p_east_macedonia = {
 	color = { 102 139 87 }
+}
+
+p_elis = {
+	color = { 92 45 65 }
 }
 
 p_epirus = {
@@ -137,31 +171,12 @@ p_kirklareli = {
 	color = { 33 174 140 }
 }
 
-p_north_aegean_islands = {
-	color = { 32 141 143 }
-}
-
-p_peloponnese = {
-	county = c_peloponnese
-	color = { 50 188 139 }
-	
-	h_tripolitza = {
-		barony = b_tripolitza
-		type = settlement
-	}
+p_laconia = {
+	county = c_laconia
+	color = { 206 76 97 }
 	
 	h_sparta = {
 		barony = b_sparta
-		type = settlement
-	}
-	
-	h_corinth = {
-		barony = b_corinth
-		type = settlement
-	}
-	
-	h_nauplia = {
-		barony = b_nauplia
 		type = settlement
 	}
 	
@@ -169,6 +184,11 @@ p_peloponnese = {
 		barony = b_mistra
 		type = settlement
 	}
+}
+
+p_messenia = {
+	county = c_messenia
+	color = { 46 193 96 }
 	
 	h_kalamata = {
 		barony = b_kalamata
@@ -179,6 +199,10 @@ p_peloponnese = {
 		barony = b_navarino
 		type = settlement
 	}
+}
+
+p_north_aegean_islands = {
+	color = { 32 141 143 }
 }
 
 p_rodosto = {
