@@ -1,0 +1,4 @@
+baghdad = {
+	color = { 52 201 95 }
+	center_of_trade = p_babylon
+}
