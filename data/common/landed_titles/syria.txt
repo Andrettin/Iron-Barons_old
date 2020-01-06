@@ -1,4 +1,17 @@
+k_syria = {
+	color = { 209 231 105 }
+	capital_province = p_damascus
+}
+
+d_syria = {
+	de_jure_liege_title = k_syria
+	color = { 209 231 105 }
+	capital_province = p_damascus
+	flag_tag = k_syria
+}
+
 c_damascus = {
+	de_jure_liege_title = d_syria
 	color = { 12 190 89 }
 
 	b_damascus = {
@@ -6,6 +19,7 @@ c_damascus = {
 }
 
 c_hamath = {
+	de_jure_liege_title = d_syria
 	color = { 23 81 49 }
 
 	b_hamath = {
@@ -13,6 +27,7 @@ c_hamath = {
 }
 
 c_homs = {
+	de_jure_liege_title = d_syria
 	color = { 182 240 75 }
 
 	b_kadesh = {
@@ -20,6 +35,7 @@ c_homs = {
 }
 
 c_tartus = {
+	de_jure_liege_title = d_syria
 	color = { 231 205 88 }
 
 	b_arvad = {

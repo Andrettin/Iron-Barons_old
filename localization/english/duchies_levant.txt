@@ -1,2 +1,3 @@
 d_lebanon = "Lebanon"
 d_lebanon_phoenician = "Phoenicia"
+d_syria = "Syria"

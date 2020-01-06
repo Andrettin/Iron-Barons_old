@@ -2,6 +2,7 @@
 	holder = random
 	liege_title = k_egypt #subject to Egypt as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 	laws += primogeniture_succession
+	de_jure_liege_title = d_syria
 }
 
 1683 = {

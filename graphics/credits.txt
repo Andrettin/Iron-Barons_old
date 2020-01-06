@@ -169,6 +169,7 @@
 /graphics/flags/k_slavonia.svg (by DIREKTOR, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_sweden.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_switzerland.svg (by Denelson83, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/k_syria.svg (by Ch1902, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/k_wurtemberg.svg (by David Liuzzo, from the Wikimedia Commons) (in the public domain)
 /graphics/holdings/aristocratic_palace.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/aristocratic_palace_large.png (by Jinn) (licensed under the CC0) (reference: the Schönbrunn Palace in Vienna)

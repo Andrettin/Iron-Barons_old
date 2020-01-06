@@ -3,7 +3,15 @@ k_assyria = {
 	capital_province = p_nineveh
 }
 
+d_assyria = {
+	de_jure_liege_title = k_assyria
+	color = { 123 94 58 }
+	capital_province = p_nineveh
+	flag_tag = k_assyria
+}
+
 c_arbela = {
+	de_jure_liege_title = d_assyria
 	color = { 189 105 97 }
 
 	b_arbela = {
@@ -11,6 +19,7 @@ c_arbela = {
 }
 
 c_nineveh = {
+	de_jure_liege_title = d_assyria
 	color = { 164 218 46 }
 
 	b_nineveh = {
@@ -18,6 +27,7 @@ c_nineveh = {
 }
 
 c_sala_ad_din = {
+	de_jure_liege_title = d_assyria
 	color = { 170 173 229 }
 
 	b_assur = {
