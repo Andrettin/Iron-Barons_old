@@ -1,0 +1,11 @@
+k_assyria = {
+	color = { 123 94 58 }
+	capital_province = p_nineveh
+}
+
+c_nineveh = {
+	color = { 164 218 46 }
+
+	b_nineveh = {
+	}
+}

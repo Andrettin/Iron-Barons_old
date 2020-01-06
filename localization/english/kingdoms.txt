@@ -1,3 +1,4 @@
+k_assyria = "Assyria"
 k_austria = "Austria"
 k_bavaria = "Bavaria"
 k_belgium = "Belgium"

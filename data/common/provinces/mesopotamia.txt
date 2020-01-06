@@ -63,7 +63,13 @@ p_maysan = {
 }
 
 p_nineveh = {
+	county = c_nineveh
 	color = { 164 218 46 }
+	
+	h_nineveh = {
+		barony = b_nineveh
+		type = settlement
+	}
 }
 
 p_sala_ad_din = {

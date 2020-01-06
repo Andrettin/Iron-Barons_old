@@ -1,0 +1,2 @@
+b_nineveh = "Nineveh"
+b_nineveh_arabic = "Ninawa"

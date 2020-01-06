@@ -136,6 +136,7 @@
 /graphics/flags/e_russia.svg (by Zscout370, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/e_scandinavia.svg (by E70 and ThrashedParanoid, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/e_turkey.svg (by Kerem Özcan and Orwellianist, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/k_assyria.svg (by the Assyrian Congress, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_austria.svg (by the Bundesministerium für Landesverteidigung, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_bavaria.svg (by Jwnabd, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_bohemia.svg (by Jiří Louda, from the Wikimedia Commons) (in the public domain)
