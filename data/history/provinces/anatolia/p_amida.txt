@@ -1,0 +1,16 @@
+religion = pagan
+
+-1450 = {
+	culture = assyrian
+
+	h_amida = town #Amida existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+}
+
+1683 = {
+	h_amida = town #Diyarbakir/Diarbekr/Amida existed as of 1683-1911; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	religion = sunni
+}
+
+1815 = {
+	culture = turkish #Source: "The British Dominions Year Book 1918", 1918, Map 3.
+}

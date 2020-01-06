@@ -28,6 +28,16 @@ p_amasya = {
 	color = { 175 162 213 }
 }
 
+p_amida = {
+	county = c_amida
+	color = { 135 78 133 }
+	
+	h_amida = {
+		barony = b_amida
+		type = settlement
+	}
+}
+
 p_ankara = {
 	color = { 197 92 72 }
 }
@@ -116,16 +126,6 @@ p_corum = {
 
 p_denizli = {
 	color = { 176 0 210 }
-}
-
-p_diyarbakir = {
-	county = c_diyarbakir
-	color = { 135 78 133 }
-	
-	h_diyarbakir = {
-		barony = b_diyarbakir
-		type = settlement
-	}
 }
 
 p_duzce = {

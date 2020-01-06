@@ -5,6 +5,13 @@ c_adana = {
 	}
 }
 
+c_amida = {
+	color = { 135 78 133 }
+	
+	b_amida = {
+	}
+}
+
 c_antalya = {
 	color = { 142 125 69 }
 	
@@ -23,13 +30,6 @@ c_bursa = {
 	color = { 161 41 169 }
 	
 	b_bursa = {
-	}
-}
-
-c_diyarbakir = {
-	color = { 135 78 133 }
-	
-	b_diyarbakir = {
 	}
 }
 
