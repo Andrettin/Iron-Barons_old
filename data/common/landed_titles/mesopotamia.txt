@@ -39,6 +39,9 @@ c_babylon = {
 
 	b_kutha = {
 	}
+
+	b_baghdad = {
+	}
 }
 
 c_nineveh = {

@@ -15,6 +15,7 @@ r_mesopotamia = {
 	provinces += p_diyala
 	provinces += p_karbala
 	provinces += p_maysan
+	provinces += p_mosul
 	provinces += p_nineveh
 	provinces += p_sala_ad_din
 	provinces += p_wasit
