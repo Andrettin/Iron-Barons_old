@@ -1,0 +1,7 @@
+c_khuzestan = {
+	de_jure_liege_title = d_mesopotamia #Babylonia
+	color = { 6 108 112 }
+
+	b_susa = {
+	}
+}

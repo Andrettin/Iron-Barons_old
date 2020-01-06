@@ -3,7 +3,13 @@ p_al_ahmadi = {
 }
 
 p_al_anbar = {
+	county = c_al_anbar
 	color = { 248 151 149 }
+	
+	h_borsippa = {
+		barony = b_borsippa
+		type = settlement
+	}
 }
 
 p_al_basrah = {
@@ -15,11 +21,28 @@ p_al_jahrah = {
 }
 
 p_al_muthannia = {
+	county = c_al_muthannia
 	color = { 83 136 131 }
+	
+	h_ur = {
+		barony = b_ur
+		type = settlement
+	}
 }
 
 p_al_qadisiyyah = {
+	county = c_al_qadisiyyah
 	color = { 134 245 61 }
+	
+	h_nippur = {
+		barony = b_nippur
+		type = settlement
+	}
+	
+	h_uruk = {
+		barony = b_uruk
+		type = settlement
+	}
 }
 
 p_an_najaf = {
@@ -58,6 +81,21 @@ p_babylon = {
 		type = settlement
 	}
 	
+	h_dur_kurigalzu = {
+		barony = b_dur_kurigalzu
+		type = settlement
+	}
+	
+	h_agad = {
+		barony = b_agad
+		type = settlement
+	}
+	
+	h_sippar = {
+		barony = b_sippar
+		type = settlement
+	}
+	
 	h_baghdad = {
 		barony = b_baghdad
 		type = settlement
@@ -65,7 +103,23 @@ p_babylon = {
 }
 
 p_dhi_qar = {
+	county = c_dhi_qar
 	color = { 130 33 42 }
+	
+	h_lagash = {
+		barony = b_lagash
+		type = settlement
+	}
+	
+	h_larsam = {
+		barony = b_larsam
+		type = settlement
+	}
+	
+	h_eridu = {
+		barony = b_eridu
+		type = settlement
+	}
 }
 
 p_dihok = {
@@ -73,7 +127,13 @@ p_dihok = {
 }
 
 p_diyala = {
+	county = c_diyala
 	color = { 161 101 85 }
+	
+	h_upi = {
+		barony = b_upi
+		type = settlement
+	}
 }
 
 p_karbala = {
@@ -81,7 +141,13 @@ p_karbala = {
 }
 
 p_maysan = {
+	county = c_maysan
 	color = { 150 158 1 }
+	
+	h_shinpurla = {
+		barony = b_shinpurla
+		type = settlement
+	}
 }
 
 p_mosul = {

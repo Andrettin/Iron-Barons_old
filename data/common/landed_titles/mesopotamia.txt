@@ -22,6 +22,33 @@ d_mesopotamia = {
 	flag_tag = k_mesopotamia
 }
 
+c_al_anbar = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 248 151 149 }
+
+	b_borsippa = {
+	}
+}
+
+c_al_muthannia = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 83 136 131 }
+
+	b_ur = {
+	}
+}
+
+c_al_qadisiyyah = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 134 245 61 }
+
+	b_nippur = {
+	}
+
+	b_uruk = {
+	}
+}
+
 c_arbela = {
 	de_jure_liege_title = d_assyria
 	color = { 189 105 97 }
@@ -40,7 +67,46 @@ c_babylon = {
 	b_kutha = {
 	}
 
+	b_dur_kurigalzu = {
+	}
+
+	b_agad = {
+	}
+
+	b_sippar = {
+	}
+
 	b_baghdad = {
+	}
+}
+
+c_dhi_qar = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 130 33 42 }
+
+	b_lagash = {
+	}
+
+	b_larsam = {
+	}
+
+	b_eridu = {
+	}
+}
+
+c_diyala = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 161 101 85 }
+
+	b_upi = {
+	}
+}
+
+c_maysan = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 150 158 1 }
+
+	b_shinpurla = {
 	}
 }
 

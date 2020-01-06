@@ -6,6 +6,7 @@ c_hadarom = {
 }
 
 c_hazafon = {
+	de_jure_liege_title = d_lebanon #Phoenicia
 	color = { 100 58 194 }
 
 	b_megiddo = {

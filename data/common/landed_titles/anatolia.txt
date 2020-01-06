@@ -6,6 +6,7 @@ c_adana = {
 }
 
 c_amida = {
+	de_jure_liege_title = d_assyria
 	color = { 135 78 133 }
 	
 	b_amida = {
