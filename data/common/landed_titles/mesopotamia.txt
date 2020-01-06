@@ -3,6 +3,11 @@ k_assyria = {
 	capital_province = p_nineveh
 }
 
+k_mesopotamia = {
+	color = { 52 201 95 }
+	capital_province = p_babylon
+}
+
 d_assyria = {
 	de_jure_liege_title = k_assyria
 	color = { 123 94 58 }
@@ -10,11 +15,29 @@ d_assyria = {
 	flag_tag = k_assyria
 }
 
+d_mesopotamia = {
+	de_jure_liege_title = k_mesopotamia
+	color = { 52 201 95 }
+	capital_province = p_babylon
+	flag_tag = k_mesopotamia
+}
+
 c_arbela = {
 	de_jure_liege_title = d_assyria
 	color = { 189 105 97 }
 
 	b_arbela = {
+	}
+}
+
+c_babylon = {
+	de_jure_liege_title = d_mesopotamia
+	color = { 205 177 154 }
+
+	b_babylon = {
+	}
+
+	b_kutha = {
 	}
 }
 

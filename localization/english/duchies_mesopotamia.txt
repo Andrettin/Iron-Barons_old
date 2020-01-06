@@ -1,1 +1,5 @@
 d_assyria = "Assyria"
+d_mesopotamia = "Mesopotamia"
+d_mesopotamia_arabic = "Iraq"
+d_mesopotamia_assyrian = "Babylonia"
+d_mesopotamia_babylonian = "Babylonia"

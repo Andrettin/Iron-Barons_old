@@ -1,0 +1,3 @@
+-1450 = {
+	holder_title = k_mesopotamia #part of Babylonia as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+}

@@ -45,7 +45,18 @@ p_at_tamim = {
 }
 
 p_babylon = {
+	county = c_babylon
 	color = { 205 177 154 }
+	
+	h_babylon = {
+		barony = b_babylon
+		type = settlement
+	}
+	
+	h_kutha = {
+		barony = b_kutha
+		type = settlement
+	}
 }
 
 p_dhi_qar = {

@@ -1,0 +1,4 @@
+babylonian = {
+	culture_group = semitic
+	color = { 52 201 95 }
+}
