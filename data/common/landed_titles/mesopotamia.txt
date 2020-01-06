@@ -3,9 +3,23 @@ k_assyria = {
 	capital_province = p_nineveh
 }
 
+c_arbela = {
+	color = { 189 105 97 }
+
+	b_arbela = {
+	}
+}
+
 c_nineveh = {
 	color = { 164 218 46 }
 
 	b_nineveh = {
+	}
+}
+
+c_sala_ad_din = {
+	color = { 170 173 229 }
+
+	b_assur = {
 	}
 }

@@ -27,7 +27,13 @@ p_an_najaf = {
 }
 
 p_arbela = {
+	county = c_arbela
 	color = { 189 105 97 }
+	
+	h_arbela = {
+		barony = b_arbela
+		type = settlement
+	}
 }
 
 p_as_sulaymaniyah = {
@@ -73,7 +79,13 @@ p_nineveh = {
 }
 
 p_sala_ad_din = {
+	county = c_sala_ad_din
 	color = { 170 173 229 }
+	
+	h_assur = {
+		barony = b_assur
+		type = settlement
+	}
 }
 
 p_wasit = {

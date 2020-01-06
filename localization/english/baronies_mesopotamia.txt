@@ -1,2 +1,5 @@
+b_arbela = "Arbela"
+b_arbela_arabic = "Arbil"
+b_assur = "Assur"
 b_nineveh = "Nineveh"
 b_nineveh_arabic = "Ninawa"
