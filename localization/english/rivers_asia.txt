@@ -1,0 +1,7 @@
+p_lower_euphrates_river = "Lower Euphrates River"
+p_lower_tigris_river = "Lower Tigris River"
+p_middle_euphrates_river = "Middle Euphrates River"
+p_middle_tigris_river = "Middle Tigris River"
+p_shatt_al_arab_river = "Shatt al-Arab River"
+p_upper_euphrates_river = "Upper Euphrates River"
+p_upper_tigris_river = "Upper Tigris River"
