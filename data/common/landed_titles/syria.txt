@@ -1,7 +1,21 @@
-c_rif_dimashq = {
+c_damascus = {
 	color = { 12 190 89 }
 
 	b_damascus = {
+	}
+}
+
+c_hamath = {
+	color = { 23 81 49 }
+
+	b_hamath = {
+	}
+}
+
+c_homs = {
+	color = { 182 240 75 }
+
+	b_kadesh = {
 	}
 }
 

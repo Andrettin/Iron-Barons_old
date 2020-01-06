@@ -1,2 +1,5 @@
 b_arvad = "Arvad"
 b_damascus = "Damascus"
+b_hamath = "Hamath"
+b_hamath_arabic = "Hamah"
+b_kadesh = "Kadesh"

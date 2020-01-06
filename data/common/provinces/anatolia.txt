@@ -152,6 +152,11 @@ p_gaziantep = {
 	county = c_gaziantep
 	color = { 124 145 12 }
 	
+	h_carchemish = {
+		barony = b_carchemish
+		type = settlement
+	}
+	
 	h_nizib = {
 		barony = b_nizib
 		type = settlement

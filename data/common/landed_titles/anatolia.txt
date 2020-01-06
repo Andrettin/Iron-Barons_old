@@ -36,6 +36,9 @@ c_diyarbakir = {
 c_gaziantep = {
 	color = { 124 145 12 }
 	
+	b_carchemish = {
+	}
+	
 	b_nizib = {
 	}
 }
