@@ -1,3 +1,4 @@
+/map/earth/provinces/africa/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/asia/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/arctic_ocean/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/atlantic_ocean/ (www.naturalearthdata.com) (public domain)
