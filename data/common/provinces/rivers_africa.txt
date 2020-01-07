@@ -12,8 +12,3 @@ p_rosetta_branch = {
 	color = { 216 242 248 }
 	terrain = major_river
 }
-
-p_upper_nile_river = {
-	color = { 157 109 101 }
-	terrain = major_river
-}

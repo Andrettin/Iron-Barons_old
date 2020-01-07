@@ -1,7 +1,3 @@
-p_abu_simbel = {
-	color = { 165 206 206 }
-}
-
 p_al_bahr_al_ahmar = {
 	color = { 119 205 174 }
 }
@@ -64,10 +60,6 @@ p_cairo = {
 
 p_damietta = {
 	color = { 226 135 165 }
-}
-
-p_dendera = {
-	color = { 86 180 36 }
 }
 
 p_giza = {

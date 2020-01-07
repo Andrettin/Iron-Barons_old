@@ -1,4 +1,3 @@
 p_damietta_branch = "Damietta Branch"
 p_lower_nile_river = "Lower Nile River"
 p_rosetta_branch = "Rosetta Branch"
-p_upper_nile_river = "Upper Nile River"
