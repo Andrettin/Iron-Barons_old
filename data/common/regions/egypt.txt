@@ -5,6 +5,27 @@ r_egypt = { #the territory of modern Egypt
 
 r_african_egypt = { #the African territory of modern Egypt
 	provinces += p_abu_simbel
+	provinces += p_al_bahr_al_ahmar
+	provinces += p_al_buhayrah
+	provinces += p_al_fayyum
+	provinces += p_al_gharbiyah
+	provinces += p_al_ismailiyah
+	provinces += p_al_minufiyah
+	provinces += p_al_minya
+	provinces += p_al_qalyubiyah
 	provinces += p_al_wadi_al_jadid
+	provinces += p_alexandria
+	provinces += p_ash_sharqiyah
 	provinces += p_aswan
+	provinces += p_asyut
+	provinces += p_bani_suwayf
+	provinces += p_cairo
+	provinces += p_damietta
+	provinces += p_dendera
+	provinces += p_giza
+	provinces += p_kafr_ash_shaykh
+	provinces += p_matruh
+	provinces += p_qina
+	provinces += p_suez
+	provinces += p_suhaj
 }
