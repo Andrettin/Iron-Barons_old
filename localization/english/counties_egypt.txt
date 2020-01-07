@@ -1,0 +1,3 @@
+p_abu_simbel = "Abu Simbel"
+p_al_wadi_al_jadid = "Al Wadi al Jadid"
+p_aswan = "Aswan"

@@ -1,3 +1,10 @@
 r_egypt = { #the territory of modern Egypt
+	subregions += r_african_egypt
 	subregions += r_sinai
+}
+
+r_african_egypt = { #the African territory of modern Egypt
+	provinces += p_abu_simbel
+	provinces += p_al_wadi_al_jadid
+	provinces += p_aswan
 }

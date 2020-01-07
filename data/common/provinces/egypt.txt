@@ -1,0 +1,11 @@
+p_abu_simbel = {
+	color = { 165 206 206 }
+}
+
+p_al_wadi_al_jadid = {
+	color = { 14 215 101 }
+}
+
+p_aswan = {
+	color = { 68 115 91 }
+}
