@@ -1,0 +1,2 @@
+b_memphis = "Memphis"
+b_memphis_egyptian = "Men-nofer" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.

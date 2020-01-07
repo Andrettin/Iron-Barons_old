@@ -1,4 +1,19 @@
 k_egypt = {
 	color = { 224 226 33 }
-	capital_province = p_damascus #should be Cairo or Memphis instead
+	capital_province = p_giza #Memphis
+}
+
+d_egypt = {
+	de_jure_liege_title = k_egypt
+	color = { 224 226 33 }
+	capital_province = p_giza #Memphis
+	flag_tag = k_egypt
+}
+
+c_giza = {
+	de_jure_liege_title = d_egypt
+	color = { 168 12 141 }
+
+	b_memphis = {
+	}
 }

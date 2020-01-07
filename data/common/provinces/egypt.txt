@@ -63,7 +63,13 @@ p_damietta = {
 }
 
 p_giza = {
+	county = c_giza
 	color = { 168 12 141 }
+	
+	h_memphis = {
+		barony = b_memphis
+		type = settlement
+	}
 }
 
 p_kafr_ash_shaykh = {

@@ -1,0 +1,4 @@
+egyptian = {
+	culture_group = egyptian
+	color = { 224 226 33 }
+}
