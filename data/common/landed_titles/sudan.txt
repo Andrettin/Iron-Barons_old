@@ -1,0 +1,7 @@
+c_ash_shamaliyah = {
+	de_jure_liege_title = d_egypt
+	color = { 189 134 22 }
+	
+	b_napata = {
+	}
+}

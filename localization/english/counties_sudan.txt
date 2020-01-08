@@ -1,6 +1,6 @@
 p_an_nil_al_abyad = "An Nil al Abyad"
 p_an_nil_al_azraq = "An Nil al Azraq"
-p_ash_shamaliyah = "Ash Shamaliyah"
+c_ash_shamaliyah = "Ash Shamaliyah"
 p_central_darfur = "Central Darfur"
 p_east_darfur = "East Darfur"
 p_gedarif = "Gedarif"

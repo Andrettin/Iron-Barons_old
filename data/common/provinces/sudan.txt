@@ -7,7 +7,13 @@ p_an_nil_al_azraq = {
 }
 
 p_ash_shamaliyah = {
+	county = c_ash_shamaliyah
 	color = { 189 134 22 }
+	
+	h_napata = {
+		barony = b_napata
+		type = settlement
+	}
 }
 
 p_central_darfur = {
