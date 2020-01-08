@@ -1,0 +1,19 @@
+r_sudan = { #the territory of modern Sudan
+	provinces += p_an_nil_al_abyad
+	provinces += p_an_nil_al_azraq
+	provinces += p_ash_shamaliyah
+	provinces += p_central_darfur
+	provinces += p_east_darfur
+	provinces += p_gedarif
+	provinces += p_gezira
+	provinces += p_kassala
+	provinces += p_khartoum
+	provinces += p_nahr_an_nil
+	provinces += p_north_darfur
+	provinces += p_north_kordufan
+	provinces += p_sennar
+	provinces += p_south_al_bahr_al_ahmar
+	provinces += p_south_kordufan
+	provinces += p_south_darfur
+	provinces += p_west_darfur
+}

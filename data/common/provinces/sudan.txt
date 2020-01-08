@@ -1,0 +1,67 @@
+p_an_nil_al_abyad = {
+	color = { 125 207 24 }
+}
+
+p_an_nil_al_azraq = {
+	color = { 150 167 93 }
+}
+
+p_ash_shamaliyah = {
+	color = { 189 134 22 }
+}
+
+p_central_darfur = {
+	color = { 32 112 94 }
+}
+
+p_east_darfur = {
+	color = { 189 199 6 }
+}
+
+p_gedarif = {
+	color = { 104 59 190 }
+}
+
+p_gezira = {
+	color = { 107 77 106 }
+}
+
+p_kassala = {
+	color = { 150 69 225 }
+}
+
+p_khartoum = {
+	color = { 11 217 81 }
+}
+
+p_nahr_an_nil = {
+	color = { 157 10 129 }
+}
+
+p_north_darfur = {
+	color = { 189 160 19 }
+}
+
+p_north_kordufan = {
+	color = { 44 96 102 }
+}
+
+p_sennar = {
+	color = { 56 125 77 }
+}
+
+p_south_al_bahr_al_ahmar = {
+	color = { 86 34 161 }
+}
+
+p_south_kordufan = {
+	color = { 111 64 144 }
+}
+
+p_south_darfur = {
+	color = { 87 240 149 }
+}
+
+p_west_darfur = {
+	color = { 63 73 108 }
+}

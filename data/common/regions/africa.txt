@@ -1,3 +1,4 @@
 r_africa = {
 	subregions += r_african_egypt
+	subregions += r_sudan
 }
