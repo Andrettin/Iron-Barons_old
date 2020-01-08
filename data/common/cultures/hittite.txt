@@ -1,0 +1,4 @@
+hittite = {
+	culture_group = anatolian
+	color = { 102 121 93 }
+}

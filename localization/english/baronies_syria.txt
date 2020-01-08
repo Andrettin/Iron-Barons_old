@@ -1,5 +1,6 @@
 b_arvad = "Arvad"
 b_damascus = "Damascus"
+b_damascus_hebrew = "Dammeshek" #Source: William R. Shepherd, "Historical Atlas", 1911, pp. 6-7.
 b_hamath = "Hamath"
 b_hamath_arabic = "Hamah"
 b_kadesh = "Kadesh"

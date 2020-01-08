@@ -1,0 +1,4 @@
+hebrew = {
+	culture_group = semitic
+	color = { 88 212 234 }
+}

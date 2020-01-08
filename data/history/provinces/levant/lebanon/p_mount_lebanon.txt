@@ -6,6 +6,10 @@ religion = pagan
 	h_byblos = town #Byblos existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 }
 
+-1250 = {
+	h_berothai = town #Berothai existed as of 1250-1125 BC; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 6-7.
+}
+
 1683 = {
 	culture = arabic
 	religion = catholic

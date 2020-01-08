@@ -6,14 +6,31 @@ p_hadarom = {
 		barony = b_gaza
 		type = settlement
 	}
+	
+	h_ascalon = {
+		barony = b_ascalon
+		type = settlement
+	}
 }
 
 p_haifa = {
+	county = c_haifa
 	color = { 40 43 27 }
+	
+	h_dor = {
+		barony = b_dor
+		type = settlement
+	}
 }
 
 p_hamerkaz = {
+	county = c_hamerkaz
 	color = { 80 21 3 }
+	
+	h_joppa = {
+		barony = b_joppa
+		type = settlement
+	}
 }
 
 p_hazafon = {
@@ -35,5 +52,31 @@ p_south_sinai = {
 }
 
 p_west_bank = {
+	county = c_west_bank
 	color = { 34 47 228 }
+	
+	h_jerusalem = {
+		barony = b_jerusalem
+		type = settlement
+	}
+	
+	h_jericho = {
+		barony = b_jericho
+		type = settlement
+	}
+	
+	h_hebron = {
+		barony = b_hebron
+		type = settlement
+	}
+	
+	h_shiloh = {
+		barony = b_shiloh
+		type = settlement
+	}
+	
+	h_shechem = {
+		barony = b_shechem
+		type = settlement
+	}
 }

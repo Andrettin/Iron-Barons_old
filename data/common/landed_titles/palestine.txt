@@ -1,7 +1,24 @@
 c_hadarom = {
 	color = { 188 162 28 }
-
+	
 	b_gaza = {
+	}
+	
+	b_ascalon = {
+	}
+}
+
+c_haifa = {
+	color = { 40 43 27 }
+	
+	b_dor = {
+	}
+}
+
+c_hamerkaz = {
+	color = { 80 21 3 }
+	
+	b_joppa = {
 	}
 }
 
@@ -10,5 +27,24 @@ c_hazafon = {
 	color = { 100 58 194 }
 
 	b_megiddo = {
+	}
+}
+
+c_west_bank = {
+	color = { 34 47 228 }
+	
+	b_jerusalem = {
+	}
+	
+	b_jericho = {
+	}
+	
+	b_hebron = {
+	}
+	
+	b_shiloh = {
+	}
+	
+	b_shechem = {
 	}
 }

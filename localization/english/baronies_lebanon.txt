@@ -1,3 +1,5 @@
+b_baalbek = "Baalbek"
+b_berothai = "Berothai"
 b_byblos = "Byblos"
 b_byblos_phoenician = "Gebal" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
 b_byblos_roman = "Byblus"

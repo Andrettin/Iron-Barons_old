@@ -10,21 +10,31 @@ d_lebanon = {
 	flag_tag = k_lebanon
 }
 
+c_beqaa = {
+	color = { 61 170 163 }
+	
+	b_baalbek = {
+	}
+}
+
 c_mount_lebanon = {
 	de_jure_liege_title = d_lebanon
 	color = { 171 58 22 }
-
+	
 	b_byblos = {
+	}
+	
+	b_berothai = {
 	}
 }
 
 c_south_lebanon = {
 	de_jure_liege_title = d_lebanon
 	color = { 188 153 20 }
-
+	
 	b_tyre = {
 	}
-
+	
 	b_sidon = {
 	}
 }

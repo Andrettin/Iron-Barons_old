@@ -1,0 +1,9 @@
+-1250 = {
+	holder = random
+	laws += primogeniture_succession
+}
+
+1683 = {
+	liege_title = e_turkey #part of the Ottoman Empire as of 1683; Source: William R. Shepherd, "Historical Atlas", 1911, p. 164.
+	laws += appointment_succession
+}
