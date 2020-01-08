@@ -15,7 +15,6 @@ r_african_egypt = { #the African territory of modern Egypt
 	provinces += p_al_wadi_al_jadid
 	provinces += p_alexandria
 	provinces += p_ash_sharqiyah
-	provinces += p_aswan
 	provinces += p_asyut
 	provinces += p_bani_suwayf
 	provinces += p_cairo
@@ -26,4 +25,5 @@ r_african_egypt = { #the African territory of modern Egypt
 	provinces += p_qina
 	provinces += p_suez
 	provinces += p_suhaj
+	provinces += p_syene
 }

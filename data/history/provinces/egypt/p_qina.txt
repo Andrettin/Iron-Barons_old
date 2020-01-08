@@ -1,0 +1,14 @@
+religion = pagan
+
+-1450 = {
+	culture = egyptian
+	
+	h_thebes_egypt = city #Thebes/Luxor existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+	h_karnak = town #Karnak existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+	h_tentyris = town #Tentyris/Dendera existed as of c. 1450 BC; Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+}
+
+1815 = {
+	culture = arabic
+	religion = sunni
+}

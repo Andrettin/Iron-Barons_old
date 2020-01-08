@@ -40,6 +40,7 @@
 /graphics/flags/b_strasbourg.svg (by Madden, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/b_turin.svg (by GJo, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
 /graphics/flags/c_aisne.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
+/graphics/flags/c_ash_sharqiyah.svg (by Lexico, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
 /graphics/flags/c_ardennes.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0 and the CC-BY-SA 1.0)
 /graphics/flags/c_aube.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0 and the CC-BY-SA 1.0)
 /graphics/flags/c_banska_bystrica.svg (by Zirland, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)

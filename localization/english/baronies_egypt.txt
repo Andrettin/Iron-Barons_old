@@ -1,2 +1,16 @@
+b_abu_simbel = "Abu Simbel"
+b_abydos = "Abydos"
+b_heliopolis = "Heliopolis"
+b_heliopolis_egyptian = "On" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+b_karnak = "Karnak"
 b_memphis = "Memphis"
 b_memphis_egyptian = "Men-nofer" #Source: William R. Shepherd, "Historical Atlas", 1911, p. 4.
+b_sais = "Sais"
+b_syene = "Syene"
+b_syene_arabic = "Aswan"
+b_tanis = "Tanis"
+b_tentyris = "Tentyris"
+b_tentyris_arabic = "Dendera"
+b_thebes_egypt = "Thebes"
+b_thebes_egypt_arabic = "Luxor"
+b_this = "This"

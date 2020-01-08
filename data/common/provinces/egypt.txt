@@ -11,7 +11,13 @@ p_al_fayyum = {
 }
 
 p_al_gharbiyah = {
+	county = c_al_gharbiyah
 	color = { 109 1 89 }
+	
+	h_sais = {
+		barony = b_sais
+		type = settlement
+	}
 }
 
 p_al_ismailiyah = {
@@ -39,11 +45,13 @@ p_alexandria = {
 }
 
 p_ash_sharqiyah = {
+	county = c_ash_sharqiyah
 	color = { 79 93 88 }
-}
-
-p_aswan = {
-	color = { 68 115 91 }
+	
+	h_tanis = {
+		barony = b_tanis
+		type = settlement
+	}
 }
 
 p_asyut = {
@@ -55,7 +63,13 @@ p_bani_suwayf = {
 }
 
 p_cairo = {
+	county = c_cairo
 	color = { 106 2 171 }
+	
+	h_heliopolis = {
+		barony = b_heliopolis
+		type = settlement
+	}
 }
 
 p_damietta = {
@@ -81,7 +95,23 @@ p_matruh = {
 }
 
 p_qina = {
+	county = c_qina
 	color = { 173 61 145 }
+	
+	h_thebes_egypt = {
+		barony = b_thebes_egypt
+		type = settlement
+	}
+	
+	h_karnak = {
+		barony = b_karnak
+		type = settlement
+	}
+	
+	h_tentyris = {
+		barony = b_tentyris
+		type = settlement
+	}
 }
 
 p_suez = {
@@ -89,5 +119,31 @@ p_suez = {
 }
 
 p_suhaj = {
+	county = c_suhaj
 	color = { 192 146 69 }
+	
+	h_abydos = {
+		barony = b_abydos
+		type = settlement
+	}
+	
+	h_this = {
+		barony = b_this
+		type = settlement
+	}
+}
+
+p_syene = {
+	county = c_syene
+	color = { 68 115 91 }
+	
+	h_syene = {
+		barony = b_syene
+		type = settlement
+	}
+	
+	h_abu_simbel = {
+		barony = b_abu_simbel
+		type = settlement
+	}
 }

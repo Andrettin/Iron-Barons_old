@@ -10,10 +10,70 @@ d_egypt = {
 	flag_tag = k_egypt
 }
 
+c_al_gharbiyah = {
+	de_jure_liege_title = d_egypt
+	color = { 109 1 89 }
+	
+	b_sais = {
+	}
+}
+
+c_ash_sharqiyah = {
+	de_jure_liege_title = d_egypt
+	color = { 79 93 88 }
+	
+	b_tanis = {
+	}
+}
+
+c_cairo = {
+	de_jure_liege_title = d_egypt
+	color = { 106 2 171 }
+	
+	b_heliopolis = {
+	}
+}
+
 c_giza = {
 	de_jure_liege_title = d_egypt
 	color = { 168 12 141 }
-
+	
 	b_memphis = {
+	}
+}
+
+c_qina = {
+	de_jure_liege_title = d_egypt
+	color = { 173 61 145 }
+	
+	b_thebes_egypt = {
+	}
+	
+	b_karnak = {
+	}
+	
+	b_tentyris = {
+	}
+}
+
+c_suhaj = {
+	de_jure_liege_title = d_egypt
+	color = { 192 146 69 }
+	
+	b_abydos = {
+	}
+	
+	b_this = {
+	}
+}
+
+c_syene = {
+	de_jure_liege_title = d_egypt
+	color = { 68 115 91 }
+	
+	b_syene = {
+	}
+	
+	b_abu_simbel = {
 	}
 }
