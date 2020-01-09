@@ -1,4 +1,5 @@
 catholic = "Catholic"
+jewish = "Jewish"
 orthodox = "Orthodox"
 pagan = "Pagan"
 protestant = "Protestant"

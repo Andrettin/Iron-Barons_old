@@ -161,6 +161,8 @@
 /graphics/flags/k_lebanon_phoenician.svg (by Gustavo ronconi, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_mesopotamia.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_netherlands.svg (by Zscout370, from the Wikimedia Commons) (released to the public domain)
+/graphics/flags/k_palestine.svg (by Orionist, Makaristos and Mysid, from the Wikimedia Commons) (in the public domain)
+/graphics/flags/k_palestine_hebrew.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_papal_states.svg (by Tibetan Pop Rocks, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/k_poland.svg (by Barryob, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0 and the GFDL)
 /graphics/flags/k_portugal.svg (by Vítor Luís Rodrigues and António Martins-Tuválkin, from the Wikimedia Commons) (released to the public domain)

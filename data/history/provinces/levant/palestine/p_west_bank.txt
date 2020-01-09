@@ -2,6 +2,7 @@ religion = pagan
 
 -1250 = {
 	culture = hebrew #mixed Israelite/Phoenician/Kenite as of 1250-1125 BC; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 6-7.
+	religion = jewish
 	
 	h_jerusalem = city #Jerusalem existed as of 1250-1125 BC; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 6-7.
 	h_jericho = town #Jericho existed as of 1250-1125 BC; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 6-7.

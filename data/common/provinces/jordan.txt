@@ -3,7 +3,18 @@ p_amman = {
 }
 
 p_aqaba = {
+	county = c_aqaba
 	color = { 142 140 222 }
+	
+	h_elath = {
+		barony = b_elath
+		type = settlement
+	}
+	
+	h_selah = {
+		barony = b_selah
+		type = settlement
+	}
 }
 
 p_balqa = {

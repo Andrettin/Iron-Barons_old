@@ -1,5 +1,5 @@
 p_amman = "Amman"
-p_aqaba = "Aqaba"
+c_aqaba = "Aqaba"
 p_balqa = "Balqa"
 p_irbid = "Irbid"
 p_karak = "Karak"

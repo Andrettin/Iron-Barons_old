@@ -11,6 +11,26 @@ p_hadarom = {
 		barony = b_ascalon
 		type = settlement
 	}
+	
+	h_beersheba = {
+		barony = b_beersheba
+		type = settlement
+	}
+	
+	h_hazor = {
+		barony = b_hazor
+		type = settlement
+	}
+	
+	h_ezion_geber = {
+		barony = b_ezion_geber
+		type = settlement
+	}
+	
+	h_kadesh_barnea = {
+		barony = b_kadesh_barnea
+		type = settlement
+	}
 }
 
 p_haifa = {

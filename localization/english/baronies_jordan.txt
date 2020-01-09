@@ -1,0 +1,2 @@
+b_elath = "Elath"
+b_selah = "Selah"

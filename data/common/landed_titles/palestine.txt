@@ -1,4 +1,17 @@
+k_palestine = {
+	color = { 88 212 234 }
+	capital_province = p_west_bank #Jerusalem
+}
+
+d_palestine = {
+	de_jure_liege_title = k_palestine
+	color = { 88 212 234 }
+	capital_province = p_west_bank #Jerusalem
+	flag_tag = k_palestine
+}
+
 c_hadarom = {
+	de_jure_liege_title = d_palestine
 	color = { 188 162 28 }
 	
 	b_gaza = {
@@ -6,9 +19,22 @@ c_hadarom = {
 	
 	b_ascalon = {
 	}
+	
+	b_beersheba = {
+	}
+	
+	b_hazor = {
+	}
+	
+	b_ezion_geber = {
+	}
+	
+	b_kadesh_barnea = {
+	}
 }
 
 c_haifa = {
+	de_jure_liege_title = d_palestine
 	color = { 40 43 27 }
 	
 	b_dor = {
@@ -16,6 +42,7 @@ c_haifa = {
 }
 
 c_hamerkaz = {
+	de_jure_liege_title = d_palestine
 	color = { 80 21 3 }
 	
 	b_joppa = {
@@ -31,6 +58,7 @@ c_hazafon = {
 }
 
 c_west_bank = {
+	de_jure_liege_title = d_palestine
 	color = { 34 47 228 }
 	
 	b_jerusalem = {

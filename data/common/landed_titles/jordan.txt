@@ -1,0 +1,10 @@
+c_aqaba = {
+	de_jure_liege_title = d_palestine
+	color = { 142 140 222 }
+	
+	b_elath = {
+	}
+	
+	b_selah = {
+	}
+}

@@ -1,3 +1,6 @@
 d_lebanon = "Lebanon"
 d_lebanon_phoenician = "Phoenicia"
+d_palestine = "Palestine"
+d_palestine_hebrew = "Israel"
+d_palestine_jewish = "Israel"
 d_syria = "Syria"
