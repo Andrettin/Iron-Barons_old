@@ -11,7 +11,6 @@ religion = catholic
 	#fort = fort #Marienburg had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_danzig
-	major_center_of_trade = true
 	
 	h_danzig = {
 		culture = saxon #"German"; Source: "The British Dominions Year Book 1918", 1918, Map 3.

@@ -12,6 +12,4 @@ religion = catholic
 
 1815 = {
 	culture = castillian #"Spanish"; Source: "The British Dominions Year Book 1918", 1918, Map 3.
-	
-	major_center_of_trade = true
 }

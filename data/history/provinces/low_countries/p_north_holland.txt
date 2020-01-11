@@ -7,7 +7,6 @@ religion = protestant
 	h_haarlem = town #Haarlem was in existence as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_amsterdam
-	major_center_of_trade = true
 }
 
 1877 = {

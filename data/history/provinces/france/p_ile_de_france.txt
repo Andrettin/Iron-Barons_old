@@ -13,5 +13,4 @@ religion = catholic
 	fort = fort #Paris had a fortress as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
 	
 	capital_holding = h_paris
-	major_center_of_trade = true
 }

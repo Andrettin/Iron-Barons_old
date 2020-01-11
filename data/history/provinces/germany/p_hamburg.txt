@@ -7,5 +7,4 @@ religion = protestant
 	h_altona = city #Altona existed as of 1815; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, vol. 2, p. 81.
 	
 	capital_holding = h_hamburg
-	major_center_of_trade = true
 }
