@@ -14,3 +14,5 @@ trade_node_score_culture_modifier = 0.12
 trade_node_score_culture_group_modifier = 0.13
 trade_node_score_religion_modifier = 0.12
 trade_node_score_religion_group_modifier = 0.13
+trade_cost_modifier_per_distance = 0.05
+base_port_trade_cost_modifier = 0 #additional trade cost when entering/exiting a port
