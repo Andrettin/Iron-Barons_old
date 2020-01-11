@@ -100,6 +100,7 @@ Item {
 						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_area && model.modelData.owner ? "<br>Trade Area: " + model.modelData.trade_area.name : "")
 						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_node && model.modelData.trade_node.center_of_trade === model.modelData && model.modelData.major_center_of_trade === false && model.modelData.owner ? "<br>Center of Trade" : "")
 						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_node && model.modelData.trade_node.center_of_trade === model.modelData && model.modelData.major_center_of_trade === true && model.modelData.owner ? "<br>Major Center of Trade" : "")
+						+ ((metternich.map_mode === WorldMap.Mode.TradeNode || metternich.map_mode === WorldMap.Mode.TradeArea) && model.modelData.trade_node_trade_cost > 0 ? "<br>Trade Cost with Node: " + centesimal(model.modelData.trade_node_trade_cost) + "%" : "")
 					)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
