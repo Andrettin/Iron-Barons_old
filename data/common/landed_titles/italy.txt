@@ -150,6 +150,9 @@ c_latium = {
 	
 	b_macerata = {
 	}
+	
+	b_civitavecchia = {
+	}
 }
 
 c_lucca = {
@@ -314,6 +317,9 @@ c_tuscany = {
 	}
 	
 	b_arezzo = {
+	}
+	
+	b_siena = {
 	}
 }
 

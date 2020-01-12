@@ -6,6 +6,10 @@ h_florence += {
 	geocoordinate = { 11.25000036480 43.78000083320 }
 }
 
+h_siena += {
+	geocoordinate = { 11.34999426130 43.31703167630 }
+}
+
 geopolygons = {
 	{
 		coordinates = {

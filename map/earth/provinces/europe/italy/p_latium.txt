@@ -1,3 +1,7 @@
+h_civitavecchia += {
+	geocoordinate = { 11.79999263370 42.10041343080 }
+}
+
 h_perugia += {
 	geocoordinate = { 12.38998246120 43.11037762360 }
 }

@@ -161,6 +161,11 @@ p_latium = {
 		barony = b_macerata
 		type = settlement
 	}
+
+	h_civitavecchia = {
+		barony = b_civitavecchia
+		type = settlement
+	}
 }
 
 p_lucca = {
@@ -398,6 +403,11 @@ p_tuscany = {
 
 	h_arezzo = {
 		barony = b_arezzo
+		type = settlement
+	}
+
+	h_siena = {
+		barony = b_siena
 		type = settlement
 	}
 }
