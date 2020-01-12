@@ -1,3 +1,7 @@
+h_arezzo += {
+	geocoordinate = { 11.87497513700 43.46172568670 }
+}
+
 h_florence += {
 	geocoordinate = { 11.25000036480 43.78000083320 }
 }
