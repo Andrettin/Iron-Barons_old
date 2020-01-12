@@ -119,23 +119,34 @@ Item {
 		Repeater {
 			model: world ? world.trade_routes : []
 
-			Shape {
-				x: model.modelData.rect.x
-				y: model.modelData.rect.y
-				width: model.modelData.rect.width
-				height: model.modelData.rect.height
-				visible: model.modelData.active && metternich.map_mode === WorldMap.Mode.TradeNode
+			Item {
+				property var trade_route: model.modelData
+				
+				visible: trade_route.active && metternich.map_mode === WorldMap.Mode.TradeNode
+				x: trade_route.rect.x
+				y: trade_route.rect.y
+				width: trade_route.rect.width
+				height: trade_route.rect.height
+				
+				Repeater {
+					model: trade_route.path_branch_points
 
-				ShapePath {
-					strokeWidth: 2
-					strokeColor: "gold"
-					strokeStyle: ShapePath.SolidLine
-					capStyle: ShapePath.RoundCap
-					joinStyle: ShapePath.RoundJoin
-					fillColor: "transparent"
-					startX: model.modelData.path_points[0].x
-					startY: model.modelData.path_points[0].y
-					PathPolyline { path: model.modelData.path_points }
+					Shape {
+						width: trade_route.rect.width
+						height: trade_route.rect.height
+
+						ShapePath {
+							strokeWidth: 2
+							strokeColor: "gold"
+							strokeStyle: ShapePath.SolidLine
+							capStyle: ShapePath.RoundCap
+							joinStyle: ShapePath.RoundJoin
+							fillColor: "transparent"
+							startX: model.modelData[0].x
+							startY: model.modelData[0].y
+							PathPolyline { path: model.modelData }
+						}
+					}
 				}
 			}
 		}
