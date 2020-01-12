@@ -124,7 +124,7 @@ Item {
 				y: model.modelData.rect.y
 				width: model.modelData.rect.width
 				height: model.modelData.rect.height
-				visible: metternich.map_mode === WorldMap.Mode.TradeNode
+				visible: model.modelData.active && metternich.map_mode === WorldMap.Mode.TradeNode
 
 				ShapePath {
 					strokeWidth: 2
