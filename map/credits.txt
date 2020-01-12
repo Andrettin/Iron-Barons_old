@@ -299,4 +299,3 @@
 /map/earth/provinces/north_america/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/south_america/ (www.naturalearthdata.com) (public domain)
 /map/earth/terrain/ (www.naturalearthdata.com) (public domain)
-/map/earth/trade_routes/ (www.naturalearthdata.com) (public domain)
