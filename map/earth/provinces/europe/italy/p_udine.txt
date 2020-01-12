@@ -1,3 +1,7 @@
+h_udine += {
+	geocoordinate = { 13.24000809600 46.07001609200 }
+}
+
 geopolygons ={
 	{
 		coordinates ={

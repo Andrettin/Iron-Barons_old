@@ -1,3 +1,7 @@
+h_florence += {
+	geocoordinate = { 11.25000036480 43.78000083320 }
+}
+
 geopolygons = {
 	{
 		coordinates = {

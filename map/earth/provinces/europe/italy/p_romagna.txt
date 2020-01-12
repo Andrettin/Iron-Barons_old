@@ -1,3 +1,7 @@
+h_bologna += {
+	geocoordinate = { 11.34002070990 44.50042197580 }
+}
+
 geopolygons ={
 	{
 		coordinates ={

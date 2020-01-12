@@ -1,3 +1,7 @@
+h_parma += {
+	geocoordinate = { 10.32003128930 44.81042889310 }
+}
+
 geopolygons = {
 	{
 		coordinates = {

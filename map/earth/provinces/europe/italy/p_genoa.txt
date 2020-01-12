@@ -1,3 +1,7 @@
+h_genoa += {
+	geocoordinate = { 8.93003861353 44.40998821930 }
+}
+
 geopolygons = {
 	{
 		coordinates = {

@@ -1,3 +1,7 @@
+h_rome += {
+	geocoordinate = { 12.48325842150 41.89595562650 }
+}
+
 geopolygons ={
 	{
 		coordinates ={
