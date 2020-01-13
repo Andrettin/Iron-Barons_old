@@ -18,6 +18,10 @@ h_rome += {
 	geocoordinate = { 12.48325842150 41.89595562650 }
 }
 
+h_san_marino += {
+	geocoordinate = { 12.46667028670 43.91715008450 }
+}
+
 geopolygons ={
 	{
 		coordinates ={

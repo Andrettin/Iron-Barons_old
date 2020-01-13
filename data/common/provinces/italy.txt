@@ -176,6 +176,11 @@ p_latium = {
 		barony = b_pesaro
 		type = settlement
 	}
+	
+	h_san_marino = {
+		barony = b_san_marino
+		type = settlement
+	}
 }
 
 p_lucca = {

@@ -159,6 +159,9 @@ c_latium = {
 	
 	b_pesaro = {
 	}
+	
+	b_san_marino = {
+	}
 }
 
 c_lucca = {
