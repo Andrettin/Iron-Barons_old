@@ -2,6 +2,14 @@ h_bologna += {
 	geocoordinate = { 11.34002070990 44.50042197580 }
 }
 
+h_ferrara += {
+	geocoordinate = { 11.60992671580 44.85042645170 }
+}
+
+h_ravenna += {
+	geocoordinate = { 12.22001867540 44.42037518220 }
+}
+
 geopolygons ={
 	{
 		coordinates ={

@@ -153,6 +153,12 @@ c_latium = {
 	
 	b_civitavecchia = {
 	}
+	
+	b_ancona = {
+	}
+	
+	b_pesaro = {
+	}
 }
 
 c_lucca = {
@@ -258,6 +264,9 @@ c_romagna = {
 	}
 	
 	b_ferrara = {
+	}
+	
+	b_ravenna = {
 	}
 }
 

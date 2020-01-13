@@ -146,24 +146,34 @@ p_haute_corse = {
 p_latium = {
 	county = c_latium
 	color = { 57 237 186 }
-
+	
 	h_rome = {
 		barony = b_rome
 		type = settlement
 	}
-
+	
 	h_perugia = {
 		barony = b_perugia
 		type = settlement
 	}
-
+	
 	h_macerata = {
 		barony = b_macerata
 		type = settlement
 	}
-
+	
 	h_civitavecchia = {
 		barony = b_civitavecchia
+		type = settlement
+	}
+	
+	h_ancona = {
+		barony = b_ancona
+		type = settlement
+	}
+	
+	h_pesaro = {
+		barony = b_pesaro
 		type = settlement
 	}
 }
@@ -316,14 +326,19 @@ p_principato_ultra = {
 p_romagna = {
 	county = c_romagna
 	color = { 152 239 120 }
-
+	
 	h_bologna = {
 		barony = b_bologna
 		type = settlement
 	}
-
+	
 	h_ferrara = {
 		barony = b_ferrara
+		type = settlement
+	}
+	
+	h_ravenna = {
+		barony = b_ravenna
 		type = settlement
 	}
 }
