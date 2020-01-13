@@ -4,7 +4,7 @@ road = {
 	required_technologies += road
 	
 	preconditions = {
-		has_any_trade_route = true
+		has_any_trade_route_land_connection = true
 		not = {
 			has_building = paved_road
 			has_building = horse_drawn_railroad
@@ -26,7 +26,7 @@ paved_road = {
 	icon_tag = road
 	
 	preconditions = {
-		has_any_trade_route = true
+		has_any_trade_route_land_connection = true
 		not = {
 			has_building = horse_drawn_railroad
 			has_building = iron_railroad
@@ -47,7 +47,7 @@ horse_drawn_railroad = {
 	icon_tag = railroad
 	
 	preconditions = {
-		has_any_trade_route = true
+		has_any_trade_route_land_connection = true
 		not = {
 			has_building = iron_railroad
 			has_building = steel_railroad
@@ -67,7 +67,7 @@ iron_railroad = {
 	icon_tag = railroad
 	
 	preconditions = {
-		has_any_trade_route = true
+		has_any_trade_route_land_connection = true
 		not = {
 			has_building = steel_railroad
 		}
@@ -86,6 +86,6 @@ steel_railroad = {
 	icon_tag = railroad
 	
 	preconditions = {
-		has_any_trade_route = true
+		has_any_trade_route_land_connection = true
 	}
 }
