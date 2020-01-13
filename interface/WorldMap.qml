@@ -7,7 +7,9 @@ Item {
 	id: map
 	width: map_terrain.width
 	height: map_terrain.height
-
+	
+	readonly property int viewport_range_offset: 128
+	property var viewport: null
 	property var world: null
 
 	enum Mode {
@@ -38,7 +40,31 @@ Item {
 	function moveDown(pixels) {
 		map.y -= pixels * map.scale
 	}
+	
+	function pos_to_viewport_pos(pos) {
+		var viewport_pos = pos
+		viewport_pos.x += map.x
+		viewport_pos.y += map.y
+		return viewport_pos
+	}
+	
+	function is_pos_in_viewport_range(pos) {
+		if (game_view === null) {
+			return false
+		}
 
+		var viewport_pos = pos_to_viewport_pos(pos)
+		return viewport_pos.x >= (0 - viewport_range_offset) && viewport_pos.y >= (0 - viewport_range_offset) && viewport_pos.x < (game_view.width + viewport_range_offset) && viewport_pos.y < (game_view.height + viewport_range_offset)
+	}
+	
+	function is_rect_in_viewport_range(rect) {
+		var top_left_pos = Qt.point(rect.x, rect.y)
+		var bottom_right_pos = Qt.point(rect.x + rect.width - 1, rect.y + rect.height - 1)
+		var top_right_pos = Qt.point(rect.x + rect.width - 1, rect.y)
+		var bottom_left_pos = Qt.point(rect.x, rect.y + rect.height - 1)
+		return is_pos_in_viewport_range(top_left_pos) || is_pos_in_viewport_range(bottom_right_pos) || is_pos_in_viewport_range(top_right_pos) || is_pos_in_viewport_range(bottom_left_pos)
+	}
+	
 	Image {
 		id: map_terrain
 		source: world ? world.cache_path + "/provinces.png" : "image://empty/"
