@@ -1,4 +1,4 @@
 lubeck = {
-	color = { 252 221 9 }
-	center_of_trade = p_lauenburg
+	color = { 248 175 41 }
+	center_of_trade = p_lauenburg #Lübeck
 }

@@ -141,7 +141,7 @@ Item {
 				}
 			}
 		}
-
+		
 		Repeater {
 			model: world ? world.trade_routes : []
 
