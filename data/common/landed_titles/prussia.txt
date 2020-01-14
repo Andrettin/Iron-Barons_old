@@ -58,13 +58,6 @@ c_east_prussia = {
 	}
 }
 
-c_kaunas = {
-	color = { 185 126 107 }
-
-	b_rossieny = {
-	}
-}
-
 c_thorn = {
 	de_jure_liege_title = d_west_prussia
 	color = { 225 196 236 }
@@ -76,15 +69,5 @@ c_thorn = {
 	}
 
 	b_kulm = {
-	}
-}
-
-c_vilnius = {
-	color = { 131 245 131 }
-
-	b_vilnius = {
-	}
-
-	b_vilkomir = {
 	}
 }

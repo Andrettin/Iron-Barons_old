@@ -1,0 +1,48 @@
+p_alytaus = {
+	color = { 218 133 72 }
+}
+
+p_kaunas = {
+	county = c_kaunas
+	color = { 185 126 107 }
+
+	h_rossieny = {
+		barony = b_rossieny
+		type = settlement
+	}
+}
+
+p_panevezio = {
+	color = { 107 126 24 }
+}
+
+p_siauliai = {
+	color = { 136 214 134 }
+}
+
+p_taurages = {
+	color = { 188 118 211 }
+}
+
+p_telsiai = {
+	color = { 148 232 149 }
+}
+
+p_utenos = {
+	color = { 182 104 15 }
+}
+
+p_vilnius = {
+	county = c_vilnius
+	color = { 131 245 131 }
+
+	h_vilnius = {
+		barony = b_vilnius
+		type = settlement
+	}
+
+	h_vilkomir = {
+		barony = b_vilkomir
+		type = settlement
+	}
+}

@@ -1,0 +1,16 @@
+c_kaunas = {
+	color = { 185 126 107 }
+
+	b_rossieny = {
+	}
+}
+
+c_vilnius = {
+	color = { 131 245 131 }
+
+	b_vilnius = {
+	}
+
+	b_vilkomir = {
+	}
+}
