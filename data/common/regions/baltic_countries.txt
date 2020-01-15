@@ -1,6 +1,25 @@
 r_baltic_countries = {
+	subregions += r_estonia
 	subregions += r_latvia
 	subregions += r_lithuania
+}
+
+r_estonia = { #the territory of modern Estonia
+	provinces += p_harju
+	provinces += p_hiiu
+	provinces += p_ida_viru
+	provinces += p_jarva
+	provinces += p_jogeva
+	provinces += p_laane
+	provinces += p_laane_viru
+	provinces += p_parnu
+	provinces += p_polva
+	provinces += p_rapla
+	provinces += p_saare
+	provinces += p_tartu
+	provinces += p_valga
+	provinces += p_viljandi
+	provinces += p_voru
 }
 
 r_latvia = { #the territory of modern Latvia
