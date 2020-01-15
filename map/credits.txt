@@ -2,6 +2,7 @@
 /map/earth/provinces/asia/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/arctic_ocean/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/atlantic_ocean/ (www.naturalearthdata.com) (public domain)
+/map/earth/provinces/europe/albania/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/austria/p_carinthia.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/austria/p_carniola.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/austria/p_east_tyrol.txt (www.naturalearthdata.com) (public domain)

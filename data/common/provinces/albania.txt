@@ -1,0 +1,47 @@
+p_berat = {
+	color = { 181 59 21 }
+}
+
+p_diber = {
+	color = { 234 230 61 }
+}
+
+p_durres = {
+	color = { 216 131 138 }
+}
+
+p_elbasan = {
+	color = { 115 14 254 }
+}
+
+p_fier = {
+	color = { 70 131 153 }
+}
+
+p_gjirokaster = {
+	color = { 245 121 79 }
+}
+
+p_korce = {
+	color = { 138 131 227 }
+}
+
+p_kukes = {
+	color = { 125 95 30 }
+}
+
+p_lezhe = {
+	color = { 210 202 29 }
+}
+
+p_shkoder = {
+	color = { 205 129 35 }
+}
+
+p_tirana = {
+	color = { 17 146 29 }
+}
+
+p_vlore = {
+	color = { 250 185 163 }
+}

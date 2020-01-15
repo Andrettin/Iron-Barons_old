@@ -1,0 +1,14 @@
+r_albania = { #the territory of modern Albania
+	provinces += p_berat
+	provinces += p_diber
+	provinces += p_durres
+	provinces += p_elbasan
+	provinces += p_fier
+	provinces += p_gjirokaster
+	provinces += p_korce
+	provinces += p_kukes
+	provinces += p_lezhe
+	provinces += p_shkoder
+	provinces += p_tirana
+	provinces += p_vlore
+}
