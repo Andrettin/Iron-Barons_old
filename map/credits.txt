@@ -16,6 +16,7 @@
 /map/earth/provinces/europe/austria/p_upper_styria.txt (www.naturalearthdata.com and www.github.com/OpenHistoricalMap/data) (public domain)
 /map/earth/provinces/europe/austria/p_vienna.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/austria/p_vorarlberg.txt (www.naturalearthdata.com) (public domain)
+/map/earth/provinces/europe/baltic_countries/latvia/ (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/baltic_countries/lithuania/p_alytaus.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/baltic_countries/lithuania/p_kaunas.txt (www.naturalearthdata.com) (public domain)
 /map/earth/provinces/europe/baltic_countries/lithuania/p_panevezio.txt (www.naturalearthdata.com) (public domain)

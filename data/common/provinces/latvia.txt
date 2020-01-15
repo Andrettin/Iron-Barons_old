@@ -1,0 +1,19 @@
+p_courland = {
+	color = { 18 123 121 }
+}
+
+p_lettgallia = {
+	color = { 169 86 11 }
+}
+
+p_livonia = {
+	color = { 133 221 157 }
+}
+
+p_riga = {
+	color = { 199 20 100 }
+}
+
+p_semigallia = {
+	color = { 249 64 142 }
+}

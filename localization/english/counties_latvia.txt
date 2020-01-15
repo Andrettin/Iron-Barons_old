@@ -1,0 +1,9 @@
+p_courland = "Courland"
+p_courland_baltic = "Kurzeme" #Latvian
+p_lettgallia = "Lettgallia"
+p_lettgallia_baltic = "Latgale" #Latvian
+p_livonia = "Livonia"
+p_livonia_baltic = "Vidzeme" #Latvian
+p_riga = "Riga"
+p_semigallia = "Semigallia"
+p_semigallia_baltic = "Zemgale" #Latvian

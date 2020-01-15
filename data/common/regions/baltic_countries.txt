@@ -1,5 +1,14 @@
 r_baltic_countries = {
+	subregions += r_latvia
 	subregions += r_lithuania
+}
+
+r_latvia = { #the territory of modern Latvia
+	provinces += p_courland
+	provinces += p_lettgallia
+	provinces += p_livonia
+	provinces += p_riga
+	provinces += p_semigallia
 }
 
 r_lithuania = { #the territory of modern Lithuania
