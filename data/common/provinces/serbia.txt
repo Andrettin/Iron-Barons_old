@@ -24,8 +24,16 @@ p_kolubara = {
 	color = { 74 0 92 }
 }
 
+p_kosovo = {
+	color = { 108 46 10 }
+}
+
 p_macva = {
 	color = { 63 236 141 }
+}
+
+p_montenegro = {
+	color = { 46 106 106 }
 }
 
 p_moravica = {
@@ -34,6 +42,10 @@ p_moravica = {
 
 p_nisava = {
 	color = { 21 230 111 }
+}
+
+p_north_macedonia = {
+	color = { 121 78 88 }
 }
 
 p_pcinja = {

@@ -3,6 +3,9 @@ r_yugoslavia = {
 	subregions += r_croatia
 	subregions += r_serbia
 	subregions += r_slovenia
+	provinces += p_kosovo
+	provinces += p_montenegro
+	provinces += p_north_macedonia
 }
 
 r_bosnia_herzegovina = { #the territory of modern Bosnia-Herzegovina
@@ -32,8 +35,8 @@ r_croatia = { #the territory of modern Croatia
 	provinces += p_sisak
 	provinces += p_slavonia
 	provinces += p_vukovar
-	provinces += p_zagreb
 	provinces += p_warasdin
+	provinces += p_zagreb
 }
 
 r_serbia = { #the territory of modern Serbia
