@@ -1,5 +1,6 @@
 r_scandinavia = {
 	subregions += r_denmark
+	subregions += r_norway
 	subregions += r_sweden
 }
 
@@ -10,6 +11,27 @@ r_denmark = { #the territory of modern Denmark
 	provinces += p_north_jutland
 	provinces += p_north_schleswig
 	provinces += p_sjaelland
+}
+
+r_finland = { #the territory of modern Finland
+	provinces += p_central_finland
+	provinces += p_central_ostrobothnia
+	provinces += p_finland
+	provinces += p_kainuu
+	provinces += p_kymenlaakso
+	provinces += p_lapland
+	provinces += p_north_karelia
+	provinces += p_north_ostrobothnia
+	provinces += p_north_savonia
+	provinces += p_ostrobothnia
+	provinces += p_paijat_hame
+	provinces += p_pirkanmaa
+	provinces += p_satakunta
+	provinces += p_south_karelia
+	provinces += p_south_ostrobothnia
+	provinces += p_south_savonia
+	provinces += p_tavastia
+	provinces += p_uusimaa
 }
 
 r_norway = { #the territory of modern Norway
