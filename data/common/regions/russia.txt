@@ -12,7 +12,11 @@ r_russian_federation = { #the territory of the modern Russian Federation
 
 r_byelorussia = { #the territory of modern Belarus/the Byelorussian SSR
 	provinces += p_brest_litovsk
+	provinces += p_gomel
 	provinces += p_grodno
+	provinces += p_minsk
+	provinces += p_mogilev
+	provinces += p_vitebsk
 }
 
 r_siberia = {
@@ -31,4 +35,3 @@ r_chukotka_alaska = {
 	provinces += p_chukotka
 	provinces += p_alaska
 }
-
