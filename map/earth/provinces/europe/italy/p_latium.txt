@@ -1,25 +1,5 @@
-h_ancona += {
-	geocoordinate = { 13.49994055040 43.60037355460 }
-}
-
-h_civitavecchia += {
-	geocoordinate = { 11.79999263370 42.10041343080 }
-}
-
-h_perugia += {
-	geocoordinate = { 12.38998246120 43.11037762360 }
-}
-
 h_pesaro += {
 	geocoordinate = { 12.9024735 43.92083333 }
-}
-
-h_rome += {
-	geocoordinate = { 12.48325842150 41.89595562650 }
-}
-
-h_san_marino += {
-	geocoordinate = { 12.46667028670 43.91715008450 }
 }
 
 geopolygons ={

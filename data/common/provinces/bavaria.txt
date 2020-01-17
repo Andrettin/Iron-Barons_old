@@ -101,6 +101,11 @@ p_upper_bavaria = {
 		barony = b_freising
 		type = settlement
 	}
+	
+	h_rosenheim = {
+		barony = b_rosenheim
+		type = settlement
+	}
 }
 
 p_upper_franconia = {

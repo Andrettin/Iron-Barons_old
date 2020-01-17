@@ -81,6 +81,9 @@ c_upper_bavaria = {
 	
 	b_freising = {
 	}
+	
+	b_rosenheim = {
+	}
 }
 
 c_upper_franconia = {
