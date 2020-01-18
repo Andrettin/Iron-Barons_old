@@ -28,6 +28,9 @@ c_aussig = {
 	de_jure_liege_title = d_bohemia
 	color = { 85 77 57 }
 
+	b_aussig = {
+	}
+
 	b_teplitz = {
 	}
 }
@@ -92,26 +95,29 @@ c_koniggratz = {
 c_moravia = {
 	de_jure_liege_title = d_moravia
 	color = { 14 21 124 }
-
+	
 	b_brunn = {
 	}
-
+	
 	b_iglau = {
 	}
-
+	
 	b_kremsier = {
 	}
-
+	
 	b_nikolsburg = {
 	}
-
+	
 	b_olmutz = {
 	}
-
+	
 	b_spielberg = {
 	}
-
+	
 	b_tobitschau = {
+	}
+	
+	b_zlin = {
 	}
 }
 
@@ -134,10 +140,13 @@ c_pilsen = {
 c_reichenberg = {
 	de_jure_liege_title = d_bohemia
 	color = { 208 99 244 }
-
+	
+	b_reichenberg = {
+	}
+	
 	b_huhnerwasser = {
 	}
-
+	
 	b_gabel = {
 	}
 }
@@ -171,5 +180,8 @@ c_troppau = {
 	color = { 231 229 223 }
 	
 	b_troppau = {
+	}
+	
+	b_ostrava = {
 	}
 }

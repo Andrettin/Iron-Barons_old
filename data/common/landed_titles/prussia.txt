@@ -18,43 +18,52 @@ d_west_prussia = {
 c_danzig = {
 	de_jure_liege_title = d_west_prussia
 	color = { 75 63 97 }
-
+	
 	b_danzig = {
 	}
-
+	
 	b_elbing = {
 	}
-
+	
 	b_marienburg = {
 	}
-
+	
 	b_marienwerder = {
+	}
+	
+	b_gdynia = {
 	}
 }
 
 c_east_prussia = {
 	de_jure_liege_title = d_east_prussia
 	color = { 0 49 83 }
-
-	b_allenstein = {
-	}
-
-	b_boyen = {
-	}
-
-	b_eydtkuhnen = {
-	}
-
-	b_gumbinnen = {
-	}
-
+	
 	b_konigsberg = {
 	}
-
+	
+	b_allenstein = {
+	}
+	
+	b_gumbinnen = {
+	}
+	
+	b_tilsit = {
+	}
+	
 	b_memel = {
 	}
-
-	b_tilsit = {
+	
+	b_boyen = {
+	}
+	
+	b_eydtkuhnen = {
+	}
+	
+	b_elk = {
+	}
+	
+	b_chernyakhovsk = {
 	}
 }
 

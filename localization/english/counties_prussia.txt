@@ -1,3 +1,4 @@
 c_danzig = "Danzig"
+c_danzig_polish = "Gdańsk"
 c_east_prussia = "East Prussia"
 c_thorn = "Thorn"

@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "bohemia",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "holding_slot": "h_aussig" }, "geometry": { "type": "Point", "coordinates": [ 14.081004554386141, 50.662998162244321 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_koniggratz" }, "geometry": { "type": "Point", "coordinates": [ 15.812001525449944, 50.205996172206937 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_budweis" }, "geometry": { "type": "Point", "coordinates": [ 14.460036985947966, 48.980019347217535 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_reichenberg" }, "geometry": { "type": "Point", "coordinates": [ 15.079999144153533, 50.799959939672704 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_olmutz" }, "geometry": { "type": "Point", "coordinates": [ 17.249995888953777, 49.630031350800948 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_pilsen" }, "geometry": { "type": "Point", "coordinates": [ 13.36000077175089, 49.740438048392377 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_iglau" }, "geometry": { "type": "Point", "coordinates": [ 15.583327594676462, 49.400381285695914 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_zlin" }, "geometry": { "type": "Point", "coordinates": [ 17.650023151325286, 49.230417499887949 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_brunn" }, "geometry": { "type": "Point", "coordinates": [ 16.60998327501909, 49.200393492726221 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_pardubitz" }, "geometry": { "type": "Point", "coordinates": [ 15.760009316682329, 50.040419737846776 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_ostrava" }, "geometry": { "type": "Point", "coordinates": [ 18.249986530233912, 49.830355040580343 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_prague" }, "geometry": { "type": "Point", "coordinates": [ 14.464033917048539, 50.08528287347832 ] } }
+]
+}

@@ -1,7 +1,12 @@
 p_aussig = {
 	county = c_aussig
 	color = { 85 77 57 }
-
+	
+	h_aussig = {
+		barony = b_aussig
+		type = settlement
+	}
+	
 	h_teplitz = {
 		barony = b_teplitz
 		type = settlement
@@ -96,39 +101,44 @@ p_koniggratz = {
 p_moravia = {
 	county = c_moravia
 	color = { 224 131 143 }
-
+	
 	h_brunn = {
 		barony = b_brunn
 		type = settlement
 	}
-
+	
 	h_iglau = {
 		barony = b_iglau
 		type = settlement
 	}
-
+	
 	h_kremsier = {
 		barony = b_kremsier
 		type = settlement
 	}
-
+	
 	h_nikolsburg = {
 		barony = b_nikolsburg
 		type = settlement
 	}
-
+	
 	h_olmutz = {
 		barony = b_olmutz
 		type = settlement
 	}
-
+	
 	h_spielberg = {
 		barony = b_spielberg
 		type = settlement
 	}
-
+	
 	h_tobitschau = {
 		barony = b_tobitschau
+		type = settlement
+	}
+	
+	h_zlin = {
+		barony = b_zlin
 		type = settlement
 	}
 }
@@ -156,12 +166,17 @@ p_pilsen = {
 p_reichenberg = {
 	county = c_reichenberg
 	color = { 208 99 244 }
-
+	
+	h_reichenberg = {
+		barony = b_reichenberg
+		type = settlement
+	}
+	
 	h_huhnerwasser = {
 		barony = b_huhnerwasser
 		type = settlement
 	}
-
+	
 	h_gabel = {
 		barony = b_gabel
 		type = settlement
@@ -204,6 +219,11 @@ p_troppau = {
 	
 	h_troppau = {
 		barony = b_troppau
+		type = settlement
+	}
+	
+	h_ostrava = {
+		barony = b_ostrava
 		type = settlement
 	}
 }
