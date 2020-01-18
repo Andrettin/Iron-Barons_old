@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "silesia",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "holding_slot": "h_breslau" }, "geometry": { "type": "Point", "coordinates": [ 17.030009316687369, 51.11043194488235 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_oppeln" }, "geometry": { "type": "Point", "coordinates": [ 17.931349648722289, 50.684979877823309 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_bytom" }, "geometry": { "type": "Point", "coordinates": [ 18.909997923465767, 50.350039081923626 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_gliwice" }, "geometry": { "type": "Point", "coordinates": [ 18.670012571902191, 50.330376199436614 ] } },
+{ "type": "Feature", "properties": { "holding_slot": "h_kattowitz" }, "geometry": { "type": "Point", "coordinates": [ 19.020017047815088, 50.260380471897236 ] } }
+]
+}

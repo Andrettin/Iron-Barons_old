@@ -473,8 +473,17 @@ c_kassel = {
 c_kattowitz = {
 	de_jure_liege_title = d_silesia
 	color = { 0 61 106 }
-
+	
+	b_kattowitz = {
+	}
+	
 	b_ratibor = {
+	}
+	
+	b_gliwice = {
+	}
+	
+	b_bytom = {
 	}
 }
 

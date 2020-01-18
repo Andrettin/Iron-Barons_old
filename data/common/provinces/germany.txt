@@ -456,9 +456,24 @@ p_kassel = {
 p_kattowitz = {
 	county = c_kattowitz
 	color = { 131 14 60 }
-
+	
+	h_kattowitz = {
+		barony = b_kattowitz
+		type = settlement
+	}
+	
 	h_ratibor = {
 		barony = b_ratibor
+		type = settlement
+	}
+	
+	h_gliwice = {
+		barony = b_gliwice
+		type = settlement
+	}
+	
+	h_bytom = {
+		barony = b_bytom
 		type = settlement
 	}
 }

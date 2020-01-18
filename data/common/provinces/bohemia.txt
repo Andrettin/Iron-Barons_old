@@ -31,12 +31,12 @@ p_carlsbad = {
 p_central_bohemia = {
 	county = c_central_bohemia
 	color = { 30 207 116 }
-
+	
 	h_prague = {
 		barony = b_prague
 		type = settlement
 	}
-
+	
 	h_munchengratz = {
 		barony = b_munchengratz
 		type = settlement
