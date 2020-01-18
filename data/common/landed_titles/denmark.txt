@@ -20,7 +20,7 @@ d_schleswig = {
 c_funen = {
 	de_jure_liege_title = d_denmark
 	color = { 84 48 146 }
-
+	
 	b_odense = {
 	}
 }
@@ -28,30 +28,50 @@ c_funen = {
 c_middle_jutland = {
 	de_jure_liege_title = d_denmark
 	color = { 174 209 177 }
-
+	
 	b_kolding = {
 	}
-
+	
 	b_fredericia = {
 	}
-
-	b_veile = {
+	
+	b_vejle = {
 	}
-
+	
 	b_horsens = {
+	}
+	
+	b_aarhus = {
+	}
+	
+	b_viborg = {
+	}
+	
+	b_esbjerg = {
+	}
+}
+
+c_north_jutland = {
+	de_jure_liege_title = d_denmark
+	color = { 225 233 254 }
+	
+	b_aalborg = {
+	}
+	
+	b_frederikshavn = {
 	}
 }
 
 c_north_schleswig = {
 	de_jure_liege_title = d_schleswig
 	color = { 251 225 65 }
-
+	
 	b_ribe = {
 	}
-
+	
 	b_sonderburg = {
 	}
-
+	
 	b_dlippel_bau = {
 	}
 }
@@ -59,45 +79,51 @@ c_north_schleswig = {
 c_sjaelland = {
 	de_jure_liege_title = d_denmark
 	color = { 51 172 182 }
-
+	
 	b_copenhagen = {
 	}
-
+	
 	b_helsingor = {
 	}
-
+	
 	b_roskilde = {
 	}
-
+	
 	b_korsor = {
+	}
+	
+	b_hillerod = {
+	}
+	
+	b_soro = {
 	}
 }
 
 c_south_schleswig = {
 	de_jure_liege_title = d_schleswig
 	color = { 15 16 137 }
-
-	b_eckernforde = {
-	}
-
+	
 	b_flensburg = {
 	}
-
+	
+	b_schleswig = {
+	}
+	
+	b_eckernforde = {
+	}
+	
 	b_friedrichstadt = {
 	}
-
+	
 	b_glucksburg = {
 	}
-
-	b_idstedt = {
-	}
-
-	b_missunde = {
-	}
-
+	
 	b_oversee = {
 	}
-
-	b_schleswig = {
+	
+	b_idstedt = {
+	}
+	
+	b_missunde = {
 	}
 }

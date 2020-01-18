@@ -5,7 +5,7 @@ p_bornholm = {
 p_funen = {
 	county = c_funen
 	color = { 84 48 146 }
-
+	
 	h_odense = {
 		barony = b_odense
 		type = settlement
@@ -15,46 +15,72 @@ p_funen = {
 p_middle_jutland = {
 	county = c_middle_jutland
 	color = { 174 209 177 }
-
+	
 	h_kolding = {
 		barony = b_kolding
 		type = settlement
 	}
-
+	
 	h_fredericia = {
 		barony = b_fredericia
 		type = settlement
 	}
-
-	h_veile = {
-		barony = b_veile
+	
+	h_vejle = {
+		barony = b_vejle
 		type = settlement
 	}
-
+	
 	h_horsens = {
 		barony = b_horsens
+		type = settlement
+	}
+	
+	h_aarhus = {
+		barony = b_aarhus
+		type = settlement
+	}
+	
+	h_viborg = {
+		barony = b_viborg
+		type = settlement
+	}
+	
+	h_esbjerg = {
+		barony = b_esbjerg
 		type = settlement
 	}
 }
 
 p_north_jutland = {
+	county = c_north_jutland
 	color = { 225 233 254 }
+	
+	h_aalborg = {
+		barony = b_aalborg
+		type = settlement
+	}
+	
+	h_frederikshavn = {
+		barony = b_frederikshavn
+		type = settlement
+	}
 }
 
 p_north_schleswig = {
 	county = c_north_schleswig
 	color = { 251 225 65 }
-
+	
 	h_ribe = {
 		barony = b_ribe
 		type = settlement
 	}
-
+	
 	h_sonderburg = {
 		barony = b_sonderburg
 		type = settlement
 	}
-
+	
 	h_dlippel_bau = {
 		barony = b_dlippel_bau
 		type = settlement
@@ -64,24 +90,34 @@ p_north_schleswig = {
 p_sjaelland = {
 	county = c_sjaelland
 	color = { 51 172 182 }
-
+	
 	h_copenhagen = {
 		barony = b_copenhagen
 		type = settlement
 	}
-
+	
 	h_helsingor = {
 		barony = b_helsingor
 		type = settlement
 	}
-
+	
 	h_roskilde = {
 		barony = b_roskilde
 		type = settlement
 	}
-
+	
 	h_korsor = {
 		barony = b_korsor
+		type = settlement
+	}
+	
+	h_hillerod = {
+		barony = b_hillerod
+		type = settlement
+	}
+	
+	h_soro = {
+		barony = b_soro
 		type = settlement
 	}
 }
@@ -89,44 +125,44 @@ p_sjaelland = {
 p_south_schleswig = {
 	county = c_south_schleswig
 	color = { 223 14 171 }
-
-	h_eckernforde = {
-		barony = b_eckernforde
-		type = settlement
-	}
-
+	
 	h_flensburg = {
 		barony = b_flensburg
 		type = settlement
 	}
-
+	
+	h_schleswig = {
+		barony = b_schleswig
+		type = settlement
+	}
+	
+	h_eckernforde = {
+		barony = b_eckernforde
+		type = settlement
+	}
+	
 	h_friedrichstadt = {
 		barony = b_friedrichstadt
 		type = settlement
 	}
-
+	
 	h_glucksburg = {
 		barony = b_glucksburg
 		type = settlement
 	}
-
-	h_idstedt = {
-		barony = b_idstedt
-		type = settlement
-	}
-
-	h_missunde = {
-		barony = b_missunde
-		type = settlement
-	}
-
+	
 	h_oversee = {
 		barony = b_oversee
 		type = settlement
 	}
-
-	h_schleswig = {
-		barony = b_schleswig
+	
+	h_idstedt = {
+		barony = b_idstedt
+		type = settlement
+	}
+	
+	h_missunde = {
+		barony = b_missunde
 		type = settlement
 	}
 }
