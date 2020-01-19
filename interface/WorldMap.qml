@@ -161,9 +161,7 @@ Item {
 					capStyle: ShapePath.RoundCap
 					joinStyle: ShapePath.RoundJoin
 					fillColor: "transparent"
-					startX: trade_route.path_branch_points[0][0].x
-					startY: trade_route.path_branch_points[0][0].y
-					PathMultiline { paths: trade_route.path_branch_points }
+					PathSvg { path: trade_route.path_branch_points_svg }
 				}
 			}
 		}
