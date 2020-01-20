@@ -23,7 +23,6 @@ paved_road = {
 	holding_types += trading_post
 	construction_days = 730
 	required_technologies += paved_road
-	icon_tag = road
 	
 	preconditions = {
 		has_any_trade_route_land_connection = true
