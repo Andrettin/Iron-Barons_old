@@ -47,6 +47,7 @@ Item {
 		color: "black"
 		font.pixelSize: 12
 		font.family: "tahoma"
+		wrapMode: Text.WordWrap
 	}
 
 	Grid {
@@ -62,13 +63,13 @@ Item {
 			model: event_instance ? event_instance.options : []
 
 			Button {
-				width: 128
+				width: 192
 				height: 32
 				text: "<font color=\"black\">" + model.modelData.name + "</font>"
 				font.pixelSize: 12
 				font.family: "tahoma"
 				ToolTip.text: tooltip(model.modelData.effects_string)
-				ToolTip.visible: hovered
+				ToolTip.visible: hovered && model.modelData.effects_string !== ""
 				ToolTip.delay: 1000
 				onClicked: {
 					model.modelData.do_effects()
