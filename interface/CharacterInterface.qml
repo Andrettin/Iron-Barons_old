@@ -77,7 +77,7 @@ Item {
 					MouseArea {
 						anchors.fill: parent
 						hoverEnabled: true
-						ToolTip.text: tooltip(model.modelData.name)
+						ToolTip.text: tooltip(model.modelData.name + (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : ""))
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}
