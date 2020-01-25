@@ -545,7 +545,7 @@ Item {
 
 	Button {
 		id: trade_node_map_mode_button
-		anchors.bottom: parent.bottom
+		anchors.bottom: trade_zone_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Trade Node</font>"
 		width: 128
@@ -553,6 +553,19 @@ Item {
 		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeNode
+		}
+	}
+
+	Button {
+		id: trade_zone_map_mode_button
+		anchors.bottom: parent.bottom
+		anchors.right: parent.right
+		text: "<font color=\"black\">Trade Zone</font>"
+		width: 128
+		height: 32
+		font.pixelSize: 12
+		onClicked: {
+			metternich.map_mode = WorldMap.Mode.TradeZone
 		}
 	}
 
