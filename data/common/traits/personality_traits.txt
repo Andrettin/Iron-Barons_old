@@ -1,6 +1,10 @@
 brave = {
 	icon_tag = lion
 	personality = true
+	
+	modifier = {
+		dueling = 10
+	}
 }
 
 cynical = {

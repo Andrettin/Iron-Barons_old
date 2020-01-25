@@ -1,7 +1,15 @@
 incapable = {
 	icon_tag = blood
+	
+	modifier = {
+		dueling = -100
+	}
 }
 
 sturdy = {
 	icon_tag = heater_shield
+	
+	modifier = {
+		dueling = 10
+	}
 }
