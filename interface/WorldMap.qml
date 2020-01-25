@@ -22,7 +22,8 @@ Item {
 		CultureGroup,
 		Religion,
 		ReligionGroup,
-		TradeNode
+		TradeNode,
+		TradeZone
 	}
 
 	function moveLeft(pixels) {
@@ -124,6 +125,7 @@ Item {
 						+ (metternich.map_mode === WorldMap.Mode.TradeNode && model.modelData.trade_node && model.modelData.owner ? "<br><br>Trade Node: " + model.modelData.trade_node.name : "")
 						+ (metternich.map_mode === WorldMap.Mode.TradeNode && model.modelData.trade_node && model.modelData.trade_node.center_of_trade === model.modelData && model.modelData.owner ? "<br>Center of Trade" : "")
 						+ (metternich.map_mode === WorldMap.Mode.TradeNode && model.modelData.trade_node_trade_cost > 0 ? "<br>Trade Cost with Node: " + centesimal(model.modelData.trade_node_trade_cost) + "%" : "")
+						+ (metternich.map_mode === WorldMap.Mode.TradeZone && model.modelData.trading_post_holding_slot && model.modelData.trading_post_holding_slot.holding ? "<br><br>Trade Zone: " + model.modelData.trading_post_holding_slot.holding.owner.primary_title.realm.name : "")
 					)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
