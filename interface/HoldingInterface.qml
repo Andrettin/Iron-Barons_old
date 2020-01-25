@@ -39,14 +39,53 @@ Item {
 		font.bold: true
 	}
 
+	Holding {
+		id: holding
+		anchors.top: parent.top
+		anchors.topMargin: 48
+		anchors.horizontalCenter: parent.horizontalCenter
+		holding_slot: metternich.selected_holding ? metternich.selected_holding.slot : null
+		imageWidth: 128
+		imageHeight: 128
+	}
+
+	PopulationTypeChart {
+		id: population_type_chart
+		anchors.top: holding.bottom
+		anchors.topMargin: 4
+		anchors.left: parent.left
+		anchors.leftMargin: 32
+		dataSource: metternich.selected_holding
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
+	}
+
+	CultureChart {
+		id: culture_chart
+		anchors.top: holding.bottom
+		anchors.topMargin: 4
+		anchors.horizontalCenter: parent.horizontalCenter
+		dataSource: metternich.selected_holding
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
+	}
+
+	ReligionChart {
+		id: religion_chart
+		anchors.top: holding.bottom
+		anchors.topMargin: 4
+		anchors.right: parent.right
+		anchors.rightMargin: 32
+		dataSource: metternich.selected_holding
+		visible: metternich.selected_holding && metternich.selected_holding.settlement
+	}
+	
 	Item {
 		id: population_area
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: parent.top
-		anchors.topMargin: 64
+		anchors.top: culture_chart.bottom
+		anchors.topMargin: 16
 		visible: metternich.selected_holding && metternich.selected_holding.settlement
 
 		Text {
@@ -135,43 +174,14 @@ Item {
 		}
 	}
 
-	PopulationTypeChart {
-		id: population_type_chart
-		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 16
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		dataSource: metternich.selected_holding
-		visible: metternich.selected_holding && metternich.selected_holding.settlement
-	}
-
-	CultureChart {
-		id: culture_chart
-		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 16
-		anchors.horizontalCenter: parent.horizontalCenter
-		dataSource: metternich.selected_holding
-		visible: metternich.selected_holding && metternich.selected_holding.settlement
-	}
-
-	ReligionChart {
-		id: religion_chart
-		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 16
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		dataSource: metternich.selected_holding
-		visible: metternich.selected_holding && metternich.selected_holding.settlement
-	}
-
 	BuildingInterface {
 		id: building_area
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
-		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 96
+		anchors.top: metternich.selected_holding && metternich.selected_holding.settlement ? population_capacity_area.bottom : holding.bottom
+		anchors.topMargin: 24
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
 	}
@@ -182,8 +192,8 @@ Item {
 		anchors.leftMargin: 8
 		anchors.right: parent.right
 		anchors.rightMargin: 8
-		anchors.top: population_capacity_area.bottom
-		anchors.topMargin: 96
+		anchors.top: metternich.selected_holding && metternich.selected_holding.settlement ? population_capacity_area.bottom : holding.bottom
+		anchors.topMargin: 24
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
 		visible: false
