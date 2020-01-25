@@ -1,4 +1,3 @@
 trading_post = {
 	slot_type = trading_post
-	portrait_tag = fort
 }
