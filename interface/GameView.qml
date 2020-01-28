@@ -602,4 +602,8 @@ Item {
 			y: game_view.height / 2 - height / 2
 		}
 	}
+	
+	Component.onCompleted: {
+		metternich.paused = false
+	}
 }
