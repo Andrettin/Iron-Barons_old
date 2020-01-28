@@ -3,7 +3,7 @@ brave = {
 	personality = true
 	
 	modifier = {
-		dueling = 10
+		prowess = 10
 	}
 }
 

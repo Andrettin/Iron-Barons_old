@@ -33,7 +33,7 @@ Item {
 	}
 
 	Image {
-		id: dueling_icon
+		id: prowess_icon
 		source: "../graphics/icons/items/heater_shield.png"
 		width: 32
 		height: 32
@@ -45,17 +45,17 @@ Item {
 		MouseArea {
 			anchors.fill: parent
 			hoverEnabled: true
-			ToolTip.text: tooltip("Dueling<br><br>The Dueling attribute denotes a character's personal combat ability.")
+			ToolTip.text: tooltip("Prowess<br><br>The Prowess attribute denotes a character's personal combat ability.")
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000
 		}
 	}
 
 	Text {
-		id: dueling_label
-		text: character ? character.dueling : ""
-		anchors.verticalCenter: dueling_icon.verticalCenter
-		anchors.left: dueling_icon.right
+		id: prowess_label
+		text: character ? character.prowess : ""
+		anchors.verticalCenter: prowess_icon.verticalCenter
+		anchors.left: prowess_icon.right
 		anchors.leftMargin: 16
 		color: "black"
 		font.pixelSize: 12
@@ -65,7 +65,7 @@ Item {
 	Text {
 		id: traits_label
 		text: qsTr("Traits")
-		anchors.top: dueling_icon.bottom
+		anchors.top: prowess_icon.bottom
 		anchors.topMargin: 32
 		anchors.horizontalCenter: parent.horizontalCenter
 		color: "black"
