@@ -32,11 +32,41 @@ Item {
 		font.bold: true
 	}
 
+	Image {
+		id: dueling_icon
+		source: "../graphics/icons/items/heater_shield.png"
+		width: 32
+		height: 32
+		anchors.top: parent.top
+		anchors.topMargin: 64
+		anchors.left: parent.left
+		anchors.leftMargin: 16
+
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true
+			ToolTip.text: tooltip("Dueling<br><br>The Dueling attribute denotes a character's personal combat ability.")
+			ToolTip.visible: containsMouse
+			ToolTip.delay: 1000
+		}
+	}
+
+	Text {
+		id: dueling_label
+		text: character ? character.dueling : ""
+		anchors.verticalCenter: dueling_icon.verticalCenter
+		anchors.left: dueling_icon.right
+		anchors.leftMargin: 16
+		color: "black"
+		font.pixelSize: 12
+		font.family: "tahoma"
+	}
+
 	Text {
 		id: traits_label
 		text: qsTr("Traits")
-		anchors.top: parent.top
-		anchors.topMargin: 64
+		anchors.top: dueling_icon.bottom
+		anchors.topMargin: 32
 		anchors.horizontalCenter: parent.horizontalCenter
 		color: "black"
 		font.pixelSize: 12

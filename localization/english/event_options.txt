@@ -1,3 +1,5 @@
+opt_great = "Great!"
 opt_no = "No"
+opt_oh_no = "Oh no!"
 opt_ok = "OK"
 opt_yes = "Yes"
