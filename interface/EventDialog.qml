@@ -8,10 +8,8 @@ Item {
 	
 	property var event_instance: null
 
-	Rectangle {
-		id: background
+	PanelBackground {
 		anchors.fill: parent
-		color: "darkGray"
 	}
 
 	Drag.active: drag_area.drag.active
@@ -62,12 +60,10 @@ Item {
 		Repeater {
 			model: event_instance ? event_instance.options : []
 
-			Button {
+			PanelButton {
 				width: 192
 				height: 32
 				text: "<font color=\"black\">" + model.modelData.name + "</font>"
-				font.pixelSize: 12
-				font.family: "tahoma"
 				ToolTip.text: tooltip(model.modelData.effects_string)
 				ToolTip.visible: hovered && model.modelData.effects_string !== ""
 				ToolTip.delay: 1000

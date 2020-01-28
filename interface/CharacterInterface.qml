@@ -8,10 +8,8 @@ Item {
 	
 	property var character: null
 
-	Rectangle {
-		id: background
+	PanelBackground {
 		anchors.fill: parent
-		color: "darkGray"
 	}
 
 	MouseArea {
@@ -116,7 +114,7 @@ Item {
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: close_button
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
@@ -124,7 +122,6 @@ Item {
 		text: "<font color=\"black\">Close</font>"
 		width: 80
 		height: 32
-		font.pixelSize: 12
 		onClicked: metternich.selected_character = null
 	}
 }

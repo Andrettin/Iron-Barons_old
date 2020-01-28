@@ -117,9 +117,8 @@ Item {
 		width: player_character_label.width + 8 + 8
 		height: 32
 
-		Rectangle {
+		PanelBackground {
 			anchors.fill: parent
-			color: "darkGray"
 		}
 
 		Item {
@@ -158,9 +157,8 @@ Item {
 		width: 160
 		height: 64
 
-		Rectangle {
+		PanelBackground {
 			anchors.fill: parent
-			color: "darkGray"
 		}
 
 		Item {
@@ -227,9 +225,8 @@ Item {
 		anchors.right: top_bar.right
 		height: 64
 
-		Rectangle {
+		PanelBackground {
 			anchors.fill: parent
-			color: "darkGray"
 		}
 
 		Text {
@@ -267,7 +264,7 @@ Item {
 		character: metternich.selected_character
 	}
 
-	Button {
+	PanelButton {
 		id: settlement_holdings_button
 		anchors.top: province_interface.top
 		anchors.topMargin: province_interface.holding_area_y + 8
@@ -276,13 +273,12 @@ Item {
 		text: "<font color=\"black\">Settlements</font>"
 		width: 96
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Settlements
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: palace_holdings_button
 		anchors.top: settlement_holdings_button.bottom
 		anchors.left: province_interface.right
@@ -290,13 +286,12 @@ Item {
 		text: "<font color=\"black\">Palaces</font>"
 		width: 96
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Palaces
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: extra_holdings_button
 		anchors.top: palace_holdings_button.visible ? palace_holdings_button.bottom : settlement_holdings_button.bottom
 		anchors.left: province_interface.right
@@ -304,13 +299,12 @@ Item {
 		text: "<font color=\"black\">Other</font>"
 		width: 96
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Other
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: technologies_button
 		anchors.top: extra_holdings_button.bottom
 		anchors.left: province_interface.right
@@ -318,13 +312,12 @@ Item {
 		text: "<font color=\"black\">Technologies</font>"
 		width: 96
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Technologies
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: wildlife_button
 		anchors.top: technologies_button.visible ? technologies_button.bottom : province_interface.top
 		anchors.topMargin: technologies_button.visible ? 0 : (province_interface.holding_area_y + 8)
@@ -333,7 +326,6 @@ Item {
 		text: "<font color=\"black\">Wildlife</font>"
 		width: 96
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Wildlife
 		}
@@ -471,131 +463,121 @@ Item {
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: country_map_mode_button
 		anchors.bottom: de_jure_empire_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Country</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Country
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: de_jure_empire_map_mode_button
 		anchors.bottom: de_jure_kingdom_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">De Jure Empire</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureEmpire
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: de_jure_kingdom_map_mode_button
 		anchors.bottom: de_jure_duchy_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">De Jure Kingdom</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureKingdom
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: de_jure_duchy_map_mode_button
 		anchors.bottom: culture_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">De Jure Duchy</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureDuchy
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: culture_map_mode_button
 		anchors.bottom: culture_group_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Culture
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: culture_group_map_mode_button
 		anchors.bottom: religion_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Culture Group</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.CultureGroup
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: religion_map_mode_button
 		anchors.bottom: religion_group_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Religion</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Religion
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: religion_group_map_mode_button
 		anchors.bottom: trade_node_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Religion Group</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.ReligionGroup
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: trade_node_map_mode_button
 		anchors.bottom: trade_zone_map_mode_button.top
 		anchors.right: parent.right
 		text: "<font color=\"black\">Trade Node</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeNode
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: trade_zone_map_mode_button
 		anchors.bottom: parent.bottom
 		anchors.right: parent.right
 		text: "<font color=\"black\">Trade Zone</font>"
 		width: 128
 		height: 32
-		font.pixelSize: 12
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeZone
 		}
@@ -613,11 +595,10 @@ Item {
 		Repeater {
 			model: metternich.worlds
 
-			Button {
+			PanelButton {
 				text: "<font color=\"black\">" + model.modelData.name + "</font>"
 				width: 128
 				height: 32
-				font.pixelSize: 12
 				onClicked: {
 					metternich.current_world = model.modelData
 				}

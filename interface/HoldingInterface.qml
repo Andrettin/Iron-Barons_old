@@ -15,10 +15,8 @@ Item {
 		}
 	}
 
-	Rectangle {
-		id: holding_background
+	PanelBackground {
 		anchors.fill: parent
-		color: "darkGray"
 	}
 
 	MouseArea {
@@ -199,7 +197,7 @@ Item {
 		visible: false
 	}
 
-	Button {
+	PanelButton {
 		id: buildings_button
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
@@ -209,14 +207,13 @@ Item {
 		width: 80
 		height: 32
 		visible: !building_area.visible
-		font.pixelSize: 12
 		onClicked: {
 			building_area.visible = true
 			population_unit_area.visible = false
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: population_units_button
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
@@ -225,7 +222,6 @@ Item {
 		text: "<font color=\"black\">Population</font>"
 		width: 80
 		height: 32
-		font.pixelSize: 12
 		visible: metternich.selected_holding && metternich.selected_holding.settlement && !population_unit_area.visible
 		onClicked: {
 			population_unit_area.visible = true
@@ -233,7 +229,7 @@ Item {
 		}
 	}
 
-	Button {
+	PanelButton {
 		id: province_button
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
@@ -241,7 +237,6 @@ Item {
 		text: "<font color=\"black\">Province</font>"
 		width: 80
 		height: 32
-		font.pixelSize: 12
 		onClicked: metternich.selected_holding.selected = false
 	}
 }

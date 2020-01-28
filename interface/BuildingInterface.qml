@@ -63,7 +63,7 @@ Item {
 						}
 					}
 
-					Button {
+					PanelButton {
 						visible: metternich.game.player_character && metternich.game.player_character.can_build_in_holding(metternich.selected_holding) && metternich.selected_holding.under_construction_building === null && model.modelData.buildable && !model.modelData.built
 						anchors.top: parent.top
 						anchors.topMargin: 1
@@ -72,8 +72,6 @@ Item {
 						anchors.right: parent.right
 						width: 64
 						text: "<font color=\"black\">Build</font>"
-						font.pixelSize: 12
-						font.family: "tahoma"
 						onClicked: {
 							metternich.selected_holding.order_construction(model.modelData.building)
 							game_view.forceActiveFocus()

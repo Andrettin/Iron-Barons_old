@@ -19,10 +19,8 @@ Item {
 	property real holding_area_y: holding_area.y
 	property int mode: ProvinceInterface.Mode.Settlements
 
-	Rectangle {
-		id: province_background
+	PanelBackground {
 		anchors.fill: parent
-		color: "darkGray"
 	}
 
 	MouseArea {
