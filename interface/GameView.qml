@@ -219,6 +219,38 @@ Item {
 		}
 	}
 
+	Item {
+		id: notification_area
+		anchors.top: top_bar.bottom
+		anchors.topMargin: 32
+		anchors.left: top_bar.left
+		anchors.right: top_bar.right
+		height: 64
+
+		Rectangle {
+			anchors.fill: parent
+			color: "darkGray"
+		}
+
+		Text {
+			id: current_notification
+			text: metternich.current_notification
+			anchors.top: parent.top
+			anchors.topMargin: 8
+			anchors.left: parent.left
+			anchors.leftMargin: 8
+			anchors.right: parent.right
+			anchors.rightMargin: 8
+			anchors.bottom: parent.bottom
+			anchors.bottomMargin: 8
+			color: "black"
+			font.pixelSize: 12
+			font.family: "tahoma"
+			wrapMode: Text.WordWrap
+			clip: true
+		}
+	}
+
 	ProvinceInterface {
 		id: province_interface
 		anchors.bottom: parent.bottom
