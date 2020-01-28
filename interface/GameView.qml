@@ -264,68 +264,73 @@ Item {
 		character: metternich.selected_character
 	}
 
-	PanelButton {
+	IconButton {
 		id: settlement_holdings_button
 		anchors.top: province_interface.top
 		anchors.topMargin: province_interface.holding_area_y + 8
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.settlement_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		text: "<font color=\"black\">Settlements</font>"
-		width: 96
-		height: 32
+		source: "../graphics/icons/buildings/wall.png"
+		ToolTip.text: tooltip("Settlements")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Settlements
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: palace_holdings_button
 		anchors.top: settlement_holdings_button.bottom
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.palace_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		text: "<font color=\"black\">Palaces</font>"
-		width: 96
-		height: 32
+		source: "../graphics/icons/items/crown.png"
+		ToolTip.text: tooltip("Palaces")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Palaces
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: extra_holdings_button
 		anchors.top: palace_holdings_button.visible ? palace_holdings_button.bottom : settlement_holdings_button.bottom
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		text: "<font color=\"black\">Other</font>"
-		width: 96
-		height: 32
+		source: "../graphics/icons/cog.png"
+		ToolTip.text: tooltip("Other")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Other
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: technologies_button
 		anchors.top: extra_holdings_button.bottom
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		text: "<font color=\"black\">Technologies</font>"
-		width: 96
-		height: 32
+		source: "../graphics/icons/research.png"
+		ToolTip.text: tooltip("Technologies")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Technologies
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: wildlife_button
 		anchors.top: technologies_button.visible ? technologies_button.bottom : province_interface.top
 		anchors.topMargin: technologies_button.visible ? 0 : (province_interface.holding_area_y + 8)
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.wildlife_units.length > 0
-		text: "<font color=\"black\">Wildlife</font>"
-		width: 96
-		height: 32
+		source: "../graphics/icons/fauna/lion.png"
+		ToolTip.text: tooltip("Wildlife")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			province_interface.mode = ProvinceInterface.Mode.Wildlife
 		}
@@ -463,121 +468,131 @@ Item {
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: country_map_mode_button
 		anchors.bottom: de_jure_empire_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">Country</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/items/crown.png"
+		ToolTip.text: tooltip("Country")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Country
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: de_jure_empire_map_mode_button
 		anchors.bottom: de_jure_kingdom_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">De Jure Empire</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/items/crown.png"
+		ToolTip.text: tooltip("De Jure Empire")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureEmpire
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: de_jure_kingdom_map_mode_button
 		anchors.bottom: de_jure_duchy_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">De Jure Kingdom</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/items/crown.png"
+		ToolTip.text: tooltip("De Jure Kingdom")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureKingdom
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: de_jure_duchy_map_mode_button
 		anchors.bottom: culture_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">De Jure Duchy</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/items/crown.png"
+		ToolTip.text: tooltip("De Jure Duchy")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureDuchy
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: culture_map_mode_button
 		anchors.bottom: culture_group_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">Culture</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/newspaper.png"
+		ToolTip.text: tooltip("Culture")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Culture
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: culture_group_map_mode_button
 		anchors.bottom: religion_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">Culture Group</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/newspaper.png"
+		ToolTip.text: tooltip("Culture Group")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.CultureGroup
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: religion_map_mode_button
 		anchors.bottom: religion_group_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">Religion</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/wooden_cross.png"
+		ToolTip.text: tooltip("Religion")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Religion
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: religion_group_map_mode_button
 		anchors.bottom: trade_node_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">Religion Group</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/wooden_cross.png"
+		ToolTip.text: tooltip("Religion Group")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.ReligionGroup
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: trade_node_map_mode_button
 		anchors.bottom: trade_zone_map_mode_button.top
 		anchors.right: parent.right
-		text: "<font color=\"black\">Trade Node</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/chest.png"
+		ToolTip.text: tooltip("Trade Node")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeNode
 		}
 	}
 
-	PanelButton {
+	IconButton {
 		id: trade_zone_map_mode_button
 		anchors.bottom: parent.bottom
 		anchors.right: parent.right
-		text: "<font color=\"black\">Trade Zone</font>"
-		width: 128
-		height: 32
+		source: "../graphics/icons/chest.png"
+		ToolTip.text: tooltip("Trade Zone")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeZone
 		}
