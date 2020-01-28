@@ -222,7 +222,7 @@ Item {
 	Item {
 		id: notification_area
 		anchors.top: top_bar.bottom
-		anchors.topMargin: 32
+		anchors.topMargin: 16
 		anchors.left: top_bar.left
 		anchors.right: top_bar.right
 		height: 64
