@@ -65,7 +65,7 @@ Item {
 				height: 32
 				text: "<font color=\"black\">" + model.modelData.name + "</font>"
 				ToolTip.text: tooltip(model.modelData.effects_string)
-				ToolTip.visible: hovered && model.modelData.effects_string !== ""
+				ToolTip.visible: hovered
 				ToolTip.delay: 1000
 				onClicked: {
 					model.modelData.do_effects()
