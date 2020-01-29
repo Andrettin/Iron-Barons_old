@@ -1,5 +1,8 @@
+opt_attack = "Attack!"
+opt_en_garde = "En garde!"
 opt_great = "Great!"
 opt_no = "No"
 opt_oh_no = "Oh no!"
 opt_ok = "OK"
+opt_to_battle = "To battle!"
 opt_yes = "Yes"
