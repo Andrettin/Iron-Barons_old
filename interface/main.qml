@@ -15,8 +15,9 @@ Window {
 	Item { //tooltips need to be attached to an item
 		//set the shared properties for tooltips
 		ToolTip.toolTip.palette.text: "white"
-		ToolTip.toolTip.font.pixelSize: 14
 		ToolTip.toolTip.font.family: "tahoma"
+		ToolTip.toolTip.font.pixelSize: 14
+		ToolTip.toolTip.contentWidth: (tooltip_metrics.width + 2)
 		ToolTip.toolTip.background: Rectangle {
 			color: "black"
 			opacity: 0.90
@@ -24,11 +25,44 @@ Window {
 			border.width: 1
 			radius: 5
 		}
+		ToolTip.toolTip.onTextChanged: tooltip_metrics.text = get_longest_line(remove_text_colors(ToolTip.toolTip.text), 64)
+
+		TextMetrics {
+			id: tooltip_metrics
+			font.family: "tahoma"
+			font.pixelSize: 14
+		}
 	}
 
 	//function to format tooltip text
 	function tooltip(text) {
 		return "<font color=\"white\">" + text + "</font>"
+	}
+
+	function remove_text_colors(text) {
+		var str = text
+		str = str.replace(/<font color="gold">/g, "")
+		str = str.replace(/<font color="transparent">/g, "")
+		str = str.replace(/<font color="white">/g, "")
+		str = str.replace(/<\/font>/g, "")
+		return str
+	}
+
+	function get_longest_line(str, max_len) {
+		var str_arr = str.split("<br>")
+		var longest_line = ""
+		for (var i = 0; i < str_arr.length; i++) {
+			if (str_arr[i].length > longest_line.length) {
+				longest_line = str_arr[i]
+			}
+		}
+
+		while (longest_line.length > max_len && longest_line.lastIndexOf(" ") !== -1) {
+			var last_index = longest_line.lastIndexOf(" ")
+			longest_line = longest_line.substr(0, last_index)
+		}
+
+		return longest_line
 	}
 
 	//function to format numbers as text
