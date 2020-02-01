@@ -79,8 +79,7 @@ Item {
 		anchors.rightMargin: 16
 		anchors.top: traits_label.bottom
 		anchors.topMargin: 8
-		anchors.bottom: close_button.top
-		anchors.bottomMargin: 8
+		height: contentHeight
 		contentWidth: trait_grid.width
 		contentHeight: trait_grid.height
 		clip: true
@@ -96,6 +95,60 @@ Item {
 
 			Repeater {
 				model: character ? character.traits : []
+
+				Image {
+					source: model.modelData.icon_path
+					width: 32
+					height: 32
+
+					MouseArea {
+						anchors.fill: parent
+						hoverEnabled: true
+						ToolTip.text: tooltip(model.modelData.name + (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : ""))
+						ToolTip.visible: containsMouse
+						ToolTip.delay: 1000
+					}
+				}
+			}
+		}
+	}
+
+	Text {
+		id: items_label
+		text: qsTr("Items")
+		anchors.top: trait_area.bottom
+		anchors.topMargin: 8
+		anchors.horizontalCenter: parent.horizontalCenter
+		color: "black"
+		font.pixelSize: 12
+		font.family: "tahoma"
+	}
+
+	Flickable {
+		id: item_area
+		anchors.left: parent.left
+		anchors.leftMargin: 16
+		anchors.right: parent.right
+		anchors.rightMargin: 16
+		anchors.top: items_label.bottom
+		anchors.topMargin: 8
+		anchors.bottom: close_button.top
+		anchors.bottomMargin: 8
+		contentWidth: item_grid.width
+		contentHeight: item_grid.height
+		clip: true
+		interactive: false
+		boundsBehavior: Flickable.StopAtBounds
+		ScrollBar.vertical: ScrollBar {}
+
+		Grid {
+			id: item_grid
+			columns: 7
+			columnSpacing: 4
+			rowSpacing: 4
+
+			Repeater {
+				model: character ? character.items : []
 
 				Image {
 					source: model.modelData.icon_path
