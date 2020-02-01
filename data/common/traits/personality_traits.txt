@@ -18,7 +18,7 @@ diligent = {
 }
 
 kind = {
-	icon_tag = wooden_cross
+	icon_tag = love
 	personality = true
 }
 
