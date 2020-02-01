@@ -1,6 +1,7 @@
 import QtQuick 2.14
 import QtQuick.Controls 2.14
 import QtQuick.Window 2.14
+import QtGraphicalEffects 1.12
 
 Item {
 	id: game_view
@@ -98,6 +99,19 @@ Item {
 		}
 	}
 
+	Repeater {
+		model: [settlement_holdings_button, palace_holdings_button, extra_holdings_button, technologies_button, wildlife_button, country_map_mode_button, de_jure_empire_map_mode_button, de_jure_kingdom_map_mode_button, de_jure_duchy_map_mode_button, culture_map_mode_button, culture_group_map_mode_button, religion_map_mode_button, religion_group_map_mode_button, trade_node_map_mode_button, trade_zone_map_mode_button ]
+		
+		DropShadow {
+			anchors.fill: model.modelData
+			source: model.modelData
+			transparentBorder: true
+			radius: 4.0
+			samples: 9
+			visible: model.modelData.visible
+		}
+	}
+	
 	Item {
 		id: top_left_area
 		anchors.top: parent.top
