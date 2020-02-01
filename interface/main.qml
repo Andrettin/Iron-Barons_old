@@ -34,9 +34,14 @@ Window {
 		}
 	}
 
-	//function to format tooltip text
+	//format tooltip text
 	function tooltip(text) {
 		return "<font color=\"white\">" + text + "</font>"
+	}
+
+	//highlight text
+	function highlight(text) {
+		return "<font color=\"gold\">" + text + "</font>"
 	}
 
 	function remove_text_colors(text) {

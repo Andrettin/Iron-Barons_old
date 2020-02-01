@@ -43,7 +43,7 @@ Item {
 		MouseArea {
 			anchors.fill: parent
 			hoverEnabled: true
-			ToolTip.text: tooltip("Prowess<br><br>The Prowess attribute denotes a character's personal combat ability.")
+			ToolTip.text: tooltip(highlight("Prowess") + "<br><br>The Prowess attribute denotes a character's personal combat ability.")
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000
 		}
@@ -104,7 +104,7 @@ Item {
 					MouseArea {
 						anchors.fill: parent
 						hoverEnabled: true
-						ToolTip.text: tooltip(model.modelData.name + (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : ""))
+						ToolTip.text: tooltip(highlight(model.modelData.name) + (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : ""))
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}
@@ -158,7 +158,11 @@ Item {
 					MouseArea {
 						anchors.fill: parent
 						hoverEnabled: true
-						ToolTip.text: tooltip(model.modelData.name + (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : ""))
+						ToolTip.text: tooltip(
+							highlight(model.modelData.name)
+							+ (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : "")
+							+ (model.modelData.description !== (model.modelData.identifier + "_desc") ? "<br><br>" + model.modelData.description : "")
+						)
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}
