@@ -526,7 +526,7 @@ Item {
 		id: culture_map_mode_button
 		anchors.bottom: culture_group_map_mode_button.top
 		anchors.right: parent.right
-		source: "../graphics/icons/newspaper.png"
+		source: "../graphics/icons/items/book.png"
 		ToolTip.text: tooltip("Culture")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
@@ -539,7 +539,7 @@ Item {
 		id: culture_group_map_mode_button
 		anchors.bottom: religion_map_mode_button.top
 		anchors.right: parent.right
-		source: "../graphics/icons/newspaper.png"
+		source: "../graphics/icons/items/book.png"
 		ToolTip.text: tooltip("Culture Group")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
