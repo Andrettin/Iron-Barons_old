@@ -92,6 +92,11 @@ Window {
 		dest_number_string += src_number_string.slice(src_number_string.length - 2)
 		return dest_number_string.toLocaleString(Qt.locale("en_US"), 'f', 2)
 	}
+	
+	//replace the tooltip highlight text coloring with the panel highlight one
+	function use_panel_highlight(text) {
+		return text.replace(/<font color="gold">/g, "<font color=\"maroon\">")
+	}
 
 	function start_game() {
 		var component = Qt.createComponent("GameView.qml");

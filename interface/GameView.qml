@@ -233,7 +233,7 @@ Item {
 
 		Text {
 			id: current_notification
-			text: metternich.current_notification
+			text: use_panel_highlight(metternich.current_notification)
 			anchors.top: parent.top
 			anchors.topMargin: 8
 			anchors.left: parent.left
