@@ -4,7 +4,6 @@ road = {
 
 paved_road = {
 	category = economy
-	icon_tag = road
 	required_technologies += road
 }
 

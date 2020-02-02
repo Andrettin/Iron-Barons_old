@@ -32,7 +32,7 @@ Item {
 
 	Image {
 		id: prowess_icon
-		source: "../graphics/icons/items/heater_shield.png"
+		source: "../graphics/icons/items/saber.png"
 		width: 32
 		height: 32
 		anchors.top: parent.top
