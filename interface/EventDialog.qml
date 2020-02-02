@@ -4,7 +4,7 @@ import QtQuick.Controls 2.5
 Item {
 	id: event_dialog
 	width: 320
-	height: 480
+	height: event_option_grid.y + event_option_grid.height + 8
 	
 	property var event_instance: null
 
@@ -50,8 +50,8 @@ Item {
 
 	Grid {
 		id: event_option_grid
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8
+		anchors.top: event_description.bottom
+		anchors.topMargin: 32
 		anchors.horizontalCenter: parent.horizontalCenter
 		columns: 1
 		columnSpacing: 0
