@@ -20,6 +20,7 @@ Item {
 		MouseArea {
 			anchors.fill: parent
 			hoverEnabled: true
+			acceptedButtons: Qt.LeftButton | Qt.RightButton
 			ToolTip.text: tooltip(
 				(holding ?
 					holding.titled_name + "<br>"
@@ -30,8 +31,12 @@ Item {
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000
 			onClicked: {
-				if (holding !== null) {
-					holding.selected = true
+				if (mouse.button == Qt.RightButton) {
+					game_view.open_targeted_decision_dialog(holding, this)
+				} else {
+					if (holding !== null) {
+						holding.selected = true
+					}
 				}
 			}
 		}

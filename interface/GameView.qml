@@ -265,7 +265,7 @@ Item {
 		visible: metternich.selected_character !== null
 		character: metternich.selected_character
 	}
-
+	
 	IconButton {
 		id: settlement_holdings_button
 		anchors.top: province_interface.top
@@ -632,7 +632,17 @@ Item {
 			y: game_view.height / 2 - height / 2
 		}
 	}
-	
+
+	TargetedDecisionDialog {
+		id: targeted_decision_dialog
+	}
+
+	function open_targeted_decision_dialog(target, target_ui_element) {
+		targeted_decision_dialog.target = target
+		targeted_decision_dialog.target_ui_element = target_ui_element
+		targeted_decision_dialog.open()
+	}
+
 	Component.onCompleted: {
 		metternich.paused = false
 	}
