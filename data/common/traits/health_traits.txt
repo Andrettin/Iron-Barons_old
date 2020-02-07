@@ -1,3 +1,7 @@
+bald = {
+	icon_tag = heart
+}
+
 incapable = {
 	icon_tag = blood
 	

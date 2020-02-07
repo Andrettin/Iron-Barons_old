@@ -1,5 +1,6 @@
 administrator = "Administrator"
 architect = "Architect"
+bald = "Bald"
 brave = "Brave"
 cynical = "Cynical"
 diligent = "Diligent"
