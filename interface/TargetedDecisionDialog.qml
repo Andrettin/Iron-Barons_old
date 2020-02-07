@@ -3,7 +3,7 @@ import QtQuick.Controls 2.5
 
 Popup {
 	id: targeted_decision_dialog
-	contentWidth: decision_grid.width + 16
+	contentWidth: 192 + 16
 	contentHeight: decision_grid.y + decision_grid.height + 8
 	padding: 0
 	x: target_ui_element ? (mapFromItem(target_ui_element, target_ui_element.x, target_ui_element.y).x + target_ui_element.width + 8) : 0
