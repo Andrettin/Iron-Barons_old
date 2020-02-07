@@ -1,0 +1,3 @@
+rapier = "Rapier"
+saber = "Saber"
+scimitar = "Scimitar"

@@ -1,0 +1,21 @@
+rapier = {
+	icon_tag = saber
+	
+	modifier = {
+		prowess = 5
+	}
+}
+
+saber = {
+	modifier = {
+		prowess = 5
+	}
+}
+
+scimitar = {
+	icon_tag = saber
+	
+	modifier = {
+		prowess = 5
+	}
+}
