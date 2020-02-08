@@ -6,7 +6,6 @@ convert_to_village = {
 		or = {
 			holding_type = manor
 			holding_type = monastery
-			holding_type = city
 		}
 	}
 	
