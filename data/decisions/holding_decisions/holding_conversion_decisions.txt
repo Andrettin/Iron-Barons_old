@@ -1,0 +1,87 @@
+convert_to_village = {
+	filter = owned
+	ai = false
+	
+	preconditions = {
+		or = {
+			holding_type = manor
+			holding_type = monastery
+			holding_type = city
+		}
+	}
+	
+	conditions = {
+	}
+	
+	source_preconditions = {
+	}
+	
+	source_conditions = {
+		wealth = 1000
+	}
+	
+	effects = {
+		holding_type = village
+		source = {
+			wealth -= 1000
+		}
+	}
+	
+	ai_chance = {
+		factor = 0.01 #1% chance
+	}
+}
+
+convert_to_manor = {
+	filter = owned
+	ai = false
+	
+	preconditions = {
+		or = {
+			holding_type = monastery
+			holding_type = village
+		}
+	}
+	
+	source_conditions = {
+		wealth = 1000
+	}
+	
+	effects = {
+		holding_type = manor
+		source = {
+			wealth -= 1000
+		}
+	}
+	
+	ai_chance = {
+		factor = 0.01 #1% chance
+	}
+}
+
+convert_to_monastery = {
+	filter = owned
+	ai = false
+	
+	preconditions = {
+		or = {
+			holding_type = manor
+			holding_type = village
+		}
+	}
+	
+	source_conditions = {
+		wealth = 1000
+	}
+	
+	effects = {
+		holding_type = monastery
+		source = {
+			wealth -= 1000
+		}
+	}
+	
+	ai_chance = {
+		factor = 0.01 #1% chance
+	}
+}

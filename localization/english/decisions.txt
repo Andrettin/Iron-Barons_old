@@ -1,0 +1,3 @@
+convert_to_manor = "Convert to Manor"
+convert_to_monastery = "Convert to Monastery"
+convert_to_village = "Convert to Village"

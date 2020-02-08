@@ -10,7 +10,7 @@ cattle = {
 		
 		modifier = {
 			factor = 0.25
-			NOT = { terrain = plains }
+			not = { terrain = plains }
 		}
 	}
 }
@@ -23,7 +23,7 @@ coal = {
 		
 		modifier = {
 			factor = 0.25
-			NOR = {
+			nor = {
 				terrain = hills
 				terrain = mountains
 			}
@@ -39,7 +39,7 @@ coffee = {
 		
 		modifier = {
 			factor = 0
-			NOT = { terrain = plains }
+			not = { terrain = plains }
 		}
 	}
 }
@@ -52,7 +52,7 @@ copper = {
 		
 		modifier = {
 			factor = 0.25
-			NOR = {
+			nor = {
 				terrain = hills
 				terrain = mountains
 			}
@@ -68,7 +68,7 @@ cotton = {
 		
 		modifier = {
 			factor = 0
-			NOT = { terrain = plains }
+			not = { terrain = plains }
 		}
 	}
 }
@@ -81,7 +81,7 @@ fish = {
 		
 		modifier = {
 			factor = 0
-			NOT = { borders_water = true }
+			not = { borders_water = true }
 		}
 	}
 }
@@ -107,7 +107,7 @@ gold = {
 		
 		modifier = {
 			factor = 0.25
-			NOR = {
+			nor = {
 				terrain = hills
 				terrain = mountains
 			}
@@ -123,7 +123,7 @@ grain = {
 		
 		modifier = {
 			factor = 0.25
-			NOT = { terrain = plains }
+			not = { terrain = plains }
 		}
 		
 		modifier = {
@@ -141,7 +141,7 @@ horses = {
 		
 		modifier = {
 			factor = 0.25
-			NOT = { terrain = plains }
+			not = { terrain = plains }
 		}
 	}
 }
@@ -154,7 +154,7 @@ iron = {
 		
 		modifier = {
 			factor = 0.25
-			NOR = {
+			nor = {
 				terrain = hills
 				terrain = mountains
 			}
@@ -186,7 +186,7 @@ silver = {
 		
 		modifier = {
 			factor = 0.25
-			NOR = {
+			nor = {
 				terrain = hills
 				terrain = mountains
 			}
@@ -202,7 +202,7 @@ stone = {
 		
 		modifier = {
 			factor = 0.25
-			NOR = {
+			nor = {
 				terrain = hills
 				terrain = mountains
 			}
@@ -218,7 +218,7 @@ sugar_cane = {
 		
 		modifier = {
 			factor = 0
-			NOT = { terrain = plains }
+			not = { terrain = plains }
 		}
 	}
 }
@@ -231,7 +231,7 @@ timber = {
 		
 		modifier = {
 			factor = 0
-			NOT = { terrain = forest }
+			not = { terrain = forest }
 		}
 	}
 }
@@ -244,7 +244,7 @@ wool = {
 		
 		modifier = {
 			factor = 0.25
-			NOT = { terrain = hills }
+			not = { terrain = hills }
 		}
 	}
 }

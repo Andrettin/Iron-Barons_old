@@ -1,4 +1,4 @@
 monastery = {
 	slot_type = settlement
-	portrait_tag = university
+	portrait_tag = temple
 }
