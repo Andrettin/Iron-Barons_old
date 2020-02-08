@@ -272,7 +272,7 @@ Item {
 		anchors.topMargin: province_interface.holding_area_y + 8
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.settlement_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		source: "../graphics/icons/buildings/wall.png"
+		source: "../graphics/icons/settlement.png"
 		ToolTip.text: tooltip("Settlements")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
@@ -300,7 +300,7 @@ Item {
 		anchors.top: palace_holdings_button.visible ? palace_holdings_button.bottom : settlement_holdings_button.bottom
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		source: "../graphics/icons/cog.png"
+		source: "../graphics/icons/buildings/wall.png"
 		ToolTip.text: tooltip("Other")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
@@ -474,7 +474,7 @@ Item {
 		id: country_map_mode_button
 		anchors.bottom: de_jure_empire_map_mode_button.top
 		anchors.right: parent.right
-		source: "../graphics/icons/items/crown.png"
+		source: "../graphics/icons/flag.png"
 		ToolTip.text: tooltip("Country")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
