@@ -7,7 +7,7 @@ architect = {
 }
 
 poet = {
-	icon_tag = diploma
+	icon_tag = music
 }
 
 scholar = {
