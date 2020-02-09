@@ -6,7 +6,8 @@ import QtGraphicalEffects 1.12
 Item {
 	id: game_view
 
-	property var current_world_map: null
+	property var current_map: null
+	property bool cosmic_map_enabled: false
 
 	anchors.fill: parent
 	Keys.forwardTo: key_handler
@@ -38,13 +39,13 @@ Item {
 
 			onVisibleChanged: {
 				if (visible) {
-					game_view.current_world_map = this
+					game_view.current_map = this
 				}
 			}
 
 			Component.onCompleted: {
 				if (metternich.current_world === world) {
-					game_view.current_world_map = this
+					game_view.current_map = this
 				}
 
 				var center_coordinate
@@ -63,12 +64,22 @@ Item {
 		}
 	}
 
+	CosmicMap {
+		id: cosmic_map
+		visible: cosmic_map_enabled
+
+		Component.onCompleted: {
+			this.x = (game_view.parent.width / 2) - (this.width / 2)
+			this.y = (game_view.parent.height / 2) - (this.height / 2)
+		}
+	}
+
 	Timer {
 		running: scroll_left_area.containsMouse || scroll_left_up_area.containsMouse || scroll_left_down_area.containsMouse || key_handler.leftPressed
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_world_map.moveLeft(get_scroll_pixels())
+			current_map.moveLeft(get_scroll_pixels())
 		}
 	}
 
@@ -77,7 +88,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_world_map.moveRight(get_scroll_pixels())
+			current_map.moveRight(get_scroll_pixels())
 		}
 	}
 
@@ -86,7 +97,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_world_map.moveUp(get_scroll_pixels())
+			current_map.moveUp(get_scroll_pixels())
 		}
 	}
 
@@ -95,7 +106,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_world_map.moveDown(get_scroll_pixels())
+			current_map.moveDown(get_scroll_pixels())
 		}
 	}
 
@@ -462,9 +473,9 @@ Item {
 				}
 			/*
 			} else if (event.key === Qt.Key_Z) {
-				current_world_map.zoomLevel += 0.5
+				current_map.zoomLevel += 0.5
 			} else if (event.key === Qt.Key_X) {
-				current_world_map.zoomLevel -= 0.5
+				current_map.zoomLevel -= 0.5
 			*/
 			}
 		}
@@ -618,6 +629,7 @@ Item {
 				height: 32
 				onClicked: {
 					metternich.current_world = model.modelData
+					cosmic_map_enabled = false
 				}
 			}
 		}
