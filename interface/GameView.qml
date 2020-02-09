@@ -29,7 +29,7 @@ Item {
 	}
 
 	Repeater {
-		model: metternich.worlds
+		model: metternich.map_worlds
 
 		WorldMap {
 			viewport: game_view
@@ -602,7 +602,7 @@ Item {
 
 	Grid {
 		id: world_button_grid
-		visible: metternich.worlds.length > 1
+		visible: metternich.map_worlds.length > 1
 		anchors.bottom: parent.bottom
 		anchors.right: country_map_mode_button.left
 		columns: 1
@@ -610,7 +610,7 @@ Item {
 		rowSpacing: 0
 
 		Repeater {
-			model: metternich.worlds
+			model: metternich.map_worlds
 
 			PanelButton {
 				text: "<font color=\"black\">" + model.modelData.name + "</font>"
