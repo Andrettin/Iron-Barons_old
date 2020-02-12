@@ -3,8 +3,8 @@ import QtQuick.Controls 2.14
 
 Item {
 	id: cosmic_map
-	width: 8192
-	height: 8192
+	width: 16384
+	height: 16384
 	
 	function moveLeft(pixels) {
 		cosmic_map.x += pixels * cosmic_map.scale
@@ -29,6 +29,10 @@ Item {
 
 		MouseArea {
 			anchors.fill: parent
+			hoverEnabled: true
+			ToolTip.text: tooltip("(" + (mouseX - (width / 2)) + ", " + (mouseY - (height / 2)) + ")")
+			ToolTip.visible: containsMouse
+			ToolTip.delay: 1000
 			onClicked: {
 				if (metternich.selected_province !== null) {
 					metternich.selected_province.selected = false
