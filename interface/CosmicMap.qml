@@ -3,8 +3,8 @@ import QtQuick.Controls 2.14
 
 Item {
 	id: cosmic_map
-	width: 16384
-	height: 16384
+	width: 32768
+	height: 32768
 	
 	function moveLeft(pixels) {
 		cosmic_map.x += pixels * cosmic_map.scale
@@ -69,10 +69,34 @@ Item {
 				radius: width * 0.5
 				visible: model.modelData.orbit_center || model.modelData.astrocoordinate.isValid
 
+				function get_color(world_type) {
+					if (world_type === "blue_giant_star" || world_type === "blue_dwarf_star") {
+						return "blue"
+					} else if (world_type === "class_a_giant_star" || world_type === "class_a_dwarf_star" || world_type === "blue_white_giant_star" || world_type === "blue_white_dwarf_star") {
+						return "lightblue"
+					} else if (world_type === "orange_giant_star" || world_type === "orange_dwarf_star") {
+						return "orange"
+					} else if (world_type === "red_giant_star" || world_type === "red_dwarf_star") {
+						return "orange"
+					} else if (world_type === "yellow_giant_star" || world_type === "yellow_dwarf_star") {
+						return "yellow"
+					} else if (world_type === "yellow_white_giant_star" || world_type === "yellow_white_dwarf_star") {
+						return "lightyellow"
+					}
+
+					return "brown"
+				}
+
+				Component.onCompleted: {
+					if (!cosmic_map.contains(Qt.point(x, y))) {
+						console.warn(model.modelData.name + " is located outside of the cosmic map, with the following position: " + model.modelData.cosmic_map_pos)
+					}
+				}
+
 				MouseArea {
 					anchors.fill: parent
 					hoverEnabled: true
-					ToolTip.text: tooltip(model.modelData.name)
+					ToolTip.text: tooltip(model.modelData.name + "<br><br>Type: " + model.modelData.type.name)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 					onClicked: {
