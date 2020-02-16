@@ -67,11 +67,7 @@ Item {
 	CosmicMap {
 		id: cosmic_map
 		visible: cosmic_map_enabled
-
-		Component.onCompleted: {
-			this.x = (game_view.parent.width / 2) - (this.width / 2)
-			this.y = (game_view.parent.height / 2) - (this.height / 2)
-		}
+		anchors.fill: game_view
 	}
 
 	Timer {
