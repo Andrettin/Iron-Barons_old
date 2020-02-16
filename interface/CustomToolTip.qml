@@ -3,6 +3,7 @@ import QtQuick.Controls 2.14
 
 ToolTip {
 	id: tooltip
+	palette: ToolTip.toolTip.palette
 	font.family: "tahoma"
 	font.pixelSize: 14
 	contentWidth: (tooltip_metrics.width + 2)

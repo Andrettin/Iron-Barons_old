@@ -26,20 +26,26 @@ Item {
 		TradeZone
 	}
 
-	function moveLeft(pixels) {
+	function move_left(pixels) {
 		map.x += pixels * map.scale
 	}
 
-	function moveRight(pixels) {
+	function move_right(pixels) {
 		map.x -= pixels * map.scale
 	}
 
-	function moveUp(pixels) {
+	function move_up(pixels) {
 		map.y += pixels * map.scale
 	}
 
-	function moveDown(pixels) {
+	function move_down(pixels) {
 		map.y -= pixels * map.scale
+	}
+
+	function zoom_in() {
+	}
+
+	function zoom_out() {
 	}
 	
 	function pos_to_viewport_pos(pos) {

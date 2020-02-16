@@ -5,20 +5,26 @@ import QtQuick3D 1.14
 View3D {
 	id: map_view
 
-	function moveLeft(pixels) {
+	function move_left(pixels) {
 		camera.position.x -= pixels
 	}
 
-	function moveRight(pixels) {
+	function move_right(pixels) {
 		camera.position.x += pixels
 	}
 
-	function moveUp(pixels) {
+	function move_up(pixels) {
 		camera.position.y += pixels
 	}
 
-	function moveDown(pixels) {
+	function move_down(pixels) {
 		camera.position.y -= pixels
+	}
+
+	function zoom_in() {
+	}
+
+	function zoom_out() {
 	}
 
 	environment: SceneEnvironment {
@@ -83,7 +89,7 @@ View3D {
 
 		Model {
 			property var world: model.modelData
-			property string tooltip_text: world.name + "<br><br>Type: " + world.type.name
+			property string tooltip_text: world.name + "<br><br>Type: " + world.type.name + "<br>" + "Astrocoordinate: (" + Math.round(world.cosmic_map_pos.x) + ", " + Math.round(world.cosmic_map_pos.y) + ")"
 
 			function get_color(world_type) {
 				if (world_type === "blue_giant_star" || world_type === "blue_dwarf_star") {
@@ -113,7 +119,7 @@ View3D {
 			materials: [
 				DefaultMaterial {
 					diffuseColor: get_color(world.type.identifier)
-					diffuseMap: world.type.star ? null : world_texture
+					diffuseMap: world.star ? null : world_texture
 				}
 			]
 

@@ -75,7 +75,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.moveLeft(get_scroll_pixels())
+			current_map.move_left(get_scroll_pixels())
 		}
 	}
 
@@ -84,7 +84,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.moveRight(get_scroll_pixels())
+			current_map.move_right(get_scroll_pixels())
 		}
 	}
 
@@ -93,7 +93,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.moveUp(get_scroll_pixels())
+			current_map.move_up(get_scroll_pixels())
 		}
 	}
 
@@ -102,7 +102,7 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.moveDown(get_scroll_pixels())
+			current_map.move_down(get_scroll_pixels())
 		}
 	}
 
@@ -467,12 +467,10 @@ Item {
 						metternich.selected_holding.selected = false
 					}
 				}
-			/*
 			} else if (event.key === Qt.Key_Z) {
-				current_map.zoomLevel += 0.5
+				current_map.zoom_in()
 			} else if (event.key === Qt.Key_X) {
-				current_map.zoomLevel -= 0.5
-			*/
+				current_map.zoom_out()
 			}
 		}
 	}
