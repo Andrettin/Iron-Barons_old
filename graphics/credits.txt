@@ -302,3 +302,4 @@
 /graphics/icons/wealth_extra_1.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/wealth_large.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/wooden_cross.png (by Jinn) (licensed under the CC0)
+/graphics/textures/worlds/ (by gryphie) (licensed under the CC0)

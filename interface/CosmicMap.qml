@@ -24,6 +24,7 @@ View3D {
 	environment: SceneEnvironment {
 		clearColor: "transparent"
 		backgroundMode: SceneEnvironment.Color
+		multisampleAAMode: SceneEnvironment.X4
 	}
 
 	OrthographicCamera {
@@ -38,7 +39,7 @@ View3D {
 
 	DirectionalLight {
 		position: Qt.vector3d(0, 0, -1000)
-		rotation: camera.rotation
+		rotation: Qt.vector3d(0, 0, 0)
 	}
 
 	Repeater3D { //orbits
@@ -50,11 +51,6 @@ View3D {
 			position: model.modelData.orbit_center ? Qt.vector3d(model.modelData.orbit_center.cosmic_map_pos.x, model.modelData.orbit_center.cosmic_map_pos.y * -1, 0) : Qt.vector3d(0, 0, 0)
 			scale: Qt.vector3d(model.modelData.distance_from_orbit_center * 2 / 100.0, model.modelData.distance_from_orbit_center * 2 / 100.0, 0.1) //the pixel size of the sphere model is by default c. 100x100
 			source: "#Cube"
-
-			Component.onCompleted: {
-				console.info(model.modelData.name + " Scene Scale: " + scale)
-				console.info(model.modelData.name + " Orbit Scene Scale: " + sceneScale)
-			}
 
 			materials: [
 				DefaultMaterial {
@@ -104,11 +100,12 @@ View3D {
 					return "lightyellow"
 				}
 
-				return "brown"
+				return "white"
 			}
 
 			position: Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, 0)
-			scale: Qt.vector3d(world.cosmic_pixel_size / 100.0, world.cosmic_pixel_size / 100.0, world.cosmic_pixel_size / 100.0) //the pixel size of the sphere model is by default c. 100x100
+			scale: Qt.vector3d(world.cosmic_size / 100.0, world.cosmic_size / 100.0, world.cosmic_size / 100.0) //the pixel size of the sphere model is by default c. 100x100
+			rotation: Qt.vector3d(-45, Math.random(360), world.orbit_center ? 24 * world.orbit_position.x * -1 : 0)
 			source: "#Sphere"
 			pickable: true
 			visible: world.orbit_center || world.astrocoordinate.isValid
@@ -116,8 +113,14 @@ View3D {
 			materials: [
 				DefaultMaterial {
 					diffuseColor: get_color(world.type.identifier)
+					diffuseMap: world.type.star ? null : world_texture
 				}
 			]
+
+			Texture {
+				id: world_texture
+				source: world.texture_path
+			}
 
 			Component.onCompleted: {
 				if (world.orbit_center === null) {
@@ -156,7 +159,7 @@ View3D {
 			visible: parent.containsMouse && parent.hovered_object !== null
 			delay: 1000
 			x: parent.hovered_object ? (camera.mapToViewport(parent.hovered_object.position).x * map_view.width) - (width / 2) : 0
-			y: parent.hovered_object ? (camera.mapToViewport(parent.hovered_object.position).y * map_view.height) - height - (parent.hovered_object.world.cosmic_pixel_size / 2) - 8 : 0
+			y: parent.hovered_object ? (camera.mapToViewport(parent.hovered_object.position).y * map_view.height) - height - (parent.hovered_object.world.cosmic_size / 2) - 8 : 0
 		}
 	}
 }
