@@ -37,6 +37,7 @@ View3D {
 		id: camera
 		position: Qt.vector3d(0, 0, Math.max(map_view.width, map_view.height) * -1)
 		rotation: Qt.vector3d(0, 0, 0)
+		frustumCullingEnabled: true
 
 		onPositionChanged: {
 			mouse_area.on_mouse_pos_changed(mouse_area.mouseX, mouse_area.mouseY)
@@ -142,7 +143,14 @@ View3D {
 
 		function on_mouse_pos_changed(mouse_x, mouse_y) {
 			var result = map_view.pick(mouse_x, mouse_y)
-			hovered_object = result.objectHit;
+
+			if (result.objectHit !== hovered_object || result.objectHit === null) {
+				tooltip_timer.restart() //restart the tooltip delay (always restart when moving between null positions)
+
+				if (result.objectHit !== hovered_object) {
+					hovered_object = result.objectHit;
+				}
+			}
 		}
 
 		anchors.fill: map_view
@@ -160,12 +168,21 @@ View3D {
 			metternich.selected_character = null
 		}
 
+		Timer {
+			id: tooltip_timer
+			interval: 1000
+		}
+
 		CustomToolTip {
-			text: parent.hovered_object ? tooltip(parent.hovered_object.tooltip_text) : ""
-			visible: parent.containsMouse && parent.hovered_object !== null
-			delay: 1000
-			x: parent.hovered_object ? (camera.mapToViewport(parent.hovered_object.position).x * map_view.width) - (width / 2) : 0
-			y: parent.hovered_object ? (camera.mapToViewport(parent.hovered_object.position).y * map_view.height) - height - (parent.hovered_object.world.cosmic_size / 2) - 8 : 0
+			id: custom_tooltip
+			text: tooltip(mouse_area.hovered_object ? mouse_area.hovered_object.tooltip_text
+				: "Astrocoordinate: ("
+				+ Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).x)
+				+ ", " + Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).y) + ")")
+			visible: mouse_area.containsMouse && !tooltip_timer.running
+			delay: 0
+			x: (mouse_area.hovered_object ? (camera.mapToViewport(mouse_area.hovered_object.position).x * map_view.width) : mouse_area.mouseX) - (width / 2)
+			y: (mouse_area.hovered_object ? (camera.mapToViewport(mouse_area.hovered_object.position).y * map_view.height) - (mouse_area.hovered_object.world.cosmic_size / 2) : mouse_area.mouseY) - height - 8
 		}
 	}
 }

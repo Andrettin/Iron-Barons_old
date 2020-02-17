@@ -6,7 +6,7 @@ ToolTip {
 	palette: ToolTip.toolTip.palette
 	font.family: "tahoma"
 	font.pixelSize: 14
-	contentWidth: (tooltip_metrics.width + 2)
+	contentWidth: tooltip_metrics.width + 2
 	background: Rectangle {
 		color: "black"
 		opacity: 0.90
