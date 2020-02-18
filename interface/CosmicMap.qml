@@ -1,5 +1,6 @@
 import QtQuick 2.14
 import QtQuick.Controls 2.14
+import QtQuick.Shapes 1.14
 import QtQuick3D 1.14
 
 View3D {
@@ -27,6 +28,22 @@ View3D {
 	function zoom_out() {
 	}
 
+	function get_mouse_pos_astrocoordinate_x() {
+		return Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).x)
+	}
+
+	function get_mouse_pos_astrocoordinate_y() {
+		return Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).y) * -1
+	}
+
+	function get_tooltip_x() {
+		return mouse_area.mouseX
+	}
+
+	function get_tooltip_y() {
+		return mouse_area.mouseY
+	}
+
 	environment: SceneEnvironment {
 		clearColor: "transparent"
 		backgroundMode: SceneEnvironment.Color
@@ -49,6 +66,75 @@ View3D {
 		rotation: Qt.vector3d(0, 0, 0)
 	}
 
+	Repeater3D { //star system territories
+		model: metternich.star_systems
+
+		Model {
+			property var system: model.modelData
+			property string tooltip_text: system.name + " System<br>Astrocoordinate: (" + get_mouse_pos_astrocoordinate_x() + ", " + get_mouse_pos_astrocoordinate_y() + ")"
+
+			function get_tooltip_x() {
+				return map_view.get_tooltip_x()
+			}
+
+			function get_tooltip_y() {
+				return map_view.get_tooltip_y()
+			}
+
+			//whether a position within the object is a valid tooltip position
+			function is_valid_tooltip_pos(pos) {
+				var x_offset = Math.max(0, (height - width) / 2)
+				var y_offset = Math.max(0, (width - height) / 2)
+				return territory_shape.contains(Qt.point(pos.x + x_offset, pos.y + y_offset))
+			}
+
+			visible: system.territory_polygon.length > 0
+			position: Qt.vector3d(system.territory_bounding_rect.x + (system.territory_bounding_rect.width / 2), (system.territory_bounding_rect.y + (system.territory_bounding_rect.height / 2)) * -1, 1)
+			scale: Qt.vector3d(Math.max(system.territory_bounding_rect.width, system.territory_bounding_rect.height) / 100.0, Math.max(system.territory_bounding_rect.width, system.territory_bounding_rect.height) / 100.0, 0.1)
+			source: "#Cube"
+			pickable: true
+
+			materials: [
+				DefaultMaterial {
+					diffuseMap: Texture {
+						sourceItem: Rectangle {
+							id: territory_rect
+							x: -10000 //hide it from view
+							y: -10000
+							width: Math.max(system.territory_bounding_rect.width, system.territory_bounding_rect.height)
+							height: width
+							color: "transparent"
+							layer.enabled: true
+
+							Shape {
+								id: territory_shape
+								anchors.horizontalCenter: parent.horizontalCenter
+								anchors.verticalCenter: parent.verticalCenter
+								width: system.territory_bounding_rect.width
+								height: system.territory_bounding_rect.height
+								containsMode: Shape.FillContains
+
+								ShapePath {
+									strokeWidth: 2
+									strokeColor: "blue"
+									strokeStyle: ShapePath.SolidLine
+									capStyle: ShapePath.RoundCap
+									joinStyle: ShapePath.RoundJoin
+									fillColor: "#800000ff"
+									fillRule: ShapePath.WindingFill
+									PathPolyline { path: system.territory_polygon }
+								}
+							}
+						}
+					}
+					opacityMap: Texture {
+						sourceItem: territory_rect
+					}
+				}
+			]
+		}
+	}
+
 	Repeater3D { //orbits
 		model: metternich.worlds
 
@@ -56,7 +142,7 @@ View3D {
 			visible: model.modelData.orbit_center !== null
 
 			position: model.modelData.orbit_center ? Qt.vector3d(model.modelData.orbit_center.cosmic_map_pos.x, model.modelData.orbit_center.cosmic_map_pos.y * -1, 0) : Qt.vector3d(0, 0, 0)
-			scale: Qt.vector3d(model.modelData.distance_from_orbit_center * 2 / 100.0, model.modelData.distance_from_orbit_center * 2 / 100.0, 0.1) //the pixel size of the sphere model is by default c. 100x100
+			scale: Qt.vector3d(model.modelData.distance_from_orbit_center * 2 / 100.0, model.modelData.distance_from_orbit_center * 2 / 100.0, 0.1)
 			source: "#Cube"
 
 			materials: [
@@ -90,7 +176,10 @@ View3D {
 
 		Model {
 			property var world: model.modelData
-			property string tooltip_text: world.name + "<br><br>Type: " + world.type.name + "<br>" + "Astrocoordinate: (" + Math.round(world.cosmic_map_pos.x) + ", " + Math.round(world.cosmic_map_pos.y) + ")"
+			property string tooltip_text: world.name + "<br>"
+			+ (world.star_system ? "<br>Star System: " + world.star_system.name : "")
+			+ "<br>Type: " + world.type.name
+			+ "<br>Astrocoordinate: (" + Math.round(world.cosmic_map_pos.x) + ", " + Math.round(world.cosmic_map_pos.y) + ")"
 
 			function get_color(world_type) {
 				if (world_type === "blue_giant_star" || world_type === "blue_dwarf_star") {
@@ -108,6 +197,18 @@ View3D {
 				}
 
 				return "white"
+			}
+
+			function get_tooltip_x() {
+				return camera.mapToViewport(position).x * map_view.width
+			}
+
+			function get_tooltip_y() {
+				return (camera.mapToViewport(position).y * map_view.height) - (world.cosmic_size / 2)
+			}
+
+			function is_valid_tooltip_pos(pos) {
+				return true
 			}
 
 			position: Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, 0)
@@ -143,13 +244,16 @@ View3D {
 
 		function on_mouse_pos_changed(mouse_x, mouse_y) {
 			var result = map_view.pick(mouse_x, mouse_y)
+			var hit_object = result.objectHit
 
-			if (result.objectHit !== hovered_object || result.objectHit === null) {
-				tooltip_timer.restart() //restart the tooltip delay (always restart when moving between null positions)
+			tooltip_timer.restart() //restart the tooltip delay (always restart when moving the mouse)
 
-				if (result.objectHit !== hovered_object) {
-					hovered_object = result.objectHit;
-				}
+			if (hit_object !== null && !hit_object.is_valid_tooltip_pos(result.uvPosition)) {
+				hit_object = null
+			}
+
+			if (hit_object !== hovered_object) {
+				hovered_object = hit_object;
 			}
 		}
 
@@ -177,12 +281,12 @@ View3D {
 			id: custom_tooltip
 			text: tooltip(mouse_area.hovered_object ? mouse_area.hovered_object.tooltip_text
 				: "Astrocoordinate: ("
-				+ Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).x)
-				+ ", " + Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).y * -1) + ")")
+				+ get_mouse_pos_astrocoordinate_x() + ", "
+				+ get_mouse_pos_astrocoordinate_y() + ")")
 			visible: mouse_area.containsMouse && !tooltip_timer.running
 			delay: 0
-			x: (mouse_area.hovered_object ? (camera.mapToViewport(mouse_area.hovered_object.position).x * map_view.width) : mouse_area.mouseX) - (width / 2)
-			y: (mouse_area.hovered_object ? (camera.mapToViewport(mouse_area.hovered_object.position).y * map_view.height) - (mouse_area.hovered_object.world.cosmic_size / 2) : mouse_area.mouseY) - height - 8
+			x: (mouse_area.hovered_object ? mouse_area.hovered_object.get_tooltip_x() : get_tooltip_x()) - (width / 2)
+			y: (mouse_area.hovered_object ? mouse_area.hovered_object.get_tooltip_y() : get_tooltip_y()) - height - 8
 		}
 	}
 }
