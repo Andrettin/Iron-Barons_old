@@ -178,7 +178,7 @@ View3D {
 			text: tooltip(mouse_area.hovered_object ? mouse_area.hovered_object.tooltip_text
 				: "Astrocoordinate: ("
 				+ Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).x)
-				+ ", " + Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).y) + ")")
+				+ ", " + Math.round(camera.mapFromViewport(Qt.vector3d(mouse_area.mouseX / map_view.width, mouse_area.mouseY / map_view.height, 0)).y * -1) + ")")
 			visible: mouse_area.containsMouse && !tooltip_timer.running
 			delay: 0
 			x: (mouse_area.hovered_object ? (camera.mapToViewport(mouse_area.hovered_object.position).x * map_view.width) : mouse_area.mouseX) - (width / 2)
