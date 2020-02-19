@@ -33,7 +33,6 @@ Item {
 		model: metternich.map_worlds
 
 		WorldMap {
-			viewport: game_view
 			world: model.modelData
 			visible: metternich.current_world === world
 

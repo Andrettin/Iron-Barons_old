@@ -144,7 +144,7 @@ View3D {
 
 								ShapePath {
 									strokeWidth: 2
-									strokeColor: system.color
+									strokeColor: "black"
 									strokeStyle: ShapePath.SolidLine
 									capStyle: ShapePath.RoundCap
 									joinStyle: ShapePath.RoundJoin
@@ -256,12 +256,6 @@ View3D {
 			Texture {
 				id: world_texture
 				source: world.texture_path
-			}
-
-			Component.onCompleted: {
-				if (world.orbit_center === null) {
-					console.info(world.name + " Position: " + world.cosmic_map_pos)
-				}
 			}
 		}
 	}
