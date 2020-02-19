@@ -301,6 +301,7 @@
 /graphics/icons/newspaper.png (by Jinn) (licensed under the CC0)
 /graphics/icons/research.png (by Jinn) (licensed under the CC0)
 /graphics/icons/settlement.png (by Jinn) (licensed under the CC0)
+/graphics/icons/skull.png (by Jinn) (licensed under the CC0)
 /graphics/icons/treaty.png (by Jinn) (licensed under the CC0)
 /graphics/icons/wealth.png (by Exidelo) (licensed under the CC0)
 /graphics/icons/wealth_extra_1.png (by Exidelo) (licensed under the CC0)
