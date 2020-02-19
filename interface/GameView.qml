@@ -293,7 +293,7 @@ Item {
 		anchors.top: settlement_holdings_button.bottom
 		anchors.left: province_interface.right
 		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.palace_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
-		source: "../graphics/icons/items/crown.png"
+		source: "../graphics/icons/items/crown_baronial.png"
 		ToolTip.text: tooltip("Palaces")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
@@ -492,7 +492,7 @@ Item {
 		id: de_jure_empire_map_mode_button
 		anchors.bottom: de_jure_kingdom_map_mode_button.top
 		anchors.right: parent.right
-		source: "../graphics/icons/items/crown.png"
+		source: "../graphics/icons/items/crown_imperial.png"
 		ToolTip.text: tooltip("De Jure Empire")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
@@ -505,7 +505,7 @@ Item {
 		id: de_jure_kingdom_map_mode_button
 		anchors.bottom: de_jure_duchy_map_mode_button.top
 		anchors.right: parent.right
-		source: "../graphics/icons/items/crown.png"
+		source: "../graphics/icons/items/crown_royal.png"
 		ToolTip.text: tooltip("De Jure Kingdom")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
@@ -518,7 +518,7 @@ Item {
 		id: de_jure_duchy_map_mode_button
 		anchors.bottom: culture_map_mode_button.top
 		anchors.right: parent.right
-		source: "../graphics/icons/items/crown.png"
+		source: "../graphics/icons/items/crown_ducal.png"
 		ToolTip.text: tooltip("De Jure Duchy")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
