@@ -66,15 +66,6 @@ View3D {
 		multisampleAAMode: SceneEnvironment.X4
 	}
 
-	Component.onCompleted: {
-		console.info("Top Left: " + metternich.cosmic_map_bounding_rect.left + ", " + metternich.cosmic_map_bounding_rect.top)
-		console.info("Bottom Right: " + metternich.cosmic_map_bounding_rect.right + ", " + metternich.cosmic_map_bounding_rect.bottom)
-		console.info("Min X: " + camera.min_x)
-		console.info("Max X: " + camera.max_x)
-		console.info("Min Y: " + camera.min_y)
-		console.info("Max Y: " + camera.max_y)
-	}
-
 	OrthographicCamera {
 		id: camera
 
@@ -102,7 +93,9 @@ View3D {
 
 		Model {
 			property var system: model.modelData
-			property string tooltip_text: system.name + " System<br>Astrocoordinate: (" + get_mouse_pos_astrocoordinate_x() + ", " + get_mouse_pos_astrocoordinate_y() + ")"
+			property string tooltip_text: system.name + " System<br>"
+			+ (system.ethereal ? "<br>Ethereal" : "")
+			+ "<br>Astrocoordinate: (" + get_mouse_pos_astrocoordinate_x() + ", " + get_mouse_pos_astrocoordinate_y() + ")"
 			property real bounding_width: system.territory_bounding_rect.width
 			property real bounding_height: system.territory_bounding_rect.height
 			property real bounding_size: Math.max(bounding_width, bounding_height)
@@ -151,11 +144,11 @@ View3D {
 
 								ShapePath {
 									strokeWidth: 2
-									strokeColor: "blue"
+									strokeColor: system.color
 									strokeStyle: ShapePath.SolidLine
 									capStyle: ShapePath.RoundCap
 									joinStyle: ShapePath.RoundJoin
-									fillColor: Qt.rgba(strokeColor.r, strokeColor.g, strokeColor.b, 0.5)
+									fillColor: Qt.rgba(system.color.r, system.color.g, system.color.b, 0.5)
 									fillRule: ShapePath.WindingFill
 									PathPolyline { path: system.territory_polygon }
 								}
