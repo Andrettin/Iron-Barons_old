@@ -7,19 +7,35 @@ View3D {
 	id: map_view
 
 	function move_left(pixels) {
-		camera.position.x -= pixels
+		var x = camera.position.x - pixels
+		if (x < camera.min_x) {
+			x = camera.min_x
+		}
+		camera.position.x = x
 	}
 
 	function move_right(pixels) {
-		camera.position.x += pixels
+		var x = camera.position.x + pixels
+		if (x > camera.max_x) {
+			x = camera.max_x
+		}
+		camera.position.x = x
 	}
 
 	function move_up(pixels) {
-		camera.position.y += pixels
+		var y = camera.position.y + pixels
+		if (y > camera.max_y) {
+			y = camera.max_y
+		}
+		camera.position.y = y
 	}
 
 	function move_down(pixels) {
-		camera.position.y -= pixels
+		var y = camera.position.y - pixels
+		if (y < camera.min_y) {
+			y = camera.min_y
+		}
+		camera.position.y = y
 	}
 
 	function zoom_in() {
@@ -50,8 +66,23 @@ View3D {
 		multisampleAAMode: SceneEnvironment.X4
 	}
 
+	Component.onCompleted: {
+		console.info("Top Left: " + metternich.cosmic_map_bounding_rect.left + ", " + metternich.cosmic_map_bounding_rect.top)
+		console.info("Bottom Right: " + metternich.cosmic_map_bounding_rect.right + ", " + metternich.cosmic_map_bounding_rect.bottom)
+		console.info("Min X: " + camera.min_x)
+		console.info("Max X: " + camera.max_x)
+		console.info("Min Y: " + camera.min_y)
+		console.info("Max Y: " + camera.max_y)
+	}
+
 	OrthographicCamera {
 		id: camera
+
+		property real min_x: metternich.cosmic_map_bounding_rect.left + (map_view.width / 2)
+		property real max_x: metternich.cosmic_map_bounding_rect.right - (map_view.width / 2)
+		property real min_y: (metternich.cosmic_map_bounding_rect.bottom * -1) + (map_view.height / 2)
+		property real max_y: (metternich.cosmic_map_bounding_rect.top * -1) - (map_view.height / 2)
+
 		position: Qt.vector3d(0, 0, Math.max(map_view.width, map_view.height) * -1)
 		rotation: Qt.vector3d(0, 0, 0)
 		frustumCullingEnabled: true
@@ -72,6 +103,9 @@ View3D {
 		Model {
 			property var system: model.modelData
 			property string tooltip_text: system.name + " System<br>Astrocoordinate: (" + get_mouse_pos_astrocoordinate_x() + ", " + get_mouse_pos_astrocoordinate_y() + ")"
+			property real bounding_width: system.territory_bounding_rect.width
+			property real bounding_height: system.territory_bounding_rect.height
+			property real bounding_size: Math.max(bounding_width, bounding_height)
 
 			function get_tooltip_x() {
 				return map_view.get_tooltip_x()
@@ -82,15 +116,16 @@ View3D {
 			}
 
 			//whether a position within the object is a valid tooltip position
-			function is_valid_tooltip_pos(pos) {
-				var x_offset = Math.max(0, (height - width) / 2)
-				var y_offset = Math.max(0, (width - height) / 2)
-				return territory_shape.contains(Qt.point(pos.x + x_offset, pos.y + y_offset))
+			function is_valid_tooltip_pos(normalized_pos) {
+				var x_offset = (bounding_size - bounding_width) / 2
+				var y_offset = (bounding_size - bounding_height) / 2
+				var pos = Qt.point(normalized_pos.x * bounding_size - x_offset, normalized_pos.y * bounding_size - y_offset)
+				return territory_shape.contains(pos)
 			}
 
 			visible: system.territory_polygon.length > 0
-			position: Qt.vector3d(system.territory_bounding_rect.x + (system.territory_bounding_rect.width / 2), (system.territory_bounding_rect.y + (system.territory_bounding_rect.height / 2)) * -1, 1)
-			scale: Qt.vector3d(Math.max(system.territory_bounding_rect.width, system.territory_bounding_rect.height) / 100.0, Math.max(system.territory_bounding_rect.width, system.territory_bounding_rect.height) / 100.0, 0.1)
+			position: Qt.vector3d(system.territory_bounding_rect.x + (bounding_width / 2), (system.territory_bounding_rect.y + (bounding_height / 2)) * -1, 1)
+			scale: Qt.vector3d(bounding_size / 100.0, bounding_size / 100.0, 0.1)
 			source: "#Cube"
 			pickable: true
 
@@ -101,8 +136,8 @@ View3D {
 							id: territory_rect
 							x: -10000 //hide it from view
 							y: -10000
-							width: Math.max(system.territory_bounding_rect.width, system.territory_bounding_rect.height)
-							height: width
+							width: bounding_size
+							height: bounding_size
 							color: "transparent"
 							layer.enabled: true
 
@@ -110,8 +145,8 @@ View3D {
 								id: territory_shape
 								anchors.horizontalCenter: parent.horizontalCenter
 								anchors.verticalCenter: parent.verticalCenter
-								width: system.territory_bounding_rect.width
-								height: system.territory_bounding_rect.height
+								width: bounding_width
+								height: bounding_height
 								containsMode: Shape.FillContains
 
 								ShapePath {
@@ -120,7 +155,7 @@ View3D {
 									strokeStyle: ShapePath.SolidLine
 									capStyle: ShapePath.RoundCap
 									joinStyle: ShapePath.RoundJoin
-									fillColor: "#800000ff"
+									fillColor: Qt.rgba(strokeColor.r, strokeColor.g, strokeColor.b, 0.5)
 									fillRule: ShapePath.WindingFill
 									PathPolyline { path: system.territory_polygon }
 								}
@@ -252,8 +287,8 @@ View3D {
 				hit_object = null
 			}
 
-			if (hit_object !== hovered_object) {
-				hovered_object = hit_object;
+			if (hit_object !== tooltip_timer.delayed_hovered_object) {
+				tooltip_timer.delayed_hovered_object = hit_object;
 			}
 		}
 
@@ -273,8 +308,13 @@ View3D {
 		}
 
 		Timer {
+			property var delayed_hovered_object: null
+
 			id: tooltip_timer
 			interval: 1000
+			onTriggered: {
+				mouse_area.hovered_object = delayed_hovered_object
+			}
 		}
 
 		CustomToolTip {
