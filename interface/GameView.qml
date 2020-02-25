@@ -6,8 +6,8 @@ import QtGraphicalEffects 1.12
 Item {
 	id: game_view
 
-	property var current_map: null
 	property bool cosmic_map_enabled: false
+	property var selected_world: null
 
 	anchors.fill: parent
 	Keys.forwardTo: key_handler
@@ -29,36 +29,23 @@ Item {
 		anchors.fill: parent
 	}
 
-	Repeater {
-		model: metternich.map_worlds
+	WorldMap {
+		id: map_underlay
+		world: metternich.current_world
+		visible: metternich.current_world !== null
 
-		WorldMap {
-			world: model.modelData
-			visible: metternich.current_world === world
+		Component.onCompleted: {
+			var center_coordinate
+			var map_center
 
-			onVisibleChanged: {
-				if (visible) {
-					game_view.current_map = this
-				}
-			}
-
-			Component.onCompleted: {
-				if (metternich.current_world === world) {
-					game_view.current_map = this
-				}
-
-				var center_coordinate
-				var map_center
-
-				if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province.world === world) {
-					center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
-					map_center = world.coordinate_to_point(center_coordinate)
-					this.x = (game_view.parent.width / 2) - map_center.x
-					this.y = (game_view.parent.height / 2) - map_center.y
-				} else {
-					this.x = (game_view.parent.width / 2) - (this.width / 2)
-					this.y = (game_view.parent.height / 2) - (this.height / 2)
-				}
+			if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province.world === world) {
+				center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
+				map_center = world.coordinate_to_point(center_coordinate)
+				this.x = (game_view.width / 2) - map_center.x
+				this.y = (game_view.height / 2) - map_center.y
+			} else {
+				this.x = (game_view.width / 2) - (this.width / 2)
+				this.y = (game_view.height / 2) - (this.height / 2)
 			}
 		}
 	}
@@ -66,7 +53,13 @@ Item {
 	CosmicMap {
 		id: cosmic_map
 		visible: cosmic_map_enabled
+	}
+
+	MapView {
+		id: map_view
 		anchors.fill: game_view
+
+		importScene: cosmic_map_enabled ? cosmic_map : null
 	}
 
 	Timer {
@@ -74,7 +67,8 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.move_left(get_scroll_pixels())
+			map_underlay.move_left(get_scroll_pixels())
+			map_view.move_left(get_scroll_pixels())
 		}
 	}
 
@@ -83,7 +77,8 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.move_right(get_scroll_pixels())
+			map_underlay.move_right(get_scroll_pixels())
+			map_view.move_right(get_scroll_pixels())
 		}
 	}
 
@@ -92,7 +87,8 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.move_up(get_scroll_pixels())
+			map_underlay.move_up(get_scroll_pixels())
+			map_view.move_up(get_scroll_pixels())
 		}
 	}
 
@@ -101,7 +97,8 @@ Item {
 		repeat: true
 		interval: 1
 		onTriggered: {
-			current_map.move_down(get_scroll_pixels())
+			map_underlay.move_down(get_scroll_pixels())
+			map_view.move_down(get_scroll_pixels())
 		}
 	}
 
@@ -254,6 +251,14 @@ Item {
 			wrapMode: Text.WordWrap
 			clip: true
 		}
+	}
+
+	WorldInterface {
+		id: world_interface
+		anchors.bottom: parent.bottom
+		anchors.left: parent.left
+		visible: game_view.selected_world !== null && metternich.selected_character === null
+		world: game_view.selected_world
 	}
 
 	ProvinceInterface {
@@ -467,9 +472,11 @@ Item {
 					}
 				}
 			} else if (event.key === Qt.Key_Z) {
-				current_map.zoom_in()
+				map_underlay.zoom_in()
+				map_view.zoom_in()
 			} else if (event.key === Qt.Key_X) {
-				current_map.zoom_out()
+				map_underlay.zoom_out()
+				map_view.zoom_out()
 			}
 		}
 	}
@@ -604,30 +611,6 @@ Item {
 		}
 	}
 
-	Grid {
-		id: world_button_grid
-		visible: metternich.map_worlds.length > 1
-		anchors.bottom: parent.bottom
-		anchors.right: country_map_mode_button.left
-		columns: 1
-		columnSpacing: 0
-		rowSpacing: 0
-
-		Repeater {
-			model: metternich.map_worlds
-
-			PanelButton {
-				text: "<font color=\"black\">" + model.modelData.name + "</font>"
-				width: 128
-				height: 32
-				onClicked: {
-					metternich.current_world = model.modelData
-					cosmic_map_enabled = false
-				}
-			}
-		}
-	}
-	
 	Repeater {
 		model: metternich.event_instances
 
@@ -650,5 +633,7 @@ Item {
 
 	Component.onCompleted: {
 		metternich.paused = false
+		metternich.current_world = null
+		cosmic_map_enabled = true
 	}
 }

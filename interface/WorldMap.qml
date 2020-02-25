@@ -3,7 +3,7 @@ import QtQuick.Controls 2.14
 import QtQuick.Shapes 1.14
 import MaskedMouseArea 1.0
 
-Rectangle {
+Item {
 	id: map
 
 	property var world: null
