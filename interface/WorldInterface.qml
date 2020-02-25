@@ -2,21 +2,13 @@ import QtQuick 2.12
 import QtQuick.Controls 2.5
 
 Item {
-	id: province_interface
+	id: world_interface
 	width: 306
 	height: 576
 	
-	property var province: null
+	property var world: null
 
-	enum Mode {
-		Settlements,
-		Palaces,
-		Other,
-		Technologies,
-		Wildlife
-	}
-
-	property real holding_area_y: holding_area.y
+	//property real holding_area_y: holding_area.y
 	property int mode: ProvinceInterface.Mode.Settlements
 
 	PanelBackground {
@@ -30,8 +22,8 @@ Item {
 	}
 
 	Text {
-		id: province_name
-		text: province ? province.name : ""
+		id: world_name
+		text: world ? world.name : ""
 		anchors.top: parent.top
 		anchors.topMargin: 16
 		anchors.horizontalCenter: parent.horizontalCenter
@@ -41,6 +33,7 @@ Item {
 		font.bold: true
 	}
 
+	/*
 	Holding {
 		id: capital_holding
 		anchors.top: parent.top
@@ -80,15 +73,17 @@ Item {
 		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
 		dataSource: province
 	}
+	*/
 
 	Item {
 		id: empire_area
-		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
+		visible: world !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: culture_chart.bottom
+		//anchors.top: culture_chart.bottom
+		anchors.top: world_name.bottom
 		anchors.topMargin: 16
 
 		Text {
@@ -103,7 +98,7 @@ Item {
 
 		LandedTitleFlag {
 			id: de_facto_empire_flag
-			landed_title: province && province.empire && province.empire !== province.de_jure_empire ? province.empire : null
+			landed_title: world && world.empire && world.empire !== world.de_jure_empire ? world.empire : null
 			anchors.right: empire_flag_separator.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
@@ -111,7 +106,7 @@ Item {
 
 		Text {
 			id: empire_flag_separator
-			text: province && province.empire && province.empire !== province.de_jure_empire ? "/" : ""
+			text: world && world.empire && world.empire !== world.de_jure_empire ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -123,7 +118,7 @@ Item {
 
 		LandedTitleFlag {
 			id: de_jure_empire_flag
-			landed_title: province && province.de_jure_empire ? province.de_jure_empire : null
+			landed_title: world && world.de_jure_empire ? world.de_jure_empire : null
 			anchors.right: parent.right
 			anchors.verticalCenter: parent.verticalCenter
 		}
@@ -131,7 +126,7 @@ Item {
 
 	Item {
 		id: kingdom_area
-		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
+		visible: world !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -151,7 +146,7 @@ Item {
 
 		LandedTitleFlag {
 			id: de_facto_kingdom_flag
-			landed_title: province && province.kingdom && province.kingdom !== province.de_jure_kingdom ? province.kingdom : null
+			landed_title: world && world.kingdom && world.kingdom !== world.de_jure_kingdom ? world.kingdom : null
 			anchors.right: kingdom_flag_separator.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
@@ -159,7 +154,7 @@ Item {
 
 		Text {
 			id: kingdom_flag_separator
-			text: province && province.kingdom && province.kingdom !== province.de_jure_kingdom ? "/" : ""
+			text: world && world.kingdom && world.kingdom !== world.de_jure_kingdom ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -171,7 +166,7 @@ Item {
 
 		LandedTitleFlag {
 			id: de_jure_kingdom_flag
-			landed_title: province && province.de_jure_kingdom ? province.de_jure_kingdom : null
+			landed_title: world && world.de_jure_kingdom ? world.de_jure_kingdom : null
 			anchors.right: parent.right
 			anchors.verticalCenter: parent.verticalCenter
 		}
@@ -179,7 +174,7 @@ Item {
 
 	Item {
 		id: duchy_area
-		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
+		visible: world !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -199,7 +194,7 @@ Item {
 
 		LandedTitleFlag {
 			id: de_facto_duchy_flag
-			landed_title: province && province.duchy && province.duchy !== province.de_jure_duchy ? province.duchy : null
+			landed_title: world && world.duchy && world.duchy !== world.de_jure_duchy ? world.duchy : null
 			anchors.right: duchy_flag_separator.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
@@ -207,7 +202,7 @@ Item {
 
 		Text {
 			id: duchy_flag_separator
-			text: province && province.duchy && province.duchy !== province.de_jure_duchy ? "/" : ""
+			text: world && world.duchy && world.duchy !== world.de_jure_duchy ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
@@ -219,12 +214,13 @@ Item {
 
 		LandedTitleFlag {
 			id: de_jure_duchy_flag
-			landed_title: province && province.de_jure_duchy ? province.de_jure_duchy : null
+			landed_title: world && world.de_jure_duchy ? world.de_jure_duchy : null
 			anchors.right: parent.right
 			anchors.verticalCenter: parent.verticalCenter
 		}
 	}
 
+	/*
 	Item {
 		id: population_area
 		anchors.topMargin: 20
@@ -287,6 +283,7 @@ Item {
 			font.bold: true
 		}
 	}
+	*/
 
 	/*
 	Item {
@@ -356,6 +353,7 @@ Item {
 	}
 	*/
 
+	/*
 	Item {
 		id: holding_area
 		anchors.left: parent.left
@@ -448,4 +446,5 @@ Item {
 	HoldingInterface {
 		visible: metternich.selected_holding !== null
 	}
+	*/
 }
