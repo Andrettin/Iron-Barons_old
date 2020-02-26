@@ -76,7 +76,7 @@ Item {
 	*/
 
 	Item {
-		id: empire_area
+		id: galactic_empire_area
 		visible: world !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
@@ -87,8 +87,8 @@ Item {
 		anchors.topMargin: 16
 
 		Text {
-			id: de_jure_empire_label
-			text: qsTr("Empire")
+			id: de_jure_galactic_empire_label
+			text: qsTr("Galactic Empire")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
@@ -97,46 +97,46 @@ Item {
 		}
 
 		LandedTitleFlag {
-			id: de_facto_empire_flag
-			landed_title: world && world.empire && world.empire !== world.de_jure_empire ? world.empire : null
-			anchors.right: empire_flag_separator.left
+			id: de_facto_galactic_empire_flag
+			landed_title: world && world.galactic_empire && world.galactic_empire !== world.de_jure_galactic_empire ? world.galactic_empire : null
+			anchors.right: galactic_empire_flag_separator.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
 		}
 
 		Text {
-			id: empire_flag_separator
-			text: world && world.empire && world.empire !== world.de_jure_empire ? "/" : ""
+			id: galactic_empire_flag_separator
+			text: world && world.galactic_empire && world.galactic_empire !== world.de_jure_galactic_empire ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
-			anchors.right: de_jure_empire_flag.left
+			anchors.right: de_jure_galactic_empire_flag.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
 		}
 
 		LandedTitleFlag {
-			id: de_jure_empire_flag
-			landed_title: world && world.de_jure_empire ? world.de_jure_empire : null
+			id: de_jure_galactic_empire_flag
+			landed_title: world && world.de_jure_galactic_empire ? world.de_jure_galactic_empire : null
 			anchors.right: parent.right
 			anchors.verticalCenter: parent.verticalCenter
 		}
 	}
 
 	Item {
-		id: kingdom_area
+		id: interstellar_empire_area
 		visible: world !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: empire_area.bottom
+		anchors.top: galactic_empire_area.bottom
 		anchors.topMargin: 20
 
 		Text {
-			id: de_jure_kingdom_label
-			text: qsTr("Kingdom")
+			id: de_jure_interstellar_empire_label
+			text: qsTr("Interstellar Empire")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
@@ -145,46 +145,46 @@ Item {
 		}
 
 		LandedTitleFlag {
-			id: de_facto_kingdom_flag
-			landed_title: world && world.kingdom && world.kingdom !== world.de_jure_kingdom ? world.kingdom : null
-			anchors.right: kingdom_flag_separator.left
+			id: de_facto_interstellar_empire_flag
+			landed_title: world && world.interstellar_empire && world.interstellar_empire !== world.de_jure_interstellar_empire ? world.interstellar_empire : null
+			anchors.right: interstellar_empire_flag_separator.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
 		}
 
 		Text {
-			id: kingdom_flag_separator
-			text: world && world.kingdom && world.kingdom !== world.de_jure_kingdom ? "/" : ""
+			id: interstellar_empire_flag_separator
+			text: world && world.interstellar_empire && world.interstellar_empire !== world.de_jure_interstellar_empire ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
-			anchors.right: de_jure_kingdom_flag.left
+			anchors.right: de_jure_interstellar_empire_flag.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
 		}
 
 		LandedTitleFlag {
-			id: de_jure_kingdom_flag
-			landed_title: world && world.de_jure_kingdom ? world.de_jure_kingdom : null
+			id: de_jure_interstellar_empire_flag
+			landed_title: world && world.de_jure_interstellar_empire ? world.de_jure_interstellar_empire : null
 			anchors.right: parent.right
 			anchors.verticalCenter: parent.verticalCenter
 		}
 	}
 
 	Item {
-		id: duchy_area
+		id: star_empire_area
 		visible: world !== null && mode !== ProvinceInterface.Mode.Wildlife
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: kingdom_area.bottom
+		anchors.top: interstellar_empire_area.bottom
 		anchors.topMargin: 20
 
 		Text {
-			id: de_jure_duchy_label
-			text: qsTr("Duchy")
+			id: de_jure_star_empire_label
+			text: qsTr("Star Empire")
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
@@ -193,28 +193,28 @@ Item {
 		}
 
 		LandedTitleFlag {
-			id: de_facto_duchy_flag
-			landed_title: world && world.duchy && world.duchy !== world.de_jure_duchy ? world.duchy : null
-			anchors.right: duchy_flag_separator.left
+			id: de_facto_star_empire_flag
+			landed_title: world && world.star_empire && world.star_empire !== world.de_jure_star_empire ? world.star_empire : null
+			anchors.right: star_empire_flag_separator.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
 		}
 
 		Text {
-			id: duchy_flag_separator
-			text: world && world.duchy && world.duchy !== world.de_jure_duchy ? "/" : ""
+			id: star_empire_flag_separator
+			text: world && world.star_empire && world.star_empire !== world.de_jure_star_empire ? "/" : ""
 			color: "black"
 			font.pixelSize: 12
 			font.family: "tahoma"
 			font.bold: true
-			anchors.right: de_jure_duchy_flag.left
+			anchors.right: de_jure_star_empire_flag.left
 			anchors.rightMargin: 4
 			anchors.verticalCenter: parent.verticalCenter
 		}
 
 		LandedTitleFlag {
-			id: de_jure_duchy_flag
-			landed_title: world && world.de_jure_duchy ? world.de_jure_duchy : null
+			id: de_jure_star_empire_flag
+			landed_title: world && world.de_jure_star_empire ? world.de_jure_star_empire : null
 			anchors.right: parent.right
 			anchors.verticalCenter: parent.verticalCenter
 		}
@@ -228,7 +228,7 @@ Item {
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		anchors.top: duchy_area.bottom
+		anchors.top: star_empire_area.bottom
 		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
 
 		Text {

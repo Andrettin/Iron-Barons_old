@@ -9,7 +9,7 @@ Node {
 
 	Repeater3D { //star system territories
 //		model: metternich.star_systems
-		model: metternich.cosmic_duchies //using all star systems is consuming too much memory due to the 2D shape texture
+		model: metternich.star_empires //using all star systems is consuming too much memory due to the 2D shape texture
 
 		Model {
 			//property var system: model.modelData
@@ -136,24 +136,6 @@ Node {
 			+ "<br>Type: " + world.type.name
 			+ "<br>Astrocoordinate: (" + Math.round(world.cosmic_map_pos.x) + ", " + Math.round(world.cosmic_map_pos.y) + ")"
 
-			function get_color(world_type) {
-				if (world_type === "blue_giant_star" || world_type === "blue_dwarf_star") {
-					return "blue"
-				} else if (world_type === "class_a_giant_star" || world_type === "class_a_dwarf_star" || world_type === "blue_white_giant_star" || world_type === "blue_white_dwarf_star") {
-					return "lightblue"
-				} else if (world_type === "orange_giant_star" || world_type === "orange_dwarf_star") {
-					return "orange"
-				} else if (world_type === "red_giant_star" || world_type === "red_dwarf_star") {
-					return "orange"
-				} else if (world_type === "yellow_giant_star" || world_type === "yellow_dwarf_star") {
-					return "yellow"
-				} else if (world_type === "yellow_white_giant_star" || world_type === "yellow_white_dwarf_star") {
-					return "lightyellow"
-				}
-
-				return "white"
-			}
-
 			function get_tooltip_x() {
 				return map_view.get_view_pos(position).x
 			}
@@ -179,8 +161,7 @@ Node {
 
 			materials: [
 				DefaultMaterial {
-					diffuseColor: get_color(world.type.identifier)
-					diffuseMap: world.star ? null : world_texture
+					diffuseMap: world_texture
 				}
 			]
 
