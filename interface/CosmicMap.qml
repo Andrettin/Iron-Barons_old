@@ -9,7 +9,7 @@ Node {
 
 	Repeater3D { //star system territories
 //		model: metternich.star_systems
-		model: metternich.star_empires //using all star systems is consuming too much memory due to the 2D shape texture
+		model: metternich.cosmic_duchies //using all star systems is consuming too much memory due to the 2D shape texture
 
 		Model {
 			//property var system: model.modelData
@@ -149,7 +149,11 @@ Node {
 			}
 
 			function click() {
-				game_view.selected_world = world
+				if (world.selectable) {
+					game_view.selected_world = world
+				} else {
+					game_view.selected_world = null
+				}
 			}
 
 			position: Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, 0)

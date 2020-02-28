@@ -38,7 +38,7 @@ Item {
 			var center_coordinate
 			var map_center
 
-			if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province.world === world) {
+			if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province && metternich.game.player_character.primary_title.capital_province.world === world) {
 				center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
 				map_center = world.coordinate_to_point(center_coordinate)
 				this.x = (game_view.width / 2) - map_center.x
@@ -58,6 +58,7 @@ Item {
 	MapView {
 		id: map_view
 		anchors.fill: game_view
+		visible: cosmic_map_enabled
 
 		importScene: cosmic_map_enabled ? cosmic_map : null
 	}
