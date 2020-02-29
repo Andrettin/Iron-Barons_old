@@ -148,6 +148,7 @@ Item {
 
 			MouseArea {
 				anchors.fill: parent
+				hoverEnabled: true
 				onClicked: {
 					if (metternich.game.player_character !== null) {
 						metternich.selected_character = metternich.game.player_character
@@ -166,6 +167,11 @@ Item {
 
 		PanelBackground {
 			anchors.fill: parent
+		}
+
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true //prevent mouse events from propagating below
 		}
 
 		Item {
@@ -234,6 +240,11 @@ Item {
 
 		PanelBackground {
 			anchors.fill: parent
+		}
+
+		MouseArea {
+			anchors.fill: parent
+			hoverEnabled: true //prevent mouse events from propagating below
 		}
 
 		Text {

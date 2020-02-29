@@ -125,6 +125,9 @@ View3D {
 
 		anchors.fill: map_view
 		hoverEnabled: true
+		onEntered: {
+			tooltip_timer.restart()
+		}
 		onPositionChanged: {
 			on_mouse_pos_changed(mouse.x, mouse.y)
 		}

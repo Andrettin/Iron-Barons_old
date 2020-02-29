@@ -156,6 +156,25 @@ Node {
 				}
 			}
 
+			function get_color(world_type) {
+				if (world_type === "blue_giant_star" || world_type === "blue_dwarf_star") {
+					return "blue"
+				} else if (world_type === "class_a_giant_star" || world_type === "class_a_dwarf_star" || world_type === "blue_white_giant_star" || world_type === "blue_white_dwarf_star") {
+					return "lightblue"
+				} else if (world_type === "orange_giant_star" || world_type === "orange_dwarf_star") {
+					return "orange"
+				} else if (world_type === "red_giant_star" || world_type === "red_dwarf_star") {
+					return "orange"
+				} else if (world_type === "yellow_giant_star" || world_type === "yellow_dwarf_star") {
+					return "yellow"
+				} else if (world_type === "yellow_white_giant_star" || world_type === "yellow_white_dwarf_star") {
+					return "lightyellow"
+				}
+
+				return "white"
+			}
+
+
 			position: Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, 0)
 			scale: Qt.vector3d(world.cosmic_size / 100.0, world.cosmic_size / 100.0, world.cosmic_size / 100.0) //the pixel size of the sphere model is by default c. 100x100
 			rotation: Qt.vector3d(-45, Math.random(360), world.orbit_center ? 24 * world.orbit_position.x * -1 : 0)
@@ -165,7 +184,8 @@ Node {
 
 			materials: [
 				DefaultMaterial {
-					diffuseMap: world_texture
+					diffuseColor: get_color(world.type.identifier)
+					diffuseMap: world.star ? null : world_texture
 				}
 			]
 
