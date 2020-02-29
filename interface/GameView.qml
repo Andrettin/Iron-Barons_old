@@ -8,6 +8,7 @@ Item {
 
 	property bool cosmic_map_enabled: false
 	property var selected_world: null
+	property var territory_interface: province_interface.visible ? province_interface : (world_interface.visible ? world_interface : null)
 
 	anchors.fill: parent
 	Keys.forwardTo: key_handler
@@ -283,13 +284,13 @@ Item {
 		anchors.top: province_interface.top
 		anchors.topMargin: province_interface.holding_area_y + 8
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.settlement_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
+		visible: territory_interface && territory_interface.territory && metternich.selected_holding === null && territory_interface.territory.settlement_holding_slots.length > 0 && (territory_interface.territory.owner || metternich.game.player_character !== null)
 		source: "../graphics/icons/settlement.png"
 		ToolTip.text: tooltip("Settlements")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
 		onClicked: {
-			province_interface.mode = ProvinceInterface.Mode.Settlements
+			territory_interface.mode = TerritoryInterface.Mode.Settlements
 		}
 	}
 
@@ -297,13 +298,13 @@ Item {
 		id: palace_holdings_button
 		anchors.top: settlement_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null && metternich.selected_province.palace_holding_slots.length > 0 && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
+		visible: territory_interface && territory_interface.territory && metternich.selected_holding === null && territory_interface.territory.palace_holding_slots.length > 0 && (territory_interface.territory.owner !== null || metternich.game.player_character !== null)
 		source: "../graphics/icons/items/crown_baronial.png"
 		ToolTip.text: tooltip("Palaces")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
 		onClicked: {
-			province_interface.mode = ProvinceInterface.Mode.Palaces
+			territory_interface.mode = TerritoryInterface.Mode.Palaces
 		}
 	}
 
@@ -311,13 +312,13 @@ Item {
 		id: extra_holdings_button
 		anchors.top: palace_holdings_button.visible ? palace_holdings_button.bottom : settlement_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
+		visible: territory_interface && territory_interface.territory && metternich.selected_holding === null && (territory_interface.territory.owner !== null || metternich.game.player_character !== null)
 		source: "../graphics/icons/buildings/wall.png"
 		ToolTip.text: tooltip("Other")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
 		onClicked: {
-			province_interface.mode = ProvinceInterface.Mode.Other
+			territory_interface.mode = TerritoryInterface.Mode.Other
 		}
 	}
 
@@ -331,7 +332,7 @@ Item {
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
 		onClicked: {
-			province_interface.mode = ProvinceInterface.Mode.Technologies
+			province_interface.mode = TerritoryInterface.Mode.Technologies
 		}
 	}
 
@@ -346,7 +347,7 @@ Item {
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
 		onClicked: {
-			province_interface.mode = ProvinceInterface.Mode.Wildlife
+			province_interface.mode = TerritoryInterface.Mode.Wildlife
 		}
 	}
 

@@ -1,270 +1,19 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.5
 
-Item {
-	id: province_interface
-	width: 306
-	height: 576
-	
+TerritoryInterface {
 	property var province: null
-
-	enum Mode {
-		Settlements,
-		Palaces,
-		Other,
-		Technologies,
-		Wildlife
-	}
-
-	property real holding_area_y: holding_area.y
-	property int mode: ProvinceInterface.Mode.Settlements
-
-	PanelBackground {
-		anchors.fill: parent
-	}
-
-	MouseArea {
-		anchors.fill: parent
-		hoverEnabled: true
-		//prevent events from propagating below
-	}
-
-	Text {
-		id: province_name
-		text: province ? province.name : ""
-		anchors.top: parent.top
-		anchors.topMargin: 16
-		anchors.horizontalCenter: parent.horizontalCenter
-		color: "black"
-		font.pixelSize: 14
-		font.family: "tahoma"
-		font.bold: true
-	}
-
-	Holding {
-		id: capital_holding
-		anchors.top: parent.top
-		anchors.topMargin: 48
-		anchors.horizontalCenter: parent.horizontalCenter
-		holding_slot: province && province.capital_holding_slot ? province.capital_holding_slot : null
-		imageWidth: 128
-		imageHeight: 128
-		visible: mode !== ProvinceInterface.Mode.Wildlife
-	}
-
-	PopulationTypeChart {
-		id: population_type_chart
-		anchors.top: capital_holding.bottom
-		anchors.topMargin: 4
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
-		dataSource: province
-	}
-
-	CultureChart {
-		id: culture_chart
-		anchors.top: capital_holding.bottom
-		anchors.topMargin: 4
-		anchors.horizontalCenter: parent.horizontalCenter
-		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
-		dataSource: province
-	}
-
-	ReligionChart {
-		id: religion_chart
-		anchors.top: capital_holding.bottom
-		anchors.topMargin: 4
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
-		dataSource: province
-	}
-
-	Item {
-		id: empire_area
-		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: culture_chart.bottom
-		anchors.topMargin: 16
-
-		Text {
-			id: de_jure_empire_label
-			text: qsTr("Empire")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		LandedTitleFlag {
-			id: de_facto_empire_flag
-			landed_title: province && province.empire && province.empire !== province.de_jure_empire ? province.empire : null
-			anchors.right: empire_flag_separator.left
-			anchors.rightMargin: 4
-			anchors.verticalCenter: parent.verticalCenter
-		}
-
-		Text {
-			id: empire_flag_separator
-			text: province && province.empire && province.empire !== province.de_jure_empire ? "/" : ""
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-			anchors.right: de_jure_empire_flag.left
-			anchors.rightMargin: 4
-			anchors.verticalCenter: parent.verticalCenter
-		}
-
-		LandedTitleFlag {
-			id: de_jure_empire_flag
-			landed_title: province && province.de_jure_empire ? province.de_jure_empire : null
-			anchors.right: parent.right
-			anchors.verticalCenter: parent.verticalCenter
-		}
-	}
-
-	Item {
-		id: kingdom_area
-		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: empire_area.bottom
-		anchors.topMargin: 20
-
-		Text {
-			id: de_jure_kingdom_label
-			text: qsTr("Kingdom")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		LandedTitleFlag {
-			id: de_facto_kingdom_flag
-			landed_title: province && province.kingdom && province.kingdom !== province.de_jure_kingdom ? province.kingdom : null
-			anchors.right: kingdom_flag_separator.left
-			anchors.rightMargin: 4
-			anchors.verticalCenter: parent.verticalCenter
-		}
-
-		Text {
-			id: kingdom_flag_separator
-			text: province && province.kingdom && province.kingdom !== province.de_jure_kingdom ? "/" : ""
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-			anchors.right: de_jure_kingdom_flag.left
-			anchors.rightMargin: 4
-			anchors.verticalCenter: parent.verticalCenter
-		}
-
-		LandedTitleFlag {
-			id: de_jure_kingdom_flag
-			landed_title: province && province.de_jure_kingdom ? province.de_jure_kingdom : null
-			anchors.right: parent.right
-			anchors.verticalCenter: parent.verticalCenter
-		}
-	}
-
-	Item {
-		id: duchy_area
-		visible: province !== null && mode !== ProvinceInterface.Mode.Wildlife
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: kingdom_area.bottom
-		anchors.topMargin: 20
-
-		Text {
-			id: de_jure_duchy_label
-			text: qsTr("Duchy")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		LandedTitleFlag {
-			id: de_facto_duchy_flag
-			landed_title: province && province.duchy && province.duchy !== province.de_jure_duchy ? province.duchy : null
-			anchors.right: duchy_flag_separator.left
-			anchors.rightMargin: 4
-			anchors.verticalCenter: parent.verticalCenter
-		}
-
-		Text {
-			id: duchy_flag_separator
-			text: province && province.duchy && province.duchy !== province.de_jure_duchy ? "/" : ""
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-			anchors.right: de_jure_duchy_flag.left
-			anchors.rightMargin: 4
-			anchors.verticalCenter: parent.verticalCenter
-		}
-
-		LandedTitleFlag {
-			id: de_jure_duchy_flag
-			landed_title: province && province.de_jure_duchy ? province.de_jure_duchy : null
-			anchors.right: parent.right
-			anchors.verticalCenter: parent.verticalCenter
-		}
-	}
-
-	Item {
-		id: population_area
-		anchors.topMargin: 20
-		anchors.left: parent.left
-		anchors.leftMargin: 32
-		anchors.right: parent.right
-		anchors.rightMargin: 32
-		anchors.top: duchy_area.bottom
-		visible: province !== null && province.settlement_holdings.length > 0 && mode !== ProvinceInterface.Mode.Wildlife
-
-		Text {
-			id: population_label
-			text: qsTr("Population")
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.left: parent.left
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-		}
-
-		Text {
-			id: province_population
-			text: province ? number_str(province.population) : ""
-			anchors.verticalCenter: parent.verticalCenter
-			anchors.right: parent.right
-			color: "black"
-			font.pixelSize: 12
-			font.family: "tahoma"
-			font.bold: true
-		}
-	}
+	territory: province
 
 	Item {
 		id: terrain_area
-		anchors.top: mode !== ProvinceInterface.Mode.Wildlife ? population_area.bottom : parent.top
-		anchors.topMargin: mode !== ProvinceInterface.Mode.Wildlife ? 20 : 64
+		anchors.top: mode !== TerritoryInterface.Mode.Wildlife ? population_area.bottom : parent.top
+		anchors.topMargin: mode !== TerritoryInterface.Mode.Wildlife ? 20 : 64
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
+		visible: metternich.selected_holding === null
 
 		Text {
 			id: terrain_label
@@ -356,38 +105,6 @@ Item {
 	}
 	*/
 
-	Item {
-		id: holding_area
-		anchors.left: parent.left
-		anchors.leftMargin: 8
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8
-		width: 290
-		height: 193
-		visible: mode !== ProvinceInterface.Mode.Wildlife && mode !== ProvinceInterface.Mode.Technologies
-
-		HoldingGrid {
-			id: settlement_holding_grid
-			anchors.fill: parent
-			visible: mode === ProvinceInterface.Mode.Settlements
-			holding_model: province ? province.settlement_holding_slots : []
-		}
-
-		HoldingGrid {
-			id: palace_holding_grid
-			anchors.fill: parent
-			visible: mode === ProvinceInterface.Mode.Palaces
-			holding_model: province ? province.palace_holding_slots : []
-		}
-
-		HoldingGrid {
-			id: extra_holding_grid
-			anchors.fill: parent
-			visible: mode === ProvinceInterface.Mode.Other
-			holding_model: province ? (province.trading_post_holding_slot ? [province.fort_holding_slot, province.university_holding_slot, province.hospital_holding_slot, province.trading_post_holding_slot, province.factory_holding_slot] : [province.fort_holding_slot, province.university_holding_slot, province.hospital_holding_slot, province.factory_holding_slot]) : []
-		}
-	}
-
 	Flickable {
 		id: technology_area
 		anchors.left: parent.left
@@ -404,7 +121,7 @@ Item {
 		interactive: false
 		boundsBehavior: Flickable.StopAtBounds
 		ScrollBar.vertical: ScrollBar {}
-		visible: mode === ProvinceInterface.Mode.Technologies
+		visible: mode === TerritoryInterface.Mode.Technologies && metternich.selected_holding === null
 
 		Grid {
 			id: technology_grid
@@ -442,10 +159,6 @@ Item {
 		anchors.topMargin: 24
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
-		visible: mode === ProvinceInterface.Mode.Wildlife
-	}
-
-	HoldingInterface {
-		visible: metternich.selected_holding !== null
+		visible: mode === TerritoryInterface.Mode.Wildlife && metternich.selected_holding === null
 	}
 }
