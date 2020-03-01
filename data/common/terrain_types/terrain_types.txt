@@ -1,7 +1,7 @@
 desert = {
 	color = { 255 255 0 }
 	
-	modifier = {
+	holding_modifier = {
 		population_capacity = 25000
 	}
 }
@@ -9,7 +9,7 @@ desert = {
 forest = {
 	color = { 0 128 0 }
 	
-	modifier = {
+	holding_modifier = {
 		population_capacity = 80000
 	}
 }
@@ -17,7 +17,7 @@ forest = {
 hills = {
 	color = { 128 128 64 }
 	
-	modifier = {
+	holding_modifier = {
 		population_capacity = 80000
 	}
 }
@@ -46,7 +46,7 @@ minor_river = {
 mountains = {
 	color = { 128 128 128 }
 	
-	modifier = {
+	holding_modifier = {
 		population_capacity = 50000
 	}
 }
@@ -62,13 +62,13 @@ plains = {
 	color = { 128 128 0 }
 	default_terrain = true
 	
-	modifier = {
+	holding_modifier = {
 		population_capacity = 100000
 	}
 }
 
 steppe = {
-	modifier = {
+	holding_modifier = {
 		population_capacity = 80000
 	}
 }
@@ -76,7 +76,7 @@ steppe = {
 swamp = {
 	color = { 192 64 64 }
 	
-	modifier = {
+	holding_modifier = {
 		population_capacity = 80000
 	}
 }
