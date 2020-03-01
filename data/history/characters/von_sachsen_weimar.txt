@@ -142,7 +142,7 @@
 		spouse = 10000243 #married on 1842.10.8 to Sophie, daughter of King Willem II of the Netherlands
 	}
 	1847.1.1 = { #major-general in the service of Saxe-Weimar, of Prussia and of Russia, chief of the imperial Russian regiment of the hussars of Ingria, as well as the royal Prussian regiment of the 8th cuirassiers, as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000236 #Karl Friedrich von Sachsen-Weimar-Eisenach
 		#effect = {
 		#	make_commander_effect = yes
@@ -180,7 +180,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #lieutenant in the 1st grenadiers regiment of the British guard as of 1847
-		traits += heavy_infantry_leader
+		#traits += heavy_infantry_leader
 		employer = 10000113 #Queen Victoria I of the United Kingdom of Great Britain and Ireland
 		#effect = {
 		#	make_commander_effect = yes
@@ -203,7 +203,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #lieutenant of the gardes-du-corps at the service of the kingdom of Wurtemberg
-		traits += heavy_infantry_leader
+		#traits += heavy_infantry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes

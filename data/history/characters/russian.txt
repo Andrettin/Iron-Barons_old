@@ -24,7 +24,7 @@
 		spouse = 10000175 #married on 1796.2.26 to Juliane von Sachsen-Saalfeld-Coburg
 	}
 	1820.4.1 = {
-		remove_spouse = 10000175 #divorced on 1820.4.1
+		#remove_spouse = 10000175 #divorced on 1820.4.1
 	}
 	1831.6.27 = {
 		death = yes

@@ -228,7 +228,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #fieldmarshal, commander-in-chief and proprietary of the 3rd hussars regiment, as well as of the imperial Russian hussars regiment of Isum., as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -281,7 +281,7 @@
 		spouse = 10000043 #Princess Maria Dorothée Wilhelmina of Wurtemberg
 	}
 	1847.1.1 = { #field marshal-general and proprietary of the 2nd and 12th hussars regiments as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -305,7 +305,7 @@
 	}
 	1847.1.1 = { #was fieldmarshal and general director of engineering and fortifications, as well as proprietary of the 1st regiment of dragoons and the 16th Prussian regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 		traits += architect #engineer
-		traits += siege_leader
+		#traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -354,7 +354,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #fieldmarshal and general-director of artillery, and proprietary of the 8th infantry regiment as of 1847
-		traits += siege_leader
+		#traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -542,7 +542,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #FMLieut. and commander of the division in Prague, proprietary of the 51st imperial and royal infantry regiment, as well as the Russian ulans regiment of Belgorod as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -604,7 +604,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #colonel and proprietary of the 53rd infantry regiment, and colonel of the dragoons of the regiment "King of Bavaria" as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -627,7 +627,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #proprietary of the 48th infantry regiment and colonel of the hussars regiment "King of Sardinia", number 5, as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -758,7 +758,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #colonel and proprietary of the 3rd dragoons regiment as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes

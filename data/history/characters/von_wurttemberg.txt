@@ -181,7 +181,7 @@
 		spouse = 10000282 #remarried on 1827.9.11 to princess Helena von Hohenlohe-Langenburg
 	}
 	1847.1.1 = { #infantry general in the service of Russia and chief of a grenadiers regiment as of 1847
-		traits += heavy_infantry_leader
+		#traits += heavy_infantry_leader
 		employer = 10000262 #Emperor Nicolas I of Russia
 		#effect = {
 		#	make_commander_effect = yes
@@ -239,7 +239,7 @@
 		spouse = 10000296 #married on 1827.4.17 to Sophie von Thurn und Taxis
 	}
 	1847.1.1 = { #cavalry major-general in service of Württemberg as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
@@ -476,7 +476,7 @@
 		spouse = 10000258 #married on 1845.11.20 to Catherine von Württemberg
 	}
 	1847.1.1 = { #lieutenant-general in the service of Wurtemberg and chief of an uhlans regiment in the service of Russia as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
@@ -523,7 +523,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #major-general in the service of Prussia and commander of a cavalry brigade of the guard as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000010 #Friedrich Wilhelm IV of Prussia
 		#effect = {
 		#	make_commander_effect = yes
@@ -618,7 +618,7 @@
 		spouse = 10000287 #married on 1843.7.15 to princess Mathilde Auguste, daughter of reigning prince Georg of Schaumburg-Lippe
 	}
 	1847.1.1 = { #cavalry captain in service of Prussia as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000010 #Friedrich Wilhelm IV of Prussia
 		#effect = {
 		#	make_commander_effect = yes
@@ -808,7 +808,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #had the style of countess of Hohenstein as of 1847
-		add_claim = c_hohenstein
+		#add_claim = c_hohenstein
 	}
 	1896.1.1 = { #unknown, set to 60 years after birth
 		death = yes
@@ -874,7 +874,7 @@
 		birth = yes
 	}
 	1847.1.1 = { #had the style of countess of Hohenstein as of 1847
-		add_claim = c_hohenstein
+		#add_claim = c_hohenstein
 	}
 	1898.1.1 = { #unknown, set to 60 years after birth
 		death = yes

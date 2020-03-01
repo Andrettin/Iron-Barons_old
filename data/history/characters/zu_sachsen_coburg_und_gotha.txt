@@ -85,7 +85,7 @@
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
 	1847.1.1 = { #cavalry general and proprietary of the 8th hussars regiment in the service of Austria as of 1847
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
@@ -158,7 +158,7 @@
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
 	1836.1.1 = {
-		add_matrilineal_spouse = 10000184 #married by procuration on 1836.1.1 and in person on 1836.4.9 to Queen Maria II de Bragança of Portugal
+		#add_matrilineal_spouse = 10000184 #married by procuration on 1836.1.1 and in person on 1836.4.9 to Queen Maria II de Bragança of Portugal
 	}
 	#king consort of Portugal as of 1847
 	1876.1.1 = { #unknown, set to 60 years after birth
@@ -272,7 +272,7 @@
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
 	1847.1.1 = { #cavalry captain in the service of Austria as of 1847, 1st regiment of ulans Count Civalart
-		traits += cavalry_leader
+		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
