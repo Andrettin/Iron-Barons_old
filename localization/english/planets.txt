@@ -1,0 +1,7 @@
+jupiter = "Jupiter"
+mars = "Mars"
+mercury = "Mercury"
+neptune = "Neptune"
+saturn = "Saturn"
+uranus = "Uranus"
+venus = "Venus"

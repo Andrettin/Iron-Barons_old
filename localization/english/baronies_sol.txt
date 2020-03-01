@@ -1,0 +1,4 @@
+b_london_megalopolis = "London"
+b_rio_de_janeiro_megalopolis = "Rio de Janeiro"
+b_vienna_megalopolis = "Vienna"
+b_vienna_megalopolis_german = "Wien"

@@ -31,6 +31,7 @@ p_ceara = {
 p_espirito_santo = {
 	county = c_espirito_santo
 	color = { 60 226 224 }
+	megalopolis = h_rio_de_janeiro_megalopolis
 
 	h_espirito_santo = {
 		barony = b_espirito_santo
@@ -57,6 +58,7 @@ p_mato_grosso_do_sul = {
 p_minas_gerais = {
 	county = c_minas_gerais
 	color = { 117 233 106 }
+	megalopolis = h_rio_de_janeiro_megalopolis
 
 	h_ouro_preto = {
 		barony = b_ouro_preto
@@ -93,6 +95,7 @@ p_piaui = {
 p_rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
+	megalopolis = h_rio_de_janeiro_megalopolis
 
 	h_rio_de_janeiro = {
 		barony = b_rio_de_janeiro

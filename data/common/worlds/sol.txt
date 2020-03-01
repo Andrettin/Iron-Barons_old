@@ -1,0 +1,94 @@
+sun = {
+	star_system = sol
+	type = yellow_dwarf_star
+	astrodistance = 0
+	radius = 695700
+}
+
+mercury = {
+	type = barren_world
+	orbit_center = sun
+	distance_from_orbit_center = 58 #58 million kilometers
+}
+
+venus = {
+	#county = c_venus
+	type = barren_world
+	orbit_center = sun
+	distance_from_orbit_center = 108 #108 million kilometers
+}
+
+earth = {
+	county = c_earth
+	type = continental_world
+	map = true
+	orbit_center = sun
+	distance_from_orbit_center = 150 #150 million kilometers
+	surface_area = 510072000
+	radius = 6371
+	
+	h_vienna_megalopolis = {
+		barony = b_vienna_megalopolis
+		type = settlement
+		terrain = hills
+	}
+	
+	h_london_megalopolis = {
+		barony = b_london_megalopolis
+		type = settlement
+		terrain = plains
+	}
+	
+	h_rio_de_janeiro_megalopolis = {
+		barony = b_rio_de_janeiro_megalopolis
+		type = settlement
+		terrain = plains
+	}
+}
+
+moon = {
+	#county = c_moon
+	type = barren_world
+	orbit_center = earth
+	radius = 1737
+}
+
+mars = {
+	type = barren_world
+	orbit_center = sun
+	distance_from_orbit_center = 230 #230 million kilometers
+}
+
+jupiter = {
+	type = gas_giant
+	orbit_center = sun
+	distance_from_orbit_center = 778 #778 million kilometers
+	radius = 69911
+}
+
+saturn = {
+	type = gas_giant
+	orbit_center = sun
+	distance_from_orbit_center = 1400 #1.4 billion kilometers
+	radius = 58232
+}
+
+titan = {
+	type = barren_world
+	orbit_center = saturn
+	radius = 2574
+}
+
+uranus = {
+	type = ice_giant
+	orbit_center = sun
+	distance_from_orbit_center = 3000 #3 billion kilometers
+	radius = 25362
+}
+
+neptune = {
+	type = ice_giant
+	orbit_center = sun
+	distance_from_orbit_center = 4500 #4.5 billion kilometers
+	radius = 24622
+}

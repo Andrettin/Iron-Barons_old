@@ -1,6 +1,7 @@
 p_dublin = {
 	county = c_dublin
 	color = { 98 64 38 }
+	megalopolis = h_london_megalopolis
 
 	h_dublin = {
 		barony = b_dublin

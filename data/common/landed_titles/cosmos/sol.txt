@@ -1,0 +1,28 @@
+d_sol = {
+	color = { 248 16 56 }
+	flag_tag = d_macedonia
+	capital_world = earth
+}
+
+#c_venus = {
+#	de_jure_liege_title = d_sol
+#	flag_tag = d_west_papua #contains the "morning star", i.e. Venus
+#}
+
+c_earth = {
+	de_jure_liege_title = d_sol
+	
+	b_vienna_megalopolis = {
+	}
+	
+	b_london_megalopolis = {
+	}
+	
+	b_rio_de_janeiro_megalopolis = {
+	}
+}
+
+#c_moon = {
+#	de_jure_liege_title = d_sol
+#	flag_tag = k_laos #contains the moon
+#}

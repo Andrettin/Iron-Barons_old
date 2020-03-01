@@ -1,0 +1,5 @@
+gas_giant = {
+}
+
+ice_giant = {
+}

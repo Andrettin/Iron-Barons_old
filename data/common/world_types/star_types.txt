@@ -1,0 +1,73 @@
+class_a_giant_star = { #Class A, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+class_a_dwarf_star = { #Class A, V
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+blue_white_giant_star = { #Class B, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+blue_white_dwarf_star = { #Class B, V
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+yellow_white_giant_star = { #Class F, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+yellow_white_dwarf_star = { #Class F, V
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+yellow_giant_star = { #Class G, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+yellow_dwarf_star = { #Class G, V
+	star = true
+}
+
+orange_giant_star = { #Class K, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+orange_dwarf_star = { #Class K, V
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+red_giant_star = { #Class M, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+red_dwarf_star = { #Class M, V
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+blue_giant_star = { #Class O, I-IV
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+blue_dwarf_star = { #Class O, V
+	texture_tag = yellow_dwarf_star
+	star = true
+}
+
+brown_dwarf_star = {
+	texture_tag = yellow_dwarf_star
+	star = true
+}

@@ -1,0 +1,3 @@
+sol = {
+	duchy = d_sol
+}

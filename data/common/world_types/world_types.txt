@@ -1,2 +1,18 @@
+barren_world = {
+}
+
 continental_world = {
+}
+
+desert_world = {
+}
+
+ice_world = {
+}
+
+lava_world = {
+	texture_tag = barren_world
+}
+
+ocean_world = {
 }

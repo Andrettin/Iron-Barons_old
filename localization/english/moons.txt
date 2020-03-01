@@ -1,0 +1,2 @@
+moon = "Moon"
+titan = "Titan"

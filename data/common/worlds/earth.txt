@@ -1,6 +1,0 @@
-earth = {
-	type = continental_world
-	map = true
-	surface_area = 510072000
-	radius = 6371
-}

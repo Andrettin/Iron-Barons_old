@@ -1,6 +1,7 @@
 p_carinthia = {
 	county = c_carinthia
 	color = { 132 134 64 }
+	megalopolis = h_vienna_megalopolis
 	
 	h_klagenfurt = {
 		barony = b_klagenfurt
@@ -16,6 +17,7 @@ p_carinthia = {
 p_carniola = {
 	county = c_carniola
 	color = { 88 147 162 }
+	megalopolis = h_vienna_megalopolis
 
 	h_laibach = {
 		barony = b_laibach
@@ -31,6 +33,7 @@ p_carniola = {
 p_east_tyrol = {
 	county = c_east_tyrol
 	color = { 220 99 145 }
+	megalopolis = h_vienna_megalopolis
 
 	h_lienz = {
 		barony = b_lienz
@@ -41,6 +44,7 @@ p_east_tyrol = {
 p_manhartsberg = {
 	county = c_manhartsberg
 	color = { 32 13 27 }
+	megalopolis = h_vienna_megalopolis
 
 	h_krems = {
 		barony = b_krems
@@ -56,6 +60,7 @@ p_manhartsberg = {
 p_muhlviertel = {
 	county = c_muhlviertel
 	color = { 19 44 1 }
+	megalopolis = h_vienna_megalopolis
 
 	h_wildberg = {
 		barony = b_wildberg
@@ -66,6 +71,7 @@ p_muhlviertel = {
 p_salzburg = {
 	county = c_salzburg
 	color = { 148 32 207 }
+	megalopolis = h_vienna_megalopolis
 
 	h_salzburg = {
 		barony = b_salzburg
@@ -81,6 +87,7 @@ p_salzburg = {
 p_south_tyrol = {
 	county = c_south_tyrol
 	color = { 221 235 137 }
+	megalopolis = h_vienna_megalopolis
 
 	h_bozen = {
 		barony = b_bozen
@@ -101,6 +108,7 @@ p_south_tyrol = {
 p_styria = {
 	county = c_styria
 	color = { 203 243 54 }
+	megalopolis = h_vienna_megalopolis
 
 	h_graz = {
 		barony = b_graz
@@ -116,6 +124,7 @@ p_styria = {
 p_traunviertel = {
 	county = c_traunviertel
 	color = { 84 6 1 }
+	megalopolis = h_vienna_megalopolis
 
 	h_linz = {
 		barony = b_linz
@@ -141,6 +150,7 @@ p_traunviertel = {
 p_trentino = {
 	county = c_trentino
 	color = { 123 80 198 }
+	megalopolis = h_vienna_megalopolis
 
 	h_trent = {
 		barony = b_trent
@@ -151,6 +161,7 @@ p_trentino = {
 p_tyrol = {
 	county = c_tyrol
 	color = { 220 13 46 }
+	megalopolis = h_vienna_megalopolis
 
 	h_innsbruck = {
 		barony = b_innsbruck
@@ -166,6 +177,7 @@ p_tyrol = {
 p_upper_styria = {
 	county = c_upper_styria
 	color = { 156 193 110 }
+	megalopolis = h_vienna_megalopolis
 
 	h_cilli = {
 		barony = b_cilli
@@ -181,6 +193,7 @@ p_upper_styria = {
 p_vienna = {
 	county = c_vienna
 	color = { 42 3 128 }
+	megalopolis = h_vienna_megalopolis
 
 	h_vienna = {
 		barony = b_vienna
@@ -221,6 +234,7 @@ p_vienna = {
 p_vorarlberg = {
 	county = c_vorarlberg
 	color = { 214 76 80 }
+	megalopolis = h_vienna_megalopolis
 
 	h_bregenz = {
 		barony = b_bregenz
