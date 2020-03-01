@@ -165,4 +165,11 @@ View3D {
 			y: (mouse_area.hovered_object ? mouse_area.hovered_object.get_tooltip_y() : get_tooltip_y()) - height - 8
 		}
 	}
+
+	Component.onCompleted: {
+		if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_world) {
+			var world = metternich.game.player_character.primary_title.capital_world
+			camera.position = Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, camera.position.z)
+		}
+	}
 }

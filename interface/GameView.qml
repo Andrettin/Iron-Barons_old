@@ -6,7 +6,8 @@ import QtGraphicalEffects 1.12
 Item {
 	id: game_view
 
-	property bool cosmic_map_enabled: false
+	property var current_world: metternich.game.player_character && metternich.game.player_character.capital_province ? metternich.game.player_character.capital_province.world : null
+	property bool cosmic_map_enabled: current_world === null
 	property var selected_world: null
 	property var territory_interface: province_interface.visible ? province_interface : (world_interface.visible ? world_interface : null)
 
@@ -32,15 +33,15 @@ Item {
 
 	WorldMap {
 		id: map_underlay
-		world: metternich.current_world
-		visible: metternich.current_world !== null
+		world: current_world
+		visible: current_world !== null
 
 		Component.onCompleted: {
 			var center_coordinate
 			var map_center
 
-			if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_province && metternich.game.player_character.primary_title.capital_province.world === world) {
-				center_coordinate = metternich.game.player_character.primary_title.capital_province.center_coordinate;
+			if (metternich.game.player_character && metternich.game.player_character.capital_province && metternich.game.player_character.capital_province.world === world) {
+				center_coordinate = metternich.game.player_character.capital_province.center_coordinate;
 				map_center = world.coordinate_to_point(center_coordinate)
 				this.x = (game_view.width / 2) - map_center.x
 				this.y = (game_view.height / 2) - map_center.y
@@ -646,7 +647,5 @@ Item {
 
 	Component.onCompleted: {
 		metternich.paused = false
-		metternich.current_world = null
-		cosmic_map_enabled = true
 	}
 }
