@@ -1,3 +1,4 @@
+atheist = "Atheist"
 catholic = "Catholic"
 jewish = "Jewish"
 orthodox = "Orthodox"
