@@ -110,7 +110,11 @@ Window {
 
 	Connections {
 		target: metternich.game
-		onRunningChanged: start_game()
+		onRunningChanged: {
+			if (metternich.game.running) {
+				start_game()
+			}
+		}
 	}
 
 	Text {

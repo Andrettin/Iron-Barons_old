@@ -10,6 +10,7 @@ Item {
 	property bool cosmic_map_enabled: current_world === null
 	property var selected_world: null
 	property var territory_interface: province_interface.visible ? province_interface : (world_interface.visible ? world_interface : null)
+	property bool running: false
 
 	anchors.fill: parent
 	Keys.forwardTo: key_handler
@@ -647,5 +648,12 @@ Item {
 
 	Component.onCompleted: {
 		metternich.paused = false
+		running = true
+	}
+
+	onCurrent_worldChanged: {
+		if (running) {
+			map_view.center_on_player_character_capital()
+		}
 	}
 }

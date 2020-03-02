@@ -64,6 +64,13 @@ View3D {
 		return Qt.point(viewport_pos.x * map_view.width, viewport_pos.y * map_view.height)
 	}
 
+	function center_on_player_character_capital() {
+		if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_world) {
+			var world = metternich.game.player_character.primary_title.capital_world
+			camera.position = Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, camera.position.z)
+		}
+	}
+
 	environment: SceneEnvironment {
 		backgroundMode: SceneEnvironment.Transparent
 		multisampleAAMode: SceneEnvironment.X4
@@ -167,9 +174,6 @@ View3D {
 	}
 
 	Component.onCompleted: {
-		if (metternich.game.player_character && metternich.game.player_character.primary_title.capital_world) {
-			var world = metternich.game.player_character.primary_title.capital_world
-			camera.position = Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, camera.position.z)
-		}
+		center_on_player_character_capital()
 	}
 }
