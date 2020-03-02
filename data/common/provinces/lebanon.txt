@@ -1,6 +1,7 @@
 p_beqaa = {
 	county = c_beqaa
 	color = { 61 170 163 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_baalbek = {
 		barony = b_baalbek
@@ -11,6 +12,7 @@ p_beqaa = {
 p_mount_lebanon = {
 	county = c_mount_lebanon
 	color = { 171 58 22 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_byblos = {
 		barony = b_byblos
@@ -30,6 +32,7 @@ p_north_lebanon = {
 p_south_lebanon = {
 	county = c_south_lebanon
 	color = { 188 153 20 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_tyre = {
 		barony = b_tyre

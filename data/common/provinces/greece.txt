@@ -1,6 +1,7 @@
 p_achaea = {
 	county = c_achaea
 	color = { 200 98 198 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_patras = {
 		barony = b_patras
@@ -11,6 +12,7 @@ p_achaea = {
 p_adrianople = {
 	county = c_adrianople
 	color = { 250 138 142 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_adrianople = {
 		barony = b_adrianople
@@ -21,6 +23,7 @@ p_adrianople = {
 p_aetolia = {
 	county = c_aetolia
 	color = { 58 70 114 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_missolonghi = {
 		barony = b_missolonghi
@@ -31,6 +34,7 @@ p_aetolia = {
 p_arcadia = {
 	county = c_arcadia
 	color = { 50 188 139 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_tripolitza = {
 		barony = b_tripolitza
@@ -41,6 +45,7 @@ p_arcadia = {
 p_argolis = {
 	county = c_argolis
 	color = { 95 42 16 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_mycenae = {
 		barony = b_mycenae
@@ -66,6 +71,7 @@ p_argolis = {
 p_attica = {
 	county = c_attica
 	color = { 103 37 25 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_athens = {
 		barony = b_athens
@@ -86,6 +92,7 @@ p_attica = {
 p_boeotia = {
 	county = c_boeotia
 	color = { 247 195 139 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_orchomenus = {
 		barony = b_orchomenus
@@ -111,6 +118,7 @@ p_boeotia = {
 p_byzantium = {
 	county = c_byzantium
 	color = { 149 72 188 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_byzantium = {
 		barony = b_byzantium
@@ -126,6 +134,7 @@ p_byzantium = {
 p_central_macedonia = {
 	county = c_central_macedonia
 	color = { 141 33 99 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_salonika = {
 		barony = b_salonika
@@ -136,6 +145,7 @@ p_central_macedonia = {
 p_corinth = {
 	county = c_corinth
 	color = { 183 152 176 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_corinth = {
 		barony = b_corinth
@@ -146,6 +156,7 @@ p_corinth = {
 p_crete = {
 	county = c_crete
 	color = { 22 187 73 }
+	megalopolis = h_byzantium_megalopolis
 
 	h_knossos = {
 		barony = b_knossos
@@ -190,6 +201,7 @@ p_cyclades = {
 p_dodecanese = {
 	county = c_dodecanese
 	color = { 126 37 123 }
+	megalopolis = h_byzantium_megalopolis
 
 	h_ialysus = {
 		barony = b_ialysus
@@ -208,6 +220,7 @@ p_elis = {
 p_epirus = {
 	county = c_epirus
 	color = { 156 132 217 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_janina = {
 		barony = b_janina
@@ -240,6 +253,7 @@ p_kirklareli = {
 p_laconia = {
 	county = c_laconia
 	color = { 206 76 97 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_amyclae = {
 		barony = b_amyclae
@@ -260,6 +274,7 @@ p_laconia = {
 p_messenia = {
 	county = c_messenia
 	color = { 46 193 96 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_gerenia = {
 		barony = b_gerenia
@@ -284,6 +299,7 @@ p_north_aegean_islands = {
 p_rodosto = {
 	county = c_rodosto
 	color = { 239 169 234 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_rodosto = {
 		barony = b_rodosto
@@ -299,6 +315,7 @@ p_rodosto = {
 p_thessaly = {
 	county = c_thessaly
 	color = { 52 145 42 }
+	megalopolis = h_byzantium_megalopolis
 
 	h_pagasae = {
 		barony = b_pagasae

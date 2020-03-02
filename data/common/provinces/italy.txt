@@ -9,6 +9,7 @@ p_abruzzo_ultra = {
 p_alessandria = {
 	county = c_alessandria
 	color = { 208 77 100 }
+	megalopolis = h_rome_megalopolis
 
 	h_alessandria = {
 		barony = b_alessandria
@@ -34,6 +35,7 @@ p_alessandria = {
 p_aosta = {
 	county = c_aosta
 	color = { 59 23 63 }
+	megalopolis = h_rome_megalopolis
 
 	h_aosta = {
 		barony = b_aosta
@@ -52,6 +54,7 @@ p_basilicata = {
 p_bergamo = {
 	county = c_bergamo
 	color = { 145 79 248 }
+	megalopolis = h_rome_megalopolis
 
 	h_bergamo = {
 		barony = b_bergamo
@@ -62,6 +65,7 @@ p_bergamo = {
 p_brescia = {
 	county = c_brescia
 	color = { 219 171 104 }
+	megalopolis = h_rome_megalopolis
 
 	h_brescia = {
 		barony = b_brescia
@@ -97,6 +101,7 @@ p_corse_du_sud = {
 p_cremona = {
 	county = c_cremona
 	color = { 121 14 224 }
+	megalopolis = h_rome_megalopolis
 
 	h_cremona = {
 		barony = b_cremona
@@ -107,6 +112,7 @@ p_cremona = {
 p_cuneo = {
 	county = c_cuneo
 	color = { 102 43 22 }
+	megalopolis = h_rome_megalopolis
 
 	h_cuneo = {
 		barony = b_cuneo
@@ -117,6 +123,7 @@ p_cuneo = {
 p_demona = {
 	county = c_demona
 	color = { 108 244 160 }
+	megalopolis = h_rome_megalopolis
 
 	h_catania = {
 		barony = b_catania
@@ -132,6 +139,7 @@ p_demona = {
 p_genoa = {
 	county = c_genoa
 	color = { 251 127 106 }
+	megalopolis = h_rome_megalopolis
 
 	h_genoa = {
 		barony = b_genoa
@@ -146,6 +154,7 @@ p_haute_corse = {
 p_latium = {
 	county = c_latium
 	color = { 57 237 186 }
+	megalopolis = h_rome_megalopolis
 	
 	h_rome = {
 		barony = b_rome
@@ -186,6 +195,7 @@ p_latium = {
 p_lucca = {
 	county = c_lucca
 	color = { 178 242 92 }
+	megalopolis = h_rome_megalopolis
 
 	h_lucca = {
 		barony = b_lucca
@@ -196,6 +206,7 @@ p_lucca = {
 p_mantua = {
 	county = c_mantua
 	color = { 202 165 38 }
+	megalopolis = h_rome_megalopolis
 
 	h_mantua = {
 		barony = b_mantua
@@ -206,6 +217,7 @@ p_mantua = {
 p_mazzara = {
 	county = c_mazzara
 	color = { 64 1 84 }
+	megalopolis = h_rome_megalopolis
 
 	h_palermo = {
 		barony = b_palermo
@@ -216,6 +228,7 @@ p_mazzara = {
 p_milan = {
 	county = c_milan
 	color = { 161 23 165 }
+	megalopolis = h_rome_megalopolis
 
 	h_milan = {
 		barony = b_milan
@@ -241,6 +254,7 @@ p_milan = {
 p_modena = {
 	county = c_modena
 	color = { 231 24 79 }
+	megalopolis = h_rome_megalopolis
 
 	h_modena = {
 		barony = b_modena
@@ -273,6 +287,7 @@ p_noto = {
 p_novara = {
 	county = c_novara
 	color = { 224 71 112 }
+	megalopolis = h_rome_megalopolis
 
 	h_novara = {
 		barony = b_novara
@@ -292,6 +307,7 @@ p_otranto = {
 p_padua = {
 	county = c_padua
 	color = { 128 119 217 }
+	megalopolis = h_rome_megalopolis
 
 	h_padua = {
 		barony = b_padua
@@ -302,6 +318,7 @@ p_padua = {
 p_parma = {
 	county = c_parma
 	color = { 63 152 172 }
+	megalopolis = h_rome_megalopolis
 
 	h_parma = {
 		barony = b_parma
@@ -317,6 +334,7 @@ p_parma = {
 p_principato_citra = {
 	county = c_principato_citra
 	color = { 32 118 209 }
+	megalopolis = h_rome_megalopolis
 
 	h_salerno = {
 		barony = b_salerno
@@ -331,6 +349,7 @@ p_principato_ultra = {
 p_romagna = {
 	county = c_romagna
 	color = { 152 239 120 }
+	megalopolis = h_rome_megalopolis
 	
 	h_bologna = {
 		barony = b_bologna
@@ -355,6 +374,7 @@ p_sassari = {
 p_savoy = {
 	county = c_savoy
 	color = { 144 23 5 }
+	megalopolis = h_paris_megalopolis
 
 	h_chambery = {
 		barony = b_chambery
@@ -370,6 +390,7 @@ p_savoy = {
 p_sondrio = {
 	county = c_sondrio
 	color = { 149 115 170 }
+	megalopolis = h_rome_megalopolis
 
 	h_bormio = {
 		barony = b_bormio
@@ -385,6 +406,7 @@ p_sondrio = {
 p_terra_di_lavoro = {
 	county = c_terra_di_lavoro
 	color = { 236 204 186 }
+	megalopolis = h_rome_megalopolis
 
 	h_naples = {
 		barony = b_naples
@@ -395,6 +417,7 @@ p_terra_di_lavoro = {
 p_treviso = {
 	county = c_treviso
 	color = { 211 125 108 }
+	megalopolis = h_rome_megalopolis
 
 	h_treviso = {
 		barony = b_treviso
@@ -405,6 +428,7 @@ p_treviso = {
 p_turin = {
 	county = c_turin
 	color = { 106 70 203 }
+	megalopolis = h_rome_megalopolis
 
 	h_turin = {
 		barony = b_turin
@@ -415,6 +439,7 @@ p_turin = {
 p_tuscany = {
 	county = c_tuscany
 	color = { 141 86 217 }
+	megalopolis = h_rome_megalopolis
 
 	h_florence = {
 		barony = b_florence
@@ -435,6 +460,7 @@ p_tuscany = {
 p_udine = {
 	county = c_udine
 	color = { 25 136 31 }
+	megalopolis = h_rome_megalopolis
 
 	h_udine = {
 		barony = b_udine
@@ -460,6 +486,7 @@ p_udine = {
 p_venice = {
 	county = c_venice
 	color = { 240 155 38 }
+	megalopolis = h_rome_megalopolis
 
 	h_venice = {
 		barony = b_venice
@@ -470,6 +497,7 @@ p_venice = {
 p_verona = {
 	county = c_verona
 	color = { 73 200 112 }
+	megalopolis = h_rome_megalopolis
 
 	h_verona = {
 		barony = b_verona

@@ -1,6 +1,7 @@
 p_larnaca = {
 	county = c_larnaca
 	color = { 126 62 4 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_citium = {
 		barony = b_citium
@@ -11,6 +12,7 @@ p_larnaca = {
 p_limassol = {
 	county = c_limassol
 	color = { 133 197 45 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_amathus = {
 		barony = b_amathus

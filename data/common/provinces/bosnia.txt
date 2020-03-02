@@ -1,6 +1,7 @@
 p_banja_luka = {
 	county = c_banja_luka
 	color = { 47 135 2 }
+	megalopolis = h_vienna_megalopolis
 
 	h_banja_luka = {
 		barony = b_banja_luka

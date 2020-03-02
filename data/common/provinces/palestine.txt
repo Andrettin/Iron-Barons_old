@@ -1,6 +1,7 @@
 p_hadarom = {
 	county = c_hadarom
 	color = { 188 162 28 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_gaza = {
 		barony = b_gaza
@@ -36,6 +37,7 @@ p_hadarom = {
 p_haifa = {
 	county = c_haifa
 	color = { 40 43 27 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_dor = {
 		barony = b_dor
@@ -46,6 +48,7 @@ p_haifa = {
 p_hamerkaz = {
 	county = c_hamerkaz
 	color = { 80 21 3 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_joppa = {
 		barony = b_joppa
@@ -56,6 +59,7 @@ p_hamerkaz = {
 p_hazafon = {
 	county = c_hazafon
 	color = { 100 58 194 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_megiddo = {
 		barony = b_megiddo
@@ -74,6 +78,7 @@ p_south_sinai = {
 p_west_bank = {
 	county = c_west_bank
 	color = { 34 47 228 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_jerusalem = {
 		barony = b_jerusalem

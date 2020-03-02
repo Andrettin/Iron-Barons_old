@@ -1,6 +1,7 @@
 p_bjelovar = {
 	county = c_bjelovar
 	color = { 52 240 184 }
+	megalopolis = h_vienna_megalopolis
 
 	h_bjelovar = {
 		barony = b_bjelovar
@@ -11,6 +12,7 @@ p_bjelovar = {
 p_brod = {
 	county = c_brod
 	color = { 36 69 218 }
+	megalopolis = h_vienna_megalopolis
 
 	h_brod = {
 		barony = b_brod
@@ -21,6 +23,7 @@ p_brod = {
 p_dalmatia = {
 	county = c_dalmatia
 	color = { 55 112 202 }
+	megalopolis = h_vienna_megalopolis
 
 	h_split = {
 		barony = b_split
@@ -31,6 +34,7 @@ p_dalmatia = {
 p_fiume = {
 	county = c_fiume
 	color = { 69 205 187 }
+	megalopolis = h_vienna_megalopolis
 
 	h_fiume = {
 		barony = b_fiume
@@ -41,6 +45,7 @@ p_fiume = {
 p_gorz = {
 	county = c_gorz
 	color = { 220 100 213 }
+	megalopolis = h_vienna_megalopolis
 
 	h_gorz = {
 		barony = b_gorz
@@ -56,6 +61,7 @@ p_gorz = {
 p_istria = {
 	county = c_istria
 	color = { 57 206 144 }
+	megalopolis = h_vienna_megalopolis
 
 	h_pola = {
 		barony = b_pola
@@ -66,6 +72,7 @@ p_istria = {
 p_karlstadt = {
 	county = c_karlstadt
 	color = { 129 221 154 }
+	megalopolis = h_vienna_megalopolis
 
 	h_karlstadt = {
 		barony = b_karlstadt
@@ -81,6 +88,7 @@ p_karlstadt = {
 p_peterwardein = {
 	county = c_peterwardein
 	color = { 182 222 38 }
+	megalopolis = h_vienna_megalopolis
 
 	h_carlowitz = {
 		barony = b_carlowitz
@@ -101,6 +109,7 @@ p_peterwardein = {
 p_sisak = {
 	county = c_sisak
 	color = { 134 230 230 }
+	megalopolis = h_vienna_megalopolis
 
 	h_sisak = {
 		barony = b_sisak
@@ -111,6 +120,7 @@ p_sisak = {
 p_slavonia = {
 	county = c_slavonia
 	color = { 202 45 184 }
+	megalopolis = h_vienna_megalopolis
 
 	h_esseg = {
 		barony = b_esseg
@@ -126,6 +136,7 @@ p_slavonia = {
 p_trieste = {
 	county = c_trieste
 	color = { 216 196 14 }
+	megalopolis = h_vienna_megalopolis
 
 	h_trieste = {
 		barony = b_trieste
@@ -136,6 +147,7 @@ p_trieste = {
 p_vukovar = {
 	county = c_vukovar
 	color = { 26 208 93 }
+	megalopolis = h_vienna_megalopolis
 
 	h_vukovar = {
 		barony = b_vukovar
@@ -146,6 +158,7 @@ p_vukovar = {
 p_warasdin = {
 	county = c_warasdin
 	color = { 92 91 155 }
+	megalopolis = h_vienna_megalopolis
 
 	h_warasdin = {
 		barony = b_warasdin
@@ -156,6 +169,7 @@ p_warasdin = {
 p_zagreb = {
 	county = c_zagreb
 	color = { 183 217 124 }
+	megalopolis = h_vienna_megalopolis
 
 	h_zagreb = {
 		barony = b_zagreb

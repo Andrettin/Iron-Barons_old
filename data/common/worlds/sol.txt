@@ -39,6 +39,30 @@ earth = {
 		terrain = plains
 	}
 	
+	h_paris_megalopolis = {
+		barony = b_paris_megalopolis
+		type = settlement
+		terrain = plains
+	}
+	
+	h_rome_megalopolis = {
+		barony = b_rome_megalopolis
+		type = settlement
+		terrain = plains
+	}
+	
+	h_byzantium_megalopolis = {
+		barony = b_byzantium_megalopolis
+		type = settlement
+		terrain = plains
+	}
+	
+	h_berlin_megalopolis = {
+		barony = b_berlin_megalopolis
+		type = settlement
+		terrain = plains
+	}
+	
 	h_rio_de_janeiro_megalopolis = {
 		barony = b_rio_de_janeiro_megalopolis
 		type = settlement

@@ -13,6 +13,7 @@ p_as_suwayda = {
 p_damascus = {
 	county = c_damascus
 	color = { 12 190 89 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_damascus = {
 		barony = b_damascus
@@ -31,6 +32,7 @@ p_dayr_az_zawr = {
 p_hamath = {
 	county = c_hamath
 	color = { 23 81 49 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_hamath = {
 		barony = b_hamath
@@ -49,6 +51,7 @@ p_hatay = {
 p_homs = {
 	county = c_homs
 	color = { 182 240 75 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_kadesh = {
 		barony = b_kadesh
@@ -67,6 +70,7 @@ p_lattakia = {
 p_tartus = {
 	county = c_tartus
 	color = { 231 205 88 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_arvad = {
 		barony = b_arvad

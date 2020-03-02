@@ -1,6 +1,7 @@
 p_bromberg = {
 	county = c_bromberg
 	color = { 118 219 109 }
+	megalopolis = h_berlin_megalopolis
 
 	h_bromberg = {
 		barony = b_bromberg
@@ -51,6 +52,7 @@ p_kielce = {
 p_krakow = {
 	county = c_krakow
 	color = { 14 205 65 }
+	megalopolis = h_vienna_megalopolis
 
 	h_krakow = {
 		barony = b_krakow
@@ -61,6 +63,7 @@ p_krakow = {
 p_lemberg = {
 	county = c_lemberg
 	color = { 230 77 156 }
+	megalopolis = h_vienna_megalopolis
 
 	h_lemberg = {
 		barony = b_lemberg
@@ -71,6 +74,7 @@ p_lemberg = {
 p_lesser_poland = {
 	county = c_lesser_poland
 	color = { 242 146 139 }
+	megalopolis = h_vienna_megalopolis
 
 	h_neu_sandec = {
 		barony = b_neu_sandec
@@ -86,6 +90,7 @@ p_lesser_poland = {
 p_lissa = {
 	county = c_lissa
 	color = { 106 144 14 }
+	megalopolis = h_berlin_megalopolis
 
 	h_lissa = {
 		barony = b_lissa
@@ -236,6 +241,7 @@ p_podlasie = {
 p_posen = {
 	county = c_posen
 	color = { 208 23 78 }
+	megalopolis = h_berlin_megalopolis
 
 	h_posen = {
 		barony = b_posen
@@ -301,6 +307,7 @@ p_siedlce = {
 p_stanislawow = {
 	county = c_stanislawow
 	color = { 76 216 95 }
+	megalopolis = h_vienna_megalopolis
 
 	h_stanislawow = {
 		barony = b_stanislawow
@@ -311,6 +318,7 @@ p_stanislawow = {
 p_subcarpathia = {
 	county = c_subcarpathia
 	color = { 218 118 51 }
+	megalopolis = h_vienna_megalopolis
 
 	h_dukla = {
 		barony = b_dukla

@@ -1,6 +1,7 @@
 p_baden = {
 	county = c_baden
 	color = { 218 171 19 }
+	megalopolis = h_berlin_megalopolis
 
 	h_rastatt = {
 		barony = b_rastatt
@@ -31,6 +32,7 @@ p_baden = {
 p_constance = {
 	county = c_constance
 	color = { 216 103 18 }
+	megalopolis = h_berlin_megalopolis
 	
 	h_stockach = {
 		barony = b_stockach
@@ -41,6 +43,7 @@ p_constance = {
 p_heidelberg = {
 	county = c_heidelberg
 	color = { 138 218 23 }
+	megalopolis = h_berlin_megalopolis
 
 	h_heidelberg = {
 		barony = b_heidelberg
@@ -66,6 +69,7 @@ p_heidelberg = {
 p_ravensburg = {
 	county = c_ravensburg
 	color = { 40 108 254 }
+	megalopolis = h_berlin_megalopolis
 	
 	h_ravensburg = {
 		barony = b_ravensburg
@@ -76,6 +80,7 @@ p_ravensburg = {
 p_sigmaringen = {
 	county = c_sigmaringen
 	color = { 238 40 36 }
+	megalopolis = h_berlin_megalopolis
 
 	h_sigmaringen = {
 		barony = b_sigmaringen
@@ -86,6 +91,7 @@ p_sigmaringen = {
 p_sundgau = {
 	county = c_sundgau
 	color = { 20 11 56 }
+	megalopolis = h_berlin_megalopolis
 
 	h_freiburg = {
 		barony = b_freiburg
@@ -111,6 +117,7 @@ p_sundgau = {
 p_wurtemberg = {
 	county = c_wurtemberg
 	color = { 192 202 36 }
+	megalopolis = h_berlin_megalopolis
 
 	h_heilbronn = {
 		barony = b_heilbronn
@@ -141,6 +148,7 @@ p_wurtemberg = {
 p_zollern = {
 	county = c_zollern
 	color = { 79 139 68 }
+	megalopolis = h_berlin_megalopolis
 
 	h_hechingen = {
 		barony = b_hechingen

@@ -5,6 +5,7 @@ p_al_ahmadi = {
 p_al_anbar = {
 	county = c_al_anbar
 	color = { 248 151 149 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_borsippa = {
 		barony = b_borsippa
@@ -23,6 +24,7 @@ p_al_jahrah = {
 p_al_muthannia = {
 	county = c_al_muthannia
 	color = { 83 136 131 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_ur = {
 		barony = b_ur
@@ -33,6 +35,7 @@ p_al_muthannia = {
 p_al_qadisiyyah = {
 	county = c_al_qadisiyyah
 	color = { 134 245 61 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_nippur = {
 		barony = b_nippur
@@ -52,6 +55,7 @@ p_an_najaf = {
 p_arbela = {
 	county = c_arbela
 	color = { 189 105 97 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_arbela = {
 		barony = b_arbela
@@ -70,6 +74,7 @@ p_at_tamim = {
 p_babylon = {
 	county = c_babylon
 	color = { 205 177 154 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_babylon = {
 		barony = b_babylon
@@ -105,6 +110,7 @@ p_babylon = {
 p_dhi_qar = {
 	county = c_dhi_qar
 	color = { 130 33 42 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_lagash = {
 		barony = b_lagash
@@ -129,6 +135,7 @@ p_dihok = {
 p_diyala = {
 	county = c_diyala
 	color = { 161 101 85 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_upi = {
 		barony = b_upi
@@ -143,6 +150,7 @@ p_karbala = {
 p_maysan = {
 	county = c_maysan
 	color = { 150 158 1 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_shinpurla = {
 		barony = b_shinpurla
@@ -157,6 +165,7 @@ p_mosul = {
 p_nineveh = {
 	county = c_nineveh
 	color = { 164 218 46 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_nineveh = {
 		barony = b_nineveh
@@ -167,6 +176,7 @@ p_nineveh = {
 p_sala_ad_din = {
 	county = c_sala_ad_din
 	color = { 170 173 229 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_assur = {
 		barony = b_assur

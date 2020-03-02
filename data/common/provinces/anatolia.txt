@@ -1,6 +1,7 @@
 p_adana = {
 	county = c_adana
 	color = { 164 43 218 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_adana = {
 		barony = b_adana
@@ -31,6 +32,7 @@ p_amasya = {
 p_amida = {
 	county = c_amida
 	color = { 135 78 133 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_amida = {
 		barony = b_amida
@@ -45,6 +47,7 @@ p_ankara = {
 p_antalya = {
 	county = c_antalya
 	color = { 142 125 69 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_antalya = {
 		barony = b_antalya
@@ -63,6 +66,7 @@ p_artvin = {
 p_aydin = {
 	county = c_aydin
 	color = { 72 55 97 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_aydin = {
 		barony = b_aydin
@@ -109,6 +113,7 @@ p_burdur = {
 p_bursa = {
 	county = c_bursa
 	color = { 161 41 169 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_bursa = {
 		barony = b_bursa
@@ -151,6 +156,7 @@ p_eskisehir = {
 p_gaziantep = {
 	county = c_gaziantep
 	color = { 124 145 12 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_carchemish = {
 		barony = b_carchemish
@@ -214,6 +220,7 @@ p_kirsehir = {
 p_kocaeli = {
 	county = c_kocaeli
 	color = { 148 136 53 }
+	megalopolis = h_byzantium_megalopolis
 	
 	h_scutari = {
 		barony = b_scutari
@@ -314,6 +321,7 @@ p_sivas = {
 p_smyrna = {
 	county = c_smyrna
 	color = { 113 174 45 }
+	megalopolis = h_byzantium_megalopolis
 
 	h_smyrna = {
 		barony = b_smyrna
@@ -332,6 +340,7 @@ p_trebizond = {
 p_troad = {
 	county = c_troad
 	color = { 6 65 60 }
+	megalopolis = h_byzantium_megalopolis
 
 	h_troy = {
 		barony = b_troy

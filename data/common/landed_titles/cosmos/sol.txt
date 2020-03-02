@@ -18,6 +18,18 @@ c_earth = {
 	b_london_megalopolis = {
 	}
 	
+	b_paris_megalopolis = {
+	}
+	
+	b_rome_megalopolis = {
+	}
+	
+	b_byzantium_megalopolis = {
+	}
+	
+	b_berlin_megalopolis = {
+	}
+	
 	b_rio_de_janeiro_megalopolis = {
 	}
 }
