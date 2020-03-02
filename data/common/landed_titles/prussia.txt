@@ -1,6 +1,7 @@
 k_prussia = {
 	color = { 0 49 83 }
 	capital_province = p_brandenburg
+	active_post_amalgamation = true
 }
 
 d_east_prussia = {

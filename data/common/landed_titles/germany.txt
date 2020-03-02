@@ -1,6 +1,7 @@
 e_germany = {
 	color = { 56 103 100 }
 	capital_province = p_kassel #Frankfurt
+	active_post_amalgamation = true
 }
 
 k_germany = {

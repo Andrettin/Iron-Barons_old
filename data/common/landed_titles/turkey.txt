@@ -1,4 +1,5 @@
 e_turkey = {
 	color = { 184 208 130 }
 	capital_province = p_byzantium
+	active_post_amalgamation = true
 }

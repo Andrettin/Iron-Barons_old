@@ -1,12 +1,14 @@
 e_france = {
 	color = { 0 0 153 }
 	capital_province = p_ile_de_france
+	active_post_amalgamation = true
 }
 
 k_france = {
 	de_jure_liege_title = e_france
 	color = { 0 0 153 }
 	capital_province = p_ile_de_france
+	active_post_amalgamation = true
 }
 
 d_alsace = {

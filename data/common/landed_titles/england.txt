@@ -1,6 +1,7 @@
 e_britain = {
 	color = { 180 2 6 }
 	capital_province = p_london
+	active_post_amalgamation = true
 }
 
 k_england = {

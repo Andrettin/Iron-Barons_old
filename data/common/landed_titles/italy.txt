@@ -2,6 +2,7 @@ e_italy = {
 	color = { 0 153 0 }
 	capital_province = p_latium
 	flag_tag = k_italy
+	active_post_amalgamation = true
 }
 
 k_italy = {

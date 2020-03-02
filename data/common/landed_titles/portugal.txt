@@ -1,6 +1,7 @@
 k_portugal = {
 	color = { 0 102 0 }
 	capital_province = p_lisbon
+	active_post_amalgamation = true
 }
 
 d_portugal = {

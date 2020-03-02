@@ -1,6 +1,7 @@
 e_austria = {
 	color = { 224 224 224 }
 	capital_province = p_vienna
+	active_post_amalgamation = true
 }
 
 k_austria = { #represents the Kreis of Austria in the HRE, and the post-WW1 republic of Austria
