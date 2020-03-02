@@ -27,7 +27,8 @@ Item {
 					+ (holding.owner ? "<br>Holder: " + holding.owner.titled_name : "")
 					+ (holding.settlement ? "<br>Population: " + number_str(holding.population) : "")
 				: (holding_slot ? holding_slot.name : ""))
-				+ (holding_slot && holding_slot.settlement && holding_slot.holding_size !== 100 ? "<br>Holding Size: " + number_str(holding_slot.holding_size) + "%" : ""))
+				+ (holding_slot && holding_slot.settlement && holding_slot.holding_size !== 100 ? "<br>Holding Size: " + number_str(holding_slot.holding_size) + "%" : "")
+				+ (holding_slot && holding_slot.settlement && holding_slot.megalopolis && holding_slot.terrain ? "<br>Terrain: " + holding_slot.terrain.name : ""))
 			ToolTip.visible: containsMouse
 			ToolTip.delay: 1000
 			onClicked: {
