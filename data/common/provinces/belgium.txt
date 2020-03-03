@@ -1,6 +1,7 @@
 p_antwerp = {
 	county = c_antwerp
 	color = { 106 104 136 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_antwerp = {
 		barony = b_antwerp
@@ -11,6 +12,7 @@ p_antwerp = {
 p_arlon = {
 	county = c_arlon
 	color = { 190 160 229 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_arlon = {
 		barony = b_arlon
@@ -21,6 +23,7 @@ p_arlon = {
 p_brabant = {
 	county = c_brabant
 	color = { 95 134 74 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_brussels = {
 		barony = b_brussels
@@ -36,6 +39,7 @@ p_brabant = {
 p_east_flanders = {
 	county = c_east_flanders
 	color = { 225 168 131 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_ghent = {
 		barony = b_ghent
@@ -46,6 +50,7 @@ p_east_flanders = {
 p_hainaut = {
 	county = c_hainaut
 	color = { 88 133 216 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_mons = {
 		barony = b_mons
@@ -56,6 +61,7 @@ p_hainaut = {
 p_liege = {
 	county = c_liege
 	color = { 127 152 208 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_liege = {
 		barony = b_liege
@@ -66,6 +72,7 @@ p_liege = {
 p_luxembourg = {
 	county = c_luxembourg
 	color = { 217 202 129 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_luxembourg = {
 		barony = b_luxembourg
@@ -76,6 +83,7 @@ p_luxembourg = {
 p_namur = {
 	county = c_namur
 	color = { 89 139 28 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_namur = {
 		barony = b_namur
@@ -86,6 +94,7 @@ p_namur = {
 p_south_limburg = {
 	county = c_south_limburg
 	color = { 153 219 35 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_tongres = {
 		barony = b_tongres
@@ -96,6 +105,7 @@ p_south_limburg = {
 p_west_flanders = {
 	county = c_west_flanders
 	color = { 5 147 48 }
+	megalopolis = h_amsterdam_megalopolis
 
 	h_bruges = {
 		barony = b_bruges

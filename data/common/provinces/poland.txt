@@ -12,6 +12,7 @@ p_bromberg = {
 p_czestochowa = {
 	county = c_czestochowa
 	color = { 233 218 54 }
+	megalopolis = h_moscow_megalopolis
 
 	h_czestochowa = {
 		barony = b_czestochowa
@@ -22,6 +23,7 @@ p_czestochowa = {
 p_kalisz = {
 	county = c_kalisz
 	color = { 209 138 16 }
+	megalopolis = h_moscow_megalopolis
 
 	h_kalisz = {
 		barony = b_kalisz
@@ -32,6 +34,7 @@ p_kalisz = {
 p_kielce = {
 	county = c_kielce
 	color = { 87 224 239 }
+	megalopolis = h_moscow_megalopolis
 
 	h_busk = {
 		barony = b_busk
@@ -111,6 +114,7 @@ p_lissa = {
 p_lodz = {
 	county = c_lodz
 	color = { 60 96 215 }
+	megalopolis = h_moscow_megalopolis
 
 	h_lodz = {
 		barony = b_lodz
@@ -126,6 +130,7 @@ p_lodz = {
 p_lublin = {
 	county = c_lublin
 	color = { 70 135 210 }
+	megalopolis = h_moscow_megalopolis
 
 	h_cholm = {
 		barony = b_cholm
@@ -151,6 +156,7 @@ p_lublin = {
 p_mariampol = {
 	county = c_mariampol
 	color = { 118 165 216 }
+	megalopolis = h_moscow_megalopolis
 
 	h_mariampol = {
 		barony = b_mariampol
@@ -166,6 +172,7 @@ p_mariampol = {
 p_mazovia = {
 	county = c_mazovia
 	color = { 138 57 209 }
+	megalopolis = h_moscow_megalopolis
 
 	h_praga = {
 		barony = b_praga
@@ -191,6 +198,7 @@ p_mazovia = {
 p_plock = {
 	county = c_plock
 	color = { 87 126 41 }
+	megalopolis = h_moscow_megalopolis
 
 	h_modlin = {
 		barony = b_modlin
@@ -221,6 +229,7 @@ p_plock = {
 p_podlasie = {
 	county = c_podlasie
 	color = { 193 119 201 }
+	megalopolis = h_moscow_megalopolis
 
 	h_augustowo = {
 		barony = b_augustowo
@@ -287,6 +296,7 @@ p_posen = {
 p_radom = {
 	county = c_radom
 	color = { 251 166 47 }
+	megalopolis = h_moscow_megalopolis
 
 	h_radom = {
 		barony = b_radom
@@ -297,6 +307,7 @@ p_radom = {
 p_siedlce = {
 	county = c_siedlce
 	color = { 210 245 13 }
+	megalopolis = h_moscow_megalopolis
 
 	h_siedlce = {
 		barony = b_siedlce
@@ -339,6 +350,7 @@ p_subcarpathia = {
 p_wloclawek = {
 	county = c_wloclawek
 	color = { 205 107 32 }
+	megalopolis = h_moscow_megalopolis
 
 	h_osseg = {
 		barony = b_osseg

@@ -1,6 +1,7 @@
 k_netherlands = {
 	color = { 226 64 30 }
 	capital_province = p_north_holland
+	active_post_amalgamation = true
 }
 
 d_limburg = {

@@ -57,8 +57,48 @@ earth = {
 		type = settlement
 	}
 	
+	h_moscow_megalopolis = {
+		barony = b_moscow_megalopolis
+		type = settlement
+	}
+	
+	h_madrid_megalopolis = {
+		barony = b_madrid_megalopolis
+		type = settlement
+	}
+	
+	h_lisbon_megalopolis = {
+		barony = b_lisbon_megalopolis
+		type = settlement
+	}
+	
+	h_amsterdam_megalopolis = {
+		barony = b_amsterdam_megalopolis
+		type = settlement
+	}
+	
+	h_stockholm_megalopolis = {
+		barony = b_stockholm_megalopolis
+		type = settlement
+	}
+	
+	h_new_york_megalopolis = {
+		barony = b_new_york_megalopolis
+		type = settlement
+	}
+	
 	h_rio_de_janeiro_megalopolis = {
 		barony = b_rio_de_janeiro_megalopolis
+		type = settlement
+	}
+	
+	h_teheran_megalopolis = {
+		barony = b_teheran_megalopolis
+		type = settlement
+	}
+	
+	h_cairo_megalopolis = {
+		barony = b_cairo_megalopolis
 		type = settlement
 	}
 }

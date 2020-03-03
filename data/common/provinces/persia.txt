@@ -57,6 +57,7 @@ p_kermanshah = {
 p_khuzestan = {
 	county = c_khuzestan
 	color = { 6 108 112 }
+	megalopolis = h_teheran_megalopolis
 	
 	h_susa = {
 		barony = b_susa

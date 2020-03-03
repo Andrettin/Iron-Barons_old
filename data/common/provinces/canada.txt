@@ -5,6 +5,7 @@ p_alberta = {
 p_amherstburg = {
 	county = c_amherstburg
 	color = { 36 152 137 }
+	megalopolis = h_new_york_megalopolis
 
 	h_amherstburg = {
 		barony = b_amherstburg
@@ -19,6 +20,7 @@ p_british_columbia = {
 p_cape_breton = {
 	county = c_cape_breton
 	color = { 241 182 227 }
+	megalopolis = h_new_york_megalopolis
 
 	h_sydney = {
 		barony = b_sydney
@@ -34,6 +36,7 @@ p_cape_breton = {
 p_halifax = {
 	county = c_halifax
 	color = { 18 146 209 }
+	megalopolis = h_new_york_megalopolis
 
 	h_halifax = {
 		barony = b_halifax

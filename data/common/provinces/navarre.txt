@@ -9,6 +9,7 @@ p_biscay = {
 p_gipuzkoa = {
 	county = c_gipuzkoa
 	color = { 74 189 9 }
+	megalopolis = h_madrid_megalopolis
 
 	h_onate = {
 		barony = b_onate
@@ -19,6 +20,7 @@ p_gipuzkoa = {
 p_navarre = {
 	county = c_navarre
 	color = { 210 197 21 }
+	megalopolis = h_madrid_megalopolis
 
 	h_pamplona = {
 		barony = b_pamplona

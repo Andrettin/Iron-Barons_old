@@ -9,6 +9,7 @@ p_al_fayyum = {
 p_al_gharbiyah = {
 	county = c_al_gharbiyah
 	color = { 109 1 89 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_sais = {
 		barony = b_sais
@@ -43,6 +44,7 @@ p_alexandria = {
 p_ash_sharqiyah = {
 	county = c_ash_sharqiyah
 	color = { 79 93 88 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_tanis = {
 		barony = b_tanis
@@ -61,6 +63,7 @@ p_bani_suwayf = {
 p_cairo = {
 	county = c_cairo
 	color = { 106 2 171 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_heliopolis = {
 		barony = b_heliopolis
@@ -75,6 +78,7 @@ p_damietta = {
 p_giza = {
 	county = c_giza
 	color = { 168 12 141 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_memphis = {
 		barony = b_memphis
@@ -97,6 +101,7 @@ p_north_al_bahr_al_ahmar = {
 p_qina = {
 	county = c_qina
 	color = { 173 61 145 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_thebes_egypt = {
 		barony = b_thebes_egypt
@@ -121,6 +126,7 @@ p_suez = {
 p_suhaj = {
 	county = c_suhaj
 	color = { 192 146 69 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_abydos = {
 		barony = b_abydos
@@ -136,6 +142,7 @@ p_suhaj = {
 p_syene = {
 	county = c_syene
 	color = { 68 115 91 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_syene = {
 		barony = b_syene

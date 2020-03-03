@@ -30,7 +30,31 @@ c_earth = {
 	b_berlin_megalopolis = {
 	}
 	
+	b_moscow_megalopolis = {
+	}
+	
+	b_madrid_megalopolis = {
+	}
+	
+	b_lisbon_megalopolis = {
+	}
+	
+	b_amsterdam_megalopolis = {
+	}
+	
+	b_stockholm_megalopolis = {
+	}
+	
+	b_new_york_megalopolis = {
+	}
+	
 	b_rio_de_janeiro_megalopolis = {
+	}
+	
+	b_teheran_megalopolis = {
+	}
+	
+	b_cairo_megalopolis = {
 	}
 }
 

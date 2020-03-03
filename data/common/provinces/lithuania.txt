@@ -5,6 +5,7 @@ p_alytaus = {
 p_kaunas = {
 	county = c_kaunas
 	color = { 185 126 107 }
+	megalopolis = h_moscow_megalopolis
 
 	h_rossieny = {
 		barony = b_rossieny
@@ -35,6 +36,7 @@ p_utenos = {
 p_vilnius = {
 	county = c_vilnius
 	color = { 131 245 131 }
+	megalopolis = h_moscow_megalopolis
 
 	h_vilnius = {
 		barony = b_vilnius

@@ -1,6 +1,7 @@
 k_egypt = {
 	color = { 224 226 33 }
 	capital_province = p_giza #Memphis
+	active_post_amalgamation = true
 }
 
 d_egypt = {

@@ -49,6 +49,7 @@ p_ostergotland = {
 p_scania = {
 	county = c_scania
 	color = { 226 61 40 }
+	megalopolis = h_stockholm_megalopolis
 
 	h_malmo = {
 		barony = b_malmo
@@ -67,6 +68,7 @@ p_stockholm = {
 p_uppsala = {
 	county = c_uppsala
 	color = { 51 151 198 }
+	megalopolis = h_stockholm_megalopolis
 
 	h_uppsala = {
 		barony = b_uppsala
