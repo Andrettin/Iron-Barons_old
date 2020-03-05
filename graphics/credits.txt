@@ -31,6 +31,7 @@
 /graphics/characters/hair_back_cleric_2.png (by Jinn) (licensed under the CC0)
 /graphics/characters/hair_back_cleric_3.png (by Jinn) (licensed under the CC0)
 /graphics/flags/b_arlon.svg (from the Wikimedia Commons) (in the public domain)
+/graphics/flags/b_bilgoraj.svg (by Mirosław Toton, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/b_chimay.svg (by Nethunter, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/b_cologne.svg (by Jürgen Krause, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/b_dusseldorf.svg (by LH Ddorf, from the Wikimedia Commons) (released to the public domain)
