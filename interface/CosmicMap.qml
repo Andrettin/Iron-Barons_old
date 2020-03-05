@@ -14,12 +14,15 @@ Node {
 		Model {
 			//property var system: model.modelData
 			property var system: model.modelData.star_system
-			property string tooltip_text: system.name + " System<br>"
-			+ (system.ethereal ? "<br>Ethereal" : "")
-			+ "<br>Astrocoordinate: (" + map_view.get_mouse_pos_astrocoordinate_x() + ", " + map_view.get_mouse_pos_astrocoordinate_y() + ")"
 			property real bounding_width: system.territory_bounding_rect.width
 			property real bounding_height: system.territory_bounding_rect.height
 			property real bounding_size: Math.max(bounding_width, bounding_height)
+			property string tooltip_text: system.name + " System<br>"
+			+ (system.duchy && metternich.map_mode === WorldMap.Mode.Country && system.duchy.realm ? "<br>Realm: " + system.duchy.realm.titled_name : "")
+			+ (system.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br>De Jure Empire: " + system.de_jure_empire.name : "")
+			+ (system.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br>De Jure Kingdom: " + system.de_jure_kingdom.name : "")
+			+ (system.ethereal ? "<br>Ethereal" : "")
+			+ "<br>Astrocoordinate: (" + map_view.get_mouse_pos_astrocoordinate_x() + ", " + map_view.get_mouse_pos_astrocoordinate_y() + ")"
 
 			function get_tooltip_x() {
 				return map_view.get_tooltip_x()
@@ -134,6 +137,13 @@ Node {
 			property string tooltip_text: world.name + "<br>"
 			+ (world.star_system ? "<br>Star System: " + world.star_system.name : "")
 			+ "<br>Type: " + world.type.name
+			+ (world.county && metternich.map_mode === WorldMap.Mode.Country && world.county.realm ? "<br>Realm: " + world.county.realm.titled_name : "")
+			+ (world.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br>De Jure Empire: " + world.de_jure_empire.name : "")
+			+ (world.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br>De Jure Kingdom: " + world.de_jure_kingdom.name : "")
+			+ (world.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture: " + world.culture.name : "")
+			+ (world.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + world.culture.culture_group.name : "")
+			+ (world.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion: " + world.religion.name : "")
+			+ (world.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + world.religion.religion_group.name : "")
 			+ "<br>Astrocoordinate: (" + Math.round(world.cosmic_map_pos.x) + ", " + Math.round(world.cosmic_map_pos.y) + ")"
 
 			function get_tooltip_x() {

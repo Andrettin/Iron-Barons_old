@@ -9,6 +9,7 @@ p_an_nil_al_azraq = {
 p_ash_shamaliyah = {
 	county = c_ash_shamaliyah
 	color = { 189 134 22 }
+	megalopolis = h_cairo_megalopolis
 	
 	h_napata = {
 		barony = b_napata
