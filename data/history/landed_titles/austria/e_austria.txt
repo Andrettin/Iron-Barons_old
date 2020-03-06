@@ -2,3 +2,7 @@
 	holder = 10000000 #Franz I von Habsburg; Empire of Austria founded on 1804.8.11; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
 	laws += primogeniture_succession
 }
+
+1835.3.2 = {
+	holder = random
+}

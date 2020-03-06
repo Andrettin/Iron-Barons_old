@@ -2,3 +2,7 @@
 	holder = 10000771 #Peter Friederich Wilhelm von Holstein-Gottorp-Oldenburg; succeeded his father, duke Friederich August of Oldenburg, on 1785.7.6; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 27.
 	laws += primogeniture_succession
 }
+
+1824 = {
+	holder = random
+}

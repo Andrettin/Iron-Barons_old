@@ -2,3 +2,7 @@
 	holder = 10000568 #Fredrik af Danmark; succeeded his father, king Christian VII of Denmark, on 1808.3.13; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 13.
 	laws += primogeniture_succession
 }
+
+1828 = {
+	holder = random
+}

@@ -167,7 +167,7 @@
 	}
 	#succeeded his grandfather, grand duke Karl Friedrich of Baden, on 1811.6.10
 	#grand duke of Baden
-	1846.1.1 = { #unknown, set to 60 years after birth
+	1846 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

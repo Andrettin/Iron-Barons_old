@@ -3,14 +3,14 @@
 	dynasty = af_danmark
 	culture = danish
 	religion = protestant
-	1717.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1717 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#king of Denmark, as Fredrik V
 	1747.7.10 = { #married to Louise of Great Britain, and their daughter was born on 1747.7.10
 		spouse = 10000577 #Louise of Great Britain
 	}
-	1777.1.1 = { #unknown, set to 60 years after birth
+	1777 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -21,7 +21,7 @@
 	culture = danish
 	religion = protestant
 	father = 10000576 #Fredrik af Danmark
-	1748.1.1 = { #unknown, set to 60 years before death
+	1748 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#king of Denmark, as Christian VII
@@ -37,7 +37,7 @@
 	religion = protestant
 	father = 10000576 #Fredrik af Danmark
 	#half-brother of Christian VII of Denmark
-	1745.1.1 = { #unknown, set to 60 years before death
+	1745 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#hereditary prince of Denmark
@@ -61,7 +61,7 @@
 	1747.7.10 = {
 		birth = yes
 	}
-	1817.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1817 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -79,7 +79,7 @@
 		birth = yes
 	}
 	#married to the landgrave Karl of Hesse
-	1820.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1820 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -97,7 +97,7 @@
 	#succeeded his father, king Christian VII of Denmark, on 1808.3.13
 	#king of Denmark, as Fredrik VI
 	#married on 1790.7.31 to Marie Sophie Friederike von Hessen-Kassel
-	1828.1.1 = { #unknown, set to 60 years after birth
+	1828 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -113,7 +113,7 @@
 		birth = yes
 	}
 	#married to duke Friederich Christian of Holstein-Sonderburg-Augustenburg, becoming widowed on 1814.6.14
-	1831.1.1 = { #unknown, set to 60 years after birth
+	1831 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -132,7 +132,7 @@
 	1806.6.11 = { #married on 1806.6.11 to Charlotte Friederike, daughter of duke Friedrich Franz of Mecklenburg-Schwerin
 		spouse = 10000582 #Charlotte Friederike von Mecklenburg-Schwerin
 	}
-	1846.1.1 = { #unknown, set to 60 years after birth
+	1846 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -148,7 +148,7 @@
 	1788.2.18 = {
 		birth = yes
 	}
-	1848.1.1 = { #unknown, set to 60 years after birth
+	1848 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -165,7 +165,7 @@
 		birth = yes
 	}
 	#wife of Wilhelm von Hessen-Kassel
-	1849.1.1 = { #unknown, set to 60 years after birth
+	1849 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -181,13 +181,13 @@
 	1792.11.22 = {
 		birth = yes
 	}
-	1815.1.1 = {
+	1815 = {
 		employer = 10000568 #Fredrik af Danmark
 		#effect = {
 		#	make_commander_effect = yes #royal Danish major general as of 1815
 		#}
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -203,7 +203,7 @@
 	1793.10.28 = {
 		birth = yes
 	}
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -219,7 +219,7 @@
 	1808.1.17 = {
 		birth = yes
 	}
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -234,7 +234,7 @@
 	1808.10.6 = {
 		birth = yes
 	}
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

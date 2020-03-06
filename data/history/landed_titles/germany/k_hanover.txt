@@ -2,3 +2,7 @@
 	holder = 10000615 #George of Brunswick-Luneburg
 	laws += primogeniture_succession
 }
+
+1818 = {
+	holder = random
+}

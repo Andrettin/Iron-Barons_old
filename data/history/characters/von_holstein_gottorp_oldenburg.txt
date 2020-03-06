@@ -40,7 +40,7 @@
 	}
 	#succeeded his father, duke Friederich August of Holstein-Gottorp-Oldenburg, on 1785.7.6
 	#duke of Oldenburg as of 1815
-	1824.1.1 = { #unknown, set to 60 years after birth, +10 since he was still alive in 1815
+	1824 = { #unknown, set to 60 years after birth, +10 since he was still alive in 1815
 		death = yes
 	}
 }

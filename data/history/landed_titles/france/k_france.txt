@@ -18,3 +18,7 @@
 1830.8.9 = {
 	holder = 10000100 #King Louis-Philippe I of France; became king of the French on 1830.8.9; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 27.
 }
+
+1860 = {
+	holder = random
+}

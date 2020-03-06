@@ -2,3 +2,7 @@
 	holder = 10000553 #Wilhelm Friedrich von Braunschweig-Wolfenbüttel; succeeded his father, duke Karl Wilhelm Ferdinand of Braunschweig-Wolfenbüttel, on 1806.11.10; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
 	laws += primogeniture_succession
 }
+
+1830 = {
+	holder = random
+}

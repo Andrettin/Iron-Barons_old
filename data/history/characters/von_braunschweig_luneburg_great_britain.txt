@@ -62,7 +62,7 @@
 	1811.1.10 = {
 		traits += incapable #his son was declared regent of Great Britain on 1811.1.10; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 17.
 	}
-	1818.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+	1818 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }

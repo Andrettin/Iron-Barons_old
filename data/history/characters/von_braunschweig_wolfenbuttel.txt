@@ -105,7 +105,7 @@
 	1804.10.30 = { #married to Marie Elisabeth Wilhelmine, daughter of hereditary prince Karl Ludwig of Baden, and they had their first child on 1804.10.30
 		spouse = 10000554 #Marie Elisabeth Wilhelmine von Zähringen
 	}
-	1830.1.1 = { #unknown, set to 60 years after birth
+	1830 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

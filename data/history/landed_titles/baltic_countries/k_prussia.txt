@@ -6,3 +6,7 @@
 1840.6.7 = {
 	holder = 10000010 #Friedrich Wilhelm IV of Prussia; succeeded his father on 1840.6.7; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 63.
 }
+
+1855 = {
+	holder = random
+}

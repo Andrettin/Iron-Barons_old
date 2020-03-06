@@ -123,7 +123,7 @@
 	1823.11.16 = { #married by procuration on 1823.11.16, and in person on 1823.11.29
 		spouse = 10000095 #Princess Elisabeth Louise of Bavaria
 	}
-	1855.1.1 = { #unknown, set to 60 years after birth
+	1855 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
