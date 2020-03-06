@@ -17,12 +17,18 @@ Node {
 			property real bounding_width: system.territory_bounding_rect.width
 			property real bounding_height: system.territory_bounding_rect.height
 			property real bounding_size: Math.max(bounding_width, bounding_height)
+			property int tooltip_update_counter: 0
 			property string tooltip_text: system.name + " System<br>"
 			+ (system.duchy && metternich.map_mode === WorldMap.Mode.Country && system.duchy.realm ? "<br>Realm: " + system.duchy.realm.titled_name : "")
 			+ (system.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br>De Jure Empire: " + system.de_jure_empire.name : "")
 			+ (system.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br>De Jure Kingdom: " + system.de_jure_kingdom.name : "")
+			+ (system.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture: " + system.culture.name : "")
+			+ (system.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + system.culture.culture_group.name : "")
+			+ (system.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion: " + system.religion.name : "")
+			+ (system.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + system.religion.religion_group.name : "")
 			+ (system.ethereal ? "<br>Ethereal" : "")
 			+ "<br>Astrocoordinate: (" + map_view.get_mouse_pos_astrocoordinate_x() + ", " + map_view.get_mouse_pos_astrocoordinate_y() + ")"
+			+ (tooltip_update_counter ? "" : "")
 
 			function get_tooltip_x() {
 				return map_view.get_tooltip_x()
@@ -134,6 +140,7 @@ Node {
 
 		Model {
 			property var world: model.modelData
+			property int tooltip_update_counter: 0
 			property string tooltip_text: world.name + "<br>"
 			+ (world.star_system ? "<br>Star System: " + world.star_system.name : "")
 			+ "<br>Type: " + world.type.name

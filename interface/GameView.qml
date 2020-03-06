@@ -107,7 +107,7 @@ Item {
 	}
 
 	Repeater {
-		model: [settlement_holdings_button, palace_holdings_button, extra_holdings_button, technologies_button, wildlife_button, country_map_mode_button, de_jure_empire_map_mode_button, de_jure_kingdom_map_mode_button, de_jure_duchy_map_mode_button, culture_map_mode_button, culture_group_map_mode_button, religion_map_mode_button, religion_group_map_mode_button, trade_node_map_mode_button, trade_zone_map_mode_button ]
+		model: [settlement_holdings_button, palace_holdings_button, extra_holdings_button, technologies_button, wildlife_button, country_map_mode_button, de_jure_empire_map_mode_button, de_jure_kingdom_map_mode_button, de_jure_duchy_map_mode_button, culture_map_mode_button, culture_group_map_mode_button, religion_map_mode_button, religion_group_map_mode_button, trade_node_map_mode_button, trade_zone_map_mode_button]
 		
 		DropShadow {
 			anchors.fill: model.modelData
@@ -524,7 +524,7 @@ Item {
 
 	IconButton {
 		id: de_jure_kingdom_map_mode_button
-		anchors.bottom: de_jure_duchy_map_mode_button.top
+		anchors.bottom: de_jure_duchy_map_mode_button.visible ? de_jure_duchy_map_mode_button.top : culture_map_mode_button.top
 		anchors.right: parent.right
 		source: "../graphics/icons/items/crown_royal.png"
 		ToolTip.text: tooltip("De Jure Kingdom")
@@ -540,6 +540,7 @@ Item {
 		anchors.bottom: culture_map_mode_button.top
 		anchors.right: parent.right
 		source: "../graphics/icons/items/crown_ducal.png"
+		visible: !cosmic_map_enabled
 		ToolTip.text: tooltip("De Jure Duchy")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000

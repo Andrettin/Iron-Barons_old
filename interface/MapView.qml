@@ -156,6 +156,10 @@ View3D {
 			id: tooltip_timer
 			interval: 1000
 			onTriggered: {
+				if (delayed_hovered_object !== null) {
+					delayed_hovered_object.tooltip_update_counter++ //ensure that the tooltip is updated
+				}
+
 				mouse_area.hovered_object = delayed_hovered_object
 			}
 		}
