@@ -194,7 +194,7 @@ Node {
 
 			position: Qt.vector3d(world.cosmic_map_pos.x, world.cosmic_map_pos.y * -1, 0)
 			scale: Qt.vector3d(world.cosmic_size / 100.0, world.cosmic_size / 100.0, world.cosmic_size / 100.0) //the pixel size of the sphere model is by default c. 100x100
-			rotation: Qt.vector3d(-45, Math.random(360), world.orbit_center ? 24 * world.orbit_position.x * -1 : 0)
+			rotation: Qt.vector3d(-45, world.rotation, 0)
 			source: "#Sphere"
 			pickable: true
 			visible: world.orbit_center || world.astrocoordinate.isValid
