@@ -1,3 +1,4 @@
+amber_road = "Amber Road"
 cassian_way = "Cassian Way"
 ermine_street = "Ermine Street"
 flaminian_way = "Flaminian Way"
