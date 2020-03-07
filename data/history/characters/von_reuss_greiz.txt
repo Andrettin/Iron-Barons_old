@@ -3,11 +3,11 @@
 	dynasty = von_reuss_greiz
 	culture = thuringian
 	religion = protestant
-	1792.1.1 = { #unknown, set to 30 years before first mention
+	1792 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#Prince Heinrich XIX of Reuss-Greiz
-	1852.1.1 = { #unknown, set to 30 years after first mention
+	1852 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -23,7 +23,7 @@
 		birth = yes
 	}
 	#married on 1842.3.8 to Eduard von Sachsen-Altenburg
-	1882.1.1 = { #unknown, set to 60 years after birth
+	1882 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

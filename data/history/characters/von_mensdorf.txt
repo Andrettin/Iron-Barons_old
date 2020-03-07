@@ -4,7 +4,7 @@
 	culture = rhenish
 	religion = catholic #correct?
 	#trait = tough_soldier
-	1774.1.1 = { #unknown, set to 30 years before first mention
+	1774 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	1804.2.12 = {
@@ -16,7 +16,7 @@
 		#	make_commander_effect = yes #imperial Austrian colonel ("oberst") as of 1815
 		#}
 	}
-	1834.1.1 = { #unknown, set to 60 years after birth
+	1834 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

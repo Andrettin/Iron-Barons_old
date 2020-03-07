@@ -10,7 +10,7 @@
 		spouse = 10000588 #Marie Beatrix von Kageneck
 	}
 	#became imperial prince ("Reichfürst") of Metternich-Winneburg on 1803.6
-	1816.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+	1816 = { #unknown, set to 70 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -29,7 +29,7 @@
 	1817.2.23 = {
 		spouse = 10000312 #married on 1817.2.23 to Ferdinand August Friedrich von Württemberg
 	}
-	1851.1.1 = { #unknown, set to 80 years after birth (cannot be 60 as she was alive in 1847)
+	1851 = { #unknown, set to 80 years after birth (cannot be 60 as she was alive in 1847)
 		death = yes
 	}
 }
@@ -47,7 +47,7 @@
 	1795.9.27 = { #married on 1795.9.27 to Marie Eleonore, daughter of prince Ernst of Kaunitz-Rietberg
 		spouse = 10000591 #Marie Eleonore von Kaunitz
 	}
-	1833.1.1 = { #unknown, set to 60 years after birth
+	1833 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -62,7 +62,7 @@
 	1774.11.14 = {
 		birth = yes
 	}
-	1834.1.1 = { #unknown, set to 60 years after birth
+	1834 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -78,7 +78,7 @@
 	1797.1.17 = {
 		birth = yes
 	}
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -93,7 +93,7 @@
 	1803.1.15 = {
 		birth = yes
 	}
-	1863.1.1 = { #unknown, set to 60 years after birth
+	1863 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

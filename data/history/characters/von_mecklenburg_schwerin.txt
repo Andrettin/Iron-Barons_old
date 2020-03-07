@@ -3,11 +3,11 @@
 	dynasty = von_mecklenburg_schwerin
 	culture = saxon
 	religion = protestant
-	1756.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1756 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#duke of Mecklenburg-Schwerin
-	1816.1.1 = { #unknown, set to 60 years after birth
+	1816 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -18,7 +18,7 @@
 	culture = saxon
 	religion = protestant
 	female = yes
-	1770.1.1 = { #unknown, set to 30 years before first mention
+	1770 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#her daughter was born on 1800.12.21
@@ -33,14 +33,14 @@
 	culture = saxon
 	religion = protestant
 	female = yes
-	1766.1.1 = { #unknown, set to 20 years before the birth of her child
+	1766 = { #unknown, set to 20 years before the birth of her child
 		birth = yes
 	}
 	#princess of Mecklenburg-Schwering
 	1786.9.18 = { #married to Fredrik af Danmark, and they had their first child on 1786.9.18
 		spouse = 10000579 #Fredrik af Danmark
 	}
-	1826.1.1 = { #unknown, set to 60 years after birth
+	1826 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -52,13 +52,13 @@
 	religion = protestant
 	female = yes
 	father = 10000583 #Friedrich Franz von Mecklenburg-Schwerin
-	1786.1.1 = { #unknown, set to 20 years before her marriage
+	1786 = { #unknown, set to 20 years before her marriage
 		birth = yes
 	}
 	1806.6.11 = { #married on 1806.6.11 to Christian Fredrik af Danmark
 		spouse = 10000581 #Christian Fredrik af Danmark
 	}
-	1846.1.1 = { #unknown, set to 60 years after birth
+	1846 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -68,11 +68,11 @@
 	dynasty = von_mecklenburg_schwerin
 	culture = saxon
 	religion = protestant
-	1773.1.1 = { #unknown, set to 30 years before first mention
+	1773 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#hereditary prince of Mecklenburg-Schwerin
-	1833.1.1 = { #unknown, set to 30 years after first mention
+	1833 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -88,7 +88,7 @@
 		birth = yes
 	}
 	#married on 1825.10.7 to Georg von Sachsen-Altenburg
-	1863.1.1 = { #unknown, set to 60 years after birth
+	1863 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

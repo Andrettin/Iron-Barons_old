@@ -3,11 +3,11 @@
 	dynasty = de_rohan_soubise
 	culture = french
 	religion = catholic
-	1706.1.1 = { #unknown, set to 30 years before his daughter's birth
+	1706 = { #unknown, set to 30 years before his daughter's birth
 		birth = yes
 	}
 	#duke of Rohan-Soubise
-	1766.1.1 = { #unknown, set to 60 years after birth
+	1766 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,13 +19,13 @@
 	religion = catholic
 	female = yes
 	father = 10000612 #Charles de Rohan-Soubise
-	1736.1.1 = { #unknown, set to 20 years before marriage
+	1736 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1756.4.13 = { #married to Louis Joseph de Bourbon-Condé, and they had their first child on 1756.4.13
 		spouse = 10000609 #Louis Joseph de Bourbon-Condé
 	}
-	1796.1.1 = { #unknown, set to 60 years after birth
+	1796 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

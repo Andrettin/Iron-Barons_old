@@ -3,7 +3,7 @@
 	dynasty = von_sachsen_hildburghausen
 	culture = thuringian
 	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
-	1720.1.1 = { #unknown, set to 60 years before death
+	1720 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#duke of Sachsen-Hildburghausen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
@@ -47,7 +47,7 @@
 	1834.9.29 = {
 		dynasty = von_sachsen_altenburg
 	}
-	1857.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because she was alive in 1847)
+	1857 = { #unknown, set to 70 years after birth (cannot be 60 here because she was alive in 1847)
 		death = yes
 	}
 }
@@ -69,7 +69,7 @@
 	1834.9.29 = {
 		dynasty = von_sachsen_altenburg
 	}
-	1849.1.1 = { #unknown, set to 60 years after birth
+	1849 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -91,7 +91,7 @@
 	1834.9.29 = {
 		dynasty = von_sachsen_altenburg
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -110,7 +110,7 @@
 	1834.9.29 = {
 		dynasty = von_sachsen_altenburg
 	}
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -131,7 +131,7 @@
 	1834.9.29 = {
 		dynasty = von_sachsen_altenburg
 	}
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -149,7 +149,7 @@
 	1834.9.29 = {
 		dynasty = von_sachsen_altenburg
 	}
-	1861.1.1 = { #unknown, set to 60 years after birth
+	1861 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -174,13 +174,13 @@
 	1842.3.8 = { #married on 1842.3.8 to Louise, Princess of Reuss de Greiz
 		spouse = 10000229 #Luise von Reuss-Greiz
 	}
-	1847.1.1 = { #major-general and chief of a first division Bavarian brigade, in Munich, as of 1847
+	1847 = { #major-general and chief of a first division Bavarian brigade, in Munich, as of 1847
 		employer = 10000014 #Ludwig von Wittelsbach
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1864.1.1 = { #unknown, set to 60 years after birth
+	1864 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -197,7 +197,7 @@
 		birth = yes
 	}
 	#was the wife of the royal prince of Hanover after 1843.2.18
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -213,7 +213,7 @@
 	1823.10.9 = {
 		birth = yes
 	}
-	1883.1.1 = { #unknown, set to 60 years after birth
+	1883 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -229,7 +229,7 @@
 	1826.3.26 = {
 		birth = yes
 	}
-	1886.1.1 = { #unknown, set to 60 years after birth
+	1886 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -244,7 +244,7 @@
 	1826.9.16 = {
 		birth = yes
 	}
-	1886.1.1 = { #unknown, set to 60 years after birth
+	1886 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -259,7 +259,7 @@
 	1829.10.24 = {
 		birth = yes
 	}
-	1889.1.1 = { #unknown, set to 60 years after birth
+	1889 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -275,7 +275,7 @@
 	1830.7.8 = {
 		birth = yes
 	}
-	1890.1.1 = { #unknown, set to 60 years after birth
+	1890 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -291,7 +291,7 @@
 	1836.12.21 = {
 		birth = yes
 	}
-	1896.1.1 = { #unknown, set to 60 years after birth
+	1896 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -307,7 +307,7 @@
 	1838.4.17 = {
 		birth = yes
 	}
-	1898.1.1 = { #unknown, set to 60 years after birth
+	1898 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -322,7 +322,7 @@
 	1843.4.14 = {
 		birth = yes
 	}
-	1903.1.1 = { #unknown, set to 60 years after birth
+	1903 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -338,7 +338,7 @@
 	1845.6.28 = {
 		birth = yes
 	}
-	1905.1.1 = { #unknown, set to 60 years after birth
+	1905 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

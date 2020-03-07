@@ -3,11 +3,11 @@
 	dynasty = von_schlieben
 	culture = thuringian
 	religion = protestant #lutheran
-	1727.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1727 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#count of Schlieben
-	1787.1.1 = { #unknown, set to 30 years after the birth of his daughter
+	1787 = { #unknown, set to 30 years after the birth of his daughter
 		death = yes
 	}
 }
@@ -24,7 +24,7 @@
 		birth = yes
 	}
 	#married on 1780.3.9 to Karl Friederich Ludwig von Holstein-Beck
-	1817.1.1 = { #unknown, set to 60 years after birth
+	1817 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

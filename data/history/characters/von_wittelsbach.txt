@@ -3,7 +3,7 @@
 	dynasty = von_wittelsbach
 	culture = rhenish
 	religion = catholic
-	1350.1.1 = { #unknown, set to 60 years before death
+	1350 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#became Holy Roman Emperor in 1400; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 41.
@@ -18,11 +18,11 @@
 	culture = bavarian
 	religion = catholic
 	female = yes
-	1367.1.1 = { #unknown, set to 30 years before first mention
+	1367 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#married Albrecht IV of Austria, and had her son Albrecht with him in 1397; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 244.
-	1427.1.1 = { #unknown, set to 30 years after first mention
+	1427 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -32,10 +32,10 @@
 	dynasty = von_wittelsbach
 	culture = rhenish
 	religion = catholic
-	1722.1.1 = { #unknown, set to 60 years before death
+	1722 = { #unknown, set to 60 years before death
 		birth = yes
 	}
-	1782.1.1 = { #unknown, set to 30 years after the birth of his daughter
+	1782 = { #unknown, set to 30 years after the birth of his daughter
 		death = yes
 	}
 }
@@ -50,7 +50,7 @@
 	1725.11.16 = {
 		birth = yes
 	}
-	1825.1.1 = { #unknown, set to 100 years after birth (she was still alive in 1815)
+	1825 = { #unknown, set to 100 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -62,7 +62,7 @@
 	religion = catholic
 	father = 10000471 #Friedrich von Wittelsbach (presumably, since he is the father of his sisters)
 	#brother of Maximilian Joseph von Wittelsbach
-	1735.1.1 = { #unknown, set to 60 years before death
+	1735 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#duke of Zweibrücken, as Karl II
@@ -77,7 +77,7 @@
 	dynasty = von_wittelsbach
 	culture = bavarian
 	religion = catholic
-	1739.1.1 = { #unknown, set to 60 years before death
+	1739 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#prince-elector of Bavaria
@@ -104,7 +104,7 @@
 		#	make_commander_effect = yes #royal Bavarian infantry general as of 1815
 		#}
 	}
-	1822.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+	1822 = { #unknown, set to 70 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -120,7 +120,7 @@
 		birth = yes
 	}
 	#became widowed on 1802.4.26 of count Heinrich XXX of Reuss zu Gera
-	1818.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1818 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -173,7 +173,7 @@
 	1753.7.18 = {
 		birth = yes
 	}
-	1823.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1823 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -192,7 +192,7 @@
 	1808.3.9 = { #married on 1808.3.9 to prince Alexander of Wagram
 		spouse = 10000546 #Alexandre de Wagram
 	}
-	1844.1.1 = { #unknown, set to 60 years after birth
+	1844 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -217,7 +217,7 @@
 		#	make_commander_effect = yes #royal Bavarian general lieutenant as of 1815
 		#}
 	}
-	1844.1.1 = { #unknown, set to 60 years after birth
+	1844 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -232,7 +232,7 @@
 	1808.12.4 = {
 		birth = yes
 	}
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -251,7 +251,7 @@
 	1810.10.12 = {
 		spouse = 10000117 #married on 1810.10.12 to Therese von Sachsen-Altenburg
 	}
-	1856.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
+	1856 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
 		death = yes
 	}
 }
@@ -270,7 +270,7 @@
 	1806.1.13 = { #married on 1806.1.13 to Eugène Napoléon
 		spouse = 10000449 #Eugène Napoléon
 	}
-	1848.1.1 = { #unknown, set to 60 years after birth
+	1848 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -287,7 +287,7 @@
 		birth = yes
 	}
 	#crowned Queen (consort) of Hungary on 1825.9.25
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -302,7 +302,7 @@
 	1795.7.7 = {
 		birth = yes
 	}
-	1855.1.1 = { #unknown, set to 60 years after birth
+	1855 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -319,7 +319,7 @@
 	1801.11.13 = {
 		birth = yes
 	}
-	1861.1.1 = { #unknown, set to 60 years after birth
+	1861 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -339,7 +339,7 @@
 	1822.11.10 = {
 		spouse = 10000323 #married by procuration on 1822.11.10 and in person on 1822.11.21 to Johann Nepomuk Maria von Wettin
 	}
-	1861.1.1 = { #unknown, set to 60 years after birth
+	1861 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -356,7 +356,7 @@
 	1805.1.27 = {
 		birth = yes
 	}
-	1865.1.1 = { #unknown, set to 60 years after birth
+	1865 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -374,7 +374,7 @@
 		birth = yes
 	}
 	#married Friedrich August von Wettin on 1833.4.24
-	1865.1.1 = { #unknown, set to 60 years after birth
+	1865 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -390,7 +390,7 @@
 	1808.8.30 = {
 		birth = yes
 	}
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -406,7 +406,7 @@
 	1810.7.21 = {
 		birth = yes
 	}
-	1870.1.1 = { #unknown, set to 60 years after birth
+	1870 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -421,7 +421,7 @@
 	1811.11.28 = {
 		birth = yes
 	}
-	1871.1.1 = { #unknown, set to 60 years after birth
+	1871 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -437,7 +437,7 @@
 	1813.8.30 = {
 		birth = yes
 	}
-	1873.1.1 = { #unknown, set to 60 years after birth
+	1873 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -452,7 +452,7 @@
 	1823.6.10 = {
 		birth = yes
 	}
-	1883.1.1 = { #unknown, set to 60 years after birth
+	1883 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

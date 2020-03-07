@@ -16,10 +16,10 @@
 	dynasty = kohary
 	culture = hungarian
 	religion = catholic
-	1767.1.1 = { #unknown, set to 30 years before first mention
+	1767 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1827.1.1 = { #unknown, set to 30 years after first mention
+	1827 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -37,7 +37,7 @@
 		spouse = 10000689 #Ludwig Georg Friedrich von Hessen-Darmstadt
 	}
 	#countess of Nidda as of 1815
-	1846.1.1 = { #unknown, set to 60 years after birth
+	1846 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -53,7 +53,7 @@
 		birth = yes
 	}
 	#married on 1816.1.2 to Ferdinand von Sachsen-Saalfeld-Coburg
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -64,7 +64,7 @@
 	culture = hungarian
 	religion = catholic
 	female = yes
-	1805.1.1 = { #unknown, set to 30 years before marriage
+	1805 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
 	1835.5.2 = {
@@ -84,7 +84,7 @@
 	traits += scholar #great scholar and physicist
 	#trait = erudite
 	traits += intelligent
-	1866.1.1 = { #unknown, set to 30 years before first mention
+	1866 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#founded the Eötvös College in 1896
@@ -100,7 +100,7 @@
 	religion = catholic #correct?
 	traits += cynical
 	traits += poet #writer
-	1870.1.1 = { #unknown, set to 30 years before first mention
+	1870 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#wrote "Budapest" in 1900

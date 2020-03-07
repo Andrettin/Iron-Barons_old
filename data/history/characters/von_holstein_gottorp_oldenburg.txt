@@ -3,7 +3,7 @@
 	dynasty = von_holstein_gottorp_oldenburg
 	culture = saxon
 	religion = protestant #lutheran
-	1725.1.1 = { #unknown, set to 60 years before death
+	1725 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#duke of Oldenburg
@@ -18,13 +18,13 @@
 	culture = saxon
 	religion = protestant #lutheran
 	#brother of Friederich August von Holstein-Gottorp-Oldenburg
-	1725.1.1 = { #unknown, set to 30 years before the birth of his son
+	1725 = { #unknown, set to 30 years before the birth of his son
 		birth = yes
 	}
 	1755.1.17 = { #married to Sophie Charlotte von Holstein-Beck; unknown date, set to the date of the birth of his son
 		spouse = 10000775 #Sophie Charlotte von Holstein-Beck
 	}
-	1785.1.1 = { #unknown, set to 30 years after the birth of his son
+	1785 = { #unknown, set to 30 years after the birth of his son
 		death = yes
 	}
 }
@@ -55,7 +55,7 @@
 	1759.3.22 = {
 		birth = yes
 	}
-	1819.1.1 = { #unknown, set to 60 years after birth
+	1819 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -80,7 +80,7 @@
 		spouse = 10000777 #Friederike Elisabeth Amalie von Württemberg
 	}
 	#prince of Lübeck as of 1815
-	1825.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1815
+	1825 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1815
 		death = yes
 	}
 }
@@ -95,7 +95,7 @@
 	1783.7.13 = {
 		birth = yes
 	}
-	1843.1.1 = { #unknown, set to 60 years after birth
+	1843 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -107,7 +107,7 @@
 	religion = protestant #lutheran
 	father = 10000776 #Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
 	mother = 10000777 #Friederike Elisabeth Amalie von Württemberg
-	1784.1.1 = { #unknown, set to one year after his older brother
+	1784 = { #unknown, set to one year after his older brother
 		birth = yes
 	}
 	1810.8.30 = { #married to Catherine Paulowna, daughter of Emperor Paul of Russia; unknown date, set to the date of the birth of their son
@@ -128,7 +128,7 @@
 	1810.8.30 = {
 		birth = yes
 	}
-	1870.1.1 = { #unknown, set to 60 years after birth
+	1870 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

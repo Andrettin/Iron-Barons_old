@@ -15,7 +15,7 @@
 	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 1-2.
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
-	1838.1.1 = { #unknown, set to 60 years after birth
+	1838 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -37,7 +37,7 @@
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
 	#her residence was Elfenau (near Bern in Switzerland) as of 1847
-	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because she is alive in 1847)
+	1851 = { #unknown, set to 70 years after birth (cannot be 60 here because she is alive in 1847)
 		death = yes
 	}
 }
@@ -84,14 +84,14 @@
 	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
-	1847.1.1 = { #cavalry general and proprietary of the 8th hussars regiment in the service of Austria as of 1847
+	1847 = { #cavalry general and proprietary of the 8th hussars regiment in the service of Austria as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1855.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because he is alive in 1847)
+	1855 = { #unknown, set to 70 years after birth (cannot be 60 here because he is alive in 1847)
 		death = yes
 	}
 }
@@ -110,7 +110,7 @@
 	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
-	1856.1.1 = { #unknown, set to 70 years after birth (cannot be 60 here because she is alive in 1847)
+	1856 = { #unknown, set to 70 years after birth (cannot be 60 here because she is alive in 1847)
 		death = yes
 	}
 }
@@ -139,7 +139,7 @@
 	1832.8.9 = {
 		spouse = 10000108 #married on 1832.8.9 to princess Louise d'Orléans
 	}
-	1850.1.1 = { #unknown, set to 60 years after birth
+	1850 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -161,7 +161,7 @@
 		#add_matrilineal_spouse = 10000184 #married by procuration on 1836.1.1 and in person on 1836.4.9 to Queen Maria II de Bragança of Portugal
 	}
 	#king consort of Portugal as of 1847
-	1876.1.1 = { #unknown, set to 60 years after birth
+	1876 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -183,7 +183,7 @@
 		spouse = 10000173 #married to Alexandrine von Zähringen on 1842.5.3
 	}
 	#succeeded his father on 1844.1.29
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -204,7 +204,7 @@
 	#prince of Sachsen-Coburg und Gotha
 	#naturalized in Great Britain through the act of 1840.1.24
 	#married on 1840.2.10 to Victoria I of the United Kingdom of Great Britain and Ireland
-	1879.1.1 = { #unknown, set to 60 years after birth
+	1879 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -226,13 +226,13 @@
 	1843.4.20 = {
 		spouse = 10000186 #married on 1843.4.20 to Princess Clémentine d'Orléans of France
 	}
-	1847.1.1 = { #major-general in the service of the kingdom of Saxony as of 1847
+	1847 = { #major-general in the service of the kingdom of Saxony as of 1847
 		employer = 10000187 #King Friedrich August von Wettin of Saxony
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -252,7 +252,7 @@
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
 	#wife of Duke Louis of Nemours after 1840.4.27
-	1882.1.1 = { #unknown, set to 60 years after birth
+	1882 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -271,14 +271,14 @@
 	1826.11.12 = { #the head of the dynasty became duke of Sachsen-Coburg und Gotha through the convention of 1826.11.12
 		dynasty = zu_sachsen_coburg_und_gotha
 	}
-	1847.1.1 = { #cavalry captain in the service of Austria as of 1847, 1st regiment of ulans Count Civalart
+	1847 = { #cavalry captain in the service of Austria as of 1847, 1st regiment of ulans Count Civalart
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1884.1.1 = { #unknown, set to 60 years after birth
+	1884 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -293,7 +293,7 @@
 	1844.3.28 = {
 		birth = yes
 	}
-	1904.1.1 = { #unknown, set to 60 years after birth
+	1904 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -308,7 +308,7 @@
 	1845.8.9 = {
 		birth = yes
 	}
-	1905.1.1 = { #unknown, set to 60 years after birth
+	1905 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -324,7 +324,7 @@
 	1846.7.8 = {
 		birth = yes
 	}
-	1906.1.1 = { #unknown, set to 60 years after birth
+	1906 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

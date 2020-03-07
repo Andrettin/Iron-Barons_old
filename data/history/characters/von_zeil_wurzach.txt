@@ -3,11 +3,11 @@
 	dynasty = von_zeil_wurzach
 	culture = swabian
 	religion = catholic
-	1721.1.1 = { #unknown, set to 30 years before the birth of his first (known) child
+	1721 = { #unknown, set to 30 years before the birth of his first (known) child
 		birth = yes
 	}
 	#count of Zeil-Wurzach
-	1781.1.1 = { #unknown, set to 30 years after the birth of his first (known) child
+	1781 = { #unknown, set to 30 years after the birth of his first (known) child
 		death = yes
 	}
 }
@@ -19,12 +19,12 @@
 	religion = catholic
 	female = yes
 	father = 10000721 #Franz Ernst von Zeil-Wurzach
-	1751.1.1 = { #unknown, set to 30 years before the birth of her first (known) child
+	1751 = { #unknown, set to 30 years before the birth of her first (known) child
 		birth = yes
 	}
 	#married to Joseph Anton, count of Oettingen-Baldern
 	#married a second time to Hermann Friedrich Otto von Hohenzollern-Hechingen
-	1820.1.1 = { #unknown, set to 30 years after the birth of her last child
+	1820 = { #unknown, set to 30 years after the birth of her last child
 		death = yes
 	}
 }

@@ -3,14 +3,14 @@
 	dynasty = av_sverige
 	culture = swedish
 	religion = protestant
-	1767.1.1 = { #unknown, set to 30 years before marriage
+	1767 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
 	#king of Sweden, as Gustav IV Adolf
 	1797.10.31 = { #married on 1797.10.31 to Friederike Dorothee von Zähringen
 		spouse = 10000522 #Friederike Dorothee von Zähringen; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 9.
 	}
-	1827.1.1 = { #unknown, set to 60 years after birth
+	1827 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

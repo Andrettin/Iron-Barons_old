@@ -3,11 +3,11 @@
 	dynasty = de_saboya
 	culture = italian
 	religion = catholic
-	1725.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1725 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#king of Sardinia, as Vittorio Amadeo III
-	1785.1.1 = { #unknown, set to 60 years after birth
+	1785 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,7 +19,7 @@
 	religion = catholic
 	female = yes
 	father = 10000598 #Vittorio Amadeo de Saboya
-	1755.1.1 = { #unknown, set to 60 years before death
+	1755 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#married to king Louis XVIII of France
@@ -35,7 +35,7 @@
 	religion = catholic
 	female = yes
 	father = 10000598 #Vittorio Amadeo de Saboya
-	1755.1.1 = { #unknown, set to 20 years before marriage
+	1755 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1775.8.6 = { #married to Charles Philippe de Bourbon, and they had their first child on 1775.8.6
@@ -56,7 +56,7 @@
 		birth = yes
 	}
 	#married Archduke Reiner on 1820.5.28
-	1860.1.1 = { #unknown, set to 60 years after birth
+	1860 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -70,7 +70,7 @@
 	1803.9.19 = {
 		birth = yes
 	}
-	1863.1.1 = { #unknown, set to 60 years after birth
+	1863 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -85,7 +85,7 @@
 	1803.9.19 = {
 		birth = yes
 	}
-	1863.1.1 = { #unknown, set to 60 years after birth
+	1863 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

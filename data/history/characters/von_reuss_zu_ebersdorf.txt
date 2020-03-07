@@ -3,11 +3,11 @@
 	dynasty = von_reuss_zu_ebersdorf
 	culture = thuringian
 	religion = protestant
-	1718.1.1 = { #unknown, set to 60 years before death
+	1718 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#count of Reuss zu Ebersdorf, as Heinrich XXIV
-	1778.1.1 = { #unknown, set to 30 years after birth of the first child
+	1778 = { #unknown, set to 30 years after birth of the first child
 		death = yes
 	}
 }
@@ -19,13 +19,13 @@
 	religion = protestant
 	female = yes
 	father = 10000461 #Heinrich von Reuss zu Ebersdorf
-	1758.1.1 = { #unknown, set to 20 years before first child
+	1758 = { #unknown, set to 20 years before first child
 		birth = yes
 	}
 	1778.8.19 = {
 		spouse = 10000457 #had her first child on 1778.8.19 with her husband Franz von Sachsen-Saalfeld-Coburg
 	}
-	1818.1.1 = { #unknown, set to 60 years after birth
+	1818 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

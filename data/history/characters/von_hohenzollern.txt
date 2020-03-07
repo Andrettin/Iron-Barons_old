@@ -3,10 +3,10 @@
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant
-	1721.1.1 = { #unknown, set to 60 years before death
+	1721 = { #unknown, set to 60 years before death
 		birth = yes
 	}
-	1781.1.1 = { #unknown, set to 30 years after the birth of his daughter
+	1781 = { #unknown, set to 30 years after the birth of his daughter
 		death = yes
 	}
 }
@@ -16,14 +16,14 @@
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant
-	1735.1.1 = { #unknown, set to 30 years before marriage
+	1735 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
 	#king of Prussia, as Friederich Wilhelm II
 	1765.7.14 = { #married to Elisabeth Ulrike von Braunschweig-Wolfenbüttel on 1765.7.14
 		spouse = 10000564 #Elisabeth Ulrike von Braunschweig-Wolfenbüttel
 	}
-	1795.1.1 = { #unknown, set to 60 years after birth
+	1795 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -35,7 +35,7 @@
 	religion = protestant
 	female = yes
 	father = 10000484 #Heinrich von Hohenzollern
-	1741.1.1 = { #unknown, set to 70 years before death (so that she isn't too young as of her son's birth)
+	1741 = { #unknown, set to 70 years before death (so that she isn't too young as of her son's birth)
 		birth = yes
 	}
 	#married to Leopold Friedrich Franz von Anhalt-Dessau
@@ -49,11 +49,11 @@
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant
-	1766.1.1 = { #unknown, set to 30 years before first mention
+	1766 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#prince of Prussia
-	1826.1.1 = { #unknown, set to 30 years after first mention
+	1826 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -79,13 +79,13 @@
 	religion = protestant
 	female = yes
 	father = 10000565 #Friederich Wilhelm von Hohenzollern
-	1771.1.1 = { #unknown, set to 20 years before marriage
+	1771 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1791.9.29 = { #married on 1791.9.29 to Frederick of Brunswick-Luneburg
 		spouse = 10000621 #Frederick of Brunswick-Luneburg
 	}
-	1831.1.1 = { #unknown, set to 60 years after birth
+	1831 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -97,13 +97,13 @@
 	religion = protestant
 	female = yes
 	father = 10000565 #Friederich Wilhelm von Hohenzollern
-	1777.1.1 = { #unknown, set to 20 years before marriage
+	1777 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1797.2.13 = { #married on 1797.2.13 to Wilhelm von Hessen-Kassel
 		spouse = 10000207 #Wilhelm von Hessen-Kassel
 	}
-	1837.1.1 = { #unknown, set to 60 years after birth
+	1837 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -141,7 +141,7 @@
 	1818.4.18 = {
 		spouse = 10000339 #married on 1818.4.18 to Leopold Friedrich von Anhalt-Dessau
 	}
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -151,13 +151,13 @@
 	dynasty = von_hohenzollern
 	culture = saxon
 	religion = protestant
-	1817.1.1 = { #unknown, set to 30 years before first mention
+	1817 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1847.1.1 = { #husband of Maria von Sachsen-Weimar-Eisenach as of 1847
+	1847 = { #husband of Maria von Sachsen-Weimar-Eisenach as of 1847
 		spouse = 10000239 #Maria von Sachsen-Weimar-Eisenach
 	}
-	1877.1.1 = { #unknown, set to 30 years after first mention
+	1877 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }

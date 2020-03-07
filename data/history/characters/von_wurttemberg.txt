@@ -3,11 +3,11 @@
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant #lutheran
-	1723.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1723 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#duke of Württemberg-Stuttgart
-	1783.1.1 = { #unknown, set to 30 years after the birth of his daughter
+	1783 = { #unknown, set to 30 years after the birth of his daughter
 		death = yes
 	}
 }
@@ -20,7 +20,7 @@
 	female = yes
 	father = 10000778 #Friederich von Württemberg
 	#second daughter of her father
-	1753.1.1 = { #unknown, set to 30 years before the birth of her son
+	1753 = { #unknown, set to 30 years before the birth of her son
 		birth = yes
 	}
 	#married to Peter Friederich Ludwig von Holstein-Gottorp-Oldenburg
@@ -48,7 +48,7 @@
 	dynasty = von_wurttemberg
 	culture = swabian
 	religion = protestant
-	1757.1.1 = { #unknown, set to 60 years before death
+	1757 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1792.1.16 = {
@@ -140,7 +140,7 @@
 	1820.4.15 = {
 		spouse = 10000250 #married on 1820.4.15 to Pauline, daughter of duke Ludwig Friedrich Alexander of Württemberg
 	}
-	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 because he was still alive in 1847)
+	1851 = { #unknown, set to 70 years after birth (cannot be 60 because he was still alive in 1847)
 		death = yes
 	}
 }
@@ -158,7 +158,7 @@
 		spouse = 10000219 #Charlotte von Sachsen-Altenburg
 	}
 	#prince of Wurtemberg as of 1847
-	1877.1.1 = { #unknown, set to 30 years after first mention
+	1877 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -180,14 +180,14 @@
 	1827.9.11 = {
 		spouse = 10000282 #remarried on 1827.9.11 to princess Helena von Hohenlohe-Langenburg
 	}
-	1847.1.1 = { #infantry general in the service of Russia and chief of a grenadiers regiment as of 1847
+	1847 = { #infantry general in the service of Russia and chief of a grenadiers regiment as of 1847
 		#traits += heavy_infantry_leader
 		employer = 10000262 #Emperor Nicolas I of Russia
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1848.1.1 = { #unknown, set to 60 years after birth
+	1848 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -199,10 +199,10 @@
 	religion = protestant
 	female = yes
 	father = 10000279 #Eugen Friedrich Heinrich von Württemberg
-	1789.1.1 = { #unknown, set to one year after previous sibling's birth
+	1789 = { #unknown, set to one year after previous sibling's birth
 		birth = yes
 	}
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -217,10 +217,10 @@
 	1792.1.16 = {
 		birth = yes
 	}
-	1847.1.1 = { #lieutenant-general in service of Russia and aide-de-camp to the emperor of Russia, in retirement, as of 1847
+	1847 = { #lieutenant-general in service of Russia and aide-de-camp to the emperor of Russia, in retirement, as of 1847
 		employer = 10000262 #Emperor Nicolas I of Russia
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -238,14 +238,14 @@
 	1827.4.17 = {
 		spouse = 10000296 #married on 1827.4.17 to Sophie von Thurn und Taxis
 	}
-	1847.1.1 = { #cavalry major-general in service of Württemberg as of 1847
+	1847 = { #cavalry major-general in service of Württemberg as of 1847
 		#traits += cavalry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -261,7 +261,7 @@
 	1797.11.1 = {
 		birth = yes
 	}
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -278,7 +278,7 @@
 		birth = yes
 	}
 	#married on 1817.4.24 to Joseph von Sachsen-Altenburg
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -297,7 +297,7 @@
 	#married on 1832.12.23 to Ernst I zu Sachsen-Saalfeld-Coburg
 	#became a widow on 1844.1.29
 	#dowager duchess of Saxe-Coburg-Gotha as of 1847
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -313,7 +313,7 @@
 	1800.9.4 = {
 		birth = yes
 	}
-	1860.1.1 = { #unknown, set to 60 years after birth
+	1860 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -349,7 +349,7 @@
 	1830.10.16 = {
 		spouse = 10000273 #married on 1830.10.16 to margrave Wilhelm of Baden
 	}
-	1862.1.1 = { #unknown, set to 60 years after birth
+	1862 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -369,13 +369,13 @@
 		spouse = 10000275 #married on 1835.5.2 to Susanne, countess Rhéday of Kiss-Rhéde, in a morganatic marriage
 	}
 	#widowed after 1841.10.1
-	1847.1.1 = { #major-general and brigadier at Graz in service of Austria as of 1847
+	1847 = { #major-general and brigadier at Graz in service of Austria as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1864.1.1 = { #unknown, set to 60 years after birth
+	1864 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -395,13 +395,13 @@
 		spouse = 10000317 #married on 1837.10.17 to princess Marie Christine Caroline d'Orléans, daughter of the king of the French
 	}
 	#widowed after 1839.1.2
-	1847.1.1 = { #senior major-general in service of Russia as of 1847
+	1847 = { #senior major-general in service of Russia as of 1847
 		employer = 10000262 #Emperor Nicolas I of Russia
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1864.1.1 = { #unknown, set to 60 years after birth
+	1864 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -417,7 +417,7 @@
 	1805.9.28 = { #unknown, set to parent's date of marriage
 		birth = yes
 	}
-	1865.1.1 = { #unknown, set to 60 years after birth
+	1865 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -434,7 +434,7 @@
 		birth = yes
 	}
 	#dowager duchess of Nassau as of 1847
-	1865.1.1 = { #unknown, set to 60 years after birth
+	1865 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -450,13 +450,13 @@
 	1807.8.11 = {
 		birth = yes
 	}
-	1847.1.1 = { #senior major-general in service of Russia as of 1847
+	1847 = { #senior major-general in service of Russia as of 1847
 		employer = 10000262 #Emperor Nicolas I of Russia
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1867.1.1 = { #unknown, set to 60 years after birth
+	1867 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -475,14 +475,14 @@
 	1845.11.20 = {
 		spouse = 10000258 #married on 1845.11.20 to Catherine von Württemberg
 	}
-	1847.1.1 = { #lieutenant-general in the service of Wurtemberg and chief of an uhlans regiment in the service of Russia as of 1847
+	1847 = { #lieutenant-general in the service of Wurtemberg and chief of an uhlans regiment in the service of Russia as of 1847
 		#traits += cavalry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -500,13 +500,13 @@
 	1841.2.8 = {
 		spouse = 10000306 #married on 1841.2.8 to Théodolinde Louise Eugénie, princess of Leuchtenberg
 	}
-	1847.1.1 = { #major-general in the service of Württemberg as of 1847
+	1847 = { #major-general in the service of Württemberg as of 1847
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1870.1.1 = { #unknown, set to 60 years after birth
+	1870 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -522,14 +522,14 @@
 	1813.1.24 = {
 		birth = yes
 	}
-	1847.1.1 = { #major-general in the service of Prussia and commander of a cavalry brigade of the guard as of 1847
+	1847 = { #major-general in the service of Prussia and commander of a cavalry brigade of the guard as of 1847
 		#traits += cavalry_leader
 		employer = 10000010 #Friedrich Wilhelm IV of Prussia
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1873.1.1 = { #unknown, set to 60 years after birth
+	1873 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -547,7 +547,7 @@
 	1842.9.17 = {
 		spouse = 10000311 #the wife of Mr. von Taubenheim, the grand-écuyer of Württemberg, after 1842.9.17
 	}
-	1875.1.1 = { #unknown, set to 60 years after birth
+	1875 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -564,7 +564,7 @@
 		birth = yes
 	}
 	#married on 1840.3.19 to count Alfred of Neipperg
-	1876.1.1 = { #unknown, set to 60 years after birth
+	1876 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -581,7 +581,7 @@
 		birth = yes
 	}
 	#married on 1845.10.9 to prince Karl of Hessen-Philippsthal
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -598,7 +598,7 @@
 		birth = yes
 	}
 	#wife of the royal prince of the Netherlands after 1839.6.18
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -617,14 +617,14 @@
 	1843.7.15 = {
 		spouse = 10000287 #married on 1843.7.15 to princess Mathilde Auguste, daughter of reigning prince Georg of Schaumburg-Lippe
 	}
-	1847.1.1 = { #cavalry captain in service of Prussia as of 1847
+	1847 = { #cavalry captain in service of Prussia as of 1847
 		#traits += cavalry_leader
 		employer = 10000010 #Friedrich Wilhelm IV of Prussia
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1880.1.1 = { #unknown, set to 60 years after birth
+	1880 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -641,7 +641,7 @@
 		birth = yes
 	}
 	#married on 1845.11.20 to prince Friedrich of Wurtemberg
-	1881.1.1 = { #unknown, set to 60 years after birth
+	1881 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -661,13 +661,13 @@
 	1846.7.13 = {
 		spouse = 10000261 #married on 1846.7.13 to grand duchess Olga Nicolaewna, daughter of emperor Nicolas I of Russia
 	}
-	1847.1.1 = { #major-general in the service of Wurtemberg as of 1847
+	1847 = { #major-general in the service of Wurtemberg as of 1847
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1883.1.1 = { #unknown, set to 60 years after birth
+	1883 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -683,7 +683,7 @@
 	1826.10.4 = {
 		birth = yes
 	}
-	1886.1.1 = { #unknown, set to 60 years after birth
+	1886 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -698,7 +698,7 @@
 	1828.7.20 = {
 		birth = yes
 	}
-	1888.1.1 = { #unknown, set to 60 years after birth
+	1888 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -713,7 +713,7 @@
 	1828.9.3 = {
 		birth = yes
 	}
-	1888.1.1 = { #unknown, set to 60 years after birth
+	1888 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -729,7 +729,7 @@
 	1829.12.16 = {
 		birth = yes
 	}
-	1889.1.1 = { #unknown, set to 60 years after birth
+	1889 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -744,7 +744,7 @@
 	1833.3.1 = {
 		birth = yes
 	}
-	1893.1.1 = { #unknown, set to 60 years after birth
+	1893 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -759,7 +759,7 @@
 	1833.5.25 = { #the source gives the birth year as 1839, but that is most likely a typo: he is listed as the first child (and the second listed was born in 1834), and another child of the couple was born in 1839, on 1839.3.29; assuming 1839 to have been a typo (and the month and day to be correct), then the only possible correct year is 1833, as in 1832.5.25 his parents weren't married yet, and 1834.5.25 is too close to the birth of his sister Wilhelmina, who was born on 1834.7.24; subsequent years are not possible as then he wouldn't be the first child
 		birth = yes
 	}
-	1893.1.1 = { #unknown, set to 60 years after birth
+	1893 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -775,7 +775,7 @@
 	1834.7.24 = {
 		birth = yes
 	}
-	1894.1.1 = { #unknown, set to 60 years after birth
+	1894 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -791,7 +791,7 @@
 	1835.10.13 = {
 		birth = yes
 	}
-	1895.1.1 = { #unknown, set to 60 years after birth
+	1895 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -807,10 +807,10 @@
 	1836.2.11 = {
 		birth = yes
 	}
-	1847.1.1 = { #had the style of countess of Hohenstein as of 1847
+	1847 = { #had the style of countess of Hohenstein as of 1847
 		#add_claim = c_hohenstein
 	}
-	1896.1.1 = { #unknown, set to 60 years after birth
+	1896 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -826,7 +826,7 @@
 	1836.8.8 = {
 		birth = yes
 	}
-	1896.1.1 = { #unknown, set to 60 years after birth
+	1896 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -842,7 +842,7 @@
 		birth = yes
 	}
 	#had the style of count of Hohenstein as of 1847 (and as the eldest son of his mother, he would have been be the one with the greatest rights to the title)
-	1897.1.1 = { #unknown, set to 60 years after birth
+	1897 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -857,7 +857,7 @@
 	1838.7.30 = {
 		birth = yes
 	}
-	1898.1.1 = { #unknown, set to 60 years after birth
+	1898 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -873,10 +873,10 @@
 	1838.11.12 = {
 		birth = yes
 	}
-	1847.1.1 = { #had the style of countess of Hohenstein as of 1847
+	1847 = { #had the style of countess of Hohenstein as of 1847
 		#add_claim = c_hohenstein
 	}
-	1898.1.1 = { #unknown, set to 60 years after birth
+	1898 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -891,7 +891,7 @@
 	1839.3.29 = {
 		birth = yes
 	}
-	1899.1.1 = { #unknown, set to 60 years after birth
+	1899 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -907,7 +907,7 @@
 	1842.12.27 = {
 		birth = yes
 	}
-	1902.1.1 = { #unknown, set to 60 years after birth
+	1902 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -923,7 +923,7 @@
 	1844.7.11 = {
 		birth = yes
 	}
-	1904.1.1 = { #unknown, set to 60 years after birth
+	1904 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -939,7 +939,7 @@
 	1844.10.10 = {
 		birth = yes
 	}
-	1904.1.1 = { #unknown, set to 60 years after birth
+	1904 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

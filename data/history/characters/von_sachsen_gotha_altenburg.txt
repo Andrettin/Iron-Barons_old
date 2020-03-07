@@ -3,7 +3,7 @@
 	dynasty = von_sachsen_gotha_altenburg
 	culture = thuringian
 	religion = protestant #Source: "Almanach de Gotha pour l'année 1813", 1813, p. 1.
-	1744.1.1 = { #unknown, set to 60 years before death
+	1744 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1772.11.23 = { #had a son, August, with Maria Charlotte von Sachsen-Meiningen on 1772.11.23; Source: "Almanach de Gotha pour l'année 1813", 1813, pp. 1-2.

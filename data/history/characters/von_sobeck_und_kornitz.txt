@@ -3,11 +3,11 @@
 	dynasty = von_sobeck_und_kornitz
 	culture = saxon
 	religion = catholic
-	1722.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1722 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#count of Sobeck and Kornitz
-	1782.1.1 = { #unknown, set to 30 years after the birth of his daughter
+	1782 = { #unknown, set to 30 years after the birth of his daughter
 		death = yes
 	}
 }
@@ -23,7 +23,7 @@
 		birth = yes
 	}
 	#married to Friedrich Anton von Hohenzollern-Hechingen
-	1822.1.1 = { #unknown, set to 60 years after birth, +10 since she was still alive in 1815
+	1822 = { #unknown, set to 60 years after birth, +10 since she was still alive in 1815
 		death = yes
 	}
 }

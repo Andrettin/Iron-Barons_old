@@ -3,11 +3,11 @@
 	dynasty = von_arenberg
 	culture = rhenish
 	religion = catholic
-	1757.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1757 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#prince of Arenberg
-	1817.1.1 = { #unknown, set to 60 years after birth
+	1817 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,13 +19,13 @@
 	religion = catholic
 	female = yes
 	father = 10000549 #Ludwig von Arenberg
-	1787.1.1 = { #unknown, set to 20 years before marriage
+	1787 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1807.5.26 = { #married on 1807.5.26 to Pius August von Wittelsbach
 		spouse = 10000547 #Pius August von Wittelsbach
 	}
-	1847.1.1 = { #unknown, set to 60 years after birth
+	1847 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

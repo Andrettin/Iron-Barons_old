@@ -4,7 +4,7 @@
 	culture = flemish
 	religion = catholic
 	female = yes
-	1754.1.1 = { #unknown, set to 20 years before the birth of her daughter
+	1754 = { #unknown, set to 20 years before the birth of her daughter
 		birth = yes
 	}
 	#countess of Merode-Westerloo

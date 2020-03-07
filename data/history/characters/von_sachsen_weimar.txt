@@ -3,7 +3,7 @@
 	dynasty = von_sachsen_weimar_eisenach
 	culture = thuringian
 	religion = protestant
-	1698.1.1 = { #unknown, set to 60 years before death
+	1698 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1758.5.28 = { #succeeded by his son, Karl August on 1758.5.28
@@ -47,7 +47,7 @@
 	1828.10.31 = { #rector of the grand ducal and ducal academy of Jena after 1828.10.31
 		traits += scholar
 	}
-	1853.1.1 = { #unknown, set to 70 years after birth (can't be 60 because he is still alive in 1847)
+	1853 = { #unknown, set to 70 years after birth (can't be 60 because he is still alive in 1847)
 		death = yes
 	}
 }
@@ -63,7 +63,7 @@
 	1786.7.18 = { #born on 1786.7.18
 		birth = yes
 	}
-	1846.1.1 = { #unknown, set to 60 years after birth
+	1846 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -82,13 +82,13 @@
 	1816.5.30 = { #married on 1816.5.30 to Ida von Sachsen-Meiningen
 		spouse = 10000211 #Ida von Sachsen-Meiningen
 	}
-	1847.1.1 = { #lieutenant-general in the service of the Netherlands as of 1847
+	1847 = { #lieutenant-general in the service of the Netherlands as of 1847
 		employer = 10000096 #Willem II of the Netherlands
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -105,7 +105,7 @@
 		birth = yes
 	}
 	#wife of prince Karl of Prussia as of 1847
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -122,7 +122,7 @@
 		birth = yes
 	}
 	#wife of the prince of Prussia as of 1847
-	1871.1.1 = { #unknown, set to 60 years after birth
+	1871 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -141,14 +141,14 @@
 	1842.10.8 = {
 		spouse = 10000243 #married on 1842.10.8 to Sophie, daughter of King Willem II of the Netherlands
 	}
-	1847.1.1 = { #major-general in the service of Saxe-Weimar, of Prussia and of Russia, chief of the imperial Russian regiment of the hussars of Ingria, as well as the royal Prussian regiment of the 8th cuirassiers, as of 1847
+	1847 = { #major-general in the service of Saxe-Weimar, of Prussia and of Russia, chief of the imperial Russian regiment of the hussars of Ingria, as well as the royal Prussian regiment of the 8th cuirassiers, as of 1847
 		#traits += cavalry_leader
 		employer = 10000236 #Karl Friedrich von Sachsen-Weimar-Eisenach
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -163,7 +163,7 @@
 	1844.7.31 = {
 		birth = yes
 	}
-	1904.1.1 = { #unknown, set to 60 years after birth
+	1904 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -179,14 +179,14 @@
 	1823.10.11 = {
 		birth = yes
 	}
-	1847.1.1 = { #lieutenant in the 1st grenadiers regiment of the British guard as of 1847
+	1847 = { #lieutenant in the 1st grenadiers regiment of the British guard as of 1847
 		#traits += heavy_infantry_leader
 		employer = 10000113 #Queen Victoria I of the United Kingdom of Great Britain and Ireland
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1883.1.1 = { #unknown, set to 60 years after birth
+	1883 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -202,14 +202,14 @@
 	1825.8.4 = {
 		birth = yes
 	}
-	1847.1.1 = { #lieutenant of the gardes-du-corps at the service of the kingdom of Wurtemberg
+	1847 = { #lieutenant of the gardes-du-corps at the service of the kingdom of Wurtemberg
 		#traits += heavy_infantry_leader
 		employer = 10000247 #Wilhelm Friedrich von Württemberg
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1885.1.1 = { #unknown, set to 60 years after birth
+	1885 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -224,10 +224,10 @@
 	1827.6.28 = {
 		birth = yes
 	}
-	1847.1.1 = { #student of the imperial and royal academy of engineers at Vienna as of 1847
+	1847 = { #student of the imperial and royal academy of engineers at Vienna as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 	}
-	1887.1.1 = { #unknown, set to 60 years after birth
+	1887 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -243,7 +243,7 @@
 	1828.9.9 = {
 		birth = yes
 	}
-	1888.1.1 = { #unknown, set to 60 years after birth
+	1888 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -259,7 +259,7 @@
 	1830.5.20 = {
 		birth = yes
 	}
-	1890.1.1 = { #unknown, set to 60 years after birth
+	1890 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

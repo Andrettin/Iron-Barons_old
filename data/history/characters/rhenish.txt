@@ -6,7 +6,7 @@
 	1744.2.8 = { #born on 1744.2.8; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 5.
 		birth = yes
 	}
-	1824.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1813)
+	1824 = { #unknown, set to 80 years after birth (he was still alive in 1813)
 		death = yes
 	}
 }
@@ -16,14 +16,14 @@
 	dynasty = von_bentheim_steinfurth
 	culture = rhenish
 	religion = protestant #lutheran
-	1746.1.1 = { #unknown, set to 30 years before marriage
+	1746 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
 	1776.7.17 = { #married on 1776.7.17 to Juliane Wilhelmine von Holstein-Glücksburg
 		spouse = 10000769 #Juliane Wilhelmine von Holstein-Glücksburg
 	}
 	#count of Bentheim-Steinfurth
-	1806.1.1 = { #unknown, set to 30 years after marriage
+	1806 = { #unknown, set to 30 years after marriage
 		death = yes
 	}
 }
@@ -50,11 +50,11 @@
 	culture = rhenish
 	religion = protestant
 	female = yes
-	1752.1.1 = { #unknown, set to 20 years before daughter's birth
+	1752 = { #unknown, set to 20 years before daughter's birth
 		birth = yes
 	}
 	#countess of Haslingen
-	1812.1.1 = { #unknown, set to 60 years after birth
+	1812 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

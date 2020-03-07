@@ -3,11 +3,11 @@
 	dynasty = von_kaunitz
 	culture = saxon
 	religion = catholic
-	1745.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1745 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#prince of Kaunitz-Rietberg
-	1805.1.1 = { #unknown, set to 60 years after birth
+	1805 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,13 +19,13 @@
 	religion = catholic
 	female = yes
 	father = 10000592 #Ernst von Kaunitz
-	1775.1.1 = { #unknown, set to 20 years before marriage
+	1775 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1795.9.27 = { #married on 1795.9.27 to Clemens Wenceslaus Lothar von Metternich
 		spouse = 10000590 #Clemens Wenceslaus Lothar von Metternich
 	}
-	1835.1.1 = { #unknown, set to 60 years after birth
+	1835 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

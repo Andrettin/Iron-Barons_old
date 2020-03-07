@@ -14,7 +14,7 @@
 		#	make_commander_effect = yes #imperial Austrian field-marshal as of 1815, previously having been field-marshal of the Holy Roman Empire
 		#}
 	}
-	1817.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+	1817 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -24,7 +24,7 @@
 	dynasty = von_sachsen_saalfeld_coburg
 	culture = thuringian
 	religion = protestant #Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 3.
-	1746.1.1 = { #unknown, set to 60 years before death
+	1746 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1778.8.19 = {
@@ -49,7 +49,7 @@
 	1815.1.1 = {
 		traits += nun #"Decanistin" at Gandersheim as of 1815
 	}
-	1823.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1823 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }

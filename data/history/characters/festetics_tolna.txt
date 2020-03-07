@@ -4,13 +4,13 @@
 	culture = hungarian #given his dynasty
 	religion = catholic #given his dynasty
 	#count of Festetics of Tolna as of 1815
-	1781.1.1 = { #unknown, set to 30 years before first mention
+	1781 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	1811.8.31 = { #married on 1811.8.31 to Josephine von Hohenzollern-Hechingen
 		spouse = 10000718 #Josephine von Hohenzollern-Hechingen
 	}
-	1841.1.1 = { #unknown, set to 30 years after first mention
+	1841 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -27,7 +27,7 @@
 	#married Christian Friedrich Alexander von Württemberg on 1832.7.3
 	#widow of Christian Friedrich Alexander von Württemberg from 1844.7.7
 	#remarried to the Baron of Bourget
-	1872.1.1 = { #unknown, set to 60 years after birth
+	1872 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

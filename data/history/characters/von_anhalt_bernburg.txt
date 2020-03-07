@@ -3,11 +3,11 @@
 	dynasty = von_anhalt_bernburg
 	culture = saxon
 	religion = protestant
-	1714.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1714 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#prince of Anhalt-Bernburg
-	1774.1.1 = { #unknown, set to 60 years after birth
+	1774 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -18,7 +18,7 @@
 	culture = saxon
 	religion = protestant
 	father = 10000515 #Victor Friederich von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 8-9.
-	1736.1.1 = { #unknown, set to 60 years before death
+	1736 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#prince of Anhalt-Bernburg
@@ -39,7 +39,7 @@
 	}
 	#widowed of Friederich August von Anhalt-Zerbst on 1793.3.3; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, pp. 8-9.
 	#princess of Anhalt-Zerbst
-	1824.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+	1824 = { #unknown, set to 80 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -54,7 +54,7 @@
 	1746.11.14 = {
 		birth = yes
 	}
-	1826.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+	1826 = { #unknown, set to 80 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -89,7 +89,7 @@
 		birth = yes
 	}
 	#princess of Lippe-Detmold as of 1815
-	1819.1.1 = { #unknown, set to 60 years after birth
+	1819 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -106,7 +106,7 @@
 		birth = yes
 	}
 	#wife of prince Friedrich of Prussia
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -126,7 +126,7 @@
 	1834.10.30 = {
 		spouse = 10000364 #married on 1834.10.30 to Friederike Caroline Juliane, sister of duke Karl of Holstein-Glücksburg
 	}
-	1865.1.1 = { #unknown, set to 60 years after birth
+	1865 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

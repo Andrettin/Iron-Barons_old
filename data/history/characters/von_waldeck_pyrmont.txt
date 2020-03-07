@@ -3,10 +3,10 @@
 	dynasty = von_waldeck_pyrmont
 	culture = rhenish
 	religion = protestant
-	1771.1.1 = { #unknown, set to 30 years before first mention
+	1771 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1831.1.1 = { #unknown, set to 30 years after first mention
+	1831 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }

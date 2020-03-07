@@ -9,7 +9,7 @@
 		birth = yes
 	}
 	#married on 1776.7.17 to count Geldrik Ludwig Wilhelm of Bentheim-Steinfurth
-	1824.1.1 = { #unknown, set to 60 years after birth, +10 since she was still alive in 1815
+	1824 = { #unknown, set to 60 years after birth, +10 since she was still alive in 1815
 		death = yes
 	}
 }

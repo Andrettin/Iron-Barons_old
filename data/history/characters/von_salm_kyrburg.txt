@@ -3,11 +3,11 @@
 	dynasty = von_salm_kyrburg
 	culture = rhenish
 	religion = catholic
-	1732.1.1 = { #unknown, set to 30 years before the birth of his first known child
+	1732 = { #unknown, set to 30 years before the birth of his first known child
 		birth = yes
 	}
 	#prince of Salm-Kyrburg
-	1792.1.1 = { #unknown, set to 30 years after the birth of his first known child
+	1792 = { #unknown, set to 30 years after the birth of his first known child
 		death = yes
 	}
 }
@@ -19,11 +19,11 @@
 	religion = catholic
 	female = yes
 	father = 10000743 #Philipp Joseph von Salm-Kyrburg
-	1762.1.1 = { #unknown, set to 20 years before marriage
+	1762 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	#married on 1782.8.12 to Adam Alonsins von Hohenzollern-Sigmaringen
-	1822.1.1 = { #unknown, set to 40 years after marriage
+	1822 = { #unknown, set to 40 years after marriage
 		death = yes
 	}
 }

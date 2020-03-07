@@ -3,11 +3,11 @@
 	dynasty = von_solms_braunfels
 	culture = rhenish
 	religion = protestant
-	1702.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1702 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#prince of Solms-Braunfels
-	1762.1.1 = { #unknown, set to 60 years after birth
+	1762 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,11 +19,11 @@
 	religion = protestant
 	female = yes
 	father = 10000497 #Friedrich Wilhelm von Solms-Braunfels
-	1732.1.1 = { #unknown, set to 20 years before the birth of her son
+	1732 = { #unknown, set to 20 years before the birth of her son
 		birth = yes
 	}
 	#wife of Karl Ludwig von Anhalt-Bernburg-Schaumburg
-	1822.1.1 = { #unknown, set to 90 years after birth (she was still alive in 1815)
+	1822 = { #unknown, set to 90 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -39,7 +39,7 @@
 		birth = yes
 	}
 	#became widowed of Victor Amadeus von Anhalt-Bernburg-Schaumburg on 1790.5.2
-	1820.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1820 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }

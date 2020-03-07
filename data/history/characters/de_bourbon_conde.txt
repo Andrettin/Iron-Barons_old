@@ -13,7 +13,7 @@
 		spouse = 10000610 #Caterina Brignole
 	}
 	#prince of Condé as of 1815
-	1816.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+	1816 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -30,7 +30,7 @@
 	}
 	#married to Louise Marie de Bourbon-Orléans, and separated since 1780
 	#duke of Bourbon as of 1815
-	1816.1.1 = { #unknown, set to 60 years after birth
+	1816 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -49,7 +49,7 @@
 	1815.1.1 = {
 		traits += nun #abbess of Remiremont as of 1815
 	}
-	1818.1.1 = { #unknown, set to 60 years after birth
+	1818 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

@@ -4,11 +4,11 @@
 	culture = italian
 	religion = catholic
 	female = yes
-	1347.1.1 = { #unknown, set to 30 years before first mention
+	1347 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#married Leopold III of Austria, and had her son Ernst with him in 1377; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
-	1407.1.1 = { #unknown, set to 30 years after first mention
+	1407 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -18,11 +18,11 @@
 	dynasty = de_luca
 	culture = italian #correct?
 	religion = catholic
-	1634.1.1 = { #unknown, set to 30 years before first mention
+	1634 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#was one of the two directors of Austria's oriental company, which was founded in 1664
-	1694.1.1 = { #unknown, set to 30 years after first mention
+	1694 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -32,7 +32,7 @@
 	dynasty = de_bourbon
 	culture = italian
 	religion = catholic
-	1757.1.1 = { #unknown, set to 60 years before death
+	1757 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#king of Etruria
@@ -57,7 +57,7 @@
 	1803.11.6 = { #married on 1803.11.6 to Marie-Pauline Bonaparte; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 4.
 		spouse = 10000444 #Marie-Pauline Bonaparte
 	}
-	1835.1.1 = { #unknown, set to 60 years after birth
+	1835 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -68,13 +68,13 @@
 	culture = italian
 	religion = catholic
 	female = yes
-	1778.1.1 = { #unknown, set to 20 years before marriage
+	1778 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1798.10.1 = { #married to Louis Joseph de Bourbon-Condé in 1798.10
 		spouse = 10000609 #Louis Joseph de Bourbon-Condé
 	}
-	1838.1.1 = { #unknown, set to 60 years after birth
+	1838 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -87,14 +87,14 @@
 	#traits += fortune_builder #described as skilled and of particular capacity, and enterprising
 	#traits += architect #engineer
 	traits += diligent #described as diligent ("eifrig")
-	1807.1.1 = { #unknown, set to 30 years before first mention
+	1807 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	1837.1.1 = { #began working in the Lombardo-Venetian railways in 1837
 		employer = 10000002 #Ferdinand I von Habsburg of Austria
 	}
 	#on 1846.11.2 he was appointed as directing engineer in the Lombardo-Venetian railways
-	1847.1.1 = {
+	1847 = {
 		employer = 10000063 #Archduke Reiner von Habsburg was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 		#effect = {
 		#	#give_minor_title = title_engineer
@@ -108,7 +108,7 @@
 		#	#remove_title = title_engineer
 		#}
 	}
-	1867.1.1 = { #unknown, set to 30 years after first mention
+	1867 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }

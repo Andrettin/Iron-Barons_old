@@ -3,13 +3,13 @@
 	dynasty = von_hessen_philippsthal
 	culture = rhenish
 	religion = protestant
-	1763.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1763 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	1793.2.10 = { #married to Victorie von Anhalt-Bernburg-Schaumburg, and they had a daughter on 1793.2.10
 		spouse = 10000501 #Victorie Amalie von Anhalt-Bernburg-Schaumburg
 	}
-	1813.1.1 = { #unknown, set to 60 years after birth
+	1813 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -26,7 +26,7 @@
 		spouse = 10000654 #Marie Franziske Berghe von Trips
 	}
 	#landgrave of Hesse-Philippsthal as of 1815
-	1826.1.1 = { #unknown, set to 60 years after birth
+	1826 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -43,7 +43,7 @@
 	1812.2.17 = { #married a second time on 1812.2.17 to Karoline Wilhelmine von Hessen-Philippsthal
 		spouse = 10000658 #Karoline Wilhelmine von Hessen-Philippsthal
 	}
-	1831.1.1 = { #unknown, set to 60 years after birth
+	1831 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -62,7 +62,7 @@
 	1810.12.19 = { #married on 1810.12.19 to Ferdinand, count de la Ville sur Illon
 		spouse = 10000656 #Ferdinand de la Ville sur Illon
 	}
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -81,7 +81,7 @@
 	1812.2.17 = { #married on 1812.2.17 to Ernst Constantin von Hessen-Philippsthal
 		spouse = 10000657 #Ernst Constantin von Hessen-Philippsthal
 	}
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -96,7 +96,7 @@
 	1799.10.15 = {
 		birth = yes
 	}
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -114,7 +114,7 @@
 	1845.10.9 = {
 		spouse = 10000284 #married on 1845.10.9 to Maria Alexandrine von Württemberg
 	}
-	1863.1.1 = { #unknown, set to 60 years after birth
+	1863 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -129,7 +129,7 @@
 	1805.1.26 = {
 		birth = yes
 	}
-	1865.1.1 = { #unknown, set to 60 years after birth
+	1865 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -139,14 +139,14 @@
 	dynasty = von_hessen_philippsthal
 	culture = rhenish
 	religion = protestant
-	1754.1.1 = { #unknown, set to 30 years before the birth of his first child
+	1754 = { #unknown, set to 30 years before the birth of his first child
 		birth = yes
 	}
 	1784.6.27 = { #married to Luise Christiane zu Sachsen-Meiningen, and they had their first child on 1784.6.27
 		spouse = 10000665 #Luise Christiane zu Sachsen-Meiningen
 	}
 	#prince of Barchfeld
-	1814.1.1 = { #unknown, set to 60 years after birth
+	1814 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -161,7 +161,7 @@
 	1784.6.27 = {
 		birth = yes
 	}
-	1844.1.1 = { #unknown, set to 60 years after birth
+	1844 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -186,7 +186,7 @@
 		#	make_commander_effect = yes #royal Danish general major as of 1815
 		#}
 	}
-	1846.1.1 = { #unknown, set to 60 years after birth
+	1846 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -201,7 +201,7 @@
 	1789.6.28 = {
 		birth = yes
 	}
-	1849.1.1 = { #unknown, set to 60 years after birth
+	1849 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

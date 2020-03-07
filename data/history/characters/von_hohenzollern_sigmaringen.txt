@@ -3,7 +3,7 @@
 	dynasty = von_hohenzollern_sigmaringen
 	culture = swabian
 	religion = catholic
-	1725.1.1 = { #unknown, set to 60 years before death
+	1725 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#prince of Hohenzollern-Sigmaringen
@@ -26,7 +26,7 @@
 	}
 	#succeeded his father, prince Karl Friedrich of Hohenzollern-Sigmaringen, on 1785.12.26
 	#prince of Hohenzollern-Sigmaringen as of 1815
-	1822.1.1 = { #unknown, set to 60 years after birth
+	1822 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -45,7 +45,7 @@
 	1815.1.1 = {
 		traits += nun #"Stiftsdame" at Buchau as of 1815
 	}
-	1826.1.1 = { #unknown, set to 60 years after birth
+	1826 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -71,7 +71,7 @@
 		#}
 	}
 	#reigning prince of Hohenzollern-Sigmaringen
-	1845.1.1 = { #unknown, set to 60 years after birth
+	1845 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -87,7 +87,7 @@
 	1810.6.6 = {
 		birth = yes
 	}
-	1860.1.1 = { #unknown, set to 60 years after birth
+	1860 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -102,7 +102,7 @@
 	1811.9.7 = {
 		birth = yes
 	}
-	1861.1.1 = { #unknown, set to 60 years after birth
+	1861 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

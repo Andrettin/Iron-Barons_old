@@ -3,11 +3,11 @@
 	dynasty = von_holstein_beck
 	culture = saxon
 	religion = protestant
-	1713.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1713 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#duke of Holstein-Beck
-	1773.1.1 = { #unknown, set to 60 years after birth
+	1773 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -18,11 +18,11 @@
 	culture = saxon
 	religion = protestant #lutheran
 	female = yes
-	1725.1.1 = { #unknown, set to 30 years before the birth of her son
+	1725 = { #unknown, set to 30 years before the birth of her son
 		birth = yes
 	}
 	#married to Georg Ludwig von Holstein-Gottorp-Oldenburg
-	1785.1.1 = { #unknown, set to 30 years after the birth of her son
+	1785 = { #unknown, set to 30 years after the birth of her son
 		death = yes
 	}
 }
@@ -34,7 +34,7 @@
 	religion = protestant
 	female = yes
 	father = 10000510 #Friederich von Holstein-Beck
-	1743.1.1 = { #unknown, set to 60 years before death
+	1743 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#married to Ferdinand von Anhalt-Pless
@@ -54,7 +54,7 @@
 	1780.3.9 = { #married on 1780.3.9 to Friederike Amalie, daughter of count Leopold of Schlieben
 		spouse = 10000763 #Friederike Amalie von Schlieben
 	}
-	1817.1.1 = { #unknown, set to 60 years after birth
+	1817 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -71,7 +71,7 @@
 		birth = yes
 	}
 	#widowed of Gottl., baron of Richthofen, on 1808.2.25
-	1840.1.1 = { #unknown, set to 60 years after birth
+	1840 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -89,7 +89,7 @@
 	1810.1.28 = { #married on 1810.1.28 to Louise Karoline, daughter of landgrave Karl of Hesse
 		spouse = 10000644 #Louise Karoline von Hessen-Kassel
 	}
-	1845.1.1 = { #unknown, set to 60 years after birth
+	1845 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -105,7 +105,7 @@
 	1810.10.23 = {
 		birth = yes
 	}
-	1870.1.1 = { #unknown, set to 60 years after birth
+	1870 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -126,7 +126,7 @@
 		spouse = 10000362 #married on 1834.10.30 to Alexander Karl von Anhalt-Bernburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
 	}
 	#sister of duke Karl of Holstein-Glücksburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 9.
-	1871.1.1 = { #unknown, set to 60 years after birth
+	1871 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

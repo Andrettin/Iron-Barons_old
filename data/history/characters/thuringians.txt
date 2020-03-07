@@ -13,7 +13,7 @@
 	}
 	#created countess of Reina
 	#countess of Reina as of 1847
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

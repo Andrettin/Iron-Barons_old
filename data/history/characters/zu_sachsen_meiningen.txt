@@ -3,12 +3,12 @@
 	dynasty = zu_sachsen_meiningen
 	culture = thuringian
 	religion = protestant
-	1721.1.1 = { #unknown, set to 30 years before first mention
+	1721 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#was duke of Saxe-Meiningen; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 2.
 	#his daughter was born on 1751.9.11; Source: "Almanach de Gotha pour l'année 1813", 1813, p. 2.
-	1781.1.1 = { #unknown, set to 30 years after first mention
+	1781 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -23,7 +23,7 @@
 	1751.9.11 = { #born on 1751.9.11; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 2.
 		birth = yes
 	}
-	1821.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1821 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -51,13 +51,13 @@
 	culture = thuringian
 	religion = protestant
 	female = yes
-	1764.1.1 = { #unknown, set to 20 years before the birth of her first child
+	1764 = { #unknown, set to 20 years before the birth of her first child
 		birth = yes
 	}
 	1784.6.27 = { #married to Adolph von Hessen-Philippsthal, and they had their first child on 1784.6.27
 		spouse = 10000663 #Adolph von Hessen-Philippsthal
 	}
-	1824.1.1 = { #unknown, set to 60 years after birth
+	1824 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -74,7 +74,7 @@
 		birth = yes
 	}
 	#dowager queen of Great Britain as of 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -91,7 +91,7 @@
 		birth = yes
 	}
 	#married on 1816.5.30 to Bernhard von Sachsen-Weimar; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 3, 5.
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -112,7 +112,7 @@
 		spouse = 10000206 #Marie Friederike Wilhelmine von Hessen-Kassel
 	}
 	#succeeded by the convention of 1826.11.12 to the principalities of Hildburghausen and Saalfeld; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 3.
-	1860.1.1 = { #unknown, set to 60 years after birth
+	1860 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -127,7 +127,7 @@
 	1826.4.2 = {
 		birth = yes
 	}
-	1886.1.1 = { #unknown, set to 60 years after birth
+	1886 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -143,7 +143,7 @@
 	1843.8.6 = {
 		birth = yes
 	}
-	1903.1.1 = { #unknown, set to 60 years after birth
+	1903 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

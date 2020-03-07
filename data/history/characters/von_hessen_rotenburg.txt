@@ -3,7 +3,7 @@
 	dynasty = von_hessen_rotenburg
 	culture = rhenish
 	religion = catholic
-	1752.1.1 = { #unknown, set to 60 years before death
+	1752 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1779.9.2 = { #married to Leopoldine Adelgunde, daughter of prince Franz Joseph of Liechtenstein, and they had their first known child on 1779.9.2
@@ -24,7 +24,7 @@
 	1752.1.10 = {
 		birth = yes
 	}
-	1822.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+	1822 = { #unknown, set to 70 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -42,7 +42,7 @@
 	1815.1.1 = {
 		#traits += scholarly_theologian #canonist in Thorn as of 1815
 	}
-	1823.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1823 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -60,7 +60,7 @@
 	1815.1.1 = {
 		#traits += martial_cleric #provost in Essen as of 1815
 	}
-	1825.1.1 = { #unknown, set to 70 years after birth (she was still alive in 1815)
+	1825 = { #unknown, set to 70 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -79,7 +79,7 @@
 		spouse = 10000670 #Elisabeth Eleonore Charlotte von Hohenlohe-Langenburg
 	}
 	#landgrave of Hesse-Rotenburg as of 1815
-	1839.1.1 = { #unknown, set to 60 years after birth
+	1839 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -95,7 +95,7 @@
 	1787.9.12 = {
 		birth = yes
 	}
-	1847.1.1 = { #unknown, set to 60 years after birth
+	1847 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

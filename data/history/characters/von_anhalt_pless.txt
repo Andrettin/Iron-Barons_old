@@ -57,7 +57,7 @@
 	1791.5.20 = { #married on 1791.5.20 to count Johann Heinrich VI of Hochberg zu Fürstenstein
 		spouse = 10000512 #Johann Heinrich von Hochberg zu Fürstenstein
 	}
-	1830.1.1 = { #unknown, set to 60 years after birth
+	1830 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -87,7 +87,7 @@
 		dynasty = von_anhalt_kothen
 	}
 	#elder prince of the house of Anhalt after 1834.3.24
-	1848.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was still alive in 1847)
+	1848 = { #unknown, set to 70 years after birth (cannot be 60 as he was still alive in 1847)
 		death = yes
 	}
 }
@@ -102,7 +102,7 @@
 	1783.8.10 = {
 		birth = yes
 	}
-	1843.1.1 = { #unknown, set to 60 years after birth
+	1843 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

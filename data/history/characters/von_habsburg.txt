@@ -54,7 +54,7 @@
 	culture = austrian
 	religion = catholic
 	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire (since he is Ferdinand I of Austria's grand uncle)
-	1748.1.1 = { #unknown, set to the year after the birth of his (presumably elder, since he was the one to inheirt) brother
+	1748 = { #unknown, set to the year after the birth of his (presumably elder, since he was the one to inheirt) brother
 		birth = yes
 	}
 	#duke of Modena-Breisgau
@@ -75,7 +75,7 @@
 	female = yes
 	#daughter of Franz I, presumably of the Holy Roman Empire
 	mother = 10000129 #Empress Maria Theresia of the Holy Roman Empire (presumably her mother, since her father is Franz I)
-	1733.1.1 = { #unknown, set to 60 years before death
+	1733 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#wife of Albert von Wettin, duke of Sachsen-Teschen
@@ -92,13 +92,13 @@
 	female = yes
 	father = 10000024 #Leopold II of the Holy Roman Empire
 	mother = 10000025 #Marie Louise, daughter of king Charles III of Spain; presumably, since she is also the mother of Leopold II's other children
-	1767.1.1 = { #unknown, set to 20 years before marriage
+	1767 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1787.10.18 = { #married on 1787.10.18 to Anton von Wettin
 		spouse = 10000188 #Anton von Wettin
 	}
-	1827.1.1 = { #unknown, set to 60 years after birth
+	1827 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -131,7 +131,7 @@
 	culture = austrian
 	religion = catholic
 	female = yes
-	1756.1.1 = { #unknown, set to 20 years before the birth of her first child
+	1756 = { #unknown, set to 20 years before the birth of her first child
 		birth = yes
 	}
 	#archduchess of Este, duchess of Massa and princess of Carrara
@@ -172,14 +172,14 @@
 	1815.9.17 = {
 		spouse = 10000028 #Henriette, daughter of Friedrich Wilhelm, Prince of Nassau-Weilburg
 	}
-	1847.1.1 = { #field marshal-general and proprietary of the 3rd infantry regiment and of the 3rd ulans regiment as of 1847
+	1847 = { #field marshal-general and proprietary of the 3rd infantry regiment and of the 3rd ulans regiment as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1857.1.1 = { #unknown
+	1857 = { #unknown
 		death = yes
 	}
 }
@@ -196,7 +196,7 @@
 		birth = yes
 	}
 	#became widowed of prince-elector Karl Theodor on 1799.2.16; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 12.
-	1856.1.1 = { #unknown, set to 80 years after birth (she was alive in 1847)
+	1856 = { #unknown, set to 80 years after birth (she was alive in 1847)
 		death = yes
 	}
 }
@@ -227,14 +227,14 @@
 	1781.4.25 = {
 		birth = yes
 	}
-	1847.1.1 = { #fieldmarshal, commander-in-chief and proprietary of the 3rd hussars regiment, as well as of the imperial Russian hussars regiment of Isum., as of 1847
+	1847 = { #fieldmarshal, commander-in-chief and proprietary of the 3rd hussars regiment, as well as of the imperial Russian hussars regiment of Isum., as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1851.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
+	1851 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
 		death = yes
 	}
 }
@@ -250,13 +250,13 @@
 	1782.7.14 = {
 		birth = yes
 	}
-	1847.1.1 = { #general-"feldzeugmestre", proprietary of the 4th infantry regiment and grandmaster of the Teutonic Order within the Empire of Austria as of 1847
+	1847 = { #general-"feldzeugmestre", proprietary of the 4th infantry regiment and grandmaster of the Teutonic Order within the Empire of Austria as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1852.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
+	1852 = { #unknown, set to 70 years after birth (cannot be 60 as he was alive in 1847)
 		death = yes
 	}
 }
@@ -280,14 +280,14 @@
 	1819.8.24 = {
 		spouse = 10000043 #Princess Maria Dorothée Wilhelmina of Wurtemberg
 	}
-	1847.1.1 = { #field marshal-general and proprietary of the 2nd and 12th hussars regiments as of 1847
+	1847 = { #field marshal-general and proprietary of the 2nd and 12th hussars regiments as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1857.1.1 = { #unknown
+	1857 = { #unknown
 		death = yes
 	}	
 }
@@ -303,7 +303,7 @@
 	1782.1.20 = {
 		birth = yes
 	}
-	1847.1.1 = { #was fieldmarshal and general director of engineering and fortifications, as well as proprietary of the 1st regiment of dragoons and the 16th Prussian regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	1847 = { #was fieldmarshal and general director of engineering and fortifications, as well as proprietary of the 1st regiment of dragoons and the 16th Prussian regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 		traits += architect #engineer
 		#traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
@@ -311,7 +311,7 @@
 		#	make_commander_effect = yes
 		#}
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
+	1852 = { #unknown, set to 60 years after birth, +10 because he was still alive in 1847
 		death = yes
 	}
 }
@@ -331,13 +331,13 @@
 		spouse = 10000064 #Francisca de Saboya
 	}
 	#was (Austrian) viceroy of Lombardy-Venetia in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
-	1847.1.1 = { #was general-"feldzeugmestre" and proprietary of the 11th regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
+	1847 = { #was general-"feldzeugmestre" and proprietary of the 11th regiment of infantry in 1847; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 11-12.
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1857.1.1 = { #unknown
+	1857 = { #unknown
 		death = yes
 	}
 }
@@ -353,14 +353,14 @@
 	1784.12.13 = {
 		birth = yes
 	}
-	1847.1.1 = { #fieldmarshal and general-director of artillery, and proprietary of the 8th infantry regiment as of 1847
+	1847 = { #fieldmarshal and general-director of artillery, and proprietary of the 8th infantry regiment as of 1847
 		#traits += siege_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1857.1.1 = { #unknown
+	1857 = { #unknown
 		death = yes
 	}
 }
@@ -379,7 +379,7 @@
 	1810.3.11 = { #married by procuration on 1810.3.11 and in person on 1810.4.2 to Napoleon; Source: "Almanach de Gotha pour l'année 1847", 1847, pp. 10-11.
 		spouse = 10000434 #Emperor Napoléon of France
 	}
-	1851.1.1 = { #unknown, set to 60 years after birth
+	1851 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -398,7 +398,7 @@
 	1831.2.12 = { #married by procuration on 1831.2.12 and in person on 1831.2.27
 		spouse = 10000015 #Mariana de Saboya
 	}
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -434,13 +434,13 @@
 	1824.11.4 = { #married on 1824.11.4
 		spouse = 10000018 #Friederike Sophie Dorothee von Wittelsbach
 	}
-	1847.1.1 = { #FMLieut. and proprietary of the 52nd infantry regiment as of 1847
+	1847 = { #FMLieut. and proprietary of the 52nd infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1854.1.1 = {
+	1854 = {
 		death = yes
 	}
 	
@@ -459,7 +459,7 @@
 	1804.6.8 = {
 		birth = yes
 	}
-	1864.1.1 = { #unknown, set to 60 years after birth
+	1864 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -476,7 +476,7 @@
 		birth = yes
 	}
 	#married on 1837.1.9 in Trent to Ferdinand II of the Two Sicilies
-	1876.1.1 = { #unknown, set to 60 years after birth
+	1876 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -495,13 +495,13 @@
 	1844.5.1 = {
 		spouse = 10000030 #Princess Hildegard of Bavaria
 	}
-	1847.1.1 = { #FML., general-commander in Lower and Upper Austria, in Salzburg and in Vienna, proprietary of the 44th infantry regiment
+	1847 = { #FML., general-commander in Lower and Upper Austria, in Salzburg and in Vienna, proprietary of the 44th infantry regiment
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1877.1.1 = { #unknown, set to 60 years after birth
+	1877 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -517,14 +517,14 @@
 	1817.9.14 = {
 		birth = yes
 	}
-	1847.1.1 = { #major-general and proprietary of the 58th infantry regiment as of 1847
+	1847 = { #major-general and proprietary of the 58th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
 	#governor-in-chief of the kingdom of Bohemia as of 1847
-	1877.1.1 = { #unknown, set to 60 years after birth
+	1877 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 	
@@ -541,14 +541,14 @@
 	1818.7.29 = {
 		birth = yes
 	}
-	1847.1.1 = { #FMLieut. and commander of the division in Prague, proprietary of the 51st imperial and royal infantry regiment, as well as the Russian ulans regiment of Belgorod as of 1847
+	1847 = { #FMLieut. and commander of the division in Prague, proprietary of the 51st imperial and royal infantry regiment, as well as the Russian ulans regiment of Belgorod as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -565,7 +565,7 @@
 		birth = yes
 	}
 	#wife of the royal prince of Sardinia
-	1880.1.1 = { #unknown, set to 60 years after birth
+	1880 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -581,13 +581,13 @@
 	1821.5.14 = {
 		birth = yes
 	}
-	1847.1.1 = { #FMLieut., vice-admiral and commander-in-chief of the imperial navy, proprietary of the 16th infantry regiment as of 1847
+	1847 = { #FMLieut., vice-admiral and commander-in-chief of the imperial navy, proprietary of the 16th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1881.1.1 = { #unknown, set to 60 years after birth
+	1881 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -603,14 +603,14 @@
 	1823.6.6 = {
 		birth = yes
 	}
-	1847.1.1 = { #colonel and proprietary of the 53rd infantry regiment, and colonel of the dragoons of the regiment "King of Bavaria" as of 1847
+	1847 = { #colonel and proprietary of the 53rd infantry regiment, and colonel of the dragoons of the regiment "King of Bavaria" as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1883.1.1 = { #unknown, set to 60 years after birth
+	1883 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -626,14 +626,14 @@
 	1824.8.8 = {
 		birth = yes
 	}
-	1847.1.1 = { #proprietary of the 48th infantry regiment and colonel of the hussars regiment "King of Sardinia", number 5, as of 1847
+	1847 = { #proprietary of the 48th infantry regiment and colonel of the hussars regiment "King of Sardinia", number 5, as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1884.1.1 = { #unknown, set to 60 years after birth
+	1884 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -649,10 +649,10 @@
 	1825.9.10 = {
 		birth = yes
 	}
-	1847.1.1 = {
+	1847 = {
 		traits += nun #abbess of the Theresian noble chapter in Prague as of 1847
 	}
-	1885.1.1 = { #unknown, set to 60 years after birth
+	1885 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -668,13 +668,13 @@
 	1826.1.7 = {
 		birth = yes
 	}
-	1847.1.1 = { #imperial and royal colonel of the 11th infantry regiment as of 1847
+	1847 = { #imperial and royal colonel of the 11th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1886.1.1 = { #unknown, set to 60 years after birth
+	1886 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -690,13 +690,13 @@
 	1827.1.11 = {
 		birth = yes
 	}
-	1847.1.1 = { #imperial and royal colonel of the infantry regiment "The Emperor", number 1, as of 1847
+	1847 = { #imperial and royal colonel of the infantry regiment "The Emperor", number 1, as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1887.1.1 = { #unknown, set to 60 years after birth
+	1887 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -712,13 +712,13 @@
 	1827.4.21 = {
 		birth = yes
 	}
-	1847.1.1 = { #proprietary of the 12th infantry regiment as of 1847
+	1847 = { #proprietary of the 12th infantry regiment as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1887.1.1 = { #unknown, set to 60 years after birth
+	1887 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -734,13 +734,13 @@
 	1828.5.9 = {
 		birth = yes
 	}
-	1847.1.1 = { #imperial and royal colonel of the regiment "Archduke Karl", number 3, as of 1847
+	1847 = { #imperial and royal colonel of the regiment "Archduke Karl", number 3, as of 1847
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
 		#	make_commander_effect = yes
 		#}
 	}
-	1888.1.1 = { #unknown, set to 60 years after birth
+	1888 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -757,7 +757,7 @@
 	1830.8.18 = {
 		birth = yes
 	}
-	1847.1.1 = { #colonel and proprietary of the 3rd dragoons regiment as of 1847
+	1847 = { #colonel and proprietary of the 3rd dragoons regiment as of 1847
 		#traits += cavalry_leader
 		employer = 10000002 #Emperor Ferdinand I of Austria
 		#effect = {
@@ -780,7 +780,7 @@
 	1831.1.17 = {
 		birth = yes
 	}
-	1891.1.1 = { #unknown, set to 60 years after birth
+	1891 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -795,7 +795,7 @@
 	1832.7.6 = {
 		birth = yes
 	}
-	1892.1.1 = { #unknown, set to 60 years after birth
+	1892 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -810,7 +810,7 @@
 	1833.3.2 = {
 		birth = yes
 	}
-	1893.1.1 = { #unknown, set to 60 years after birth
+	1893 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -825,7 +825,7 @@
 	1833.7.30 = {
 		birth = yes
 	}
-	1893.1.1 = { #unknown, set to 60 years after birth
+	1893 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -841,7 +841,7 @@
 	1836.8.23 = {
 		birth = yes
 	}
-	1896.1.1 = { #unknown, set to 60 years after birth
+	1896 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -856,7 +856,7 @@
 	1842.5.15 = {
 		birth = yes
 	}
-	1902.1.1 = { #unknown, set to 60 years after birth
+	1902 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -874,7 +874,7 @@
 	1845.7.15 = {
 		birth = yes
 	}
-	1905.1.1 = { #unknown, set to 60 years after birth
+	1905 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

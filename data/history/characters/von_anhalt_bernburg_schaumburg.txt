@@ -3,7 +3,7 @@
 	dynasty = von_anhalt_bernburg_schaumburg
 	culture = saxon
 	religion = protestant
-	1746.1.1 = { #unknown, set to 60 years before death
+	1746 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#prince of Anhalt-Bernburg-Schaumburg
@@ -19,10 +19,10 @@
 	culture = saxon
 	religion = protestant
 	#brother of Karl Ludwig von Anhalt-Bernburg-Schaumburg
-	1742.1.1 = { #unknown, set to 30 years before daughter's birth
+	1742 = { #unknown, set to 30 years before daughter's birth
 		birth = yes
 	}
-	1802.1.1 = { #unknown, set to 60 years after birth
+	1802 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -33,7 +33,7 @@
 	culture = saxon
 	religion = protestant
 	#brother of Karl Ludwig von Anhalt-Bernburg-Schaumburg
-	1730.1.1 = { #unknown, set to 60 years before death
+	1730 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1790.5.2 = {
@@ -63,7 +63,7 @@
 	religion = protestant
 	father = 10000498 #Karl Ludwig von Anhalt-Bernburg-Schaumburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
 	mother = 10000496 #Amalie Eleonore von Solms-Braunfels; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 7.
-	1752.1.1 = { #unknown, set to 60 years before death
+	1752 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1797.12.2 = { #married to Amalie Charlotte von Nassau-Weilburg, and had his first child with her on 1797.12.2
@@ -86,7 +86,7 @@
 	1772.2.11 = { #born on 1772.2.11
 		birth = yes
 	}
-	1832.1.1 = { #unknown, set to 60 years after birth
+	1832 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -120,7 +120,7 @@
 	1800.2.23 = {
 		birth = yes
 	}
-	1860.1.1 = { #unknown, set to 60 years after birth
+	1860 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -137,7 +137,7 @@
 		birth = yes
 	}
 	#dowager princess and regent of Waldeck as of 1847
-	1862.1.1 = { #unknown, set to 60 years after birth
+	1862 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -153,7 +153,7 @@
 	1804.3.10 = {
 		birth = yes
 	}
-	1864.1.1 = { #unknown, set to 60 years after birth
+	1864 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

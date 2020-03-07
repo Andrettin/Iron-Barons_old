@@ -4,11 +4,11 @@
 	culture = saxon
 	religion = catholic
 	female = yes
-	1397.1.1 = { #unknown, set to 30 years before first mention
+	1397 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#married Friedrich IV of Austria, and had her son Sigmund with him in 1427; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 245.
-	1457.1.1 = { #unknown, set to 30 years after first mention
+	1457 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -18,7 +18,7 @@
 	dynasty = von_richthofen
 	culture = saxon
 	religion = protestant #lutheran
-	1748.1.1 = { #unknown, set to 60 years before death
+	1748 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#baron of Richthofen
@@ -33,14 +33,14 @@
 	dynasty = von_hochberg_zu_furstenstein
 	culture = saxon
 	religion = protestant
-	1761.1.1 = { #unknown, set to 30 years before marriage
+	1761 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
 	1791.5.20 = { #married on 1791.5.20 to Anne Emilie von Anhalt-Pless
 		spouse = 10000511 #Anne Emilie von Anhalt-Pless
 	}
 	#duke of Hochberg zu Fürstenstein, as Johann Heinrich VI
-	1821.1.1 = { #unknown, set to 60 years after birth
+	1821 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -56,7 +56,7 @@
 		birth = yes
 	}
 	#married in to Friederich Karl Emil von Holstein-Sonderburg-Augustenburg
-	1838.1.1 = { #unknown, set to 60 years after birth
+	1838 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -74,7 +74,7 @@
 		spouse = 10000368 #married on 1816.5.20 to Ferdinand von Anhalt-Pless
 	}
 	#widowed on 1830.8.23
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -92,7 +92,7 @@
 		spouse = 10000358 #married on 1840.7.9 to Wilhelm Woldemar von Anhalt-Dessau
 	}
 	#baroness of Stolzenberg as of 1847
-	1872.1.1 = { #unknown, set to 60 years after birth
+	1872 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

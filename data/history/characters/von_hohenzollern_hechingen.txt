@@ -12,7 +12,7 @@
 	1815.1.1 = {
 		traits += nun #"Stiftsdame" at Buchau as of 1815
 	}
-	1821.1.1 = { #unknown, set to 60 years after birth, +40 since she was still alive in 1815
+	1821 = { #unknown, set to 60 years after birth, +40 since she was still alive in 1815
 		death = yes
 	}
 }
@@ -27,7 +27,7 @@
 		birth = yes
 	}
 	#"Domb." at Kölln and Konstanz as of 1815
-	1820.1.1 = { #unknown, set to 60 years after birth, +30 since he was still alive in 1815
+	1820 = { #unknown, set to 60 years after birth, +30 since he was still alive in 1815
 		death = yes
 	}
 }
@@ -38,7 +38,7 @@
 	culture = swabian
 	religion = catholic
 	#paternal uncle of Hermann Friedrich Otto von Hohenzollern-Hechingen
-	1746.1.1 = { #unknown, set to 30 years before the birth of his first known child
+	1746 = { #unknown, set to 30 years before the birth of his first known child
 		birth = yes
 	}
 	1776.1.1 = { #married to Ernestine Josephe, daughter of count Felix of Sobeck and Kornitz; unknown date, set to the birth of their first known child
@@ -54,7 +54,7 @@
 	dynasty = von_hohenzollern_hechingen
 	culture = swabian
 	religion = catholic
-	1750.1.1 = { #unknown, set to 60 years before death
+	1750 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1774.11.1 = { #married to Louise Juliana Constantie, countess of Merode-Westerloo, and they had their daughter on 1774.11.1
@@ -87,7 +87,7 @@
 		#	make_commander_effect = yes #imperial Austrian field-marshal as of 1815
 		#}
 	}
-	1817.1.1 = { #unknown, set to 60 years after birth
+	1817 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -103,7 +103,7 @@
 		birth = yes
 	}
 	#married to the count of Hoen-Neufchâteau
-	1823.1.1 = { #unknown, set to 60 years after birth
+	1823 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -120,7 +120,7 @@
 		birth = yes
 	}
 	#countess of Merode-Westerloo as of 1815
-	1834.1.1 = { #unknown, set to 60 years after birth
+	1834 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -136,7 +136,7 @@
 		birth = yes
 	}
 	#prince-bishop of Ermeland as of 1815
-	1836.1.1 = { #unknown, set to 60 years after birth
+	1836 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -154,7 +154,7 @@
 		spouse = 10000708 #Luise Pauline von Curland
 	}
 	#succeeded his father, prince Hermann Friedrich Otto of Hohenzollern-Hechingen, on 1810.11.2
-	1836.1.1 = { #unknown, set to 60 years after birth
+	1836 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -172,7 +172,7 @@
 	1805.7.29 = { #married on 1805.7.29 to Karoline von Weiher
 		spouse = 10000736 #Karoline von Weiher
 	}
-	1837.1.1 = { #unknown, set to 60 years after birth
+	1837 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -189,7 +189,7 @@
 		birth = yes
 	}
 	#married on 1803.7.12 to Friedrich Ludwig, hereditary count of Waldburg-Capustigal
-	1841.1.1 = { #unknown, set to 60 years after birth
+	1841 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -204,7 +204,7 @@
 	1782.3.16 = {
 		birth = yes
 	}
-	1842.1.1 = { #unknown, set to 60 years after birth
+	1842 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -220,7 +220,7 @@
 	1787.11.3 = {
 		birth = yes
 	}
-	1847.1.1 = { #unknown, set to 60 years after birth
+	1847 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -237,7 +237,7 @@
 		birth = yes
 	}
 	#married on 1811.8.31 to Ladislaus, count of Festetics of Tolna
-	1850.1.1 = { #unknown, set to 60 years after birth
+	1850 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -252,7 +252,7 @@
 	1790.11.3 = {
 		birth = yes
 	}
-	1850.1.1 = { #unknown, set to 60 years after birth
+	1850 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -268,7 +268,7 @@
 	1792.3.21 = {
 		birth = yes
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -283,7 +283,7 @@
 	1793.3.18 = {
 		birth = yes
 	}
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -299,7 +299,7 @@
 	1795.7.7 = {
 		birth = yes
 	}
-	1855.1.1 = { #unknown, set to 60 years after birth
+	1855 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -315,7 +315,7 @@
 		birth = yes
 	}
 	#hereditary prince of Hohenzollern-Hechingen as of 1815
-	1861.1.1 = { #unknown, set to 60 years after birth
+	1861 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -331,7 +331,7 @@
 	1808.6.29 = {
 		birth = yes
 	}
-	1868.1.1 = { #unknown, set to 60 years after birth
+	1868 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

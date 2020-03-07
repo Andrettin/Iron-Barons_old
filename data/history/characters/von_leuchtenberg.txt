@@ -3,11 +3,11 @@
 	dynasty = von_leuchtenberg
 	culture = bavarian
 	religion = catholic
-	1784.1.1 = { #unknown, set to 30 years before first mention
+	1784 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#duke of Leuchtenberg
-	1844.1.1 = { #unknown, set to 30 years after first mention
+	1844 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -23,7 +23,7 @@
 		birth = yes
 	}
 	#married on 1841.2.8 to Wilhelm Alexander Ferdinand von Württemberg
-	1874.1.1 = { #unknown, set to 60 years after birth
+	1874 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

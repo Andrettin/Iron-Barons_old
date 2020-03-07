@@ -3,10 +3,10 @@
 	dynasty = de_bourbon
 	culture = italian
 	religion = catholic
-	1752.1.1 = { #unknown, set to 30 years before first mention
+	1752 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1812.1.1 = { #unknown, set to 30 years after first mention
+	1812 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -18,7 +18,7 @@
 	religion = catholic
 	female = yes
 	father = 10000102 #King Ferdinand I (IV) of the Two Sicilies
-	1761.1.1 = { #unknown, set to 30 years before the birth of her daughter
+	1761 = { #unknown, set to 30 years before the birth of her daughter
 		birth = yes
 	}
 	1816.10.29 = { #unknown, set to the date of her husband's second marriage
@@ -51,7 +51,7 @@
 		birth = yes
 	}
 	#married on 1809.11.25
-	1877.1.1 = { #unknown, set to 60 years after first mention
+	1877 = { #unknown, set to 60 years after first mention
 		death = yes
 	}
 }
@@ -82,7 +82,7 @@
 	1837.1.9 = {
 		spouse = 10000106 #married on 1837.1.9 in Trent to Archduchess Theresa of Austria
 	}
-	1870.1.1 = { #unknown, set to 60 years after birth
+	1870 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

@@ -3,11 +3,11 @@
 	dynasty = van_oranje_nassau
 	culture = dutch
 	religion = protestant
-	1746.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1746 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#prince of Oranje-Nassau, as Willem V
-	1806.1.1 = { #unknown, set to 60 years after birth
+	1806 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,11 +19,11 @@
 	religion = protestant
 	female = yes
 	father = 10000562 #Willem van Oranje-Nassau
-	1776.1.1 = { #unknown, set to 30 years before becoming widowed
+	1776 = { #unknown, set to 30 years before becoming widowed
 		birth = yes
 	}
 	#married to Karl Georg August von Braunschweig-Wolfenbüttel
-	1836.1.1 = { #unknown, set to 60 years after birth
+	1836 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -56,7 +56,7 @@
 	}
 	#succeeded his father due to the latter's abdication on 1840.10.7 as king of the Netherlands, grand duke of Luxembourg and duke of Limburg; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 60.
 	#prince of Orange-Nassau
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -74,7 +74,7 @@
 	1842.10.8 = {
 		spouse = 10000242 #married on 1842.10.8 to Karl von Sachsen-Weimar-Eisenach
 	}
-	1884.1.1 = { #unknown, set to 60 years after birth
+	1884 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

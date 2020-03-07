@@ -3,10 +3,10 @@
 	dynasty = von_nassau_weilburg
 	culture = rhenish
 	religion = protestant
-	1750.1.1 = { #unknown, set to 30 years before first mention
+	1750 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1810.1.1 = { #unknown, set to 30 years after first mention
+	1810 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -16,10 +16,10 @@
 	dynasty = von_nassau_weilburg
 	culture = rhenish
 	religion = protestant
-	1767.1.1 = { #unknown, set to 30 years before first mention
+	1767 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1827.1.1 = { #unknown, set to 30 years after first mention
+	1827 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -31,13 +31,13 @@
 	religion = protestant
 	female = yes
 	father = 10000268 #Karl von Nassau-Weilburg
-	1777.1.1 = { #unknown, set to 20 years before marriage
+	1777 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1797.12.2 = { #married to Karl Friedrich von Anhalt-Bernburg-Schaumburg, and had her first child with him on 1797.12.2
 		spouse = 10000338 #Victor Karl Friedrich von Anhalt-Bernburg-Schaumburg
 	}
-	1837.1.1 = { #unknown, set to 60 years after birth
+	1837 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -53,7 +53,7 @@
 		birth = yes
 	}
 	#married on 1797.1.28 to duke Ludwig Friedrich Alexander of Wurtemberg
-	1857.1.1 = { #unknown, set to 60 years after marriage (can't be birth because she was alive in 1847)
+	1857 = { #unknown, set to 60 years after marriage (can't be birth because she was alive in 1847)
 		death = yes
 	}
 }

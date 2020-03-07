@@ -21,7 +21,7 @@
 	religion = protestant
 	father = 10000340 #Leopold Friedrich Franz von Anhalt-Dessau;
 	mother = 10000483 #Luise Henriette Wilhelmine von Hohenzollern
-	1754.1.1 = { #unknown, set to 60 years before death
+	1754 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1793.8.18 = { #married to Christiane Amalie, daughter of landgrave Friedrich Ludwig Wilhelm of Hesse-Homburg, and had his first child with her on 1793.8.18
@@ -44,7 +44,7 @@
 		birth = yes
 	}
 	#reigning princess of Schwarzburg-Rudolstadt as of 1847
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -64,7 +64,7 @@
 	1818.4.18 = {
 		spouse = 10000341 #married on 1818.4.18 to Friederike Louise Wilhelmina, daughter of prince Friedrich Ludwig Karl of Prussia
 	}
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -85,7 +85,7 @@
 	1831.10.4 = {
 		spouse = 10000349 #married on 1831.10.4 to Theresa Emma von Erdmannsdorff, in morganatic marriage
 	}
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -102,7 +102,7 @@
 		birth = yes
 	}
 	#wife of prince Gustav of Hessen-Homburg
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -120,7 +120,7 @@
 	1832.9.11 = {
 		spouse = 10000353 #married on 1832.9.11 to Maria Louise Charlotte, daughter of prince Wilhelm of Hesse-Cassel
 	}
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -138,7 +138,7 @@
 	1840.7.9 = {
 		spouse = 10000359 #married (in morganatic marriage) on 1840.7.9 to Emilie, baroness of Stolzenberg
 	}
-	1867.1.1 = { #unknown, set to 60 years after birth
+	1867 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -154,7 +154,7 @@
 	1824.6.24 = {
 		birth = yes
 	}
-	1884.1.1 = { #unknown, set to 60 years after birth
+	1884 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -170,7 +170,7 @@
 	1826.6.22 = {
 		birth = yes
 	}
-	1886.1.1 = { #unknown, set to 60 years after birth
+	1886 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -186,7 +186,7 @@
 		birth = yes
 	}
 	#hereditary prince of Anhalt-Dessau as of 1847
-	1891.1.1 = { #unknown, set to 60 years after birth
+	1891 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -202,7 +202,7 @@
 	1833.12.25 = {
 		birth = yes
 	}
-	1893.1.1 = { #unknown, set to 60 years after birth
+	1893 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -218,7 +218,7 @@
 	1837.9.14 = {
 		birth = yes
 	}
-	1897.1.1 = { #unknown, set to 60 years after birth
+	1897 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -234,7 +234,7 @@
 	1837.12.29 = {
 		birth = yes
 	}
-	1897.1.1 = { #unknown, set to 60 years after birth
+	1897 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -250,7 +250,7 @@
 	1839.12.13 = {
 		birth = yes
 	}
-	1899.1.1 = { #unknown, set to 60 years after birth
+	1899 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

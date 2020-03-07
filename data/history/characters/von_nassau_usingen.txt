@@ -3,10 +3,10 @@
 	dynasty = von_nassau_usingen
 	culture = rhenish
 	religion = protestant
-	1736.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1736 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
-	1796.1.1 = { #unknown, set to 60 years after birth
+	1796 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -16,11 +16,11 @@
 	dynasty = von_nassau_usingen
 	culture = rhenish
 	religion = protestant
-	1742.1.1 = { #unknown, set to 30 years before his daughters's birth
+	1742 = { #unknown, set to 30 years before his daughters's birth
 		birth = yes
 	}
 	#duke of Nassau-Usingen
-	1802.1.1 = { #unknown, set to 60 years after birth
+	1802 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -32,13 +32,13 @@
 	religion = protestant
 	female = yes
 	father = 10000647 #Karl Wilhelm von Nassau-Usingen
-	1766.1.1 = { #unknown, set to 20 years before marriage
+	1766 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1786.12.2 = { #married on 1786.12.2 to Friederich von Hessen-Kassel
 		spouse = 10000645 #Friederich von Hessen-Kassel
 	}
-	1826.1.1 = { #unknown, set to 60 years after birth
+	1826 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -50,11 +50,11 @@
 	religion = protestant
 	female = yes
 	father = 10000506 #Friedrich August von Nassau-Usingen
-	1772.1.1 = { #unknown, set to 40 years before her husband's death
+	1772 = { #unknown, set to 40 years before her husband's death
 		birth = yes
 	}
 	#married to August Christian von Anhalt-Köthen
-	1832.1.1 = { #unknown, set to 60 years after birth
+	1832 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -66,13 +66,13 @@
 	religion = protestant
 	female = yes
 	father = 10000506 #Friedrich August von Nassau-Usingen
-	1771.1.1 = { #unknown, set to 20 years before marriage
+	1771 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1791.12.10 = { #married to Friedrich von Zähringen on 1791.12.10
 		spouse = 10000527 #Friedrich von Zähringen
 	}
-	1831.1.1 = { #unknown, set to 60 years after birth
+	1831 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -84,13 +84,13 @@
 	religion = protestant
 	female = yes
 	father = 10000506 #Friedrich August von Nassau-Usingen
-	1784.1.1 = { #unknown, set to 20 years before marriage
+	1784 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1804.8.2 = { #married on 1804.8.2 to Ludwig Wilhelm von Hessen-Homburg
 		spouse = 10000697 #Ludwig Wilhelm von Hessen-Homburg
 	}
-	1844.1.1 = { #unknown, set to 60 years after birth
+	1844 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

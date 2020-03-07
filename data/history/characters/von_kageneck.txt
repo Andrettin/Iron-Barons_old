@@ -3,11 +3,11 @@
 	dynasty = von_kageneck
 	culture = rhenish
 	religion = catholic
-	1725.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1725 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#count of Kageneck
-	1785.1.1 = { #unknown, set to 60 years after birth
+	1785 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -25,7 +25,7 @@
 	1771.1.9 = { #married on 1771.1.9 to Franz Georg Karl von Metternich
 		spouse = 10000314 #Franz Georg Karl von Metternich
 	}
-	1815.1.1 = { #unknown, set to 60 years after birth
+	1815 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

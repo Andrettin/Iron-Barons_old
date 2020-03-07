@@ -4,7 +4,7 @@
 	culture = thuringian
 	religion = protestant
 	female = yes
-	1748.1.1 = { #unknown, set to 60 years before death
+	1748 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1808.12.25 = {

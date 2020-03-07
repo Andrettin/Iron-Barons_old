@@ -3,7 +3,7 @@
 	dynasty = von_hessen_kassel
 	culture = rhenish
 	religion = protestant
-	1725.1.1 = { #unknown, set to 60 years before death
+	1725 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#landgrave of Hesse-Kassel, as Friedrich II
@@ -27,7 +27,7 @@
 	#succeeded his father, landgrave Friedrich II of Hesse-Kassel, on 1785.10.31; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	#received the title of prince-elector due by imperial proclamation on 1803.4.27; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 18.
 	#Elector Wilhelm I of Hessen
-	1823.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+	1823 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -51,7 +51,7 @@
 		#}
 	}
 	#governor of the duchies of Schleswig and Holstein as of 1815
-	1824.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+	1824 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -68,7 +68,7 @@
 	1786.12.2 = { #married on 1786.12.2 to Karoline Polyrene, daughter of prince Karl Wilhelm of Nassau-Usingen
 		spouse = 10000646 #Karoline Polyrene von Nassau-Usingen
 	}
-	1817.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+	1817 = { #unknown, set to 70 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -87,7 +87,7 @@
 	1790.7.31 = { #married on 1790.7.31 to Fredrik of Denmark
 		spouse = 10000568 #Fredrik af Danmark
 	}
-	1827.1.1 = { #unknown, set to 60 years after birth
+	1827 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -106,7 +106,7 @@
 	1794.11.29 = { #married on 1794.11.29 to Alexius von Anhalt-Bernburg; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 6.
 		spouse = 10000363 #Alexius von Anhalt-Bernburg
 	}
-	1828.1.1 = { #unknown, set to 60 years after birth
+	1828 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -121,7 +121,7 @@
 	1771.5.24 = {
 		birth = yes
 	}
-	1831.1.1 = { #unknown, set to 60 years after birth
+	1831 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -141,7 +141,7 @@
 		spouse = 10000172
 	}
 	#widowed on 1822.5.17
-	1851.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1847)
+	1851 = { #unknown, set to 80 years after birth (she was still alive in 1847)
 		death = yes
 	}
 }
@@ -157,7 +157,7 @@
 	1773.1.19 = {
 		birth = yes
 	}
-	1833.1.1 = { #unknown, set to 60 years after birth
+	1833 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -172,7 +172,7 @@
 	1774.8.16 = {
 		birth = yes
 	}
-	1834.1.1 = { #unknown, set to 60 years after birth
+	1834 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -191,7 +191,7 @@
 		spouse = 10000637 #Friederike Christiane Auguste von Hohenzollern
 	}
 	#Elector Wilhelm II of Hessen
-	1837.1.1 = { #unknown, set to 60 years after birth
+	1837 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -209,7 +209,7 @@
 	1810.11.10 = { #married on 1810.11.10 to Louise Charlotte, daughter of hereditary prince Fredrik of Denmark; Source: "Gothaischer Hofkalender zum Nutzen und Vergnügen auf das Jahr 1815", 1815, p. 19.
 		spouse = 10000586 #Louise Charlotte af Danmark
 	}
-	1847.1.1 = { #unknown, set to 60 years after birth
+	1847 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -226,7 +226,7 @@
 		birth = yes
 	}
 	#married on 1810.1.28 to Wilhelm Paul Leopold von Holstein-Beck
-	1849.1.1 = { #unknown, set to 60 years after birth
+	1849 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -241,7 +241,7 @@
 	1790.4.25 = {
 		birth = yes
 	}
-	1850.1.1 = { #unknown, set to 60 years after birth
+	1850 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -256,7 +256,7 @@
 	1793.1.14 = {
 		birth = yes
 	}
-	1853.1.1 = { #unknown, set to 60 years after birth
+	1853 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -272,7 +272,7 @@
 	1794.4.9 = {
 		birth = yes
 	}
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -288,7 +288,7 @@
 	1796.1.21 = {
 		birth = yes
 	}
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -304,7 +304,7 @@
 	1797.7.25 = {
 		birth = yes
 	}
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -320,7 +320,7 @@
 	1799.7.29 = {
 		birth = yes
 	}
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -335,7 +335,7 @@
 	1802.8.30 = {
 		birth = yes
 	}
-	1862.1.1 = { #unknown, set to 60 years after birth
+	1862 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -351,7 +351,7 @@
 	1804.9.6 = {
 		birth = yes
 	}
-	1864.1.1 = { #unknown, set to 60 years after birth
+	1864 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -370,7 +370,7 @@
 	1832.9.11 = {
 		spouse = 10000352 #married on 1832.9.11 to Friedrich August von Anhalt-Dessau
 	}
-	1874.1.1 = { #unknown, set to 60 years after birth
+	1874 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

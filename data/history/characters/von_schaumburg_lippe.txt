@@ -3,10 +3,10 @@
 	dynasty = von_schaumburg_lippe
 	culture = saxon
 	religion = protestant
-	1788.1.1 = { #unknown, set to 30 years before first mention
+	1788 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1848.1.1 = { #unknown, set to 30 years after first mention
+	1848 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -22,7 +22,7 @@
 		birth = yes
 	}
 	#married on 1843.7.15 to Eugen Wilhelm von Württemberg
-	1878.1.1 = { #unknown, set to 60 years after birth
+	1878 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

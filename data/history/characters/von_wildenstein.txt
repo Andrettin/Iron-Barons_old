@@ -4,11 +4,11 @@
 	culture = franconian
 	religion = catholic
 	female = yes
-	1757.1.1 = { #unknown, set to 30 years before marriage
+	1757 = { #unknown, set to 30 years before marriage
 		birth = yes
 	}
 	#married on 1787.1.22 to Franz Xaver von Hohenzollern-Hechingen
-	1817.1.1 = { #unknown, set to 30 years after marriage
+	1817 = { #unknown, set to 30 years after marriage
 		death = yes
 	}
 }

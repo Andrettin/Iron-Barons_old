@@ -3,7 +3,7 @@
 	dynasty = von_wettin
 	culture = thuringian
 	religion = catholic
-	1703.1.1 = { #unknown, set to 60 years before death
+	1703 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#prince-elector of Saxony
@@ -26,7 +26,7 @@
 		#	join_society = order_of_the_starry_cross #"St. C. O. D." as of 1815
 		#}
 	}
-	1816.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+	1816 = { #unknown, set to 80 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -47,7 +47,7 @@
 		#	make_commander_effect = yes #imperial Austrian field-marshal as of 1815
 		#}
 	}
-	1818.1.1 = { #unknown, set to 80 years after birth (he was still alive in 1815)
+	1818 = { #unknown, set to 80 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -64,7 +64,7 @@
 	1815.1.1 = {
 		traits += nun #abbess of Essen and Thorn as of 1815
 	}
-	1820.1.1 = { #unknown, set to 80 years after birth (she was still alive in 1815)
+	1820 = { #unknown, set to 80 years after birth (she was still alive in 1815)
 		death = yes
 	}
 }
@@ -115,7 +115,7 @@
 		birth = yes
 	}
 	#wife of duke Karl of Zweibrücken, widowed on 1795.4.1
-	1817.1.1 = { #unknown, set to 60 years after birth
+	1817 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -151,7 +151,7 @@
 	1761.2.27 = { #born on 1761.2.27
 		birth = yes
 	}
-	1821.1.1 = { #unknown, set to 60 years after birth
+	1821 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -167,7 +167,7 @@
 	1782.6.21 = {
 		birth = yes
 	}
-	1852.1.1 = { #unknown, set to 70 years after birth (cannot be 60 as she was still alive in 1847)
+	1852 = { #unknown, set to 70 years after birth (cannot be 60 as she was still alive in 1847)
 		death = yes
 	}
 }
@@ -183,7 +183,7 @@
 	1794.8.10 = {
 		birth = yes
 	}
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -200,7 +200,7 @@
 		birth = yes
 	}
 	#dowager grand duchess of Tuscany as of 1847
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -222,7 +222,7 @@
 	1833.4.24 = {
 		spouse = 10000191 #married Marie Anne Leopoldine von Wittelsbach on 1833.4.24
 	}
-	1857.1.1 = { #unknown, set to 60 years after birth
+	1857 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -237,7 +237,7 @@
 	1798.5.1 = {
 		birth = yes
 	}
-	1858.1.1 = { #unknown, set to 60 years after birth
+	1858 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -253,7 +253,7 @@
 	1799.11.15 = {
 		birth = yes
 	}
-	1859.1.1 = { #unknown, set to 60 years after birth
+	1859 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -271,7 +271,7 @@
 	1822.11.10 = {
 		spouse = 10000324 #married by procuration on 1822.11.10 and in person on 1822.11.21 to Amalie Auguste, daughter of king Maximilian Joseph of Bavaria
 	}
-	1861.1.1 = { #unknown, set to 60 years after birth
+	1861 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -287,7 +287,7 @@
 	1803.12.6 = {
 		birth = yes
 	}
-	1863.1.1 = { #unknown, set to 60 years after birth
+	1863 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -303,7 +303,7 @@
 	1827.1.22 = {
 		birth = yes
 	}
-	1887.1.1 = { #unknown, set to 60 years after birth
+	1887 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -318,7 +318,7 @@
 	1828.4.23 = {
 		birth = yes
 	}
-	1888.1.1 = { #unknown, set to 60 years after birth
+	1888 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -334,7 +334,7 @@
 	1830.2.4 = {
 		birth = yes
 	}
-	1890.1.1 = { #unknown, set to 60 years after birth
+	1890 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -349,7 +349,7 @@
 	1831.4.5 = {
 		birth = yes
 	}
-	1891.1.1 = { #unknown, set to 60 years after birth
+	1891 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -364,7 +364,7 @@
 	1832.8.8 = {
 		birth = yes
 	}
-	1892.1.1 = { #unknown, set to 60 years after birth
+	1892 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -380,7 +380,7 @@
 	1834.8.16 = {
 		birth = yes
 	}
-	1894.1.1 = { #unknown, set to 60 years after birth
+	1894 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -396,7 +396,7 @@
 	1836.1.4 = {
 		birth = yes
 	}
-	1896.1.1 = { #unknown, set to 60 years after birth
+	1896 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -412,7 +412,7 @@
 	1840.5.24 = {
 		birth = yes
 	}
-	1900.1.1 = { #unknown, set to 60 years after birth
+	1900 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -428,7 +428,7 @@
 	1845.3.15 = {
 		birth = yes
 	}
-	1905.1.1 = { #unknown, set to 60 years after birth
+	1905 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

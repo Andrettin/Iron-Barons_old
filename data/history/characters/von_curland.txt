@@ -3,10 +3,10 @@
 	dynasty = von_curland
 	culture = saxon
 	religion = catholic
-	1752.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1752 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
-	1812.1.1 = { #unknown, set to 60 years after birth
+	1812 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -24,7 +24,7 @@
 	1800.4.26 = { #married on 1800.4.26 to Friedrich Hermann von Hohenzollern-Hechingen
 		spouse = 10000706 #Friedrich Hermann von Hohenzollern-Hechingen
 	}
-	1842.1.1 = { #unknown, set to 60 years after birth
+	1842 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

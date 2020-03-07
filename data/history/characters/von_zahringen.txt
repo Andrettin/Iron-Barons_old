@@ -3,7 +3,7 @@
 	dynasty = von_zahringen
 	culture = swabian
 	religion = protestant
-	1731.1.1 = { #unknown, set to 80 years before death (so that he is older than his son)
+	1731 = { #unknown, set to 80 years before death (so that he is older than his son)
 		birth = yes
 	}
 	#grand duke of Baden
@@ -21,7 +21,7 @@
 	culture = swabian
 	religion = protestant
 	father = 10000517 #Karl Friedrich von Zähringen
-	1741.1.1 = { #unknown, set to 60 years before death
+	1741 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1776.7.13 = { #married to Amalie Friederike von Hessen-Darmstadt, and had his first child with her on 1776.7.13
@@ -44,7 +44,7 @@
 	1791.12.10 = { #married to Christiane Luise von Nassau-Usingen on 1791.12.10
 		spouse = 10000528 #Christiane Luise von Nassau-Usingen
 	}
-	1816.1.1 = { #unknown, set to 60 years after birth
+	1816 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -58,7 +58,7 @@
 	1763.2.9 = {
 		birth = yes
 	}
-	1823.1.1 = { #unknown, set to 60 years after birth
+	1823 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -75,7 +75,7 @@
 	1776.7.13 = { #born on 1776.7.13
 		birth = yes
 	}
-	1836.1.1 = { #unknown, set to 60 years after birth
+	1836 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -92,7 +92,7 @@
 	1776.7.13 = { #born on 1776.7.13
 		birth = yes
 	}
-	1836.1.1 = { #unknown, set to 60 years after birth
+	1836 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -109,7 +109,7 @@
 		birth = yes
 	}
 	#empress of Russia
-	1839.1.1 = { #unknown, set to 60 years after birth
+	1839 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -128,7 +128,7 @@
 	1797.10.31 = { #married on 1797.10.31 to king Gustav IV Adolf of Sweden
 		spouse = 10000523 #Gustav IV Adolf of Sweden
 	}
-	1841.1.1 = { #unknown, set to 60 years after birth
+	1841 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -141,7 +141,7 @@
 	female = yes
 	father = 10000526 #Karl Ludwig von Zähringen
 	mother = 10000525 #Amalie Friederike von Hessen-Darmstadt; presumably, since that's the mother of her siblings
-	1784.1.1 = { #unknown, set to 20 years before marriage
+	1784 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1804.10.30 = { #married to Wilhelm Friedrich von Braunschweig-Wolfenbüttel, and they had their first child on 1804.10.30
@@ -183,7 +183,7 @@
 	1788.9.10 = {
 		birth = yes
 	}
-	1848.1.1 = { #unknown, set to 60 years after birth
+	1848 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -199,7 +199,7 @@
 	1811.6.5 = {
 		birth = yes
 	}
-	1871.1.1 = { #unknown, set to 60 years after birth
+	1871 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -215,7 +215,7 @@
 		birth = yes
 	}
 	#grand duke of Baden
-	1850.1.1 = { #unknown, set to 60 years after birth
+	1850 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -233,7 +233,7 @@
 	1830.10.16 = {
 		spouse = 10000179 #married on 1830.10.16 to Elisabeth von Württemberg
 	}
-	1852.1.1 = { #unknown, set to 60 years after birth
+	1852 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -249,7 +249,7 @@
 	1795.1.26 = {
 		birth = yes
 	}
-	1855.1.1 = { #unknown, set to 60 years after birth
+	1855 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -264,7 +264,7 @@
 	1796.12.9 = {
 		birth = yes
 	}
-	1856.1.1 = { #unknown, set to 60 years after birth
+	1856 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -280,7 +280,7 @@
 		birth = yes
 	}
 	#married to Ernst II zu Sachsen-Coburg und Gotha on 1842.5.3
-	1880.1.1 = { #unknown, set to 60 years after birth
+	1880 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

@@ -3,10 +3,10 @@
 	dynasty = czartoryski
 	culture = polish
 	religion = catholic
-	1732.1.1 = { #unknown, set to 30 years before first mention
+	1732 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
-	1792.1.1 = { #unknown, set to 30 years after first mention
+	1792 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -18,7 +18,7 @@
 	religion = catholic
 	female = yes
 	father = 10000270 #Adam Czartoryski
-	1762.1.1 = { #unknown, set to 30 years before first mention
+	1762 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#married Ludwig Friedrich Alexander von Württemberg

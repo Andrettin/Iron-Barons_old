@@ -3,7 +3,7 @@
 	dynasty = von_hessen_homburg
 	culture = rhenish
 	religion = protestant
-	1691.1.1 = { #unknown, set to 60 years before death
+	1691 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#landgrave of Hesse-Homburg
@@ -25,7 +25,7 @@
 	1768.9.27 = { #married on 1768.9.27 to Karoline, daughter of landgrave Ludwig IX of Hesse-Darmstadt
 		spouse = 10000680 #Karoline von Hessen-Darmstadt
 	}
-	1818.1.1 = { #unknown, set to 70 years after birth (he was still alive in 1815)
+	1818 = { #unknown, set to 70 years after birth (he was still alive in 1815)
 		death = yes
 	}
 }
@@ -41,7 +41,7 @@
 		birth = yes
 	}
 	#hereditary prince of Hesse-Homburg as of 1815
-	1829.1.1 = { #unknown, set to 60 years after birth
+	1829 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -59,7 +59,7 @@
 	1804.8.2 = { #married on 1804.8.2 to Auguste Amalie, daughter of duke Friedrich August of Nassau-Usingen
 		spouse = 10000698 #Auguste Amalie von Nassau-Usingen
 	}
-	1830.1.1 = { #unknown, set to 60 years after birth
+	1830 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -76,7 +76,7 @@
 		birth = yes
 	}
 	#married to the prince of Schwarzburg-Rudolstadt
-	1831.1.1 = { #unknown, set to 60 years after birth
+	1831 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -92,7 +92,7 @@
 	1772.10.26 = {
 		birth = yes
 	}
-	1832.1.1 = { #unknown, set to 60 years after birth
+	1832 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -111,7 +111,7 @@
 	1793.8.18 = { #married to Friedrich von Anhalt-Dessau, and had her first child with him on 1793.8.18
 		spouse = 10000485 #Friedrich von Anhalt-Dessau
 	}
-	1834.1.1 = { #unknown, set to 60 years after birth
+	1834 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -127,7 +127,7 @@
 	1776.11.28 = {
 		birth = yes
 	}
-	1836.1.1 = { #unknown, set to 60 years after birth
+	1836 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -142,7 +142,7 @@
 	1779.3.3 = {
 		birth = yes
 	}
-	1839.1.1 = { #unknown, set to 60 years after birth
+	1839 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -157,7 +157,7 @@
 	1781.2.17 = {
 		birth = yes
 	}
-	1841.1.1 = { #unknown, set to 60 years after birth
+	1841 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -172,7 +172,7 @@
 	1783.4.26 = {
 		birth = yes
 	}
-	1843.1.1 = { #unknown, set to 60 years after birth
+	1843 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -188,7 +188,7 @@
 	1785.10.14 = {
 		birth = yes
 	}
-	1845.1.1 = { #unknown, set to 60 years after birth
+	1845 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

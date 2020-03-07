@@ -3,11 +3,11 @@
 	dynasty = romanov
 	culture = russian
 	religion = orthodox
-	1756.1.1 = { #unknown, set to 30 years before first mention
+	1756 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#had a daughter (Princess Maria of Russia) on 1786.2.16
-	1816.1.1 = { #unknown, set to 30 years after first mention
+	1816 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -17,7 +17,7 @@
 	dynasty = romanov
 	culture = russian
 	religion = orthodox
-	1771.1.1 = { #unknown, set to 60 years before death
+	1771 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	1796.2.26 = {
@@ -38,7 +38,7 @@
 	religion = orthodox
 	female = yes
 	father = 10000099 #Emperor Paul of Russia
-	1786.1.1 = { #unknown, set to 30 years before first mention
+	1786 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#widow of Prince Peter of Holstein-Oldenburg
@@ -59,7 +59,7 @@
 		birth = yes
 	}
 	#married on 1804.8.3 to Karl Friedrich von Sachsen-Weimar-Eisenach
-	1856.1.1 = { #unknown, set to 70 years after birth (can't be 60 because she is still alive in 1847)
+	1856 = { #unknown, set to 70 years after birth (can't be 60 because she is still alive in 1847)
 		death = yes
 	}
 }
@@ -69,11 +69,11 @@
 	dynasty = romanov
 	culture = russian
 	religion = orthodox
-	1792.1.1 = { #unknown, set to 30 years before first mention
+	1792 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#had a daughter on 1822.9.11
-	1852.1.1 = { #unknown, set to 30 years after first mention
+	1852 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -89,7 +89,7 @@
 		birth = yes
 	}
 	#married Willem of Orange-Nassau on 1816.2.21
-	1877.1.1 = { #unknown, set to 30 years after first mention
+	1877 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -107,7 +107,7 @@
 	1846.7.13 = {
 		spouse = 10000260 #married on 1846.7.13 to prince Karl von Württemberg
 	}
-	1882.1.1 = { #unknown, set to 60 years after birth
+	1882 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

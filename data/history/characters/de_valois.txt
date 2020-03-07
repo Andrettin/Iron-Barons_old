@@ -3,11 +3,11 @@
 	dynasty = de_valois
 	culture = french
 	religion = catholic
-	1423.1.1 = { #unknown, set to 60 years before death
+	1423 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#became king of France in 1461; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
-	1483.1.1 = { #reign ended in 1483; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
+	1483 = { #reign ended in 1483; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
 		death = yes
 	}
 }
@@ -17,11 +17,11 @@
 	dynasty = de_valois
 	culture = french
 	religion = catholic
-	1438.1.1 = { #unknown, set to 60 years before death
+	1438 = { #unknown, set to 60 years before death
 		birth = yes
 	}
 	#became king of France in 1483; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
-	1498.1.1 = { #reign ended in 1498; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
+	1498 = { #reign ended in 1498; Source: William R. Shepherd, "Historical Atlas", 1911, p. 84.
 		death = yes
 	}
 }

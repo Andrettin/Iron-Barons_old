@@ -3,11 +3,11 @@
 	dynasty = von_reuss_schleiz_kostritz
 	culture = thuringian
 	religion = protestant
-	1764.1.1 = { #unknown, set to 30 years before first mention
+	1764 = { #unknown, set to 30 years before first mention
 		birth = yes
 	}
 	#prince Heinrich XLIV of Reuss-Schleiz-Köstritz, cadet branch
-	1824.1.1 = { #unknown, set to 30 years after first mention
+	1824 = { #unknown, set to 30 years after first mention
 		death = yes
 	}
 }
@@ -25,7 +25,7 @@
 	1819.5.18 = {
 		spouse = 10000366 #married on 1819.5.18 to Heinrich von Anhalt-Pless
 	}
-	1854.1.1 = { #unknown, set to 60 years after birth
+	1854 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }

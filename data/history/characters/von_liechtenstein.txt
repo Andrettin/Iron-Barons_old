@@ -3,11 +3,11 @@
 	dynasty = von_liechtenstein
 	culture = swabian
 	religion = catholic
-	1729.1.1 = { #unknown, set to 30 years before the birth of his daughter
+	1729 = { #unknown, set to 30 years before the birth of his daughter
 		birth = yes
 	}
 	#prince of Liechtenstein
-	1789.1.1 = { #unknown, set to 60 years after birth
+	1789 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -19,13 +19,13 @@
 	religion = catholic
 	female = yes
 	father = 10000675 #Franz Joseph von Liechtenstein
-	1759.1.1 = { #unknown, set to 20 years before marriage
+	1759 = { #unknown, set to 20 years before marriage
 		birth = yes
 	}
 	1779.9.2 = { #married to landgrave Karl Emanuel of Hesse-Rotenburg, and they had their first known child on 1779.9.2
 		spouse = 10000674 #Karl Emanuel von Hessen-Rotenburg
 	}
-	1819.1.1 = { #unknown, set to 60 years after birth
+	1819 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
@@ -40,12 +40,12 @@
 		birth = yes
 	}
 	#"DdP." as of 1847
-	1847.1.1 = { #Lady of the Starry Cross as of 1847
+	1847 = { #Lady of the Starry Cross as of 1847
 		#effect = {
 			#join_society = order_of_the_starry_cross
 		#}
 	}
-	1872.1.1 = { #unknown, set to 60 years after birth
+	1872 = { #unknown, set to 60 years after birth
 		death = yes
 	}
 }
