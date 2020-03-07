@@ -32,6 +32,12 @@ Window {
 			font.family: "tahoma"
 			font.pixelSize: 14
 		}
+
+		FontMetrics {
+			id: font_metrics
+			font.family: "tahoma"
+			font.pixelSize: 14
+		}
 	}
 
 	//format tooltip text
@@ -56,9 +62,12 @@ Window {
 	function get_longest_line(str, max_len) {
 		var str_arr = str.split("<br>")
 		var longest_line = ""
+		var best_length = 0
 		for (var i = 0; i < str_arr.length; i++) {
-			if (str_arr[i].length > longest_line.length) {
+			var length = font_metrics.advanceWidth(str_arr[i])
+			if (length > best_length) {
 				longest_line = str_arr[i]
+				best_length = length
 			}
 		}
 
