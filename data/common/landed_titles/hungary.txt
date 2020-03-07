@@ -1,6 +1,7 @@
 k_hungary = {
 	color = { 131 15 15 }
 	capital_province = p_pest
+	active_post_amalgamation = true
 }
 
 d_banat = {

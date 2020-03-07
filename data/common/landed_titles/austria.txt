@@ -8,6 +8,7 @@ k_austria = { #represents the Kreis of Austria in the HRE, and the post-WW1 repu
 	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
 	color = { 224 224 224 }
 	capital_province = p_vienna
+	active_post_amalgamation = true
 }
 
 d_carinthia = {

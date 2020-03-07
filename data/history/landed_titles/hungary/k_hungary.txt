@@ -1,5 +1,6 @@
 1815 = {
 	holder = random
 	liege_title = e_austria #part of the Empire of Austria as of 1815-1866; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 158-159.
+	de_jure_liege_title = e_austria
 	laws += appointment_succession
 }
