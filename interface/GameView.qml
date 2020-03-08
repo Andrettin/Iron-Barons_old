@@ -42,7 +42,7 @@ Item {
 			var map_center
 
 			if (metternich.game.player_character && metternich.game.player_character.capital_province && metternich.game.player_character.capital_province.world === world) {
-				center_coordinate = metternich.game.player_character.capital_province.center_coordinate;
+				center_coordinate = metternich.game.player_character.capital_province.center_geocoordinate;
 				map_center = world.coordinate_to_point(center_coordinate)
 				this.x = (game_view.width / 2) - map_center.x
 				this.y = (game_view.height / 2) - map_center.y

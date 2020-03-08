@@ -69,50 +69,46 @@ Item {
 	Repeater {
 		model: world ? world.provinces : []
 
-		Image {
+		Shape {
 			property var province: model.modelData
-			property int flag: 0
+			property string tooltip_text: tooltip(
+				province.name
+				+ (province.county && metternich.map_mode === WorldMap.Mode.Country && province.county.realm ? "<br><br>Country: " + province.county.realm.titled_name : "")
+				+ (province.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br><br>De Jure Empire: " + province.de_jure_empire.name : "")
+				+ (province.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br><br>De Jure Kingdom: " + province.de_jure_kingdom.name : "")
+				+ (province.de_jure_duchy && metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "<br><br>De Jure Duchy: " + province.de_jure_duchy.name : "")
+				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br><br>Culture: " + province.culture.name : "")
+				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + province.culture.culture_group.name : "")
+				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br><br>Religion: " + province.religion.name : "")
+				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + province.religion.religion_group.name : "")
+				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.owner ? "<br><br>Trade Node: " + province.trade_node.name : "")
+				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.trade_node.center_of_trade === province && province.owner ? "<br>Center of Trade" : "")
+				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node_trade_cost > 0 ? "<br>Trade Cost with Node: " + centesimal(province.trade_node_trade_cost) + "%" : "")
+				+ (metternich.map_mode === WorldMap.Mode.TradeZone && province.trading_post_holding_slot && province.trading_post_holding_slot.holding ? "<br><br>Trade Zone: " + province.trading_post_holding_slot.holding.owner.primary_title.realm.name : "")
+			)
 
 			x: province.rect.x
 			y: province.rect.y
+			z: province.selected ? 1 : 0
 			width: province.rect.width
 			height: province.rect.height
-			source: "image://provinces/" + province.identifier + "?flag=" + flag
-			cache: false
+			containsMode: Shape.FillContains
 
-			Connections {
-				target: province
-				onImageChanged: {
-					//the flag is used for the workaround to make the image be reloaded
-					if (flag == 0) {
-						flag = 1
-					} else {
-						flag = 0
-					}
-				}
+			ShapePath {
+				strokeWidth: 2
+				strokeColor: province.selected ? "yellow" : "black"
+				strokeStyle: ShapePath.SolidLine
+				fillColor: province.map_mode_color
+				PathSvg { path: province.polygons_svg }
 			}
 
-			MaskedMouseArea {
+			MouseArea {
 				anchors.fill: parent
-				alphaThreshold: 0.4
-				maskSource: parent.source
-				ToolTip.text: tooltip(
-					province.name
-					+ (province.county && metternich.map_mode === WorldMap.Mode.Country && province.county.realm ? "<br><br>Country: " + province.county.realm.titled_name : "")
-					+ (province.de_jure_empire && metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "<br><br>De Jure Empire: " + province.de_jure_empire.name : "")
-					+ (province.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br><br>De Jure Kingdom: " + province.de_jure_kingdom.name : "")
-					+ (province.de_jure_duchy && metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "<br><br>De Jure Duchy: " + province.de_jure_duchy.name : "")
-					+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br><br>Culture: " + province.culture.name : "")
-					+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + province.culture.culture_group.name : "")
-					+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br><br>Religion: " + province.religion.name : "")
-					+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + province.religion.religion_group.name : "")
-					+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.owner ? "<br><br>Trade Node: " + province.trade_node.name : "")
-					+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.trade_node.center_of_trade === province && province.owner ? "<br>Center of Trade" : "")
-					+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node_trade_cost > 0 ? "<br>Trade Cost with Node: " + centesimal(province.trade_node_trade_cost) + "%" : "")
-					+ (metternich.map_mode === WorldMap.Mode.TradeZone && province.trading_post_holding_slot && province.trading_post_holding_slot.holding ? "<br><br>Trade Zone: " + province.trading_post_holding_slot.holding.owner.primary_title.realm.name : "")
-				)
+				hoverEnabled: true
+				ToolTip.text: parent.tooltip_text
 				ToolTip.visible: containsMouse
 				ToolTip.delay: 1000
+				containmentMask: parent
 				onClicked: {
 					if (metternich.selected_holding) {
 						metternich.selected_holding.selected = false
@@ -137,6 +133,7 @@ Item {
 			visible: trade_route.active && metternich.map_mode === WorldMap.Mode.TradeNode
 			x: trade_route.rect.x
 			y: trade_route.rect.y
+			z: 2
 			width: trade_route.rect.width
 			height: trade_route.rect.height
 
