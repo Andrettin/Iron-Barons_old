@@ -195,6 +195,8 @@
 /graphics/holdings/factory_large.png (by Jinn) (licensed under the CC0) (reference: Industrial Revolution British textile factories)
 /graphics/holdings/fort.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/fort_large.png (by Jinn) (licensed under the CC0) (reference: São João Fortress in Rio de Janeiro)
+/graphics/holdings/hospital.png (by Jinn) (licensed under the CC0)
+/graphics/holdings/hospital_large.png (by Jinn) (licensed under the CC0) (reference: The Cancer Hospital, Brompton)
 /graphics/holdings/slot.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/slot_large.png (by Jinn) (licensed under the CC0)
 /graphics/holdings/temple.png (by Jinn) (licensed under the CC0)
