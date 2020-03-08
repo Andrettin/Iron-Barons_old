@@ -1,3 +1,7 @@
 1792 = {
 	holder = 10000000 #Franz von Habsburg became Emperor of the Holy Roman Empire in 1792; Source: Eva Demmerle, "Das Haus Habsburg", 2011, p. 250.
 }
+
+1804.8.11 = {
+	holder_title = e_austria #Empire of Austria founded on 1804.8.11; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 10.
+}
