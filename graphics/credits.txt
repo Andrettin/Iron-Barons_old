@@ -180,6 +180,7 @@
 /graphics/flags/k_sardinia.svg (by FDRMRZUSA, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/k_saxony.svg (by David Liuzzo, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_slavonia.svg (by DIREKTOR, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
+/graphics/flags/k_spain.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_sweden.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/k_switzerland.svg (by Denelson83, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/k_syria.svg (by Ch1902, from the Wikimedia Commons) (released to the public domain)
