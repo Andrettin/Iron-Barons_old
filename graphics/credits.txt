@@ -93,6 +93,7 @@
 /graphics/flags/d_espirito_santo.svg (by E2m, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_holstein.svg (by Sir Iain, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/d_homburg.svg (by kgberger, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5 and the GFDL)
+/graphics/flags/d_hordaland.svg (by Madden, from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_istria.svg (by Samhanin, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0)
 /graphics/flags/d_kassel.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/d_lauenburg.svg (by Carport, from the Wikimedia Commons) (released to the public domain)
