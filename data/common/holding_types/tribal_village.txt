@@ -2,4 +2,5 @@ tribal_village = {
 	slot_type = settlement
 	portrait_tag = town
 	default_laws += primogeniture_succession
+	default_laws += tribal_administration
 }

@@ -2,6 +2,7 @@ metropolis = {
 	slot_type = settlement
 	portrait_tag = city
 	default_laws += open_elective_succession
+	default_laws += bureaucracy
 	
 	modifier = {
 		population_capacity_modifier = 7.0

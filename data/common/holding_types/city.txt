@@ -1,6 +1,7 @@
 city = {
 	slot_type = settlement
 	default_laws += open_elective_succession
+	default_laws += bureaucracy
 	
 	modifier = {
 		population_capacity_modifier = 3.0

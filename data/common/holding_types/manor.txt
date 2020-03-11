@@ -2,4 +2,5 @@ manor = {
 	slot_type = settlement
 	portrait_tag = aristocratic_palace
 	default_laws += primogeniture_succession
+	default_laws += feudal_administration
 }

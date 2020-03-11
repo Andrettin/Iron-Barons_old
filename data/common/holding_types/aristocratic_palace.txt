@@ -1,4 +1,5 @@
 aristocratic_palace = {
 	slot_type = palace
 	default_laws += primogeniture_succession
+	default_laws += feudal_administration
 }
