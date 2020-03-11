@@ -10,4 +10,8 @@ anatolian = {
 	female_names = {
 		Giovanna #placeholder
 	}
+	
+	dynasty_names = {
+		Palamidese #placeholder
+	}
 }

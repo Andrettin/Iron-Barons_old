@@ -2,4 +2,8 @@ south_slavic = {
 	species = human
 	color = { 82 95 203 }
 	default_phenotype = european
+	
+	dynasty_names = {
+		Romanov #placeholder
+	}
 }

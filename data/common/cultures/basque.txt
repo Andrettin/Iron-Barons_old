@@ -9,4 +9,8 @@ basque = {
 	female_names = {
 		Maria #placeholder name
 	}
+	
+	dynasty_names = {
+		Palamidese #placeholder
+	}
 }

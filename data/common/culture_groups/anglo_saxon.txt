@@ -2,4 +2,8 @@ anglo_saxon = {
 	species = human
 	color = { 206 17 36 }
 	default_phenotype = european
+	
+	dynasty_names = {
+		Brunswick #placeholder
+	}
 }

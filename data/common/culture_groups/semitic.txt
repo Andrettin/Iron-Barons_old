@@ -10,4 +10,8 @@ semitic = {
 	female_names = {
 		Giovanna #placeholder
 	}
+	
+	dynasty_names = {
+		Palamidese #placeholder
+	}
 }

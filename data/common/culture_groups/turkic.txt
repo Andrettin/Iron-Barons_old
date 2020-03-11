@@ -10,4 +10,8 @@ turkic = {
 	female_names = {
 		Karolina #placeholder
 	}
+	
+	dynasty_names = {
+		Hunyadi #placeholder
+	}
 }

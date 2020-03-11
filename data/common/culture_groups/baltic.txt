@@ -2,4 +2,8 @@ baltic = {
 	species = human
 	color = { 3 83 31 }
 	default_phenotype = european
+	
+	dynasty_names = {
+		Romanov #placeholder
+	}
 }
