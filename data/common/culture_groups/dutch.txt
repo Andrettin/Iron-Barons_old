@@ -1,13 +1,4 @@
 dutch = {
-	species = human
+	supergroup = germanic
 	color = { 226 64 30 }
-	default_phenotype = european
-
-	male_names = {
-		Willem
-	}
-	
-	female_names = {
-		Willemine
-	}
 }

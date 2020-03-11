@@ -1,5 +1,5 @@
 italian = {
-	culture_group = italian
+	group = italian
 	color = { 0 153 0 }
 
 	male_names = {

@@ -1,0 +1,6 @@
+altaic = "Altaic"
+germanic = "Germanic"
+latin = "Latin"
+old_european = "Old European"
+slavic = "Slavic"
+uralic = "Uralic"

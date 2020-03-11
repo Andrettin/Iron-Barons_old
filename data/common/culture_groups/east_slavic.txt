@@ -1,5 +1,4 @@
 east_slavic = {
-	species = human
+	supergroup = slavic
 	color = { 0 57 166 }
-	default_phenotype = european
 }

@@ -1,4 +1,4 @@
 persian = {
-	culture_group = iranian
+	group = iranian
 	color = { 83 117 72 }
 }

@@ -1,5 +1,4 @@
 scandinavian = {
-	species = human
+	supergroup = germanic
 	color = { 0 106 167 }
-	default_phenotype = european
 }

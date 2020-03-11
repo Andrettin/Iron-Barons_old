@@ -1,17 +1,5 @@
 turkic = {
-	species = human
+	supergroup = altaic
 	color = { 184 208 130 }
 	default_phenotype = european
-	
-	male_names = {
-		Ferenc Mátyás József #placeholder
-	}
-	
-	female_names = {
-		Karolina #placeholder
-	}
-	
-	dynasty_names = {
-		Hunyadi #placeholder
-	}
 }

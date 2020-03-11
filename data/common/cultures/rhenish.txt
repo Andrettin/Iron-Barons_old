@@ -1,4 +1,4 @@
 rhenish = {
-	culture_group = german
+	group = german
 	color = { 161 62 42 }
 }

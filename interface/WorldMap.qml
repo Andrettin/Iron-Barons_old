@@ -78,7 +78,7 @@ Item {
 				+ (province.de_jure_kingdom && metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "<br><br>De Jure Kingdom: " + province.de_jure_kingdom.name : "")
 				+ (province.de_jure_duchy && metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "<br><br>De Jure Duchy: " + province.de_jure_duchy.name : "")
 				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br><br>Culture: " + province.culture.name : "")
-				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + province.culture.culture_group.name : "")
+				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + province.culture.group.name : "")
 				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br><br>Religion: " + province.religion.name : "")
 				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + province.religion.religion_group.name : "")
 				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.owner ? "<br><br>Trade Node: " + province.trade_node.name : "")

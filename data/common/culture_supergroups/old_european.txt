@@ -1,0 +1,5 @@
+old_european = {
+	species = human
+	color = { 120 89 56 }
+	default_phenotype = european
+}

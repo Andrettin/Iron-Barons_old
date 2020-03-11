@@ -1,4 +1,4 @@
 orthodox = {
-	religion_group = christian
+	group = christian
 	color = { 0 57 166 }
 }

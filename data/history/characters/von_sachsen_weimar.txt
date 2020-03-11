@@ -93,8 +93,8 @@
 	}
 }
 
-10000239 = { #Marie von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
-	name = "Marie"
+10000239 = { #Maria von Sachsen-Weimar-Eisenach; Source: "Almanach de Gotha pour l'année 1847", 1847, p. 5.
+	name = "Maria"
 	dynasty = von_sachsen_weimar_eisenach
 	culture = thuringian
 	religion = protestant

@@ -1,0 +1,5 @@
+uralic = {
+	species = human
+	color = { 34 177 111 }
+	default_phenotype = european
+}

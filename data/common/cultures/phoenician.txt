@@ -1,4 +1,4 @@
 phoenician = {
-	culture_group = semitic
+	group = semitic
 	color = { 94 104 124 }
 }

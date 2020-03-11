@@ -1,4 +1,4 @@
 shiite = {
-	religion_group = muslim
+	group = muslim
 	color = { 148 116 108 }
 }

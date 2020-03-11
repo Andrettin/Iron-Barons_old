@@ -1,12 +1,4 @@
 romanian = {
-	culture_group = romanian
+	group = romanian
 	color = { 191 169 36 }
-
-	male_names = {
-		Alessandro Giovanni #placeholder names, from the Italian entry
-	}
-	
-	female_names = {
-		Giovanna #placeholder name, from the Italian entry
-	}
 }

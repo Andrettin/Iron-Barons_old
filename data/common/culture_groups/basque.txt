@@ -1,5 +1,4 @@
 basque = {
-	species = human
+	supergroup = old_european
 	color = { 157 99 85 }
-	default_phenotype = european
 }

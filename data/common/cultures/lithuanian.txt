@@ -1,5 +1,5 @@
 lithuanian = {
-	culture_group = baltic
+	group = baltic
 	color = { 3 83 31 }
 	
 	male_names = {

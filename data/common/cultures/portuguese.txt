@@ -1,5 +1,5 @@
 portuguese = {
-	culture_group = iberian
+	group = iberian
 	color = { 0 102 0 }
 	derived_cultures += brazilian
 	

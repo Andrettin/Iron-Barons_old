@@ -1,12 +1,4 @@
 serbian = {
-	culture_group = south_slavic
+	group = south_slavic
 	color = { 82 95 203 }
-	
-	male_names = {
-		Adam #Polish name as placeholder
-	}
-	
-	female_names = {
-		Marie #Polish name as placeholder
-	}
 }

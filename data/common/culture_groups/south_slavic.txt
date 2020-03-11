@@ -1,9 +1,4 @@
 south_slavic = {
-	species = human
+	supergroup = slavic
 	color = { 82 95 203 }
-	default_phenotype = european
-	
-	dynasty_names = {
-		Romanov #placeholder
-	}
 }

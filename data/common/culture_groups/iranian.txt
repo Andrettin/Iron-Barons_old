@@ -1,0 +1,4 @@
+iranian = {
+	supergroup = iranian
+	color = { 83 117 72 }
+}

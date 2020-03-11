@@ -1,4 +1,4 @@
 french = {
-	culture_group = french
+	group = french
 	color = { 0 38 84 }
 }

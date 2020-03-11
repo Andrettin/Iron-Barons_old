@@ -1,0 +1,5 @@
+latin = {
+	species = human
+	color = { 178 33 44 }
+	default_phenotype = european
+}

@@ -1,5 +1,5 @@
 tupi = {
-	culture_group = tupi
+	group = tupi
 	color = { 14 119 43 }
 	
 	male_names = {

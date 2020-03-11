@@ -1,5 +1,5 @@
 danish = {
-	culture_group = scandinavian
+	group = scandinavian
 	color = { 198 12 48 }
 
 	male_names = {

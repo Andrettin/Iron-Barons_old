@@ -1,4 +1,4 @@
 bavarian = {
-	culture_group = german
+	group = german
 	color = { 33 195 182 }
 }

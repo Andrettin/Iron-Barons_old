@@ -1,4 +1,4 @@
 franconian = {
-	culture_group = german
+	group = german
 	color = { 63 152 131 }
 }

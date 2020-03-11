@@ -1,0 +1,17 @@
+altaic = {
+	species = human
+	color = { 53 3 55 }
+	default_phenotype = european
+	
+	male_names = {
+		Ferenc Mátyás József #placeholder
+	}
+	
+	female_names = {
+		Karolina #placeholder
+	}
+	
+	dynasty_names = {
+		Hunyadi #placeholder
+	}
+}

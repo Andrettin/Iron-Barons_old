@@ -1,0 +1,5 @@
+germanic = {
+	species = human
+	color = { 215 152 36 }
+	default_phenotype = european
+}

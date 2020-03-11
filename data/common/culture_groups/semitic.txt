@@ -1,17 +1,4 @@
 semitic = {
-	species = human
+	supergroup = semitic
 	color = { 175 181 93 }
-	default_phenotype = european
-
-	male_names = {
-		Alessandro #placeholder
-	}
-	
-	female_names = {
-		Giovanna #placeholder
-	}
-	
-	dynasty_names = {
-		Palamidese #placeholder
-	}
 }

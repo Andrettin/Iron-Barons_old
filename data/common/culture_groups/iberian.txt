@@ -1,9 +1,4 @@
 iberian = {
-	species = human
+	supergroup = latin
 	color = { 246 174 41 }
-	default_phenotype = european
-	
-	dynasty_names = {
-		Palamidese #placeholder
-	}
 }

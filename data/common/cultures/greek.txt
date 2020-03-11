@@ -1,4 +1,4 @@
 greek = {
-	culture_group = hellenic
+	group = hellenic
 	color = { 70 178 213 }
 }

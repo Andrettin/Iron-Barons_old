@@ -1,5 +1,5 @@
 hungarian = {
-	culture_group = hungarian
+	group = hungarian
 	color = { 67 111 77 }
 	
 	male_names = {

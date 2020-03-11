@@ -1,9 +1,4 @@
 romanian = {
-	species = human
+	supergroup = latin
 	color = { 191 169 36 }
-	default_phenotype = european
-	
-	dynasty_names = {
-		Palamidese #placeholder
-	}
 }

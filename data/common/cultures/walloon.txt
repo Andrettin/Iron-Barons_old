@@ -1,4 +1,4 @@
 walloon = {
-	culture_group = french
+	group = french
 	color = { 250 224 66 }
 }

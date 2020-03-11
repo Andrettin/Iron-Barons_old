@@ -1,4 +1,4 @@
 atheist = {
-	religion_group = atheist
+	group = atheist
 	color = { 204 159 247 }
 }

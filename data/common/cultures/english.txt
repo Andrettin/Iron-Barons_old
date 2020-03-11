@@ -1,12 +1,12 @@
 english = {
-	culture_group = anglo_saxon
+	group = anglo_saxon
 	color = { 206 17 36 }
 
 	male_names = {
-		Albert Anthony Bernard Charles Edward Francis Frederick George Henry John Joseph Lewis Paul Peter Theodore William
+		"Albert" "Anthony" "Bernard" "Charles" "Francis" "Henry" "John" "Joseph" "Lewis" "Paul" "Peter" "Theodore" "William"
 	}
 	
 	female_names = {
-		Anne Mary Victoria
+		"Anne" "Mary"
 	}
 }

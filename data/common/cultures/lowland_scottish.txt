@@ -1,5 +1,5 @@
 lowland_scottish = {
-	culture_group = anglo_saxon
+	group = anglo_saxon
 	color = { 47 3 138 }
 
 	male_names = {

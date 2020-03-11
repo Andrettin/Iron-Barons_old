@@ -1,4 +1,4 @@
 saxon = {
-	culture_group = german
+	group = german
 	color = { 165 28 214 }
 }

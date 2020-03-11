@@ -1,5 +1,5 @@
 basque = {
-	culture_group = basque
+	group = basque
 	color = { 157 99 85 }
 
 	male_names = {

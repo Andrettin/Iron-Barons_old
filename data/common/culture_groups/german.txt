@@ -1,13 +1,12 @@
 german = {
-	species = human
+	supergroup = germanic
 	color = { 25 57 55 }
-	default_phenotype = european
 	
 	male_names = {
-		Adalbert Albert Albrecht Alexander Alphart Anton Arnulf Bernard Carl Christian David Eduard Ernst Fabian Ferdinand Franz Friedrich Georg Gerhard Gottfried Gunther Gustav Hagen Hans Heinrich Heinz Helmut Hermann Hildebrand Jakob Johann Josef Joseph Karl Karlmann Klaus Kurt Leopold Lothar Ludwig Luitpold Lukas Manfred Mark Matthias Maximilian Michael Otto Paul Peter Philipp Pippin Richard Rudolf Siegfried Theodor Thomas Tobias Victor Walter Werner Wilhelm Wolfgang Wolfhart
+		"Adalbert" "Alphart" "Arnulf" "Bernard" "Carl" "David" "Fabian" "Gerhard" "Gottfried" "Gunther" "Hagen" "Hans" "Heinz" "Helmut" "Hildebrand" "Johann" "Josef" "Karlmann" "Klaus" "Kurt" "Lothar" "Luitpold" "Lukas" "Manfred" "Mark" "Matthias" "Michael" "Otto" "Peter" "Pippin" "Richard" "Rudolf" "Siegfried" "Theodor" "Thomas" "Tobias" "Victor" "Walter" "Werner" "Wolfgang" "Wolfhart"
 	}
 	
 	female_names = {
-		Hilde Wilhelmina
+		"Hilde" "Wilhelmina"
 	}
 }

@@ -1,4 +1,4 @@
 austrian = {
-	culture_group = german
+	group = german
 	color = { 224 224 224 }
 }

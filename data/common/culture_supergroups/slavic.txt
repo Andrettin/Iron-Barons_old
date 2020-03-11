@@ -1,0 +1,5 @@
+slavic = {
+	species = human
+	color = { 20 32 121 }
+	default_phenotype = european
+}

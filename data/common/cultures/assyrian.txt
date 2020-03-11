@@ -1,4 +1,4 @@
 assyrian = {
-	culture_group = semitic
+	group = semitic
 	color = { 123 94 58 }
 }

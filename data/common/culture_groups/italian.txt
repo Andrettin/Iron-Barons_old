@@ -1,5 +1,4 @@
 italian = {
-	species = human
+	supergroup = latin
 	color = { 0 153 0 }
-	default_phenotype = european
 }

@@ -1,5 +1,5 @@
 polish = {
-	culture_group = west_slavic
+	group = west_slavic
 	color = { 212 41 61 }
 	
 	male_names = {

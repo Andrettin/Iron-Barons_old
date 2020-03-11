@@ -1,5 +1,5 @@
 brazilian = {
-	culture_group = iberian
+	group = iberian
 	color = { 0 146 63 }
 	
 	derivation_conditions = {

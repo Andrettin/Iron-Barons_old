@@ -1,4 +1,4 @@
 sunni = {
-	religion_group = muslim
+	group = muslim
 	color = { 36 149 51 }
 }

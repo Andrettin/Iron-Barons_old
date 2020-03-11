@@ -1,4 +1,4 @@
 alsatian = {
-	culture_group = german
+	group = german
 	color = { 166 162 89 }
 }
