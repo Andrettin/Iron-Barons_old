@@ -8,5 +8,8 @@ absolute_monarchy = {
 	
 	conditions = {
 		has_law = primogeniture_succession
+		not = {
+			has_law = tribal_administration
+		}
 	}
 }

@@ -8,5 +8,8 @@ aristocratic_republic = {
 	
 	conditions = {
 		has_law = aristocratic_elective_succession
+		not = {
+			has_law = tribal_administration
+		}
 	}
 }

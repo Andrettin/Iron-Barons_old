@@ -1,0 +1,8 @@
+tribe = {
+	group = tribe
+	allowed_holding_types += tribal_village
+	
+	conditions = {
+		has_law = tribal_administration
+	}
+}
