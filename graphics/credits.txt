@@ -53,6 +53,7 @@
 /graphics/flags/c_cher.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0 and the CC-BY-SA 1.0)
 /graphics/flags/c_colmar.svg (by Mortadelo2005 and Patricia.fidi, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/c_cote_dor.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
+/graphics/flags/c_dalarna.svg (by Lokal_Profil, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/c_doubs.svg (by Ætoms, from the Wikimedia Commons) (licensed under the CC-BY-SA 4.0)
 /graphics/flags/c_earth.svg (from the Wikimedia Commons) (in the public domain)
 /graphics/flags/c_hautes_alpes.svg (by Ætoms, from the Wikimedia Commons) (licensed under the CC-BY-SA 4.0)
