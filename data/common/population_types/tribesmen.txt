@@ -1,6 +1,8 @@
 tribesmen = {
 	color = { 176 85 121 }
 	icon_tag = slaves
+	equivalent_types += farmers
+	equivalent_types += laborers
 
 	holding_types += nomadic_camp
 	holding_types += tribal_village

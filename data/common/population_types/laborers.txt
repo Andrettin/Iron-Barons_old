@@ -1,6 +1,8 @@
 laborers = { #unskilled laborers who work in mining and the like
 	color = { 83 117 121 }
 	icon_tag = slaves
+	equivalent_types += farmers
+	equivalent_types += tribesmen
 
 	holding_types += village
 	holding_types += town
