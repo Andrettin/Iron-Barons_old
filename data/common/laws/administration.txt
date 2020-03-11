@@ -1,0 +1,11 @@
+tribal_administration = {
+	group = administration
+}
+
+feudal_administration = {
+	group = administration
+}
+
+bureaucracy = {
+	group = administration
+}
