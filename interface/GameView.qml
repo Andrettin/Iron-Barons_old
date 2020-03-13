@@ -17,10 +17,10 @@ Item {
 
 	function get_scroll_pixels() {
 		if (key_handler.ctrlPressed) {
-			return 25
+			return 9
 		}
 
-		return 5
+		return 3
 	}
 
 	Rectangle {
