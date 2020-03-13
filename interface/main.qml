@@ -17,7 +17,7 @@ Window {
 		ToolTip.toolTip.palette.text: "white"
 		ToolTip.toolTip.font.family: "tahoma"
 		ToolTip.toolTip.font.pixelSize: 14
-		ToolTip.toolTip.contentWidth: (tooltip_metrics.width + 2)
+		ToolTip.toolTip.contentWidth: (tooltip_metrics.width + 8)
 		ToolTip.toolTip.background: Rectangle {
 			color: "black"
 			opacity: 0.90
