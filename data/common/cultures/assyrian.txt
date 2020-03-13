@@ -1,4 +1,9 @@
 assyrian = {
 	group = semitic
 	color = { 123 94 58 }
+	
+	male_names = {
+		"Assurbanipal" #name of an Assyrian king; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+		"Sargon" #name of an Assyrian king; Source: William R. Shepherd, "Historical Atlas", 1911, p. 5.
+	}
 }

@@ -1,4 +1,10 @@
 egyptian = {
 	group = egyptian
 	color = { 224 226 33 }
+	
+	male_names = {
+		"Amenofis" #Source: Claude Traunecker, "Os Deuses do Egito", 1992, p. 112.
+		"Isi" #Source: Claude Traunecker, "Os Deuses do Egito", 1992, p. 81.
+		"Seti" #Source: Claude Traunecker, "Os Deuses do Egito", 1992, p. 90.
+	}
 }

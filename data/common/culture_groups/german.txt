@@ -9,4 +9,8 @@ german = {
 	female_names = {
 		"Hilde" "Wilhelmina"
 	}
+	
+	dynasty_names = {
+		"Mühlhausen" #Source: Bernhard Maier (trans.), "Das Sagenbuch der Walisischen Kelten", 1999, p. 104.
+	}
 }
