@@ -43,7 +43,7 @@ Item {
 		}
 
 		Image {
-			source: holding && holding.commodity ? "../graphics/icons/commodities/" + holding.commodity.identifier + ".png" : "image://empty/"
+			source: holding && holding.commodity ? holding.commodity.icon_path : "image://empty/"
 			anchors.top: parent.top
 			anchors.left: parent.left
 
