@@ -1,0 +1,24 @@
+cavorite = { #Source: H. G. Wells, "The First Men on the Moon", 1901, Chapter 1.
+	#a material made of a complicated metal alloy and (the narrator is uncertain) Helium
+	#cavorite has anti-gravitational properties
+	base_price = 8.0
+	icon_tag = silver
+	
+	chance = {
+		factor = 0.1
+		
+		modifier = {
+			factor = 0
+			world = earth
+		}
+		
+		modifier = {
+			factor = 0.25
+			nor = {
+				terrain = hills
+				terrain = mountains
+				terrain = swamp
+			}
+		}
+	}
+}

@@ -1,5 +1,6 @@
 amber = "Amber"
 cattle = "Cattle"
+cavorite = "Cavorite"
 clothing = "Clothing"
 coal = "Coal"
 coffee = "Coffee"

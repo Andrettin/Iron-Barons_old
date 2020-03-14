@@ -1,4 +1,5 @@
 cattle_ranching = "Cattle Ranching"
+cavorite_mining = "Cavorite Mining"
 coal_mining = "Coal Mining"
 copper_mining = "Copper Mining"
 coffee_planting = "Coffee Planting"

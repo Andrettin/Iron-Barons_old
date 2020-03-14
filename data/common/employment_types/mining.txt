@@ -29,6 +29,12 @@ mining_template = {
 	workforce = 10000
 }
 
+cavorite_mining = {
+	template = mining_template
+	output_commodity = cavorite
+	output_value = 1
+}
+
 coal_mining = {
 	template = mining_template
 	output_commodity = coal

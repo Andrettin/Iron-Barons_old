@@ -15,6 +15,23 @@ coal_mine = {
 	}
 }
 
+cavorite_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = cavorite_mining
+	workforce = 100000
+	icon_tag = silver
+	
+	preconditions = {
+		commodity = cavorite
+	}
+}
+
 gold_mine = {
 	holding_types += village
 	holding_types += town
