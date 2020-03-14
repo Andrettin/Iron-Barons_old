@@ -1,4 +1,4 @@
-p_arad = {
+arad = {
 	county = c_arad
 	color = { 185 194 88 }
 	megalopolis = h_vienna_megalopolis
@@ -14,7 +14,7 @@ p_arad = {
 	}
 }
 
-p_banska_bystrica = {
+banska_bystrica = {
 	county = c_banska_bystrica
 	color = { 176 19 45 }
 	megalopolis = h_vienna_megalopolis
@@ -45,7 +45,7 @@ p_banska_bystrica = {
 	}
 }
 
-p_baranya = {
+baranya = {
 	county = c_baranya
 	color = { 50 10 55 }
 	megalopolis = h_vienna_megalopolis
@@ -56,11 +56,11 @@ p_baranya = {
 	}
 }
 
-p_bekes = {
+bekes = {
 	color = { 184 105 74 }
 }
 
-p_bihor = {
+bihor = {
 	county = c_bihor
 	color = { 209 71 103 }
 	megalopolis = h_vienna_megalopolis
@@ -71,7 +71,7 @@ p_bihor = {
 	}
 }
 
-p_borsod = {
+borsod = {
 	county = c_borsod
 	color = { 240 97 16 }
 	megalopolis = h_vienna_megalopolis
@@ -87,7 +87,7 @@ p_borsod = {
 	}
 }
 
-p_burgenland = {
+burgenland = {
 	county = c_burgenland
 	color = { 104 62 229 }
 	megalopolis = h_vienna_megalopolis
@@ -98,7 +98,7 @@ p_burgenland = {
 	}
 }
 
-p_csongrad = {
+csongrad = {
 	county = c_csongrad
 	color = { 178 178 43 }
 	megalopolis = h_vienna_megalopolis
@@ -119,7 +119,7 @@ p_csongrad = {
 	}
 }
 
-p_esztergom = {
+esztergom = {
 	county = c_esztergom
 	color = { 237 205 127 }
 	megalopolis = h_vienna_megalopolis
@@ -130,7 +130,7 @@ p_esztergom = {
 	}
 }
 
-p_fejer = {
+fejer = {
 	county = c_fejer
 	color = { 73 22 197 }
 	megalopolis = h_vienna_megalopolis
@@ -156,7 +156,7 @@ p_fejer = {
 	}
 }
 
-p_gyor = {
+gyor = {
 	county = c_gyor
 	color = { 251 103 28 }
 	megalopolis = h_vienna_megalopolis
@@ -182,7 +182,7 @@ p_gyor = {
 	}
 }
 
-p_hajdu = {
+hajdu = {
 	county = c_hajdu
 	color = { 189 31 4 }
 	megalopolis = h_vienna_megalopolis
@@ -193,7 +193,7 @@ p_hajdu = {
 	}
 }
 
-p_heves = {
+heves = {
 	county = c_heves
 	color = { 169 108 205 }
 	megalopolis = h_vienna_megalopolis
@@ -214,7 +214,7 @@ p_heves = {
 	}
 }
 
-p_kikinda = {
+kikinda = {
 	county = c_kikinda
 	color = { 18 221 52 }
 	megalopolis = h_vienna_megalopolis
@@ -230,7 +230,7 @@ p_kikinda = {
 	}
 }
 
-p_kiskun = {
+kiskun = {
 	county = c_kiskun
 	color = { 175 155 67 }
 	megalopolis = h_vienna_megalopolis
@@ -241,7 +241,7 @@ p_kiskun = {
 	}
 }
 
-p_komarom = {
+komarom = {
 	county = c_komarom
 	color = { 240 243 52 }
 	megalopolis = h_vienna_megalopolis
@@ -267,7 +267,7 @@ p_komarom = {
 	}
 }
 
-p_kosice = {
+kosice = {
 	county = c_kosice
 	color = { 221 179 32 }
 	megalopolis = h_vienna_megalopolis
@@ -288,11 +288,11 @@ p_kosice = {
 	}
 }
 
-p_maramures = {
+maramures = {
 	color = { 58 172 146 }
 }
 
-p_melencze = {
+melencze = {
 	county = c_melencze
 	color = { 153 223 47 }
 	megalopolis = h_vienna_megalopolis
@@ -308,11 +308,11 @@ p_melencze = {
 	}
 }
 
-p_nograd = {
+nograd = {
 	color = { 15 165 102 }
 }
 
-p_north_bacs = {
+north_bacs = {
 	county = c_north_bacs
 	color = { 126 66 17 }
 	megalopolis = h_vienna_megalopolis
@@ -328,7 +328,7 @@ p_north_bacs = {
 	}
 }
 
-p_pancsova = {
+pancsova = {
 	county = c_pancsova
 	color = { 104 234 156 }
 	megalopolis = h_vienna_megalopolis
@@ -354,7 +354,7 @@ p_pancsova = {
 	}
 }
 
-p_pest = {
+pest = {
 	county = c_pest
 	color = { 57 174 209 }
 	megalopolis = h_vienna_megalopolis
@@ -385,7 +385,7 @@ p_pest = {
 	}
 }
 
-p_presov = {
+presov = {
 	county = c_presov
 	color = { 183 3 42 }
 	megalopolis = h_vienna_megalopolis
@@ -401,7 +401,7 @@ p_presov = {
 	}
 }
 
-p_pressburg = {
+pressburg = {
 	county = c_pressburg
 	color = { 107 108 168 }
 	megalopolis = h_vienna_megalopolis
@@ -427,7 +427,7 @@ p_pressburg = {
 	}
 }
 
-p_resita = {
+resita = {
 	county = c_resita
 	color = { 233 141 125 }
 	megalopolis = h_vienna_megalopolis
@@ -443,15 +443,15 @@ p_resita = {
 	}
 }
 
-p_satu_mare = {
+satu_mare = {
 	color = { 151 109 216 }
 }
 
-p_somogy = {
+somogy = {
 	color = { 80 118 252 }
 }
 
-p_south_bacs = {
+south_bacs = {
 	county = c_south_bacs
 	color = { 112 95 226 }
 	megalopolis = h_vienna_megalopolis
@@ -477,11 +477,11 @@ p_south_bacs = {
 	}
 }
 
-p_szabolcs = {
+szabolcs = {
 	color = { 97 20 217 }
 }
 
-p_szolnok = {
+szolnok = {
 	county = c_szolnok
 	color = { 229 228 108 }
 	megalopolis = h_vienna_megalopolis
@@ -497,7 +497,7 @@ p_szolnok = {
 	}
 }
 
-p_temesvar = {
+temesvar = {
 	county = c_temesvar
 	color = { 204 27 113 }
 	megalopolis = h_vienna_megalopolis
@@ -513,7 +513,7 @@ p_temesvar = {
 	}
 }
 
-p_tolna = {
+tolna = {
 	county = c_tolna
 	color = { 123 175 85 }
 	megalopolis = h_vienna_megalopolis
@@ -539,7 +539,7 @@ p_tolna = {
 	}
 }
 
-p_transcarpathia = {
+transcarpathia = {
 	county = c_transcarpathia
 	color = { 70 139 248 }
 	megalopolis = h_vienna_megalopolis
@@ -550,11 +550,11 @@ p_transcarpathia = {
 	}
 }
 
-p_trencin = {
+trencin = {
 	color = { 169 239 151 }
 }
 
-p_vas = {
+vas = {
 	county = c_vas
 	color = { 171 56 71 }
 	megalopolis = h_vienna_megalopolis
@@ -565,11 +565,11 @@ p_vas = {
 	}
 }
 
-p_veszprem = {
+veszprem = {
 	color = { 181 120 228 }
 }
 
-p_west_bacs = {
+west_bacs = {
 	county = c_west_bacs
 	color = { 118 146 28 }
 	megalopolis = h_vienna_megalopolis
@@ -580,7 +580,7 @@ p_west_bacs = {
 	}
 }
 
-p_zala = {
+zala = {
 	county = c_zala
 	color = { 78 44 216 }
 	megalopolis = h_vienna_megalopolis
@@ -591,7 +591,7 @@ p_zala = {
 	}
 }
 
-p_zilina = {
+zilina = {
 	county = c_zilina
 	color = { 24 111 43 }
 	megalopolis = h_vienna_megalopolis

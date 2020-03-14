@@ -1,26 +1,26 @@
 k_bohemia = {
 	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
 	color = { 197 114 24 }
-	capital_province = p_central_bohemia
+	capital_province = central_bohemia
 }
 
 d_bohemia = {
 	de_jure_liege_title = k_bohemia
 	color = { 197 114 24 }
-	capital_province = p_central_bohemia
+	capital_province = central_bohemia
 	flag_tag = k_bohemia
 }
 
 d_moravia = {
 	de_jure_liege_title = k_bohemia
 	color = { 14 21 124 }
-	capital_province = p_moravia
+	capital_province = moravia
 }
 
 d_teschen = {
 	de_jure_liege_title = k_bohemia
 	color = { 255 159 23 }
-	capital_province = p_teschen
+	capital_province = teschen
 	flag_tag = c_teschen
 }
 

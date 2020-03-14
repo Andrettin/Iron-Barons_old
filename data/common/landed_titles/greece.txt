@@ -1,12 +1,12 @@
 k_greece = {
 	color = { 70 178 213 }
-	capital_province = p_attica
+	capital_province = attica
 }
 
 d_greece = {
 	de_jure_liege_title = k_greece
 	color = { 70 178 213 }
-	capital_province = p_attica
+	capital_province = attica
 	flag_tag = k_greece
 }
 

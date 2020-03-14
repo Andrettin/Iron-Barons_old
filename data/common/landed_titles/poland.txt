@@ -1,30 +1,30 @@
 k_galicia = {
 	color = { 100 40 205 }
-	capital_province = p_lemberg
+	capital_province = lemberg
 }
 
 k_poland = {
 	color = { 212 41 61 }
-	capital_province = p_mazovia
+	capital_province = mazovia
 }
 
 d_galicia = {
 	de_jure_liege_title = k_galicia
 	color = { 100 40 205 }
-	capital_province = p_lemberg
+	capital_province = lemberg
 	flag_tag = k_galicia
 }
 
 d_posen = {
 	de_jure_liege_title = k_prussia
 	color = { 103 169 210 }
-	capital_province = p_posen
+	capital_province = posen
 }
 
 d_warsaw = {
 	de_jure_liege_title = k_poland
 	color = { 212 41 61 }
-	capital_province = p_mazovia
+	capital_province = mazovia
 	flag_tag = k_poland
 }
 

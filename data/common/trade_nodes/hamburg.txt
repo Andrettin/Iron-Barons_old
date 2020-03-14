@@ -1,4 +1,4 @@
 hamburg = {
 	color = { 194 46 58 }
-	center_of_trade = p_hamburg
+	center_of_trade = hamburg
 }

@@ -1,56 +1,56 @@
 e_austria = {
 	color = { 224 224 224 }
-	capital_province = p_vienna
+	capital_province = vienna
 	active_post_amalgamation = true
 }
 
 k_austria = { #represents the Kreis of Austria in the HRE, and the post-WW1 republic of Austria
 	de_jure_liege_title = e_germany #to represent the fact that its lands were a part of the German Confederation
 	color = { 224 224 224 }
-	capital_province = p_vienna
+	capital_province = vienna
 	active_post_amalgamation = true
 }
 
 d_carinthia = {
 	de_jure_liege_title = k_austria
 	color = { 165 255 250 }
-	capital_province = p_carinthia
+	capital_province = carinthia
 }
 
 d_carniola = {
 	de_jure_liege_title = k_austria
 	color = { 0 86 148 }
-	capital_province = p_carniola
+	capital_province = carniola
 }
 
 d_lower_austria = {
 	de_jure_liege_title = k_austria
 	color = { 0 86 148 }
-	capital_province = p_vienna
+	capital_province = vienna
 }
 
 d_salzburg = {
 	de_jure_liege_title = k_austria
 	color = { 151 155 134 }
-	capital_province = p_salzburg
+	capital_province = salzburg
 }
 
 d_styria = {
 	de_jure_liege_title = k_austria
 	color = { 48 137 4 }
-	capital_province = p_styria
+	capital_province = styria
 }
 
 d_tyrol = {
 	de_jure_liege_title = k_austria
 	color = { 169 6 99 }
-	capital_province = p_tyrol
+	capital_province = tyrol
 }
 
 d_upper_austria = {
 	de_jure_liege_title = k_austria
 	color = { 31 26 23 }
-	capital_province = p_traunviertel
+	capital_province = traunviertel
 }
 
 c_carinthia = {

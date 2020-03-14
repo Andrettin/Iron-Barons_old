@@ -1,19 +1,19 @@
 k_prussia = {
 	color = { 0 49 83 }
-	capital_province = p_brandenburg
+	capital_province = brandenburg
 	active_post_amalgamation = true
 }
 
 d_east_prussia = {
 	de_jure_liege_title = k_prussia
 	color = { 0 49 83 }
-	capital_province = p_east_prussia
+	capital_province = east_prussia
 }
 
 d_west_prussia = {
 	de_jure_liege_title = k_prussia
 	color = { 75 63 97 }
-	capital_province = p_danzig
+	capital_province = danzig
 }
 
 c_danzig = {

@@ -1,17 +1,17 @@
 amber_road = { #Amber trade route during Bronze Age Europe, c. 2300 to 800 BC; Source: "Atlas de História Mundial", 2001, p. 85.
 	path_branches = {
-		{ p_danzig p_farther_pomerania p_hither_pomerania p_schwerin p_lauenburg p_holstein p_south_schleswig }
-		{ p_danzig p_thorn }
-		{ p_thorn p_bromberg p_posen p_lissa p_breslau }
-		{ p_breslau p_koniggratz }
-		{ p_south_schleswig p_north_schleswig p_danish_waters p_funen p_danish_waters p_sjaelland p_oresund p_scania } #p_blekinge p_kalmar
-		{ p_south_schleswig p_north_sea p_kent }
-		{ p_south_schleswig p_holstein p_hamburg p_lauenburg p_schwerin p_brandenburg p_jerichow }
-		{ p_jerichow p_wittenberg p_upper_lusatia p_reichenberg p_koniggratz }
-		{ p_jerichow p_magdeburg p_anhalt p_merseburg p_weimar p_upper_franconia p_upper_palatinate p_middle_franconia p_wurtemberg p_sundgau p_basel p_bern p_neuchatel p_vaud p_ain p_rhone }
-		{ p_koniggratz p_central_bohemia p_south_bohemia p_muhlviertel p_traunviertel p_salzburg p_tyrol p_south_tyrol p_treviso p_padua }
-		{ p_breslau p_oppeln }
-		{ p_oppeln p_troppau p_moravia p_trencin p_komarom }
-		{ p_komarom p_esztergom p_veszprem p_somogy p_zala p_upper_styria p_carniola p_trieste }
+		{ danzig farther_pomerania hither_pomerania schwerin lauenburg holstein south_schleswig }
+		{ danzig thorn }
+		{ thorn bromberg posen lissa breslau }
+		{ breslau koniggratz }
+		{ south_schleswig north_schleswig danish_waters funen danish_waters sjaelland oresund scania } #blekinge kalmar
+		{ south_schleswig north_sea kent }
+		{ south_schleswig holstein hamburg lauenburg schwerin brandenburg jerichow }
+		{ jerichow wittenberg upper_lusatia reichenberg koniggratz }
+		{ jerichow magdeburg anhalt merseburg weimar upper_franconia upper_palatinate middle_franconia wurtemberg sundgau basel bern neuchatel vaud ain rhone }
+		{ koniggratz central_bohemia south_bohemia muhlviertel traunviertel salzburg tyrol south_tyrol treviso padua }
+		{ breslau oppeln }
+		{ oppeln troppau moravia trencin komarom }
+		{ komarom esztergom veszprem somogy zala upper_styria carniola trieste }
 	}
 }

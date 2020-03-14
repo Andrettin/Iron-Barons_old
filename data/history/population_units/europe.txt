@@ -1,5 +1,5 @@
 laborers = {
-	region = r_non_cis_europe
+	region = non_cis_europe
 	discount_existing = yes
 	discount_any_type = yes
 	

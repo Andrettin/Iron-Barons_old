@@ -1,4 +1,4 @@
-p_belgrade = {
+belgrade = {
 	county = c_belgrade
 	color = { 11 44 81 }
 	megalopolis = h_byzantium_megalopolis
@@ -9,82 +9,82 @@ p_belgrade = {
 	}
 }
 
-p_bor = {
+bor = {
 	color = { 30 38 0 }
 }
 
-p_branicevo = {
+branicevo = {
 	color = { 188 217 25 }
 }
 
-p_jablanica = {
+jablanica = {
 	color = { 145 243 184 }
 }
 
-p_kolubara = {
+kolubara = {
 	color = { 74 0 92 }
 }
 
-p_kosovo = {
+kosovo = {
 	color = { 108 46 10 }
 }
 
-p_macva = {
+macva = {
 	color = { 63 236 141 }
 }
 
-p_montenegro = {
+montenegro = {
 	color = { 46 106 106 }
 }
 
-p_moravica = {
+moravica = {
 	color = { 152 119 83 }
 }
 
-p_nisava = {
+nisava = {
 	color = { 21 230 111 }
 }
 
-p_north_macedonia = {
+north_macedonia = {
 	color = { 121 78 88 }
 }
 
-p_pcinja = {
+pcinja = {
 	color = { 204 139 17 }
 }
 
-p_pirot = {
+pirot = {
 	color = { 126 230 92 }
 }
 
-p_podunavlje = {
+podunavlje = {
 	color = { 174 14 127 }
 }
 
-p_pomoravlje = {
+pomoravlje = {
 	color = { 213 239 165 }
 }
 
-p_rasina = {
+rasina = {
 	color = { 143 34 13 }
 }
 
-p_raska = {
+raska = {
 	color = { 211 157 113 }
 }
 
-p_sumadija = {
+sumadija = {
 	color = { 210 229 92 }
 }
 
-p_toplica = {
+toplica = {
 	color = { 147 224 62 }
 }
 
-p_zajecar = {
+zajecar = {
 	color = { 241 134 244 }
 }
 
-p_zlatibor = {
+zlatibor = {
 	color = { 209 70 154 }
 }

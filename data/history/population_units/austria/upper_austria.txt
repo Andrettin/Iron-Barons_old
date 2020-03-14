@@ -1,5 +1,5 @@
 laborers = {
-	region = r_upper_austria
+	region = upper_austria
 	discount_existing = yes
 	discount_any_type = yes
 	

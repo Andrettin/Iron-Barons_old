@@ -1,12 +1,12 @@
 k_syria = {
 	color = { 209 231 105 }
-	capital_province = p_damascus
+	capital_province = damascus
 }
 
 d_syria = {
 	de_jure_liege_title = k_syria
 	color = { 209 231 105 }
-	capital_province = p_damascus
+	capital_province = damascus
 	flag_tag = k_syria
 }
 

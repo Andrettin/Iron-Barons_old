@@ -1,7 +1,7 @@
-p_chukotka = {
+chukotka = {
 	color = { 159 186 250 }
 }
 
-p_kamchatka = {
+kamchatka = {
 	color = { 163 12 73 }
 }

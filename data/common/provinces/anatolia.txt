@@ -1,4 +1,4 @@
-p_adana = {
+adana = {
 	county = c_adana
 	color = { 164 43 218 }
 	megalopolis = h_byzantium_megalopolis
@@ -9,27 +9,27 @@ p_adana = {
 	}
 }
 
-p_adiyaman = {
+adiyaman = {
 	color = { 98 35 21 }
 }
 
-p_afyonkarahisar = {
+afyonkarahisar = {
 	color = { 121 225 138 }
 }
 
-p_agri = {
+agri = {
 	color = { 29 53 14 }
 }
 
-p_aksaray = {
+aksaray = {
 	color = { 190 195 48 }
 }
 
-p_amasya = {
+amasya = {
 	color = { 175 162 213 }
 }
 
-p_amida = {
+amida = {
 	county = c_amida
 	color = { 135 78 133 }
 	megalopolis = h_byzantium_megalopolis
@@ -40,11 +40,11 @@ p_amida = {
 	}
 }
 
-p_ankara = {
+ankara = {
 	color = { 197 92 72 }
 }
 
-p_antalya = {
+antalya = {
 	county = c_antalya
 	color = { 142 125 69 }
 	megalopolis = h_byzantium_megalopolis
@@ -55,15 +55,15 @@ p_antalya = {
 	}
 }
 
-p_ardahan = {
+ardahan = {
 	color = { 88 46 59 }
 }
 
-p_artvin = {
+artvin = {
 	color = { 200 118 79 }
 }
 
-p_aydin = {
+aydin = {
 	county = c_aydin
 	color = { 72 55 97 }
 	megalopolis = h_byzantium_megalopolis
@@ -74,43 +74,43 @@ p_aydin = {
 	}
 }
 
-p_balikesir = {
+balikesir = {
 	color = { 165 236 160 }
 }
 
-p_bartin = {
+bartin = {
 	color = { 213 27 153 }
 }
 
-p_batman = {
+batman = {
 	color = { 94 13 141 }
 }
 
-p_bayburt = {
+bayburt = {
 	color = { 126 15 137 }
 }
 
-p_bilecik = {
+bilecik = {
 	color = { 133 89 95 }
 }
 
-p_bingol = {
+bingol = {
 	color = { 92 36 100 }
 }
 
-p_bitlis = {
+bitlis = {
 	color = { 160 3 25 }
 }
 
-p_bolu = {
+bolu = {
 	color = { 132 66 108 }
 }
 
-p_burdur = {
+burdur = {
 	color = { 149 56 116 }
 }
 
-p_bursa = {
+bursa = {
 	county = c_bursa
 	color = { 161 41 169 }
 	megalopolis = h_byzantium_megalopolis
@@ -121,39 +121,39 @@ p_bursa = {
 	}
 }
 
-p_cankiri = {
+cankiri = {
 	color = { 105 35 33 }
 }
 
-p_corum = {
+corum = {
 	color = { 192 125 99 }
 }
 
-p_denizli = {
+denizli = {
 	color = { 176 0 210 }
 }
 
-p_duzce = {
+duzce = {
 	color = { 220 62 71 }
 }
 
-p_elazig = {
+elazig = {
 	color = { 160 124 86 }
 }
 
-p_erzincan = {
+erzincan = {
 	color = { 176 249 132 }
 }
 
-p_erzurum = {
+erzurum = {
 	color = { 176 128 118 }
 }
 
-p_eskisehir = {
+eskisehir = {
 	color = { 209 231 78 }
 }
 
-p_gaziantep = {
+gaziantep = {
 	county = c_gaziantep
 	color = { 124 145 12 }
 	megalopolis = h_byzantium_megalopolis
@@ -169,55 +169,55 @@ p_gaziantep = {
 	}
 }
 
-p_giresun = {
+giresun = {
 	color = { 211 202 47 }
 }
 
-p_gumushane = {
+gumushane = {
 	color = { 0 46 50 }
 }
 
-p_hakkari = {
+hakkari = {
 	color = { 195 189 26 }
 }
 
-p_isparta = {
+isparta = {
 	color = { 238 152 235 }
 }
 
-p_kahramanmaras = {
+kahramanmaras = {
 	color = { 187 121 29 }
 }
 
-p_karabuk = {
+karabuk = {
 	color = { 133 239 181 }
 }
 
-p_karaman = {
+karaman = {
 	color = { 48 55 82 }
 }
 
-p_kars = {
+kars = {
 	color = { 172 139 85 }
 }
 
-p_kastamonu = {
+kastamonu = {
 	color = { 178 175 60 }
 }
 
-p_kayseri = {
+kayseri = {
 	color = { 246 133 186 }
 }
 
-p_kinkkale = {
+kinkkale = {
 	color = { 119 102 77 }
 }
 
-p_kirsehir = {
+kirsehir = {
 	color = { 254 149 156 }
 }
 
-p_kocaeli = {
+kocaeli = {
 	county = c_kocaeli
 	color = { 148 136 53 }
 	megalopolis = h_byzantium_megalopolis
@@ -238,87 +238,87 @@ p_kocaeli = {
 	}
 }
 
-p_konya = {
+konya = {
 	color = { 179 142 224 }
 }
 
-p_kutahya = {
+kutahya = {
 	color = { 27 167 67 }
 }
 
-p_malatya = {
+malatya = {
 	color = { 125 95 70 }
 }
 
-p_manisa = {
+manisa = {
 	color = { 126 2 119 }
 }
 
-p_mardin = {
+mardin = {
 	color = { 158 182 83 }
 }
 
-p_mersin = {
+mersin = {
 	color = { 140 52 183 }
 }
 
-p_mugla = {
+mugla = {
 	color = { 100 19 48 }
 }
 
-p_mus = {
+mus = {
 	color = { 211 188 12 }
 }
 
-p_nevsehir = {
+nevsehir = {
 	color = { 182 44 121 }
 }
 
-p_nigde = {
+nigde = {
 	color = { 227 222 124 }
 }
 
-p_ordu = {
+ordu = {
 	color = { 104 164 153 }
 }
 
-p_osmaniye = {
+osmaniye = {
 	color = { 188 92 255 }
 }
 
-p_rize = {
+rize = {
 	color = { 88 124 146 }
 }
 
-p_sakarya = {
+sakarya = {
 	color = { 166 109 143 }
 }
 
-p_samsun = {
+samsun = {
 	color = { 8 151 96 }
 }
 
-p_sanliurfa = {
+sanliurfa = {
 	color = { 106 230 17 }
 }
 
-p_siirt = {
+siirt = {
 	color = { 241 159 216 }
 }
 
-p_sinope = {
+sinope = {
 	color = { 118 35 49 }
 }
 
-p_sirnak = {
+sirnak = {
 	color = { 206 39 53 }
 }
 
-p_sivas = {
+sivas = {
 	color = { 211 163 159 }
 }
 
-p_smyrna = {
+smyrna = {
 	county = c_smyrna
 	color = { 113 174 45 }
 	megalopolis = h_byzantium_megalopolis
@@ -329,15 +329,15 @@ p_smyrna = {
 	}
 }
 
-p_tokat = {
+tokat = {
 	color = { 133 6 26 }
 }
 
-p_trebizond = {
+trebizond = {
 	color = { 178 98 11 }
 }
 
-p_troad = {
+troad = {
 	county = c_troad
 	color = { 6 65 60 }
 	megalopolis = h_byzantium_megalopolis
@@ -348,22 +348,22 @@ p_troad = {
 	}
 }
 
-p_tunceli = {
+tunceli = {
 	color = { 120 151 6 }
 }
 
-p_usak = {
+usak = {
 	color = { 124 29 35 }
 }
 
-p_van = {
+van = {
 	color = { 50 17 116 }
 }
 
-p_yozgat = {
+yozgat = {
 	color = { 33 174 60 }
 }
 
-p_zinguldak = {
+zinguldak = {
 	color = { 159 252 49 }
 }

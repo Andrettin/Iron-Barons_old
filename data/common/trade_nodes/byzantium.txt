@@ -1,4 +1,4 @@
 byzantium = {
 	color = { 105 10 191 }
-	center_of_trade = p_byzantium
+	center_of_trade = byzantium
 }

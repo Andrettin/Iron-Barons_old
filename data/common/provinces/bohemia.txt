@@ -1,4 +1,4 @@
-p_aussig = {
+aussig = {
 	county = c_aussig
 	color = { 85 77 57 }
 	megalopolis = h_vienna_megalopolis
@@ -14,7 +14,7 @@ p_aussig = {
 	}
 }
 
-p_carlsbad = {
+carlsbad = {
 	county = c_carlsbad
 	color = { 55 53 242 }
 	megalopolis = h_vienna_megalopolis
@@ -30,7 +30,7 @@ p_carlsbad = {
 	}
 }
 
-p_central_bohemia = {
+central_bohemia = {
 	county = c_central_bohemia
 	color = { 30 207 116 }
 	megalopolis = h_vienna_megalopolis
@@ -46,7 +46,7 @@ p_central_bohemia = {
 	}
 }
 
-p_koniggratz = {
+koniggratz = {
 	county = c_koniggratz
 	color = { 175 50 230 }
 	megalopolis = h_vienna_megalopolis
@@ -102,7 +102,7 @@ p_koniggratz = {
 	#}
 }
 
-p_moravia = {
+moravia = {
 	county = c_moravia
 	color = { 224 131 143 }
 	megalopolis = h_vienna_megalopolis
@@ -148,7 +148,7 @@ p_moravia = {
 	}
 }
 
-p_pardubitz = {
+pardubitz = {
 	county = c_pardubitz
 	color = { 192 235 180 }
 	megalopolis = h_vienna_megalopolis
@@ -159,7 +159,7 @@ p_pardubitz = {
 	}
 }
 
-p_pilsen = {
+pilsen = {
 	county = c_pilsen
 	color = { 230 91 126 }
 	megalopolis = h_vienna_megalopolis
@@ -170,7 +170,7 @@ p_pilsen = {
 	}
 }
 
-p_reichenberg = {
+reichenberg = {
 	county = c_reichenberg
 	color = { 208 99 244 }
 	megalopolis = h_vienna_megalopolis
@@ -191,7 +191,7 @@ p_reichenberg = {
 	}
 }
 
-p_south_bohemia = {
+south_bohemia = {
 	county = c_south_bohemia
 	color = { 175 88 78 }
 	megalopolis = h_vienna_megalopolis
@@ -202,7 +202,7 @@ p_south_bohemia = {
 	}
 }
 
-p_tabor = {
+tabor = {
 	county = c_tabor
 	color = { 154 4 191 }
 	megalopolis = h_vienna_megalopolis
@@ -213,7 +213,7 @@ p_tabor = {
 	}
 }
 
-p_teschen = {
+teschen = {
 	county = c_teschen
 	color = { 250 97 3 }
 	megalopolis = h_vienna_megalopolis
@@ -224,7 +224,7 @@ p_teschen = {
 	}
 }
 
-p_troppau = {
+troppau = {
 	county = c_troppau
 	color = { 208 156 43 }
 	megalopolis = h_vienna_megalopolis

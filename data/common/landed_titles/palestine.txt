@@ -1,12 +1,12 @@
 k_palestine = {
 	color = { 88 212 234 }
-	capital_province = p_west_bank #Jerusalem
+	capital_province = west_bank #Jerusalem
 }
 
 d_palestine = {
 	de_jure_liege_title = k_palestine
 	color = { 88 212 234 }
-	capital_province = p_west_bank #Jerusalem
+	capital_province = west_bank #Jerusalem
 	flag_tag = k_palestine
 }
 

@@ -1,12 +1,12 @@
-p_albacete = {
+albacete = {
 	color = { 160 172 107 }
 }
 
-p_almeria = {
+almeria = {
 	color = { 163 118 3 }
 }
 
-p_asturias = {
+asturias = {
 	county = c_asturias
 	color = { 46 91 103 }
 	megalopolis = h_madrid_megalopolis
@@ -17,7 +17,7 @@ p_asturias = {
 	}
 }
 
-p_avila = {
+avila = {
 	county = c_avila
 	color = { 83 91 24 }
 	megalopolis = h_madrid_megalopolis
@@ -28,27 +28,27 @@ p_avila = {
 	}
 }
 
-p_badajoz = {
+badajoz = {
 	color = { 217 165 162 }
 }
 
-p_burgos = {
+burgos = {
 	color = { 0 85 46 }
 }
 
-p_caceres = {
+caceres = {
 	color = { 167 77 52 }
 }
 
-p_cadiz = {
+cadiz = {
 	color = { 179 218 131 }
 }
 
-p_cantabria = {
+cantabria = {
 	color = { 1 137 37 }
 }
 
-p_ciudad_real = {
+ciudad_real = {
 	county = c_ciudad_real
 	color = { 6 132 12 }
 	megalopolis = h_madrid_megalopolis
@@ -59,7 +59,7 @@ p_ciudad_real = {
 	}
 }
 
-p_cordoba = {
+cordoba = {
 	county = c_cordoba
 	color = { 22 207 46 }
 	megalopolis = h_madrid_megalopolis
@@ -75,11 +75,11 @@ p_cordoba = {
 	}
 }
 
-p_cuenca = {
+cuenca = {
 	color = { 171 97 48 }
 }
 
-p_granada = {
+granada = {
 	county = c_granada
 	color = { 186 40 175 }
 	megalopolis = h_madrid_megalopolis
@@ -90,7 +90,7 @@ p_granada = {
 	}
 }
 
-p_guadalajara = {
+guadalajara = {
 	county = c_guadalajara
 	color = { 132 108 104 }
 	megalopolis = h_madrid_megalopolis
@@ -101,11 +101,11 @@ p_guadalajara = {
 	}
 }
 
-p_huelva = {
+huelva = {
 	color = { 198 94 140 }
 }
 
-p_jaen = {
+jaen = {
 	county = c_jaen
 	color = { 194 124 151 }
 	megalopolis = h_madrid_megalopolis
@@ -116,7 +116,7 @@ p_jaen = {
 	}
 }
 
-p_la_coruna = {
+la_coruna = {
 	county = c_la_coruna
 	color = { 166 161 75 }
 	megalopolis = h_madrid_megalopolis
@@ -127,19 +127,19 @@ p_la_coruna = {
 	}
 }
 
-p_la_rioja = {
+la_rioja = {
 	color = { 162 242 82 }
 }
 
-p_leon = {
+leon = {
 	color = { 201 142 117 }
 }
 
-p_lugo = {
+lugo = {
 	color = { 55 172 177 }
 }
 
-p_madrid = {
+madrid = {
 	county = c_madrid
 	color = { 124 44 233 }
 	megalopolis = h_madrid_megalopolis
@@ -150,11 +150,11 @@ p_madrid = {
 	}
 }
 
-p_malaga = {
+malaga = {
 	color = { 68 146 148 }
 }
 
-p_murcia = {
+murcia = {
 	county = c_murcia
 	color = { 141 35 153 }
 	megalopolis = h_madrid_megalopolis
@@ -165,11 +165,11 @@ p_murcia = {
 	}
 }
 
-p_orense = {
+orense = {
 	color = { 215 109 108 }
 }
 
-p_palencia = {
+palencia = {
 	county = c_palencia
 	color = { 49 141 148 }
 	megalopolis = h_madrid_megalopolis
@@ -180,11 +180,11 @@ p_palencia = {
 	}
 }
 
-p_pontevedra = {
+pontevedra = {
 	color = { 25 162 113 }
 }
 
-p_salamanca = {
+salamanca = {
 	county = c_salamanca
 	color = { 142 190 24 }
 	megalopolis = h_madrid_megalopolis
@@ -195,11 +195,11 @@ p_salamanca = {
 	}
 }
 
-p_segovia = {
+segovia = {
 	color = { 182 228 247 }
 }
 
-p_seville = {
+seville = {
 	county = c_seville
 	color = { 230 112 111 }
 	megalopolis = h_madrid_megalopolis
@@ -215,7 +215,7 @@ p_seville = {
 	}
 }
 
-p_soria = {
+soria = {
 	county = c_soria
 	color = { 65 4 58 }
 	megalopolis = h_madrid_megalopolis
@@ -226,7 +226,7 @@ p_soria = {
 	}
 }
 
-p_toledo = {
+toledo = {
 	county = c_toledo
 	color = { 47 71 121 }
 	megalopolis = h_madrid_megalopolis
@@ -237,7 +237,7 @@ p_toledo = {
 	}
 }
 
-p_valladolid = {
+valladolid = {
 	county = c_valladolid
 	color = { 149 67 72 }
 	megalopolis = h_madrid_megalopolis
@@ -248,6 +248,6 @@ p_valladolid = {
 	}
 }
 
-p_zamora = {
+zamora = {
 	color = { 87 12 220 }
 }

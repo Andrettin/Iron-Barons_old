@@ -1,4 +1,4 @@
-p_aargau = {
+aargau = {
 	county = c_aargau
 	color = { 157 162 180 }
 	megalopolis = h_berlin_megalopolis
@@ -9,7 +9,7 @@ p_aargau = {
 	}
 }
 
-p_basel = {
+basel = {
 	county = c_basel
 	color = { 193 177 81 }
 	megalopolis = h_paris_megalopolis
@@ -25,7 +25,7 @@ p_basel = {
 	}
 }
 
-p_bern = {
+bern = {
 	county = c_bern
 	color = { 77 61 99 }
 	megalopolis = h_berlin_megalopolis
@@ -36,7 +36,7 @@ p_bern = {
 	}
 }
 
-p_fribourg = {
+fribourg = {
 	county = c_fribourg
 	color = { 221 138 103 }
 	megalopolis = h_paris_megalopolis
@@ -47,7 +47,7 @@ p_fribourg = {
 	}
 }
 
-p_graubunden = {
+graubunden = {
 	county = c_graubunden
 	color = { 215 210 19 }
 	megalopolis = h_berlin_megalopolis
@@ -58,7 +58,7 @@ p_graubunden = {
 	}
 }
 
-p_lucerne = {
+lucerne = {
 	county = c_lucerne
 	color = { 128 65 194 }
 	megalopolis = h_berlin_megalopolis
@@ -74,7 +74,7 @@ p_lucerne = {
 	}
 }
 
-p_neuchatel = {
+neuchatel = {
 	county = c_neuchatel
 	color = { 166 149 33 }
 	megalopolis = h_paris_megalopolis
@@ -85,7 +85,7 @@ p_neuchatel = {
 	}
 }
 
-p_sankt_gallen = {
+sankt_gallen = {
 	county = c_sankt_gallen
 	color = { 178 27 25 }
 	megalopolis = h_berlin_megalopolis
@@ -106,7 +106,7 @@ p_sankt_gallen = {
 	}
 }
 
-p_schwyz = {
+schwyz = {
 	county = c_schwyz
 	color = { 124 85 171 }
 	megalopolis = h_berlin_megalopolis
@@ -117,7 +117,7 @@ p_schwyz = {
 	}
 }
 
-p_ticino = {
+ticino = {
 	county = c_ticino
 	color = { 45 222 154 }
 	megalopolis = h_rome_megalopolis
@@ -128,7 +128,7 @@ p_ticino = {
 	}
 }
 
-p_valais = {
+valais = {
 	county = c_valais
 	color = { 4 142 49 }
 	megalopolis = h_paris_megalopolis
@@ -139,7 +139,7 @@ p_valais = {
 	}
 }
 
-p_vaud = {
+vaud = {
 	county = c_vaud
 	color = { 109 129 33 }
 	megalopolis = h_paris_megalopolis
@@ -155,7 +155,7 @@ p_vaud = {
 	}
 }
 
-p_zurich = {
+zurich = {
 	county = c_zurich
 	color = { 67 78 13 }
 	megalopolis = h_berlin_megalopolis

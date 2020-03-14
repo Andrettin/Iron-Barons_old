@@ -1,8 +1,8 @@
-p_ain = {
+ain = {
 	color = { 190 229 93 }
 }
 
-p_aisne = {
+aisne = {
 	county = c_aisne
 	color = { 61 167 225 }
 	megalopolis = h_paris_megalopolis
@@ -13,19 +13,19 @@ p_aisne = {
 	}
 }
 
-p_allier = {
+allier = {
 	color = { 196 143 203 }
 }
 
-p_alpes_de_haute_provence = {
+alpes_de_haute_provence = {
 	color = { 56 197 244 }
 }
 
-p_ardeche = {
+ardeche = {
 	color = { 91 209 90 }
 }
 
-p_ardennes = {
+ardennes = {
 	county = c_ardennes
 	color = { 57 127 182 }
 	megalopolis = h_paris_megalopolis
@@ -36,11 +36,11 @@ p_ardennes = {
 	}
 }
 
-p_ariege = {
+ariege = {
 	color = { 78 52 139 }
 }
 
-p_aube = {
+aube = {
 	county = c_aube
 	color = { 151 186 207 }
 	megalopolis = h_paris_megalopolis
@@ -51,15 +51,15 @@ p_aube = {
 	}
 }
 
-p_aude = {
+aude = {
 	color = { 130 57 121 }
 }
 
-p_aveyron = {
+aveyron = {
 	color = { 132 22 250 }
 }
 
-p_bouches_du_rhone = {
+bouches_du_rhone = {
 	county = c_bouches_du_rhone
 	color = { 30 188 102 }
 	megalopolis = h_paris_megalopolis
@@ -70,7 +70,7 @@ p_bouches_du_rhone = {
 	}
 }
 
-p_calvados = {
+calvados = {
 	county = c_calvados
 	color = { 159 131 176 }
 	megalopolis = h_paris_megalopolis
@@ -81,19 +81,19 @@ p_calvados = {
 	}
 }
 
-p_cantal = {
+cantal = {
 	color = { 208 27 162 }
 }
 
-p_charente = {
+charente = {
 	color = { 106 185 73 }
 }
 
-p_charente_maritime = {
+charente_maritime = {
 	color = { 43 29 105 }
 }
 
-p_cher = {
+cher = {
 	county = c_cher
 	color = { 41 104 145 }
 	megalopolis = h_paris_megalopolis
@@ -104,7 +104,7 @@ p_cher = {
 	}
 }
 
-p_colmar = {
+colmar = {
 	county = c_colmar
 	color = { 227 177 53 }
 	megalopolis = h_paris_megalopolis
@@ -120,11 +120,11 @@ p_colmar = {
 	}
 }
 
-p_correze = {
+correze = {
 	color = { 53 116 187 }
 }
 
-p_cote_dor = {
+cote_dor = {
 	county = c_cote_dor
 	color = { 200 208 75 }
 	megalopolis = h_paris_megalopolis
@@ -135,19 +135,19 @@ p_cote_dor = {
 	}
 }
 
-p_cotes_darmor = {
+cotes_darmor = {
 	color = { 65 73 77 }
 }
 
-p_creuse = {
+creuse = {
 	color = { 51 207 12 }
 }
 
-p_deux_sevres = {
+deux_sevres = {
 	color = { 106 166 20 }
 }
 
-p_doubs = {
+doubs = {
 	county = c_doubs
 	color = { 19 83 246 }
 	megalopolis = h_paris_megalopolis
@@ -158,11 +158,11 @@ p_doubs = {
 	}
 }
 
-p_dordogne = {
+dordogne = {
 	color = { 162 166 27 }
 }
 
-p_drome = {
+drome = {
 	county = c_drome
 	color = { 220 208 53 }
 	megalopolis = h_paris_megalopolis
@@ -173,28 +173,27 @@ p_drome = {
 	}
 }
 
-p_eure = {
+eure = {
 	color = { 28 44 101 }
 }
 
-
-p_eure_et_loir = {
+eure_et_loir = {
 	color = { 39 58 162 }
 }
 
-p_finistere = {
+finistere = {
 	color = { 234 209 85 }
 }
 
-p_gard = {
+gard = {
 	color = { 99 20 217 }
 }
 
-p_gers = {
+gers = {
 	color = { 162 208 252 }
 }
 
-p_gironde = {
+gironde = {
 	county = c_gironde
 	color = { 128 106 254 }
 	megalopolis = h_paris_megalopolis
@@ -205,7 +204,7 @@ p_gironde = {
 	}
 }
 
-p_haute_garonne = {
+haute_garonne = {
 	county = c_haute_garonne
 	color = { 64 201 136 }
 	megalopolis = h_paris_megalopolis
@@ -216,7 +215,7 @@ p_haute_garonne = {
 	}
 }
 
-p_haute_loire = {
+haute_loire = {
 	county = c_haute_loire
 	color = { 222 18 54 }
 	megalopolis = h_paris_megalopolis
@@ -227,11 +226,11 @@ p_haute_loire = {
 	}
 }
 
-p_haute_marne = {
+haute_marne = {
 	color = { 249 219 62 }
 }
 
-p_haute_saone = {
+haute_saone = {
 	county = c_haute_saone
 	color = { 180 10 59 }
 	megalopolis = h_paris_megalopolis
@@ -242,11 +241,11 @@ p_haute_saone = {
 	}
 }
 
-p_haute_vienne = {
+haute_vienne = {
 	color = { 69 130 239 }
 }
 
-p_hautes_alpes = {
+hautes_alpes = {
 	county = c_hautes_alpes
 	color = { 175 73 65 }
 	megalopolis = h_paris_megalopolis
@@ -257,11 +256,11 @@ p_hautes_alpes = {
 	}
 }
 
-p_hautes_pyrenees = {
+hautes_pyrenees = {
 	color = { 30 25 61 }
 }
 
-p_herault = {
+herault = {
 	county = c_herault
 	color = { 60 74 78 }
 	megalopolis = h_paris_megalopolis
@@ -272,7 +271,7 @@ p_herault = {
 	}
 }
 
-p_ile_de_france = {
+ile_de_france = {
 	county = c_ile_de_france
 	color = { 38 14 126 }
 	megalopolis = h_paris_megalopolis
@@ -288,19 +287,19 @@ p_ile_de_france = {
 	}
 }
 
-p_ille = {
+ille = {
 	color = { 118 175 197 }
 }
 
-p_indre = {
+indre = {
 	color = { 195 57 56 }
 }
 
-p_indre_et_loire = {
+indre_et_loire = {
 	color = { 163 21 225 }
 }
 
-p_isere = {
+isere = {
 	county = c_isere
 	color = { 243 241 175 }
 	megalopolis = h_paris_megalopolis
@@ -311,7 +310,7 @@ p_isere = {
 	}
 }
 
-p_jura = {
+jura = {
 	county = c_jura
 	color = { 201 50 23 }
 	megalopolis = h_paris_megalopolis
@@ -322,15 +321,15 @@ p_jura = {
 	}
 }
 
-p_landes = {
+landes = {
 	color = { 53 249 89 }
 }
 
-p_loir = {
+loir = {
 	color = { 110 104 97 }
 }
 
-p_loire = {
+loire = {
 	county = c_loire
 	color = { 238 96 125 }
 	megalopolis = h_paris_megalopolis
@@ -346,7 +345,7 @@ p_loire = {
 	}
 }
 
-p_loire_atlantique = {
+loire_atlantique = {
 	county = c_loire_atlantique
 	color = { 69 184 240 }
 	megalopolis = h_paris_megalopolis
@@ -357,7 +356,7 @@ p_loire_atlantique = {
 	}
 }
 
-p_loiret = {
+loiret = {
 	county = c_loiret
 	color = { 196 55 170 }
 	megalopolis = h_paris_megalopolis
@@ -368,7 +367,7 @@ p_loiret = {
 	}
 }
 
-p_lot = {
+lot = {
 	county = c_lot
 	color = { 21 18 123 }
 	megalopolis = h_paris_megalopolis
@@ -379,15 +378,15 @@ p_lot = {
 	}
 }
 
-p_lot_et_garonne = {
+lot_et_garonne = {
 	color = { 29 189 179 }
 }
 
-p_lozere = {
+lozere = {
 	color = { 235 197 41 }
 }
 
-p_maine = {
+maine = {
 	county = c_maine
 	color = { 238 119 177 }
 	megalopolis = h_paris_megalopolis
@@ -398,11 +397,11 @@ p_maine = {
 	}
 }
 
-p_manche = {
+manche = {
 	color = { 170 183 116 }
 }
 
-p_marne = {
+marne = {
 	county = c_marne
 	color = { 84 25 187 }
 	megalopolis = h_paris_megalopolis
@@ -423,11 +422,11 @@ p_marne = {
 	}
 }
 
-p_mayenne = {
+mayenne = {
 	color = { 245 116 167 }
 }
 
-p_meurthe = {
+meurthe = {
 	county = c_meurthe
 	color = { 183 216 75 }
 	megalopolis = h_paris_megalopolis
@@ -443,7 +442,7 @@ p_meurthe = {
 	}
 }
 
-p_meuse = {
+meuse = {
 	county = c_meuse
 	color = { 57 54 124 }
 	megalopolis = h_paris_megalopolis
@@ -459,11 +458,11 @@ p_meuse = {
 	}
 }
 
-p_morbihan = {
+morbihan = {
 	color = { 2 82 28 }
 }
 
-p_moselle = {
+moselle = {
 	county = c_moselle
 	color = { 37 43 26 }
 	megalopolis = h_paris_megalopolis
@@ -484,7 +483,7 @@ p_moselle = {
 	}
 }
 
-p_nievre = {
+nievre = {
 	county = c_nievre
 	color = { 200 235 105 }
 	megalopolis = h_paris_megalopolis
@@ -495,7 +494,7 @@ p_nievre = {
 	}
 }
 
-p_nord = {
+nord = {
 	county = c_nord
 	color = { 213 219 71 }
 	megalopolis = h_paris_megalopolis
@@ -521,15 +520,15 @@ p_nord = {
 	}
 }
 
-p_oise = {
+oise = {
 	color = { 14 61 55 }
 }
 
-p_orne = {
+orne = {
 	color = { 85 164 31 }
 }
 
-p_pas_de_calais = {
+pas_de_calais = {
 	county = c_pas_de_calais
 	color = { 43 87 173 }
 	megalopolis = h_paris_megalopolis
@@ -550,7 +549,7 @@ p_pas_de_calais = {
 	}
 }
 
-p_puy_de_dome = {
+puy_de_dome = {
 	county = c_puy_de_dome
 	color = { 171 185 82 }
 	megalopolis = h_paris_megalopolis
@@ -561,11 +560,11 @@ p_puy_de_dome = {
 	}
 }
 
-p_pyrenees_atlantiques = {
+pyrenees_atlantiques = {
 	color = { 105 120 185 }
 }
 
-p_pyrenees_orientales = {
+pyrenees_orientales = {
 	county = c_pyrenees_orientales
 	color = { 44 245 114 }
 	megalopolis = h_paris_megalopolis
@@ -576,7 +575,7 @@ p_pyrenees_orientales = {
 	}
 }
 
-p_rhone = {
+rhone = {
 	county = c_rhone
 	color = { 213 168 47 }
 	megalopolis = h_paris_megalopolis
@@ -587,7 +586,7 @@ p_rhone = {
 	}
 }
 
-p_saone = {
+saone = {
 	county = c_saone
 	color = { 215 237 26 }
 	megalopolis = h_paris_megalopolis
@@ -603,19 +602,19 @@ p_saone = {
 	}
 }
 
-p_sarthe = {
+sarthe = {
 	color = { 103 13 57 }
 }
 
-p_seine = {
+seine = {
 	color = { 253 153 26 }
 }
 
-p_seine_maritime = {
+seine_maritime = {
 	color = { 78 32 93 }
 }
 
-p_somme = {
+somme = {
 	county = c_somme
 	color = { 124 35 92 }
 	megalopolis = h_paris_megalopolis
@@ -631,7 +630,7 @@ p_somme = {
 	}
 }
 
-p_strasbourg = {
+strasbourg = {
 	county = c_strasbourg
 	color = { 190 179 147 }
 	megalopolis = h_paris_megalopolis
@@ -657,19 +656,19 @@ p_strasbourg = {
 	}
 }
 
-p_tarn = {
+tarn = {
 	color = { 103 82 48 }
 }
 
-p_tarn_et_garonne = {
+tarn_et_garonne = {
 	color = { 252 132 195 }
 }
 
-p_var = {
+var = {
 	color = { 245 182 111 }
 }
 
-p_vaucluse = {
+vaucluse = {
 	county = c_vaucluse
 	color = { 197 254 131 }
 	megalopolis = h_paris_megalopolis
@@ -680,11 +679,11 @@ p_vaucluse = {
 	}
 }
 
-p_vendee = {
+vendee = {
 	color = { 43 178 112 }
 }
 
-p_vienne = {
+vienne = {
 	county = c_vienne
 	color = { 61 162 220 }
 	megalopolis = h_paris_megalopolis
@@ -695,7 +694,7 @@ p_vienne = {
 	}
 }
 
-p_vosges = {
+vosges = {
 	county = c_vosges
 	color = { 28 155 43 }
 	megalopolis = h_paris_megalopolis
@@ -711,6 +710,6 @@ p_vosges = {
 	}
 }
 
-p_yonne = {
+yonne = {
 	color = { 30 16 13 }
 }

@@ -1,22 +1,22 @@
-r_canada = {
-	subregions += r_nova_scotia
-	provinces += p_alberta
-	provinces += p_british_columbia
-	provinces += p_labrador
-	provinces += p_manitoba
-	provinces += p_new_brunswick
-	provinces += p_newfoundland
-	provinces += p_northwest_territories
-	provinces += p_nunavut
-	provinces += p_ontario
-	provinces += p_prince_edward_island
-	provinces += p_quebec
-	provinces += p_saskatchewan
-	provinces += p_yukon
+canada = {
+	subregions += nova_scotia
+	provinces += alberta
+	provinces += british_columbia
+	provinces += labrador
+	provinces += manitoba
+	provinces += new_brunswick
+	provinces += newfoundland
+	provinces += northwest_territories
+	provinces += nunavut
+	provinces += ontario
+	provinces += prince_edward_island
+	provinces += quebec
+	provinces += saskatchewan
+	provinces += yukon
 }
 
-r_nova_scotia = {
-	provinces += p_amherstburg
-	provinces += p_cape_breton
-	provinces += p_halifax
+nova_scotia = {
+	provinces += amherstburg
+	provinces += cape_breton
+	provinces += halifax
 }

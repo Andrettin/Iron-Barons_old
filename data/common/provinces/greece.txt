@@ -1,4 +1,4 @@
-p_achaea = {
+achaea = {
 	county = c_achaea
 	color = { 200 98 198 }
 	megalopolis = h_byzantium_megalopolis
@@ -9,7 +9,7 @@ p_achaea = {
 	}
 }
 
-p_adrianople = {
+adrianople = {
 	county = c_adrianople
 	color = { 250 138 142 }
 	megalopolis = h_byzantium_megalopolis
@@ -20,7 +20,7 @@ p_adrianople = {
 	}
 }
 
-p_aetolia = {
+aetolia = {
 	county = c_aetolia
 	color = { 58 70 114 }
 	megalopolis = h_byzantium_megalopolis
@@ -31,7 +31,7 @@ p_aetolia = {
 	}
 }
 
-p_arcadia = {
+arcadia = {
 	county = c_arcadia
 	color = { 50 188 139 }
 	megalopolis = h_byzantium_megalopolis
@@ -42,7 +42,7 @@ p_arcadia = {
 	}
 }
 
-p_argolis = {
+argolis = {
 	county = c_argolis
 	color = { 95 42 16 }
 	megalopolis = h_byzantium_megalopolis
@@ -68,7 +68,7 @@ p_argolis = {
 	}
 }
 
-p_attica = {
+attica = {
 	county = c_attica
 	color = { 103 37 25 }
 	megalopolis = h_byzantium_megalopolis
@@ -89,7 +89,7 @@ p_attica = {
 	}
 }
 
-p_boeotia = {
+boeotia = {
 	county = c_boeotia
 	color = { 247 195 139 }
 	megalopolis = h_byzantium_megalopolis
@@ -115,7 +115,7 @@ p_boeotia = {
 	}
 }
 
-p_byzantium = {
+byzantium = {
 	county = c_byzantium
 	color = { 149 72 188 }
 	megalopolis = h_byzantium_megalopolis
@@ -131,7 +131,7 @@ p_byzantium = {
 	}
 }
 
-p_central_macedonia = {
+central_macedonia = {
 	county = c_central_macedonia
 	color = { 141 33 99 }
 	megalopolis = h_byzantium_megalopolis
@@ -142,7 +142,7 @@ p_central_macedonia = {
 	}
 }
 
-p_corinth = {
+corinth = {
 	county = c_corinth
 	color = { 183 152 176 }
 	megalopolis = h_byzantium_megalopolis
@@ -153,7 +153,7 @@ p_corinth = {
 	}
 }
 
-p_crete = {
+crete = {
 	county = c_crete
 	color = { 22 187 73 }
 	megalopolis = h_byzantium_megalopolis
@@ -194,11 +194,11 @@ p_crete = {
 	}
 }
 
-p_cyclades = {
+cyclades = {
 	color = { 220 82 188 }
 }
 
-p_dodecanese = {
+dodecanese = {
 	county = c_dodecanese
 	color = { 126 37 123 }
 	megalopolis = h_byzantium_megalopolis
@@ -209,15 +209,15 @@ p_dodecanese = {
 	}
 }
 
-p_east_macedonia = {
+east_macedonia = {
 	color = { 102 139 87 }
 }
 
-p_elis = {
+elis = {
 	color = { 92 45 65 }
 }
 
-p_epirus = {
+epirus = {
 	county = c_epirus
 	color = { 156 132 217 }
 	megalopolis = h_byzantium_megalopolis
@@ -238,19 +238,19 @@ p_epirus = {
 	}
 }
 
-p_euboea = {
+euboea = {
 	color = { 184 43 117 }
 }
 
-p_ionian_islands = {
+ionian_islands = {
 	color = { 5 178 199 }
 }
 
-p_kirklareli = {
+kirklareli = {
 	color = { 33 174 140 }
 }
 
-p_laconia = {
+laconia = {
 	county = c_laconia
 	color = { 206 76 97 }
 	megalopolis = h_byzantium_megalopolis
@@ -271,7 +271,7 @@ p_laconia = {
 	}
 }
 
-p_messenia = {
+messenia = {
 	county = c_messenia
 	color = { 46 193 96 }
 	megalopolis = h_byzantium_megalopolis
@@ -292,11 +292,11 @@ p_messenia = {
 	}
 }
 
-p_north_aegean_islands = {
+north_aegean_islands = {
 	color = { 32 141 143 }
 }
 
-p_rodosto = {
+rodosto = {
 	county = c_rodosto
 	color = { 239 169 234 }
 	megalopolis = h_byzantium_megalopolis
@@ -312,7 +312,7 @@ p_rodosto = {
 	}
 }
 
-p_thessaly = {
+thessaly = {
 	county = c_thessaly
 	color = { 52 145 42 }
 	megalopolis = h_byzantium_megalopolis
@@ -338,6 +338,6 @@ p_thessaly = {
 	}
 }
 
-p_west_macedonia = {
+west_macedonia = {
 	color = { 46 108 138 }
 }

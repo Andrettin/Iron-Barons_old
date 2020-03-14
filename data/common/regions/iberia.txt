@@ -1,102 +1,102 @@
-r_iberia = {
-	subregions += r_portugal
-	subregions += r_spain
+iberia = {
+	subregions += portugal
+	subregions += spain
 }
 
-r_portugal = { #the territory of modern Portugal
-	subregions += r_mainland_portugal
-	provinces += p_azores
-	provinces += p_madeira
+portugal = { #the territory of modern Portugal
+	subregions += mainland_portugal
+	provinces += azores
+	provinces += madeira
 }
 
-r_mainland_portugal = {
-	provinces += p_aveiro
-	provinces += p_beja
-	provinces += p_braga
-	provinces += p_braganca
-	provinces += p_castelo_branco
-	provinces += p_coimbra
-	provinces += p_evora
-	provinces += p_faro
-	provinces += p_guarda
-	provinces += p_leiria
-	provinces += p_lisbon
-	provinces += p_oporto
-	provinces += p_portalegre
-	provinces += p_santarem
-	provinces += p_setubal
-	provinces += p_viana_do_castelo
-	provinces += p_vila_real
-	provinces += p_viseu
+mainland_portugal = {
+	provinces += aveiro
+	provinces += beja
+	provinces += braga
+	provinces += braganca
+	provinces += castelo_branco
+	provinces += coimbra
+	provinces += evora
+	provinces += faro
+	provinces += guarda
+	provinces += leiria
+	provinces += lisbon
+	provinces += oporto
+	provinces += portalegre
+	provinces += santarem
+	provinces += setubal
+	provinces += viana_do_castelo
+	provinces += vila_real
+	provinces += viseu
 }
 
-r_spain = {
-	subregions += r_aragon
-	subregions += r_castille
-	subregions += r_navarre
+spain = {
+	subregions += aragon
+	subregions += castille
+	subregions += navarre
 }
 
-r_aragon = {
-	subregions += r_catalonia
-	provinces += p_alicante
-	provinces += p_balearic_islands
-	provinces += p_castellon
-	provinces += p_huesca
-	provinces += p_teruel
-	provinces += p_valencia
-	provinces += p_zaragoza
+aragon = {
+	subregions += catalonia
+	provinces += alicante
+	provinces += balearic_islands
+	provinces += castellon
+	provinces += huesca
+	provinces += teruel
+	provinces += valencia
+	provinces += zaragoza
 }
 
-r_castille = {
-	subregions += r_galicia_iberia
-	provinces += p_albacete
-	provinces += p_almeria
-	provinces += p_asturias
-	provinces += p_avila
-	provinces += p_badajoz
-	provinces += p_burgos
-	provinces += p_caceres
-	provinces += p_cadiz
-	provinces += p_cantabria
-	provinces += p_ciudad_real
-	provinces += p_cordoba
-	provinces += p_cuenca
-	provinces += p_granada
-	provinces += p_guadalajara
-	provinces += p_huelva
-	provinces += p_jaen
-	provinces += p_la_rioja
-	provinces += p_leon
-	provinces += p_madrid
-	provinces += p_malaga
-	provinces += p_murcia
-	provinces += p_palencia
-	provinces += p_salamanca
-	provinces += p_segovia
-	provinces += p_seville
-	provinces += p_soria
-	provinces += p_toledo
-	provinces += p_valladolid
-	provinces += p_zamora
+castille = {
+	subregions += galicia_iberia
+	provinces += albacete
+	provinces += almeria
+	provinces += asturias
+	provinces += avila
+	provinces += badajoz
+	provinces += burgos
+	provinces += caceres
+	provinces += cadiz
+	provinces += cantabria
+	provinces += ciudad_real
+	provinces += cordoba
+	provinces += cuenca
+	provinces += granada
+	provinces += guadalajara
+	provinces += huelva
+	provinces += jaen
+	provinces += la_rioja
+	provinces += leon
+	provinces += madrid
+	provinces += malaga
+	provinces += murcia
+	provinces += palencia
+	provinces += salamanca
+	provinces += segovia
+	provinces += seville
+	provinces += soria
+	provinces += toledo
+	provinces += valladolid
+	provinces += zamora
 }
 
-r_navarre = {
-	provinces += p_alava
-	provinces += p_biscay
-	provinces += p_gipuzkoa
-	provinces += p_navarre
+navarre = {
+	provinces += alava
+	provinces += biscay
+	provinces += gipuzkoa
+	provinces += navarre
 }
 
-r_catalonia = {
-	provinces += p_barcelona
-	provinces += p_gerona
-	provinces += p_lerida
-	provinces += p_tarragona
+catalonia = {
+	provinces += barcelona
+	provinces += gerona
+	provinces += lerida
+	provinces += tarragona
 }
 
-r_galicia_iberia = {
-	provinces += p_la_coruna
-	provinces += p_lugo
-	provinces += p_orense
-	provinces += p_pontevedra
+galicia_iberia = {
+	provinces += la_coruna
+	provinces += lugo
+	provinces += orense
+	provinces += pontevedra
 }

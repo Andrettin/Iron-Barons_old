@@ -1,4 +1,4 @@
 trieste = {
 	color = { 66 71 129 }
-	center_of_trade = p_trieste
+	center_of_trade = trieste
 }

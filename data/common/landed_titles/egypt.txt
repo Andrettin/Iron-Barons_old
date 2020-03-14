@@ -1,13 +1,13 @@
 k_egypt = {
 	color = { 224 226 33 }
-	capital_province = p_giza #Memphis
+	capital_province = giza #Memphis
 	active_post_amalgamation = true
 }
 
 d_egypt = {
 	de_jure_liege_title = k_egypt
 	color = { 224 226 33 }
-	capital_province = p_giza #Memphis
+	capital_province = giza #Memphis
 	flag_tag = k_egypt
 }
 

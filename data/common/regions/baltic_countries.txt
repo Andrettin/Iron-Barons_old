@@ -1,43 +1,43 @@
-r_baltic_countries = {
-	subregions += r_estonia
-	subregions += r_latvia
-	subregions += r_lithuania
+baltic_countries = {
+	subregions += estonia
+	subregions += latvia
+	subregions += lithuania
 }
 
-r_estonia = { #the territory of modern Estonia
-	provinces += p_harju
-	provinces += p_hiiu
-	provinces += p_ida_viru
-	provinces += p_jarva
-	provinces += p_jogeva
-	provinces += p_laane
-	provinces += p_laane_viru
-	provinces += p_parnu
-	provinces += p_polva
-	provinces += p_rapla
-	provinces += p_saare
-	provinces += p_tartu
-	provinces += p_valga
-	provinces += p_viljandi
-	provinces += p_voru
+estonia = { #the territory of modern Estonia
+	provinces += harju
+	provinces += hiiu
+	provinces += ida_viru
+	provinces += jarva
+	provinces += jogeva
+	provinces += laane
+	provinces += laane_viru
+	provinces += parnu
+	provinces += polva
+	provinces += rapla
+	provinces += saare
+	provinces += tartu
+	provinces += valga
+	provinces += viljandi
+	provinces += voru
 }
 
-r_latvia = { #the territory of modern Latvia
-	provinces += p_courland
-	provinces += p_lettgallia
-	provinces += p_livonia
-	provinces += p_riga
-	provinces += p_semigallia
+latvia = { #the territory of modern Latvia
+	provinces += courland
+	provinces += lettgallia
+	provinces += livonia
+	provinces += riga
+	provinces += semigallia
 }
 
-r_lithuania = { #the territory of modern Lithuania
-	provinces += p_alytaus
-	provinces += p_kaunas
-	provinces += p_mariampol
-	provinces += p_panevezio
-	provinces += p_siauliai
-	provinces += p_taurages
-	provinces += p_telsiai
-	provinces += p_utenos
-	provinces += p_vilnius
+lithuania = { #the territory of modern Lithuania
+	provinces += alytaus
+	provinces += kaunas
+	provinces += mariampol
+	provinces += panevezio
+	provinces += siauliai
+	provinces += taurages
+	provinces += telsiai
+	provinces += utenos
+	provinces += vilnius
 }

@@ -1,12 +1,12 @@
-p_al_buhayrah = {
+al_buhayrah = {
 	color = { 196 228 151 }
 }
 
-p_al_fayyum = {
+al_fayyum = {
 	color = { 164 240 89 }
 }
 
-p_al_gharbiyah = {
+al_gharbiyah = {
 	county = c_al_gharbiyah
 	color = { 109 1 89 }
 	megalopolis = h_cairo_megalopolis
@@ -17,31 +17,31 @@ p_al_gharbiyah = {
 	}
 }
 
-p_al_ismailiyah = {
+al_ismailiyah = {
 	color = { 165 149 200 }
 }
 
-p_al_minufiyah = {
+al_minufiyah = {
 	color = { 215 209 166 }
 }
 
-p_al_minya = {
+al_minya = {
 	color = { 24 179 25 }
 }
 
-p_al_qalyubiyah = {
+al_qalyubiyah = {
 	color = { 54 36 48 }
 }
 
-p_al_wadi_al_jadid = {
+al_wadi_al_jadid = {
 	color = { 14 215 101 }
 }
 
-p_alexandria = {
+alexandria = {
 	color = { 167 87 133 }
 }
 
-p_ash_sharqiyah = {
+ash_sharqiyah = {
 	county = c_ash_sharqiyah
 	color = { 79 93 88 }
 	megalopolis = h_cairo_megalopolis
@@ -52,15 +52,15 @@ p_ash_sharqiyah = {
 	}
 }
 
-p_asyut = {
+asyut = {
 	color = { 83 110 40 }
 }
 
-p_bani_suwayf = {
+bani_suwayf = {
 	color = { 233 176 157 }
 }
 
-p_cairo = {
+cairo = {
 	county = c_cairo
 	color = { 106 2 171 }
 	megalopolis = h_cairo_megalopolis
@@ -71,11 +71,11 @@ p_cairo = {
 	}
 }
 
-p_damietta = {
+damietta = {
 	color = { 226 135 165 }
 }
 
-p_giza = {
+giza = {
 	county = c_giza
 	color = { 168 12 141 }
 	megalopolis = h_cairo_megalopolis
@@ -86,19 +86,19 @@ p_giza = {
 	}
 }
 
-p_kafr_ash_shaykh = {
+kafr_ash_shaykh = {
 	color = { 222 147 64 }
 }
 
-p_matruh = {
+matruh = {
 	color = { 200 62 220 }
 }
 
-p_north_al_bahr_al_ahmar = {
+north_al_bahr_al_ahmar = {
 	color = { 119 205 174 }
 }
 
-p_qina = {
+qina = {
 	county = c_qina
 	color = { 173 61 145 }
 	megalopolis = h_cairo_megalopolis
@@ -119,11 +119,11 @@ p_qina = {
 	}
 }
 
-p_suez = {
+suez = {
 	color = { 228 238 151 }
 }
 
-p_suhaj = {
+suhaj = {
 	county = c_suhaj
 	color = { 192 146 69 }
 	megalopolis = h_cairo_megalopolis
@@ -139,7 +139,7 @@ p_suhaj = {
 	}
 }
 
-p_syene = {
+syene = {
 	county = c_syene
 	color = { 68 115 91 }
 	megalopolis = h_cairo_megalopolis

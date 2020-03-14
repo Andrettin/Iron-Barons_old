@@ -1,19 +1,19 @@
-p_dead_sea = {
+dead_sea = {
 	color = { 218 182 119 }
 	terrain = lake
 }
 
-p_lake_constance = {
+lake_constance = {
 	color = { 123 114 73 }
 	terrain = lake
 }
 
-p_lake_geneva = {
+lake_geneva = {
 	color = { 251 119 88 }
 	terrain = lake
 }
 
-p_sea_of_galilee = {
+sea_of_galilee = {
 	color = { 153 90 239 }
 	terrain = lake
 }

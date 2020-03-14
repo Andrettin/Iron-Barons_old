@@ -1,5 +1,5 @@
 laborers = {
-	province = p_carinthia
+	province = carinthia
 	discount_existing = yes
 	discount_any_type = yes
 	

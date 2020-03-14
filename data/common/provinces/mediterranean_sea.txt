@@ -1,94 +1,94 @@
-p_adriatic_sea = {
+adriatic_sea = {
 	color = { 48 53 155 }
 	terrain = ocean
 }
 
-p_aegean_sea = {
+aegean_sea = {
 	color = { 14 22 73 }
 	terrain = ocean
 }
 
-p_alboran_sea = {
+alboran_sea = {
 	color = { 157 9 46 }
 	terrain = ocean
 }
 
-p_balearic_sea = {
+balearic_sea = {
 	color = { 247 31 136 }
 	terrain = ocean
 }
 
-p_black_sea = {
+black_sea = {
 	color = { 149 141 17 }
 	terrain = ocean
 }
 
-p_bosporus = {
+bosporus = {
 	color = { 215 31 159 }
 	terrain = ocean
 }
 
-p_dardanelles = {
+dardanelles = {
 	color = { 216 207 66 }
 	terrain = ocean
 }
 
-p_eastern_mediterranean_sea = {
+eastern_mediterranean_sea = {
 	color = { 199 170 189 }
 	terrain = ocean
 }
 
-p_gulf_of_gabes = {
+gulf_of_gabes = {
 	color = { 124 157 89 }
 	terrain = ocean
 }
 
-p_gulf_of_lion = {
+gulf_of_lion = {
 	color = { 70 65 53 }
 	terrain = ocean
 }
 
-p_gulf_of_sidra = {
+gulf_of_sidra = {
 	color = { 54 136 174 }
 	terrain = ocean
 }
 
-p_ionian_sea = {
+ionian_sea = {
 	color = { 231 113 204 }
 	terrain = ocean
 }
 
-p_ligurian_sea = {
+ligurian_sea = {
 	color = { 237 52 76 }
 	terrain = ocean
 }
 
-p_sea_of_azov = {
+sea_of_azov = {
 	color = { 72 92 7 }
 	terrain = ocean
 }
 
-p_sea_of_crete = {
+sea_of_crete = {
 	color = { 150 92 66 }
 	terrain = ocean
 }
 
-p_sea_of_marmara = {
+sea_of_marmara = {
 	color = { 10 9 176 }
 	terrain = ocean
 }
 
-p_strait_of_gibraltar = {
+strait_of_gibraltar = {
 	color = { 216 243 124 }
 	terrain = ocean
 }
 
-p_tyrrhenian_sea = {
+tyrrhenian_sea = {
 	color = { 100 153 22 }
 	terrain = ocean
 }
 
-p_western_mediterranean_sea = {
+western_mediterranean_sea = {
 	color = { 78 41 160 }
 	terrain = ocean
 }

@@ -1,33 +1,33 @@
 e_france = {
 	color = { 0 0 153 }
-	capital_province = p_ile_de_france
+	capital_province = ile_de_france
 	active_post_amalgamation = true
 }
 
 k_france = {
 	de_jure_liege_title = e_france
 	color = { 0 0 153 }
-	capital_province = p_ile_de_france
+	capital_province = ile_de_france
 	active_post_amalgamation = true
 }
 
 d_alsace = {
 	de_jure_liege_title = k_france
 	color = { 153 15 123 }
-	capital_province = p_strasbourg
+	capital_province = strasbourg
 }
 
 d_france = {
 	de_jure_liege_title = k_france
 	color = { 0 0 153 }
-	capital_province = p_ile_de_france
+	capital_province = ile_de_france
 	flag_tag = k_france
 }
 
 d_lorraine = {
 	de_jure_liege_title = k_france
 	color = { 203 225 64 }
-	capital_province = p_meurthe
+	capital_province = meurthe
 }
 
 c_aisne = {

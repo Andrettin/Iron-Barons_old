@@ -1,34 +1,34 @@
-p_lower_euphrates_river = {
+lower_euphrates_river = {
 	color = { 223 28 132 }
 	terrain = major_river
 }
 
-p_lower_tigris_river = {
+lower_tigris_river = {
 	color = { 174 154 79 }
 	terrain = major_river
 }
 
-p_middle_euphrates_river = {
+middle_euphrates_river = {
 	color = { 119 110 7 }
 	terrain = major_river
 }
 
-p_middle_tigris_river = {
+middle_tigris_river = {
 	color = { 92 54 47 }
 	terrain = major_river
 }
 
-p_shatt_al_arab_river = {
+shatt_al_arab_river = {
 	color = { 84 116 70 }
 	terrain = major_river
 }
 
-p_upper_euphrates_river = {
+upper_euphrates_river = {
 	color = { 50 87 201 }
 	terrain = major_river
 }
 
-p_upper_tigris_river = {
+upper_tigris_river = {
 	color = { 22 92 147 }
 	terrain = major_river
 }

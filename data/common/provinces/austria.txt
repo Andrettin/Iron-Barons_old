@@ -1,4 +1,4 @@
-p_carinthia = {
+carinthia = {
 	county = c_carinthia
 	color = { 132 134 64 }
 	megalopolis = h_vienna_megalopolis
@@ -14,7 +14,7 @@ p_carinthia = {
 	}
 }
 
-p_carniola = {
+carniola = {
 	county = c_carniola
 	color = { 88 147 162 }
 	megalopolis = h_vienna_megalopolis
@@ -30,7 +30,7 @@ p_carniola = {
 	}
 }
 
-p_east_tyrol = {
+east_tyrol = {
 	county = c_east_tyrol
 	color = { 220 99 145 }
 	megalopolis = h_vienna_megalopolis
@@ -41,7 +41,7 @@ p_east_tyrol = {
 	}
 }
 
-p_manhartsberg = {
+manhartsberg = {
 	county = c_manhartsberg
 	color = { 32 13 27 }
 	megalopolis = h_vienna_megalopolis
@@ -57,7 +57,7 @@ p_manhartsberg = {
 	}
 }
 
-p_muhlviertel = {
+muhlviertel = {
 	county = c_muhlviertel
 	color = { 19 44 1 }
 	megalopolis = h_vienna_megalopolis
@@ -68,7 +68,7 @@ p_muhlviertel = {
 	}
 }
 
-p_salzburg = {
+salzburg = {
 	county = c_salzburg
 	color = { 148 32 207 }
 	megalopolis = h_vienna_megalopolis
@@ -84,7 +84,7 @@ p_salzburg = {
 	}
 }
 
-p_south_tyrol = {
+south_tyrol = {
 	county = c_south_tyrol
 	color = { 221 235 137 }
 	megalopolis = h_vienna_megalopolis
@@ -105,7 +105,7 @@ p_south_tyrol = {
 	}
 }
 
-p_styria = {
+styria = {
 	county = c_styria
 	color = { 203 243 54 }
 	megalopolis = h_vienna_megalopolis
@@ -121,7 +121,7 @@ p_styria = {
 	}
 }
 
-p_traunviertel = {
+traunviertel = {
 	county = c_traunviertel
 	color = { 84 6 1 }
 	megalopolis = h_vienna_megalopolis
@@ -147,7 +147,7 @@ p_traunviertel = {
 	}
 }
 
-p_trentino = {
+trentino = {
 	county = c_trentino
 	color = { 123 80 198 }
 	megalopolis = h_vienna_megalopolis
@@ -158,7 +158,7 @@ p_trentino = {
 	}
 }
 
-p_tyrol = {
+tyrol = {
 	county = c_tyrol
 	color = { 220 13 46 }
 	megalopolis = h_vienna_megalopolis
@@ -174,7 +174,7 @@ p_tyrol = {
 	}
 }
 
-p_upper_styria = {
+upper_styria = {
 	county = c_upper_styria
 	color = { 156 193 110 }
 	megalopolis = h_vienna_megalopolis
@@ -190,7 +190,7 @@ p_upper_styria = {
 	}
 }
 
-p_vienna = {
+vienna = {
 	county = c_vienna
 	color = { 42 3 128 }
 	megalopolis = h_vienna_megalopolis
@@ -231,7 +231,7 @@ p_vienna = {
 	}
 }
 
-p_vorarlberg = {
+vorarlberg = {
 	county = c_vorarlberg
 	color = { 214 76 80 }
 	megalopolis = h_vienna_megalopolis

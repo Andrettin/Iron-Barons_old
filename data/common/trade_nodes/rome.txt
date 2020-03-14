@@ -1,4 +1,4 @@
 rome = {
 	color = { 158 184 240 }
-	center_of_trade = p_latium
+	center_of_trade = latium
 }

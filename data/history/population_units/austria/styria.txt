@@ -1,5 +1,5 @@
 laborers = {
-	region = r_styria
+	region = styria
 	discount_existing = yes
 	discount_any_type = yes
 	

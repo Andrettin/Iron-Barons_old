@@ -1,8 +1,8 @@
-p_alberta = {
+alberta = {
 	color = { 6 203 161 }
 }
 
-p_amherstburg = {
+amherstburg = {
 	county = c_amherstburg
 	color = { 36 152 137 }
 	megalopolis = h_new_york_megalopolis
@@ -13,11 +13,11 @@ p_amherstburg = {
 	}
 }
 
-p_british_columbia = {
+british_columbia = {
 	color = { 163 133 56 }
 }
 
-p_cape_breton = {
+cape_breton = {
 	county = c_cape_breton
 	color = { 241 182 227 }
 	megalopolis = h_new_york_megalopolis
@@ -33,7 +33,7 @@ p_cape_breton = {
 	}
 }
 
-p_halifax = {
+halifax = {
 	county = c_halifax
 	color = { 18 146 209 }
 	megalopolis = h_new_york_megalopolis
@@ -59,46 +59,46 @@ p_halifax = {
 	}
 }
 
-p_labrador = {
+labrador = {
 	color = { 233 91 175 }
 }
 
-p_manitoba = {
+manitoba = {
 	color = { 86 226 164 }
 }
 
-p_new_brunswick = {
+new_brunswick = {
 	color = { 250 59 19 }
 }
 
-p_newfoundland = {
+newfoundland = {
 	color = { 108 141 200 }
 }
 
-p_northwest_territories = {
+northwest_territories = {
 	color = { 245 164 64 }
 }
 
-p_nunavut = {
+nunavut = {
 	color = { 66 241 157 }
 }
 
-p_ontario = {
+ontario = {
 	color = { 244 122 194 }
 }
 
-p_prince_edward_island = {
+prince_edward_island = {
 	color = { 166 182 4 }
 }
 
-p_quebec = {
+quebec = {
 	color = { 194 235 127 }
 }
 
-p_saskatchewan = {
+saskatchewan = {
 	color = { 77 251 140 }
 }
 
-p_yukon = {
+yukon = {
 	color = { 56 114 247 }
 }

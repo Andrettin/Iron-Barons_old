@@ -1,71 +1,71 @@
-p_akershus = {
+akershus = {
 	color = { 211 128 27 }
 }
 
-p_aust_agder = {
+aust_agder = {
 	color = { 103 211 201 }
 }
 
-p_buskerud = {
+buskerud = {
 	color = { 173 142 35 }
 }
 
-p_finnmark = {
+finnmark = {
 	color = { 75 12 23 }
 }
 
-p_hedmark = {
+hedmark = {
 	color = { 220 180 111 }
 }
 
-p_hordaland = {
+hordaland = {
 	color = { 247 201 90 }
 }
 
-p_more_og_romsdal = {
+more_og_romsdal = {
 	color = { 105 230 62 }
 }
 
-p_nord_trondelag = {
+nord_trondelag = {
 	color = { 25 255 94 }
 }
 
-p_nordland = {
+nordland = {
 	color = { 62 110 34 }
 }
 
-p_oppland = {
+oppland = {
 	color = { 132 214 16 }
 }
 
-p_ostfold = {
+ostfold = {
 	color = { 64 241 154 }
 }
 
-p_rogaland = {
+rogaland = {
 	color = { 215 87 169 }
 }
 
-p_sogn_og_fjordane = {
+sogn_og_fjordane = {
 	color = { 97 35 22 }
 }
 
-p_sor_trondelag = {
+sor_trondelag = {
 	color = { 227 89 239 }
 }
 
-p_telemark = {
+telemark = {
 	color = { 101 94 243 }
 }
 
-p_troms = {
+troms = {
 	color = { 85 188 106 }
 }
 
-p_vest_agder = {
+vest_agder = {
 	color = { 215 5 242 }
 }
 
-p_vestfold = {
+vestfold = {
 	color = { 82 63 60 }
 }

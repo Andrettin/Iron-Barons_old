@@ -1,4 +1,4 @@
-p_brest_litovsk = {
+brest_litovsk = {
 	county = c_brest_litovsk
 	color = { 143 107 154 }
 	megalopolis = h_moscow_megalopolis
@@ -9,11 +9,11 @@ p_brest_litovsk = {
 	}
 }
 
-p_gomel = {
+gomel = {
 	color = { 178 23 33 }
 }
 
-p_grodno = {
+grodno = {
 	county = c_grodno
 	color = { 207 172 208 }
 	megalopolis = h_moscow_megalopolis
@@ -39,14 +39,14 @@ p_grodno = {
 	}
 }
 
-p_minsk = {
+minsk = {
 	color = { 97 10 123 }
 }
 
-p_mogilev = {
+mogilev = {
 	color = { 168 75 184 }
 }
 
-p_vitebsk = {
+vitebsk = {
 	color = { 99 209 73 }
 }

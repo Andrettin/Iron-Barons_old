@@ -1,4 +1,4 @@
-p_wallachia = {
+wallachia = {
 	county = c_wallachia
 	color = { 161 61 179 }
 	megalopolis = h_byzantium_megalopolis

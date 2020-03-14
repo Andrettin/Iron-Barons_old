@@ -1,4 +1,4 @@
 genoa = {
 	color = { 251 127 106 }
-	center_of_trade = p_genoa
+	center_of_trade = genoa
 }

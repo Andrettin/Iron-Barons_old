@@ -1,4 +1,4 @@
-p_bromberg = {
+bromberg = {
 	county = c_bromberg
 	color = { 118 219 109 }
 	megalopolis = h_berlin_megalopolis
@@ -9,7 +9,7 @@ p_bromberg = {
 	}
 }
 
-p_czestochowa = {
+czestochowa = {
 	county = c_czestochowa
 	color = { 233 218 54 }
 	megalopolis = h_moscow_megalopolis
@@ -20,7 +20,7 @@ p_czestochowa = {
 	}
 }
 
-p_kalisz = {
+kalisz = {
 	county = c_kalisz
 	color = { 209 138 16 }
 	megalopolis = h_moscow_megalopolis
@@ -31,7 +31,7 @@ p_kalisz = {
 	}
 }
 
-p_kielce = {
+kielce = {
 	county = c_kielce
 	color = { 87 224 239 }
 	megalopolis = h_moscow_megalopolis
@@ -52,7 +52,7 @@ p_kielce = {
 	}
 }
 
-p_krakow = {
+krakow = {
 	county = c_krakow
 	color = { 14 205 65 }
 	megalopolis = h_vienna_megalopolis
@@ -63,7 +63,7 @@ p_krakow = {
 	}
 }
 
-p_lemberg = {
+lemberg = {
 	county = c_lemberg
 	color = { 230 77 156 }
 	megalopolis = h_vienna_megalopolis
@@ -74,7 +74,7 @@ p_lemberg = {
 	}
 }
 
-p_lesser_poland = {
+lesser_poland = {
 	county = c_lesser_poland
 	color = { 242 146 139 }
 	megalopolis = h_vienna_megalopolis
@@ -90,7 +90,7 @@ p_lesser_poland = {
 	}
 }
 
-p_lissa = {
+lissa = {
 	county = c_lissa
 	color = { 106 144 14 }
 	megalopolis = h_berlin_megalopolis
@@ -111,7 +111,7 @@ p_lissa = {
 	}
 }
 
-p_lodz = {
+lodz = {
 	county = c_lodz
 	color = { 60 96 215 }
 	megalopolis = h_moscow_megalopolis
@@ -127,7 +127,7 @@ p_lodz = {
 	}
 }
 
-p_lublin = {
+lublin = {
 	county = c_lublin
 	color = { 70 135 210 }
 	megalopolis = h_moscow_megalopolis
@@ -153,7 +153,7 @@ p_lublin = {
 	}
 }
 
-p_mariampol = {
+mariampol = {
 	county = c_mariampol
 	color = { 118 165 216 }
 	megalopolis = h_moscow_megalopolis
@@ -169,7 +169,7 @@ p_mariampol = {
 	}
 }
 
-p_mazovia = {
+mazovia = {
 	county = c_mazovia
 	color = { 138 57 209 }
 	megalopolis = h_moscow_megalopolis
@@ -195,7 +195,7 @@ p_mazovia = {
 	}
 }
 
-p_plock = {
+plock = {
 	county = c_plock
 	color = { 87 126 41 }
 	megalopolis = h_moscow_megalopolis
@@ -226,7 +226,7 @@ p_plock = {
 	}
 }
 
-p_podlasie = {
+podlasie = {
 	county = c_podlasie
 	color = { 193 119 201 }
 	megalopolis = h_moscow_megalopolis
@@ -247,7 +247,7 @@ p_podlasie = {
 	}
 }
 
-p_posen = {
+posen = {
 	county = c_posen
 	color = { 208 23 78 }
 	megalopolis = h_berlin_megalopolis
@@ -293,7 +293,7 @@ p_posen = {
 	}
 }
 
-p_radom = {
+radom = {
 	county = c_radom
 	color = { 251 166 47 }
 	megalopolis = h_moscow_megalopolis
@@ -304,7 +304,7 @@ p_radom = {
 	}
 }
 
-p_siedlce = {
+siedlce = {
 	county = c_siedlce
 	color = { 210 245 13 }
 	megalopolis = h_moscow_megalopolis
@@ -315,7 +315,7 @@ p_siedlce = {
 	}
 }
 
-p_stanislawow = {
+stanislawow = {
 	county = c_stanislawow
 	color = { 76 216 95 }
 	megalopolis = h_vienna_megalopolis
@@ -326,7 +326,7 @@ p_stanislawow = {
 	}
 }
 
-p_subcarpathia = {
+subcarpathia = {
 	county = c_subcarpathia
 	color = { 218 118 51 }
 	megalopolis = h_vienna_megalopolis
@@ -347,7 +347,7 @@ p_subcarpathia = {
 	}
 }
 
-p_wloclawek = {
+wloclawek = {
 	county = c_wloclawek
 	color = { 205 107 32 }
 	megalopolis = h_moscow_megalopolis

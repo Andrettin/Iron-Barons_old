@@ -1,5 +1,5 @@
 laborers = {
-	province = p_trieste
+	province = trieste
 	discount_existing = yes
 	discount_any_type = yes
 	

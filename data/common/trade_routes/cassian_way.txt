@@ -1,3 +1,3 @@
 cassian_way = { #Cassian Way Roman road; Source: William R. Shepherd, "Historical Atlas", 1911, pp. 26-27, 29.
-	path = { p_latium p_tuscany p_romagna }
+	path = { latium tuscany romagna }
 }

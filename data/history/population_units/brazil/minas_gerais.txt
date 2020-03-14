@@ -1,5 +1,5 @@
 laborers = {
-	province = p_minas_gerais
+	province = minas_gerais
 	discount_existing = yes
 	discount_any_type = yes
 	discount_types -= slaves
@@ -26,7 +26,7 @@ laborers = {
 }
 
 slaves = {
-	province = p_minas_gerais
+	province = minas_gerais
 	discount_existing = yes
 	phenotype = african
 	
@@ -60,7 +60,7 @@ slaves = {
 }
 
 tribesmen = {
-	province = p_minas_gerais
+	province = minas_gerais
 	culture = tupi
 	religion = pagan
 	

@@ -1,16 +1,16 @@
-p_aleppo = {
+aleppo = {
 	color = { 97 26 136 }
 }
 
-p_ar_raqqah = {
+ar_raqqah = {
 	color = { 27 129 47 }
 }
 
-p_as_suwayda = {
+as_suwayda = {
 	color = { 153 81 235 }
 }
 
-p_damascus = {
+damascus = {
 	county = c_damascus
 	color = { 12 190 89 }
 	megalopolis = h_byzantium_megalopolis
@@ -21,15 +21,15 @@ p_damascus = {
 	}
 }
 
-p_dara = {
+dara = {
 	color = { 231 136 217 }
 }
 
-p_dayr_az_zawr = {
+dayr_az_zawr = {
 	color = { 115 209 10 }
 }
 
-p_hamath = {
+hamath = {
 	county = c_hamath
 	color = { 23 81 49 }
 	megalopolis = h_byzantium_megalopolis
@@ -40,15 +40,15 @@ p_hamath = {
 	}
 }
 
-p_hasaka = {
+hasaka = {
 	color = { 237 63 188 }
 }
 
-p_hatay = {
+hatay = {
 	color = { 30 133 69 }
 }
 
-p_homs = {
+homs = {
 	county = c_homs
 	color = { 182 240 75 }
 	megalopolis = h_byzantium_megalopolis
@@ -59,15 +59,15 @@ p_homs = {
 	}
 }
 
-p_idlib = {
+idlib = {
 	color = { 169 60 234 }
 }
 
-p_lattakia = {
+lattakia = {
 	color = { 171 123 213 }
 }
 
-p_tartus = {
+tartus = {
 	county = c_tartus
 	color = { 231 205 88 }
 	megalopolis = h_byzantium_megalopolis

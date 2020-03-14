@@ -1,12 +1,12 @@
-p_bedfordshire = {
+bedfordshire = {
 	color = { 182 125 199 }
 }
 
-p_buckinghamshire = {
+buckinghamshire = {
 	color = { 87 108 120 }
 }
 
-p_cambridgeshire = {
+cambridgeshire = {
 	county = c_cambridgeshire
 	color = { 107 74 157 }
 	megalopolis = h_london_megalopolis
@@ -17,31 +17,31 @@ p_cambridgeshire = {
 	}
 }
 
-p_cheshire = {
+cheshire = {
 	color = { 48 58 68 }
 }
 
-p_cornwall = {
+cornwall = {
 	color = { 124 3 97 }
 }
 
-p_cumbria = {
+cumbria = {
 	color = { 148 73 46 }
 }
 
-p_derbyshire = {
+derbyshire = {
 	color = { 223 146 117 }
 }
 
-p_devon = {
+devon = {
 	color = { 80 102 9 }
 }
 
-p_dorset = {
+dorset = {
 	color = { 136 107 221 }
 }
 
-p_durham = {
+durham = {
 	county = c_durham
 	color = { 90 26 21 }
 	megalopolis = h_london_megalopolis
@@ -52,19 +52,19 @@ p_durham = {
 	}
 }
 
-p_east_sussex = {
+east_sussex = {
 	color = { 202 142 74 }
 }
 
-p_east_yorkshire = {
+east_yorkshire = {
 	color = { 129 126 209 }
 }
 
-p_essex = {
+essex = {
 	color = { 171 188 249 }
 }
 
-p_gloucestershire = {
+gloucestershire = {
 	county = c_gloucestershire
 	color = { 85 254 228 }
 	megalopolis = h_london_megalopolis
@@ -75,23 +75,23 @@ p_gloucestershire = {
 	}
 }
 
-p_hampshire = {
+hampshire = {
 	color = { 103 61 23 }
 }
 
-p_herefordshire = {
+herefordshire = {
 	color = { 219 144 212 }
 }
 
-p_hertfordshire = {
+hertfordshire = {
 	color = { 89 56 34 }
 }
 
-p_isle_of_man = {
+isle_of_man = {
 	color = { 112 66 67 }
 }
 
-p_kent = {
+kent = {
 	county = c_kent
 	color = { 102 90 140 }
 	megalopolis = h_london_megalopolis
@@ -102,7 +102,7 @@ p_kent = {
 	}
 }
 
-p_lancashire = {
+lancashire = {
 	county = c_lancashire
 	color = { 235 197 115 }
 	megalopolis = h_london_megalopolis
@@ -118,15 +118,15 @@ p_lancashire = {
 	}
 }
 
-p_leicestershire = {
+leicestershire = {
 	color = { 86 193 49 }
 }
 
-p_lincolnshire = {
+lincolnshire = {
 	color = { 246 20 64 }
 }
 
-p_london = {
+london = {
 	county = c_london
 	color = { 242 84 91 }
 	megalopolis = h_london_megalopolis
@@ -137,7 +137,7 @@ p_london = {
 	}
 }
 
-p_norfolk = {
+norfolk = {
 	county = c_norfolk
 	color = { 251 212 49 }
 	megalopolis = h_london_megalopolis
@@ -148,23 +148,23 @@ p_norfolk = {
 	}
 }
 
-p_north_yorkshire = {
+north_yorkshire = {
 	color = { 68 141 129 }
 }
 
-p_northamptonshire = {
+northamptonshire = {
 	color = { 211 133 33 }
 }
 
-p_northumberland = {
+northumberland = {
 	color = { 130 2 49 }
 }
 
-p_nottinghamshire = {
+nottinghamshire = {
 	color = { 59 254 120 }
 }
 
-p_oxfordshire = {
+oxfordshire = {
 	county = c_oxfordshire
 	color = { 196 244 110 }
 	megalopolis = h_london_megalopolis
@@ -175,19 +175,19 @@ p_oxfordshire = {
 	}
 }
 
-p_shropshire = {
+shropshire = {
 	color = { 116 184 205 }
 }
 
-p_somerset = {
+somerset = {
 	color = { 111 79 97 }
 }
 
-p_staffordshire = {
+staffordshire = {
 	color = { 211 165 80 }
 }
 
-p_suffolk = {
+suffolk = {
 	county = c_suffolk
 	color = { 35 86 191 }
 	megalopolis = h_london_megalopolis
@@ -198,11 +198,11 @@ p_suffolk = {
 	}
 }
 
-p_surrey = {
+surrey = {
 	color = { 247 192 51 }
 }
 
-p_warwickshire = {
+warwickshire = {
 	county = c_warwickshire
 	color = { 195 142 115 }
 	megalopolis = h_london_megalopolis
@@ -213,11 +213,11 @@ p_warwickshire = {
 	}
 }
 
-p_west_sussex = {
+west_sussex = {
 	color = { 153 173 47 }
 }
 
-p_west_yorkshire = {
+west_yorkshire = {
 	county = c_west_yorkshire
 	color = { 39 195 115 }
 	megalopolis = h_london_megalopolis
@@ -233,10 +233,10 @@ p_west_yorkshire = {
 	}
 }
 
-p_wiltshire = {
+wiltshire = {
 	color = { 24 148 222 }
 }
 
-p_worcestershire = {
+worcestershire = {
 	color = { 73 75 204 }
 }

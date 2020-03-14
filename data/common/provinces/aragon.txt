@@ -1,4 +1,4 @@
-p_alicante = {
+alicante = {
 	county = c_alicante
 	color = { 161 18 160 }
 	megalopolis = h_madrid_megalopolis
@@ -9,7 +9,7 @@ p_alicante = {
 	}
 }
 
-p_balearic_islands = {
+balearic_islands = {
 	county = c_balearic_islands
 	color = { 162 18 112 }
 	megalopolis = h_madrid_megalopolis
@@ -20,7 +20,7 @@ p_balearic_islands = {
 	}
 }
 
-p_barcelona = {
+barcelona = {
 	county = c_barcelona
 	color = { 172 234 91 }
 	megalopolis = h_madrid_megalopolis
@@ -36,15 +36,15 @@ p_barcelona = {
 	}
 }
 
-p_castellon = {
+castellon = {
 	color = { 146 171 144 }
 }
 
-p_gerona = {
+gerona = {
 	color = { 53 183 155 }
 }
 
-p_huesca = {
+huesca = {
 	county = c_huesca
 	color = { 243 151 252 }
 	megalopolis = h_madrid_megalopolis
@@ -55,7 +55,7 @@ p_huesca = {
 	}
 }
 
-p_lerida = {
+lerida = {
 	county = c_lerida
 	color = { 35 47 53 }
 	megalopolis = h_madrid_megalopolis
@@ -66,7 +66,7 @@ p_lerida = {
 	}
 }
 
-p_tarragona = {
+tarragona = {
 	county = c_tarragona
 	color = { 221 1 82 }
 	megalopolis = h_madrid_megalopolis
@@ -77,11 +77,11 @@ p_tarragona = {
 	}
 }
 
-p_teruel = {
+teruel = {
 	color = { 199 14 197 }
 }
 
-p_valencia = {
+valencia = {
 	county = c_valencia
 	color = { 179 252 129 }
 	megalopolis = h_madrid_megalopolis
@@ -92,7 +92,7 @@ p_valencia = {
 	}
 }
 
-p_zaragoza = {
+zaragoza = {
 	county = c_zaragoza
 	color = { 202 26 200 }
 	megalopolis = h_madrid_megalopolis

@@ -1,4 +1,4 @@
 antwerp = {
 	color = { 106 104 136 }
-	center_of_trade = p_antwerp
+	center_of_trade = antwerp
 }

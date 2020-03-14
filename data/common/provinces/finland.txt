@@ -1,71 +1,71 @@
-p_central_finland = {
+central_finland = {
 	color = { 216 0 188 }
 }
 
-p_central_ostrobothnia = {
+central_ostrobothnia = {
 	color = { 77 243 132 }
 }
 
-p_finland = {
+finland = {
 	color = { 131 42 191 }
 }
 
-p_kainuu = {
+kainuu = {
 	color = { 172 167 130 }
 }
 
-p_kymenlaakso = {
+kymenlaakso = {
 	color = { 97 11 196 }
 }
 
-p_lapland = {
+lapland = {
 	color = { 64 137 10 }
 }
 
-p_north_karelia = {
+north_karelia = {
 	color = { 179 10 151 }
 }
 
-p_north_ostrobothnia = {
+north_ostrobothnia = {
 	color = { 133 4 40 }
 }
 
-p_north_savonia = {
+north_savonia = {
 	color = { 123 66 251 }
 }
 
-p_ostrobothnia = {
+ostrobothnia = {
 	color = { 219 132 253 }
 }
 
-p_paijat_hame = {
+paijat_hame = {
 	color = { 163 100 156 }
 }
 
-p_pirkanmaa = {
+pirkanmaa = {
 	color = { 76 106 67 }
 }
 
-p_satakunta = {
+satakunta = {
 	color = { 223 234 79 }
 }
 
-p_south_karelia = {
+south_karelia = {
 	color = { 98 164 140 }
 }
 
-p_south_ostrobothnia = {
+south_ostrobothnia = {
 	color = { 110 253 90 }
 }
 
-p_south_savonia = {
+south_savonia = {
 	color = { 211 34 212 }
 }
 
-p_tavastia = {
+tavastia = {
 	color = { 235 143 28 }
 }
 
-p_uusimaa = {
+uusimaa = {
 	color = { 115 17 26 }
 }

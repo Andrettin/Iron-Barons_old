@@ -1,4 +1,4 @@
-p_dublin = {
+dublin = {
 	county = c_dublin
 	color = { 98 64 38 }
 	megalopolis = h_london_megalopolis

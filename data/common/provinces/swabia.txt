@@ -1,4 +1,4 @@
-p_baden = {
+baden = {
 	county = c_baden
 	color = { 218 171 19 }
 	megalopolis = h_berlin_megalopolis
@@ -29,7 +29,7 @@ p_baden = {
 	}
 }
 
-p_constance = {
+constance = {
 	county = c_constance
 	color = { 216 103 18 }
 	megalopolis = h_berlin_megalopolis
@@ -40,7 +40,7 @@ p_constance = {
 	}
 }
 
-p_heidelberg = {
+heidelberg = {
 	county = c_heidelberg
 	color = { 138 218 23 }
 	megalopolis = h_berlin_megalopolis
@@ -66,7 +66,7 @@ p_heidelberg = {
 	}
 }
 
-p_ravensburg = {
+ravensburg = {
 	county = c_ravensburg
 	color = { 40 108 254 }
 	megalopolis = h_berlin_megalopolis
@@ -77,7 +77,7 @@ p_ravensburg = {
 	}
 }
 
-p_sigmaringen = {
+sigmaringen = {
 	county = c_sigmaringen
 	color = { 238 40 36 }
 	megalopolis = h_berlin_megalopolis
@@ -88,7 +88,7 @@ p_sigmaringen = {
 	}
 }
 
-p_sundgau = {
+sundgau = {
 	county = c_sundgau
 	color = { 20 11 56 }
 	megalopolis = h_berlin_megalopolis
@@ -114,7 +114,7 @@ p_sundgau = {
 	}
 }
 
-p_wurtemberg = {
+wurtemberg = {
 	county = c_wurtemberg
 	color = { 192 202 36 }
 	megalopolis = h_berlin_megalopolis
@@ -145,7 +145,7 @@ p_wurtemberg = {
 	}
 }
 
-p_zollern = {
+zollern = {
 	county = c_zollern
 	color = { 79 139 68 }
 	megalopolis = h_berlin_megalopolis

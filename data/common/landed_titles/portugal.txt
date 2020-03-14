@@ -1,13 +1,13 @@
 k_portugal = {
 	color = { 0 102 0 }
-	capital_province = p_lisbon
+	capital_province = lisbon
 	active_post_amalgamation = true
 }
 
 d_portugal = {
 	de_jure_liege_title = k_portugal
 	color = { 0 102 0 }
-	capital_province = p_lisbon
+	capital_province = lisbon
 	flag_tag = k_portugal
 }
 

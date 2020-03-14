@@ -1,5 +1,5 @@
 laborers = {
-	region = r_commonwealth_of_independent_states
+	region = commonwealth_of_independent_states
 	discount_existing = yes
 	discount_any_type = yes
 	

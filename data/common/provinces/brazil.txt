@@ -1,20 +1,20 @@
-p_acre = {
+acre = {
 	color = { 29 41 143 }
 }
 
-p_alagoas = {
+alagoas = {
 	color = { 62 61 23 }
 }
 
-p_amapa = {
+amapa = {
 	color = { 51 213 191 }
 }
 
-p_amazonas = {
+amazonas = {
 	color = { 226 115 250 }
 }
 
-p_bahia = {
+bahia = {
 	county = c_bahia
 	color = { 240 0 73 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -25,11 +25,11 @@ p_bahia = {
 	}
 }
 
-p_ceara = {
+ceara = {
 	color = { 130 235 88 }
 }
 
-p_espirito_santo = {
+espirito_santo = {
 	county = c_espirito_santo
 	color = { 60 226 224 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -40,23 +40,23 @@ p_espirito_santo = {
 	}
 }
 
-p_goias = {
+goias = {
 	color = { 195 46 160 }
 }
 
-p_maranhao = {
+maranhao = {
 	color = { 161 210 122 }
 }
 
-p_mato_grosso = {
+mato_grosso = {
 	color = { 75 197 17 }
 }
 
-p_mato_grosso_do_sul = {
+mato_grosso_do_sul = {
 	color = { 173 134 234 }
 }
 
-p_minas_gerais = {
+minas_gerais = {
 	county = c_minas_gerais
 	color = { 117 233 106 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -67,15 +67,15 @@ p_minas_gerais = {
 	}
 }
 
-p_para = {
+para = {
 	color = { 50 138 138 }
 }
 
-p_paraiba = {
+paraiba = {
 	color = { 185 167 209 }
 }
 
-p_parana = {
+parana = {
 	county = c_parana
 	color = { 27 188 111 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -86,15 +86,15 @@ p_parana = {
 	}
 }
 
-p_pernambuco = {
+pernambuco = {
 	color = { 136 212 71 }
 }
 
-p_piaui = {
+piaui = {
 	color = { 27 226 41 }
 }
 
-p_rio_de_janeiro = {
+rio_de_janeiro = {
 	county = c_rio_de_janeiro
 	color = { 31 130 77 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -105,11 +105,11 @@ p_rio_de_janeiro = {
 	}
 }
 
-p_rio_grande_do_norte = {
+rio_grande_do_norte = {
 	color = { 105 130 239 }
 }
 
-p_rio_grande_do_sul = {
+rio_grande_do_sul = {
 	county = c_rio_grande_do_sul
 	color = { 77 114 3 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -125,11 +125,11 @@ p_rio_grande_do_sul = {
 	}
 }
 
-p_rondonia = {
+rondonia = {
 	color = { 82 122 154 }
 }
 
-p_santa_catarina = {
+santa_catarina = {
 	county = c_santa_catarina
 	color = { 240 89 108 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -145,7 +145,7 @@ p_santa_catarina = {
 	}
 }
 
-p_sao_paulo = {
+sao_paulo = {
 	county = c_sao_paulo
 	color = { 145 219 25 }
 	megalopolis = h_rio_de_janeiro_megalopolis
@@ -156,10 +156,10 @@ p_sao_paulo = {
 	}
 }
 
-p_sergipe = {
+sergipe = {
 	color = { 122 91 162 }
 }
 
-p_tocantins = {
+tocantins = {
 	color = { 128 54 151 }
 }

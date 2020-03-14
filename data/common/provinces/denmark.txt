@@ -1,8 +1,8 @@
-p_bornholm = {
+bornholm = {
 	color = { 159 94 107 }
 }
 
-p_funen = {
+funen = {
 	county = c_funen
 	color = { 84 48 146 }
 	megalopolis = h_stockholm_megalopolis
@@ -13,7 +13,7 @@ p_funen = {
 	}
 }
 
-p_middle_jutland = {
+middle_jutland = {
 	county = c_middle_jutland
 	color = { 174 209 177 }
 	megalopolis = h_stockholm_megalopolis
@@ -54,7 +54,7 @@ p_middle_jutland = {
 	}
 }
 
-p_north_jutland = {
+north_jutland = {
 	county = c_north_jutland
 	color = { 225 233 254 }
 	megalopolis = h_stockholm_megalopolis
@@ -70,7 +70,7 @@ p_north_jutland = {
 	}
 }
 
-p_north_schleswig = {
+north_schleswig = {
 	county = c_north_schleswig
 	color = { 251 225 65 }
 	megalopolis = h_stockholm_megalopolis
@@ -91,7 +91,7 @@ p_north_schleswig = {
 	}
 }
 
-p_sjaelland = {
+sjaelland = {
 	county = c_sjaelland
 	color = { 51 172 182 }
 	megalopolis = h_stockholm_megalopolis
@@ -127,7 +127,7 @@ p_sjaelland = {
 	}
 }
 
-p_south_schleswig = {
+south_schleswig = {
 	county = c_south_schleswig
 	color = { 223 14 171 }
 	megalopolis = h_stockholm_megalopolis

@@ -1,19 +1,19 @@
 k_wurtemberg = {
 	de_jure_liege_title = e_germany
 	color = { 11 20 54 }
-	capital_province = p_wurtemberg
+	capital_province = wurtemberg
 }
 
 d_baden = {
 	de_jure_liege_title = k_germany
 	color = { 255 221 0 }
-	capital_province = p_baden
+	capital_province = baden
 }
 
 d_wurtemberg = {
 	de_jure_liege_title = k_wurtemberg
 	color = { 192 202 36 }
-	capital_province = p_wurtemberg
+	capital_province = wurtemberg
 }
 
 c_baden = {

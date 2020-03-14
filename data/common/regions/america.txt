@@ -1,4 +1,4 @@
-r_america = {
-	subregions += r_north_america
-	subregions += r_south_america
+america = {
+	subregions += north_america
+	subregions += south_america
 }

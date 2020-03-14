@@ -1,4 +1,4 @@
-p_bjelovar = {
+bjelovar = {
 	county = c_bjelovar
 	color = { 52 240 184 }
 	megalopolis = h_vienna_megalopolis
@@ -9,7 +9,7 @@ p_bjelovar = {
 	}
 }
 
-p_brod = {
+brod = {
 	county = c_brod
 	color = { 36 69 218 }
 	megalopolis = h_vienna_megalopolis
@@ -20,7 +20,7 @@ p_brod = {
 	}
 }
 
-p_dalmatia = {
+dalmatia = {
 	county = c_dalmatia
 	color = { 55 112 202 }
 	megalopolis = h_vienna_megalopolis
@@ -31,7 +31,7 @@ p_dalmatia = {
 	}
 }
 
-p_fiume = {
+fiume = {
 	county = c_fiume
 	color = { 69 205 187 }
 	megalopolis = h_vienna_megalopolis
@@ -42,7 +42,7 @@ p_fiume = {
 	}
 }
 
-p_gorz = {
+gorz = {
 	county = c_gorz
 	color = { 220 100 213 }
 	megalopolis = h_vienna_megalopolis
@@ -58,7 +58,7 @@ p_gorz = {
 	}
 }
 
-p_istria = {
+istria = {
 	county = c_istria
 	color = { 57 206 144 }
 	megalopolis = h_vienna_megalopolis
@@ -69,7 +69,7 @@ p_istria = {
 	}
 }
 
-p_karlstadt = {
+karlstadt = {
 	county = c_karlstadt
 	color = { 129 221 154 }
 	megalopolis = h_vienna_megalopolis
@@ -85,7 +85,7 @@ p_karlstadt = {
 	}
 }
 
-p_peterwardein = {
+peterwardein = {
 	county = c_peterwardein
 	color = { 182 222 38 }
 	megalopolis = h_vienna_megalopolis
@@ -106,7 +106,7 @@ p_peterwardein = {
 	}
 }
 
-p_sisak = {
+sisak = {
 	county = c_sisak
 	color = { 134 230 230 }
 	megalopolis = h_vienna_megalopolis
@@ -117,7 +117,7 @@ p_sisak = {
 	}
 }
 
-p_slavonia = {
+slavonia = {
 	county = c_slavonia
 	color = { 202 45 184 }
 	megalopolis = h_vienna_megalopolis
@@ -133,7 +133,7 @@ p_slavonia = {
 	}
 }
 
-p_trieste = {
+trieste = {
 	county = c_trieste
 	color = { 216 196 14 }
 	megalopolis = h_vienna_megalopolis
@@ -144,7 +144,7 @@ p_trieste = {
 	}
 }
 
-p_vukovar = {
+vukovar = {
 	county = c_vukovar
 	color = { 26 208 93 }
 	megalopolis = h_vienna_megalopolis
@@ -155,7 +155,7 @@ p_vukovar = {
 	}
 }
 
-p_warasdin = {
+warasdin = {
 	county = c_warasdin
 	color = { 92 91 155 }
 	megalopolis = h_vienna_megalopolis
@@ -166,7 +166,7 @@ p_warasdin = {
 	}
 }
 
-p_zagreb = {
+zagreb = {
 	county = c_zagreb
 	color = { 183 217 124 }
 	megalopolis = h_vienna_megalopolis

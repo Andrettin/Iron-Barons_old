@@ -1,5 +1,5 @@
 laborers = {
-	region = r_hungary_croatia_slavonia
+	region = hungary_croatia_slavonia
 	discount_existing = yes
 	discount_any_type = yes
 	discount_types -= gentlemen
@@ -23,7 +23,7 @@ laborers = {
 }
 
 gentlemen = {
-	region = r_royal_hungary
+	region = royal_hungary
 	discount_existing = yes
 	
 	1809 = {

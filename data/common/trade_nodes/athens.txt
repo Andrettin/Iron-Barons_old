@@ -1,4 +1,4 @@
 athens = {
 	color = { 70 178 213 }
-	center_of_trade = p_attica
+	center_of_trade = attica
 }

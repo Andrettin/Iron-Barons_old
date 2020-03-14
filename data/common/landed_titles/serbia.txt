@@ -1,6 +1,6 @@
 d_serbia = {
 	color = { 233 56 89 }
-	capital_province = p_belgrade
+	capital_province = belgrade
 }
 
 c_belgrade = {

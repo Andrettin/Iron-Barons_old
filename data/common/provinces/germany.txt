@@ -1,4 +1,4 @@
-p_altenburg = {
+altenburg = {
 	county = c_altenburg
 	color = { 160 8 180 }
 	megalopolis = h_berlin_megalopolis
@@ -9,7 +9,7 @@ p_altenburg = {
 	}
 }
 
-p_anhalt = {
+anhalt = {
 	county = c_anhalt
 	color = { 41 80 22 }
 	megalopolis = h_berlin_megalopolis
@@ -20,7 +20,7 @@ p_anhalt = {
 	}
 }
 
-p_berg = {
+berg = {
 	county = c_berg
 	color = { 166 141 108 }
 	megalopolis = h_berlin_megalopolis
@@ -46,7 +46,7 @@ p_berg = {
 	}
 }
 
-p_brandenburg = {
+brandenburg = {
 	county = c_brandenburg
 	color = { 37 55 4 }
 	megalopolis = h_berlin_megalopolis
@@ -87,7 +87,7 @@ p_brandenburg = {
 	}
 }
 
-p_breslau = {
+breslau = {
 	county = c_breslau
 	color = { 103 186 205 }
 	megalopolis = h_berlin_megalopolis
@@ -143,7 +143,7 @@ p_breslau = {
 	#}
 }
 
-p_brunswick = {
+brunswick = {
 	county = c_brunswick
 	color = { 234 211 250 }
 	megalopolis = h_berlin_megalopolis
@@ -154,7 +154,7 @@ p_brunswick = {
 	}
 }
 
-p_coburg = {
+coburg = {
 	county = c_coburg
 	color = { 107 38 220 }
 	megalopolis = h_berlin_megalopolis
@@ -165,7 +165,7 @@ p_coburg = {
 	}
 }
 
-p_darmstadt = {
+darmstadt = {
 	county = c_darmstadt
 	color = { 211 6 141 }
 	megalopolis = h_berlin_megalopolis
@@ -181,7 +181,7 @@ p_darmstadt = {
 	}
 }
 
-p_east_frisia = {
+east_frisia = {
 	county = c_east_frisia
 	color = { 237 68 103 }
 	megalopolis = h_berlin_megalopolis
@@ -207,7 +207,7 @@ p_east_frisia = {
 	}
 }
 
-p_erfurt = {
+erfurt = {
 	county = c_erfurt
 	color = { 185 114 98 }
 	megalopolis = h_berlin_megalopolis
@@ -233,7 +233,7 @@ p_erfurt = {
 	}
 }
 
-p_farther_pomerania = {
+farther_pomerania = {
 	county = c_farther_pomerania
 	color = { 91 25 205 }
 	megalopolis = h_berlin_megalopolis
@@ -254,7 +254,7 @@ p_farther_pomerania = {
 	}
 }
 
-p_giessen = {
+giessen = {
 	county = c_giessen
 	color = { 249 53 64 }
 	megalopolis = h_berlin_megalopolis
@@ -270,7 +270,7 @@ p_giessen = {
 	}
 }
 
-p_gotha = {
+gotha = {
 	county = c_gotha
 	color = { 136 128 177 }
 	megalopolis = h_berlin_megalopolis
@@ -296,7 +296,7 @@ p_gotha = {
 	}
 }
 
-p_gottingen = {
+gottingen = {
 	county = c_gottingen
 	color = { 127 110 64 }
 	megalopolis = h_berlin_megalopolis
@@ -307,7 +307,7 @@ p_gottingen = {
 	}
 }
 
-p_hamburg = {
+hamburg = {
 	county = c_hamburg
 	color = { 97 95 41 }
 	megalopolis = h_berlin_megalopolis
@@ -323,7 +323,7 @@ p_hamburg = {
 	}
 }
 
-p_hanover = {
+hanover = {
 	county = c_hanover
 	color = { 15 78 106 }
 	megalopolis = h_berlin_megalopolis
@@ -364,7 +364,7 @@ p_hanover = {
 	}
 }
 
-p_hither_pomerania = {
+hither_pomerania = {
 	county = c_hither_pomerania
 	color = { 164 255 28 }
 	megalopolis = h_berlin_megalopolis
@@ -390,7 +390,7 @@ p_hither_pomerania = {
 	}
 }
 
-p_holstein = {
+holstein = {
 	county = c_holstein
 	color = { 101 97 115 }
 	megalopolis = h_berlin_megalopolis
@@ -411,7 +411,7 @@ p_holstein = {
 	}
 }
 
-p_jerichow = {
+jerichow = {
 	county = c_jerichow
 	color = { 147 72 137 }
 	megalopolis = h_berlin_megalopolis
@@ -422,7 +422,7 @@ p_jerichow = {
 	}
 }
 
-p_julich = {
+julich = {
 	county = c_julich
 	color = { 243 189 48 }
 	megalopolis = h_berlin_megalopolis
@@ -438,7 +438,7 @@ p_julich = {
 	}
 }
 
-p_kassel = {
+kassel = {
 	county = c_kassel
 	color = { 22 220 110 }
 	megalopolis = h_berlin_megalopolis
@@ -474,7 +474,7 @@ p_kassel = {
 	}
 }
 
-p_kattowitz = {
+kattowitz = {
 	county = c_kattowitz
 	color = { 131 14 60 }
 	megalopolis = h_berlin_megalopolis
@@ -500,7 +500,7 @@ p_kattowitz = {
 	}
 }
 
-p_lauenburg = {
+lauenburg = {
 	county = c_lauenburg
 	color = { 4 157 15 }
 	megalopolis = h_berlin_megalopolis
@@ -516,7 +516,7 @@ p_lauenburg = {
 	}
 }
 
-p_lippe = {
+lippe = {
 	county = c_lippe
 	color = { 235 45 34 }
 	megalopolis = h_berlin_megalopolis
@@ -532,7 +532,7 @@ p_lippe = {
 	}
 }
 
-p_lower_lusatia = {
+lower_lusatia = {
 	county = c_lower_lusatia
 	color = { 212 238 128 }
 	megalopolis = h_berlin_megalopolis
@@ -548,7 +548,7 @@ p_lower_lusatia = {
 	}
 }
 
-p_magdeburg = {
+magdeburg = {
 	county = c_magdeburg
 	color = { 250 85 103 }
 	megalopolis = h_berlin_megalopolis
@@ -564,7 +564,7 @@ p_magdeburg = {
 	}
 }
 
-p_mainz = {
+mainz = {
 	county = c_mainz
 	color = { 156 36 18 }
 	megalopolis = h_berlin_megalopolis
@@ -580,7 +580,7 @@ p_mainz = {
 	}
 }
 
-p_meiningen = {
+meiningen = {
 	county = c_meiningen
 	color = { 224 245 136 }
 	megalopolis = h_berlin_megalopolis
@@ -596,7 +596,7 @@ p_meiningen = {
 	}
 }
 
-p_merseburg = {
+merseburg = {
 	county = c_merseburg
 	color = { 125 66 108 }
 	megalopolis = h_berlin_megalopolis
@@ -617,7 +617,7 @@ p_merseburg = {
 	}
 }
 
-p_nassau = {
+nassau = {
 	county = c_nassau
 	color = { 15 44 242 }
 	megalopolis = h_berlin_megalopolis
@@ -633,7 +633,7 @@ p_nassau = {
 	}
 }
 
-p_neumark = {
+neumark = {
 	county = c_neumark
 	color = { 116 19 95 }
 	megalopolis = h_berlin_megalopolis
@@ -649,7 +649,7 @@ p_neumark = {
 	}
 }
 
-p_oldenburg = {
+oldenburg = {
 	county = c_oldenburg
 	color = { 118 56 154 }
 	megalopolis = h_berlin_megalopolis
@@ -675,7 +675,7 @@ p_oldenburg = {
 	}
 }
 
-p_oppeln = {
+oppeln = {
 	county = c_oppeln
 	color = { 208 155 124 }
 	megalopolis = h_berlin_megalopolis
@@ -696,7 +696,7 @@ p_oppeln = {
 	}
 }
 
-p_palatinate = {
+palatinate = {
 	county = c_palatinate
 	color = { 77 42 49 }
 	megalopolis = h_berlin_megalopolis
@@ -727,7 +727,7 @@ p_palatinate = {
 	}
 }
 
-p_rhineland = {
+rhineland = {
 	county = c_rhineland
 	color = { 4 153 14 }
 	megalopolis = h_berlin_megalopolis
@@ -758,7 +758,7 @@ p_rhineland = {
 	}
 }
 
-p_saarland = {
+saarland = {
 	county = c_saarland
 	color = { 93 100 252 }
 	megalopolis = h_berlin_megalopolis
@@ -769,7 +769,7 @@ p_saarland = {
 	}
 }
 
-p_schwerin = {
+schwerin = {
 	county = c_schwerin
 	color = { 138 14 78 }
 	megalopolis = h_berlin_megalopolis
@@ -795,7 +795,7 @@ p_schwerin = {
 	}
 }
 
-p_strelitz = {
+strelitz = {
 	county = c_strelitz
 	color = { 107 152 133 }
 	megalopolis = h_berlin_megalopolis
@@ -806,7 +806,7 @@ p_strelitz = {
 	}
 }
 
-p_upper_lusatia = {
+upper_lusatia = {
 	county = c_upper_lusatia
 	color = { 25 89 65 }
 	megalopolis = h_berlin_megalopolis
@@ -822,7 +822,7 @@ p_upper_lusatia = {
 	}
 }
 
-p_upper_saxony = {
+upper_saxony = {
 	county = c_upper_saxony
 	color = { 8 118 12 }
 	megalopolis = h_berlin_megalopolis
@@ -858,7 +858,7 @@ p_upper_saxony = {
 	}
 }
 
-p_waldeck = {
+waldeck = {
 	county = c_waldeck
 	color = { 157 182 58 }
 	megalopolis = h_berlin_megalopolis
@@ -869,7 +869,7 @@ p_waldeck = {
 	}
 }
 
-p_weimar = {
+weimar = {
 	county = c_weimar
 	color = { 152 76 45 }
 	megalopolis = h_berlin_megalopolis
@@ -890,7 +890,7 @@ p_weimar = {
 	}
 }
 
-p_westphalia = {
+westphalia = {
 	county = c_westphalia
 	color = { 157 120 7 }
 	megalopolis = h_berlin_megalopolis
@@ -926,7 +926,7 @@ p_westphalia = {
 	}
 }
 
-p_wittenberg = {
+wittenberg = {
 	county = c_wittenberg
 	color = { 70 1 87 }
 	megalopolis = h_berlin_megalopolis

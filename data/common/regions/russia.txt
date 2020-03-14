@@ -1,37 +1,37 @@
-r_soviet_union = {
-	subregions += r_baltic_countries
-	subregions += r_byelorussia
-	subregions += r_russian_federation
-	subregions += r_ukraine
+soviet_union = {
+	subregions += baltic_countries
+	subregions += byelorussia
+	subregions += russian_federation
+	subregions += ukraine
 }
 
-r_russian_federation = { #the territory of the modern Russian Federation
-	provinces += p_east_prussia
-	subregions += r_siberia
+russian_federation = { #the territory of the modern Russian Federation
+	provinces += east_prussia
+	subregions += siberia
 }
 
-r_byelorussia = { #the territory of modern Belarus/the Byelorussian SSR
-	provinces += p_brest_litovsk
-	provinces += p_gomel
-	provinces += p_grodno
-	provinces += p_minsk
-	provinces += p_mogilev
-	provinces += p_vitebsk
+byelorussia = { #the territory of modern Belarus/the Byelorussian SSR
+	provinces += brest_litovsk
+	provinces += gomel
+	provinces += grodno
+	provinces += minsk
+	provinces += mogilev
+	provinces += vitebsk
 }
 
-r_siberia = {
-	provinces += p_chukotka
-	provinces += p_kamchatka
+siberia = {
+	provinces += chukotka
+	provinces += kamchatka
 }
 
-r_ukraine = { #the territory of modern Ukraine
-	provinces += p_lemberg
-	provinces += p_stanislawow
-	provinces += p_transcarpathia
-	provinces += p_volhynia
+ukraine = { #the territory of modern Ukraine
+	provinces += lemberg
+	provinces += stanislawow
+	provinces += transcarpathia
+	provinces += volhynia
 }
 
-r_chukotka_alaska = {
-	provinces += p_chukotka
-	provinces += p_alaska
+chukotka_alaska = {
+	provinces += chukotka
+	provinces += alaska
 }

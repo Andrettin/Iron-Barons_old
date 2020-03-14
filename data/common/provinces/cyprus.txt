@@ -1,4 +1,4 @@
-p_larnaca = {
+larnaca = {
 	county = c_larnaca
 	color = { 126 62 4 }
 	megalopolis = h_byzantium_megalopolis
@@ -9,7 +9,7 @@ p_larnaca = {
 	}
 }
 
-p_limassol = {
+limassol = {
 	county = c_limassol
 	color = { 133 197 45 }
 	megalopolis = h_byzantium_megalopolis
@@ -20,14 +20,14 @@ p_limassol = {
 	}
 }
 
-p_nicosia = {
+nicosia = {
 	color = { 233 136 112 }
 }
 
-p_northern_cyprus = {
+northern_cyprus = {
 	color = { 156 146 52 }
 }
 
-p_paphos = {
+paphos = {
 	color = { 134 134 99 }
 }

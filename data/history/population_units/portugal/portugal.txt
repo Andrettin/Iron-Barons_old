@@ -1,5 +1,5 @@
 laborers = {
-	region = r_portugal
+	region = portugal
 	discount_existing = yes
 	discount_any_type = yes
 	

@@ -1,3 +1,3 @@
 ermine_street = { #Ermine Street Roman road; Source: William R. Shepherd, "Historical Atlas", 1911, p. 51.
-	path = { p_london p_hertfordshire p_cambridgeshire p_lincolnshire p_nottinghamshire p_west_yorkshire p_north_yorkshire p_durham p_northumberland p_scottish_borders p_lothian }
+	path = { london hertfordshire cambridgeshire lincolnshire nottinghamshire west_yorkshire north_yorkshire durham northumberland scottish_borders lothian }
 }

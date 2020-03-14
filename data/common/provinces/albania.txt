@@ -1,47 +1,47 @@
-p_berat = {
+berat = {
 	color = { 181 59 21 }
 }
 
-p_diber = {
+diber = {
 	color = { 234 230 61 }
 }
 
-p_durres = {
+durres = {
 	color = { 216 131 138 }
 }
 
-p_elbasan = {
+elbasan = {
 	color = { 115 14 254 }
 }
 
-p_fier = {
+fier = {
 	color = { 70 131 153 }
 }
 
-p_gjirokaster = {
+gjirokaster = {
 	color = { 245 121 79 }
 }
 
-p_korce = {
+korce = {
 	color = { 138 131 227 }
 }
 
-p_kukes = {
+kukes = {
 	color = { 125 95 30 }
 }
 
-p_lezhe = {
+lezhe = {
 	color = { 210 202 29 }
 }
 
-p_shkoder = {
+shkoder = {
 	color = { 205 129 35 }
 }
 
-p_tirana = {
+tirana = {
 	color = { 17 146 29 }
 }
 
-p_vlore = {
+vlore = {
 	color = { 250 185 163 }
 }

@@ -1,32 +1,32 @@
-r_romania = { #the territory of modern Romania
-	provinces += p_moldavia
-	provinces += p_wallachia
-	provinces += p_arad
-	provinces += p_bihor
-	provinces += p_maramures
-	provinces += p_resita
-	provinces += p_satu_mare
-	provinces += p_temesvar
-	subregions += r_transylvania
+romania = { #the territory of modern Romania
+	provinces += moldavia
+	provinces += wallachia
+	provinces += arad
+	provinces += bihor
+	provinces += maramures
+	provinces += resita
+	provinces += satu_mare
+	provinces += temesvar
+	subregions += transylvania
 }
 
-r_transylvania = {
-	subregions += r_transylvanian_core
-	subregions += r_transylvanian_military_frontier
+transylvania = {
+	subregions += transylvanian_core
+	subregions += transylvanian_military_frontier
 }
 
-r_transylvanian_core = { #Transylvania without its military frontier
-	provinces += p_alba
-	provinces += p_bistritz
-	provinces += p_hunedoara
-	provinces += p_klausenburg
-	provinces += p_mures
-	provinces += p_salaj
+transylvanian_core = { #Transylvania without its military frontier
+	provinces += alba
+	provinces += bistritz
+	provinces += hunedoara
+	provinces += klausenburg
+	provinces += mures
+	provinces += salaj
 }
 
-r_transylvanian_military_frontier = {
-	provinces += p_csik_szereda
-	provinces += p_hermannstadt
-	provinces += p_kronstadt
-	provinces += p_sepsi_sz_gyorgy
+transylvanian_military_frontier = {
+	provinces += csik_szereda
+	provinces += hermannstadt
+	provinces += kronstadt
+	provinces += sepsi_sz_gyorgy
 }

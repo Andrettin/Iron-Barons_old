@@ -1,14 +1,14 @@
-p_damietta_branch = {
+damietta_branch = {
 	color = { 55 13 123 }
 	terrain = major_river
 }
 
-p_lower_nile_river = {
+lower_nile_river = {
 	color = { 174 185 133 }
 	terrain = major_river
 }
 
-p_rosetta_branch = {
+rosetta_branch = {
 	color = { 216 242 248 }
 	terrain = major_river
 }

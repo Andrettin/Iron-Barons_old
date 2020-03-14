@@ -1,99 +1,99 @@
-r_italy = {
-	provinces += p_genoa
-	provinces += p_latium
-	provinces += p_lucca
-	provinces += p_modena
-	provinces += p_nice
-	provinces += p_parma
-	provinces += p_romagna
-	provinces += p_savoy
-	provinces += p_tuscany
-	subregions += r_lombardy_venetia
-	subregions += r_piedmont
-	subregions += r_sardinia
-	subregions += r_two_sicilies
+italy = {
+	provinces += genoa
+	provinces += latium
+	provinces += lucca
+	provinces += modena
+	provinces += nice
+	provinces += parma
+	provinces += romagna
+	provinces += savoy
+	provinces += tuscany
+	subregions += lombardy_venetia
+	subregions += piedmont
+	subregions += sardinia
+	subregions += two_sicilies
 }
 
-r_modern_italy = {
-	provinces += p_genoa
-	provinces += p_latium
-	provinces += p_lucca
-	provinces += p_modena
-	provinces += p_parma
-	provinces += p_romagna
-	provinces += p_tuscany
-	provinces += p_trieste
-	provinces += p_gorz
-	provinces += p_trentino
-	provinces += p_south_tyrol
-	subregions += r_lombardy_venetia
-	subregions += r_piedmont
-	subregions += r_sardinia
-	subregions += r_two_sicilies
+modern_italy = {
+	provinces += genoa
+	provinces += latium
+	provinces += lucca
+	provinces += modena
+	provinces += parma
+	provinces += romagna
+	provinces += tuscany
+	provinces += trieste
+	provinces += gorz
+	provinces += trentino
+	provinces += south_tyrol
+	subregions += lombardy_venetia
+	subregions += piedmont
+	subregions += sardinia
+	subregions += two_sicilies
 }
 
-r_corsica = {
-	provinces += p_corse_du_sud
-	provinces += p_haute_corse
+corsica = {
+	provinces += corse_du_sud
+	provinces += haute_corse
 }
 
-r_lombardy = {
-	provinces += p_bergamo
-	provinces += p_brescia
-	provinces += p_cremona
-	provinces += p_milan
-	provinces += p_sondrio
+lombardy = {
+	provinces += bergamo
+	provinces += brescia
+	provinces += cremona
+	provinces += milan
+	provinces += sondrio
 }
 
-r_lombardy_venetia = {
-	subregions += r_lombardy
-	subregions += r_venetia
+lombardy_venetia = {
+	subregions += lombardy
+	subregions += venetia
 }
 
-r_naples = {
-	provinces += p_abruzzo_citra
-	provinces += p_abruzzo_ultra
-	provinces += p_bari
-	provinces += p_basilicata
-	provinces += p_calabria_citra
-	provinces += p_calabria_ultra
-	provinces += p_capitanata
-	provinces += p_molise
-	provinces += p_otranto
-	provinces += p_principato_citra
-	provinces += p_principato_ultra
-	provinces += p_terra_di_lavoro
+naples = {
+	provinces += abruzzo_citra
+	provinces += abruzzo_ultra
+	provinces += bari
+	provinces += basilicata
+	provinces += calabria_citra
+	provinces += calabria_ultra
+	provinces += capitanata
+	provinces += molise
+	provinces += otranto
+	provinces += principato_citra
+	provinces += principato_ultra
+	provinces += terra_di_lavoro
 }
 
-r_piedmont = {
-	provinces += p_alessandria
-	provinces += p_aosta
-	provinces += p_cuneo
-	provinces += p_novara
-	provinces += p_turin
+piedmont = {
+	provinces += alessandria
+	provinces += aosta
+	provinces += cuneo
+	provinces += novara
+	provinces += turin
 }
 
-r_sardinia = {
-	provinces += p_cagliari
-	provinces += p_sassari
+sardinia = {
+	provinces += cagliari
+	provinces += sassari
 }
 
-r_sicily = {
-	provinces += p_demona
-	provinces += p_mazzara
-	provinces += p_noto
+sicily = {
+	provinces += demona
+	provinces += mazzara
+	provinces += noto
 }
 
-r_two_sicilies = {
-	subregions += r_naples
-	subregions += r_sicily
+two_sicilies = {
+	subregions += naples
+	subregions += sicily
 }
 
-r_venetia = {
-	provinces += p_mantua
-	provinces += p_padua
-	provinces += p_treviso
-	provinces += p_udine
-	provinces += p_venice
-	provinces += p_verona
+venetia = {
+	provinces += mantua
+	provinces += padua
+	provinces += treviso
+	provinces += udine
+	provinces += venice
+	provinces += verona
 }

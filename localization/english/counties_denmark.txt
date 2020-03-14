@@ -1,4 +1,4 @@
-p_bornholm = "Bornholm"
+bornholm = "Bornholm"
 c_funen = "Funen"
 c_middle_jutland = "Middle Jutland"
 c_north_jutland = "North Jutland"

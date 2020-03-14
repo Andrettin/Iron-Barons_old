@@ -1,4 +1,4 @@
 seville = {
 	color = { 246 174 41 }
-	center_of_trade = p_seville
+	center_of_trade = seville
 }

@@ -1,31 +1,31 @@
-r_low_countries = {
-	subregions += r_netherlands
-	subregions += r_belgium
-	provinces += p_luxembourg
+low_countries = {
+	subregions += netherlands
+	subregions += belgium
+	provinces += luxembourg
 }
 
-r_netherlands = {
-	provinces += p_drenthe
-	provinces += p_frisia
-	provinces += p_gelderland
-	provinces += p_groningen
-	provinces += p_north_brabant
-	provinces += p_north_holland
-	provinces += p_north_limburg
-	provinces += p_overijssel
-	provinces += p_south_holland
-	provinces += p_utrecht
-	provinces += p_zeeland
+netherlands = {
+	provinces += drenthe
+	provinces += frisia
+	provinces += gelderland
+	provinces += groningen
+	provinces += north_brabant
+	provinces += north_holland
+	provinces += north_limburg
+	provinces += overijssel
+	provinces += south_holland
+	provinces += utrecht
+	provinces += zeeland
 }
 
-r_belgium = {
-	provinces += p_antwerp
-	provinces += p_arlon
-	provinces += p_brabant
-	provinces += p_hainaut
-	provinces += p_east_flanders
-	provinces += p_liege
-	provinces += p_namur
-	provinces += p_south_limburg
-	provinces += p_west_flanders
+belgium = {
+	provinces += antwerp
+	provinces += arlon
+	provinces += brabant
+	provinces += hainaut
+	provinces += east_flanders
+	provinces += liege
+	provinces += namur
+	provinces += south_limburg
+	provinces += west_flanders
 }

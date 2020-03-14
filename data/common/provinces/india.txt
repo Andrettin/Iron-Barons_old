@@ -1,103 +1,103 @@
-p_andhra_pradesh = {
+andhra_pradesh = {
 	color = { 231 222 88 }
 }
 
-p_azad_kashmir = {
+azad_kashmir = {
 	color = { 177 191 201 }
 }
 
-p_baluchistan = {
+baluchistan = {
 	color = { 156 10 157 }
 }
 
-p_bihar = {
+bihar = {
 	color = { 223 226 107 }
 }
 
-p_chhattisgarh = {
+chhattisgarh = {
 	color = { 198 44 36 }
 }
 
-p_delhi = {
+delhi = {
 	color = { 15 124 240 }
 }
 
-p_east_punjab = {
+east_punjab = {
 	color = { 153 5 210 }
 }
 
-p_gilgit = {
+gilgit = {
 	color = { 129 198 84 }
 }
 
-p_goa = {
+goa = {
 	color = { 177 42 209 }
 }
 
-p_gujarat = {
+gujarat = {
 	color = { 166 124 3 }
 }
 
-p_haryana = {
+haryana = {
 	color = { 211 104 68 }
 }
 
-p_himachal_pradesh = {
+himachal_pradesh = {
 	color = { 12 97 64 }
 }
 
-p_jharkhand = {
+jharkhand = {
 	color = { 79 100 63 }
 }
 
-p_karnataka = {
+karnataka = {
 	color = { 109 80 75 }
 }
 
-p_kashmir = {
+kashmir = {
 	color = { 0 173 127 }
 }
 
-p_kerala = {
+kerala = {
 	color = { 162 202 139 }
 }
 
-p_khyber_pakhtunkhwa = {
+khyber_pakhtunkhwa = {
 	color = { 115 98 55 }
 }
 
-p_madhya_pradesh = {
+madhya_pradesh = {
 	color = { 56 181 200 }
 }
 
-p_maharashtra = {
+maharashtra = {
 	color = { 217 55 2 }
 }
 
-p_orissa = {
+orissa = {
 	color = { 207 64 114 }
 }
 
-p_qabailistan = {
+qabailistan = {
 	color = { 101 220 129 }
 }
 
-p_rajasthan = {
+rajasthan = {
 	color = { 223 13 182 }
 }
 
-p_sind = {
+sind = {
 	color = { 37 230 140 }
 }
 
-p_tamil_nadu = {
+tamil_nadu = {
 	color = { 126 79 144 }
 }
 
-p_uttar_pradesh = {
+uttar_pradesh = {
 	color = { 113 100 52 }
 }
 
-p_west_punjab = {
+west_punjab = {
 	color = { 14 158 92 }
 }

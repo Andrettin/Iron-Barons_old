@@ -1,19 +1,19 @@
 k_hungary = {
 	color = { 131 15 15 }
-	capital_province = p_pest
+	capital_province = pest
 	active_post_amalgamation = true
 }
 
 d_banat = {
 	de_jure_liege_title = k_hungary
 	color = { 92 25 48 }
-	capital_province = p_temesvar
+	capital_province = temesvar
 }
 
 d_hungary = {
 	de_jure_liege_title = k_hungary
 	color = { 131 15 15 }
-	capital_province = p_pest
+	capital_province = pest
 	flag_tag = k_hungary
 }
 

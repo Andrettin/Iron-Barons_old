@@ -1,12 +1,12 @@
 k_lebanon = {
 	color = { 94 104 124 }
-	capital_province = p_south_lebanon
+	capital_province = south_lebanon
 }
 
 d_lebanon = {
 	de_jure_liege_title = k_lebanon
 	color = { 94 104 124 }
-	capital_province = p_south_lebanon
+	capital_province = south_lebanon
 	flag_tag = k_lebanon
 }
 

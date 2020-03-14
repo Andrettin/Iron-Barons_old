@@ -1,20 +1,20 @@
 k_denmark = {
 	de_jure_liege_title = e_scandinavia
 	color = { 198 12 48 }
-	capital_province = p_sjaelland
+	capital_province = sjaelland
 }
 
 d_denmark = {
 	de_jure_liege_title = k_denmark
 	color = { 198 12 48 }
-	capital_province = p_sjaelland
+	capital_province = sjaelland
 	flag_tag = k_denmark
 }
 
 d_schleswig = {
 	de_jure_liege_title = k_denmark
 	color = { 239 202 56 }
-	capital_province = p_south_schleswig
+	capital_province = south_schleswig
 }
 
 c_funen = {

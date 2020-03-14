@@ -1,13 +1,13 @@
 k_switzerland = {
 	de_jure_liege_title = e_france
 	color = { 228 43 35 }
-	capital_province = p_bern
+	capital_province = bern
 }
 
 d_switzerland = {
 	de_jure_liege_title = k_switzerland
 	color = { 228 43 35 }
-	capital_province = p_bern
+	capital_province = bern
 	flag_tag = k_switzerland
 }
 

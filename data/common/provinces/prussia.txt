@@ -1,4 +1,4 @@
-p_danzig = {
+danzig = {
 	county = c_danzig
 	color = { 248 144 8 }
 	megalopolis = h_berlin_megalopolis
@@ -29,7 +29,7 @@ p_danzig = {
 	}
 }
 
-p_east_prussia = {
+east_prussia = {
 	county = c_east_prussia
 	color = { 65 220 96 }
 	megalopolis = h_berlin_megalopolis
@@ -80,7 +80,7 @@ p_east_prussia = {
 	}
 }
 
-p_thorn = {
+thorn = {
 	county = c_thorn
 	color = { 166 167 52 }
 	megalopolis = h_berlin_megalopolis

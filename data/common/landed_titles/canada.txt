@@ -1,12 +1,12 @@
 k_canada = {
 	color = { 221 44 41 }
-	capital_province = p_halifax #should be Ottawa instead
+	capital_province = halifax #should be Ottawa instead
 }
 
 d_nova_scotia = {
 	de_jure_liege_title = k_canada
 	color = { 21 136 202 }
-	capital_province = p_halifax
+	capital_province = halifax
 }
 
 c_amherstburg = {

@@ -1,59 +1,59 @@
-p_harju = {
+harju = {
 	color = { 107 38 107 }
 }
 
-p_hiiu = {
+hiiu = {
 	color = { 106 10 202 }
 }
 
-p_ida_viru = {
+ida_viru = {
 	color = { 198 130 30 }
 }
 
-p_jarva = {
+jarva = {
 	color = { 26 79 1 }
 }
 
-p_jogeva = {
+jogeva = {
 	color = { 102 56 173 }
 }
 
-p_laane = {
+laane = {
 	color = { 133 210 140 }
 }
 
-p_laane_viru = {
+laane_viru = {
 	color = { 118 131 156 }
 }
 
-p_parnu = {
+parnu = {
 	color = { 202 163 201 }
 }
 
-p_polva = {
+polva = {
 	color = { 254 192 188 }
 }
 
-p_rapla = {
+rapla = {
 	color = { 78 193 128 }
 }
 
-p_saare = {
+saare = {
 	color = { 159 127 40 }
 }
 
-p_tartu = {
+tartu = {
 	color = { 181 177 208 }
 }
 
-p_valga = {
+valga = {
 	color = { 15 181 146 }
 }
 
-p_viljandi = {
+viljandi = {
 	color = { 132 94 103 }
 }
 
-p_voru = {
+voru = {
 	color = { 84 99 140 }
 }

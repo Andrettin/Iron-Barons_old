@@ -1,52 +1,52 @@
-p_blekinge = {
+blekinge = {
 	color = { 81 60 96 }
 }
 
-p_dalarna = {
+dalarna = {
 	color = { 11 154 173 }
 }
 
-p_gavleborg = {
+gavleborg = {
 	color = { 235 122 194 }
 }
 
-p_gotland = {
+gotland = {
 	color = { 152 171 212 }
 }
 
-p_halland = {
+halland = {
 	color = { 52 39 30 }
 }
 
-p_jamtland = {
+jamtland = {
 	color = { 216 112 228 }
 }
 
-p_jonkoping = {
+jonkoping = {
 	color = { 29 237 72 }
 }
 
-p_kalmar = {
+kalmar = {
 	color = { 211 224 4 }
 }
 
-p_kronoberg = {
+kronoberg = {
 	color = { 93 182 65 }
 }
 
-p_norrbotten = {
+norrbotten = {
 	color = { 139 55 225 }
 }
 
-p_orebro = {
+orebro = {
 	color = { 33 28 195 }
 }
 
-p_ostergotland = {
+ostergotland = {
 	color = { 186 38 103 }
 }
 
-p_scania = {
+scania = {
 	county = c_scania
 	color = { 226 61 40 }
 	megalopolis = h_stockholm_megalopolis
@@ -57,15 +57,15 @@ p_scania = {
 	}
 }
 
-p_sodermanland = {
+sodermanland = {
 	color = { 136 72 65 }
 }
 
-p_stockholm = {
+stockholm = {
 	color = { 50 166 2 }
 }
 
-p_uppsala = {
+uppsala = {
 	county = c_uppsala
 	color = { 51 151 198 }
 	megalopolis = h_stockholm_megalopolis
@@ -76,22 +76,22 @@ p_uppsala = {
 	}
 }
 
-p_varmland = {
+varmland = {
 	color = { 183 99 104 }
 }
 
-p_vasterbotten = {
+vasterbotten = {
 	color = { 17 142 99 }
 }
 
-p_vasternorrland = {
+vasternorrland = {
 	color = { 164 159 224 }
 }
 
-p_vastmanland = {
+vastmanland = {
 	color = { 128 105 173 }
 }
 
-p_vastra_gotaland = {
+vastra_gotaland = {
 	color = { 188 201 246 }
 }

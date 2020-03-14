@@ -1,28 +1,28 @@
-r_czechoslovakia = {
-	subregions += r_czechia
-	subregions += r_slovakia
+czechoslovakia = {
+	subregions += czechia
+	subregions += slovakia
 }
 
-r_czechia = { #the territory of the modern Czech Republic
-	subregions += r_bohemia
-	provinces += p_moravia
-	provinces += p_troppau
+czechia = { #the territory of the modern Czech Republic
+	subregions += bohemia
+	provinces += moravia
+	provinces += troppau
 }
 
-r_bohemia = {
-	provinces += p_aussig
-	provinces += p_carlsbad
-	provinces += p_central_bohemia
-	provinces += p_koniggratz
-	provinces += p_pardubitz
-	provinces += p_pilsen
-	provinces += p_reichenberg
-	provinces += p_south_bohemia
-	provinces += p_tabor
+bohemia = {
+	provinces += aussig
+	provinces += carlsbad
+	provinces += central_bohemia
+	provinces += koniggratz
+	provinces += pardubitz
+	provinces += pilsen
+	provinces += reichenberg
+	provinces += south_bohemia
+	provinces += tabor
 }
 
-r_moravia_and_silesia = { #the Austrian provinces of Moravia and Silesia, which were sometimes put together in statistics
-	provinces += p_moravia
-	provinces += p_troppau
-	provinces += p_teschen
+moravia_and_silesia = { #the Austrian provinces of Moravia and Silesia, which were sometimes put together in statistics
+	provinces += moravia
+	provinces += troppau
+	provinces += teschen
 }

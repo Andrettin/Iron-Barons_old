@@ -1,4 +1,4 @@
 venice = {
 	color = { 55 145 105 }
-	center_of_trade = p_venice
+	center_of_trade = venice
 }

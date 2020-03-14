@@ -1,20 +1,20 @@
 k_belgium = {
 	color = { 250 224 66 }
-	capital_province = p_brabant
+	capital_province = brabant
 	active_post_amalgamation = true
 }
 
 d_belgium = {
 	de_jure_liege_title = k_belgium
 	color = { 250 224 66 }
-	capital_province = p_brabant
+	capital_province = brabant
 	flag_tag = k_belgium
 }
 
 d_luxembourg = {
 	de_jure_liege_title = k_germany
 	color = { 0 161 222 }
-	capital_province = p_luxembourg
+	capital_province = luxembourg
 	active_post_amalgamation = true
 }
 

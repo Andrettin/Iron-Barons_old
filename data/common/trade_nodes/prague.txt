@@ -1,4 +1,4 @@
 prague = {
 	color = { 197 114 24 }
-	center_of_trade = p_central_bohemia
+	center_of_trade = central_bohemia
 }

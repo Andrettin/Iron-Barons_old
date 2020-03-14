@@ -1,24 +1,24 @@
 k_assyria = {
 	color = { 123 94 58 }
-	capital_province = p_nineveh
+	capital_province = nineveh
 }
 
 k_mesopotamia = {
 	color = { 52 201 95 }
-	capital_province = p_babylon
+	capital_province = babylon
 }
 
 d_assyria = {
 	de_jure_liege_title = k_assyria
 	color = { 123 94 58 }
-	capital_province = p_nineveh
+	capital_province = nineveh
 	flag_tag = k_assyria
 }
 
 d_mesopotamia = {
 	de_jure_liege_title = k_mesopotamia
 	color = { 52 201 95 }
-	capital_province = p_babylon
+	capital_province = babylon
 	flag_tag = k_mesopotamia
 }
 

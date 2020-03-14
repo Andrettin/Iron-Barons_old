@@ -1,4 +1,4 @@
-p_hadarom = {
+hadarom = {
 	county = c_hadarom
 	color = { 188 162 28 }
 	megalopolis = h_byzantium_megalopolis
@@ -34,7 +34,7 @@ p_hadarom = {
 	}
 }
 
-p_haifa = {
+haifa = {
 	county = c_haifa
 	color = { 40 43 27 }
 	megalopolis = h_byzantium_megalopolis
@@ -45,7 +45,7 @@ p_haifa = {
 	}
 }
 
-p_hamerkaz = {
+hamerkaz = {
 	county = c_hamerkaz
 	color = { 80 21 3 }
 	megalopolis = h_byzantium_megalopolis
@@ -56,7 +56,7 @@ p_hamerkaz = {
 	}
 }
 
-p_hazafon = {
+hazafon = {
 	county = c_hazafon
 	color = { 100 58 194 }
 	megalopolis = h_byzantium_megalopolis
@@ -67,15 +67,15 @@ p_hazafon = {
 	}
 }
 
-p_north_sinai = {
+north_sinai = {
 	color = { 51 143 71 }
 }
 
-p_south_sinai = {
+south_sinai = {
 	color = { 160 56 102 }
 }
 
-p_west_bank = {
+west_bank = {
 	county = c_west_bank
 	color = { 34 47 228 }
 	megalopolis = h_byzantium_megalopolis

@@ -1,4 +1,4 @@
 damascus = {
 	color = { 209 231 105 }
-	center_of_trade = p_damascus
+	center_of_trade = damascus
 }

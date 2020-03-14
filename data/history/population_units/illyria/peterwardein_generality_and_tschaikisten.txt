@@ -1,5 +1,5 @@
 laborers = {
-	region = r_peterwardein_generality_and_tschaikisten
+	region = peterwardein_generality_and_tschaikisten
 	discount_existing = yes
 	discount_any_type = yes
 	

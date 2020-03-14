@@ -1,12 +1,12 @@
-p_alava = {
+alava = {
 	color = { 241 152 5 }
 }
 
-p_biscay = {
+biscay = {
 	color = { 85 198 129 }
 }
 
-p_gipuzkoa = {
+gipuzkoa = {
 	county = c_gipuzkoa
 	color = { 74 189 9 }
 	megalopolis = h_madrid_megalopolis
@@ -17,7 +17,7 @@ p_gipuzkoa = {
 	}
 }
 
-p_navarre = {
+navarre = {
 	county = c_navarre
 	color = { 210 197 21 }
 	megalopolis = h_madrid_megalopolis

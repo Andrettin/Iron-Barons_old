@@ -1,4 +1,4 @@
-p_drenthe = {
+drenthe = {
 	county = c_drenthe
 	color = { 187 206 202 }
 	megalopolis = h_amsterdam_megalopolis
@@ -9,7 +9,7 @@ p_drenthe = {
 	}
 }
 
-p_frisia = {
+frisia = {
 	county = c_frisia
 	color = { 1 21 171 }
 	megalopolis = h_amsterdam_megalopolis
@@ -25,7 +25,7 @@ p_frisia = {
 	}
 }
 
-p_gelderland = {
+gelderland = {
 	county = c_gelderland
 	color = { 49 34 2 }
 	megalopolis = h_amsterdam_megalopolis
@@ -36,7 +36,7 @@ p_gelderland = {
 	}
 }
 
-p_groningen = {
+groningen = {
 	county = c_groningen
 	color = { 195 238 117 }
 	megalopolis = h_amsterdam_megalopolis
@@ -47,7 +47,7 @@ p_groningen = {
 	}
 }
 
-p_north_brabant = {
+north_brabant = {
 	county = c_north_brabant
 	color = { 191 57 26 }
 	megalopolis = h_amsterdam_megalopolis
@@ -58,7 +58,7 @@ p_north_brabant = {
 	}
 }
 
-p_north_holland = {
+north_holland = {
 	county = c_north_holland
 	color = { 235 143 160 }
 	megalopolis = h_amsterdam_megalopolis
@@ -74,7 +74,7 @@ p_north_holland = {
 	}
 }
 
-p_north_limburg = {
+north_limburg = {
 	county = c_north_limburg
 	color = { 153 211 235 }
 	megalopolis = h_amsterdam_megalopolis
@@ -85,7 +85,7 @@ p_north_limburg = {
 	}
 }
 
-p_overijssel = {
+overijssel = {
 	county = c_overijssel
 	color = { 217 195 0 }
 	megalopolis = h_amsterdam_megalopolis
@@ -96,7 +96,7 @@ p_overijssel = {
 	}
 }
 
-p_south_holland = {
+south_holland = {
 	county = c_south_holland
 	color = { 234 235 49 }
 	megalopolis = h_amsterdam_megalopolis
@@ -117,7 +117,7 @@ p_south_holland = {
 	}
 }
 
-p_utrecht = {
+utrecht = {
 	county = c_utrecht
 	color = { 197 54 6 }
 	megalopolis = h_amsterdam_megalopolis
@@ -128,7 +128,7 @@ p_utrecht = {
 	}
 }
 
-p_zeeland = {
+zeeland = {
 	county = c_zeeland
 	color = { 240 251 186 }
 	megalopolis = h_amsterdam_megalopolis

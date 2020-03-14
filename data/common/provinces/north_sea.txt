@@ -1,14 +1,14 @@
-p_north_sea = {
+north_sea = {
 	color = { 33 189 156 }
 	terrain = ocean
 }
 
-p_waddenzee = {
+waddenzee = {
 	color = { 206 103 16 }
 	terrain = ocean
 }
 
-p_zuiderzee = {
+zuiderzee = {
 	color = { 77 200 124 }
 	terrain = ocean
 }

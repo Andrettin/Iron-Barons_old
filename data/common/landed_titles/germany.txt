@@ -1,155 +1,155 @@
 e_germany = {
 	color = { 56 103 100 }
-	capital_province = p_kassel #Frankfurt
+	capital_province = kassel #Frankfurt
 	active_post_amalgamation = true
 }
 
 k_germany = {
 	de_jure_liege_title = e_germany
 	color = { 56 103 100 }
-	capital_province = p_kassel #Frankfurt
+	capital_province = kassel #Frankfurt
 	flag_tag = e_germany
 }
 
 k_hanover = {
 	de_jure_liege_title = e_germany
 	color = { 255 206 8 }
-	capital_province = p_hanover
+	capital_province = hanover
 }
 
 k_saxony = {
 	de_jure_liege_title = e_germany
 	color = { 8 118 12 }
-	capital_province = p_upper_saxony
+	capital_province = upper_saxony
 }
 
 d_anhalt = {
 	de_jure_liege_title = k_germany
 	color = { 41 80 22 }
-	capital_province = p_anhalt
+	capital_province = anhalt
 }
 
 d_brandenburg = {
 	de_jure_liege_title = k_germany
 	color = { 184 174 188 }
-	capital_province = p_brandenburg
+	capital_province = brandenburg
 }
 
 d_brunswick = {
 	de_jure_liege_title = k_germany
 	color = { 0 0 204 }
-	capital_province = p_brunswick
+	capital_province = brunswick
 }
 
 d_darmstadt = {
 	de_jure_liege_title = k_germany
 	color = { 226 0 26 }
-	capital_province = p_darmstadt
+	capital_province = darmstadt
 }
 
 d_holstein = {
 	de_jure_liege_title = k_germany
 	color = { 208 12 51 }
-	capital_province = p_holstein
+	capital_province = holstein
 }
 
 d_homburg = {
 	de_jure_liege_title = k_germany
 	color = { 107 24 2 }
-	capital_province = p_giessen
+	capital_province = giessen
 }
 
 d_julich = {
 	de_jure_liege_title = k_germany
 	color = { 243 189 48 }
-	capital_province = p_julich
+	capital_province = julich
 	flag_tag = b_cologne
 }
 
 d_kassel = {
 	de_jure_liege_title = k_germany
 	color = { 185 221 165 }
-	capital_province = p_kassel
+	capital_province = kassel
 }
 
 d_lauenburg = {
 	de_jure_liege_title = k_germany
 	color = { 252 221 9 }
-	capital_province = p_lauenburg
+	capital_province = lauenburg
 }
 
 d_luneburg = {
 	de_jure_liege_title = k_hanover
 	color = { 108 88 62 }
-	capital_province = p_hanover
+	capital_province = hanover
 }
 
 d_magdeburg = {
 	de_jure_liege_title = k_germany
 	color = { 202 231 204 }
-	capital_province = p_magdeburg
+	capital_province = magdeburg
 }
 
 d_nassau = {
 	de_jure_liege_title = k_germany
 	color = { 255 91 0 }
-	capital_province = p_nassau
+	capital_province = nassau
 }
 
 d_oldenburg = {
 	de_jure_liege_title = k_germany
 	color = { 0 0 255 }
-	capital_province = p_oldenburg
+	capital_province = oldenburg
 }
 
 d_pomerania = {
 	de_jure_liege_title = k_germany
 	color = { 214 40 40 }
-	capital_province = p_hither_pomerania
+	capital_province = hither_pomerania
 }
 
 d_rhineland = {
 	de_jure_liege_title = k_germany
 	color = { 4 153 14 }
-	capital_province = p_rhineland
+	capital_province = rhineland
 }
 
 d_saxony = {
 	de_jure_liege_title = k_saxony
 	color = { 8 118 12 }
-	capital_province = p_upper_saxony
+	capital_province = upper_saxony
 	flag_tag = k_saxony
 }
 
 d_schwerin = {
 	de_jure_liege_title = k_germany
 	color = { 97 69 166 }
-	capital_province = p_schwerin
+	capital_province = schwerin
 }
 
 d_silesia = {
 	de_jure_liege_title = k_germany
 	color = { 185 253 25 }
-	capital_province = p_breslau
+	capital_province = breslau
 }
 
 d_strelitz = {
 	de_jure_liege_title = k_germany
 	color = { 252 195 0 }
-	capital_province = p_strelitz
+	capital_province = strelitz
 	flag_tag = d_schwerin
 }
 
 d_thuringia = {
 	de_jure_liege_title = k_germany
 	color = { 14 139 158 }
-	capital_province = p_weimar
+	capital_province = weimar
 }
 
 d_westphalia = {
 	de_jure_liege_title = k_germany
 	color = { 221 0 0 }
-	capital_province = p_westphalia
+	capital_province = westphalia
 }
 
 c_altenburg = {

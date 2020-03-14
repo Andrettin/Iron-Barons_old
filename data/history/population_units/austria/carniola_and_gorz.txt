@@ -1,5 +1,5 @@
 laborers = {
-	region = r_carniola_and_gorz
+	region = carniola_and_gorz
 	discount_existing = yes
 	discount_any_type = yes
 	

@@ -1,5 +1,5 @@
 tribesmen = {
-	province = p_rio_de_janeiro
+	province = rio_de_janeiro
 	culture = tupi
 	religion = pagan
 	

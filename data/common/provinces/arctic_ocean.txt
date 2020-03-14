@@ -1,69 +1,69 @@
-p_amundsen_gulf = {
+amundsen_gulf = {
 	color = { 163 52 223 }
 	terrain = ocean
 }
 
-p_arctic_ocean = {
+arctic_ocean = {
 	color = { 216 212 232 }
 	terrain = ocean
 }
 
-p_baffin_bay = {
+baffin_bay = {
 	color = { 73 127 83 }
 	terrain = ocean
 }
 
-p_beaufort_sea = {
+beaufort_sea = {
 	color = { 98 163 172 }
 	terrain = ocean
 }
 
-p_foxe_basin = {
+foxe_basin = {
 	color = { 0 235 102 }
 	terrain = ocean
 }
 
-p_gulf_of_boothia = {
+gulf_of_boothia = {
 	color = { 134 130 173 }
 	terrain = ocean
 }
 
-p_hudson_bay = {
+hudson_bay = {
 	color = { 7 191 83 }
 	terrain = ocean
 }
 
-p_hudson_strait = {
+hudson_strait = {
 	color = { 195 131 4 }
 	terrain = ocean
 }
 
-p_james_bay = {
+james_bay = {
 	color = { 57 179 152 }
 	terrain = ocean
 }
 
-p_jones_sound = {
+jones_sound = {
 	color = { 19 146 210 }
 	terrain = ocean
 }
 
-p_lincoln_sea = {
+lincoln_sea = {
 	color = { 30 171 232 }
 	terrain = ocean
 }
 
-p_mclure_strait = {
+mclure_strait = {
 	color = { 166 37 190 }
 	terrain = ocean
 }
 
-p_northwestern_passages = {
+northwestern_passages = {
 	color = { 255 61 244 }
 	terrain = ocean
 }
 
-p_viscount_melville_sound = {
+viscount_melville_sound = {
 	color = { 169 214 129 }
 	terrain = ocean
 }

@@ -1,7 +1,7 @@
 d_cyprus = {
 	de_jure_liege_title = k_lebanon #Phoenicia
 	color = { 168 67 47 }
-	capital_province = p_larnaca #should be p_nicosia instead
+	capital_province = larnaca #should be nicosia instead
 }
 
 c_larnaca = {

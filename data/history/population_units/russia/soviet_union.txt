@@ -1,5 +1,5 @@
 laborers = {
-	region = r_soviet_union
+	region = soviet_union
 	discount_existing = yes
 	discount_any_type = yes
 	

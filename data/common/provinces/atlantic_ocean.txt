@@ -1,54 +1,54 @@
-p_bay_of_biscay = {
+bay_of_biscay = {
 	color = { 163 175 39 }
 	terrain = ocean
 }
 
-p_bristol_channel = {
+bristol_channel = {
 	color = { 91 126 190 }
 	terrain = ocean
 }
 
-p_davis_strait = {
+davis_strait = {
 	color = { 251 23 29 }
 	terrain = ocean
 }
 
-p_english_channel = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+english_channel = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
 	color = { 185 68 254 }
 	terrain = ocean
 }
 
-p_gulf_of_maine = {
+gulf_of_maine = {
 	color = { 211 71 152 }
 	terrain = ocean
 }
 
-p_gulf_of_saint_lawrence = {
+gulf_of_saint_lawrence = {
 	color = { 13 113 88 }
 	terrain = ocean
 }
 
-p_inner_seas = {
+inner_seas = {
 	color = { 191 181 75 }
 	terrain = ocean
 }
 
-p_irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
+irish_sea = { #Source: "Limits of Oceans and Seas", 1953, p. 12. (see corrections as well)
 	color = { 228 173 80 }
 	terrain = ocean
 }
 
-p_labrador_sea = {
+labrador_sea = {
 	color = { 78 153 177 }
 	terrain = ocean
 }
 
-p_north_atlantic_ocean = {
+north_atlantic_ocean = {
 	color = { 43 62 60 }
 	terrain = ocean
 }
 
-p_south_atlantic_ocean = {
+south_atlantic_ocean = {
 	color = { 127 161 32 }
 	terrain = ocean
 }

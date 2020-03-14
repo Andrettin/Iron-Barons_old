@@ -1,4 +1,4 @@
-p_alba = {
+alba = {
 	county = c_alba
 	color = { 70 7 34 }
 	megalopolis = h_vienna_megalopolis
@@ -14,7 +14,7 @@ p_alba = {
 	}
 }
 
-p_bistritz = {
+bistritz = {
 	county = c_bistritz
 	color = { 155 13 11 }
 	megalopolis = h_vienna_megalopolis
@@ -25,7 +25,7 @@ p_bistritz = {
 	}
 }
 
-p_csik_szereda = {
+csik_szereda = {
 	county = c_csik_szereda
 	color = { 129 213 213 }
 	megalopolis = h_vienna_megalopolis
@@ -36,7 +36,7 @@ p_csik_szereda = {
 	}
 }
 
-p_hermannstadt = {
+hermannstadt = {
 	county = c_hermannstadt
 	color = { 175 221 34 }
 	megalopolis = h_vienna_megalopolis
@@ -62,7 +62,7 @@ p_hermannstadt = {
 	}
 }
 
-p_hunedoara = {
+hunedoara = {
 	county = c_hunedoara
 	color = { 115 169 60 }
 	megalopolis = h_vienna_megalopolis
@@ -83,7 +83,7 @@ p_hunedoara = {
 	}
 }
 
-p_klausenburg = {
+klausenburg = {
 	county = c_klausenburg
 	color = { 205 120 94 }
 	megalopolis = h_vienna_megalopolis
@@ -109,7 +109,7 @@ p_klausenburg = {
 	}
 }
 
-p_kronstadt = {
+kronstadt = {
 	county = c_kronstadt
 	color = { 205 60 62 }
 	megalopolis = h_vienna_megalopolis
@@ -125,7 +125,7 @@ p_kronstadt = {
 	}
 }
 
-p_mures = {
+mures = {
 	county = c_mures
 	color = { 74 71 181 }
 	megalopolis = h_vienna_megalopolis
@@ -146,7 +146,7 @@ p_mures = {
 	}
 }
 
-p_salaj = {
+salaj = {
 	county = c_salaj
 	color = { 59 39 100 }
 	megalopolis = h_vienna_megalopolis
@@ -157,7 +157,7 @@ p_salaj = {
 	}
 }
 
-p_sepsi_sz_gyorgy = {
+sepsi_sz_gyorgy = {
 	county = c_sepsi_sz_gyorgy
 	color = { 69 217 89 }
 	megalopolis = h_vienna_megalopolis

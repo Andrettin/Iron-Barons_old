@@ -1,5 +1,5 @@
 e_scandinavia = {
 	color = { 255 222 0 }
-	capital_province = p_sjaelland #should be Stockholm instead?
+	capital_province = sjaelland #should be Stockholm instead?
 	active_post_amalgamation = true
 }

@@ -1,5 +1,5 @@
 laborers = {
-	region = r_transylvanian_military_frontier
+	region = transylvanian_military_frontier
 	discount_existing = yes
 	discount_any_type = yes
 	

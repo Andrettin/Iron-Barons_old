@@ -1,6 +1,6 @@
 e_italy = {
 	color = { 0 153 0 }
-	capital_province = p_latium
+	capital_province = latium
 	flag_tag = k_italy
 	active_post_amalgamation = true
 }
@@ -8,55 +8,55 @@ e_italy = {
 k_italy = {
 	de_jure_liege_title = e_italy
 	color = { 0 153 0 }
-	capital_province = p_latium
+	capital_province = latium
 }
 
 k_papal_states = {
 	color = { 158 184 240 }
-	capital_province = p_latium
+	capital_province = latium
 }
 
 k_sardinia = {
 	de_jure_liege_title = e_italy
 	color = { 102 43 226 }
-	capital_province = p_turin
+	capital_province = turin
 }
 
 d_italy = {
 	de_jure_liege_title = k_italy
 	color = { 0 153 0 }
-	capital_province = p_latium
+	capital_province = latium
 	flag_tag = k_italy
 }
 
 d_lombardy = {
 	de_jure_liege_title = k_italy
 	color = { 155 102 24 }
-	capital_province = p_milan
+	capital_province = milan
 }
 
 d_modena = {
 	de_jure_liege_title = k_italy
 	color = { 231 24 79 }
-	capital_province = p_modena
+	capital_province = modena
 }
 
 d_parma = {
 	de_jure_liege_title = k_italy
 	color = { 63 152 172 }
-	capital_province = p_parma
+	capital_province = parma
 }
 
 d_savoy = {
 	de_jure_liege_title = k_sardinia
 	color = { 144 23 5 }
-	capital_province = p_savoy
+	capital_province = savoy
 }
 
 d_venetia = {
 	de_jure_liege_title = k_italy
 	color = { 55 145 105 }
-	capital_province = p_venice
+	capital_province = venice
 }
 
 c_alessandria = {

@@ -1,4 +1,4 @@
 pest = {
 	color = { 131 15 15 }
-	center_of_trade = p_pest
+	center_of_trade = pest
 }

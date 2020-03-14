@@ -1,2 +1,2 @@
-p_chukotka = "Chukotka"
-p_kamchatka = "Kamchatka"
+chukotka = "Chukotka"
+kamchatka = "Kamchatka"

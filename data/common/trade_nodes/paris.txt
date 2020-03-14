@@ -1,4 +1,4 @@
 paris = {
 	color = { 0 0 153 }
-	center_of_trade = p_ile_de_france
+	center_of_trade = ile_de_france
 }

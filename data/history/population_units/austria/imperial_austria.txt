@@ -1,5 +1,5 @@
 bureaucrats = {
-	region = r_imperial_austria_1806
+	region = imperial_austria_1806
 	discount_existing = yes
 	
 	1809 = {
@@ -8,7 +8,7 @@ bureaucrats = {
 }
 
 clergymen = {
-	region = r_imperial_austria_1806
+	region = imperial_austria_1806
 	discount_existing = yes
 	
 	1809 = {
@@ -17,7 +17,7 @@ clergymen = {
 }
 
 gentlemen = {
-	region = r_imperial_austria_1806
+	region = imperial_austria_1806
 	discount_existing = yes
 	
 	1809 = {
@@ -26,7 +26,7 @@ gentlemen = {
 }
 
 soldiers = {
-	region = r_imperial_austria_1806
+	region = imperial_austria_1806
 	discount_existing = yes
 	discount_types += officers
 	
@@ -36,7 +36,7 @@ soldiers = {
 }
 
 soldiers = {
-	region = r_imperial_austria_1806_without_military_frontiers
+	region = imperial_austria_1806_without_military_frontiers
 	discount_existing = yes
 	discount_types += officers
 	

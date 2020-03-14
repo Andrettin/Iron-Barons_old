@@ -1,5 +1,5 @@
 laborers = {
-	region = r_banat_military_frontier
+	region = banat_military_frontier
 	discount_existing = yes
 	discount_any_type = yes
 	

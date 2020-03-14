@@ -1,4 +1,4 @@
 warsaw = {
 	color = { 212 41 61 }
-	center_of_trade = p_mazovia
+	center_of_trade = mazovia
 }

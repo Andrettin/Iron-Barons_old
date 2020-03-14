@@ -1,4 +1,4 @@
-p_volhynia = {
+volhynia = {
 	county = c_volhynia
 	color = { 161 211 120 }
 	megalopolis = h_moscow_megalopolis

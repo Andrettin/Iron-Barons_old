@@ -1,5 +1,5 @@
 laborers = {
-	region = r_galicia_and_west_galicia
+	region = galicia_and_west_galicia
 	discount_existing = yes
 	discount_any_type = yes
 	
@@ -29,7 +29,7 @@ laborers = {
 }
 
 gentlemen = {
-	region = r_galicia_and_west_galicia
+	region = galicia_and_west_galicia
 	discount_existing = yes
 	
 	1809 = {

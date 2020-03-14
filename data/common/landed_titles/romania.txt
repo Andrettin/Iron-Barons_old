@@ -1,12 +1,12 @@
 k_romania = {
 	color = { 192 234 52 }
-	capital_province = p_wallachia
+	capital_province = wallachia
 }
 
 d_transylvania = {
 	de_jure_liege_title = k_hungary
 	color = { 255 215 0 }
-	capital_province = p_klausenburg
+	capital_province = klausenburg
 }
 
 c_alba = {

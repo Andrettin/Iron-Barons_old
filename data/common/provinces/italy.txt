@@ -1,12 +1,12 @@
-p_abruzzo_citra = {
+abruzzo_citra = {
 	color = { 213 250 62 }
 }
 
-p_abruzzo_ultra = {
+abruzzo_ultra = {
 	color = { 127 58 185 }
 }
 
-p_alessandria = {
+alessandria = {
 	county = c_alessandria
 	color = { 208 77 100 }
 	megalopolis = h_rome_megalopolis
@@ -32,7 +32,7 @@ p_alessandria = {
 	}
 }
 
-p_aosta = {
+aosta = {
 	county = c_aosta
 	color = { 59 23 63 }
 	megalopolis = h_rome_megalopolis
@@ -43,15 +43,15 @@ p_aosta = {
 	}
 }
 
-p_bari = {
+bari = {
 	color = { 255 218 67 }
 }
 
-p_basilicata = {
+basilicata = {
 	color = { 196 120 187 }
 }
 
-p_bergamo = {
+bergamo = {
 	county = c_bergamo
 	color = { 145 79 248 }
 	megalopolis = h_rome_megalopolis
@@ -62,7 +62,7 @@ p_bergamo = {
 	}
 }
 
-p_brescia = {
+brescia = {
 	county = c_brescia
 	color = { 219 171 104 }
 	megalopolis = h_rome_megalopolis
@@ -78,27 +78,27 @@ p_brescia = {
 	}
 }
 
-p_cagliari = {
+cagliari = {
 	color = { 68 112 115 }
 }
 
-p_calabria_citra = {
+calabria_citra = {
 	color = { 128 79 47 }
 }
 
-p_calabria_ultra = {
+calabria_ultra = {
 	color = { 8 124 186 }
 }
 
-p_capitanata = {
+capitanata = {
 	color = { 189 71 94 }
 }
 
-p_corse_du_sud = {
+corse_du_sud = {
 	color = { 210 45 70 }
 }
 
-p_cremona = {
+cremona = {
 	county = c_cremona
 	color = { 121 14 224 }
 	megalopolis = h_rome_megalopolis
@@ -109,7 +109,7 @@ p_cremona = {
 	}
 }
 
-p_cuneo = {
+cuneo = {
 	county = c_cuneo
 	color = { 102 43 22 }
 	megalopolis = h_rome_megalopolis
@@ -120,7 +120,7 @@ p_cuneo = {
 	}
 }
 
-p_demona = {
+demona = {
 	county = c_demona
 	color = { 108 244 160 }
 	megalopolis = h_rome_megalopolis
@@ -136,7 +136,7 @@ p_demona = {
 	}
 }
 
-p_genoa = {
+genoa = {
 	county = c_genoa
 	color = { 251 127 106 }
 	megalopolis = h_rome_megalopolis
@@ -147,11 +147,11 @@ p_genoa = {
 	}
 }
 
-p_haute_corse = {
+haute_corse = {
 	color = { 41 198 100 }
 }
 
-p_latium = {
+latium = {
 	county = c_latium
 	color = { 57 237 186 }
 	megalopolis = h_rome_megalopolis
@@ -192,7 +192,7 @@ p_latium = {
 	}
 }
 
-p_lucca = {
+lucca = {
 	county = c_lucca
 	color = { 178 242 92 }
 	megalopolis = h_rome_megalopolis
@@ -203,7 +203,7 @@ p_lucca = {
 	}
 }
 
-p_mantua = {
+mantua = {
 	county = c_mantua
 	color = { 202 165 38 }
 	megalopolis = h_rome_megalopolis
@@ -214,7 +214,7 @@ p_mantua = {
 	}
 }
 
-p_mazzara = {
+mazzara = {
 	county = c_mazzara
 	color = { 64 1 84 }
 	megalopolis = h_rome_megalopolis
@@ -225,7 +225,7 @@ p_mazzara = {
 	}
 }
 
-p_milan = {
+milan = {
 	county = c_milan
 	color = { 161 23 165 }
 	megalopolis = h_rome_megalopolis
@@ -251,7 +251,7 @@ p_milan = {
 	}
 }
 
-p_modena = {
+modena = {
 	county = c_modena
 	color = { 231 24 79 }
 	megalopolis = h_rome_megalopolis
@@ -272,19 +272,19 @@ p_modena = {
 	}
 }
 
-p_molise = {
+molise = {
 	color = { 52 213 41 }
 }
 
-p_nice = {
+nice = {
 	color = { 225 184 108 }
 }
 
-p_noto = {
+noto = {
 	color = { 100 246 40 }
 }
 
-p_novara = {
+novara = {
 	county = c_novara
 	color = { 224 71 112 }
 	megalopolis = h_rome_megalopolis
@@ -300,11 +300,11 @@ p_novara = {
 	}
 }
 
-p_otranto = {
+otranto = {
 	color = { 111 229 80 }
 }
 
-p_padua = {
+padua = {
 	county = c_padua
 	color = { 128 119 217 }
 	megalopolis = h_rome_megalopolis
@@ -315,7 +315,7 @@ p_padua = {
 	}
 }
 
-p_parma = {
+parma = {
 	county = c_parma
 	color = { 63 152 172 }
 	megalopolis = h_rome_megalopolis
@@ -331,7 +331,7 @@ p_parma = {
 	}
 }
 
-p_principato_citra = {
+principato_citra = {
 	county = c_principato_citra
 	color = { 32 118 209 }
 	megalopolis = h_rome_megalopolis
@@ -342,11 +342,11 @@ p_principato_citra = {
 	}
 }
 
-p_principato_ultra = {
+principato_ultra = {
 	color = { 58 187 202 }
 }
 
-p_romagna = {
+romagna = {
 	county = c_romagna
 	color = { 152 239 120 }
 	megalopolis = h_rome_megalopolis
@@ -367,11 +367,11 @@ p_romagna = {
 	}
 }
 
-p_sassari = {
+sassari = {
 	color = { 91 198 53 }
 }
 
-p_savoy = {
+savoy = {
 	county = c_savoy
 	color = { 144 23 5 }
 	megalopolis = h_paris_megalopolis
@@ -387,7 +387,7 @@ p_savoy = {
 	}
 }
 
-p_sondrio = {
+sondrio = {
 	county = c_sondrio
 	color = { 149 115 170 }
 	megalopolis = h_rome_megalopolis
@@ -403,7 +403,7 @@ p_sondrio = {
 	}
 }
 
-p_terra_di_lavoro = {
+terra_di_lavoro = {
 	county = c_terra_di_lavoro
 	color = { 236 204 186 }
 	megalopolis = h_rome_megalopolis
@@ -414,7 +414,7 @@ p_terra_di_lavoro = {
 	}
 }
 
-p_treviso = {
+treviso = {
 	county = c_treviso
 	color = { 211 125 108 }
 	megalopolis = h_rome_megalopolis
@@ -425,7 +425,7 @@ p_treviso = {
 	}
 }
 
-p_turin = {
+turin = {
 	county = c_turin
 	color = { 106 70 203 }
 	megalopolis = h_rome_megalopolis
@@ -436,7 +436,7 @@ p_turin = {
 	}
 }
 
-p_tuscany = {
+tuscany = {
 	county = c_tuscany
 	color = { 141 86 217 }
 	megalopolis = h_rome_megalopolis
@@ -457,7 +457,7 @@ p_tuscany = {
 	}
 }
 
-p_udine = {
+udine = {
 	county = c_udine
 	color = { 25 136 31 }
 	megalopolis = h_rome_megalopolis
@@ -483,7 +483,7 @@ p_udine = {
 	}
 }
 
-p_venice = {
+venice = {
 	county = c_venice
 	color = { 240 155 38 }
 	megalopolis = h_rome_megalopolis
@@ -494,7 +494,7 @@ p_venice = {
 	}
 }
 
-p_verona = {
+verona = {
 	county = c_verona
 	color = { 73 200 112 }
 	megalopolis = h_rome_megalopolis

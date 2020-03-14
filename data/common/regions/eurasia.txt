@@ -1,5 +1,5 @@
-r_commonwealth_of_independent_states = {
-	subregions += r_byelorussia
-	subregions += r_russian_federation
-	subregions += r_ukraine
+commonwealth_of_independent_states = {
+	subregions += byelorussia
+	subregions += russian_federation
+	subregions += ukraine
 }

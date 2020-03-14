@@ -1,13 +1,13 @@
 k_bavaria = {
 	de_jure_liege_title = e_germany
 	color = { 33 195 182 }
-	capital_province = p_upper_bavaria
+	capital_province = upper_bavaria
 }
 
 d_bavaria = {
 	de_jure_liege_title = k_bavaria
 	color = { 33 195 182 }
-	capital_province = p_upper_bavaria
+	capital_province = upper_bavaria
 }
 
 c_augsburg = {

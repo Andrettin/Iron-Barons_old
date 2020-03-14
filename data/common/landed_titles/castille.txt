@@ -1,6 +1,6 @@
 k_spain = {
 	color = { 247 218 38 }
-	capital_province = p_madrid
+	capital_province = madrid
 	active_post_amalgamation = true
 }
 

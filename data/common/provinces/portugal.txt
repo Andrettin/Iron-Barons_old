@@ -1,28 +1,28 @@
-p_aveiro = {
+aveiro = {
 	color = { 154 147 212 }
 }
 
-p_azores = {
+azores = {
 	color = { 248 173 146 }
 }
 
-p_beja = {
+beja = {
 	color = { 92 14 117 }
 }
 
-p_braga = {
+braga = {
 	color = { 124 59 140 }
 }
 
-p_braganca = {
+braganca = {
 	color = { 68 65 125 }
 }
 
-p_castelo_branco = {
+castelo_branco = {
 	color = { 172 247 105 }
 }
 
-p_coimbra = {
+coimbra = {
 	county = c_coimbra
 	color = { 244 157 147 }
 	megalopolis = h_lisbon_megalopolis
@@ -33,23 +33,23 @@ p_coimbra = {
 	}
 }
 
-p_evora = {
+evora = {
 	color = { 255 126 74 }
 }
 
-p_faro = {
+faro = {
 	color = { 190 145 33 }
 }
 
-p_guarda = {
+guarda = {
 	color = { 253 118 24 }
 }
 
-p_leiria = {
+leiria = {
 	color = { 187 128 151 }
 }
 
-p_lisbon = {
+lisbon = {
 	county = c_lisbon
 	color = { 36 81 20 }
 	megalopolis = h_lisbon_megalopolis
@@ -60,11 +60,11 @@ p_lisbon = {
 	}
 }
 
-p_madeira = {
+madeira = {
 	color = { 216 59 75 }
 }
 
-p_oporto = {
+oporto = {
 	county = c_oporto
 	color = { 37 113 29 }
 	megalopolis = h_lisbon_megalopolis
@@ -75,26 +75,26 @@ p_oporto = {
 	}
 }
 
-p_portalegre = {
+portalegre = {
 	color = { 119 177 52 }
 }
 
-p_santarem = {
+santarem = {
 	color = { 246 112 237 }
 }
 
-p_setubal = {
+setubal = {
 	color = { 189 68 190 }
 }
 
-p_viana_do_castelo = {
+viana_do_castelo = {
 	color = { 43 177 99 }
 }
 
-p_vila_real = {
+vila_real = {
 	color = { 122 112 179 }
 }
 
-p_viseu = {
+viseu = {
 	color = { 102 34 150 }
 }

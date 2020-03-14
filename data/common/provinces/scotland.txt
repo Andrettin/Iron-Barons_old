@@ -1,4 +1,4 @@
-p_aberdeenshire = {
+aberdeenshire = {
 	county = c_aberdeenshire
 	color = { 70 78 177 }
 	megalopolis = h_london_megalopolis
@@ -9,23 +9,23 @@ p_aberdeenshire = {
 	}
 }
 
-p_angus = {
+angus = {
 	color = { 184 111 55 }
 }
 
-p_argyll = {
+argyll = {
 	color = { 29 40 64 }
 }
 
-p_ayrshire = {
+ayrshire = {
 	color = { 241 197 153 }
 }
 
-p_dumfries = {
+dumfries = {
 	color = { 113 74 161 }
 }
 
-p_fife = {
+fife = {
 	county = c_fife
 	color = { 195 157 146 }
 	megalopolis = h_london_megalopolis
@@ -36,11 +36,11 @@ p_fife = {
 	}
 }
 
-p_highland = {
+highland = {
 	color = { 183 105 143 }
 }
 
-p_lanarkshire = {
+lanarkshire = {
 	county = c_lanarkshire
 	color = { 172 210 214 }
 	megalopolis = h_london_megalopolis
@@ -51,7 +51,7 @@ p_lanarkshire = {
 	}
 }
 
-p_lothian = {
+lothian = {
 	county = c_lothian
 	color = { 69 96 76 }
 	megalopolis = h_london_megalopolis
@@ -62,30 +62,30 @@ p_lothian = {
 	}
 }
 
-p_moray = {
+moray = {
 	color = { 128 15 63 }
 }
 
-p_orkney = {
+orkney = {
 	color = { 101 68 143 }
 }
 
-p_perthshire = {
+perthshire = {
 	color = { 227 160 102 }
 }
 
-p_scottish_borders = {
+scottish_borders = {
 	color = { 50 78 62 }
 }
 
-p_shetland = {
+shetland = {
 	color = { 174 176 218 }
 }
 
-p_stirling = {
+stirling = {
 	color = { 39 175 80 }
 }
 
-p_western_isles = {
+western_isles = {
 	color = { 6 37 51 }
 }
