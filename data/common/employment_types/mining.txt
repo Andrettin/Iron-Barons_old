@@ -35,6 +35,12 @@ coal_mining = {
 	output_value = 1
 }
 
+gold_mining = {
+	template = mining_template
+	output_commodity = gold
+	output_value = 1
+}
+
 iron_mining = {
 	template = mining_template
 	output_commodity = iron
@@ -44,6 +50,12 @@ iron_mining = {
 salt_mining = {
 	template = mining_template
 	output_commodity = salt
+	output_value = 1
+}
+
+silver_mining = {
+	template = mining_template
+	output_commodity = silver
 	output_value = 1
 }
 

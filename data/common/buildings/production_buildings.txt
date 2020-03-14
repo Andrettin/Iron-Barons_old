@@ -17,23 +17,6 @@ cattle_ranch = {
 	}
 }
 
-coal_mine = {
-	holding_types += village
-	holding_types += town
-	holding_types += city
-	holding_types += metropolis
-	holding_types += manor
-	holding_types += monastery
-	construction_days = 365
-	employment_type = coal_mining
-	workforce = 100000
-	icon_tag = coal
-	
-	preconditions = {
-		commodity = coal
-	}
-}
-
 coffee_plantation = {
 	holding_types += village
 	holding_types += town
@@ -105,23 +88,6 @@ horse_ranch = {
 	}
 }
 
-iron_mine = {
-	holding_types += village
-	holding_types += town
-	holding_types += city
-	holding_types += metropolis
-	holding_types += manor
-	holding_types += monastery
-	construction_days = 365
-	employment_type = iron_mining
-	workforce = 100000
-	icon_tag = iron
-	
-	preconditions = {
-		commodity = iron
-	}
-}
-
 orchard = {
 	holding_types += tribal_village
 	holding_types += village
@@ -137,23 +103,6 @@ orchard = {
 	
 	preconditions = {
 		commodity = fruit
-	}
-}
-
-salt_mine = {
-	holding_types += village
-	holding_types += town
-	holding_types += city
-	holding_types += metropolis
-	holding_types += manor
-	holding_types += monastery
-	construction_days = 365
-	employment_type = salt_mining
-	workforce = 100000
-	icon_tag = salt
-	
-	preconditions = {
-		commodity = salt
 	}
 }
 

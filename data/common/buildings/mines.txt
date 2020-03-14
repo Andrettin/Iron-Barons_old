@@ -1,0 +1,84 @@
+coal_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = coal_mining
+	workforce = 100000
+	icon_tag = coal
+	
+	preconditions = {
+		commodity = coal
+	}
+}
+
+gold_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = gold_mining
+	workforce = 100000
+	icon_tag = gold
+	
+	preconditions = {
+		commodity = gold
+	}
+}
+
+iron_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = iron_mining
+	workforce = 100000
+	icon_tag = iron
+	
+	preconditions = {
+		commodity = iron
+	}
+}
+
+salt_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = salt_mining
+	workforce = 100000
+	icon_tag = salt
+	
+	preconditions = {
+		commodity = salt
+	}
+}
+
+silver_mine = {
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	holding_types += monastery
+	construction_days = 365
+	employment_type = silver_mining
+	workforce = 100000
+	icon_tag = silver
+	
+	preconditions = {
+		commodity = silver
+	}
+}
