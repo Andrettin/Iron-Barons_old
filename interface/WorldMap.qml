@@ -80,7 +80,7 @@ Item {
 				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br><br>Culture: " + province.culture.name : "")
 				+ (province.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + province.culture.group.name : "")
 				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br><br>Religion: " + province.religion.name : "")
-				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + province.religion.religion_group.name : "")
+				+ (province.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + province.religion.group.name : "")
 				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.owner ? "<br><br>Trade Node: " + province.trade_node.name : "")
 				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node && province.trade_node.center_of_trade === province && province.owner ? "<br>Center of Trade" : "")
 				+ (metternich.map_mode === WorldMap.Mode.TradeNode && province.trade_node_trade_cost > 0 ? "<br>Trade Cost with Node: " + centesimal(province.trade_node_trade_cost) + "%" : "")

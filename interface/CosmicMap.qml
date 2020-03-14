@@ -25,7 +25,7 @@ Node {
 			+ (system.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture: " + system.culture.name : "")
 			+ (system.culture && (metternich.map_mode === WorldMap.Mode.Culture || metternich.map_mode === WorldMap.Mode.CultureGroup) ? "<br>Culture Group: " + system.culture.group.name : "")
 			+ (system.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion: " + system.religion.name : "")
-			+ (system.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + system.religion.religion_group.name : "")
+			+ (system.religion && (metternich.map_mode === WorldMap.Mode.Religion || metternich.map_mode === WorldMap.Mode.ReligionGroup) ? "<br>Religion Group: " + system.religion.group.name : "")
 			+ (system.ethereal ? "<br>Ethereal" : "")
 			+ "<br>Astrocoordinate: (" + map_view.get_mouse_pos_astrocoordinate_x() + ", " + map_view.get_mouse_pos_astrocoordinate_y() + ")"
 			+ (tooltip_update_counter ? "" : "")
