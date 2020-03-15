@@ -133,7 +133,7 @@ Window {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		color: "black"
-		font.pixelSize: 12
+		font.pixelSize: 14
 		font.family: "tahoma"
 	}
 }
