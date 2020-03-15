@@ -1,0 +1,27 @@
+clubmen = {
+	category = regular_infantry
+}
+
+spearmen = {
+	category = regular_infantry
+}
+
+pikemen = {
+	category = regular_infantry
+}
+
+halberdiers = {
+	category = regular_infantry
+}
+
+regulars = {
+	category = regular_infantry
+}
+
+rifle_infantry = {
+	category = regular_infantry
+}
+
+infantry = {
+	category = regular_infantry
+}

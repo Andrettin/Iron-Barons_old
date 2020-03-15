@@ -1,0 +1,19 @@
+arquebusiers = {
+	category = heavy_infantry
+}
+
+musketeers = {
+	category = heavy_infantry
+}
+
+grenadiers = {
+	category = heavy_infantry
+}
+
+guards = {
+	category = heavy_infantry
+}
+
+machine_gunners = {
+	category = heavy_infantry
+}

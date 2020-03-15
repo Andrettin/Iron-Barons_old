@@ -1,0 +1,11 @@
+horse_artillery = {
+	category = light_artillery
+}
+
+light_artillery = {
+	category = light_artillery
+}
+
+field_artillery = {
+	category = light_artillery
+}

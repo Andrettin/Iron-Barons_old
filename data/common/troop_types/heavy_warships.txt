@@ -1,0 +1,15 @@
+galleon = {
+	category = heavy_warship
+}
+
+ship_of_the_line = {
+	category = heavy_warship
+}
+
+ironclad = {
+	category = heavy_warship
+}
+
+dreadnought = {
+	category = heavy_warship
+}

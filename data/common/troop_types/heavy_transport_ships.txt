@@ -1,0 +1,15 @@
+fluyte = {
+	category = heavy_transport_ship
+}
+
+indiaman = {
+	category = heavy_transport_ship
+}
+
+paddlewheeler = {
+	category = heavy_transport_ship
+}
+
+freighter = {
+	category = heavy_transport_ship
+}

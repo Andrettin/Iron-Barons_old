@@ -1,0 +1,19 @@
+sloop = {
+	category = light_warship
+}
+
+frigate = {
+	category = light_warship
+}
+
+raider = {
+	category = light_warship
+}
+
+armored_cruiser = {
+	category = light_warship
+}
+
+battlecruiser = {
+	category = light_warship
+}

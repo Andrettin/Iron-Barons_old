@@ -1,0 +1,23 @@
+archers = {
+	category = light_infantry
+}
+
+crossbowmen = {
+	category = light_infantry
+}
+
+calivermen = {
+	category = light_infantry
+}
+
+skirmishers = {
+	category = light_infantry
+}
+
+sharpshooters = {
+	category = light_infantry
+}
+
+rangers = {
+	category = light_infantry
+}

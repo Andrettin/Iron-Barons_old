@@ -1,0 +1,15 @@
+culverin = {
+	category = heavy_artillery
+}
+
+royal_artillery = {
+	category = heavy_artillery
+}
+
+heavy_artillery = {
+	category = heavy_artillery
+}
+
+siege_artillery = {
+	category = heavy_artillery
+}

@@ -1,0 +1,11 @@
+carrack = {
+	category = light_transport_ship
+}
+
+trader = {
+	category = light_transport_ship
+}
+
+clipper = {
+	category = light_transport_ship
+}

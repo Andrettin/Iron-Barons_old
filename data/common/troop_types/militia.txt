@@ -1,0 +1,11 @@
+minutemen = {
+	category = militia
+}
+
+militia = {
+	category = militia
+}
+
+conscripts = {
+	category = militia
+}

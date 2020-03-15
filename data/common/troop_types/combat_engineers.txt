@@ -1,0 +1,7 @@
+sappers = {
+	category = combat_engineers
+}
+
+combat_engineers = {
+	category = combat_engineers
+}

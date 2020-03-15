@@ -1,0 +1,27 @@
+knights = {
+	category = heavy_cavalry
+}
+
+war_elephants = {
+	category = heavy_cavalry
+}
+
+lancers = {
+	category = heavy_cavalry
+}
+
+harquebusiers = {
+	category = heavy_cavalry
+}
+
+cuirassiers = {
+	category = heavy_cavalry
+}
+
+carbineers = {
+	category = heavy_cavalry
+}
+
+armor = {
+	category = heavy_cavalry
+}

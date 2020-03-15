@@ -1,0 +1,27 @@
+camel_cavalry = {
+	category = light_cavalry
+}
+
+horse_archers = {
+	category = light_cavalry
+}
+
+squires = {
+	category = light_cavalry
+}
+
+cossacks = {
+	category = light_cavalry
+}
+
+hussars = {
+	category = light_cavalry
+}
+
+scouts = {
+	category = light_cavalry
+}
+
+mechanized_infantry = {
+	category = light_cavalry
+}
