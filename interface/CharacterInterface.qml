@@ -97,14 +97,16 @@ Item {
 				model: character ? character.traits : []
 
 				Image {
-					source: model.modelData.icon_path
+					property var trait: model.modelData
+
+					source: trait.icon_path
 					width: 32
 					height: 32
 
 					MouseArea {
 						anchors.fill: parent
 						hoverEnabled: true
-						ToolTip.text: tooltip(highlight(model.modelData.name) + (model.modelData.modifier_effects_string !== "" ? "<br><br>" + model.modelData.modifier_effects_string : ""))
+						ToolTip.text: tooltip(highlight(trait.name) + (trait.modifier_effects_string !== "" ? "<br><br>" + trait.modifier_effects_string : ""))
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}

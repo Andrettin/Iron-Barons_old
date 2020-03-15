@@ -23,11 +23,13 @@ Item {
 				model: metternich.selected_holding ? metternich.selected_holding.population_units : []
 
 				Item {
+					property var population_unit: model.modelData
+
 					width: population_unit_area.width
 					height: 32
 
 					Image {
-						source: model.modelData.icon_path
+						source: population_unit.icon_path
 						width: 32
 						height: 32
 						anchors.left: parent.left
@@ -36,7 +38,7 @@ Item {
 					}
 
 					Text {
-						text: model.modelData.culture.name
+						text: population_unit.culture.name
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.left: parent.left
 						anchors.leftMargin: parent.width / 4 + 24
@@ -46,7 +48,7 @@ Item {
 					}
 
 					Text {
-						text: model.modelData.religion.name
+						text: population_unit.religion.name
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.left: parent.left
 						anchors.leftMargin: parent.width / 4 * 2 + 24
@@ -56,7 +58,7 @@ Item {
 					}
 
 					Text {
-						text: number_str(model.modelData.size)
+						text: number_str(population_unit.size)
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
 						color: "black"
@@ -67,7 +69,13 @@ Item {
 					MouseArea {
 						anchors.fill: parent
 						hoverEnabled: true
-						ToolTip.text: tooltip(model.modelData.type.name + "<br><br>Culture: " + model.modelData.culture.name + "<br>Religion: " + model.modelData.religion.name + "<br>Size: " + number_str(model.modelData.size) + "<br>Wealth: " + centesimal(model.modelData.wealth))
+						ToolTip.text: tooltip(population_unit.type.name
+							+ "<br><br>Culture: " + population_unit.culture.name
+							+ "<br>Religion: " + population_unit.religion.name
+							+ "<br>Size: " + number_str(population_unit.size)
+							+ "<br>Wealth: " + centesimal(population_unit.wealth)
+							+ (population_unit.unemployed_size > 0 ? "<br>Unemployment: " + (population_unit.unemployed_size * 100 / population_unit.size).toLocaleString(Qt.locale("en_US"), 'f', 2) + "%" : "")
+						)
 						ToolTip.visible: containsMouse
 						ToolTip.delay: 1000
 					}
