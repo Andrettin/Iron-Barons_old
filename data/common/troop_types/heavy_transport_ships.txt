@@ -1,3 +1,7 @@
+cog = {
+	category = heavy_transport_ship
+}
+
 fluyte = {
 	category = heavy_transport_ship
 }
