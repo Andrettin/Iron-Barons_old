@@ -1,0 +1,14 @@
+shipyard = {
+	icon_tag = anchor
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	construction_days = 365
+	employment_type = shipyard
+	workforce = 1000
+	
+	preconditions = {
+		coastal = true
+	}
+}

@@ -1,0 +1,23 @@
+ship_employment_template = {
+	employees = {
+		sailors = {
+			efficiency = 1.0
+			workforce_proportion = 1.0
+		}
+	}
+	
+	workforce = 100 #modifier applied once per 100 sailors
+}
+
+shipyard = {
+	template = ship_employment_template
+
+	modifier = {
+		trader = 4
+		indiaman = 1
+		frigate = 4
+		ship_of_the_line = 1
+	}
+	
+	workforce = 1000
+}
