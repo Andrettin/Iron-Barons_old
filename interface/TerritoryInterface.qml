@@ -7,6 +7,7 @@ Item {
 	
 	property var territory: null
 	readonly property var population_area: population_area
+	readonly property var holding_interface: holding_interface
 
 	enum Mode {
 		Settlements,
@@ -290,6 +291,7 @@ Item {
 	}
 
 	HoldingInterface {
+		id: holding_interface
 		visible: metternich.selected_holding !== null
 	}
 }

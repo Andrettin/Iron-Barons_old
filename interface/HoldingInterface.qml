@@ -6,6 +6,14 @@ Item {
 	id: holding_interface
 	anchors.fill: parent
 
+	enum Mode {
+		Buildings,
+		Population,
+		Levies
+	}
+
+	property int mode: HoldingInterface.Mode.Buildings
+
 	onVisibleChanged: {
 		if (visible && metternich.selected_holding && !metternich.selected_holding.settlement) {
 			if (population_unit_area.visible) {
@@ -182,6 +190,7 @@ Item {
 		anchors.topMargin: 24
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
+		visible: mode === HoldingInterface.Mode.Buildings
 	}
 
 	HoldingPopulationUnitInterface {
@@ -194,39 +203,20 @@ Item {
 		anchors.topMargin: 24
 		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
-		visible: false
+		visible: mode === HoldingInterface.Mode.Population
 	}
 
-	PanelButton {
-		id: buildings_button
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8
-		anchors.right: province_button.left
+	HoldingLevyInterface {
+		id: levy_area
+		anchors.left: parent.left
+		anchors.leftMargin: 8
+		anchors.right: parent.right
 		anchors.rightMargin: 8
-		text: "<font color=\"black\">Buildings</font>"
-		width: 80
-		height: 32
-		visible: !building_area.visible
-		onClicked: {
-			building_area.visible = true
-			population_unit_area.visible = false
-		}
-	}
-
-	PanelButton {
-		id: population_units_button
-		anchors.bottom: parent.bottom
+		anchors.top: metternich.selected_holding && metternich.selected_holding.settlement ? population_capacity_area.bottom : holding.bottom
+		anchors.topMargin: 24
+		anchors.bottom: province_button.top
 		anchors.bottomMargin: 8
-		anchors.right: province_button.left
-		anchors.rightMargin: 8
-		text: "<font color=\"black\">Population</font>"
-		width: 80
-		height: 32
-		visible: metternich.selected_holding && metternich.selected_holding.settlement && !population_unit_area.visible
-		onClicked: {
-			population_unit_area.visible = true
-			building_area.visible = false
-		}
+		visible: mode === HoldingInterface.Mode.Levies
 	}
 
 	PanelButton {

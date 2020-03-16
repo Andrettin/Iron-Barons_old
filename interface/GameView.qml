@@ -107,7 +107,7 @@ Item {
 	}
 
 	Repeater {
-		model: [settlement_holdings_button, palace_holdings_button, extra_holdings_button, technologies_button, wildlife_button, country_map_mode_button, de_jure_empire_map_mode_button, de_jure_kingdom_map_mode_button, de_jure_duchy_map_mode_button, culture_map_mode_button, culture_group_map_mode_button, religion_map_mode_button, religion_group_map_mode_button, trade_node_map_mode_button, trade_zone_map_mode_button]
+		model: [settlement_holdings_button, palace_holdings_button, extra_holdings_button, technologies_button, wildlife_button, holding_buildings_button, holding_population_button, holding_levies_button, country_map_mode_button, de_jure_empire_map_mode_button, de_jure_kingdom_map_mode_button, de_jure_duchy_map_mode_button, culture_map_mode_button, culture_group_map_mode_button, religion_map_mode_button, religion_group_map_mode_button, trade_node_map_mode_button, trade_zone_map_mode_button]
 		
 		DropShadow {
 			anchors.fill: model.modelData
@@ -292,6 +292,8 @@ Item {
 		character: metternich.selected_character
 	}
 	
+	//province interface mode buttons
+
 	IconButton {
 		id: settlement_holdings_button
 		anchors.top: province_interface.top
@@ -302,6 +304,9 @@ Item {
 		ToolTip.text: tooltip("Settlements")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.mode === TerritoryInterface.Mode.Settlements ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			territory_interface.mode = TerritoryInterface.Mode.Settlements
 		}
@@ -316,6 +321,9 @@ Item {
 		ToolTip.text: tooltip("Palaces")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.mode === TerritoryInterface.Mode.Palaces ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			territory_interface.mode = TerritoryInterface.Mode.Palaces
 		}
@@ -330,6 +338,9 @@ Item {
 		ToolTip.text: tooltip("Other")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.mode === TerritoryInterface.Mode.Other ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			territory_interface.mode = TerritoryInterface.Mode.Other
 		}
@@ -344,6 +355,9 @@ Item {
 		ToolTip.text: tooltip("Technologies")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.mode === TerritoryInterface.Mode.Technologies ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			province_interface.mode = TerritoryInterface.Mode.Technologies
 		}
@@ -359,8 +373,65 @@ Item {
 		ToolTip.text: tooltip("Wildlife")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.mode === TerritoryInterface.Mode.Wildlife ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			province_interface.mode = TerritoryInterface.Mode.Wildlife
+		}
+	}
+
+	// holding interface mode buttons
+
+	IconButton {
+		id: holding_buildings_button
+		anchors.top: province_interface.top
+		anchors.topMargin: province_interface.holding_area_y + 8
+		anchors.left: province_interface.right
+		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null
+		source: "../graphics/icons/settlement.png"
+		ToolTip.text: tooltip("Buildings")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.holding_interface.mode === HoldingInterface.Mode.Buildings ? "#e0e0e0" : "gray"
+		}
+		onClicked: {
+			territory_interface.holding_interface.mode = HoldingInterface.Mode.Buildings
+		}
+	}
+
+	IconButton {
+		id: holding_population_button
+		anchors.top: holding_buildings_button.bottom
+		anchors.left: province_interface.right
+		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null
+		source: "../graphics/icons/population/slaves_small.png"
+		ToolTip.text: tooltip("Population")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.holding_interface.mode === HoldingInterface.Mode.Population ? "#e0e0e0" : "gray"
+		}
+		onClicked: {
+			territory_interface.holding_interface.mode = HoldingInterface.Mode.Population
+		}
+	}
+
+	IconButton {
+		id: holding_levies_button
+		anchors.top: holding_population_button.bottom
+		anchors.left: province_interface.right
+		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null
+		source: "../graphics/icons/crossed_sabers.png"
+		ToolTip.text: tooltip("Levies")
+		ToolTip.visible: hovered
+		ToolTip.delay: 1000
+		palette {
+			button: territory_interface && territory_interface.holding_interface.mode === HoldingInterface.Mode.Levies ? "#e0e0e0" : "gray"
+		}
+		onClicked: {
+			territory_interface.holding_interface.mode = HoldingInterface.Mode.Levies
 		}
 	}
 
@@ -504,6 +575,9 @@ Item {
 		ToolTip.text: tooltip("Country")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.Country ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Country
 		}
@@ -517,6 +591,9 @@ Item {
 		ToolTip.text: tooltip("De Jure Empire")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.DeJureEmpire ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureEmpire
 		}
@@ -530,6 +607,9 @@ Item {
 		ToolTip.text: tooltip("De Jure Kingdom")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.DeJureKingdom ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureKingdom
 		}
@@ -544,6 +624,9 @@ Item {
 		ToolTip.text: tooltip("De Jure Duchy")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.DeJureDuchy ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.DeJureDuchy
 		}
@@ -557,6 +640,9 @@ Item {
 		ToolTip.text: tooltip("Culture")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.Culture ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Culture
 		}
@@ -570,6 +656,9 @@ Item {
 		ToolTip.text: tooltip("Culture Group")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.CultureGroup ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.CultureGroup
 		}
@@ -583,6 +672,9 @@ Item {
 		ToolTip.text: tooltip("Religion")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.Religion ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.Religion
 		}
@@ -596,6 +688,9 @@ Item {
 		ToolTip.text: tooltip("Religion Group")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.ReligionGroup ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.ReligionGroup
 		}
@@ -609,6 +704,9 @@ Item {
 		ToolTip.text: tooltip("Trade Node")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.TradeNode ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeNode
 		}
@@ -622,6 +720,9 @@ Item {
 		ToolTip.text: tooltip("Trade Zone")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
+		palette {
+			button: metternich.map_mode === WorldMap.Mode.TradeZone ? "#e0e0e0" : "gray"
+		}
 		onClicked: {
 			metternich.map_mode = WorldMap.Mode.TradeZone
 		}
