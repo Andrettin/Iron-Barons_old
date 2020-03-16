@@ -1,19 +1,24 @@
 sloop = {
 	category = light_warship
+	icon_tag = anchor
 }
 
 frigate = {
 	category = light_warship
+	icon_tag = anchor
 }
 
 raider = {
 	category = light_warship
+	icon_tag = anchor
 }
 
 armored_cruiser = {
 	category = light_warship
+	icon_tag = anchor
 }
 
 battlecruiser = {
 	category = light_warship
+	icon_tag = anchor
 }

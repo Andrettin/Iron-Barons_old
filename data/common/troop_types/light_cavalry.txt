@@ -1,27 +1,34 @@
 camel_cavalry = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }
 
 horse_archers = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }
 
 squires = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }
 
 cossacks = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }
 
 hussars = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }
 
 scouts = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }
 
 mechanized_infantry = {
 	category = light_cavalry
+	icon_tag = soldiers_small
 }

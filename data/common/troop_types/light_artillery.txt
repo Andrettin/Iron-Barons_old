@@ -1,11 +1,14 @@
 horse_artillery = {
 	category = light_artillery
+	icon_tag = soldiers_small
 }
 
 light_artillery = {
 	category = light_artillery
+	icon_tag = soldiers_small
 }
 
 field_artillery = {
 	category = light_artillery
+	icon_tag = soldiers_small
 }

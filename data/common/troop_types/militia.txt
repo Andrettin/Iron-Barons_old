@@ -1,11 +1,14 @@
 minutemen = {
 	category = militia
+	icon_tag = soldiers_small
 }
 
 militia = {
 	category = militia
+	icon_tag = soldiers_small
 }
 
 conscripts = {
 	category = militia
+	icon_tag = soldiers_small
 }

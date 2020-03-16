@@ -1,15 +1,19 @@
 culverin = {
 	category = heavy_artillery
+	icon_tag = soldiers_small
 }
 
 royal_artillery = {
 	category = heavy_artillery
+	icon_tag = soldiers_small
 }
 
 heavy_artillery = {
 	category = heavy_artillery
+	icon_tag = soldiers_small
 }
 
 siege_artillery = {
 	category = heavy_artillery
+	icon_tag = soldiers_small
 }

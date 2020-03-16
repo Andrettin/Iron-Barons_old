@@ -1,7 +1,9 @@
 sappers = {
 	category = combat_engineers
+	icon_tag = soldiers_small
 }
 
 combat_engineers = {
 	category = combat_engineers
+	icon_tag = soldiers_small
 }

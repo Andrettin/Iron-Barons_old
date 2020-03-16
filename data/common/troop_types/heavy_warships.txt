@@ -1,15 +1,19 @@
 galleon = {
 	category = heavy_warship
+	icon_tag = anchor
 }
 
 ship_of_the_line = {
 	category = heavy_warship
+	icon_tag = anchor
 }
 
 ironclad = {
 	category = heavy_warship
+	icon_tag = anchor
 }
 
 dreadnought = {
 	category = heavy_warship
+	icon_tag = anchor
 }

@@ -1,11 +1,14 @@
 carrack = {
 	category = light_transport_ship
+	icon_tag = anchor
 }
 
 trader = {
 	category = light_transport_ship
+	icon_tag = anchor
 }
 
 clipper = {
 	category = light_transport_ship
+	icon_tag = anchor
 }

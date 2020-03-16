@@ -1,19 +1,24 @@
 cog = {
 	category = heavy_transport_ship
+	icon_tag = anchor
 }
 
 fluyte = {
 	category = heavy_transport_ship
+	icon_tag = anchor
 }
 
 indiaman = {
 	category = heavy_transport_ship
+	icon_tag = anchor
 }
 
 paddlewheeler = {
 	category = heavy_transport_ship
+	icon_tag = anchor
 }
 
 freighter = {
 	category = heavy_transport_ship
+	icon_tag = anchor
 }
