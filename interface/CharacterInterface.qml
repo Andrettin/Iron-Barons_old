@@ -3,8 +3,8 @@ import QtQuick.Controls 2.5
 
 Item {
 	id: character_interface
-	width: 306
-	height: 576
+	width: 320
+	height: 640
 	
 	property var character: null
 

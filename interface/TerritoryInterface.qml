@@ -2,8 +2,8 @@ import QtQuick 2.14
 import QtQuick.Controls 2.5
 
 Item {
-	width: 306
-	height: 576
+	width: 320
+	height: 640
 	
 	property var territory: null
 	readonly property var population_area: population_area
@@ -260,8 +260,7 @@ Item {
 
 	Item {
 		id: holding_area
-		anchors.left: parent.left
-		anchors.leftMargin: 8
+		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
 		width: 290
