@@ -1,0 +1,15 @@
+soldier_employment_template = {
+	employees = {
+		soldiers = {
+			efficiency = 1.0
+			workforce_proportion = 1.0
+		}
+	}
+	
+	workforce = 1 #modifier applied once per soldier
+}
+
+regulars = {
+	template = soldier_employment_template
+	troop_type = regulars
+}
