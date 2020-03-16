@@ -12,3 +12,8 @@ field_artillery = {
 	category = light_artillery
 	icon_tag = soldiers_small
 }
+
+mobile_artillery = {
+	category = light_artillery
+	icon_tag = soldiers_small
+}

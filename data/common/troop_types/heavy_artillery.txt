@@ -17,3 +17,8 @@ siege_artillery = {
 	category = heavy_artillery
 	icon_tag = soldiers_small
 }
+
+railroad_guns = {
+	category = heavy_artillery
+	icon_tag = soldiers_small
+}

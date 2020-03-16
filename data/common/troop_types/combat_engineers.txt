@@ -7,3 +7,8 @@ combat_engineers = {
 	category = combat_engineers
 	icon_tag = soldiers_small
 }
+
+saboteurs = {
+	category = combat_engineers
+	icon_tag = soldiers_small
+}
