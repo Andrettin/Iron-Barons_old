@@ -1,10 +1,11 @@
 barracks = {
 	icon_tag = crossed_sabers
+	holding_types += village
 	holding_types += town
 	holding_types += city
 	holding_types += metropolis
 	holding_types += manor
 	construction_days = 365
-	employment_type = regulars
+	employment_type = barracks
 	workforce = 1000
 }

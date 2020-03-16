@@ -9,7 +9,18 @@ soldier_employment_template = {
 	workforce = 1 #modifier applied once per soldier
 }
 
-regulars = {
+barracks = {
 	template = soldier_employment_template
-	troop_type = regulars
+
+	modifier = {
+		skirmishers = 20
+		regulars = 47
+		grenadiers = 10
+		hussars = 10
+		cuirassiers = 10
+		light_artillery = 2
+		heavy_artillery = 1
+	}
+	
+	workforce = 100
 }
