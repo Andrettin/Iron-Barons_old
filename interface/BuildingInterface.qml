@@ -92,7 +92,26 @@ Item {
 						font.family: "tahoma"
 					}
 
+					ProgressBar {
+						width: 64
+						visible: building_slot.built && building_slot.workforce_capacity > 0
+						to: building_slot.workforce_capacity
+						value: building_slot.workforce
+						anchors.verticalCenter: parent.verticalCenter
+						anchors.right: built_text.left
+						anchors.rightMargin: 8
+
+						MouseArea {
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip("Employment: " + number_str(building_slot.workforce) + "/" + number_str(building_slot.workforce_capacity))
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+						}
+					}
+
 					Text {
+						id: built_text
 						text: "Built"
 						visible: building_slot.built
 						anchors.verticalCenter: parent.verticalCenter
