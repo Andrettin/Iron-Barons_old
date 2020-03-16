@@ -104,7 +104,7 @@ Item {
 						MouseArea {
 							anchors.fill: parent
 							hoverEnabled: true
-							ToolTip.text: tooltip("Employment: " + number_str(building_slot.workforce) + "/" + number_str(building_slot.workforce_capacity))
+							ToolTip.text: building_slot.employment_type ? tooltip("Employment: " + number_str(building_slot.workforce) + "/" + number_str(building_slot.workforce_capacity) + "<br><br>" + building_slot.employment_type.string) : ""
 							ToolTip.visible: containsMouse
 							ToolTip.delay: 1000
 						}
