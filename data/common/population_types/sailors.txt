@@ -1,0 +1,9 @@
+sailors = {
+	color = { 61 81 235 }
+	icon_tag = soldiers
+
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+}
