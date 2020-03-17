@@ -33,6 +33,22 @@ crossbow_range = {
 	}
 }
 
+pike_training_grounds = {
+	template = soldier_employment_template
+
+	modifier = {
+		pikemen = 1
+	}
+}
+
+halberd_training_grounds = {
+	template = soldier_employment_template
+
+	modifier = {
+		halberdiers = 1
+	}
+}
+
 barracks = {
 	template = soldier_employment_template
 

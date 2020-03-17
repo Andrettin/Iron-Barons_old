@@ -41,8 +41,21 @@ crossbow = {
 	required_technologies += bodkin_arrow
 }
 
+pike = {
+	category = military
+	icon_tag = saber
+	required_technologies += composite_bow
+}
+
+halberd = {
+	category = military
+	icon_tag = saber
+	required_technologies += pike
+}
+
 breech_loading_rifle = {
 	category = military
 	icon_tag = saber
 	required_technologies += crossbow
+	required_technologies += halberd
 }

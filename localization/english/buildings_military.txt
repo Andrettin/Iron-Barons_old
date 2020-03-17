@@ -1,5 +1,7 @@
 archery_range = "Archery Range"
 barracks = "Barracks"
 crossbow_range = "Crossbow Range"
+halberd_training_grounds = "Halberd Training Grounds"
 longbow_range = "Longbow Range"
+pike_training_grounds = "Pike Training Grounds"
 small_barracks = "Small Barracks"
