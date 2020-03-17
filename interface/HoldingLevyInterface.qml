@@ -24,6 +24,11 @@ Item {
 
 				Item {
 					property var levy: model.modelData
+					property var troop_stats: metternich.selected_holding.troop_stats[index]
+					property var tooltip_text: tooltip(highlight(levy.type.name)
+						+ "<br><br>Levy: " + number_str(levy.size)
+						+ "<br>Attack: " + troop_stats.attack
+						+ "<br>Defense: " + troop_stats.defense)
 
 					width: levy_area.width
 					height: 32
@@ -36,6 +41,14 @@ Item {
 						anchors.left: parent.left
 						anchors.leftMargin: 24
 						anchors.verticalCenter: parent.verticalCenter
+
+						MouseArea {
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip_text
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+						}
 					}
 
 					Text {
@@ -46,6 +59,14 @@ Item {
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"
+
+						MouseArea {
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip_text
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+						}
 					}
 
 					Text {
@@ -56,14 +77,14 @@ Item {
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"
-					}
 
-					MouseArea {
-						anchors.fill: parent
-						hoverEnabled: true
-						ToolTip.text: tooltip(number_str(levy.size) + " " + levy.type.name)
-						ToolTip.visible: containsMouse
-						ToolTip.delay: 1000
+						MouseArea {
+							anchors.fill: parent
+							hoverEnabled: true
+							ToolTip.text: tooltip_text
+							ToolTip.visible: containsMouse
+							ToolTip.delay: 1000
+						}
 					}
 				}
 			}
