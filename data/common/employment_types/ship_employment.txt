@@ -13,11 +13,11 @@ shipyard = {
 	template = ship_employment_template
 
 	modifier = {
-		trader = 4
-		indiaman = 1
-		frigate = 4
-		ship_of_the_line = 1
+		trader = 16 #12,5 sailors per ship
+		indiaman = 4 #50 sailors per ship
+		frigate = 4 #50 sailors per ship
+		ship_of_the_line = 1 #200 sailors per ship
 	}
 	
-	workforce = 1000
+	workforce = 800
 }
