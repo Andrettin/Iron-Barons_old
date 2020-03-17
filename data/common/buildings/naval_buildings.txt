@@ -6,7 +6,7 @@ shipyard = {
 	holding_types += metropolis
 	construction_days = 365
 	employment_type = shipyard
-	workforce = 1000
+	workforce = 800
 	
 	preconditions = {
 		coastal = true
