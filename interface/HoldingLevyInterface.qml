@@ -27,8 +27,8 @@ Item {
 					property var troop_stats: metternich.selected_holding.troop_stats[index]
 					property var tooltip_text: tooltip(highlight(levy.type.name)
 						+ "<br><br>Levy: " + number_str(levy.size)
-						+ "<br>Attack: " + troop_stats.attack
-						+ "<br>Defense: " + troop_stats.defense)
+						+ "<br>Attack: " + centesimal(troop_stats.attack)
+						+ "<br>Defense: " + centesimal(troop_stats.defense))
 
 					width: levy_area.width
 					height: 32
