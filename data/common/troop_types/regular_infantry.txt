@@ -1,34 +1,48 @@
 clubmen = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 3
+	defense = 3
 }
 
 spearmen = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 3
+	defense = 3
 }
 
 pikemen = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 5
+	defense = 5
 }
 
 halberdiers = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 7
+	defense = 6
 }
 
 regulars = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 11
+	defense = 5
 }
 
 rifle_infantry = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 14
+	defense = 6
 }
 
 infantry = {
 	category = regular_infantry
 	icon_tag = soldiers_small
+	attack = 31
+	defense = 20
 }

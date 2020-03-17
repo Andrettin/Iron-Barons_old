@@ -1,14 +1,17 @@
 sappers = {
 	category = combat_engineers
 	icon_tag = soldiers_small
+	defense = 3
 }
 
 combat_engineers = {
 	category = combat_engineers
 	icon_tag = soldiers_small
+	defense = 4
 }
 
 saboteurs = {
 	category = combat_engineers
 	icon_tag = soldiers_small
+	defense = 10
 }

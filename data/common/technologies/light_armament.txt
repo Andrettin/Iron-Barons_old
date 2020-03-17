@@ -13,6 +13,7 @@ barbed_arrow = {
 	
 	holding_modifier = {
 		archers_attack = 1
+		longbowmen_attack = 1
 	}
 }
 
@@ -23,6 +24,7 @@ bodkin_arrow = {
 	
 	holding_modifier = {
 		archers_attack = 1
+		longbowmen_attack = 1
 	}
 }
 
@@ -36,6 +38,7 @@ crossbow = {
 	category = military
 	icon_tag = saber
 	required_technologies += composite_bow
+	required_technologies += bodkin_arrow
 }
 
 breech_loading_rifle = {

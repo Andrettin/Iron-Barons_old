@@ -1,24 +1,34 @@
 arquebusiers = {
 	category = heavy_infantry
 	icon_tag = soldiers_small
+	attack = 7
+	defense = 3
 }
 
 musketeers = {
 	category = heavy_infantry
 	icon_tag = soldiers_small
+	attack = 10
+	defense = 4
 }
 
 grenadiers = {
 	category = heavy_infantry
 	icon_tag = soldiers_small
+	attack = 14
+	defense = 5
 }
 
 guards = {
 	category = heavy_infantry
 	icon_tag = soldiers_small
+	attack = 17
+	defense = 6
 }
 
 machine_gunners = {
 	category = heavy_infantry
 	icon_tag = soldiers_small
+	attack = 34
+	defense = 20
 }

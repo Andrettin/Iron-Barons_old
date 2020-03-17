@@ -1,6 +1,8 @@
 knights = {
 	category = heavy_cavalry
 	icon_tag = soldiers_small
+	attack = 6
+	defense = 6
 }
 
 war_elephants = {
@@ -11,24 +13,34 @@ war_elephants = {
 lancers = {
 	category = heavy_cavalry
 	icon_tag = soldiers_small
+	attack = 8
+	defense = 5
 }
 
 harquebusiers = {
 	category = heavy_cavalry
 	icon_tag = soldiers_small
+	attack = 6
+	defense = 5
 }
 
 cuirassiers = {
 	category = heavy_cavalry
 	icon_tag = soldiers_small
+	attack = 13
+	defense = 5
 }
 
 carbineers = {
 	category = heavy_cavalry
 	icon_tag = soldiers_small
+	attack = 17
+	defense = 5
 }
 
 armor = {
 	category = heavy_cavalry
 	icon_tag = soldiers_small
+	attack = 56
+	defense = 20
 }

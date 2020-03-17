@@ -1,19 +1,27 @@
 horse_artillery = {
 	category = light_artillery
 	icon_tag = soldiers_small
+	attack = 11
+	defense = 2
 }
 
 light_artillery = {
 	category = light_artillery
 	icon_tag = soldiers_small
+	attack = 16
+	defense = 3
 }
 
 field_artillery = {
 	category = light_artillery
 	icon_tag = soldiers_small
+	attack = 20
+	defense = 4
 }
 
 mobile_artillery = {
 	category = light_artillery
 	icon_tag = soldiers_small
+	attack = 39
+	defense = 20
 }

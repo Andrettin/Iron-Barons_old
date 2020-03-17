@@ -1,37 +1,48 @@
 archers = {
 	category = light_infantry
 	icon_tag = soldiers_small
-	attack = 1
+	attack = 3
+	defense = 1
 }
 
 longbowmen = {
 	category = light_infantry
 	icon_tag = soldiers_small
-	attack = 5
+	attack = 4
+	defense = 2
 }
 
 crossbowmen = {
 	category = light_infantry
 	icon_tag = soldiers_small
-	attack = 5
+	attack = 6
+	defense = 2
 }
 
 calivermen = {
 	category = light_infantry
 	icon_tag = soldiers_small
+	attack = 7
+	defense = 5
 }
 
 skirmishers = {
 	category = light_infantry
 	icon_tag = soldiers_small
+	attack = 8
+	defense = 6
 }
 
 sharpshooters = {
 	category = light_infantry
 	icon_tag = soldiers_small
+	attack = 11
+	defense = 7
 }
 
 rangers = {
 	category = light_infantry
 	icon_tag = soldiers_small
+	attack = 24
+	defense = 20
 }

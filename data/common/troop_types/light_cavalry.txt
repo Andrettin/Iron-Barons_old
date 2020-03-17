@@ -11,24 +11,34 @@ horse_archers = {
 squires = {
 	category = light_cavalry
 	icon_tag = soldiers_small
+	attack = 4
+	defense = 4
 }
 
 cossacks = {
 	category = light_cavalry
 	icon_tag = soldiers_small
+	attack = 5
+	defense = 5
 }
 
 hussars = {
 	category = light_cavalry
 	icon_tag = soldiers_small
+	attack = 8
+	defense = 6
 }
 
 scouts = {
 	category = light_cavalry
 	icon_tag = soldiers_small
+	attack = 11
+	defense = 6
 }
 
 mechanized_infantry = {
 	category = light_cavalry
 	icon_tag = soldiers_small
+	attack = 31
+	defense = 10
 }
