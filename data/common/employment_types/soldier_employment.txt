@@ -9,6 +9,30 @@ soldier_employment_template = {
 	workforce = 1 #modifier applied once per soldier
 }
 
+archery_range = {
+	template = soldier_employment_template
+
+	modifier = {
+		archers = 1
+	}
+}
+
+longbow_range = {
+	template = soldier_employment_template
+
+	modifier = {
+		longbowmen = 1
+	}
+}
+
+crossbow_range = {
+	template = soldier_employment_template
+
+	modifier = {
+		crossbowmen = 1
+	}
+}
+
 barracks = {
 	template = soldier_employment_template
 

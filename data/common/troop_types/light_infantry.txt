@@ -1,11 +1,19 @@
 archers = {
 	category = light_infantry
 	icon_tag = soldiers_small
+	attack = 1
+}
+
+longbowmen = {
+	category = light_infantry
+	icon_tag = soldiers_small
+	attack = 5
 }
 
 crossbowmen = {
 	category = light_infantry
 	icon_tag = soldiers_small
+	attack = 5
 }
 
 calivermen = {

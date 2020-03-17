@@ -1,0 +1,6 @@
+barbed_arrow = "Barbed Arrow"
+bodkin_arrow = "Bodkin Arrow"
+breech_loading_rifle = "Breech-Loading Rifle"
+composite_bow = "Composite Bow"
+crossbow = "Crossbow"
+longbow = "Longbow"

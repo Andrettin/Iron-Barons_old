@@ -1,4 +1,3 @@
-breech_loading_rifle = "Breech-Loading Rifle"
 cotton_gin = "Cotton Gin"
 horse_drawn_railroad = "Horse-Drawn Railroad"
 iron_railroad = "Iron Railroad"

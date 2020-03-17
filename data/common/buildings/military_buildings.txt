@@ -1,3 +1,87 @@
+archery_range = {
+	icon_tag = crossed_sabers
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	construction_days = 365
+	employment_type = archery_range
+	workforce = 100
+	
+	preconditions = {
+		not = {
+			has_building = longbow_range
+			has_building = crossbow_range
+		}
+		
+		or = {
+			has_building = archery_range
+			not = {
+				has_technology = longbow
+				has_technology = crossbow
+			}
+		}
+	}
+}
+
+longbow_range = {
+	icon_tag = crossed_sabers
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	construction_days = 365
+	employment_type = longbow_range
+	workforce = 100
+	required_technologies += longbow
+	
+	preconditions = {
+		culture = english
+		not = {
+			has_building = crossbow_range
+		}
+	}
+}
+
+crossbow_range = {
+	icon_tag = crossed_sabers
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	construction_days = 365
+	employment_type = crossbow_range
+	workforce = 100
+	required_technologies += crossbow
+
+	preconditions = {
+		not = {
+			has_building = longbow_range
+		}
+	}
+}
+
+small_barracks = {
+	icon_tag = crossed_sabers
+	holding_types += village
+	holding_types += town
+	holding_types += city
+	holding_types += metropolis
+	holding_types += manor
+	construction_days = 365
+	employment_type = barracks
+	workforce = 500
+	
+	preconditions = {
+		not = {
+			has_building = barracks
+		}
+	}
+}
+
 barracks = {
 	icon_tag = crossed_sabers
 	holding_types += village
@@ -8,4 +92,11 @@ barracks = {
 	construction_days = 365
 	employment_type = barracks
 	workforce = 1000
+	
+	preconditions = {
+		or = {
+			has_building = small_barracks
+			has_building = barracks
+		}
+	}
 }
