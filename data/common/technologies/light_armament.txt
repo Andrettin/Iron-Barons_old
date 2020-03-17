@@ -1,0 +1,4 @@
+breech_loading_rifle = {
+	category = military
+	icon_tag = saber
+}
