@@ -1,0 +1,17 @@
+long_spear = {
+	category = military
+	icon_tag = saber
+}
+
+pike = {
+	category = military
+	icon_tag = saber
+	required_technologies += long_spear
+	required_technologies += ironworking
+}
+
+halberd = {
+	category = military
+	icon_tag = saber
+	required_technologies += pike
+}

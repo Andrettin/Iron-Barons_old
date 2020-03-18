@@ -1,0 +1,3 @@
+mathematics = "Mathematics"
+philosophy = "Philosophy"
+writing = "Writing"

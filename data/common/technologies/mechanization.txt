@@ -1,9 +1,19 @@
+engineering = {
+	category = economy
+	icon_tag = cog
+	required_technologies += mathematics
+	required_technologies += masonry
+	required_technologies += ironworking
+}
+
 seed_drill = {
 	category = economy
 	icon_tag = grain
+	required_technologies += engineering
 }
 
 cotton_gin = {
 	category = economy
 	icon_tag = cotton
+	required_technologies += engineering
 }

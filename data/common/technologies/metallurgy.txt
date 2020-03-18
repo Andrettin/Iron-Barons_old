@@ -1,0 +1,18 @@
+bronzeworking = {
+	category = economy
+	icon_tag = copper
+}
+
+ironworking = {
+	category = economy
+	icon_tag = iron
+	required_technologies += bronzeworking
+}
+
+alchemy = {
+	category = economy
+	icon_tag = cog
+	required_technologies += philosophy
+	required_technologies += mathematics
+	required_technologies += ironworking
+}

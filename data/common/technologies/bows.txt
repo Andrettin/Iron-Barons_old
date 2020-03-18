@@ -1,0 +1,44 @@
+composite_bow = {
+	category = military
+	icon_tag = saber
+	
+	holding_modifier = {
+		archers_attack = 1
+	}
+}
+
+barbed_arrow = {
+	category = military
+	icon_tag = saber
+	
+	holding_modifier = {
+		archers_attack = 1
+		longbowmen_attack = 1
+	}
+}
+
+bodkin_arrow = {
+	category = military
+	icon_tag = saber
+	required_technologies += barbed_arrow
+	required_technologies += ironworking
+	
+	holding_modifier = {
+		archers_attack = 1
+		longbowmen_attack = 1
+	}
+}
+
+longbow = {
+	category = military
+	icon_tag = saber
+	required_technologies += composite_bow
+}
+
+crossbow = {
+	category = military
+	icon_tag = saber
+	required_technologies += composite_bow
+	required_technologies += bodkin_arrow
+	required_technologies += ironworking
+}

@@ -1,0 +1,16 @@
+writing = {
+	category = culture
+	icon_tag = treaty
+}
+
+philosophy = {
+	category = culture
+	icon_tag = research
+	required_technologies += writing
+}
+
+mathematics = {
+	category = culture
+	icon_tag = research
+	required_technologies += writing
+}

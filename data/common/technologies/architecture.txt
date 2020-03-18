@@ -1,0 +1,11 @@
+masonry = {
+	category = economy
+	icon_tag = cog
+}
+
+architecture = {
+	category = economy
+	icon_tag = cog
+	required_technologies += masonry
+	required_technologies += writing
+}

@@ -1,0 +1,38 @@
+battle_axe = {
+	category = military
+	icon_tag = saber
+}
+
+broad_axe = {
+	category = military
+	icon_tag = saber
+	required_technologies += battle_axe
+	required_technologies += bronzeworking
+}
+
+great_axe = {
+	category = military
+	icon_tag = saber
+	required_technologies += broad_axe
+	required_technologies += ironworking
+}
+
+short_sword = {
+	category = military
+	icon_tag = saber
+	required_technologies += battle_axe
+	required_technologies += bronzeworking
+}
+
+broad_sword = {
+	category = military
+	icon_tag = saber
+	required_technologies += short_sword
+}
+
+long_sword = {
+	category = military
+	icon_tag = saber
+	required_technologies += broad_sword
+	required_technologies += ironworking
+}

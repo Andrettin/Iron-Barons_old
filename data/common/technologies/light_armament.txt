@@ -1,61 +1,8 @@
-composite_bow = {
-	category = military
-	icon_tag = saber
-	
-	holding_modifier = {
-		archers_attack = 1
-	}
-}
-
-barbed_arrow = {
-	category = military
-	icon_tag = saber
-	
-	holding_modifier = {
-		archers_attack = 1
-		longbowmen_attack = 1
-	}
-}
-
-bodkin_arrow = {
-	category = military
-	icon_tag = saber
-	required_technologies += barbed_arrow
-	
-	holding_modifier = {
-		archers_attack = 1
-		longbowmen_attack = 1
-	}
-}
-
-longbow = {
-	category = military
-	icon_tag = saber
-	required_technologies += composite_bow
-}
-
-crossbow = {
-	category = military
-	icon_tag = saber
-	required_technologies += composite_bow
-	required_technologies += bodkin_arrow
-}
-
-pike = {
-	category = military
-	icon_tag = saber
-	required_technologies += composite_bow
-}
-
-halberd = {
-	category = military
-	icon_tag = saber
-	required_technologies += pike
-}
-
 breech_loading_rifle = {
 	category = military
 	icon_tag = saber
 	required_technologies += crossbow
 	required_technologies += halberd
+	required_technologies += great_axe
+	required_technologies += long_sword
 }

@@ -5,12 +5,14 @@ road = {
 paved_road = {
 	category = economy
 	required_technologies += road
+	required_technologies += masonry
 }
 
 horse_drawn_railroad = {
 	category = economy
 	icon_tag = railroad
 	required_technologies += paved_road
+	required_technologies += engineering
 }
 
 iron_railroad = {
