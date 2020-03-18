@@ -60,6 +60,7 @@ iron_mine = {
 	employment_type = iron_mining
 	workforce = 100000
 	icon_tag = iron
+	required_technologies += ironworking
 	
 	preconditions = {
 		commodity = iron

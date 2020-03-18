@@ -3,4 +3,5 @@ courthouse = {
 	holding_types += city
 	holding_types += metropolis
 	construction_days = 365
+	required_technologies += writing
 }

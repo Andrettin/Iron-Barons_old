@@ -1,8 +1,14 @@
-breech_loading_rifle = {
+hand_cannon = {
 	category = military
 	icon_tag = saber
 	required_technologies += crossbow
+	required_technologies += gunpowder
+}
+
+breech_loading_rifle = {
+	category = military
+	icon_tag = saber
+	required_technologies += hand_cannon
 	required_technologies += halberd
-	required_technologies += great_axe
 	required_technologies += long_sword
 }

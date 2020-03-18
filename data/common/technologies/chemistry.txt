@@ -1,0 +1,13 @@
+alchemy = {
+	category = economy
+	icon_tag = cog
+	required_technologies += philosophy
+	required_technologies += mathematics
+	required_technologies += ironworking
+}
+
+gunpowder = {
+	category = economy
+	icon_tag = cog
+	required_technologies += alchemy
+}

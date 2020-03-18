@@ -1,0 +1,4 @@
+coinage = {
+	category = economy
+	icon_tag = wealth
+}

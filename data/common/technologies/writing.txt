@@ -1,0 +1,11 @@
+writing = {
+	category = culture
+	icon_tag = treaty
+}
+
+printing_press = {
+	category = culture
+	icon_tag = newspaper
+	required_technologies += writing
+	required_technologies += engineering
+}
