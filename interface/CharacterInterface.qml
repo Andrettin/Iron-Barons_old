@@ -85,7 +85,7 @@ Item {
 		clip: true
 		interactive: false
 		boundsBehavior: Flickable.StopAtBounds
-		ScrollBar.vertical: ScrollBar {}
+		ScrollBar.vertical: CustomScrollBar {}
 
 		Grid {
 			id: trait_grid
@@ -141,7 +141,7 @@ Item {
 		clip: true
 		interactive: false
 		boundsBehavior: Flickable.StopAtBounds
-		ScrollBar.vertical: ScrollBar {}
+		ScrollBar.vertical: CustomScrollBar {}
 
 		Grid {
 			id: item_grid

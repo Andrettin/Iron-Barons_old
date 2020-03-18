@@ -10,7 +10,7 @@ Flickable {
 	clip: true
 	interactive: false
 	boundsBehavior: Flickable.StopAtBounds
-	ScrollBar.vertical: ScrollBar {}
+	ScrollBar.vertical: CustomScrollBar {}
 
 	Grid {
 		id: holding_grid

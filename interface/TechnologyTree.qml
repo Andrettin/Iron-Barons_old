@@ -9,12 +9,12 @@ Flickable {
 	clip: true
 	interactive: false
 	boundsBehavior: Flickable.StopAtBounds
-	ScrollBar.vertical: ScrollBar {}
+	ScrollBar.vertical: CustomScrollBar {}
 
 	GridLayout {
 		id: technology_grid
 		columns: 8
-		width: technology_tree.width
+		width: technology_tree.width - 16 //to leave space for the scrollbar
 		columnSpacing: (width - (columns * 32)) / (columns - 1)
 		rowSpacing: 32
 

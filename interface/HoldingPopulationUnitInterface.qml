@@ -11,7 +11,7 @@ Item {
 		clip: true
 		interactive: false
 		boundsBehavior: Flickable.StopAtBounds
-		ScrollBar.vertical: ScrollBar {}
+		ScrollBar.vertical: CustomScrollBar {}
 
 		Grid {
 			id: population_unit_grid
