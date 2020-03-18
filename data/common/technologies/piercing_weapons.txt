@@ -1,4 +1,4 @@
-long_spear = {
+longspear = {
 	category = military
 	icon_tag = saber
 }
@@ -6,7 +6,7 @@ long_spear = {
 pike = {
 	category = military
 	icon_tag = saber
-	required_technologies += long_spear
+	required_technologies += longspear
 	required_technologies += ironworking
 }
 

@@ -1,5 +1,6 @@
 road = {
 	category = economy
+	required_technologies += wheel
 }
 
 paved_road = {
@@ -19,6 +20,7 @@ iron_railroad = {
 	category = economy
 	icon_tag = railroad
 	required_technologies += horse_drawn_railroad
+	required_technologies += high_pressure_steam_engine
 }
 
 iron_railroad_bridge = {
@@ -31,4 +33,5 @@ steel_railroad = {
 	category = economy
 	icon_tag = railroad
 	required_technologies += iron_railroad
+	required_technologies += compound_steam_engine
 }

@@ -1,19 +1,37 @@
+wheel = {
+	category = economy
+	icon_tag = cog
+}
+
 engineering = {
 	category = economy
 	icon_tag = cog
+	required_technologies += wheel
 	required_technologies += mathematics
 	required_technologies += masonry
 	required_technologies += ironworking
 }
 
-seed_drill = {
+high_pressure_steam_engine = {
 	category = economy
-	icon_tag = grain
+	icon_tag = cog
 	required_technologies += engineering
+}
+
+compound_steam_engine = {
+	category = economy
+	icon_tag = cog
+	required_technologies += high_pressure_steam_engine
 }
 
 cotton_gin = {
 	category = economy
 	icon_tag = cotton
+	required_technologies += engineering
+}
+
+spinning_jenny = {
+	category = economy
+	icon_tag = fabric
 	required_technologies += engineering
 }

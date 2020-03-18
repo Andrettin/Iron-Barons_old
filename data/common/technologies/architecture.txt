@@ -8,4 +8,5 @@ architecture = {
 	icon_tag = cog
 	required_technologies += masonry
 	required_technologies += writing
+	required_technologies += mathematics
 }

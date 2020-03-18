@@ -5,10 +5,35 @@ hand_cannon = {
 	required_technologies += gunpowder
 }
 
-breech_loading_rifle = {
+arquebus = {
 	category = military
 	icon_tag = saber
 	required_technologies += hand_cannon
+}
+
+musket = {
+	category = military
+	icon_tag = saber
+	required_technologies += arquebus
+}
+
+bayonet = {
+	category = military
+	icon_tag = saber
+	required_technologies += musket
 	required_technologies += halberd
 	required_technologies += long_sword
+}
+
+flintlock_rifle = {
+	category = military
+	icon_tag = saber
+	required_technologies += musket
+	required_technologies += bayonet
+}
+
+breech_loading_rifle = {
+	category = military
+	icon_tag = saber
+	required_technologies += flintlock_rifle
 }
