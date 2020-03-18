@@ -1,3 +1,8 @@
+pottery = {
+	category = economy
+	icon_tag = cog
+}
+
 wood_plow = {
 	category = economy
 	icon_tag = grain

@@ -16,6 +16,7 @@ high_pressure_steam_engine = {
 	category = economy
 	icon_tag = cog
 	required_technologies += engineering
+	required_technologies += scientific_method
 }
 
 compound_steam_engine = {
@@ -28,10 +29,12 @@ cotton_gin = {
 	category = economy
 	icon_tag = cotton
 	required_technologies += engineering
+	required_technologies += scientific_method
 }
 
 spinning_jenny = {
 	category = economy
 	icon_tag = fabric
 	required_technologies += engineering
+	required_technologies += scientific_method
 }

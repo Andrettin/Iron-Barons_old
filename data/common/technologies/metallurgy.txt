@@ -1,6 +1,7 @@
 bronzeworking = {
 	category = economy
 	icon_tag = copper
+	required_technologies += pottery #because of ceramic casting molds
 }
 
 ironworking = {

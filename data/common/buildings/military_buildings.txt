@@ -8,6 +8,7 @@ archery_range = {
 	construction_days = 365
 	employment_type = archery_range
 	workforce = 100
+	required_technologies += shortbow
 	
 	preconditions = {
 		not = {

@@ -9,3 +9,17 @@ mathematics = {
 	icon_tag = research
 	required_technologies += writing
 }
+
+natural_philosophy = {
+	category = culture
+	icon_tag = research
+	required_technologies += philosophy
+	required_technologies += mathematics
+	required_technologies += alchemy
+}
+
+scientific_method = {
+	category = culture
+	icon_tag = research
+	required_technologies += natural_philosophy
+}

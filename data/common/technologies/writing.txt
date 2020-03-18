@@ -1,6 +1,7 @@
 writing = {
 	category = culture
 	icon_tag = treaty
+	required_technologies += pottery #because of clay tablets
 }
 
 printing_press = {

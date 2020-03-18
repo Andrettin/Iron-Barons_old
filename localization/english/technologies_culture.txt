@@ -1,4 +1,6 @@
 mathematics = "Mathematics"
+natural_philosophy = "Natural Philosophy"
 philosophy = "Philosophy"
 printing_press = "Printing Press"
+scientific_method = "Scientific Method"
 writing = "Writing"

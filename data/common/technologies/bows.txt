@@ -1,6 +1,16 @@
+shortbow = {
+	category = military
+	icon_tag = saber
+	
+	holding_modifier = {
+		archers_attack = 1
+	}
+}
+
 composite_bow = {
 	category = military
 	icon_tag = saber
+	required_technologies += shortbow
 	
 	holding_modifier = {
 		archers_attack = 1
@@ -10,6 +20,7 @@ composite_bow = {
 barbed_arrow = {
 	category = military
 	icon_tag = saber
+	required_technologies += shortbow
 	
 	holding_modifier = {
 		archers_attack = 1
