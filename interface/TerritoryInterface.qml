@@ -50,7 +50,7 @@ Item {
 		holding_slot: territory && territory.capital_holding_slot ? territory.capital_holding_slot : null
 		imageWidth: 128
 		imageHeight: 128
-		visible: mode !== TerritoryInterface.Mode.Wildlife
+		visible: mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 	}
 
 	PopulationTypeChart {
@@ -59,7 +59,7 @@ Item {
 		anchors.topMargin: 4
 		anchors.left: parent.left
 		anchors.leftMargin: 32
-		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife
+		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 		dataSource: territory
 	}
 
@@ -68,7 +68,7 @@ Item {
 		anchors.top: capital_holding.bottom
 		anchors.topMargin: 4
 		anchors.horizontalCenter: parent.horizontalCenter
-		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife
+		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 		dataSource: territory
 	}
 
@@ -78,13 +78,13 @@ Item {
 		anchors.topMargin: 4
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife
+		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 		dataSource: territory
 	}
 
 	Item {
 		id: empire_area
-		visible: territory !== null && mode !== TerritoryInterface.Mode.Wildlife
+		visible: territory !== null && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -132,7 +132,7 @@ Item {
 
 	Item {
 		id: kingdom_area
-		visible: territory !== null && mode !== TerritoryInterface.Mode.Wildlife
+		visible: territory !== null && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -180,7 +180,7 @@ Item {
 
 	Item {
 		id: duchy_area
-		visible: territory !== null && mode !== TerritoryInterface.Mode.Wildlife
+		visible: territory !== null && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 		anchors.left: parent.left
 		anchors.leftMargin: 32
 		anchors.right: parent.right
@@ -234,7 +234,7 @@ Item {
 		anchors.right: parent.right
 		anchors.rightMargin: 32
 		anchors.top: duchy_area.bottom
-		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife && metternich.selected_holding === null
+		visible: territory !== null && territory.settlement_holdings.length > 0 && mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies && metternich.selected_holding === null
 
 		Text {
 			id: population_label
@@ -287,6 +287,19 @@ Item {
 			visible: mode === TerritoryInterface.Mode.Other
 			holding_model: territory ? (territory.trading_post_holding_slot ? [territory.fort_holding_slot, territory.university_holding_slot, territory.hospital_holding_slot, territory.trading_post_holding_slot, territory.factory_holding_slot] : [territory.fort_holding_slot, territory.university_holding_slot, territory.hospital_holding_slot, territory.factory_holding_slot]) : []
 		}
+	}
+
+	TechnologyTree {
+		id: technology_tree
+		anchors.left: parent.left
+		anchors.leftMargin: 16
+		anchors.right: parent.right
+		anchors.rightMargin: 16
+		anchors.top: parent.top
+		anchors.topMargin: 48
+		anchors.bottom: parent.bottom
+		anchors.bottomMargin: 8
+		visible: mode === TerritoryInterface.Mode.Technologies && metternich.selected_holding === null
 	}
 
 	HoldingInterface {

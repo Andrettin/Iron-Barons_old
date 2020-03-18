@@ -13,7 +13,7 @@ TerritoryInterface {
 		anchors.leftMargin: 32
 		anchors.right: parent.right
 		anchors.rightMargin: 32
-		visible: metternich.selected_holding === null
+		visible: metternich.selected_holding === null && mode !== TerritoryInterface.Mode.Technologies
 
 		Text {
 			id: terrain_label
@@ -104,50 +104,6 @@ TerritoryInterface {
 		}
 	}
 	*/
-
-	Flickable {
-		id: technology_area
-		anchors.left: parent.left
-		anchors.leftMargin: 16
-		anchors.right: parent.right
-		anchors.rightMargin: 16
-		anchors.top: terrain_area.bottom
-		anchors.topMargin: 16
-		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8
-		contentWidth: technology_grid.width
-		contentHeight: technology_grid.height
-		clip: true
-		interactive: false
-		boundsBehavior: Flickable.StopAtBounds
-		ScrollBar.vertical: ScrollBar {}
-		visible: mode === TerritoryInterface.Mode.Technologies && metternich.selected_holding === null
-
-		Grid {
-			id: technology_grid
-			columns: 7
-			columnSpacing: 4
-			rowSpacing: 4
-
-			Repeater {
-				model: province ? province.technologies : []
-
-				Image {
-					source: model.modelData.icon_path
-					width: 32
-					height: 32
-
-					MouseArea {
-						anchors.fill: parent
-						hoverEnabled: true
-						ToolTip.text: tooltip(model.modelData.name)
-						ToolTip.visible: containsMouse
-						ToolTip.delay: 1000
-					}
-				}
-			}
-		}
-	}
 
 	ProvinceWildlifeUnitInterface {
 		id: wildlife_unit_area
