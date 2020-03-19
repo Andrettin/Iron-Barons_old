@@ -36,7 +36,8 @@ Flickable {
 				MouseArea {
 					anchors.fill: parent
 					hoverEnabled: true
-					ToolTip.text: tooltip(technology.name)
+					ToolTip.text: tooltip(highlight(technology.name)
+						+ "<br><br>Category: " + technology.category_name)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 				}
