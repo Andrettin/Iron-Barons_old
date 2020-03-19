@@ -1,6 +1,6 @@
 shortbow = {
 	category = military
-	icon_tag = saber
+	icon_tag = bow
 	
 	holding_modifier = {
 		archers_attack = 1
@@ -9,7 +9,7 @@ shortbow = {
 
 composite_bow = {
 	category = military
-	icon_tag = saber
+	icon_tag = bow
 	required_technologies += shortbow
 	
 	holding_modifier = {
@@ -19,7 +19,7 @@ composite_bow = {
 
 barbed_arrow = {
 	category = military
-	icon_tag = saber
+	icon_tag = bow
 	required_technologies += shortbow
 	
 	holding_modifier = {
@@ -30,7 +30,7 @@ barbed_arrow = {
 
 bodkin_arrow = {
 	category = military
-	icon_tag = saber
+	icon_tag = bow
 	required_technologies += barbed_arrow
 	required_technologies += ironworking
 	
@@ -42,13 +42,13 @@ bodkin_arrow = {
 
 longbow = {
 	category = military
-	icon_tag = saber
+	icon_tag = bow
 	required_technologies += composite_bow
 }
 
 crossbow = {
 	category = military
-	icon_tag = saber
+	icon_tag = bow
 	required_technologies += composite_bow
 	required_technologies += bodkin_arrow
 	required_technologies += ironworking

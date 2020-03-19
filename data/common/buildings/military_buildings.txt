@@ -1,5 +1,5 @@
 archery_range = {
-	icon_tag = crossed_sabers
+	icon_tag = bow
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -27,7 +27,7 @@ archery_range = {
 }
 
 longbow_range = {
-	icon_tag = crossed_sabers
+	icon_tag = bow
 	holding_types += village
 	holding_types += town
 	holding_types += city
@@ -47,7 +47,7 @@ longbow_range = {
 }
 
 crossbow_range = {
-	icon_tag = crossed_sabers
+	icon_tag = bow
 	holding_types += village
 	holding_types += town
 	holding_types += city

@@ -1,34 +1,34 @@
 culverin = {
 	category = heavy_artillery
-	icon_tag = soldiers_small
+	icon_tag = cannon
 	attack = 12
 	defense = 2
 }
 
 royal_artillery = {
 	category = heavy_artillery
-	icon_tag = soldiers_small
+	icon_tag = cannon
 	attack = 16
 	defense = 2
 }
 
 heavy_artillery = {
 	category = heavy_artillery
-	icon_tag = soldiers_small
+	icon_tag = cannon
 	attack = 22
 	defense = 2
 }
 
 siege_artillery = {
 	category = heavy_artillery
-	icon_tag = soldiers_small
+	icon_tag = cannon
 	attack = 28
 	defense = 3
 }
 
 railroad_guns = {
 	category = heavy_artillery
-	icon_tag = soldiers_small
+	icon_tag = cannon
 	attack = 66
 	defense = 20
 }
