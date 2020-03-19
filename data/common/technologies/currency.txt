@@ -1,4 +1,4 @@
 coinage = {
-	category = economy
+	category = commerce
 	icon_tag = wealth
 }

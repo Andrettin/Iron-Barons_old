@@ -1,10 +1,10 @@
 wheel = {
-	category = economy
+	category = industry
 	icon_tag = cog
 }
 
 engineering = {
-	category = economy
+	category = industry
 	icon_tag = cog
 	required_technologies += wheel
 	required_technologies += mathematics
@@ -13,45 +13,45 @@ engineering = {
 }
 
 glassblowing = {
-	category = economy
+	category = industry
 	icon_tag = glass
 	required_technologies += engineering
 }
 
 salt_refining = {
-	category = economy
+	category = industry
 	icon_tag = salt
 	required_technologies += engineering
 }
 
 sugar_refining = {
-	category = economy
+	category = industry
 	icon_tag = refined_sugar
 	required_technologies += engineering
 }
 
 high_pressure_steam_engine = {
-	category = economy
+	category = industry
 	icon_tag = cog
 	required_technologies += engineering
 	required_technologies += scientific_method
 }
 
 compound_steam_engine = {
-	category = economy
+	category = industry
 	icon_tag = cog
 	required_technologies += high_pressure_steam_engine
 }
 
 cotton_gin = {
-	category = economy
+	category = industry
 	icon_tag = cotton
 	required_technologies += engineering
 	required_technologies += scientific_method
 }
 
 spinning_jenny = {
-	category = economy
+	category = industry
 	icon_tag = fabric
 	required_technologies += engineering
 	required_technologies += scientific_method

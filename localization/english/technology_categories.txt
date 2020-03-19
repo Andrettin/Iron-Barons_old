@@ -1,3 +1,5 @@
+army = "Army"
+commerce = "Commerce"
 culture = "Culture"
-economy = "Economy"
-military = "Military"
+industry = "Industry"
+navy = "Navy"

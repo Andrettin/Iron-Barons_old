@@ -1,5 +1,5 @@
 moneylending = {
-	category = economy
+	category = commerce
 	icon_tag = wealth
 	required_technologies += coinage
 }

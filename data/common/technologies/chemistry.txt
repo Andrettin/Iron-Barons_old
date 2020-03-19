@@ -1,13 +1,19 @@
 alchemy = {
-	category = economy
+	category = industry
 	icon_tag = cog
 	required_technologies += philosophy
 	required_technologies += mathematics
 	required_technologies += ironworking
 }
 
+medicine = {
+	category = industry
+	icon_tag = heart
+	required_technologies += philosophy
+}
+
 gunpowder = {
-	category = economy
+	category = industry
 	icon_tag = cog
 	required_technologies += alchemy
 }

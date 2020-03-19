@@ -1,0 +1,3 @@
+celestial_navigation = "Celestial Navigation"
+compass = "Compass"
+sailing = "Sailing"

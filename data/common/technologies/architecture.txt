@@ -1,10 +1,10 @@
 masonry = {
-	category = economy
+	category = industry
 	icon_tag = cog
 }
 
 architecture = {
-	category = economy
+	category = industry
 	icon_tag = cog
 	required_technologies += masonry
 	required_technologies += writing
