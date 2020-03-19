@@ -422,7 +422,7 @@ Item {
 		id: holding_levies_button
 		anchors.top: holding_population_button.bottom
 		anchors.left: province_interface.right
-		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null
+		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null && metternich.selected_holding.levies.length > 0
 		source: "../graphics/icons/crossed_sabers.png"
 		ToolTip.text: tooltip("Levies")
 		ToolTip.visible: hovered
