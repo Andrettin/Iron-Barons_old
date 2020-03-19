@@ -40,6 +40,12 @@ Flickable {
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
 				}
+
+				Component.onCompleted: {
+					if (technology.column >= technology_grid.columns) {
+						technology_grid.columns = technology.column + 1
+					}
+				}
 			}
 		}
 	}
