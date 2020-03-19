@@ -260,10 +260,12 @@ Item {
 
 	Item {
 		id: holding_area
-		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.bottom: parent.bottom
 		anchors.bottomMargin: 8
-		width: 290
+		anchors.left: parent.left
+		anchors.leftMargin: 8
+		anchors.right: parent.right
+		anchors.rightMargin: 8
 		height: 193
 		visible: mode !== TerritoryInterface.Mode.Wildlife && mode !== TerritoryInterface.Mode.Technologies
 

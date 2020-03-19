@@ -15,7 +15,8 @@ Flickable {
 	Grid {
 		id: holding_grid
 		columns: 3
-		columnSpacing: 1
+		width: holding_flickable.width
+		columnSpacing: (width - (columns * 96)) / (columns - 1)
 		rowSpacing: 1
 
 		Repeater {
