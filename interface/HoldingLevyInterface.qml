@@ -26,7 +26,8 @@ Item {
 					property var levy: model.modelData
 					property var troop_stats: metternich.selected_holding.troop_stats[index]
 					property var tooltip_text: tooltip(highlight(levy.type.name)
-						+ "<br><br>Levy: " + number_str(levy.size)
+						+ "<br><br>Category: " + levy.type.category_name
+						+ "<br>Levy: " + number_str(levy.size)
 						+ "<br>Attack: " + centesimal(troop_stats.attack)
 						+ "<br>Defense: " + centesimal(troop_stats.defense))
 
