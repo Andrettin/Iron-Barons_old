@@ -350,7 +350,7 @@ Item {
 		id: technologies_button
 		anchors.top: extra_holdings_button.bottom
 		anchors.left: province_interface.right
-		visible: province_interface.visible && metternich.selected_holding === null && (metternich.selected_province.owner !== null || metternich.game.player_character !== null)
+		visible: territory_interface && territory_interface.territory && metternich.selected_holding === null && (territory_interface.territory.owner !== null || metternich.game.player_character !== null)
 		source: "../graphics/icons/research.png"
 		ToolTip.text: tooltip("Technologies")
 		ToolTip.visible: hovered
@@ -359,7 +359,7 @@ Item {
 			button: territory_interface && territory_interface.mode === TerritoryInterface.Mode.Technologies ? "#e0e0e0" : "gray"
 		}
 		onClicked: {
-			province_interface.mode = TerritoryInterface.Mode.Technologies
+			territory_interface.mode = TerritoryInterface.Mode.Technologies
 		}
 	}
 
@@ -389,7 +389,7 @@ Item {
 		anchors.topMargin: province_interface.holding_area_y + 8
 		anchors.left: province_interface.right
 		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null
-		source: "../graphics/icons/settlement.png"
+		source: "../graphics/icons/buildings/wall.png"
 		ToolTip.text: tooltip("Buildings")
 		ToolTip.visible: hovered
 		ToolTip.delay: 1000
