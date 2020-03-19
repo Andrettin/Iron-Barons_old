@@ -28,10 +28,22 @@ barbed_arrow = {
 	}
 }
 
-bodkin_arrow = {
+broadhead_arrow = {
 	category = military
 	icon_tag = bow
 	required_technologies += barbed_arrow
+	required_technologies += bronzeworking
+	
+	holding_modifier = {
+		archers_attack = 1
+		longbowmen_attack = 1
+	}
+}
+
+bodkin_arrow = {
+	category = military
+	icon_tag = bow
+	required_technologies += broadhead_arrow
 	required_technologies += ironworking
 	
 	holding_modifier = {

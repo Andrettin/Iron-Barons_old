@@ -17,22 +17,28 @@ great_axe = {
 	required_technologies += ironworking
 }
 
-short_sword = {
+shortsword = {
 	category = military
 	icon_tag = saber
 	required_technologies += battle_axe
 	required_technologies += bronzeworking
 }
 
-broad_sword = {
+broadsword = {
 	category = military
 	icon_tag = saber
-	required_technologies += short_sword
+	required_technologies += shortsword
 }
 
-long_sword = {
+longsword = {
 	category = military
 	icon_tag = saber
-	required_technologies += broad_sword
+	required_technologies += broadsword
 	required_technologies += ironworking
+}
+
+greatsword = {
+	category = military
+	icon_tag = saber
+	required_technologies += longsword
 }

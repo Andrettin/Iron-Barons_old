@@ -12,6 +12,24 @@ engineering = {
 	required_technologies += ironworking
 }
 
+glassblowing = {
+	category = economy
+	icon_tag = glass
+	required_technologies += engineering
+}
+
+salt_refining = {
+	category = economy
+	icon_tag = salt
+	required_technologies += engineering
+}
+
+sugar_refining = {
+	category = economy
+	icon_tag = refined_sugar
+	required_technologies += engineering
+}
+
 high_pressure_steam_engine = {
 	category = economy
 	icon_tag = cog

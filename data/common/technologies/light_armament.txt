@@ -22,7 +22,7 @@ bayonet = {
 	icon_tag = musket
 	required_technologies += musket
 	required_technologies += halberd
-	required_technologies += long_sword
+	required_technologies += greatsword
 }
 
 flintlock_rifle = {

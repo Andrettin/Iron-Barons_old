@@ -1,0 +1,5 @@
+moneylending = {
+	category = economy
+	icon_tag = wealth
+	required_technologies += coinage
+}
