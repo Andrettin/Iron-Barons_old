@@ -31,7 +31,7 @@ Item {
 						+ "<br>Attack: " + centesimal(troop_stats.attack)
 						+ "<br>Defense: " + centesimal(troop_stats.defense))
 
-					width: levy_area.width
+					width: levy_area.width - 16 //-16 to provide some space for the scrollbar
 					height: 32
 
 					Image {
@@ -40,7 +40,7 @@ Item {
 						width: 32
 						height: 32
 						anchors.left: parent.left
-						anchors.leftMargin: 24
+						anchors.leftMargin: 8
 						anchors.verticalCenter: parent.verticalCenter
 
 						MouseArea {

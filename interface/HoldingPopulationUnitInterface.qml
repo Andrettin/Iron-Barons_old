@@ -25,7 +25,7 @@ Item {
 				Item {
 					property var population_unit: model.modelData
 
-					width: population_unit_area.width
+					width: population_unit_area.width - 16 //-16 to provide some space for the scrollbar
 					height: 32
 
 					Image {
@@ -33,7 +33,7 @@ Item {
 						width: 32
 						height: 32
 						anchors.left: parent.left
-						anchors.leftMargin: 24
+						anchors.leftMargin: 8
 						anchors.verticalCenter: parent.verticalCenter
 					}
 
@@ -61,6 +61,7 @@ Item {
 						text: number_str(population_unit.size)
 						anchors.verticalCenter: parent.verticalCenter
 						anchors.right: parent.right
+						anchors.rightMargin: 8
 						color: "black"
 						font.pixelSize: 12
 						font.family: "tahoma"
