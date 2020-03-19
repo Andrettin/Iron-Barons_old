@@ -10,6 +10,12 @@ mathematics = {
 	required_technologies += writing
 }
 
+ballistics = {
+	category = culture
+	icon_tag = research
+	required_technologies += mathematics
+}
+
 natural_philosophy = {
 	category = culture
 	icon_tag = research

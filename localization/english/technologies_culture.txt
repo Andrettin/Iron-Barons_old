@@ -1,3 +1,5 @@
+astrology = "Astrology"
+ballistics = "Ballistics"
 mathematics = "Mathematics"
 natural_philosophy = "Natural Philosophy"
 philosophy = "Philosophy"

@@ -3,6 +3,12 @@ pottery = {
 	icon_tag = cog
 }
 
+irrigation = {
+	category = economy
+	icon_tag = cog
+	required_technologies += pottery
+}
+
 wood_plow = {
 	category = economy
 	icon_tag = grain

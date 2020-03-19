@@ -14,7 +14,7 @@ engineering_college = {
 	holding_types += university
 	construction_days = 730
 	icon_tag = cog
-	required_technologies += philosophy
+	required_technologies += natural_philosophy
 	required_technologies += engineering
 	
 	conditions = {
