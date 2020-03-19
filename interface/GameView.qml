@@ -405,7 +405,7 @@ Item {
 		id: holding_population_button
 		anchors.top: holding_buildings_button.bottom
 		anchors.left: province_interface.right
-		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null
+		visible: territory_interface && territory_interface.holding_interface.visible && metternich.selected_holding !== null && metternich.selected_holding.settlement
 		source: "../graphics/icons/population/slaves_small.png"
 		ToolTip.text: tooltip("Population")
 		ToolTip.visible: hovered
