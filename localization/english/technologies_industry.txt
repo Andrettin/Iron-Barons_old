@@ -1,6 +1,7 @@
 alchemy = "Alchemy"
 architecture = "Architecture"
 bronzeworking = "Bronzeworking"
+chemistry = "Chemistry"
 compound_steam_engine = "Compound Steam Engine"
 cotton_gin = "Cotton Gin"
 engineering = "Engineering"

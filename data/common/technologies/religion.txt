@@ -1,4 +1,0 @@
-astrology = {
-	category = culture
-	icon_tag = book
-}

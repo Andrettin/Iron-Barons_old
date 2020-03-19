@@ -1,4 +1,5 @@
 coinage = {
 	category = commerce
 	icon_tag = wealth
+	required_technologies += pottery #because of ceramic casting molds
 }

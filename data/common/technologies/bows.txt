@@ -52,7 +52,7 @@ bodkin_arrow = {
 	}
 }
 
-longbow = {
+longbow = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 174-175.
 	category = army
 	icon_tag = bow
 	required_technologies += composite_bow

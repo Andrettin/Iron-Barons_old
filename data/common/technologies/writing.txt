@@ -4,7 +4,7 @@ writing = {
 	required_technologies += pottery #because of clay tablets
 }
 
-printing_press = {
+printing_press = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 190-191.
 	category = culture
 	icon_tag = newspaper
 	required_technologies += writing

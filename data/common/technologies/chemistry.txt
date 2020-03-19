@@ -6,14 +6,33 @@ alchemy = {
 	required_technologies += ironworking
 }
 
-medicine = {
+medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 85-86.
 	category = industry
 	icon_tag = heart
 	required_technologies += philosophy
 }
 
-gunpowder = {
+chemistry = {
 	category = industry
 	icon_tag = cog
 	required_technologies += alchemy
+	required_technologies += scientific_method
+}
+
+gunpowder = {
+	category = industry
+	icon_tag = cog
+	required_technologies += chemistry
+}
+
+salt_refining = {
+	category = industry
+	icon_tag = salt
+	required_technologies += chemistry
+}
+
+sugar_refining = {
+	category = industry
+	icon_tag = refined_sugar
+	required_technologies += chemistry
 }

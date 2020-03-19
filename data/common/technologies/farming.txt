@@ -33,4 +33,5 @@ seed_drill = {
 	icon_tag = grain
 	required_technologies += engineering
 	required_technologies += iron_plow
+	required_technologies += scientific_method
 }

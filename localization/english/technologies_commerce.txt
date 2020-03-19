@@ -1,2 +1,3 @@
+banking = "Banking"
 coinage = "Coinage"
 moneylending = "Moneylending"

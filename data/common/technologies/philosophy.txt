@@ -4,6 +4,12 @@ philosophy = {
 	required_technologies += writing
 }
 
+logics = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 111.
+	category = culture
+	icon_tag = research
+	required_technologies += philosophy
+}
+
 mathematics = {
 	category = culture
 	icon_tag = research
@@ -22,6 +28,7 @@ natural_philosophy = {
 	required_technologies += philosophy
 	required_technologies += mathematics
 	required_technologies += alchemy
+	required_technologies += logics
 }
 
 scientific_method = {

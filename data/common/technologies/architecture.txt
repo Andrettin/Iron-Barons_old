@@ -1,6 +1,7 @@
 masonry = {
 	category = industry
 	icon_tag = cog
+	required_technologies += pottery
 }
 
 architecture = {

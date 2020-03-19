@@ -12,21 +12,9 @@ engineering = {
 	required_technologies += ironworking
 }
 
-glassblowing = {
+glassblowing = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 132.
 	category = industry
 	icon_tag = glass
-	required_technologies += engineering
-}
-
-salt_refining = {
-	category = industry
-	icon_tag = salt
-	required_technologies += engineering
-}
-
-sugar_refining = {
-	category = industry
-	icon_tag = refined_sugar
 	required_technologies += engineering
 }
 
