@@ -1,3 +1,7 @@
+economics = {
+	category = commerce
+}
+
 finance = {
 	category = commerce
 }

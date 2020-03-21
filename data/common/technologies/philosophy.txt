@@ -45,3 +45,9 @@ scientific_method = {
 	icon_tag = research
 	required_technologies += natural_philosophy
 }
+
+enlightenment_philosophy = {
+	area = philosophy
+	icon_tag = research
+	required_technologies += scientific_method
+}

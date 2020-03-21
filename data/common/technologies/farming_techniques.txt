@@ -3,3 +3,9 @@ irrigation = {
 	icon_tag = grain
 	required_technologies += pottery
 }
+
+crop_rotation = {
+	area = farming_techniques
+	icon_tag = grain
+	required_technologies += irrigation
+}

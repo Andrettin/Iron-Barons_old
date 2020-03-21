@@ -1,4 +1,8 @@
 banking = "Banking"
+business_banking = "Business Banking"
+classical_economics = "Classical Economics"
 coinage = "Coinage"
+investment_banking = "Investment Banking"
 moneylending = "Moneylending"
+physiocracy = "Physiocracy"
 stock_exchange = "Stock Exchange"

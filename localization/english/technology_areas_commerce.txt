@@ -1,2 +1,3 @@
+economics = "Economics"
 finance = "Finance"
 monetary_system = "Monetary System"

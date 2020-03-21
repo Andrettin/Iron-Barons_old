@@ -10,6 +10,18 @@ banking = {
 	required_technologies += moneylending
 }
 
+business_banking = {
+	area = finance
+	icon_tag = wealth
+	required_technologies += banking
+}
+
+investment_banking = {
+	area = finance
+	icon_tag = wealth
+	required_technologies += business_banking
+}
+
 stock_exchange = {
 	area = finance
 	icon_tag = wealth

@@ -1,0 +1,11 @@
+physiocracy = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += enlightenment_philosophy
+}
+
+classical_economics = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += physiocracy
+}

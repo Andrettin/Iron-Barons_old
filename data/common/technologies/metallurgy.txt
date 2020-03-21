@@ -9,3 +9,9 @@ ironworking = {
 	icon_tag = iron
 	required_technologies += bronzeworking
 }
+
+amalgamation_process = {
+	area = metallurgy
+	icon_tag = silver
+	required_technologies += chemistry
+}
