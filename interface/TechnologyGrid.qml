@@ -37,7 +37,7 @@ Flickable {
 						source: technology.icon_path
 						width: 32
 						height: 32
-						opacity: (territory && territory.technologies.includes(technology)) ? 1 : 0.5
+						opacity: (territory && territory.technologies.includes(technology)) ? 1 : 0.33
 						Layout.fillWidth: false
 						Layout.fillHeight: false
 
