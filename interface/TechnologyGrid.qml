@@ -46,7 +46,8 @@ Flickable {
 							hoverEnabled: true
 							ToolTip.text: tooltip(highlight(technology.name)
 								+ "<br><br>Category: " + technology.area.category_name
-								+ "<br>Area: " + technology.area.name)
+								+ "<br>Area: " + technology.area.name
+								+ "<br>Level: " + (technology.level + 1))
 							ToolTip.visible: containsMouse
 							ToolTip.delay: 1000
 						}
