@@ -16,7 +16,7 @@ Flickable {
 		columns: 8
 		width: technology_tree.width - 16 //to leave space for the scrollbar
 		columnSpacing: (width - (columns * 32)) / (columns - 1)
-		rowSpacing: 32
+		rowSpacing: 8
 
 		Repeater {
 			model: metternich.technologies
@@ -30,22 +30,15 @@ Flickable {
 				opacity: (territory && territory.technologies.includes(technology)) ? 1 : 0.5
 				Layout.fillWidth: false
 				Layout.fillHeight: false
-				Layout.row: technology.row
-				Layout.column: technology.column
 
 				MouseArea {
 					anchors.fill: parent
 					hoverEnabled: true
 					ToolTip.text: tooltip(highlight(technology.name)
-						+ "<br><br>Category: " + technology.category_name)
+						+ "<br><br>Category: " + technology.area.category_name
+						+ "<br>Area: " + technology.area.name)
 					ToolTip.visible: containsMouse
 					ToolTip.delay: 1000
-				}
-
-				Component.onCompleted: {
-					if (technology.column >= technology_grid.columns) {
-						technology_grid.columns = technology.column + 1
-					}
 				}
 			}
 		}
