@@ -1,17 +1,17 @@
 longspear = {
-	category = army
+	area = polearms
 	icon_tag = saber
 }
 
 pike = {
-	category = army
+	area = polearms
 	icon_tag = saber
 	required_technologies += longspear
 	required_technologies += ironworking
 }
 
 halberd = {
-	category = army
+	area = polearms
 	icon_tag = saber
 	required_technologies += pike
 }

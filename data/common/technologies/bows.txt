@@ -1,5 +1,5 @@
 shortbow = {
-	category = army
+	area = bows
 	icon_tag = bow
 	
 	holding_modifier = {
@@ -8,7 +8,7 @@ shortbow = {
 }
 
 composite_bow = {
-	category = army
+	area = bows
 	icon_tag = bow
 	required_technologies += shortbow
 	
@@ -18,7 +18,7 @@ composite_bow = {
 }
 
 barbed_arrow = {
-	category = army
+	area = bows
 	icon_tag = bow
 	required_technologies += shortbow
 	
@@ -29,7 +29,7 @@ barbed_arrow = {
 }
 
 broadhead_arrow = {
-	category = army
+	area = bows
 	icon_tag = bow
 	required_technologies += barbed_arrow
 	required_technologies += bronzeworking
@@ -41,7 +41,7 @@ broadhead_arrow = {
 }
 
 bodkin_arrow = {
-	category = army
+	area = bows
 	icon_tag = bow
 	required_technologies += broadhead_arrow
 	required_technologies += ironworking
@@ -53,13 +53,13 @@ bodkin_arrow = {
 }
 
 longbow = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 174-175.
-	category = army
+	area = bows
 	icon_tag = bow
 	required_technologies += composite_bow
 }
 
 crossbow = {
-	category = army
+	area = bows
 	icon_tag = bow
 	required_technologies += composite_bow
 	required_technologies += bodkin_arrow

@@ -1,0 +1,18 @@
+battle_axe = {
+	area = axes
+	icon_tag = saber
+}
+
+broad_axe = {
+	area = axes
+	icon_tag = saber
+	required_technologies += battle_axe
+	required_technologies += bronzeworking
+}
+
+great_axe = {
+	area = axes
+	icon_tag = saber
+	required_technologies += broad_axe
+	required_technologies += ironworking
+}

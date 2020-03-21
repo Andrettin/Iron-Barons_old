@@ -1,0 +1,4 @@
+sailing = {
+	area = shipbuilding
+	icon_tag = anchor
+}

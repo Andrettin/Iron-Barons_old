@@ -1,24 +1,24 @@
 hand_cannon = {
-	category = army
+	area = light_armament
 	icon_tag = musket
 	required_technologies += crossbow
 	required_technologies += gunpowder
 }
 
 arquebus = {
-	category = army
+	area = light_armament
 	icon_tag = musket
 	required_technologies += hand_cannon
 }
 
 musket = {
-	category = army
+	area = light_armament
 	icon_tag = musket
 	required_technologies += arquebus
 }
 
 bayonet = {
-	category = army
+	area = light_armament
 	icon_tag = musket
 	required_technologies += musket
 	required_technologies += halberd
@@ -26,14 +26,13 @@ bayonet = {
 }
 
 flintlock_rifle = {
-	category = army
+	area = light_armament
 	icon_tag = rifle
-	required_technologies += musket
 	required_technologies += bayonet
 }
 
 breech_loading_rifle = {
-	category = army
+	area = light_armament
 	icon_tag = rifle
 	required_technologies += flintlock_rifle
 }

@@ -1,0 +1,19 @@
+axes = {
+	category = army
+}
+
+bows = {
+	category = army
+}
+
+light_armament = {
+	category = army
+}
+
+polearms = {
+	category = army
+}
+
+swords = {
+	category = army
+}

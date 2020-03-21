@@ -1,0 +1,7 @@
+naval_science = {
+	category = navy
+}
+
+shipbuilding = {
+	category = navy
+}

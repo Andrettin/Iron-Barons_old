@@ -1,0 +1,22 @@
+pottery = {
+	area = handicraft
+	icon_tag = cog
+}
+
+glassblowing = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 132.
+	area = handicraft
+	icon_tag = glass
+	required_technologies += engineering
+}
+
+salt_refining = {
+	area = handicraft
+	icon_tag = salt
+	required_technologies += chemistry
+}
+
+sugar_refining = {
+	area = handicraft
+	icon_tag = refined_sugar
+	required_technologies += chemistry
+}

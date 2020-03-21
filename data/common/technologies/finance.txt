@@ -1,11 +1,11 @@
 moneylending = {
-	category = commerce
+	area = finance
 	icon_tag = wealth
 	required_technologies += coinage
 }
 
 banking = {
-	category = commerce
+	area = finance
 	icon_tag = wealth
 	required_technologies += moneylending
 }

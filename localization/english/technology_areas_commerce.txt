@@ -1,0 +1,2 @@
+finance = "Finance"
+monetary_system = "Monetary System"

@@ -1,0 +1,25 @@
+shortsword = {
+	area = swords
+	icon_tag = saber
+	required_technologies += battle_axe
+	required_technologies += bronzeworking
+}
+
+broadsword = {
+	area = swords
+	icon_tag = saber
+	required_technologies += shortsword
+}
+
+longsword = {
+	area = swords
+	icon_tag = saber
+	required_technologies += broadsword
+	required_technologies += ironworking
+}
+
+greatsword = {
+	area = swords
+	icon_tag = saber
+	required_technologies += longsword
+}

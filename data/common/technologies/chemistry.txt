@@ -1,5 +1,5 @@
 alchemy = {
-	category = industry
+	area = chemistry
 	icon_tag = cog
 	required_technologies += philosophy
 	required_technologies += mathematics
@@ -7,32 +7,20 @@ alchemy = {
 }
 
 medicine = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 85-86.
-	category = industry
+	area = chemistry
 	icon_tag = heart
 	required_technologies += philosophy
 }
 
 chemistry = {
-	category = industry
+	area = chemistry
 	icon_tag = cog
 	required_technologies += alchemy
 	required_technologies += scientific_method
 }
 
 gunpowder = {
-	category = industry
+	area = chemistry
 	icon_tag = cog
-	required_technologies += chemistry
-}
-
-salt_refining = {
-	category = industry
-	icon_tag = salt
-	required_technologies += chemistry
-}
-
-sugar_refining = {
-	category = industry
-	icon_tag = refined_sugar
 	required_technologies += chemistry
 }

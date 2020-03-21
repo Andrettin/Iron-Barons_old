@@ -1,45 +1,12 @@
-wheel = {
-	category = industry
-	icon_tag = cog
-}
-
-engineering = {
-	category = industry
-	icon_tag = cog
-	required_technologies += wheel
-	required_technologies += mathematics
-	required_technologies += masonry
-	required_technologies += ironworking
-}
-
-glassblowing = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 132.
-	category = industry
-	icon_tag = glass
-	required_technologies += engineering
-}
-
-high_pressure_steam_engine = {
-	category = industry
-	icon_tag = cog
-	required_technologies += engineering
-	required_technologies += scientific_method
-}
-
-compound_steam_engine = {
-	category = industry
-	icon_tag = cog
-	required_technologies += high_pressure_steam_engine
-}
-
 cotton_gin = {
-	category = industry
+	area = mechanization
 	icon_tag = cotton
 	required_technologies += engineering
 	required_technologies += scientific_method
 }
 
 spinning_jenny = {
-	category = industry
+	area = mechanization
 	icon_tag = fabric
 	required_technologies += engineering
 	required_technologies += scientific_method

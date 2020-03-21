@@ -1,5 +1,5 @@
 coinage = {
-	category = commerce
+	area = monetary_system
 	icon_tag = wealth
 	required_technologies += pottery #because of ceramic casting molds
 }

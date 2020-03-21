@@ -1,0 +1,7 @@
+education = {
+	category = culture
+}
+
+philosophy = {
+	category = culture
+}

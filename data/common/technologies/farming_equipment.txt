@@ -1,35 +1,24 @@
-pottery = {
-	category = industry
-	icon_tag = cog
-}
-
-irrigation = {
-	category = industry
-	icon_tag = cog
-	required_technologies += pottery
-}
-
 wood_plow = {
-	category = industry
+	area = farming_equipment
 	icon_tag = grain
 	required_technologies += wheel
 }
 
 iron_tipped_wood_plow = {
-	category = industry
+	area = farming_equipment
 	icon_tag = grain
 	required_technologies += wood_plow
 	required_technologies += ironworking
 }
 
 iron_plow = {
-	category = industry
+	area = farming_equipment
 	icon_tag = grain
 	required_technologies += iron_tipped_wood_plow
 }
 
 seed_drill = {
-	category = industry
+	area = farming_equipment
 	icon_tag = grain
 	required_technologies += engineering
 	required_technologies += iron_plow

@@ -1,0 +1,5 @@
+irrigation = {
+	area = farming_techniques
+	icon_tag = cog
+	required_technologies += pottery
+}

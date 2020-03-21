@@ -1,0 +1,7 @@
+finance = {
+	category = commerce
+}
+
+monetary_system = {
+	category = commerce
+}

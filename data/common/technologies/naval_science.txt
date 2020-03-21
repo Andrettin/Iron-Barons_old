@@ -1,17 +1,12 @@
-sailing = {
-	category = navy
-	icon_tag = anchor
-}
-
 celestial_navigation = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 90-91.
-	category = navy
+	area = naval_science
 	icon_tag = anchor
 	required_technologies += sailing
 	required_technologies += astrology
 }
 
 compass = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 164-165.
-	category = navy
+	area = naval_science
 	required_technologies += celestial_navigation
 	required_technologies += engineering
 }

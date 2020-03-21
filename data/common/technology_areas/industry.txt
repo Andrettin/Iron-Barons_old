@@ -1,0 +1,35 @@
+architecture = {
+	category = industry
+}
+
+chemistry = {
+	category = industry
+}
+
+farming_equipment = {
+	category = industry
+}
+
+farming_techniques = {
+	category = industry
+}
+
+handicraft = {
+	category = industry
+}
+
+infrastructure = {
+	category = industry
+}
+
+mechanization = {
+	category = industry
+}
+
+metallurgy = {
+	category = industry
+}
+
+power = {
+	category = industry
+}

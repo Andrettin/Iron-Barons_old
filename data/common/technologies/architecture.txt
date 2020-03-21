@@ -1,11 +1,11 @@
 masonry = {
-	category = industry
+	area = architecture
 	icon_tag = cog
 	required_technologies += pottery
 }
 
 architecture = {
-	category = industry
+	area = architecture
 	icon_tag = cog
 	required_technologies += masonry
 	required_technologies += writing

@@ -1,0 +1,12 @@
+high_pressure_steam_engine = {
+	area = power
+	icon_tag = cog
+	required_technologies += engineering
+	required_technologies += scientific_method
+}
+
+compound_steam_engine = {
+	area = power
+	icon_tag = cog
+	required_technologies += high_pressure_steam_engine
+}

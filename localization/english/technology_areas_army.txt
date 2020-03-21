@@ -1,0 +1,5 @@
+axes = "Axes"
+bows = "Bows"
+light_armament = "Light Armament"
+polearms = "Polearms"
+swords = "Swords"
