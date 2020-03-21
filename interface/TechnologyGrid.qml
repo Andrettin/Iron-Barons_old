@@ -3,7 +3,7 @@ import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.14
 
 Flickable {
-	id: technology_tree
+	id: technology_grid_flickable
 	contentWidth: technology_grid.width
 	contentHeight: technology_grid.height
 	clip: true
@@ -14,7 +14,7 @@ Flickable {
 	GridLayout {
 		id: technology_grid
 		columns: 8
-		width: technology_tree.width - 16 //to leave space for the scrollbar
+		width: technology_grid_flickable.width - 16 //to leave space for the scrollbar
 		columnSpacing: (width - (columns * 32)) / (columns - 1)
 		rowSpacing: 8
 

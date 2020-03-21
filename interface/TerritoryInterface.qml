@@ -291,8 +291,7 @@ Item {
 		}
 	}
 
-	TechnologyTree {
-		id: technology_tree
+	TechnologyGrid {
 		anchors.left: parent.left
 		anchors.leftMargin: 8
 		anchors.right: parent.right
