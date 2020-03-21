@@ -1,7 +1,7 @@
 hand_cannon = {
 	area = light_armament
 	icon_tag = musket
-	required_technologies += crossbow
+	required_technologies += arbalest
 	required_technologies += gunpowder
 }
 

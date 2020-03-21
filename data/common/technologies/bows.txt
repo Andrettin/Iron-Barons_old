@@ -65,3 +65,13 @@ crossbow = {
 	required_technologies += bodkin_arrow
 	required_technologies += ironworking
 }
+
+arbalest = {
+	area = bows
+	icon_tag = bow
+	required_technologies += crossbow
+	
+	holding_modifier = {
+		crossbowmen_attack = 1
+	}
+}

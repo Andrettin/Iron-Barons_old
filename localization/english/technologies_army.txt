@@ -1,3 +1,4 @@
+arbalest = "Arbalest"
 arquebus = "Arquebus"
 barbed_arrow = "Barbed Arrow"
 battle_axe = "Battle Axe"
