@@ -13,7 +13,7 @@ banking = {
 business_banking = {
 	area = finance
 	icon_tag = wealth
-	required_technologies += banking
+	required_technologies += stock_exchange
 }
 
 investment_banking = {

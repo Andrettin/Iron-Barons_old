@@ -1,3 +1,9 @@
+mercantilism = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += scientific_method
+}
+
 physiocracy = {
 	area = economics
 	icon_tag = wealth
@@ -8,4 +14,28 @@ classical_economics = {
 	area = economics
 	icon_tag = wealth
 	required_technologies += physiocracy
+}
+
+collectivist_economics = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += classical_economics
+}
+
+historical_economics = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += collectivist_economics
+}
+
+neoclassical_economics = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += historical_economics
+}
+
+keynesian_economics = {
+	area = economics
+	icon_tag = wealth
+	required_technologies += neoclassical_economics
 }
