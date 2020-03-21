@@ -9,3 +9,9 @@ banking = {
 	icon_tag = wealth
 	required_technologies += moneylending
 }
+
+stock_exchange = {
+	area = finance
+	icon_tag = wealth
+	required_technologies += banking
+}

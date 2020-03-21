@@ -1,0 +1,17 @@
+calendar = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 74.
+	area = astronomy
+	icon_tag = book
+}
+
+astrology = {
+	area = astronomy
+	icon_tag = book
+	required_technologies += calendar
+}
+
+astronomy = {
+	area = astronomy
+	icon_tag = research
+	required_technologies += astrology
+	required_technologies += scientific_method
+}

@@ -1,2 +1,3 @@
+astronomy = "Astronomy"
 education = "Education"
 philosophy = "Philosophy"

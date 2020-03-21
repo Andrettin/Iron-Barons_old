@@ -1,3 +1,4 @@
 banking = "Banking"
 coinage = "Coinage"
 moneylending = "Moneylending"
+stock_exchange = "Stock Exchange"

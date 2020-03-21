@@ -45,21 +45,3 @@ scientific_method = {
 	icon_tag = research
 	required_technologies += natural_philosophy
 }
-
-calendar = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, p. 74.
-	area = philosophy
-	icon_tag = book
-}
-
-astrology = {
-	area = philosophy
-	icon_tag = book
-	required_technologies += calendar
-}
-
-astronomy = {
-	area = philosophy
-	icon_tag = research
-	required_technologies += astrology
-	required_technologies += scientific_method
-}

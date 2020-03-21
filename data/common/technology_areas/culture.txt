@@ -1,3 +1,7 @@
+astronomy = {
+	category = culture
+}
+
 education = {
 	category = culture
 }

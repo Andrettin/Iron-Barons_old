@@ -1,5 +1,5 @@
 irrigation = {
 	area = farming_techniques
-	icon_tag = cog
+	icon_tag = grain
 	required_technologies += pottery
 }
