@@ -17,41 +17,6 @@ composite_bow = {
 	}
 }
 
-barbed_arrow = {
-	area = bows
-	icon_tag = bow
-	required_technologies += shortbow
-	
-	holding_modifier = {
-		archers_attack = 1
-		longbowmen_attack = 1
-	}
-}
-
-broadhead_arrow = {
-	area = bows
-	icon_tag = bow
-	required_technologies += barbed_arrow
-	required_technologies += bronzeworking
-	
-	holding_modifier = {
-		archers_attack = 1
-		longbowmen_attack = 1
-	}
-}
-
-bodkin_arrow = {
-	area = bows
-	icon_tag = bow
-	required_technologies += broadhead_arrow
-	required_technologies += ironworking
-	
-	holding_modifier = {
-		archers_attack = 1
-		longbowmen_attack = 1
-	}
-}
-
 longbow = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 174-175.
 	area = bows
 	icon_tag = bow

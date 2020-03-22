@@ -1,3 +1,4 @@
+arrows = "Arrows"
 axes = "Axes"
 bows = "Bows"
 light_armament = "Light Armament"

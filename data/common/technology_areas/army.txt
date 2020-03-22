@@ -1,3 +1,7 @@
+arrows = {
+	category = army
+}
+
 axes = {
 	category = army
 }
