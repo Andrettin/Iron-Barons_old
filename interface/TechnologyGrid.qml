@@ -20,24 +20,25 @@ Flickable {
 		spacing: 8
 
 		Repeater {
-			model: metternich.technology_areas
+			model: territory ? territory.technology_slots : []
 
 			RowLayout {
-				property var technology_area: model.modelData
+				property var area_technology_slots: model.modelData
 
 				id: technology_list
 				spacing: technology_area_list.columnSpacing
 
 				Repeater {
-					model: technology_area.technologies
+					model: area_technology_slots
 
 					Image {
-						property var technology: model.modelData
+						property var technology_slot: model.modelData
+						property var technology: technology_slot.technology
 
-						source: technology.icon_path
+						source: technology_slot.icon_path
 						width: 32
 						height: 32
-						opacity: (territory && territory.technologies.includes(technology)) ? 1 : 0.33
+						opacity: technology_slot.acquired ? 1 : 0.33
 						Layout.fillWidth: false
 						Layout.fillHeight: false
 
@@ -48,7 +49,7 @@ Flickable {
 								+ "<br><br>Category: " + technology.area.category_name
 								+ "<br>Area: " + technology.area.name
 								+ "<br>Level: " + (technology.level + 1)
-								+ (technology.required_technologies_string !== "" ? "<br>" + technology.required_technologies_string : ""))
+								+ (technology_slot.required_technologies_string !== "" ? "<br>" + technology_slot.required_technologies_string : ""))
 							ToolTip.visible: containsMouse
 							ToolTip.delay: 1000
 						}
