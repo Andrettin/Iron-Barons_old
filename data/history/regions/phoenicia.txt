@@ -1,0 +1,3 @@
+-1100 = {
+	technologies += celestial_navigation #around 1100 BC the Phoenicians began using celestial navigation (using Ursa Major as a base) to securely sail the open seas in the Mediterranean; Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas", 1993, pp. 90-91.
+}

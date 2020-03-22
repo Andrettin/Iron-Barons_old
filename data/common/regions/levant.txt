@@ -35,6 +35,13 @@ palestine = {
 	provinces += west_bank
 }
 
+phoenicia = {
+	provinces += mount_lebanon
+	provinces += north_lebanon
+	provinces += south_lebanon
+	provinces += tartus
+}
+
 sinai = {
 	provinces += north_sinai
 	provinces += south_sinai
