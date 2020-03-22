@@ -3,6 +3,9 @@ import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.14
 
 Flickable {
+	readonly property int rows: 14
+	readonly property int rowSpacing: (height - (rows * 32)) / (rows - 1)
+
 	id: technology_grid
 	contentWidth: technology_area_list.width
 	contentHeight: technology_area_list.height
@@ -17,7 +20,7 @@ Flickable {
 
 		id: technology_area_list
 		width: technology_grid.width - 16 //-16 to leave space for the scrollbar
-		spacing: 8
+		spacing: technology_grid.rowSpacing
 
 		Repeater {
 			model: territory ? territory.technology_slots : []
