@@ -56,6 +56,13 @@ longbow = { #Source: Isaac Asimov, "Cronologia das Ciências e das Descobertas",
 	area = bows
 	icon_tag = bow
 	required_technologies += composite_bow
+	
+	preconditions = {
+		or = {
+			culture = english
+			culture = welsh
+		}
+	}
 }
 
 crossbow = {
