@@ -49,7 +49,8 @@ Flickable {
 								+ "<br><br>Category: " + technology.area.category_name
 								+ "<br>Area: " + technology.area.name
 								+ "<br>Level: " + (technology.level + 1)
-								+ (technology_slot.required_technologies_string !== "" ? "<br>" + technology_slot.required_technologies_string : ""))
+								+ (technology_slot.required_technologies_string !== "" ? "<br>" + technology_slot.required_technologies_string : "")
+								+ (technology_slot.effects_string !== "" ? "<br>" + technology_slot.effects_string : ""))
 							ToolTip.visible: containsMouse
 							ToolTip.delay: 1000
 						}
