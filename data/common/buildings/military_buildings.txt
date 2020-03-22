@@ -39,7 +39,10 @@ longbow_range = {
 	required_technologies += longbow
 	
 	preconditions = {
-		culture = english
+		or = {
+			culture = english
+			culture = welsh
+		}
 		not = {
 			has_building = crossbow_range
 		}

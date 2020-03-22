@@ -1,6 +1,7 @@
 anatolian = "Anatolian"
 anglo_saxon = "Anglo-Saxon"
 baltic = "Baltic"
+brythonic = "Brythonic"
 east_slavic = "East Slavic"
 german = "German"
 hellenic = "Hellenic"

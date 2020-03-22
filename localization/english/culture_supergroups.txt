@@ -1,4 +1,5 @@
 altaic = "Altaic"
+celtic = "Celtic"
 germanic = "Germanic"
 latin = "Latin"
 old_european = "Old European"

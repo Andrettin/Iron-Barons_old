@@ -1,0 +1,4 @@
+brythonic = {
+	supergroup = celtic
+	color = { 137 84 67 }
+}

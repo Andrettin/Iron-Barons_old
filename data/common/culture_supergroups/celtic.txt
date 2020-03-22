@@ -1,0 +1,9 @@
+celtic = {
+	species = human
+	color = { 148 109 103 }
+	default_phenotype = european
+	
+	dynasty_names = {
+		Palamidese #placeholder
+	}
+}
