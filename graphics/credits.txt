@@ -72,6 +72,7 @@
 /graphics/flags/c_saone.svg (by Spedona, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0, the CC-BY-SA 2.5, the CC-BY-SA 2.0, the CC-BY-SA 1.0 and the GFDL)
 /graphics/flags/c_scania.svg (by GeMet, from the Wikimedia Commons) (released to the public domain)
 /graphics/flags/c_south_tyrol.svg (by F l a n k e r, from the Wikimedia Commons) (licensed under the CC-BY 3.0)
+/graphics/flags/c_suez.svg (by Jolle and SiBr4, from the Wikimedia Commons) (licensed under the CC-BY-SA 3.0 and the GFDL)
 /graphics/flags/c_suffolk.svg (by Vexilo, from the Wikimedia Commons) (licensed under the CC-BY-SA 4.0)
 /graphics/flags/c_teschen.svg (by Poznaniak, from the Wikimedia Commons) (licensed under the CC-BY-SA 2.5)
 /graphics/flags/c_transcarpathia.svg (by Perhelion, from the Wikimedia Commons) (in the public domain)
