@@ -1,5 +1,6 @@
 import QtQuick 2.14
 import QtQuick.Controls 2.5
+import QtGraphicalEffects 1.12
 
 Item {
 	readonly property string holding_frame_border_image_path: "../graphics/interface/holding_frame_border_silver.png"
@@ -115,5 +116,12 @@ Item {
 			x: 0 + 8
 			y: border_part_width + (index * middle_part_width) - 8
 		}
+	}
+
+	layer.enabled: true
+	layer.effect: DropShadow {
+		transparentBorder: true
+		radius: 4.0
+		samples: 9
 	}
 }
