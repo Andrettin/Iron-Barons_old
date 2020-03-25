@@ -2,8 +2,8 @@ import QtQuick 2.14
 import QtQuick.Controls 2.5
 
 Item {
-	readonly property string holding_frame_border_image_path: "../graphics/interface/holding_frame_border_dark.png"
-	readonly property string holding_frame_middle_image_path: "../graphics/interface/holding_frame_middle_dark.png"
+	readonly property string holding_frame_border_image_path: "../graphics/interface/holding_frame_border_silver.png"
+	readonly property string holding_frame_middle_image_path: "../graphics/interface/holding_frame_middle_silver.png"
 	readonly property int border_part_width: 33
 	readonly property int border_part_height: 17
 	readonly property int border_part_right: holding_frame.width - border_part_height
