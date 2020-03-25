@@ -58,4 +58,9 @@ Item {
 			}
 		}
 	}
+
+	HoldingFrame {
+		width: parent.width
+		height: parent.height
+	}
 }
