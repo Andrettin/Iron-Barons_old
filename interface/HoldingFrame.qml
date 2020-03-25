@@ -123,5 +123,7 @@ Item {
 		transparentBorder: true
 		radius: 4.0
 		samples: 9
+		horizontalOffset: 1
+		verticalOffset: 1
 	}
 }
