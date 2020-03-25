@@ -2,7 +2,7 @@ import QtQuick 2.14
 import QtQuick.Controls 2.5
 
 Item {
-	width: 320
+	width: 352
 	height: 640
 	
 	property var territory: null

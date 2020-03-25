@@ -15,7 +15,7 @@ Flickable {
 	Grid {
 		id: holding_grid
 		columns: 3
-		width: holding_flickable.width
+		width: holding_flickable.width - 16 //-16 to leave space for the scrollbar
 		columnSpacing: (width - (columns * 96)) / (columns - 1)
 		rowSpacing: 1
 
