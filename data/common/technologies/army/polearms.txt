@@ -1,6 +1,10 @@
 longspear = {
 	area = polearms
 	icon_tag = saber
+	
+	holding_modifier = {
+		spearmen_attack = 1
+	}
 }
 
 pike = {

@@ -8,6 +8,10 @@ broad_axe = {
 	icon_tag = saber
 	required_technologies += battle_axe
 	required_technologies += bronzeworking
+	
+	holding_modifier = {
+		axemen_attack = 1
+	}
 }
 
 great_axe = {
@@ -15,4 +19,8 @@ great_axe = {
 	icon_tag = saber
 	required_technologies += broad_axe
 	required_technologies += ironworking
+	
+	holding_modifier = {
+		axemen_attack = 1
+	}
 }

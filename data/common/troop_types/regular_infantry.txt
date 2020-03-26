@@ -8,8 +8,22 @@ clubmen = {
 spearmen = {
 	category = regular_infantry
 	icon_tag = soldiers_small
-	attack = 3
+	attack = 2
 	defense = 3
+}
+
+axemen = {
+	category = regular_infantry
+	icon_tag = soldiers_small
+	attack = 4
+	defense = 3
+}
+
+macemen = {
+	category = regular_infantry
+	icon_tag = soldiers_small
+	attack = 3
+	defense = 4
 }
 
 pikemen = {

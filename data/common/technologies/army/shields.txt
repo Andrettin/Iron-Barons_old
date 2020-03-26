@@ -1,0 +1,11 @@
+tower_shield = {
+	area = shields
+	icon_tag = heater_shield
+	required_technologies += ironworking
+	
+	holding_modifier = {
+		clubmen_defense = 1
+		macemen_defense = 1
+		axemen_defense = 1
+	}
+}

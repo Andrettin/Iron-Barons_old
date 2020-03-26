@@ -18,6 +18,10 @@ polearms = {
 	category = army
 }
 
+shields = {
+	category = army
+}
+
 swords = {
 	category = army
 }
