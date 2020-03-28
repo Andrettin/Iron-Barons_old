@@ -12,5 +12,6 @@ Image {
 		samples: 9
 		horizontalOffset: 1
 		verticalOffset: 1
+		cached: true
 	}
 }
