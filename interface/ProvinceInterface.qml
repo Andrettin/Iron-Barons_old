@@ -10,9 +10,9 @@ TerritoryInterface {
 		anchors.top: mode !== TerritoryInterface.Mode.Wildlife ? population_area.bottom : parent.top
 		anchors.topMargin: mode !== TerritoryInterface.Mode.Wildlife ? 20 : 64
 		anchors.left: parent.left
-		anchors.leftMargin: 32
+		anchors.leftMargin: 32 * scale_factor
 		anchors.right: parent.right
-		anchors.rightMargin: 32
+		anchors.rightMargin: 32 * scale_factor
 		visible: metternich.selected_holding === null && mode !== TerritoryInterface.Mode.Technologies
 
 		Text {
@@ -21,7 +21,7 @@ TerritoryInterface {
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.left: parent.left
 			color: "black"
-			font.pixelSize: 12
+			font.pixelSize: 12 * scale_factor
 			font.family: "tahoma"
 		}
 
@@ -31,7 +31,7 @@ TerritoryInterface {
 			anchors.verticalCenter: parent.verticalCenter
 			anchors.right: parent.right
 			color: "black"
-			font.pixelSize: 12
+			font.pixelSize: 12 * scale_factor
 			font.family: "tahoma"
 			font.bold: true
 		}
@@ -108,13 +108,13 @@ TerritoryInterface {
 	ProvinceWildlifeUnitInterface {
 		id: wildlife_unit_area
 		anchors.left: parent.left
-		anchors.leftMargin: 8
+		anchors.leftMargin: 8 * scale_factor
 		anchors.right: parent.right
-		anchors.rightMargin: 8
+		anchors.rightMargin: 8 * scale_factor
 		anchors.top: terrain_area.bottom
-		anchors.topMargin: 24
+		anchors.topMargin: 24 * scale_factor
 		anchors.bottom: parent.bottom
-		anchors.bottomMargin: 8
+		anchors.bottomMargin: 8 * scale_factor
 		visible: mode === TerritoryInterface.Mode.Wildlife && metternich.selected_holding === null
 	}
 }

@@ -3,6 +3,8 @@ import QtQuick.Controls 2.14
 import QtQuick.Window 2.12
 
 Window {
+	property real scale_factor: 1
+
 	id: window
 	visible: true
 	width: 640
@@ -16,27 +18,27 @@ Window {
 		//set the shared properties for tooltips
 		ToolTip.toolTip.palette.text: "white"
 		ToolTip.toolTip.font.family: "tahoma"
-		ToolTip.toolTip.font.pixelSize: 14
+		ToolTip.toolTip.font.pixelSize: 14 * scale_factor
 		ToolTip.toolTip.contentWidth: (tooltip_metrics.width + 8)
 		ToolTip.toolTip.background: Rectangle {
 			color: "black"
 			opacity: 0.90
 			border.color: "gray"
 			border.width: 1
-			radius: 5
+			radius: 5 * scale_factor
 		}
 		ToolTip.toolTip.onTextChanged: tooltip_metrics.text = get_longest_line(remove_text_colors(ToolTip.toolTip.text), 64)
 
 		TextMetrics {
 			id: tooltip_metrics
 			font.family: "tahoma"
-			font.pixelSize: 14
+			font.pixelSize: 14 * scale_factor
 		}
 
 		FontMetrics {
 			id: font_metrics
 			font.family: "tahoma"
-			font.pixelSize: 14
+			font.pixelSize: 14 * scale_factor
 		}
 	}
 
@@ -133,7 +135,7 @@ Window {
 		anchors.horizontalCenter: parent.horizontalCenter
 		anchors.verticalCenter: parent.verticalCenter
 		color: "black"
-		font.pixelSize: 14
+		font.pixelSize: 14 * scale_factor
 		font.family: "tahoma"
 	}
 }

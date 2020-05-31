@@ -123,8 +123,8 @@ Item {
 		id: top_left_area
 		anchors.top: parent.top
 		anchors.left: parent.left
-		width: player_character_label.width + 8 + 8
-		height: 32
+		width: player_character_label.width + (8 + 8) * scale_factor
+		height: 32 * scale_factor
 
 		PanelBackground {
 			anchors.fill: parent
@@ -135,16 +135,16 @@ Item {
 			anchors.left: parent.left
 			anchors.right: parent.right
 			anchors.top: parent.top
-			height: 32
+			height: 32 * scale_factor
 
 			Text {
 				id: player_character_label
 				text: metternich.game.player_character ? metternich.game.player_character.titled_name : ""
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
-				anchors.leftMargin: 8
+				anchors.leftMargin: 8 * scale_factor
 				color: "black"
-				font.pixelSize: 12
+				font.pixelSize: 12 * scale_factor
 				font.family: "tahoma"
 			}
 
@@ -164,8 +164,8 @@ Item {
 		id: top_bar
 		anchors.top: parent.top
 		anchors.right: parent.right
-		width: 160
-		height: 64
+		width: 160 * scale_factor
+		height: 64 * scale_factor
 
 		PanelBackground {
 			anchors.fill: parent
@@ -180,14 +180,14 @@ Item {
 			id: wealth_area
 			anchors.right: parent.right
 			anchors.top: parent.top
-			width: 64 + 8 + 8 + 8
-			height: 32
+			width: (64 + 8 + 8 + 8) * scale_factor
+			height: 32 * scale_factor
 			visible: metternich.game.player_character
 
 			Image {
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.left: parent.left
-				anchors.leftMargin: 8
+				anchors.leftMargin: 8 * scale_factor
 
 				source: "../graphics/icons/wealth.png"
 
@@ -205,9 +205,9 @@ Item {
 				text: metternich.game.player_character ? centesimal(metternich.game.player_character.wealth) : ""
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.right: parent.right
-				anchors.rightMargin: 8
+				anchors.rightMargin: 8 * scale_factor
 				color: "black"
-				font.pixelSize: 12
+				font.pixelSize: 12 * scale_factor
 				font.family: "tahoma"
 			}
 		}
@@ -217,16 +217,16 @@ Item {
 			anchors.left: parent.left
 			anchors.right: parent.right
 			anchors.bottom: parent.bottom
-			height: 32
+			height: 32 * scale_factor
 
 			Text {
 				id: date
 				text: metternich.game.current_date_string
 				anchors.verticalCenter: parent.verticalCenter
 				anchors.right: parent.right
-				anchors.rightMargin: 8
+				anchors.rightMargin: 8 * scale_factor
 				color: "black"
-				font.pixelSize: 12
+				font.pixelSize: 12 * scale_factor
 				font.family: "tahoma"
 			}
 		}
@@ -235,10 +235,10 @@ Item {
 	Item {
 		id: notification_area
 		anchors.top: top_bar.bottom
-		anchors.topMargin: 16
+		anchors.topMargin: 16 * scale_factor
 		anchors.left: top_bar.left
 		anchors.right: top_bar.right
-		height: 64
+		height: 64 * scale_factor
 
 		PanelBackground {
 			anchors.fill: parent
@@ -253,15 +253,15 @@ Item {
 			id: current_notification
 			text: use_panel_highlight(metternich.current_notification)
 			anchors.top: parent.top
-			anchors.topMargin: 8
+			anchors.topMargin: 8 * scale_factor
 			anchors.left: parent.left
-			anchors.leftMargin: 8
+			anchors.leftMargin: 8 * scale_factor
 			anchors.right: parent.right
-			anchors.rightMargin: 8
+			anchors.rightMargin: 8 * scale_factor
 			anchors.bottom: parent.bottom
-			anchors.bottomMargin: 8
+			anchors.bottomMargin: 8 * scale_factor
 			color: "black"
-			font.pixelSize: 12
+			font.pixelSize: 12 * scale_factor
 			font.family: "tahoma"
 			wrapMode: Text.WordWrap
 			clip: true
